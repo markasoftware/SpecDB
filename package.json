@@ -1,0 +1,27 @@
+{
+  "name": "amd-specs",
+  "version": "0.0.0",
+  "description": "An AMD equivalent for Intel's ARK",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "bash build/build.bash"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markasoftware/amd-specs.git"
+  },
+  "dependencies": {
+    "js-yaml": "3.x",
+    "mithril": "1.x",
+    "browserify": ">=14",
+    "tape": "4.x",
+    "tapes": "4.x",
+    "tap-spec": "*"
+  },
+  "author": "Mark Polyakov",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/markasoftware/amd-specs/issues"
+  },
+  "homepage": "https://github.com/markasoftware/amd-specs"
+}
