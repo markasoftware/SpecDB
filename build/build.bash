@@ -1,4 +1,4 @@
 #!/bin/bash
 
-browserify src/entry.js > public/generated/bundle.js
-node process-specs.js > public/generated/specs.json
+cat <(node build/gen-specs.js specs) <(browserify src/js/entry.js) > public/generated/bundle.js
+find src/ -name '*.css' | xargs cat > public/generated/all.css

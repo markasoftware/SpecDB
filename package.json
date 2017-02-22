@@ -4,7 +4,7 @@
   "description": "An AMD equivalent for Intel's ARK",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "bash build/build.bash"
+    "build": "bash build/build.bash"
   },
   "repository": {
     "type": "git",

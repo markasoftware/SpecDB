@@ -1,0 +1,15 @@
+#about-wrapper {
+    padding: 8vh 8vw;
+}
+#about-wrapper h1 {
+    font-size: 3.5em;
+}
+#about-wrapper p {
+    color: #777;
+    font-size: 14pt;
+    width: 30vw;
+    margin-top: 7vh;
+}
+#about-wrapper a {
+    font-size: 14pt;
+}
