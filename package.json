@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "An AMD equivalent for Intel's ARK",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "tape tests/*.js | tap-spec",
     "build": "bash build/build.bash"
   },
   "repository": {

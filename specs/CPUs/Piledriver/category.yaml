@@ -1,0 +1,21 @@
+name: Piledriver
+humanName: Piledriver
+topHeader: 'SELECT CPU:'
+dataTitle: 'Architecture Details:'
+data:
+  Release Date: October 2012
+  Lithography: 32 nm
+  Superseeded by: Ryzen
+  Preceded by: WhoKnows
+  Naming Scheme: FX -3--
+  Socket: AM3+
+  foundry: Global Foundries
+childrenData:
+  Architecture: Piledriver
+  Lithography: 32 nm
+  Socket: AM3+
+sections:
+ - header: MID-RANGE
+   members:
+    - FX-6350
+    - FX-6300

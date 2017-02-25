@@ -1,9 +1,20 @@
-var parseYaml = require('js-yaml').safeLoad;
-var fs = require('fs');
+const parseYaml = require('js-yaml').safeLoad;
+const fs = require('fs');
 
-const traverse = path =>
-    Object.assign(parseYaml(fs.readFileSync(`${path}/category.yaml`)), {children: fs.readdirSync(path).filter(c => c !== 'category.yaml').map(curSubPath => {
-        const correctedSubPath = `${path}/${curSubPath}`;
-        return fs.statSync(correctedSubPath).isDirectory() ? traverse(correctedSubPath) : parseYaml(fs.readFileSync(correctedSubPath, {encoding: 'utf8'}))
-    })});
-process.stdout.write('const specData = ' + JSON.stringify(traverse(process.argv[2])) + ';\n');
+const toReturn = {};
+const traverse = path => {
+    fs.readdirSync(path).forEach(subPath => {
+        const fullPath = `${path}/${subPath}`;
+        if(fs.statSync(fullPath).isFile()) {
+            const curData = parseYaml(fs.readFileSync(fullPath));
+            const curName = curData.name;
+            delete curData.name;
+            toReturn[curName] = curData;
+        } else {
+            traverse(fullPath);
+        }
+    });
+}
+traverse(process.argv[2]);
+
+process.stdout.write('module.exports = ' + JSON.stringify(toReturn) + ';');
