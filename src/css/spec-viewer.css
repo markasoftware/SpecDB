@@ -15,3 +15,7 @@
 #spec-table {
     margin: 0 auto;
 }
+h2.centered {
+    text-align: center;
+    width: 100%;
+}

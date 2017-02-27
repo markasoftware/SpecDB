@@ -9,6 +9,7 @@ module.exports = {
         return m('.big-padded', partNames.length === 0 ? [
             m('#nothing-selected', 'No Parts Selected'),
         ] : [
+            m('h2.centered', 'SELECTED COMPONENTS:'),
             m('#selected-parts-list.parts-flex-wrapper', partNames.map(curPartName => m(singlePart, {
                 name: curPartName,
                 canSelect: false,
