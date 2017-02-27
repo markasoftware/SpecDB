@@ -1,4 +1,5 @@
 name: CPUs-AMD
+subtextType: none
 humanName: CPUs
 isPart: false
 topHeader: "SELECT ARCHITECTURE:"
@@ -8,7 +9,7 @@ sections:
         - Ryzen
         - Piledriver
         - Bulldozer
-    - header: 2004 - 2012"
+    - header: 2004 - 2012
       members:
         - Boop
         - Yap

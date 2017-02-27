@@ -1,19 +1,22 @@
 name: Piledriver
 humanName: Piledriver
+subtextType: architecture
 topHeader: 'SELECT CPU:'
 dataTitle: 'Architecture Details:'
 data:
-  Release Date: October 2012
+  Release Date: '2012-08-12'
   Lithography: 32 nm
   Superseeded by: Ryzen
   Preceded by: WhoKnows
   Naming Scheme: FX -3--
-  Socket: AM3+
-  foundry: Global Foundries
-childrenData:
+  Sockets:
+    - AM3+
+  Foundry: Global Foundries
+forChildren:
   Architecture: Piledriver
   Lithography: 32 nm
   Socket: AM3+
+  unlocked: true
 sections:
  - header: MID-RANGE
    members:

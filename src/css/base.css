@@ -1,16 +1,15 @@
 body {
     background-color: #eee;
     margin: 0;
+    font-family: 'DejaVu Sans', sans-serif;
 }
 #spec-viewer {
-    min-width: 25vw;
-    max-width: 70vw;
+    width: 60vw;
     height: 100vh;
     position: absolute;
+    transition: ;
 }
 #part-selector {
-    min-width: 30vw;
-    max-width: 75vw;
     width: 40vw;
     height: 100vh;
     position: absolute;
@@ -37,15 +36,4 @@ h3 {
     font-size: 1.33em;
     font-weight: lighter;
     color: #999;
-}
-#resizer {
-    height: 100vh;
-    width: 1vw;
-    cursor: col-resize;
-    z-index: 100;
-    position: fixed;
-}
-#resizer.moving {
-    width: 0;
-    border-left: 1vw dashed #bbb;
 }

@@ -1,0 +1,17 @@
+.big-padded {
+    padding: 10vh;
+}
+#nothing-selected {
+    font-size: 4em;
+    font-style: italic;
+    text-align: center;
+    font-family: NimbusSans, "DejaVu Sans Condensed", sans-serif;
+    color: #777;
+    line-height: 15vh;
+}
+#selected-parts-list {
+    justify-content: center;
+}
+#spec-table {
+    margin: 0 auto;
+}

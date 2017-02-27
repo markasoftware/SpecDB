@@ -1,7 +1,9 @@
 const m = require('mithril');
 const specData = require('spec-data');
+const pure = require('../pure.js');
 
 module.exports = {
+    showAction: false,
     view: vnode => {
         const curData = specData[vnode.attrs.name];
         if(!curData) {
@@ -10,13 +12,12 @@ module.exports = {
         }
         console.log(vnode.attrs);
         return m('.part', {
-                draggable: curData.isPart,
-                style: {
-                    cursor: curData.isPart ? 'move' : 'pointer',
-                },
-                onclick: curData.isPart ? () => null : () => vnode.attrs.onCategorySelect(vnode.attrs.name),
+                onclick: curData.isPart ? () => vnode.state.showAction = !vnode.state.showAction : () => vnode.attrs.onCategorySelect(vnode.attrs.name),
             }, [
-                m('.part-padding', 'i am a part. My name is ' + curData.humanName),
+                m('.part-padding', [
+                    m('.part-header', curData.humanName),
+                    m('.part-subtext', pure.genSubtext(curData).map(c => m('div', c))),
+                ]),
             ]);
     },
 }

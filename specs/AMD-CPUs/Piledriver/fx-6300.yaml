@@ -1,0 +1,11 @@
+name: FX-6300
+humanName: FX 6300
+isPart: true
+subtextType: cpu
+Base Frequency: 3.5 GHz
+Boost Frequency: 4.1 GHz
+Core Count: 6
+Thread Count: 6
+L2 cache: 6 MiB
+L3 cache: 8 MiB
+TDP: 95 W

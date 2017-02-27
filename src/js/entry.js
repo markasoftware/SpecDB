@@ -5,5 +5,3 @@ m.route(document.getElementById('spec-viewer'), '/', {
     '/:parts...': require('./spec-viewer.js'),
 });
 m.mount(document.getElementById('part-selector'), require('./part-selector.js'));
-
-require('./resizer.js');

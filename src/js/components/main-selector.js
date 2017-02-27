@@ -12,6 +12,7 @@ module.exports = {
                         m(singlePart, {
                             name: curMemberName,
                             onCategorySelect: vnode.attrs.onCategorySelect,
+                            canSelect: true,
                         })
                     )),
                 ];

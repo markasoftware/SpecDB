@@ -1,0 +1,11 @@
+name: FX-6350
+isPart: true
+humanName: FX 6350
+subtextType: cpu
+Base Frequency: 3.9 GHz
+Boost Frequency: 4.2 GHz
+Core Count: 6
+Thread Count: 6
+L2 cache: 6 MiB
+L3 cache: 8 MiB
+TDP: 125 W
