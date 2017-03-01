@@ -16,7 +16,8 @@
     "browserify": ">=14",
     "tape": "4.x",
     "tapes": "4.x",
-    "tap-spec": "*"
+    "tap-spec": "*",
+    "babili": "*"
   },
   "author": "Mark Polyakov",
   "license": "AGPL-3.0",
