@@ -38,11 +38,13 @@ test('architecture', t => {
 test('cpu', t => {
     t.deepEqual(pure.genSubtext({
         subtextType: 'cpu',
-        'Base Frequency': '3.2 GHz',
-        'Boost Frequency': '3.9 GHz',
-        'Core Count': 2,
-        'Thread Count': 4,
-        TDP: '110 W',
+        data: {
+            'Base Frequency': '3.2 GHz',
+            'Boost Frequency': '3.9 GHz',
+            'Core Count': 2,
+            'Thread Count': 4,
+            TDP: '110 W',
+        },
     }), [
         '2 Cores, 4 Threads',
         '3.2GHz Base, 3.9GHz Boost',
@@ -50,11 +52,13 @@ test('cpu', t => {
     ]);
     t.deepEqual(pure.genSubtext({
         subtextType: 'cpu',
-        'Core Count': 8,
-        'Thread Count': 8,
-        'Base Frequency': '3.5 GHz',
-        'Boost Frequency': '3.5 GHz',
-        TDP: '5 W',
+        data: {
+            'Core Count': 8,
+            'Thread Count': 8,
+            'Base Frequency': '3.5 GHz',
+            'Boost Frequency': '3.5 GHz',
+            TDP: '5 W',
+        },
     }), [
         '8 Cores, 8 Threads',
         '3.5GHz Base, 3.5GHz Boost',

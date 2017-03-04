@@ -5,20 +5,20 @@ topHeader: 'SELECT CPU:'
 dataTitle: 'Architecture Details:'
 data:
   Release Date: '2012-08-12'
-  Lithography: 32 nm
+  Lithography: 32
   Superseeded by: Ryzen
   Preceded by: WhoKnows
   Naming Scheme: FX -3--
   Sockets:
-    - AM3+
+  - AM3+
   Foundry: Global Foundries
 forChildren:
   Architecture: Piledriver
-  Lithography: 32 nm
+  Lithography: 32
   Socket: AM3+
   unlocked: true
 sections:
- - header: MID-RANGE
-   members:
-    - FX-6350
-    - FX-6300
+  - header: MID-RANGE,
+    members:
+     - FX-6350
+     - FX-6300

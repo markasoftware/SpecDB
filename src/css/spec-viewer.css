@@ -7,6 +7,8 @@
     text-align: center;
     color: #777;
     line-height: 15vh;
+    padding-top: 0;
+    margin-top: 0;
 }
 #selected-parts-list {
     justify-content: center;
