@@ -7,7 +7,7 @@ const traverse = (path, forChildren) => {
         const fullPath = `${path}/${subPath}`;
         if(fs.statSync(fullPath).isFile()) {
             const curData = parseYaml(fs.readFileSync(fullPath));
-            Object.assign(curData, forChildren);
+            Object.assign(curData.data || {}, forChildren);
             const curName = curData.name;
             delete curData.name;
             toReturn[curName] = curData;

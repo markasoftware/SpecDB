@@ -5,7 +5,7 @@
     font-size: 4em;
     font-style: italic;
     text-align: center;
-    color: #777;
+    color: #888;
     line-height: 15vh;
     padding-top: 0;
     margin-top: 0;
@@ -19,4 +19,33 @@
 h2.centered {
     text-align: center;
     width: 100%;
+}
+table {
+    background-color: #fff;
+    box-shadow: 0 0 5px #999;
+    margin: 5vh auto;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 1.3em 1vw;
+    border-left: 1px solid #ccc;
+    width: 10vw;
+}
+th {
+    font-style: italic;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+td.winner {
+    color: #ff4545;
+}
+td:first-child {
+    color: #999;
+    border-left: none;
+    width: 8vw;
+}
+td.left-corner {
+    border: none;
 }

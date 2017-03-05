@@ -7,12 +7,14 @@ body {
 #spec-viewer {
     width: 60vw;
     height: 100vh;
-    position: absolute;
+    overflow: auto;
+    position: fixed;
 }
 #part-selector {
     width: 40vw;
     height: 100vh;
-    position: absolute;
+    overflow: auto;
+    position: fixed;
     right: 0;
     box-shadow: 0 0 15px #999;
 }

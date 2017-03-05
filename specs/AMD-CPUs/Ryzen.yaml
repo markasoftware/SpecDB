@@ -2,7 +2,6 @@ name: Ryzen
 humanName: Ryzen
 subtextType: architecture
 topHeader: 'SELECT CPU:'
-dataTitle: 'Architecture Details:'
 data:
   Release Date: '2017-03-03'
   Lithography: 14 nm

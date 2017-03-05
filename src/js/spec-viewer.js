@@ -20,7 +20,10 @@ module.exports = {
             }))),
             m('table', [
                 // header with part names
-                m('tr', partData.map(c => m('th', c.humanName))),
+                m('tr', [
+                    m('td.left-corner'),
+                    partData.map(c => m('th', c.humanName))
+                ]),
                 // now for real data
                 rowNames.map(curRowName => {
                     // get all the values for the current row

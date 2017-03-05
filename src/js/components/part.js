@@ -13,7 +13,7 @@ module.exports = {
         }
         console.log(vnode.attrs);
         return m('.part', {
-                onclick: curData.isPart ? vnode.attrs.canSelect ? () => hashMan.add(curData.name) : () => vnode.state.showAction = !vnode.state.showAction : () => vnode.attrs.onCategorySelect(vnode.attrs.name),
+                onclick: curData.isPart ? vnode.attrs.canSelect ? () => hashMan.add(vnode.attrs.name) : () => vnode.state.showAction = !vnode.state.showAction : () => vnode.attrs.onCategorySelect(vnode.attrs.name),
             }, [
                 m('.part-padding', [
                     m('.part-header', curData.humanName),
