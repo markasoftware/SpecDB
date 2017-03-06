@@ -11,7 +11,6 @@ module.exports = {
             console.error('No data for part: ' + vnode.attrs.name);
             return m('div');
         }
-        console.log(vnode.attrs);
         return m('.part', {
                 onclick: curData.isPart ? vnode.attrs.canSelect ? () => hashMan.add(vnode.attrs.name) : () => vnode.state.showAction = !vnode.state.showAction : () => vnode.attrs.onCategorySelect(vnode.attrs.name),
             }, [

@@ -28,9 +28,13 @@ module.exports = {
                 rowNames.map(curRowName => {
                     // get all the values for the current row
                     const curRowValues = partData.map(c => c.data[curRowName]);
+                    const ignoreCompareRows = [
+                        'Architecture',
+                    ];
+                    const curRowMax = ignoreCompareRows.includes(curRowName) ? 'thisWillNeverHappen' : curRowValues.reduce((a, b) => pure.greaterThan(curRowName, a, b) ? a : b);
                     return m('tr', [
                         m('td.row-header', curRowName),
-                        curRowValues.map(c => m('td', c)),
+                        curRowValues.map(c => m('td' + (c === curRowMax && curRowValues.length > 1 ? '.winner' : ''), pure.postprocess(c))),
                     ]);
                 }),
             ]),

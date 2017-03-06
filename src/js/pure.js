@@ -39,3 +39,36 @@ const getIndex = (haystack, needle) => {
 module.exports.getRowNames = parts =>
     Array.from(new Set(parts.reduce((a, b) => a.concat(Object.keys(b.data)), [])))
         .sort((a, b) => getIndex(cpuFieldSortValues, a) - getIndex(cpuFieldSortValues, b));
+
+module.exports.greaterThan = (rowName, a, b) => {
+    const preprocess = c => {
+        if(typeof c == 'string') {
+            const splitUp = c.split(' ');
+            if(rowName.includes('Frequency')) {
+                return splitUp[0] * (splitUp[1] === 'GHz' ? 1024 * 1024 * 1024 : 1024 * 1024);
+            }
+            if(rowName.includes('Cache')) {
+                return splitUp[0] * (splitUp[1] === 'MHz' ? 1024 * 1024 : 1024);
+            }
+        }
+        return c;
+    }
+    a = preprocess(a);
+    b = preprocess(b);
+    if(rowName.includes('Frequency') || rowName.includes('Cache') ||
+        rowName === 'Lithography' ||
+        rowName === 'Core Count' ||
+        rowName == 'Thread Count') {
+            return parseFloat(a) > parseFloat(b);
+    }
+    if(rowName == 'TDP') {
+        return parseFloat(a) < parseFloat(b);
+    }
+}
+
+module.exports.postprocess = cellValue => {
+    if(typeof cellValue == 'boolean') {
+        return cellValue ? 'Yes' : 'No';
+    }
+    return cellValue;
+}

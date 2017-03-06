@@ -15,9 +15,9 @@ forChildren:
   Architecture: Piledriver
   Lithography: 32 nm
   Socket: AM3+
-  unlocked: true
+  Unlocked: true
 sections:
-  - header: MID-RANGE,
+  - header: MID-RANGE
     members:
      - FX-6350
      - FX-6300

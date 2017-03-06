@@ -3,6 +3,12 @@
 module.exports = {
     // c => c does the work of geting rid of empty strings, which occurs when there is no parts (empty string input)
     getList: () => location.hash.slice(3).split(',').filter(c => c),
-    add: newName => location.hash = '#!/' + module.exports.getList().concat(newName).join(','),
+    add: newName => {
+        if(!module.exports.getList().includes(newName)) {
+            location.hash = '#!/' + module.exports.getList().concat(newName).join(',');
+        }
+    },
     remove: oldName => location.hash = '#!/' + module.exports.getList().filter(c => c !== oldName).join(','),
 }
+
+window.hashMan = module.exports;
