@@ -5,10 +5,6 @@
     color: #aaa;
     padding: 0.5em;
 }
-.parts-flex-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
 .part {
     height: 8em;
     min-width: 250px;

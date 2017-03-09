@@ -12,6 +12,7 @@
 }
 #selected-parts-list {
     justify-content: center;
+    margin-bottom: 5vh;
 }
 #spec-table {
     margin: 0 auto;
@@ -48,4 +49,9 @@ td:first-child {
 }
 td.left-corner {
     border: none;
+}
+.hr {
+    width: 100%;
+    height: 1px;
+    background-color: #aaa;
 }

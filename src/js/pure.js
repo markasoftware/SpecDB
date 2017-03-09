@@ -72,3 +72,17 @@ module.exports.postprocess = cellValue => {
     }
     return cellValue;
 }
+
+module.exports.canCompareRow = rowName =>
+    [
+        'Base Frequency',
+        'Boost Frequency',
+        'Core Count',
+        'Module Count',
+        'Thread Count',
+        'TDP',
+        'Unlocked',
+        'L2 Cache (Total)',
+        'L3 Cache (Total)',
+        'Lithography',
+    ].includes(rowName);

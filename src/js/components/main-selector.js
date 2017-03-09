@@ -8,7 +8,7 @@ module.exports = {
             vnode.attrs.sections.map(curSection => {
                 return [
                     (curSection.header && m('h3', curSection.header)),
-                    m('.parts-flex-wrapper', curSection.members.map(curMemberName =>
+                    m('.flex-wrapper', curSection.members.map(curMemberName =>
                         m(singlePart, {
                             name: curMemberName,
                             onCategorySelect: vnode.attrs.onCategorySelect,
