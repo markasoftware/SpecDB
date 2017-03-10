@@ -48,6 +48,28 @@ const types = {
         compare: a => !a,
         postprocess: boolPost,
     },
+    dateUp: {
+        preprocess: c => new Date(c),
+        compare: numberUpCompare,
+        postprocess: c => {
+            const d = new Date(c);
+            const humanMonth = [
+                'January',
+                'February',
+                'March',
+                'April',
+                'May',
+                'June',
+                'July',
+                'August',
+                'September',
+                'October',
+                'November',
+                'December',
+            ][d.getUTCMonth()];
+            return `${humanMonth} ${d.getUTCDate()}, ${d.getUTCFullYear()}`;
+        }
+    }
 };
 
 module.exports = {
@@ -61,5 +83,7 @@ module.exports = {
     'L3 Cache (Total)': types.unitUp,
     'Base Frequency': types.unitUp,
     'Boost Frequency': types.unitUp,
+    'XFR Frequency': types.unitUp,
     'Unlocked': types.boolTrue,
+    'Release Date': types.dateUp,
 };

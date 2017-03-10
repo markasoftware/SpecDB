@@ -2,7 +2,7 @@
 
 module.exports.genSubtext = data => {
     var innerData = data.data;
-    switch(data.subtextType) {
+    switch(data.type) {
         case 'architecture':
             return [
                 innerData.Lithography.replace(' ','') + ' Lithography',

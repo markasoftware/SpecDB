@@ -9,7 +9,7 @@ test('unsupported data type should be empty', t => {
 
 test('architecture', t => {
     t.deepEqual(pure.genSubtext({
-        subtextType: 'architecture',
+        type: 'architecture',
         data: {
             Lithography: '32 nm',
             'Release Date': '2017-05-11',
@@ -21,7 +21,7 @@ test('architecture', t => {
         'AM3+ Socket',
     ], 'single socket');
     t.deepEqual(pure.genSubtext({
-        subtextType: 'architecture',
+        type: 'architecture',
         data: {
             Lithography: '14 nm',
             'Release Date': '2001-10-01',
@@ -37,7 +37,7 @@ test('architecture', t => {
 
 test('cpu', t => {
     t.deepEqual(pure.genSubtext({
-        subtextType: 'cpu',
+        type: 'cpu',
         data: {
             'Base Frequency': '3.2 GHz',
             'Boost Frequency': '3.9 GHz',
@@ -51,7 +51,7 @@ test('cpu', t => {
         '110W TDP',
     ]);
     t.deepEqual(pure.genSubtext({
-        subtextType: 'cpu',
+        type: 'cpu',
         data: {
             'Core Count': 8,
             'Thread Count': 8,

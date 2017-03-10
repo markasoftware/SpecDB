@@ -1,7 +1,7 @@
 name: FX-6300
 humanName: FX 6300
 isPart: true
-subtextType: cpu
+type: cpu
 data:
   Base Frequency: 3.5 GHz
   Boost Frequency: 4.1 GHz

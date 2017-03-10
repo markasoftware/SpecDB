@@ -4,12 +4,12 @@ humanName: CPUs
 isPart: false
 topHeader: "SELECT ARCHITECTURE:"
 sections:
-    - header: 2012 - present
+    - header: ZEN FAMILY
       members:
         - Ryzen
+    - header: BULLDOZER FAMILY
+      members:
+        - Excavator
+        - Steamroller
         - Piledriver
         - Bulldozer
-    - header: 2004 - 2012
-      members:
-        - Boop
-        - Yap

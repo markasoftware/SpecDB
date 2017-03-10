@@ -1,7 +1,7 @@
 name: FX-6350
 isPart: true
 humanName: FX 6350
-subtextType: cpu
+type: cpu
 data:
   Base Frequency: 3.9 GHz
   Boost Frequency: 4.2 GHz

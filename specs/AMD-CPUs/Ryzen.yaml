@@ -1,23 +1,23 @@
 name: Ryzen
 humanName: Ryzen
-subtextType: architecture
+type: architecture
 topHeader: 'SELECT CPU:'
 data:
-  Release Date: '2017-03-03'
+  Release Date: 2017-03-02
   Lithography: 14 nm
   Preceeded by: Piledriver
   Naming Scheme: R- 1-00X
   Sockets:
     - AM4
   Foundry: Global Foundries
+forChildren:
+  Architecture: Ryzen
+  Lithography: 14 nm
+  Socket: AM4
+  Unlocked: true
 sections:
-  - header: HIGH END
+  - header: RYZEN 7
     members:
-      - R7 1800X
-      - R7 1800
-      - R7 1700X
-  - header: MID RANGE
-    members:
-      - R5 1600X
-      - R5 1600
-      
+      - R7-1800X
+      - R7-1700X
+      - R7-1700

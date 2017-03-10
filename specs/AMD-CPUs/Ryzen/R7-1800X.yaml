@@ -1,0 +1,15 @@
+name: R7-1800X
+humanName: R7 1800X
+isPart: true
+type: cpu
+data:
+  Release Date: 2017-03-02
+  Base Frequency: 3.6 GHz
+  Boost Frequency: 4.0 GHz
+  XFR Frequency: 4.1 GHz
+  Core Count: 8
+  Thread Count: 16
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 16 MiB
+  TDP: 95 W
+  XFR Support: true
