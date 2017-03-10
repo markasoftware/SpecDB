@@ -1,5 +1,5 @@
 .big-padded {
-    padding: 10vh;
+    padding: 5vh 4vw;
 }
 #nothing-selected {
     font-size: 4em;
@@ -9,6 +9,7 @@
     line-height: 15vh;
     padding-top: 0;
     margin-top: 0;
+    font-family: Quicksand, sans-serif;
 }
 #selected-parts-list {
     justify-content: center;
@@ -33,8 +34,8 @@ th, td {
     width: 10vw;
 }
 th {
-    font-style: italic;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 1.1em;
 }
 tr:nth-child(even) {
     background-color: #f7f7f7;
@@ -43,9 +44,10 @@ td.winner {
     color: #ff4545;
 }
 td:first-child {
-    color: #999;
+    color: #777;
     border-left: none;
     width: 8vw;
+    font-family: Quicksand, sans-serif;
 }
 td.left-corner {
     border: none;

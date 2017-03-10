@@ -5,6 +5,9 @@
     color: #aaa;
     padding: 0.5em;
 }
+#breadcrumbs {
+    font-family: Quicksand, sans-serif;
+}
 .part {
     height: 8em;
     min-width: 250px;
@@ -22,11 +25,10 @@
 }
 .part-header {
     font-size: 1.4em;
-    font-weight: bold;
+    font-weight: 600;
 }
 .part-subtext {
     font-size: 0.9em;
     padding-top: 1em;
     color: #888;
-    font-family: 'DejaVu Sans', 'Bitstream Vera Sans', Verdana, sans-serif;
 }

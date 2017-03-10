@@ -23,39 +23,43 @@ const unitToNum = inStr => {
 
 const boolPost = c => c ? 'Yes' : 'No';
 
-const baseRowTypes = {
+const numberUpCompare = (a, b) => a > b;
+const numberDownCompare = (a, b) => a < b;
+
+const types = {
     numberUp: {
         preprocess: parseFloat,
-        compare: Math.max,
+        compare: numberUpCompare,
     },
     numberDown: {
         preprocess: parseFloat,
-        compare: Math.min,
+        compare: numberDownCompare,
     },
     unitUp: {
         preprocess: unitToNum,
-        compare: Math.max,
+        compare: numberUpCompare,
     },
     boolTrue: {
-        compare: (a, b) => a || b,
+        // if first is true then everything good
+        compare: a => a,
         postprocess: boolPost,
     },
     boolFalse: {
-        compare: (a, b) => a && b,
+        compare: a => !a,
         postprocess: boolPost,
     },
 };
 
 module.exports = {
     // quoting all of these for consistency
-    'Core Count': numberUp,
-    'Module Count': numberUp,
-    'Thread Count': numberUp,
-    'Lithography': numberDown,
-    'TDP': numberDown,
-    'L2 Cache (Total)': unitUp,
-    'L3 Cache (Total)': unitUp,
-    'Base Frequency': unitUp,
-    'Boost Frequency': unitUp,
-    'Unlocked': boolTrue,
+    'Core Count': types.numberUp,
+    'Module Count': types.numberUp,
+    'Thread Count': types.numberUp,
+    'Lithography': types.numberDown,
+    'TDP': types.numberDown,
+    'L2 Cache (Total)': types.unitUp,
+    'L3 Cache (Total)': types.unitUp,
+    'Base Frequency': types.unitUp,
+    'Boost Frequency': types.unitUp,
+    'Unlocked': types.boolTrue,
 };

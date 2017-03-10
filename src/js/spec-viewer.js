@@ -35,11 +35,20 @@ module.exports = {
                 // now for real data
                 rowNames.map(curRowName => {
                     // get all the values for the current row
-                    const curRowValues = partData.map(c => c.data[curRowName]);
-                    const curRowMax = rowData.comparableRows.includes(curRowName) ? 'thisWillNeverHappen' : curRowValues.reduce((a, b) => pure.greaterThan(curRowName, a, b) ? a : b);
+                    let curRowValues = partData.map(c => c.data[curRowName]);
+                    const canCompare = Object.keys(rowData).includes(curRowName);
+                    let maxValue;
+                    if(canCompare) {
+                        const curRowProcessor = rowData[curRowName];
+                        curRowProcessor.preprocess = curRowProcessor.preprocess || (c => c);
+                        curRowProcessor.postprocess = curRowProcessor.postprocess || (c => c);
+                        // sorry for this line
+                        maxValue = curRowProcessor.postprocess(curRowValues.reduce((a, b) => curRowProcessor.compare(curRowProcessor.preprocess(a), curRowProcessor.preprocess(b)) ? a : b));
+                        curRowValues = curRowValues.map(curRowProcessor.postprocess);
+                    }
                     return m('tr', [
                         m('td.row-header', curRowName),
-                        curRowValues.map(c => m('td' + (c === curRowMax && curRowValues.length > 1 ? '.winner' : ''), pure.postprocess(c))),
+                        curRowValues.map(c => m('td' + (canCompare && curRowValues.length > 1  && c === maxValue ? '.winner' : ''), c)),
                     ]);
                 }),
             ]),

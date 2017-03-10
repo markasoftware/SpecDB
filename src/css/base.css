@@ -1,8 +1,7 @@
 body {
     background-color: #eee;
     margin: 0;
-    /* Please, anything open source! Oh god! I had to type the word Arial! Forgive me, for I have sinned */
-    font-family: 'Open Sans', 'Droid Sans', Ubuntu, 'DejaVu Sans', 'Bitstream Vera Sans', NimbusSans, Arial, sans-serif;
+    font-family: Open Sans, sans-serif;
 }
 #spec-viewer {
     width: 60vw;
@@ -38,6 +37,7 @@ h3 {
     font-size: 1.33em;
     font-weight: lighter;
     color: #999;
+    font-family: Quicksand, sans-serif;
 }
 .flex-wrapper {
     display: flex;
