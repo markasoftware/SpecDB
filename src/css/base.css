@@ -1,5 +1,4 @@
 body {
-    background-color: #eee;
     margin: 0;
     font-family: Open Sans, sans-serif;
 }
@@ -8,6 +7,7 @@ body {
     height: 100vh;
     overflow: auto;
     position: fixed;
+    background-color: #e8e8e8;
 }
 #part-selector {
     width: 40vw;
@@ -16,6 +16,7 @@ body {
     position: fixed;
     right: 0;
     box-shadow: 0 0 15px #999;
+    background-color: #f1f1f1;
 }
 a, .a {
     color: #ff4545;
@@ -31,12 +32,14 @@ a:hover, .a:hover, a:active, .a:active {
 h2 {
     padding: 3vh 0;
     color: #444;
+    font-family: Trebuchet MS, Open Sans, sans-serif;
+    font-size: 1.7em;
 }
 h3 {
     padding: 1vh 0;
     font-size: 1.33em;
     font-weight: lighter;
-    color: #999;
+    color: #858585;
     font-family: Quicksand, sans-serif;
 }
 .flex-wrapper {

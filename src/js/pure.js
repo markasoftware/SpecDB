@@ -39,3 +39,32 @@ const getIndex = (haystack, needle) => {
 module.exports.getRowNames = parts =>
     Array.from(new Set(parts.reduce((a, b) => a.concat(Object.keys(b.data)), [])))
         .sort((a, b) => getIndex(cpuFieldSortValues, a) - getIndex(cpuFieldSortValues, b));
+
+
+module.exports.processRow = (values, processor) => {
+    const maxIndices = [];
+
+    if(processor) {
+        // Insert default values
+        values = values.map(c => (c === undefined && processor.default !== undefined) ? processor.default : c);
+
+        // find max value, if necessary
+        if(processor.compare) {
+            const preprocess = processor.preprocess ? processor.preprocess : (c => c);
+            // filter is to get rid of any undefined values
+            const maxValue = values.filter(c => c).reduce((a, b) => processor.compare(preprocess(a), preprocess(b)) ? a : b)
+            // find which ones are equal to the maxValue, put into maxIndices
+            values.forEach((c, i) => {
+                if(c === maxValue) {
+                    maxIndices.push(i);
+                }
+            });
+        }
+        values = values.map(c => (c !== undefined && processor.postprocess) ? processor.postprocess(c) : c);
+    }
+
+    return {
+        values,
+        maxIndices,
+    };
+}

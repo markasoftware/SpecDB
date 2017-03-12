@@ -35,28 +35,11 @@ module.exports = {
                 // now for real data
                 rowNames.map(curRowName => {
                     // get all the values for the current row
-                    let curRowValues = partData.map(c => c.data[curRowName]);
-                    const rowProcessor = rowData[curRowName];
-                    let maxIndices = [];
-                    if(rowProcessor) {
-                        // Insert default values
-                        curRowValues = curRowValues.map(c => (c === undefined && rowProcessor.default !== undefined) ? rowProcessor.default : c);
-                        if(rowProcessor.compare) {
-                            const preprocess = rowProcessor.preprocess ? rowProcessor.preprocess : (c => c);
-                            // filter is to get rid of any undefined values
-                            const maxValue = curRowValues.filter(c => c).reduce((a, b) => rowProcessor.compare(preprocess(a), preprocess(b)) ? a : b)
-                            // find which ones are equal to the maxValue, put into maxIndices
-                            curRowValues.forEach((c, i) => {
-                                if(c === maxValue) {
-                                    maxIndices.push(i);
-                                }
-                            });
-                        }
-                        curRowValues = curRowValues.map(c => (c !== undefined && rowProcessor.postprocess) ? rowProcessor.postprocess(c) : c);
-                    }
+                    const rowValues = partData.map(c => c.data[curRowName]);
+                    const processed = pure.processRow(rowValues, rowData[curRowName]);
                     return m('tr', [
                         m('td.row-header', curRowName),
-                        curRowValues.map((c, i) => m('td' + (curRowValues.length > 1 && maxIndices.includes(i) ? '.winner' : ''), c)),
+                        processed.values.map((c, i) => m('td' + (processed.values.length > 1 && processed.maxIndices.includes(i) ? '.winner' : ''), c)),
                     ]);
                 }),
             ]),
