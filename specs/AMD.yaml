@@ -3,8 +3,7 @@ humanName: AMD
 isPart: false
 topHeader: "SELECT CATEGORY:"
 sections:
- - header: Cat in the hat
-   members:
+ - members:
     - CPUs-AMD
     - APUs-AMD
     - GPUs-AMD

@@ -3,7 +3,7 @@ humanName: R7 1700X
 isPart: true
 type: cpu
 data:
-  Release Date: 2017-03-02
+  Release Date: '2017-03-02'
   Base Frequency: 3.4 GHz
   Boost Frequency: 3.8 GHz
   XFR Frequency: 3.9 GHz

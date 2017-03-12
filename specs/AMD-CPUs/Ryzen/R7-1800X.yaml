@@ -3,7 +3,7 @@ humanName: R7 1800X
 isPart: true
 type: cpu
 data:
-  Release Date: 2017-03-02
+  Release Date: '2017-03-02'
   Base Frequency: 3.6 GHz
   Boost Frequency: 4.0 GHz
   XFR Frequency: 4.1 GHz

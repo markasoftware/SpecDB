@@ -36,19 +36,27 @@ module.exports = {
                 rowNames.map(curRowName => {
                     // get all the values for the current row
                     let curRowValues = partData.map(c => c.data[curRowName]);
-                    const canCompare = Object.keys(rowData).includes(curRowName);
-                    let maxValue;
-                    if(canCompare) {
-                        const curRowProcessor = rowData[curRowName];
-                        curRowProcessor.preprocess = curRowProcessor.preprocess || (c => c);
-                        curRowProcessor.postprocess = curRowProcessor.postprocess || (c => c);
-                        // sorry for this line
-                        maxValue = curRowProcessor.postprocess(curRowValues.reduce((a, b) => curRowProcessor.compare(curRowProcessor.preprocess(a), curRowProcessor.preprocess(b)) ? a : b));
-                        curRowValues = curRowValues.map(curRowProcessor.postprocess);
+                    const rowProcessor = rowData[curRowName];
+                    let maxIndices = [];
+                    if(rowProcessor) {
+                        // Insert default values
+                        curRowValues = curRowValues.map(c => (c === undefined && rowProcessor.default !== undefined) ? rowProcessor.default : c);
+                        if(rowProcessor.compare) {
+                            const preprocess = rowProcessor.preprocess ? rowProcessor.preprocess : (c => c);
+                            // filter is to get rid of any undefined values
+                            const maxValue = curRowValues.filter(c => c).reduce((a, b) => rowProcessor.compare(preprocess(a), preprocess(b)) ? a : b)
+                            // find which ones are equal to the maxValue, put into maxIndices
+                            curRowValues.forEach((c, i) => {
+                                if(c === maxValue) {
+                                    maxIndices.push(i);
+                                }
+                            });
+                        }
+                        curRowValues = curRowValues.map(c => (c !== undefined && rowProcessor.postprocess) ? rowProcessor.postprocess(c) : c);
                     }
                     return m('tr', [
                         m('td.row-header', curRowName),
-                        curRowValues.map(c => m('td' + (canCompare && curRowValues.length > 1  && c === maxValue ? '.winner' : ''), c)),
+                        curRowValues.map((c, i) => m('td' + (curRowValues.length > 1 && maxIndices.includes(i) ? '.winner' : ''), c)),
                     ]);
                 }),
             ]),

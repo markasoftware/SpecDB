@@ -3,7 +3,7 @@ humanName: Ryzen
 type: architecture
 topHeader: 'SELECT CPU:'
 data:
-  Release Date: 2017-03-02
+  Release Date: '2017-03-02'
   Lithography: 14 nm
   Preceeded by: Piledriver
   Naming Scheme: R- 1-00X

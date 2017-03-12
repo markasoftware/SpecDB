@@ -43,10 +43,13 @@ const types = {
         // if first is true then everything good
         compare: a => a,
         postprocess: boolPost,
+        // may have to remove this later
+        default: false,
     },
     boolFalse: {
         compare: a => !a,
         postprocess: boolPost,
+        default: true,
     },
     dateUp: {
         preprocess: c => new Date(c),
@@ -85,5 +88,6 @@ module.exports = {
     'Boost Frequency': types.unitUp,
     'XFR Frequency': types.unitUp,
     'Unlocked': types.boolTrue,
+    'XFR Support': types.boolTrue,
     'Release Date': types.dateUp,
 };
