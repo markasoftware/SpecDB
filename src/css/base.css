@@ -46,3 +46,22 @@ h3 {
     display: flex;
     flex-wrap: wrap;
 }
+#error-wrapper {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 5vh;
+    width: 100vw;
+    transform: translateY(-15vh);
+    transition: transform 400ms;
+    z-index: 10000;
+}
+#error {
+    box-shadow: 0 0 8px #444;
+    color: #fff;
+    background-color: #f55;
+    text-align: center;
+    border-radius: 3px;
+    padding: 1.5vh;
+    width: 22em;
+}
