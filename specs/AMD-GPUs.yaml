@@ -1,0 +1,14 @@
+name: GPUs-AMD
+humanName: GPUs
+type: none
+isPart: false
+topHeader: 'SELECT ARCHITECTURE/SERIES:'
+sections:
+  - header: 2016 - PRESENT
+    members:
+      - Polaris
+  - header: 2013 - 2015
+    members:
+      - Fury
+      - R* 300
+      - R* 200

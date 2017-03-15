@@ -2,6 +2,8 @@ name: FX-6350
 isPart: true
 humanName: FX 6350
 type: cpu
+inherits:
+  - Piledriver
 data:
   Base Frequency: 3.9 GHz
   Boost Frequency: 4.2 GHz

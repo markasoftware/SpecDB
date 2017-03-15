@@ -18,7 +18,7 @@
     "tapes": "4.x",
     "tap-spec": "*",
     "babili": "*",
-    "csso": "*"
+    "csso-cli": "*"
   },
   "author": "Mark Polyakov",
   "license": "AGPL-3.0",

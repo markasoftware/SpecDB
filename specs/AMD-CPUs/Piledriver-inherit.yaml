@@ -1,0 +1,7 @@
+hidden: true
+name: Piledriver
+data:
+  Architecture: Piledriver
+  Lithography: 32 nm
+  Socket: AM3+
+  Unlocked: true

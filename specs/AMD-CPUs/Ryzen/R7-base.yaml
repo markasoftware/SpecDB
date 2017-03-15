@@ -1,0 +1,11 @@
+hidden: true
+name: Ryzen R7 Base
+inherits:
+  - Ryzen
+data:
+  Core Count: 8
+  Thread Count: 16
+  Release Date: '2017-03-02'
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 16 MiB
+  XFR Support: true

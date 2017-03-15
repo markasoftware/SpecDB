@@ -1,0 +1,8 @@
+hidden: true
+name: RX 480 Base
+inherits:
+  - Polaris 10
+data:
+  Release Date: '2016-06-29'
+  Base Frequency: 1120 MHz
+  Boost Frequency: 1266 MHz

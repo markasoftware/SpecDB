@@ -1,15 +1,40 @@
 // pure easy to test stuff goes here for some reason
 
 module.exports.genSubtext = data => {
-    var innerData = data.data;
+    const innerData = data.data;
     switch(data.type) {
-        case 'architecture':
+        case 'cpuArchitecture':
             return [
                 innerData.Lithography.replace(' ','') + ' Lithography',
                 'Released ' + innerData['Release Date'],
                  innerData.Sockets.join(', ') + ' Socket' + (innerData.Sockets.length > 1 ? 's' : ''),
             ];
             // I don't think these break statements are necessary but whatever
+            break;
+        case 'gpuArchitecture':
+            const dx12 = parseInt(innerData['DirectX Support']) >= 12;
+            const vulkan = innerData['Vulkan Support'];
+            return [
+                innerData.Lithography.replace(' ','') + ' Lithography',
+                'Released ' + innerData['Release Date'],
+                // who doesn't love some nice little conditionals?
+                (
+                    dx12 ?
+                        vulkan ?
+                            // dx12 and vulkan
+                            'Supports DX12 & Vulkan'
+                        :
+                            // only dx 12
+                            'Supports DX12, no Vulkan'
+                    :
+                        vulkan ?
+                            // only vulkan
+                            'Supports Vulkan, no DX12'
+                        :
+                            // neither
+                            'No DX12/Vulkan Support'
+                ),
+            ];
             break;
         case 'cpu':
             return [

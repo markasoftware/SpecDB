@@ -2,6 +2,8 @@ name: FX-6300
 humanName: FX 6300
 isPart: true
 type: cpu
+inherits:
+  - Piledriver
 data:
   Base Frequency: 3.5 GHz
   Boost Frequency: 4.1 GHz

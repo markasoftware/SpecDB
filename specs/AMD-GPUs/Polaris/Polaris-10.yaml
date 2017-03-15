@@ -1,0 +1,7 @@
+hidden: true
+name: Polaris 10
+inherits:
+  - GCN 4
+data:
+  Die Size: 232 mm^2
+  GPU: Polaris 10

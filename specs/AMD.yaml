@@ -2,6 +2,8 @@ name: AMD
 humanName: AMD
 isPart: false
 topHeader: "SELECT CATEGORY:"
+forChildren:
+  manufacturer: AMD
 sections:
  - members:
     - CPUs-AMD

@@ -23,7 +23,7 @@ module.exports = {
         if(curList.length >= 6) {
             return showError('Maximum 6 parts at once');
         }
-        if(specData[curList[0]].type !== specData[newName].type) {
+        if(curList.length > 0 && specData[curList[0]].type !== specData[newName].type) {
             return showError('All parts must be the same type');
         }
         if(!module.exports.getList().includes(newName)) {

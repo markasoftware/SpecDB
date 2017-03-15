@@ -1,6 +1,6 @@
 name: Piledriver
 humanName: Piledriver
-type: architecture
+type: cpuArchitecture
 topHeader: 'SELECT CPU:'
 data:
   Release Date: '2012-08-12'
@@ -11,11 +11,6 @@ data:
   Sockets:
   - AM3+
   Foundry: Global Foundries
-forChildren:
-  Architecture: Piledriver
-  Lithography: 32 nm
-  Socket: AM3+
-  Unlocked: true
 sections:
   - header: MID-RANGE
     members:

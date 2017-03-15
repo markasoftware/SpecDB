@@ -2,14 +2,10 @@ name: R7-1700
 humanName: R7 1700
 isPart: true
 type: cpu
+inherits:
+  - Ryzen R7 Base
 data:
-  Release Date: '2017-03-02'
   Base Frequency: 3.0 GHz
   Boost Frequency: 3.7 GHz
   XFR Frequency: 3.75 GHz
-  L2 Cache (Total): 4 MiB
-  L3 Cache (Total): 16 MiB
-  Core Count: 8
-  Thread Count: 16
   TDP: 65 W
-  XFR Support: true

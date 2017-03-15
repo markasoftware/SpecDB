@@ -1,0 +1,7 @@
+hidden: true
+name: GCN 3
+data:
+  Architecture: 1st Gen GCN
+  Lithography: 28 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.0'

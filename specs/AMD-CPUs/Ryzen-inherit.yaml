@@ -1,0 +1,7 @@
+hidden: true
+name: Ryzen
+data:
+  Architecture: Ryzen
+  Lithography: 14 nm
+  Socket: AM4
+  Unlocked: true

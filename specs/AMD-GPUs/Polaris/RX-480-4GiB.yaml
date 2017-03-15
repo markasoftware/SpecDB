@@ -1,0 +1,10 @@
+name: RX-480-4GiB
+humanName: RX 480 (4 GiB)
+isPart: true
+type: graphics card
+inherits:
+  - RX 480 Base
+data:
+  VRAM Frequency: 7000 MT/s
+  VRAM Capacity: 4 GiB
+  VRAM Bandwidth: 256 GiB/s
