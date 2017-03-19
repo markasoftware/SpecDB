@@ -1,7 +1,7 @@
 name: FX-6300
 humanName: FX 6300
 isPart: true
-type: cpu
+type: CPU
 inherits:
   - Piledriver
 data:

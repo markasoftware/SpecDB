@@ -1,6 +1,6 @@
 name: Piledriver
 humanName: Piledriver
-type: cpuArchitecture
+type: CPU Architecture
 topHeader: 'SELECT CPU:'
 data:
   Release Date: '2012-08-12'
@@ -12,7 +12,7 @@ data:
   - AM3+
   Foundry: Global Foundries
 sections:
-  - header: MID-RANGE
+  - header: MID RANGE
     members:
      - FX-6350
      - FX-6300

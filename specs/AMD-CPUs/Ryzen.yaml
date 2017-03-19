@@ -1,6 +1,6 @@
 name: Ryzen
 humanName: Ryzen
-type: cpuArchitecture
+type: CPU Architecture
 topHeader: 'SELECT CPU:'
 data:
   Release Date: '2017-03-02'

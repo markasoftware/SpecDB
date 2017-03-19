@@ -1,7 +1,7 @@
 name: RX-480-4GiB
 humanName: RX 480 (4 GiB)
 isPart: true
-type: graphics card
+type: Graphics Card
 inherits:
   - RX 480 Base
 data:

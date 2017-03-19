@@ -1,7 +1,7 @@
 name: R7-1700
 humanName: R7 1700
 isPart: true
-type: cpu
+type: CPU
 inherits:
   - Ryzen R7 Base
 data:

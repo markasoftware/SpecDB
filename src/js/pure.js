@@ -11,9 +11,9 @@ module.exports.genSubtext = data => {
             ];
             // I don't think these break statements are necessary but whatever
             break;
-        case 'gpuArchitecture':
+        case 'graphicsArchitecture':
             const dx12 = parseInt(innerData['DirectX Support']) >= 12;
-            const vulkan = innerData['Vulkan Support'];
+            const vulkan = parseInt(innerData['Vulkan Support']) >= 1;
             return [
                 innerData.Lithography.replace(' ','') + ' Lithography',
                 'Released ' + innerData['Release Date'],
@@ -22,7 +22,7 @@ module.exports.genSubtext = data => {
                     dx12 ?
                         vulkan ?
                             // dx12 and vulkan
-                            'Supports DX12 & Vulkan'
+                            'Supports DX12 and Vulkan'
                         :
                             // only dx 12
                             'Supports DX12, no Vulkan'
@@ -32,7 +32,7 @@ module.exports.genSubtext = data => {
                             'Supports Vulkan, no DX12'
                         :
                             // neither
-                            'No DX12/Vulkan Support'
+                            'No DX12 or Vulkan support'
                 ),
             ];
             break;
