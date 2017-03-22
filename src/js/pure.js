@@ -3,7 +3,7 @@
 module.exports.genSubtext = data => {
     const innerData = data.data;
     switch(data.type) {
-        case 'cpuArchitecture':
+        case 'CPU Architecture':
             return [
                 innerData.Lithography.replace(' ','') + ' Lithography',
                 'Released ' + innerData['Release Date'],
@@ -11,7 +11,7 @@ module.exports.genSubtext = data => {
             ];
             // I don't think these break statements are necessary but whatever
             break;
-        case 'graphicsArchitecture':
+        case 'Graphics Architecture':
             const dx12 = parseInt(innerData['DirectX Support']) >= 12;
             const vulkan = parseInt(innerData['Vulkan Support']) >= 1;
             return [
@@ -36,13 +36,19 @@ module.exports.genSubtext = data => {
                 ),
             ];
             break;
-        case 'cpu':
+        case 'CPU':
             return [
                 innerData['Core Count'] + ' Cores, ' + innerData['Thread Count'] + ' Threads',
                 innerData['Base Frequency'].replace(' ','') + ' Base, ' + innerData['Boost Frequency'].replace(' ','') + ' Boost',
                 innerData.TDP.replace(' ','') + ' TDP',
             ];
             break;
+        case 'Graphics Card':
+            return [
+                innerData['VRAM Capacity'].replace(' ','') + ' VRAM',
+                innerData['Shader Processor Count'] + ' Shader Processors',
+                innerData['Base Frequency'].replace(' ','') + ' Base, ' + innerData['Boost Frequency'].replace(' ','') + ' Boost',
+            ]
         default: return [];
     }
 }

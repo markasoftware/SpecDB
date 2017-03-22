@@ -2,11 +2,12 @@ name: Polaris
 humanName: Polaris/RX 400
 type: Graphics Architecture
 isPart: false
-topHeader: 'SELECT GPU:'
+topHeader: 'SELECT CARD:'
 data:
   Lithography: 14 nm
   DirectX Support: '12.0'
   Vulkan Support: '1.0'
+  Release Date: '2016-06-29'
 sections:
   - header: MID RANGE
     members:

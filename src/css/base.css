@@ -1,13 +1,13 @@
 body {
     margin: 0;
     font-family: Open Sans, sans-serif;
+    background-color: #eee;
 }
 #spec-viewer {
     width: 60vw;
     height: 100vh;
     overflow: auto;
     position: fixed;
-    background-color: #e8e8e8;
 }
 #part-selector {
     width: 40vw;
@@ -16,7 +16,6 @@ body {
     position: fixed;
     right: 0;
     box-shadow: 0 0 15px #999;
-    background-color: #f1f1f1;
 }
 a, .a {
     color: #ff4545;
@@ -50,10 +49,8 @@ h3 {
     display: flex;
     justify-content: center;
     position: fixed;
-    top: 5vh;
+    top: -4em;
     width: 100vw;
-    transform: translateY(-15vh);
-    transition: transform 400ms;
     z-index: 10000;
 }
 #error {
@@ -62,5 +59,6 @@ h3 {
     background-color: #f55;
     text-align: center;
     border-radius: 3px;
+    transition: transform 400ms;
     padding: 1.5vh 1.5vw;
 }

@@ -6,11 +6,12 @@ const specData = require('spec-data');
 let showErrorLock = false;
 const showError = msg => {
     if(showErrorLock) return;
+    const errorElt = document.querySelector('#error');
     showErrorLock = true;
-    document.querySelector('#error').textContent = msg;
-    document.querySelector('#error-wrapper').style.transform = 'none';
+    errorElt.textContent = msg;
+    errorElt.style.transform = 'translateY(6em)';
     setTimeout(() => {
-        document.querySelector('#error-wrapper').style.transform = 'translateY(-15vh)';
+        errorElt.style.transform = 'none';
         setTimeout(() => showErrorLock = false, 500);
     }, 2500);
 }

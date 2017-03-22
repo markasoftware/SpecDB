@@ -134,6 +134,17 @@ test('CPU', t => {
 
 test('Graphics Card', t => {
     t.deepEqual(pure.genSubtext({
-        type: 'grap'
-    }))
+        type: 'Graphics Card',
+        data: {
+            'VRAM Capacity': '4GiB',
+            'Shader Processor Count': 2304,
+            'Base Frequency': '1120 MHz',
+            'Boost Frequency': '1445 MHz',
+        },
+    }), [
+        '4GiB VRAM',
+        '2304 Shader Processors',
+        '1120MHz Base, 1445MHz Boost',
+    ]);
+    t.end();
 });
