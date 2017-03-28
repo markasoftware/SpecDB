@@ -1,8 +1,13 @@
 hidden: true
 name: RX 480 Base
 inherits:
-  - Polaris 10
+  - GCN 4
 data:
   Release Date: '2016-06-29'
   Base Frequency: 1120 MHz
   Boost Frequency: 1266 MHz
+  Render Output Unit Count: 36
+  Texture Mapping Unit Count: 144
+  Shader Processor Count: 2304
+  Die Size: 232mm
+  GPU: Ellesmere XT

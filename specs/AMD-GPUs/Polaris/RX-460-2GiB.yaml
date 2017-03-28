@@ -1,0 +1,8 @@
+name: RX-460-2GiB
+humanName: RX 460 (2GiB)
+isPart: true
+type: Graphics Card
+inherits:
+  - RX 460 Base
+data:
+  VRAM Capacity: 2 GiB
