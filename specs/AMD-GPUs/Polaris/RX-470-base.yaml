@@ -11,5 +11,6 @@ data:
   Render Output Unit Count: 32
   Texture Mapping Unit Count: 128
   Shader Processor Count: 2048
-  Die Size: 232mm
+  Die Size: 232 mm
   GPU: Ellesmere PRO
+  TDP: 120 W

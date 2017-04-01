@@ -11,5 +11,6 @@ data:
   Render Output Unit Count: 16
   Texture Mapping Unit Count: 56
   Shader Processor Count: 896
-  Die Size: 123mm
+  Die Size: 123 mm
   GPU: Baffin
+  TDP: 75 W

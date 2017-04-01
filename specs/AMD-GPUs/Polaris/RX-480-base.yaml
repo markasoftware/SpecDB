@@ -9,5 +9,6 @@ data:
   Render Output Unit Count: 36
   Texture Mapping Unit Count: 144
   Shader Processor Count: 2304
-  Die Size: 232mm
+  Die Size: 232 mm
   GPU: Ellesmere XT
+  TDP: 150 W

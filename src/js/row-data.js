@@ -13,6 +13,9 @@ const unitToNum = inStr => {
         'KiB': 1024,
         'MiB': 1024 * 1024,
         'GiB': 1024 * 1024 * 1024,
+        'KiB/s': 1024,
+        'MiB/s': 1024 * 1024,
+        'GiB/s': 1024 * 1024 * 1024,
         'Hz': 1,
         'KHz': 1024,
         'MHz': 1024 * 1024,
@@ -20,6 +23,8 @@ const unitToNum = inStr => {
     }
     return splitUp[0] * units[splitUp[1]];
 }
+
+const versionToNum = inStr => inStr.split('.').map(c => parseInt(c)).reduce((a, b, i) => a + b * 0.1 ** i, 0);
 
 const boolPost = c => c ? 'Yes' : 'No';
 
@@ -72,6 +77,11 @@ const types = {
             ][d.getUTCMonth()];
             return `${humanMonth} ${d.getUTCDate()}, ${d.getUTCFullYear()}`;
         }
+    },
+    versionUp: {
+        preprocess: versionToNum,
+        compare: numberUpCompare,
+        default: '0.0',
     }
 };
 
@@ -90,4 +100,15 @@ module.exports = {
     'Unlocked': types.boolTrue,
     'XFR Support': types.boolTrue,
     'Release Date': types.dateUp,
+    'Die Size': types.numberUp,
+    // GPU Stuff
+    'Shader Processor Count': types.numberUp,
+    'Texture Mapping Unit Count': types.numberUp,
+    'Render Output Unit Count': types.numberUp,
+    'VRAM Capacity': types.unitUp,
+    'VRAM Bandwidth': types.unitUp,
+    // TODO: maybe make this have units?
+    'VRAM Frequency': types.numberUp,
+    'DirectX Support': types.versionUp,
+    'Vulkan Support': types.versionUp,
 };
