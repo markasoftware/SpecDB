@@ -2,8 +2,11 @@ const parseYaml = require('js-yaml').safeLoad;
 const fs = require('fs');
 
 const basePath = process.argv[2];
+const specOutPath = process.argv[3];
+const sitemapOutPath = process.argv[4];
 
 const toReturn = {};
+const toSitemap = [];
 
 const hidden = {};
 const traverseHidden = path => {
@@ -35,6 +38,9 @@ const traverse = path => {
         const fullPath = `${path}/${subPath}`;
         if(fs.statSync(fullPath).isFile()) {
             const curData = parseYaml(fs.readFileSync(fullPath));
+            if(curData.isPart) {
+                toSitemap.push(`https://specdb.markasoftware.com/#!/${curData.name}`);
+            }
             if(!curData.hidden) {
                 // we do || {} because some categories have no data
                 Object.assign(curData.data || {}, getInheritance(curData));
@@ -50,4 +56,9 @@ const traverse = path => {
 }
 traverse(basePath);
 
-process.stdout.write('module.exports = ' + JSON.stringify(toReturn) + ';');
+fs.writeFileSync(specOutPath, 'module.exports = ' + JSON.stringify(toReturn) + ';');
+fs.writeFileSync(sitemapOutPath,
+`https://specdb.markasoftware.com/#!/
+https://specdb.markasoftware.com/#!/about
+${toSitemap.join('\n')}`
+)

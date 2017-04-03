@@ -2,7 +2,7 @@
 
 # doesn't work with process substitution for some reason, so this will do
 echo 'Combining specs...'
-node build/gen-specs.js specs > /tmp/specs.js
+node build/gen-specs.js specs /tmp/specs.js public/generated/sitemap.txt
 [[ $1 == 'production' ]] && cssMini='csso' || cssMini='cat'
 [[ $1 == 'production' ]] && jsMini='babili' || jsMini='cat'
 echo 'Bundling scripts...'

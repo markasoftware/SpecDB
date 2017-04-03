@@ -1,0 +1,5 @@
+Developed by markasoftware / Mark Polyakov.
+
+You can find a full list of contributors at https://github.com/markasoftware/SpecDB/graphs/contributors
+
+Thank you for your support!

@@ -4,12 +4,13 @@ const singlePart = require('./components/part.js');
 const hashMan = require('./hash.js');
 const pure = require('./pure.js');
 const rowData = require('./row-data.js');
+const seo = require('./seo.js');
 
 module.exports = {
     hideIdenticalRows: false,
     showAdvancedRows: false,
-    oncreate: hashMan.updateSeo,
-    onupdate: hashMan.updateSeo,
+    oncreate: seo.update,
+    onupdate: seo.update,
     view: vnode => {
         const partNames = hashMan.getList();
         const partData = partNames.map(c => specData[c]);

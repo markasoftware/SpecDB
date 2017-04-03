@@ -34,29 +34,4 @@ module.exports = {
         }
     },
     remove: oldName => m.route.set('/' + module.exports.getList().filter(c => c !== oldName).join(',')),
-    updateSeo: () => {
-        // first, remove any existing seo shit
-        const canonicalRem = document.querySelector('link[rel=canonical]');
-        if(canonicalRem) {
-            canonicalRem.parentNode.removeChild(canonicalRem);
-        }
-        const descriptionRem = document.querySelector('meta[name=description]');
-        const description = document.createElement('meta');
-        if(descriptionRem) {
-            descriptionRem.parentNode.removeChild(descriptionRem);
-        }
-        description.name = 'description';
-
-        const seoData = pure.seo(module.exports.getList());
-        if(seoData.canonical) {
-            const canonical = document.createElement('link');
-            canonical.rel = 'canonical';
-            canonical.href = seoData.canonical;
-            document.head.appendChild(canonical);
-        }
-        document.title = seoData.title;
-        description.content = seoData.description;
-
-        document.head.appendChild(description);
-    }
 }
