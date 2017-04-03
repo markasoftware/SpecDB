@@ -11,14 +11,16 @@
     "url": "git+https://github.com/markasoftware/amd-specs.git"
   },
   "dependencies": {
-    "js-yaml": "3.x",
-    "mithril": "1.x",
-    "browserify": ">=14",
-    "tape": "4.x",
-    "tapes": "4.x",
+    "babel-cli": "^6",
+    "babel-plugin-transform-exponentiation-operator": "^6",
+    "babel-preset-es2015": "^6",
+    "browserify": "^14",
+    "csso-cli": "*",
+    "js-yaml": "^3",
+    "mithril": "^1",
     "tap-spec": "*",
-    "babili": "*",
-    "csso-cli": "*"
+    "tape": "^4",
+    "uglify-js": "^2"
   },
   "author": "Mark Polyakov",
   "license": "AGPL-3.0",
