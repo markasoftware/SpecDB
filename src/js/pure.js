@@ -99,3 +99,31 @@ module.exports.processRow = (values, processor) => {
         maxIndices,
     };
 }
+
+module.exports.seo = list => {
+    const tr = {};
+    const sortedList = list.slice().sort();
+    if(JSON.stringify(list) !== JSON.stringify(sortedList)) {
+        tr.canonical = `https://specdb.markasoftware.com/#!/${sortedList.join(',')}`;
+    }
+    switch(list.length) {
+        case 0:
+            // dash is unicode u2014
+            tr.title = 'SpecDB — View and Compare Graphics Cards and CPUs';
+            tr.description = 'A modern, fast, and beautiful spec viewing and comparison platform for PC hardware.';
+            break;
+        case 1:
+            tr.title = `SpecDB — ${list[0]} Specs and Comparison`;
+            tr.description = 'View the specs of the ' + list[0] + ' and compare it to other similar parts on SpecDB.';
+            break;
+        case 2:
+            tr.title = `SpecDB — ${list[0]} vs ${list[1]}`;
+            tr.description = 'Compare the specs for the ' + list[0] + ' and ' + list[1] + ' side-by-side on SpecDB.';
+            break;
+        default:
+            const humanList = list.slice(0, -1).join(', ') + ', and ' + list[list.length - 1];
+            tr.title = `SpecDB — Compare the ${humanList}`;
+            tr.description = `Compare the specs for the ${humanList} side-by-side on SpecDB.`;
+    }
+    return tr;
+}

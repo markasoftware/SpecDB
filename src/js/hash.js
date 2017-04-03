@@ -1,7 +1,9 @@
 // this file manages the hash portion of the url, which in this case shows which parts are currently being compared
+// it also manages setting meta and title stuff when hash changes, for SEO porpoises
 
 const m = require('mithril');
 const specData = require('spec-data');
+const pure = require('./pure.js');
 
 let showErrorLock = false;
 const showError = msg => {
@@ -32,6 +34,29 @@ module.exports = {
         }
     },
     remove: oldName => m.route.set('/' + module.exports.getList().filter(c => c !== oldName).join(',')),
-}
+    updateSeo: () => {
+        // first, remove any existing seo shit
+        const canonicalRem = document.querySelector('link[rel=canonical]');
+        if(canonicalRem) {
+            canonicalRem.parentNode.removeChild(canonicalRem);
+        }
+        const descriptionRem = document.querySelector('meta[name=description]');
+        const description = document.createElement('meta');
+        if(descriptionRem) {
+            descriptionRem.parentNode.removeChild(descriptionRem);
+        }
+        description.name = 'description';
 
-window.hashMan = module.exports;
+        const seoData = pure.seo(module.exports.getList());
+        if(seoData.canonical) {
+            const canonical = document.createElement('link');
+            canonical.rel = 'canonical';
+            canonical.href = seoData.canonical;
+            document.head.appendChild(canonical);
+        }
+        document.title = seoData.title;
+        description.content = seoData.description;
+
+        document.head.appendChild(description);
+    }
+}

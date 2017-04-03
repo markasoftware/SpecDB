@@ -32,3 +32,19 @@
     padding-top: 1em;
     color: #888;
 }
+#info-links {
+    width: 100%;
+    color: #777;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    font-size: 0.9em;
+}
+#info-links a {
+    color: inherit;
+    text-decoration: underline;
+    transition: color 400ms;
+}
+#info-links a:hover {
+    color: #ff4545;
+}

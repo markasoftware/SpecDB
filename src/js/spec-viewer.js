@@ -8,6 +8,8 @@ const rowData = require('./row-data.js');
 module.exports = {
     hideIdenticalRows: false,
     showAdvancedRows: false,
+    oncreate: hashMan.updateSeo,
+    onupdate: hashMan.updateSeo,
     view: vnode => {
         const partNames = hashMan.getList();
         const partData = partNames.map(c => specData[c]);
