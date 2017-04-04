@@ -1,5 +1,5 @@
 .big-padded {
-    padding: 5vh 4vw;
+    padding: 3em 4vw;
 }
 #nothing-selected {
     font-size: 4em;
@@ -21,6 +21,9 @@
 h2.centered {
     text-align: center;
     width: 100%;
+}
+h2.top {
+    padding-top: 0;
 }
 table {
     background-color: #fff;
@@ -56,4 +59,20 @@ td.left-corner {
     width: 100%;
     height: 1px;
     background-color: #aaa;
+}
+#info-links {
+    width: 100%;
+    color: #777;
+    position: absolute;
+    text-align: center;
+    bottom: 1.5em;
+    font-size: 0.9em;
+}
+#info-links a {
+    color: inherit;
+    text-decoration: underline;
+    transition: color 400ms;
+}
+#info-links a:hover {
+    color: #ff4545;
 }
