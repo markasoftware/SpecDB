@@ -53,13 +53,24 @@ module.exports.genSubtext = data => {
     }
 }
 
-const cpuFieldSortValues = [
-    'Base Frequency',
-    'Boost Frequency',
-    'Core Count',
-    'Thread Count',
-    'TDP',
-];
+const sortValues = {
+    CPU: [
+        'Base Frequency',
+        'Boost Frequency',
+        'Core Count',
+        'Thread Count',
+        'TDP',
+    ],
+    'Graphics Card': [
+        'Base Frequency',
+        'Boost Frequency',
+        'VRAM Capacity',
+        'Shader Processor Count',
+        'Texture Mapping Unit Count',
+        'Render Output Unit Count',
+        'TDP',
+    ]
+};
 
 const getIndex = (haystack, needle) => {
     const index = haystack.indexOf(needle);
@@ -67,9 +78,11 @@ const getIndex = (haystack, needle) => {
 }
 
 // TODO: make this work for GPUs & APUs as well instead of hard coding in cpu
-module.exports.getRowNames = parts =>
-    Array.from(new Set(parts.reduce((a, b) => a.concat(Object.keys(b.data)), [])))
-        .sort((a, b) => getIndex(cpuFieldSortValues, a) - getIndex(cpuFieldSortValues, b));
+module.exports.getRowNames = parts => {
+    const curSortVals = sortValues[parts[0].type];
+    return Array.from(new Set(parts.reduce((a, b) => a.concat(Object.keys(b.data)), [])))
+        .sort((a, b) => getIndex(curSortVals, a) - getIndex(curSortVals, b));
+}
 
 
 module.exports.processRow = (values, processor) => {

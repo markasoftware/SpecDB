@@ -13,8 +13,11 @@ module.exports = {
     onupdate: seo.update,
     view: vnode => {
         const partNames = hashMan.getList();
-        const partData = partNames.map(c => specData[c]);
-        const rowNames = pure.getRowNames(partData);
+        let partData, rowNames;
+        if(partNames.length > 0) {
+            partData = partNames.map(c => specData[c]);
+            rowNames = pure.getRowNames(partData);
+        }
         return m('.relative-container', [
             m('.big-padded', partNames.length === 0 ? [
                 m('#nothing-selected', 'No Parts Selected'),

@@ -16,3 +16,9 @@ sections:
       - R7-1800X
       - R7-1700X
       - R7-1700
+  - header: RYZEN 5
+    members:
+      - R5-1600X
+      - R5-1600
+      - R5-1500X
+      - R5-1400
