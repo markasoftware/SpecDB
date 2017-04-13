@@ -1,5 +1,5 @@
 // this file manages the hash portion of the url, which in this case shows which parts are currently being compared
-// it also manages setting meta and title stuff when hash changes, for SEO porpoises
+// however, it has evolved into more of a general url-switching manager which also manages some of the other things which happen when the page is changed
 
 const m = require('mithril');
 const specData = require('spec-data');
@@ -18,6 +18,8 @@ const showError = msg => {
     }, 2500);
 }
 
+const clickyMovey = document.getElementById('clicky-movey');
+
 module.exports = {
     // c => c does the work of geting rid of empty strings, which occurs when there is no parts (empty string input)
     getList: () => location.hash.slice(3).split(',').filter(c => c),
@@ -29,6 +31,11 @@ module.exports = {
         if(curList.length > 0 && specData[curList[0]].type !== specData[newName].type) {
             return showError('All parts must be the same type');
         }
+        clickyMovey.style.animation = 'none';
+        // force reflow
+        // I believe that this is the only legitimate use of the void function, apart from bookmarklets
+        void(clickyMovey.offsetHeight);
+        clickyMovey.style.animation = 'blinky 300ms';
         if(!module.exports.getList().includes(newName)) {
             m.route.set('/' + module.exports.getList().concat(newName).join(','));
         }

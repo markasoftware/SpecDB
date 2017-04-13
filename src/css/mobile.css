@@ -1,0 +1,39 @@
+#mobile-toggle {
+    display: none;
+}
+#mobile-toggle:checked + #big-flex-wrapper {
+    transform: translateX(-100vw);
+}
+
+/* used when a part is clicked on mobile to signal that you might want to go to the other tab thing */
+@keyframes blinky {
+    0%, 100% {
+        background-color: inherit;
+    }
+    50% {
+        background-color: #faa;
+    }
+}
+
+@media (orientation: portrait) {
+    #big-flex-wrapper {
+        width: 200vw;
+    }
+    #spec-viewer {
+        flex: 90vw;
+        box-shadow: 0 0 15px #999;
+    }
+    #part-selector {
+        flex: 90vw;
+    }
+    #clicky-movey {
+        display: block;
+    }
+}
+
+@media (orientation: landscape) {
+    #big-flex-wrapper {
+        /* please forgive me. But honestly, how else would you go about this? */
+        transform: none !important;
+    }
+}

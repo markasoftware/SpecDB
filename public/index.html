@@ -3,7 +3,7 @@
 <head>
     <title>SpecDB — View and Compare Graphics Cards and CPUs</title>
     <meta name='description' content="Designed as an AMD equivalent of Intel's ARK, SpecDB is the definitive source for AMD hardware specifications">
-    <meta name='viewport' content='initial-scale=0.8'>
+    <meta name='viewport' content='initial-scale=0.8, user-scalable=no'>
     <meta charset='utf8'>
     <script src='generated/bundle.js' defer></script>
     <link rel='dns-prefetch' href='//fonts.gstatic.com'>
@@ -14,8 +14,10 @@
     <div id='error-wrapper'>
         <div id='error'></div>
     </div>
+    <input type='checkbox' name='mobile-toggle' id='mobile-toggle'>
     <div id='big-flex-wrapper'>
         <div id='spec-viewer'></div>
+        <label for='mobile-toggle' id='clicky-movey'>⬌</label>
         <div id='part-selector'></div>
     </div>
 </body>

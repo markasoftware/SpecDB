@@ -3,6 +3,8 @@ const specData = require('spec-data');
 const pure = require('../pure.js');
 const hashMan = require('../hash.js');
 
+const clickyMovey = document.getElementById('clicky-movey');
+
 module.exports = {
     view: vnode => {
         const curData = specData[vnode.attrs.name];
@@ -11,7 +13,20 @@ module.exports = {
             return m('div');
         }
         return m('.part', {
-                onclick: curData.isPart ? vnode.attrs.canSelect ? () => hashMan.add(vnode.attrs.name) : () => hashMan.remove(vnode.attrs.name) : () => vnode.attrs.onCategorySelect(vnode.attrs.name),
+                onclick: () => {
+                    if(curData.isPart) {
+                        if(vnode.attrs.canSelect) {
+                            // add part to list
+                            hashMan.add(vnode.attrs.name);
+                        } else {
+                            // remove part from list
+                            hashMan.remove(vnode.attrs.name);
+                        }
+                    } else {
+                        // we're a catogory, call parent
+                        vnode.attrs.onCategorySelect(vnode.attrs.name);
+                    }
+                },
             }, [
                 m('.part-padding', [
                     m('.part-header', curData.humanName),

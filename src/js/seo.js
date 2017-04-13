@@ -1,5 +1,6 @@
 const pure = require('./pure.js');
 const hashMan = require('./hash.js');
+const specData = require('spec-data');
 
 module.exports = {
     innerUpdate: data => {
@@ -26,5 +27,5 @@ module.exports = {
 
         document.head.appendChild(description);
     },
-    update: () => module.exports.innerUpdate(pure.seo(hashMan.getList())),
+    update: () => module.exports.innerUpdate(pure.seo(hashMan.getList().map(c => specData[c].humanName))),
 }
