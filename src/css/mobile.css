@@ -15,7 +15,7 @@
     }
 }
 
-@media (orientation: portrait) {
+@media (max-width: 800px) and (orientation: portrait) {
     #big-flex-wrapper {
         width: 200vw;
     }
@@ -31,7 +31,7 @@
     }
 }
 
-@media (orientation: landscape) {
+@media (min-width: 800px), (orientation: landscape) {
     #big-flex-wrapper {
         /* please forgive me. But honestly, how else would you go about this? */
         transform: none !important;

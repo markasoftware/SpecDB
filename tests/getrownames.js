@@ -1,14 +1,10 @@
 const test = require('tape');
 const pure = require('../src/js/pure.js');
 
-test('empty array', t => {
-    t.deepEqual(pure.getRowNames([]), []);
-    t.end();
-});
-
 test('some CPU data', t => {
      t.deepEqual(pure.getRowNames([
          {
+             type: 'CPU',
              data: {
                  'Base Frequency': '4.5 GHz',
                  'Boost Frequency': '4.6 GHz',
@@ -17,6 +13,7 @@ test('some CPU data', t => {
      ]), ['Base Frequency', 'Boost Frequency'], 'single part, very simple');
      t.deepEqual(pure.getRowNames([
          {
+             type: 'CPU',
              data: {
                  'Base Frequency': '2.9 GHz',
              },
@@ -29,6 +26,7 @@ test('some CPU data', t => {
      ]), ['Base Frequency', 'Boost Frequency'], 'two parts, pretty simple');
      t.deepEqual(pure.getRowNames([
          {
+             type: 'CPU',
              data: {
                  'Base Frequency': '66 GHz',
                  'Boost Frequency': '4 GHz',
@@ -43,6 +41,7 @@ test('some CPU data', t => {
      ]), ['Base Frequency', 'Boost Frequency'], 'two parts, both have same names');
      t.deepEqual(pure.getRowNames([
          {
+             type: 'CPU',
              data: {
                  'Thread Count': 9,
                  TDP: '98 W',
@@ -51,6 +50,7 @@ test('some CPU data', t => {
              },
          },
          {
+             type: 'CPU',
              data: {
                  TDP: '9 W',
                  'Base Frequency': '8 GHz',
@@ -63,6 +63,7 @@ test('some CPU data', t => {
 test('unknown name should go last', t => {
     t.deepEqual(pure.getRowNames([
         {
+            type: 'CPU',
             data: {
                 'Base Frequency': '888 GHz',
                 'ur mom haha': '1 bamboozle',
