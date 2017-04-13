@@ -3,8 +3,6 @@ const specData = require('spec-data');
 const pure = require('../pure.js');
 const hashMan = require('../hash.js');
 
-const clickyMovey = document.getElementById('clicky-movey');
-
 module.exports = {
     view: vnode => {
         const curData = specData[vnode.attrs.name];

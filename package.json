@@ -27,5 +27,14 @@
   "bugs": {
     "url": "https://github.com/markasoftware/amd-specs/issues"
   },
-  "homepage": "https://github.com/markasoftware/amd-specs"
+  "homepage": "https://github.com/markasoftware/amd-specs",
+  "babel": {
+    "presets": [
+        ["es2015", {
+          "modules": false,
+          "loose": true
+        }]
+      ],
+    "plugins": "transform-exponentiation-operator"
+  }
 }

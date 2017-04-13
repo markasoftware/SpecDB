@@ -10,7 +10,7 @@ browserify -r /tmp/specs.js:spec-data --noparse mithril --debug src/js/entry.js 
 if [[ $1 == 'production' ]]
 then
     echo 'Compiling and minifying scripts...'
-    babel --presets es2015 --plugins transform-exponentiation-operator < public/generated/bundle.js | uglifyjs --compress --mangle --screw-ie8 > /tmp/bundle.js
+    babel public/generated/bundle.js | uglifyjs --compress --mangle --screw-ie8 > /tmp/bundle.js
     mv /tmp/bundle.js public/generated/bundle.js
 fi
 echo 'Bundling styles...'

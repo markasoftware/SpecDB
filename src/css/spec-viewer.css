@@ -32,7 +32,7 @@ table {
     border-collapse: collapse;
 }
 th, td {
-    padding: 1.3em 1vw;
+    padding: 1.3em 1em;
     border-left: 1px solid #ccc;
     width: 10vw;
 }
