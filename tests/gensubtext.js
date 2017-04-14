@@ -145,6 +145,18 @@ test('Graphics Card', t => {
         '4GiB VRAM',
         '2304 Shader Processors',
         '1120MHz Base, 1445MHz Boost',
-    ]);
+    ], 'base & boost');
+    t.deepEqual(pure.genSubtext({
+        type: 'Graphics Card',
+        data: {
+            'VRAM Capacity': '4GiB',
+            'Shader Processor Count': 2304,
+            'Base Frequency': '1100 MHz',
+        },
+    }), [
+        '4GiB VRAM',
+        '2304 Shader Processors',
+        '1100MHz Clock',
+    ], 'only base frequency');
     t.end();
 });

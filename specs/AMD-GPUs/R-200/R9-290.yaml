@@ -1,0 +1,15 @@
+name: R9-290
+humanName: R9 290
+isPart: true
+type: Graphics Card
+inherits:
+  - R9 290 Base
+data:
+  Release Date: '2013-11-05'
+  Shader Processor Count: 2560
+  Texture Mapping Unit Count: 160
+  Render Output Unit Count: 64
+  Base Frequency: 947 MHz
+  VRAM Capacity: 4 GiB
+  TDP: 250 W
+  GPU: Hawaii Pro

@@ -1,0 +1,20 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: Fiji XT
+  Release Date: '2016-04-26'
+  Die Size: 596 mm
+  Shader Processor Count: 8192
+  Texture Mapping Unit Count: 512
+  Render Output Unit Count: 128
+  Base Frequency: 1000 MHz
+  VRAM Frequency: 1000 MT/s
+  VRAM Capacity: 4 GiB (per chip)
+  VRAM Bus Width: 4196 Bits
+  VRAM Type: HBM
+  VRAM Bandwidth: 477 GiB/s
+  TDP: 350 W
+inherits:
+  - GCN 3
+name: Radeon-Pro-Duo
+humanName: Radeon Pro Duo

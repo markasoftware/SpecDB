@@ -1,0 +1,32 @@
+name: R-200
+humanName: R* 200
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 28 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.0'
+  Release Date: '2013-10-08'
+sections:
+  - header: ENTHUSIAST
+    members:
+      - R9-295X2
+  - header: HIGH END
+    members:
+      - R9-290X-8GiB
+      - R9-290X-4GiB
+      - R9-290
+  - header: MID RANGE
+    members:
+      - R9-285
+      - R9-280X
+      - R9-280
+      - R9-270X-4GiB
+      - R9-270X-2GiB
+  - header: ENTRY LEVEL
+    members:
+      - R9-270
+      - R7-260X-2GiB
+      - R7-260X-1GiB
+      - R7-260

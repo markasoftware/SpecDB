@@ -1,0 +1,20 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: Fiji Pro
+  Release Date: '2015-07-14'
+  Die Size: 596 mm
+  Shader Processor Count: 3584
+  Texture Mapping Unit Count: 224
+  Render Output Unit Count: 64
+  Base Frequency: 1000 MHz
+  VRAM Frequency: 1000 MT/s
+  VRAM Capacity: 4 GiB
+  VRAM Bus Width: 4096 Bits
+  VRAM Type: HBM
+  VRAM Bandwidth: 477 GiB/s
+  TDP: 275 W
+inherits:
+  - GCN 3
+name: R9-Fury
+humanName: R9 Fury

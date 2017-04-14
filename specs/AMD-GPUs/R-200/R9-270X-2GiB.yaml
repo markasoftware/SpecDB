@@ -1,0 +1,21 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: Pitcairn XT
+  Release Date: '2013-08-08'
+  Die Size: 212 mm
+  Shader Processor Count: 1280
+  Texture Mapping Unit Count: 80
+  Render Output Unit Count: 32
+  Base Frequency: 1000 MHz
+  Boost Frequency: 1050 MHz
+  VRAM Frequency: 5600 MT/s
+  VRAM Capacity: 2 GiB
+  VRAM Bus Width: 256 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 167 GiB/s
+  TDP: 180 W
+inherits:
+  - GCN 1
+name: R9-270X-2GiB
+humanName: R9 270X (2GiB)

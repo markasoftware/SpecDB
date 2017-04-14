@@ -1,0 +1,8 @@
+name: R9-290X-4GiB
+humanName: R9 290X (4GiB)
+isPart: true
+type: Graphics Card
+inherits:
+  - R9 290X Base
+data:
+  VRAM Capacity: 4 GiB

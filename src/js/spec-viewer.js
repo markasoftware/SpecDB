@@ -44,9 +44,10 @@ module.exports = {
                         // get all the values for the current row
                         const rowValues = partData.map(c => c.data[curRowName]);
                         const processed = pure.processRow(rowValues, rowData[curRowName]);
+                        const allEqual = processed.values.reduce((a, b) => a === b);
                         return m('tr', [
                             m('td.row-header', curRowName),
-                            processed.values.map((c, i) => m('td' + (processed.values.length > 1 && processed.maxIndices.includes(i) ? '.winner' : ''), c)),
+                            processed.values.map((c, i) => m('td' + ((!allEqual) && processed.values.length > 1 && processed.maxIndices.includes(i)? '.winner' : ''), c)),
                         ]);
                     }),
                 ]),

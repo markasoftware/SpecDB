@@ -1,0 +1,15 @@
+name: R9-295X2
+humanName: R9 295X2
+isPart: true
+type: Graphics Card
+inherits:
+  - R9 290 Base
+data:
+  Release Date: '2014-04-08'
+  Shader Processor Count: 5632
+  Texture Mapping Unit Count: 352
+  Render Output Unit Count: 128
+  Base Frequency: '1018 MHz'
+  GPU: Vesuvius
+  VRAM Capacity: 4 GiB (per GPU)
+  TDP: 500 W

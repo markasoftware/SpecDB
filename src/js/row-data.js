@@ -109,6 +109,7 @@ module.exports = {
     'VRAM Bandwidth': types.unitUp,
     // TODO: maybe make this have units?
     'VRAM Frequency': types.numberUp,
+    'VRAM Bus Width': types.numberUp,
     'DirectX Support': types.versionUp,
     'Vulkan Support': types.versionUp,
 };

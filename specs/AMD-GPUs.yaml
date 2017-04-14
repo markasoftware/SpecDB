@@ -6,9 +6,8 @@ topHeader: 'SELECT ARCHITECTURE/SERIES:'
 sections:
   - header: 2016 - PRESENT
     members:
-      - Polaris
+      - RX-400
   - header: 2013 - 2015
     members:
-      - Fury
-      - R* 300
-      - R* 200
+      - R-300
+      - R-200

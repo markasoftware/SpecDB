@@ -47,7 +47,10 @@ module.exports.genSubtext = data => {
             return [
                 innerData['VRAM Capacity'].replace(' ','') + ' VRAM',
                 innerData['Shader Processor Count'] + ' Shader Processors',
-                innerData['Base Frequency'].replace(' ','') + ' Base, ' + innerData['Boost Frequency'].replace(' ','') + ' Boost',
+                (innerData['Boost Frequency'] ?
+                    innerData['Base Frequency'].replace(' ','') + ' Base, ' + innerData['Boost Frequency'].replace(' ','') + ' Boost' :
+                    innerData['Base Frequency'].replace(' ','') + ' Clock'
+                ),
             ]
         default: return [];
     }

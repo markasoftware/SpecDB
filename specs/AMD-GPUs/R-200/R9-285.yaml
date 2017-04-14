@@ -1,0 +1,19 @@
+name: R9-285
+humanName: R9 285
+isPart: true
+type: Graphics Card
+inherits:
+  - GCN 3
+data:
+  Release Date: '2014-09-02'
+  GPU: Tonga Pro
+  Die Size: 359 mm
+  Shader Processor Count: 1792
+  Texture Mapping Unit Count: 112
+  Render Output Unit Count: 32
+  Base Frequency: 918 MHz
+  VRAM Frequency: 5500 MT/s
+  VRAM Capacity: 2 GiB
+  VRAM Bus Width: 256 Bits
+  VRAM Bandwidth: 164 GiB/s
+  TDP: 190 W

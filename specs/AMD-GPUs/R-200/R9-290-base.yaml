@@ -1,0 +1,9 @@
+hidden: true
+name: R9 290 Base
+inherits:
+  - GCN 2
+data:
+  Die Size: 428 mm
+  VRAM Frequency: 5000 MT/s
+  VRAM Bus Width: 512 Bits
+  VRAM Bandwidth: 298 GiB/s

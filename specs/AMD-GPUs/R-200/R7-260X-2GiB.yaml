@@ -1,0 +1,20 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: Bonaire XTX
+  Release Date: '2013-08-08'
+  Die Size: 160 mm
+  Shader Processor Count: 896
+  Texture Mapping Unit Count: 56
+  Render Output Unit Count: 16
+  Base Frequency: 1100 MHz
+  VRAM Frequency: 6500 MT/s
+  VRAM Capacity: 2 GiB
+  VRAM Bus Width: 128 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 97 GiB/s
+  TDP: 115 W
+inherits:
+  - GCN 2
+name: R7-260X-2GiB
+humanName: R7 260X (2GiB)

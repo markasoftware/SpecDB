@@ -1,0 +1,12 @@
+hidden: true
+name: R9 290X Base
+inherits:
+  - R9 290 Base
+data:
+  Release Date: '2013-10-24'
+  Shader Processor Count: 2816
+  Texture Mapping Unit Count: 176
+  Render Output Unit Count: 64
+  Base Frequency: 1000 MHz
+  TDP: 250 W
+  GPU: Hawaii XT

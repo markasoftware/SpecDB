@@ -1,0 +1,30 @@
+name: R-300
+humanName: R* 300
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 28 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.0'
+  Release Date: '2015-06-16'
+sections:
+  - header: ENTHUSIAST
+    members:
+      - Radeon-Pro-Duo
+      - R9-Fury-X
+      - R9-Nano
+      - R9-Fury
+  - header: HIGH END
+    members:
+      - R9-390X
+      - R9-390
+  - header: MID RANGE
+    members:
+      - R9-380X
+      - R9-380
+      - R9-370X
+  - header: ENTRY LEVEL
+    members:
+      - R7-370
+      - R7-360
