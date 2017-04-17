@@ -10,7 +10,7 @@ test('some CPU data', t => {
                  'Boost Frequency': '4.6 GHz',
              },
          },
-     ]), ['Base Frequency', 'Boost Frequency'], 'single part, very simple');
+     ], true), ['Base Frequency', 'Boost Frequency'], 'single part, very simple');
      t.deepEqual(pure.getRowNames([
          {
              type: 'CPU',
@@ -23,7 +23,7 @@ test('some CPU data', t => {
                  'Boost Frequency': '99 GHz',
              },
          },
-     ]), ['Base Frequency', 'Boost Frequency'], 'two parts, pretty simple');
+     ], true), ['Base Frequency', 'Boost Frequency'], 'two parts, pretty simple');
      t.deepEqual(pure.getRowNames([
          {
              type: 'CPU',
@@ -38,7 +38,7 @@ test('some CPU data', t => {
                  'Boost Frequency': '7 GHz',
              },
          },
-     ]), ['Base Frequency', 'Boost Frequency'], 'two parts, both have same names');
+     ], true), ['Base Frequency', 'Boost Frequency'], 'two parts, both have same names');
      t.deepEqual(pure.getRowNames([
          {
              type: 'CPU',
@@ -56,7 +56,7 @@ test('some CPU data', t => {
                  'Base Frequency': '8 GHz',
              },
          },
-     ]), ['Base Frequency', 'Core Count', 'Thread Count', 'TDP', 'Boop'], 'more complex');
+     ], true), ['Base Frequency', 'Core Count', 'Thread Count', 'TDP', 'Boop'], 'more complex');
      t.end();
 });
 
@@ -69,6 +69,38 @@ test('unknown name should go last', t => {
                 'ur mom haha': '1 bamboozle',
             },
         },
-    ]), ['Base Frequency', 'ur mom haha']);
+    ], true), ['Base Frequency', 'ur mom haha']);
+    t.end();
+});
+
+test('hide advanced data', t => {
+    t.deepEqual(pure.getRowNames([
+        {
+            type: 'CPU',
+            data: {
+                // and we're testing that it works with mhz for good measure. Me so clever!
+                'Base Frequency': '888 MHz',
+            },
+        },
+    ], false), ['Base Frequency'], 'common basic');
+    t.deepEqual(pure.getRowNames([
+        {
+            type: 'CPU',
+            data: {
+                'Base Frequency': '9 GHz',
+                'Holy Moly Guacamole': 'Claim your free WinRAR license at pornhub.com!'
+            },
+        },
+    ], false), ['Base Frequency'], 'should discard one');
+    t.deepEqual(pure.getRowNames([
+        {
+            type: 'CPU',
+            data: {
+                'Base Frequency': '1 GHz',
+                // seems logical, right?
+                'Core Count': '19',
+            },
+        },
+    ], false), ['Base Frequency', 'Core Count'], 'CPU-specific one');
     t.end();
 });

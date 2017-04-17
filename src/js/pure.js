@@ -58,7 +58,11 @@ const sortValues = {
         'Boost Frequency',
         'Core Count',
         'Thread Count',
+        'L2 Cache (Total)',
+        'L3 Cache (Total)',
         'TDP',
+        'Architecture',
+        'Release Date',
     ],
     'Graphics Card': [
         'Base Frequency',
@@ -76,11 +80,37 @@ const getIndex = (haystack, needle) => {
     return index === -1 ? 9999 : index;
 }
 
-// TODO: make this work for GPUs & APUs as well instead of hard coding in cpu
-module.exports.getRowNames = parts => {
-    const curSortVals = sortValues[parts[0].type];
-    return Array.from(new Set(parts.reduce((a, b) => a.concat(Object.keys(b.data)), [])))
+
+const commonBasicRows = [
+    'Base Frequency',
+    'Boost Frequency',
+    'TDP',
+    'Architecture',
+    'Release Date',
+];
+
+const specificBasicRows = {
+    'CPU': [
+        'Core Count',
+        'Thread Count',
+    ],
+    'Graphics Card': [
+        'Shader Processor Count',
+        'VRAM Capacity',
+    ],
+}
+
+module.exports.getRowNames = (parts, advancedRows) => {
+    const curType = parts[0].type;
+    const curSortVals = sortValues[curType];
+    const toReturn = Array.from(new Set(parts.reduce((a, b) => a.concat(Object.keys(b.data)), [])))
         .sort((a, b) => getIndex(curSortVals, a) - getIndex(curSortVals, b));
+    if(advancedRows) {
+        return toReturn;
+    } else {
+        const basicRows = commonBasicRows.concat(specificBasicRows[curType]);
+        return toReturn.filter(c => basicRows.includes(c));
+    }
 }
 
 

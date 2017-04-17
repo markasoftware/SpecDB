@@ -8,7 +8,7 @@ const seo = require('./seo.js');
 
 module.exports = {
     identicalRows: true,
-    showAdvancedRows: false,
+    advancedRows: false,
     oncreate: seo.update,
     onupdate: seo.update,
     view: vnode => {
@@ -16,8 +16,9 @@ module.exports = {
         let partData, rowNames;
         if(partNames.length > 0) {
             partData = partNames.map(c => specData[c]);
-            rowNames = pure.getRowNames(partData);
+            rowNames = pure.getRowNames(partData, vnode.state.advancedRows);
         }
+        // filter out advanced rows if necessary
         return m('.relative-container', [
             m('.big-padded', partNames.length === 0 ? [
                 m('#nothing-selected', 'No Parts Selected'),
@@ -31,10 +32,14 @@ module.exports = {
                 m('h2.centered', 'SPECIFICATIONS:'),
                 // table options, e.g hide identical rows, advanced rows
                 m('.flex-wrapper.justify-center', [
-                    m('div.table-option', {
+                    m('.table-option', {
                         class: vnode.state.identicalRows ? 'selected-table-option' : '',
                         onclick: () => vnode.state.identicalRows = !vnode.state.identicalRows,
-                    }, 'Identical Rows'),
+                    }, 'Show Identical Rows'),
+                    m('.table-option', {
+                        class: vnode.state.advancedRows ? 'selected-table-option' : '',
+                        onclick: () => vnode.state.advancedRows = !vnode.state.advancedRows,
+                    }, 'Show Advanced Data'),
                 ]),
                 m('table', [
                     // header with part names
