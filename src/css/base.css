@@ -81,7 +81,7 @@ h3 {
 }
 .relative-container {
     position: relative;
-    min-height: 100%;
+    min-height: 100vh;
 }
 input[type="checkbox"] {
     display: none;
