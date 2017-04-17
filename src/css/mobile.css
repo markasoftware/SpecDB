@@ -1,10 +1,3 @@
-#mobile-toggle {
-    display: none;
-}
-#mobile-toggle:checked + #big-flex-wrapper {
-    transform: translateX(-100vw);
-}
-
 /* used when a part is clicked on mobile to signal that you might want to go to the other tab thing */
 @keyframes blinky {
     0%, 100% {
@@ -29,11 +22,7 @@
     #clicky-movey {
         display: block;
     }
-}
-
-@media (min-width: 800px), (orientation: landscape) {
-    #big-flex-wrapper {
-        /* please forgive me. But honestly, how else would you go about this? */
-        transform: none !important;
+    #mobile-toggle:checked ~ #big-flex-wrapper {
+        transform: translateX(-100vw);
     }
 }

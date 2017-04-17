@@ -83,3 +83,6 @@ h3 {
     position: relative;
     min-height: 100%;
 }
+input[type="checkbox"] {
+    display: none;
+}

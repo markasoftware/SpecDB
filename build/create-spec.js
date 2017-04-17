@@ -14,9 +14,10 @@ const prompty = (asky, cb) => {
         }
         readline.question(`${asky[n]}:`, answer => {
             if(answer) {
-                if(!isNaN(+answer)) {
-                    answer = +answer;
-                }
+                // if it's a non-string data type, treat it like one
+                try {
+                    answer = JSON.parse(answer);
+                } /* I hate doing shit like this */ catch (e) {}
                 acc[asky[n]] = answer;
             }
             recurse(n + 1, acc);
@@ -30,11 +31,18 @@ module.exports = (toReturn, askFor, askForData) => {
         toReturn.inherits = JSON.parse(inherits);
         prompty(askFor, askForResult => {
             Object.assign(toReturn, askForResult);
-            prompty(askForData, askForDataResult => {
-                Object.assign(toReturn.data, askForDataResult);
-                readline.question('Write to:', writeTo => {
-                    fs.writeFileSync(`${__dirname}/../specs/${writeTo}`, dumpYaml(toReturn));
-                    process.exit();
+            // check if they want to add anything manually
+            readline.question('Custom data props:', customDataResult => {
+                if(customDataResult) {
+                    askForData.push(...JSON.parse(customDataResult));
+                }
+                prompty(askForData, askForDataResult => {
+                    // check if they want to add any extra stuff manually
+                    Object.assign(toReturn.data, askForDataResult);
+                    readline.question('Write to:', writeTo => {
+                        fs.writeFileSync(`${__dirname}/../specs/${writeTo}`, dumpYaml(toReturn));
+                        process.exit();
+                    });
                 });
             });
         });

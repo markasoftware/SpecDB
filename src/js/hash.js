@@ -3,7 +3,6 @@
 
 const m = require('mithril');
 const specData = require('spec-data');
-const pure = require('./pure.js');
 
 let showErrorLock = false;
 const showError = msg => {

@@ -1,0 +1,15 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 8
+  Core Count: 8
+  Base Frequency: 4.0 GHz
+  Boost Frequency: 4.3 GHz
+  L2 Cache (Total): 8 MiB
+  L3 Cache (Total): 8 MiB
+  TDP: 125 W
+  Release Date: '2014-09-02'
+inherits:
+  - Piledriver
+name: FX-8370
+humanName: FX 8370

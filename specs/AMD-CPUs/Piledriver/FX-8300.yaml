@@ -1,0 +1,15 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 8
+  Core Count: 8
+  Base Frequency: 3.3 GHz
+  Boost Frequency: 4.2 GHz
+  L2 Cache (Total): 8 MiB
+  L3 Cache (Total): 8 MiB
+  TDP: 95 W
+  Release Date: '2012-12-29'
+inherits:
+  - Piledriver
+name: FX-8300
+humanName: FX 8300

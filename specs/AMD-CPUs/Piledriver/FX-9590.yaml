@@ -1,0 +1,15 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 8
+  Core Count: 8
+  Base Frequency: 4.7 GHz
+  Boost Frequency: 5.0 GHz
+  L2 Cache (Total): 8 MiB
+  L3 Cache (Total): 8 MiB
+  TDP: 220 W
+  Release Date: '2013-07-06'
+inherits:
+  - Piledriver
+name: FX-9590
+humanName: FX 9590

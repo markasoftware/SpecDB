@@ -11,8 +11,10 @@
     margin-top: 0;
     font-family: Quicksand, sans-serif;
 }
-#selected-parts-list {
+.justify-center {
     justify-content: center;
+}
+#selected-parts-list {
     margin-bottom: 5vh;
 }
 #spec-table {
@@ -75,4 +77,15 @@ td.left-corner {
 }
 #info-links a:hover {
     color: #ff4545;
+}
+.table-option {
+    color: #999;
+    border: 2px solid transparent;
+    transition: all 250ms;
+    padding: 1em;
+    cursor: pointer;
+}
+.table-option.selected-table-option {
+    color: #f44;
+    border-color: #f44;
 }

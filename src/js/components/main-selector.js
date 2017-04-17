@@ -1,5 +1,4 @@
 const m = require('mithril');
-const specData = require('spec-data');
 const singlePart = require('./part.js');
 
 module.exports = {

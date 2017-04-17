@@ -1,0 +1,15 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 4
+  Core Count: 4
+  Base Frequency: 4.2 GHz
+  Boost Frequency: 4.3 GHz
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 8 MiB
+  TDP: 125 W
+  Release Date: '2013-04-30'
+inherits:
+  - Piledriver
+name: FX-4350
+humanName: FX 4350

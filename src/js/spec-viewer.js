@@ -7,7 +7,7 @@ const rowData = require('./row-data.js');
 const seo = require('./seo.js');
 
 module.exports = {
-    hideIdenticalRows: false,
+    identicalRows: true,
     showAdvancedRows: false,
     oncreate: seo.update,
     onupdate: seo.update,
@@ -23,15 +23,18 @@ module.exports = {
                 m('#nothing-selected', 'No Parts Selected'),
             ] : [
                 m('h2.centered.top', 'SELECTED COMPONENTS:'),
-                m('#selected-parts-list.flex-wrapper', partNames.map(curPartName => m(singlePart, {
+                m('#selected-parts-list.flex-wrapper.justify-center', partNames.map(curPartName => m(singlePart, {
                     name: curPartName,
                     canSelect: false,
                 }))),
                 m('.hr'),
                 m('h2.centered', 'SPECIFICATIONS:'),
                 // table options, e.g hide identical rows, advanced rows
-                m('.flex-wrapper', [
-
+                m('.flex-wrapper.justify-center', [
+                    m('div.table-option', {
+                        class: vnode.state.identicalRows ? 'selected-table-option' : '',
+                        onclick: () => vnode.state.identicalRows = !vnode.state.identicalRows,
+                    }, 'Identical Rows'),
                 ]),
                 m('table', [
                     // header with part names
@@ -44,10 +47,16 @@ module.exports = {
                         // get all the values for the current row
                         const rowValues = partData.map(c => c.data[curRowName]);
                         const processed = pure.processRow(rowValues, rowData[curRowName]);
+                        const isComparing = processed.values.length > 1;
                         const allEqual = processed.values.reduce((a, b) => a === b);
+                        // if identical rows are hidden and this is identical, skip it
+                        if(isComparing && allEqual && (!vnode.state.identicalRows)) {
+                            return;
+                        }
                         return m('tr', [
                             m('td.row-header', curRowName),
-                            processed.values.map((c, i) => m('td' + ((!allEqual) && processed.values.length > 1 && processed.maxIndices.includes(i)? '.winner' : ''), c)),
+                            processed.values.map((c, i) => m('td' + 
+                                ((!allEqual) && isComparing && processed.maxIndices.includes(i)? '.winner' : ''), c)),
                         ]);
                     }),
                 ]),

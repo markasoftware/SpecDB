@@ -1,0 +1,15 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 4
+  Core Count: 4
+  Base Frequency: 3.8 GHz
+  Boost Frequency: 4.0 GHz
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 4 MiB
+  TDP: 95 W
+  Release Date: '2012-10-23'
+inherits:
+  - Piledriver
+name: FX-4300
+humanName: FX 4300

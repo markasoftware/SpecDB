@@ -1,0 +1,15 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 8
+  Core Count: 8
+  Base Frequency: 4.0 GHz
+  Boost Frequency: 4.2 GHz
+  L2 Cache (Total): 8 MiB
+  L3 Cache (Total): 8 MiB
+  TDP: 125 W
+  Release Date: '2012-10-23'
+inherits:
+  - Piledriver
+name: FX-8350
+humanName: FX 8350
