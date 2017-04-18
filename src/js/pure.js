@@ -103,7 +103,9 @@ const specificBasicRows = {
 module.exports.getRowNames = (parts, advancedRows) => {
     const curType = parts[0].type;
     const curSortVals = sortValues[curType];
-    const toReturn = Array.from(new Set(parts.reduce((a, b) => a.concat(Object.keys(b.data)), [])))
+    const toReturn = parts.reduce((a, b) => a.concat(Object.keys(b.data)), [])
+        // fancy es5 remove duplicate thing. I actually benchmarked it, and believe it or not it's faster than the native-ish Array.from(new Set()) and has better browser support!
+        .filter((c, i, s) => s.indexOf(c) === i)
         .sort((a, b) => getIndex(curSortVals, a) - getIndex(curSortVals, b));
     if(advancedRows) {
         return toReturn;
