@@ -1,0 +1,20 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: Tonga Pro
+  Release Date: '2015-06-18'
+  Die Size: 359 mm
+  Shader Processor Count: 1792
+  Texture Mapping Unit Count: 112
+  Render Output Unit Count: 32
+  Base Frequency: 970 MHz
+  VRAM Frequency: 5700 MT/s
+  VRAM Capacity: 4 GiB
+  VRAM Bus Width: 256 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 170 GiB/s
+  TDP: 190 W
+inherits:
+  - GCN 3
+name: R9-380-4GiB
+humanName: R9 380 (4GiB)

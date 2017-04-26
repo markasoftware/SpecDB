@@ -6,6 +6,7 @@ topHeader: 'SELECT ARCHITECTURE/SERIES:'
 sections:
   - header: 2016 - PRESENT
     members:
+      - RX-500
       - RX-400
   - header: 2013 - 2015
     members:

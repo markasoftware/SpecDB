@@ -1,0 +1,17 @@
+hidden: true
+data:
+  GPU: Pitcairn XT
+  Release Date: '2015-08-27'
+  Die Size: 212 mm
+  Shader Processor Count: 1280
+  Texture Mapping Unit Count: 80
+  Render Output Unit Count: 32
+  Base Frequency: 1000 MHz
+  VRAM Frequency: 5600 MT/s
+  VRAM Bus Width: 256 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 167 GiB/s
+  TDP: 185 W
+inherits:
+  - GCN 1
+name: R9 370X Base

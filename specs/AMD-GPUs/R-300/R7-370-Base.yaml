@@ -1,0 +1,17 @@
+hidden: true
+data:
+  GPU: Pitcairn Pro
+  Release Date: '2015-06-18'
+  Die Size: 212 mm
+  Shader Processor Count: 1024
+  Texture Mapping Unit Count: 64
+  Render Output Unit Count: 32
+  Base Frequency: 975 MHz
+  VRAM Frequency: 5600 MT/s
+  VRAM Bus Width: 256 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 167 GiB/s
+  TDP: 110 W
+inherits:
+  - GCN 1
+name: R7 370 Base

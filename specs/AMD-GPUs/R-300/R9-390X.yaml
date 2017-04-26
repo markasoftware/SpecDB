@@ -1,0 +1,20 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: Hawaii XT
+  Release Date: '2015-06-18'
+  Die Size: 438 mm
+  Shader Processor Count: 2816
+  Texture Mapping Unit Count: 176
+  Render Output Unit Count: 64
+  Base Frequency: 1050 MHz
+  VRAM Frequency: 6000 MT/s
+  VRAM Capacity: 8 GiB
+  VRAM Bus Width: 512 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 358 GiB/s
+  TDP: 275 W
+inherits:
+  - GCN 2
+name: R9-390X
+humanName: R9 390X

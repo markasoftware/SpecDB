@@ -10,5 +10,7 @@ data:
   Texture Mapping Unit Count: 144
   Shader Processor Count: 2304
   Die Size: 232 mm
-  GPU: Ellesmere XT
+  GPU: Polaris 10
   TDP: 150 W
+  VRAM Type: GDDR5
+  VRAm Bus Width: 256 Bits

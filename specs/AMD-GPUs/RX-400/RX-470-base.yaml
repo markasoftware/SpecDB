@@ -7,10 +7,12 @@ data:
   Base Frequency: 926 MHz
   Boost Frequency: 1206 MHz
   VRAM Frequency: 6000 MT/s
-  VRAM Bandwidth: 211 GiB/s
+  VRAM Bandwidth: 197 GiB/s
   Render Output Unit Count: 32
   Texture Mapping Unit Count: 128
   Shader Processor Count: 2048
   Die Size: 232 mm
-  GPU: Ellesmere PRO
+  GPU: Polaris 10
   TDP: 120 W
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 Bits

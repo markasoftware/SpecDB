@@ -7,4 +7,4 @@ inherits:
 data:
   VRAM Frequency: 7000 MT/s
   VRAM Capacity: 4 GiB
-  VRAM Bandwidth: 256 GiB/s
+  VRAM Bandwidth: 209 GiB/s
