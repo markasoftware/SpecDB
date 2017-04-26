@@ -13,4 +13,4 @@ data:
   GPU: Polaris 10
   TDP: 150 W
   VRAM Type: GDDR5
-  VRAm Bus Width: 256 Bits
+  VRAM Bus Width: 256 Bits
