@@ -25,4 +25,8 @@
     #mobile-toggle:checked ~ #big-flex-wrapper {
         transform: translateX(-100vw);
     }
+    .flex-wrapper {
+        /* Force wrapping on shitty mobile safari */
+        width: 0;
+    }
 }

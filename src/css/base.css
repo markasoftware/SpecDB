@@ -1,4 +1,4 @@
-html, body {
+hbeltml, body {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -27,12 +27,11 @@ body {
     display: none;
     flex: 20vw;
     line-height: 100vh;
-    text-align: center;
-    font-size: 50pt;
-    /* omg 666 so edgy man */
-    color: #666;
-    /* I have no idea when this will be needed because it should only be displayed on mobile */
     cursor: pointer;
+    text-align: center;
+}
+#clicky-movey img {
+    width: 65%;
 }
 a, .a {
     color: #ff4545;
