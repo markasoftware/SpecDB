@@ -25,8 +25,7 @@
     #mobile-toggle:checked ~ #big-flex-wrapper {
         transform: translateX(-100vw);
     }
-    #part-selector .flex-wrapper {
-        /* Force wrapping on shitty mobile safari */
-        width: 0;
+    .part {
+        flex-basis: 250px;
     }
 }
