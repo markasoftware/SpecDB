@@ -1,0 +1,7 @@
+hidden: true
+name: Ryzen R9 Base
+inherits:
+  - Threadripper
+data:
+  Release Date: 'TBA'
+  XFR Support: true
