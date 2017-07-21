@@ -1,1 +1,8 @@
 
+hidden: true
+name: Ryzen Threadripper
+data:
+  Architecture: Ryzen Threadripper
+  Lithography: 14 nm
+  Socket: TR4
+  Unlocked: true
