@@ -1,0 +1,27 @@
+name: Epyc
+humanName: Epyc
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2017-07-20'
+  Lithography: 14 nm
+  Sockets:
+  - SP3
+  Foundry: Global Foundries
+sections:
+  - header: Epyc 2P
+    members:
+      - Epyc-7601
+      - Epyc-7551
+      - Epyc-7501
+      - Epyc-7451
+      - Epyc-7401
+      - Epyc-7351
+      - Epyc-7301
+      - Epyc-7281
+      - Epyc-7251
+  - header: Epyc 1P
+    members:
+      - Epyc-7551P
+      - Epyc-7401P
+      - Epyc-7351P

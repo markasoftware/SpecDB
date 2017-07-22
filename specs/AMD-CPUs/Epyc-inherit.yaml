@@ -1,0 +1,8 @@
+hidden: true
+name: Epyc
+data:
+  Architecture: Epyc
+  Lithography: 14 nm
+  Socket: SP3
+  XFR Frequency: N/A
+  Release Date: '2017-07-20'

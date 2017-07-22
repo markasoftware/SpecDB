@@ -1,0 +1,14 @@
+name: Epyc-7281
+humanName: Epyc 7281
+inherits:
+  - Epyc
+isPart: true
+type: CPU
+data:
+  Thread Count: 32
+  Core Count: 16
+  Base Frequency: 2.1 GHz
+  Boost Frequency: 2.7 GHz
+  L2 Cache (Total): 8 MiB
+  L3 Cache (Total): 32 MiB
+  TDP: 155 W
