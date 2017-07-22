@@ -4,4 +4,4 @@ data:
   Architecture: Ryzen
   Lithography: 14 nm
   Socket: AM4
-  Unlocked: true
+  Unlocked: false
