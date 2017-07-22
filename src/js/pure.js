@@ -127,7 +127,7 @@ module.exports.processRow = (values, processor) => {
         if(processor.compare) {
             const preprocess = processor.preprocess ? processor.preprocess : (c => c);
             // filter is to get rid of any undefined values
-            const maxValue = values.filter(c => c).reduce((a, b) => processor.compare(preprocess(a), preprocess(b)) ? a : b)
+            const maxValue = values.filter(c => typeof c !== 'undefined').reduce((a, b) => processor.compare(preprocess(a), preprocess(b)) ? a : b)
             // find which ones are equal to the maxValue, put into maxIndices
             values.forEach((c, i) => {
                 if(c === maxValue) {
