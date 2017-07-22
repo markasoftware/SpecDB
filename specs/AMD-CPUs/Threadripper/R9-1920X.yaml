@@ -1,0 +1,16 @@
+
+name: R9-1920X
+humanName: R9 1920X
+isPart: true
+type: CPU
+inherits:
+  - Ryzen R9 Base
+data:
+  Core Count: 12
+  Thread Count: 24
+  L2 Cache (Total): 6 MiB
+  L3 Cache (Total): 32? MiB
+  Base Frequency: 3.5 GHz
+  Boost Frequency: 4.0 GHz
+  XFR Frequency: 4.1 Ghz
+  TDP: 180 W

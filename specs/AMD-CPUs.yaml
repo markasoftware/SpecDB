@@ -16,7 +16,6 @@ sections:
     - header: THREADRIPPER FAMILY
       members: 
         - Threadripper
-    - header: EPYC FAMILY
-      members: 
-        - Epyc
+
        
+

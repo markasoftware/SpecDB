@@ -19,3 +19,8 @@ sections:
       - R5-1600
       - R5-1500X
       - R5-1400
+  - header: RYZEN 3
+    members:
+      - R3-1300X
+      - R3-1200
+      

@@ -1,14 +1,14 @@
-name: Ryzen Threadripper
-humanName: Ryzen Threadripper
+name: Threadripper
+humanName: Threadripper
 type: CPU Architecture
 topHeader: 'SELECT CPU:'
 data:
-  Release Date: 'TBA'
+  Release Date: '2017-08-11'
   Lithography: 14 nm
   Sockets:
     - TR4
 sections:
-  - header:Threadripper
+  - header: Threadripper
     members:
       - R9-1950X
-      - R9-1920x
+      - R9-1920X
