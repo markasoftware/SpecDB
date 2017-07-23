@@ -1,7 +1,5 @@
 // provide row comparison, post-processing, pre-processing, etc
 
-
-
 // these are the "generic" types that some of our rows classify as
 // preprocess takes in the cell value, then turns it into something compare can use
 // compare should return the "best" out of both parameters
@@ -28,8 +26,9 @@ const versionToNum = inStr => inStr.split('.').map(c => parseInt(c)).reduce((a, 
 
 const boolPost = c => c ? 'Yes' : 'No';
 
-const numberUpCompare = (a, b) => a > b;
-const numberDownCompare = (a, b) => a < b;
+// NaN check is for TBA or something else, after parseFloating it is NaN and should be considered bad so highlighting still works for other parts
+const numberUpCompare = (a, b) => a > b || isNaN(b);
+const numberDownCompare = (a, b) => a < b || isNaN(b);
 
 const types = {
     numberUp: {
@@ -45,7 +44,6 @@ const types = {
         compare: numberUpCompare,
     },
     boolTrue: {
-        // if first is true then everything good
         compare: a => a,
         postprocess: boolPost,
         // may have to remove this later

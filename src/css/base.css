@@ -19,7 +19,8 @@ body {
 }
 #part-selector {
     flex: 40vw;
-    overflow: auto;
+    /* otherwise, the scrollbar affects width and can mess things up */
+    overflow: scroll;
     right: 0;
     box-shadow: 0 0 15px #999;
 }
@@ -84,4 +85,8 @@ h3 {
 }
 input[type="checkbox"] {
     display: none;
+}
+.red-selected {
+    color: #f44;
+    border: 2px solid #f44;
 }
