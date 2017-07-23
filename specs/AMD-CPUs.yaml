@@ -7,17 +7,10 @@ sections:
     - header: ZEN FAMILY
       members:
         - Ryzen
+        - Epyc
     - header: AMD FX FAMILY
       members:
         - Excavator
         - Steamroller
         - Piledriver
         - Bulldozer
-    - header: THREADRIPPER FAMILY
-      members: 
-        - Threadripper
-    - header: EPYC FAMILY
-      members: 
-        - Epyc
-       
-
