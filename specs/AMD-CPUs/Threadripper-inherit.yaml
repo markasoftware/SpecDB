@@ -1,0 +1,8 @@
+
+hidden: true
+name: Threadripper
+data:
+  Architecture: Zen
+  Lithography: 14 nm
+  Socket: TR4
+  Unlocked: true

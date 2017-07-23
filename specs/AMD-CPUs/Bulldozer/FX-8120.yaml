@@ -1,0 +1,12 @@
+name: FX-8120
+humanName: FX 8120
+isPart: true
+type: CPU
+inherits:
+  - Bulldozer 8C Base
+data:
+  Base Frequency: 3.1 GHz
+  Boost Frequency: 4.0 GHz
+  TDP: 125 W
+
+

@@ -1,0 +1,14 @@
+name: Epyc-7451
+humanName: Epyc 7451
+inherits:
+  - Epyc
+isPart: true
+type: CPU
+data:
+  Thread Count: 48
+  Core Count: 24
+  Base Frequency: 2.3 GHz
+  Boost Frequency: 3.2 GHz
+  L2 Cache (Total): 12 MiB
+  L3 Cache (Total): 64 MiB
+  TDP: 180 W

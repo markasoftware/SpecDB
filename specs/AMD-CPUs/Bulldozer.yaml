@@ -1,0 +1,26 @@
+name: Bulldozer
+humanName: Bulldozer
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2011-10-24'
+  Lithography: 32 nm
+  Sockets:
+  - AM3+
+  Foundry: Global Foundries
+sections:
+  - header: OCTACORE
+    members:
+      - FX-8150
+      - FX-8120
+      - FX-8100
+  - header: HEXACORE
+    members:
+      - FX-6200
+      - FX-6120
+      - FX-6100
+  - header: QUAD CORE
+    members:
+      - FX-4170
+      - FX-4130
+      - FX-4100

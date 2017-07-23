@@ -1,0 +1,12 @@
+name: FX-6200
+humanName: FX 6200
+isPart: true
+type: CPU
+inherits:
+  - Bulldozer 6C Base
+data:
+  Base Frequency: 3.8 GHz
+  Boost Frequency: 4.1 GHz
+  TDP: 125 W
+
+

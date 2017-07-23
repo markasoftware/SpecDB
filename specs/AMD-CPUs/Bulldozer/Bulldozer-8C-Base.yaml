@@ -1,0 +1,9 @@
+hidden: true
+name: Bulldozer 8C Base
+inherits:
+  - Bulldozer
+data:
+  Core Count: 8
+  Thread Count: 8
+  L2 Cache (Total): 8 MiB
+  L3 Cache (Total): 8 MiB

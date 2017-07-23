@@ -1,0 +1,8 @@
+hidden: true
+name: Bulldozer 4C Base
+inherits:
+  - Bulldozer
+data:
+  Core Count: 4
+  Thread Count: 4
+  L2 Cache (Total): 4 MiB
