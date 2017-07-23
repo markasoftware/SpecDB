@@ -1,0 +1,13 @@
+name: FX-4130
+humanName: FX 4130
+isPart: true
+type: CPU
+inherits:
+  - Bulldozer 4C Base
+data:
+  Base Frequency: 3.8 GHz
+  Boost Frequency: 4.0 GHz
+  TDP: 125 W
+  L3 Cache (Total): 4 MiB
+
+

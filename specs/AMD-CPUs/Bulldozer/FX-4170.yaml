@@ -1,0 +1,13 @@
+name: FX-4170
+humanName: FX 4170
+isPart: true
+type: CPU
+inherits:
+  - Bulldozer 4C Base
+data:
+  Base Frequency: 4.2 GHz
+  Boost Frequency: 4.3 GHz
+  TDP: 125 W
+  L3 Cache (Total): 8 MiB
+
+

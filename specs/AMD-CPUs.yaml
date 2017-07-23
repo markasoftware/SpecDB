@@ -7,7 +7,7 @@ sections:
     - header: ZEN FAMILY
       members:
         - Ryzen
-    - header: BULLDOZER FAMILY
+    - header: AMD FX FAMILY
       members:
         - Excavator
         - Steamroller
