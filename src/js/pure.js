@@ -36,7 +36,7 @@ module.exports.genSubtext = data => {
         case 'CPU':
             return [
                 innerData['Core Count'] + ' Cores, ' + innerData['Thread Count'] + ' Threads',
-                innerData['Base Frequency'].replace(' ','') + ' Base, ' + innerData['Boost Frequency'].replace(' ','') + ' Boost',
+                innerData['Base Frequency'].replace(' ','') + ' Base, ' + (innerData['Boost Frequency'] || 'No').replace(' ','') + ' Boost',
                 innerData.TDP.replace(' ','') + ' TDP',
             ];
         case 'Graphics Card':
