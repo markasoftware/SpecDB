@@ -6,6 +6,7 @@ const mainSelector = require('./components/main-selector.js');
 module.exports = {
     searchTerm: '',
     breadcrumbs: [],
+    onupdate: vnode => vnode.dom.parentElement.scrollTop = 0,
     view: vnode => {
         const curData = specData[vnode.state.breadcrumbs.length ? vnode.state.breadcrumbs.slice(-1) : 'AMD'];
         return m('.padded', [
