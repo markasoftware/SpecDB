@@ -78,6 +78,18 @@ test('Compare with other stuff', t => {
     t.end();
 });
 
+test('Regression', t => {
+    // issue #16, if all values are falsy they are all removed from comparison checking, and attempting to check comparisons on empty array is an error
+    // was fixed by checking for undefined, not just falsy
+    t.deepEqual(pure.processRow([false], {
+        compare: a => a,
+    }), {
+        values: [false],
+        maxIndices: [0],
+    }, '#16');
+    t.end();
+});
+
 test('defaults', t => {
     t.deepEqual(pure.processRow([-2, undefined], { default: 6 }), {
         values: [-2, 6],

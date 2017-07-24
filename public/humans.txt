@@ -1,5 +1,8 @@
 Developed by markasoftware / Mark Polyakov.
 
+Special Thanks To:
+* zcskywire2 for providing initial data for Epyc and Threadripper CPUs
+
 You can find a full list of contributors at https://github.com/markasoftware/SpecDB/graphs/contributors
 
 Thank you for your support!

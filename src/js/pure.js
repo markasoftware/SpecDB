@@ -36,7 +36,7 @@ module.exports.genSubtext = data => {
         case 'CPU':
             return [
                 innerData['Core Count'] + ' Cores, ' + innerData['Thread Count'] + ' Threads',
-                innerData['Base Frequency'].replace(' ','') + ' Base, ' + innerData['Boost Frequency'].replace(' ','') + ' Boost',
+                innerData['Base Frequency'].replace(' ','') + ' Base, ' + (innerData['Boost Frequency'] || 'No').replace(' ','') + ' Boost',
                 innerData.TDP.replace(' ','') + ' TDP',
             ];
         case 'Graphics Card':
@@ -127,7 +127,7 @@ module.exports.processRow = (values, processor) => {
         if(processor.compare) {
             const preprocess = processor.preprocess ? processor.preprocess : (c => c);
             // filter is to get rid of any undefined values
-            const maxValue = values.filter(c => c).reduce((a, b) => processor.compare(preprocess(a), preprocess(b)) ? a : b)
+            const maxValue = values.filter(c => typeof c !== 'undefined').reduce((a, b) => processor.compare(preprocess(a), preprocess(b)) ? a : b)
             // find which ones are equal to the maxValue, put into maxIndices
             values.forEach((c, i) => {
                 if(c === maxValue) {

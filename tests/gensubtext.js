@@ -129,6 +129,19 @@ test('CPU', t => {
         '3.5GHz Base, 3.5GHz Boost',
         '5W TDP',
     ]);
+    t.deepEqual(pure.genSubtext({
+        type: 'CPU',
+        data: {
+            'Core Count': 8,
+            'Thread Count': 8,
+            'Base Frequency': '3.5 GHz',
+            TDP: '250 W',
+        },
+    }), [
+        '8 Cores, 8 Threads',
+        '3.5GHz Base, No Boost',
+        '250W TDP',
+    ], 'Regression test for #19');
     t.end();
 });
 
