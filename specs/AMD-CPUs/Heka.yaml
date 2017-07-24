@@ -22,7 +22,7 @@ sections:
   - header: Low Power SKUs
     members:
       - 700e
-      - 710e
+      - 705e
   - header: Business Class SKUs
     members:
       - B73

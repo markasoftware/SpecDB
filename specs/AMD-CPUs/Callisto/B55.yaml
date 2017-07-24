@@ -1,0 +1,11 @@
+name: B55
+humanName: B55
+isPart: true
+type: CPU
+inherits:
+  - Callisto
+data:
+  Base Frequency: 3.0 GHz
+
+
+

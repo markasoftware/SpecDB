@@ -1,0 +1,11 @@
+name: B60
+humanName: B60
+isPart: true
+type: CPU
+inherits:
+  - Callisto
+data:
+  Base Frequency: 3.5 GHz
+
+
+

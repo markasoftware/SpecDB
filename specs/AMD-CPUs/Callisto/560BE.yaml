@@ -1,0 +1,12 @@
+name: 560BE
+humanName: 560 Black Edition
+isPart: true
+type: CPU
+inherits:
+  - Callisto
+data:
+  Base Frequency: 3.3 GHz
+  Unlocked: true
+
+
+

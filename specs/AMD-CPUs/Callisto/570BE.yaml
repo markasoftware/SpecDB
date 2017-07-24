@@ -1,0 +1,12 @@
+name: 570BE
+humanName: 570 Black Edition
+isPart: true
+type: CPU
+inherits:
+  - Callisto
+data:
+  Base Frequency: 3.5 GHz
+  Unlocked: true
+
+
+

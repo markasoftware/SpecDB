@@ -1,0 +1,11 @@
+name: 545
+humanName: 545
+isPart: true
+type: CPU
+inherits:
+  - Callisto
+data:
+  Base Frequency: 3.0 GHz
+
+
+

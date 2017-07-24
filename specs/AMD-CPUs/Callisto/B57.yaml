@@ -1,0 +1,11 @@
+name: B57
+humanName: B57
+isPart: true
+type: CPU
+inherits:
+  - Callisto
+data:
+  Base Frequency: 3.2 GHz
+
+
+

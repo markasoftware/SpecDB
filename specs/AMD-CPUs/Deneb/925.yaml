@@ -1,0 +1,13 @@
+name: 925
+humanName: 925
+isPart: true
+type: CPU
+inherits:
+  - Deneb
+data:
+  Base Frequency: 2.8 GHz
+  Socket: AM3,AM2+
+  L3 Cache (Total): 6 MiB
+  TDP: 95 W
+
+

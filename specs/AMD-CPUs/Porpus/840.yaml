@@ -1,0 +1,11 @@
+name: 840
+humanName: 840
+isPart: true
+type: CPU
+inherits:
+  - Porpus
+data:
+  Base Frequency: 3.2 GHz
+
+
+
