@@ -1,0 +1,12 @@
+name: 1075TBE
+humanName: 1075T Black Edition
+isPart: true
+type: CPU
+inherits:
+  - Thuban
+data:
+  Base Frequency: 3.0 GHz
+  Boost Frequency: 3.5 GHz
+  TDP: 125 W
+  Unlocked: true
+
