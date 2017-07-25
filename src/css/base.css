@@ -87,6 +87,7 @@ input[type="checkbox"] {
     display: none;
 }
 .red-selected {
-    color: #f44;
-    border: 2px solid #f44;
+    /* can't do selectivity based because <label> needs this... */
+    color: #f44 !important;
+    border: 2px solid #f44 !important;
 }
