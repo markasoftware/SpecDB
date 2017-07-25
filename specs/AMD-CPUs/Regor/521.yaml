@@ -1,0 +1,11 @@
+name: 521
+humanName: 521
+isPart: true
+type: CPU
+inherits:
+  - Regor
+data:
+  Base Frequency: 3.5 GHz
+
+
+

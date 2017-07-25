@@ -1,0 +1,12 @@
+name: 1100TBE
+humanName: 1100T Black Edition
+isPart: true
+type: CPU
+inherits:
+  - Thuban
+data:
+  Base Frequency: 3.3 GHz
+  Boost Frequency: 3.7 GHz
+  TDP: 125 W
+  Unlocked: true
+

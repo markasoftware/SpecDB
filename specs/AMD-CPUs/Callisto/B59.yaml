@@ -1,0 +1,11 @@
+name: B59
+humanName: B59
+isPart: true
+type: CPU
+inherits:
+  - Callisto
+data:
+  Base Frequency: 3.4 GHz
+
+
+

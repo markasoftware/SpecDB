@@ -1,0 +1,12 @@
+name: 720BE
+humanName: 720 Black Edition
+isPart: true
+type: CPU
+inherits:
+  - Heka
+data:
+  Base Frequency: 2.8 GHz
+  Socket: AM3,AM2+
+  TDP: 95 W
+  Unlocked: true
+

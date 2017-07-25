@@ -1,0 +1,13 @@
+name: 805
+humanName: 805
+isPart: true
+type: CPU
+inherits:
+  - Deneb
+data:
+  Base Frequency: 2.5 GHz
+  Socket: AM3,AM2+
+  L3 Cache (Total): 4 MiB
+  TDP: 95 W
+
+

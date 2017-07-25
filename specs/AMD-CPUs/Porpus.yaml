@@ -1,0 +1,16 @@
+name: Porpus
+humanName: Porpus
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2010-09-01'
+  Lithography: 45 nm
+  Sockets:
+  - AM2+
+  - AM3
+  Foundry: Global Foundries
+sections:
+  - header: Standard SKUs
+    members:
+      - 840
+      - 850

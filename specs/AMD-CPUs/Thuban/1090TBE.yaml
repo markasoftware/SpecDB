@@ -1,0 +1,12 @@
+name: 1090TBE
+humanName: 1090T Black Edition
+isPart: true
+type: CPU
+inherits:
+  - Thuban
+data:
+  Base Frequency: 3.2 GHz
+  Boost Frequency: 3.6 GHz
+  TDP: 125 W
+  Unlocked: true
+

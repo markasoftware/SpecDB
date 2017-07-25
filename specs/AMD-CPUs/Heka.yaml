@@ -1,0 +1,30 @@
+name: Heka
+humanName: Heka
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2010-09-01'
+  Lithography: 45 nm
+  Sockets:
+  - AM2+
+  - AM3
+  Foundry: Global Foundries
+sections:
+  - header: Black Edition SKUs
+    members:
+      - 715BE
+      - 720BE
+      - 740BE
+  - header: Standard SKUs
+    members:
+      - 710
+      - 720
+  - header: Low Power SKUs
+    members:
+      - 700e
+      - 705e
+  - header: Business Class SKUs
+    members:
+      - B73
+      - B75
+      - B77

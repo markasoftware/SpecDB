@@ -1,0 +1,13 @@
+hidden: true
+name: Porpus
+data:
+  Architecture: K10
+  Lithography: 45 nm
+  Core Count: 4
+  Thread Count: 4
+  L2 Cache (Total): 2 MiB
+  L3 Cache (Total): 0 MiB
+  TDP: 95 W
+  Boost Frequency: N/A
+  Socket: AM3,AM2+
+   

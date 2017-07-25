@@ -1,0 +1,11 @@
+name: B53
+humanName: B53
+isPart: true
+type: CPU
+inherits:
+  - Callisto
+data:
+  Base Frequency: 2.8 GHz
+
+
+

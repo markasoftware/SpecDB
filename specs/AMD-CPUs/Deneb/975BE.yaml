@@ -1,0 +1,14 @@
+name: 975BE
+humanName: 975 Black Edition
+isPart: true
+type: CPU
+inherits:
+  - Deneb
+data:
+  Base Frequency: 3.6 GHz
+  Socket: AM3,AM2+
+  L3 Cache (Total): 6 MiB
+  TDP: 125 W
+  Unlocked: true
+
+
