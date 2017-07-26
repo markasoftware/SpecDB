@@ -1,7 +1,5 @@
 // provide row comparison, post-processing, pre-processing, etc
 
-
-
 // these are the "generic" types that some of our rows classify as
 // preprocess takes in the cell value, then turns it into something compare can use
 // compare should return the "best" out of both parameters
@@ -17,19 +15,34 @@ const unitToNum = inStr => {
         'MiB/s': 1024 * 1024,
         'GiB/s': 1024 * 1024 * 1024,
         'Hz': 1,
-        'KHz': 1024,
-        'MHz': 1024 * 1024,
-        'GHz': 1024 * 1024 * 1024,
+        'KHz': 1000,
+        'MHz': 1000 * 1000,
+        'GHz': 1000 * 1000 * 1000,
     }
     return splitUp[0] * units[splitUp[1]];
 }
 
-const versionToNum = inStr => inStr.split('.').map(c => parseInt(c)).reduce((a, b, i) => a + b * 0.1 ** i, 0);
+const versionCompare = (a, b) => {
+    const aSplit = a.split('.').map(Number);
+    const bSplit = b.split('.').map(Number);
+    // if any part of b is lower than a, a is greater, otherwise equal or worse
+    for(let i = 0; i < Math.min(aSplit.length, bSplit.length); ++i) {
+        if(aSplit[i] > bSplit[i]) {
+            return true;
+        }
+        if(aSplit[i] < bSplit[i]) {
+            return false;
+        }
+    }
+    // if all available digits are the same, the longer one is better (1.1 is better than 1)
+    return a.length > b.length;
+}
 
 const boolPost = c => c ? 'Yes' : 'No';
 
-const numberUpCompare = (a, b) => a > b;
-const numberDownCompare = (a, b) => a < b;
+// NaN check is for TBA or something else, after parseFloating it is NaN and should be considered bad so highlighting still works for other parts
+const numberUpCompare = (a, b) => a > b || isNaN(b);
+const numberDownCompare = (a, b) => a < b || isNaN(b);
 
 const types = {
     numberUp: {
@@ -45,7 +58,6 @@ const types = {
         compare: numberUpCompare,
     },
     boolTrue: {
-        // if first is true then everything good
         compare: a => a,
         postprocess: boolPost,
         // may have to remove this later
@@ -57,10 +69,32 @@ const types = {
         default: true,
     },
     dateUp: {
-        preprocess: c => new Date(c),
+        preprocess: c => {
+            // yyyy-mm-dd
+            if(/^\d{4}-\d{2}-\d{2}$/.test(c)) {
+                return new Date(c);
+            }
+            // yyyy-mm
+            if(/^\d{4}-\d{2}$/.test(c)) {
+                return new Date(`${c}-01`);
+            }
+            // yyyy
+            if(/^\d{4}$/.test(c)) {
+                return new Date(+c, 0);
+            }
+            // quarter or half (Q2 2017, for example)
+            if(/^[QH]\d \d{4}$/.test(c)) {
+                const yyyy = c.slice(3);
+                // H2 == Q3 for comparison purposes
+                const q = c.slice(0, 2) === 'H2' ? 3 : +(c[1]);
+                return new Date(yyyy, (q - 1) * 3, 1);
+            }
+            // something weird, maybe TBA?
+            return new Date(0);
+        },
         compare: numberUpCompare,
         postprocess: c => {
-            const d = new Date(c);
+            const d = types.dateUp.preprocess(c);
             const humanMonth = [
                 'January',
                 'February',
@@ -79,8 +113,7 @@ const types = {
         }
     },
     versionUp: {
-        preprocess: versionToNum,
-        compare: numberUpCompare,
+        compare: versionCompare,
         default: '0.0',
     }
 };

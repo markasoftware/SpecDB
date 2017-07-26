@@ -1,0 +1,15 @@
+name: R3-1300X
+humanName: R3 1300X
+isPart: true
+type: CPU
+inherits:
+  - Ryzen R3 Base
+data:
+  Core Count: 4
+  Thread Count: 4
+  L2 Cache (Total): 2 MiB
+  L3 Cache (Total): 8 MiB
+  Base Frequency: 3.5 GHz
+  Boost Frequency: 3.7 GHz
+  XFR Frequency: 3.8 GHz
+  TDP: 65 W

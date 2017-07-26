@@ -25,4 +25,7 @@
     #mobile-toggle:checked ~ #big-flex-wrapper {
         transform: translateX(-100vw);
     }
+    .part {
+        flex-basis: 250px;
+    }
 }

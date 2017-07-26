@@ -1,0 +1,15 @@
+name: 920
+humanName: X4 920
+isPart: true
+type: CPU
+inherits:
+  - Deneb
+data:
+  Base Frequency: 2.8 GHz
+  Socket: AM2+
+  L3 Cache (Total): 6 MiB
+  TDP: 125 W
+  Release Date: '2009-01-08'
+
+
+

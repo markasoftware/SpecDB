@@ -1,1 +1,1 @@
-Sitemap: https://specdb.markasoftware.com/generated/sitemap.txt
+Sitemap: https://specdb.info/generated/sitemap.txt

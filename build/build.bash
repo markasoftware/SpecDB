@@ -14,5 +14,5 @@ then
     mv /tmp/bundle.js public/generated/bundle.js
 fi
 echo 'Bundling styles...'
-find src/ -name '*.css' | xargs cat | $cssMini > public/generated/all.css
+cat src/css/*.css | $cssMini > public/generated/all.css
 echo 'Build complete'

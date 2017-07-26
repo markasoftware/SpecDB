@@ -1,0 +1,14 @@
+name: FX-6120
+humanName: FX 6120
+isPart: true
+type: CPU
+inherits:
+  - Bulldozer 6C Base
+data:
+  Base Frequency: 3.5 GHz
+  Boost Frequency: 4.1 GHz
+  TDP: 95 W
+  Release Date: '2012'
+
+
+

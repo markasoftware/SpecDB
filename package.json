@@ -4,7 +4,9 @@
   "description": "An AMD equivalent for Intel's ARK",
   "scripts": {
     "test": "tape tests/*.js | tap-spec",
-    "build": "bash build/build.bash"
+    "build": "bash build/build.bash",
+    "create-cpu": "node build/create-cpu.js",
+    "create-gpu": "node build/create-gpu.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +15,6 @@
   "dependencies": {
     "babel-cli": "^6",
     "babel-plugin-array-includes": "^2",
-    "babel-plugin-transform-exponentiation-operator": "^6",
     "babel-preset-es2015": "^6",
     "browserify": "^14",
     "csso-cli": "*",
@@ -40,7 +41,6 @@
       ]
     ],
     "plugins": [
-      "transform-exponentiation-operator",
       "array-includes"
     ]
   }

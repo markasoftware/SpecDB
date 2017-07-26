@@ -5,7 +5,7 @@ test('canonical', t => {
     t.notOk(pure.seo([]).canonical, 'empty list');
     t.notOk(pure.seo(['Hello']).canonical, 'single element');
     t.notOk(pure.seo(['a', 'b', 'c']).canonical, 'already sorted');
-    t.equal(pure.seo(['c', 'a', 'b']).canonical, 'https://specdb.markasoftware.com/#!/a,b,c', 'not sorted');
+    t.equal(pure.seo(['c', 'a', 'b']).canonical, 'https://specdb.info/#!/a,b,c', 'not sorted');
     t.end();
 });
 

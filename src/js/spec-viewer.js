@@ -33,11 +33,11 @@ module.exports = {
                 // table options, e.g hide identical rows, advanced rows
                 m('.flex-wrapper.justify-center', [
                     m('.table-option', {
-                        class: vnode.state.identicalRows ? 'selected-table-option' : '',
+                        class: vnode.state.identicalRows ? 'red-selected' : '',
                         onclick: () => vnode.state.identicalRows = !vnode.state.identicalRows,
                     }, 'Show Identical Rows'),
                     m('.table-option', {
-                        class: vnode.state.advancedRows ? 'selected-table-option' : '',
+                        class: vnode.state.advancedRows ? 'red-selected' : '',
                         onclick: () => vnode.state.advancedRows = !vnode.state.advancedRows,
                     }, 'Show Advanced Data'),
                 ]),

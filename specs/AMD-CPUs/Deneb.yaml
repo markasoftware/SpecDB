@@ -1,0 +1,43 @@
+name: Deneb
+humanName: Deneb
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2009-01-08'
+  Lithography: 45 nm
+  Sockets:
+  - AM2+
+  - AM3
+  Foundry: Global Foundries
+sections:
+  - header: Black Edition SKUs
+    members:
+      - 940BE
+      - 955BE
+      - 965BE
+      - 970BE
+      - 975BE
+      - 980BE
+  - header: Standard SKUs
+    members:
+      - 805
+      - 810
+      - 820
+      - 830
+      - 910
+      - 920 
+      - 925
+      - 945
+      - 955
+  - header: Low Power SKUs
+    members:
+      - 900e
+      - 905e
+      - 910e
+  - header: Business Class SKUs
+    members:
+      - B93
+      - B95
+      - B97
+      - B99
+     

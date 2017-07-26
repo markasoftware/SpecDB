@@ -1,0 +1,13 @@
+name: 715BE
+humanName: X3 715 Black Edition
+isPart: true
+type: CPU
+inherits:
+  - Heka
+data:
+  Base Frequency: 2.8 GHz
+  Socket: AM2+
+  TDP: 95 W
+  Unlocked: true
+
+

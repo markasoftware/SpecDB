@@ -85,8 +85,5 @@ td.left-corner {
     padding: 1em;
     cursor: pointer;
     margin: 0 1vw;
-}
-.table-option.selected-table-option {
-    color: #f44;
-    border-color: #f44;
+    user-select: none;
 }

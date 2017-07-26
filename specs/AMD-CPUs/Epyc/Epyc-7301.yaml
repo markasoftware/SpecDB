@@ -1,0 +1,14 @@
+name: Epyc-7301
+humanName: Epyc 7301
+inherits:
+  - Epyc
+isPart: true
+type: CPU
+data:
+  Thread Count: 32
+  Core Count: 16
+  Base Frequency: 2.2 GHz
+  Boost Frequency: 2.7 GHz
+  L2 Cache (Total): 8 MiB
+  L3 Cache (Total): 64 MiB
+  TDP: 155 W

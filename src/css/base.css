@@ -19,7 +19,8 @@ body {
 }
 #part-selector {
     flex: 40vw;
-    overflow: auto;
+    /* otherwise, the scrollbar affects width and can mess things up */
+    overflow: scroll;
     right: 0;
     box-shadow: 0 0 15px #999;
 }
@@ -27,12 +28,11 @@ body {
     display: none;
     flex: 20vw;
     line-height: 100vh;
-    text-align: center;
-    font-size: 50pt;
-    /* omg 666 so edgy man */
-    color: #666;
-    /* I have no idea when this will be needed because it should only be displayed on mobile */
     cursor: pointer;
+    text-align: center;
+}
+#clicky-movey img {
+    width: 65%;
 }
 a, .a {
     color: #ff4545;
@@ -85,4 +85,9 @@ h3 {
 }
 input[type="checkbox"] {
     display: none;
+}
+.red-selected {
+    /* can't do selectivity based because <label> needs this... */
+    color: #f44 !important;
+    border: 2px solid #f44 !important;
 }

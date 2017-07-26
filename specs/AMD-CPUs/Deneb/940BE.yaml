@@ -1,0 +1,14 @@
+name: 940BE
+humanName: X4 940 Black Edition
+isPart: true
+type: CPU
+inherits:
+  - Deneb
+data:
+  Base Frequency: 3.0 GHz
+  Socket: AM2+
+  L3 Cache (Total): 6 MiB
+  TDP: 125 W
+  Unlocked: true
+  Release Date: '2009-01-08'
+

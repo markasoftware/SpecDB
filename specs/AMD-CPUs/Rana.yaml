@@ -1,0 +1,28 @@
+name: Rana
+humanName: Rana
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2009-10-20'
+  Lithography: 45 nm
+  Sockets:
+  - AM2+
+  - AM3
+  Foundry: Global Foundries
+sections:
+  - header: Standard SKUs
+    members:
+      - 425
+      - 435
+      - 440
+      - 445
+      - 450
+      - 455
+      - 460
+  - header: Low Power SKUs
+    members:
+      - 400e
+      - 405e
+      - 415e
+      - 420e
+      - 425e

@@ -8,6 +8,10 @@ data:
   Sockets:
     - AM4
 sections:
+  - header: THREADRIPPER
+    members:
+      - R9-1950X
+      - R9-1920X
   - header: RYZEN 7
     members:
       - R7-1800X
@@ -19,3 +23,8 @@ sections:
       - R5-1600
       - R5-1500X
       - R5-1400
+  - header: RYZEN 3
+    members:
+      - R3-1300X
+      - R3-1200
+      

@@ -1,0 +1,14 @@
+name: 980BE
+humanName: X4 980 Black Edition
+isPart: true
+type: CPU
+inherits:
+  - Deneb
+data:
+  Base Frequency: 3.7 GHz
+  Socket: AM3,AM2+
+  L3 Cache (Total): 6 MiB
+  TDP: 125 W
+  Unlocked: true
+  Release Date: '2011-05-03'
+

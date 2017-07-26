@@ -1,0 +1,12 @@
+name: 615e
+humanName: X4 615e
+isPart: true
+type: CPU
+inherits:
+  - Porpus-Athlon
+data:
+  Base Frequency: 2.5 GHz
+  TDP: 45 W
+  Release Date: '2010-09-21'
+
+

@@ -1,0 +1,12 @@
+name: 420e
+humanName: X3 420e
+isPart: true
+type: CPU
+inherits:
+  - Rana
+data:
+  Base Frequency: 2.6 GHz
+  TDP: 45 W
+  Release Date: '2009-09-21'
+
+
