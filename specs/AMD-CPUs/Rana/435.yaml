@@ -1,0 +1,12 @@
+name: 435
+humanName: X3 435
+isPart: true
+type: CPU
+inherits:
+  - Rana
+data:
+  Base Frequency: 2.9 GHz
+  TDP: 95 W
+  Release Date: '2009-10-20'
+
+

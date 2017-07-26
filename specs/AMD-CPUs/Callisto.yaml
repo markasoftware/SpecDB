@@ -1,0 +1,30 @@
+name: Callisto
+humanName: Callisto
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2009-06-01'
+  Lithography: 45 nm
+  Sockets:
+  - AM2+
+  - AM3
+  Foundry: Global Foundries
+sections:
+  - header: Black Edition SKUs
+    members:
+      - 550BE
+      - 555BE
+      - 560BE
+      - 565BE
+      - 570BE
+  - header: Standard SKUs
+    members:
+      - 545
+      - 550
+  - header: Business Class SKUs
+    members:
+      - B53
+      - B55
+      - B57
+      - B59
+      - B60

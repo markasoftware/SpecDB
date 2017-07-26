@@ -1,0 +1,11 @@
+name: 570BE
+humanName: X2 570 Black Edition
+isPart: true
+type: CPU
+inherits:
+  - Callisto
+data:
+  Base Frequency: 3.5 GHz
+  Unlocked: true
+  Release Date: '2011-05-03'
+

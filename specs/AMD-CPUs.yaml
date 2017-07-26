@@ -14,3 +14,30 @@ sections:
         - Steamroller
         - Piledriver
         - Bulldozer
+    - header: PHENOM II X6 FAMILY
+      members: 
+        - Thuban
+    - header: PHENOM II X4 FAMILY
+      members: 
+        - Zosma
+        - Deneb
+        - Porpus
+    - header: PHENOM II X3 FAMILY
+      members: 
+        - Heka
+    - header: PHENOM II X2 FAMILY
+      members: 
+        - Callisto
+        - Regor
+    - header: ATHLON II X4 FAMILY
+      members: 
+        - Porpus-Athlon
+    - header: ATHLON II X3 FAMILY
+      members: 
+        - Rana
+    - header: ATHLON II X2 FAMILY
+      members: 
+        - Regor-Athlon
+    - header: ATHLON II FAMILY
+      members: 
+        - Sargas

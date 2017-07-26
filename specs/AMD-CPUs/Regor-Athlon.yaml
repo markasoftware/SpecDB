@@ -1,0 +1,42 @@
+name: Regor-Athlon
+humanName: Regor
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2009-06-02'
+  Lithography: 45 nm
+  Sockets:
+  - AM2+
+  - AM3
+  Foundry: Global Foundries
+sections:
+  - header: Standard SKUs
+    members:
+      - 220
+      - 240
+      - 245
+      - 250
+      - 255
+      - 260
+      - 265
+      - 270
+      - 280
+  - header: Low Power SKUs
+    members:
+      - 210e
+      - 235e
+      - 240e
+      - 245e
+      - 250e
+  - header: Ultra Low Power SKUs
+    members:
+      - 250u
+      - 260u
+      - 270u
+  - header: Business Class SKUs
+    members:
+      - B22
+      - B24
+      - B26
+      - B28
+      - B30

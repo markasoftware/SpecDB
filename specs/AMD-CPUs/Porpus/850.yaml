@@ -1,0 +1,11 @@
+name: 850
+humanName: X4 850 
+isPart: true
+type: CPU
+inherits:
+  - Porpus
+data:
+  Base Frequency: 3.2 GHz
+  Release Date: 'Q2 2011'
+
+
