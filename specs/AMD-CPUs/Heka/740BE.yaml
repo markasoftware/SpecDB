@@ -1,0 +1,12 @@
+name: 740BE
+humanName: X3 740 Black Edition
+isPart: true
+type: CPU
+inherits:
+  - Heka
+data:
+  Base Frequency: 3.0 GHz
+  Socket: AM3,AM2+
+  TDP: 95 W
+  Unlocked: true
+  Release Date: '2009-09'

@@ -1,0 +1,12 @@
+name: 425
+humanName: X3 425
+isPart: true
+type: CPU
+inherits:
+  - Rana
+data:
+  Base Frequency: 2.7 GHz
+  TDP: 95 W
+  Release Date: '2009-10-20'
+
+

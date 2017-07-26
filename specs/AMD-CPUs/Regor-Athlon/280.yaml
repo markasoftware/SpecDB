@@ -1,0 +1,12 @@
+name: 280
+humanName: X2 280
+isPart: true
+type: CPU
+inherits:
+  - Regor-Athlon
+data:
+  Base Frequency: 3.6 GHz
+  TDP: 65 W
+  L2 Cache (Total): 2 MiB
+  Release Date: '2013-02-01'
+

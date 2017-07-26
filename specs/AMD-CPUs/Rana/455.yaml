@@ -1,0 +1,12 @@
+name: 455
+humanName: X3 455
+isPart: true
+type: CPU
+inherits:
+  - Rana
+data:
+  Base Frequency: 3.3 GHz
+  TDP: 95 W
+  Release Date: '2010-12-07'
+
+

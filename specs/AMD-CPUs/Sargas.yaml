@@ -1,0 +1,17 @@
+name: Sargas
+humanName: Sargas
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2009-10-20'
+  Lithography: 45 nm
+  Sockets:
+  - AM2+
+  - AM3
+  Foundry: Global Foundries
+sections:
+  - header: Ultra Low Power SKUs
+    members:
+      - 160u
+      - 170u
+

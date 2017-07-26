@@ -1,0 +1,27 @@
+name: Porpus-Athlon
+humanName: Porpus
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2009-10-20'
+  Lithography: 45 nm
+  Sockets:
+  - AM2+
+  - AM3
+  Foundry: Global Foundries
+sections:
+  - header: Standard SKUs
+    members:
+      - 620
+      - 630
+      - 635
+      - 640
+      - 645
+      - 650
+  - header: Low Power SKUs
+    members: 
+      - 600e
+      - 605e
+      - 610e
+      - 615e
+      - 620e

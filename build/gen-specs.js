@@ -39,7 +39,7 @@ const traverse = path => {
         if(fs.statSync(fullPath).isFile()) {
             const curData = parseYaml(fs.readFileSync(fullPath));
             if(curData.isPart) {
-                toSitemap.push(`https://specdb.markasoftware.com/#!/${curData.name}`);
+                toSitemap.push(`https://specdb.info/#!/${curData.name}`);
             }
             if(!curData.hidden) {
                 // we do || {} because some categories have no data
@@ -58,7 +58,7 @@ traverse(basePath);
 
 fs.writeFileSync(specOutPath, 'module.exports = ' + JSON.stringify(toReturn) + ';');
 fs.writeFileSync(sitemapOutPath,
-`https://specdb.markasoftware.com/#!/
-https://specdb.markasoftware.com/#!/about
+`https://specdb.info/#!/
+https://specdb.info/#!/about
 ${toSitemap.join('\n')}`
 )

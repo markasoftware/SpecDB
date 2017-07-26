@@ -1,0 +1,12 @@
+name: 210e
+humanName: X2 210e
+isPart: true
+type: CPU
+inherits:
+  - Regor-Athlon
+data:
+  Base Frequency: 2.6 GHz
+  TDP: 45 W
+  L2 Cache (Total): 1 MiB
+  Release Date: '2010-09-21'
+

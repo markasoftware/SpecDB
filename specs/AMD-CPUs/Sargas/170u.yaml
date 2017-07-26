@@ -1,0 +1,11 @@
+name: 170u
+humanName: 170u
+isPart: true
+type: CPU
+inherits:
+  - Sargas
+data:
+  Base Frequency: 2.0 GHz
+  Release Date: '2010-05-11'
+
+
