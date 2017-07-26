@@ -1,0 +1,11 @@
+name: 160u
+humanName: 160u
+isPart: true
+type: CPU
+inherits:
+  - Sargas
+data:
+  Base Frequency: 1.8 GHz
+
+
+

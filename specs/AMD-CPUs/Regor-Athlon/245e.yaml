@@ -1,0 +1,12 @@
+name: 245e
+humanName: X2 245e
+isPart: true
+type: CPU
+inherits:
+  - Regor-Athlon
+data:
+  Base Frequency: 2.9 GHz
+  TDP: 45 W
+  L2 Cache (Total): 2 MiB
+
+

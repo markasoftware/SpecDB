@@ -1,0 +1,12 @@
+name: 400e
+humanName: X3 400e
+isPart: true
+type: CPU
+inherits:
+  - Rana
+data:
+  Base Frequency: 2.2 GHz
+  TDP: 45 W
+
+
+

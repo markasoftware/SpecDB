@@ -1,0 +1,12 @@
+name: B28
+humanName: X2 B28
+isPart: true
+type: CPU
+inherits:
+  - Regor-Athlon
+data:
+  Base Frequency: 3.4 GHz
+  TDP: 65 W
+  L2 Cache (Total): 2 MiB
+
+

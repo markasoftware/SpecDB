@@ -1,0 +1,12 @@
+name: 635
+humanName: X4 635
+isPart: true
+type: CPU
+inherits:
+  - Porpus-Athlon
+data:
+  Base Frequency: 2.9 GHz
+  TDP: 95 W
+
+
+

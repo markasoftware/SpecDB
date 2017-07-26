@@ -1,0 +1,12 @@
+name: 250
+humanName: X2 250
+isPart: true
+type: CPU
+inherits:
+  - Regor-Athlon
+data:
+  Base Frequency: 3.0 GHz
+  TDP: 65 W
+  L2 Cache (Total): 2 MiB
+
+

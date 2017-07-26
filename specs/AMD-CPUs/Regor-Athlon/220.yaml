@@ -1,0 +1,12 @@
+name: 220
+humanName: X2 220
+isPart: true
+type: CPU
+inherits:
+  - Regor-Athlon
+data:
+  Base Frequency: 2.8 GHz
+  TDP: 65 W
+  L2 Cache (Total): 1 MiB
+
+

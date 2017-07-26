@@ -1,0 +1,11 @@
+hidden: true
+name: Porpus-Athlon
+data:
+  Architecture: K10
+  Lithography: 45 nm
+  Core Count: 4
+  Thread Count: 4
+  L2 Cache (Total): 2 MiB
+  L3 Cache (Total): 0 MiB
+  Socket: AM3,AM2+
+   

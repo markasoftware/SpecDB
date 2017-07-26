@@ -1,0 +1,12 @@
+name: 415e
+humanName: X3 415e
+isPart: true
+type: CPU
+inherits:
+  - Rana
+data:
+  Base Frequency: 2.5 GHz
+  TDP: 45 W
+
+
+
