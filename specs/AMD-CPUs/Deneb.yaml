@@ -3,7 +3,7 @@ humanName: Deneb
 type: CPU Architecture
 topHeader: 'SELECT CPU:'
 data:
-  Release Date: '2010-09-01'
+  Release Date: '2009-01-08'
   Lithography: 45 nm
   Sockets:
   - AM2+

@@ -12,7 +12,6 @@ data:
 sections:
   - header: Black Edition SKUs
     members:
-      - 970BE
       - 960TBE
   - header: Standard SKUs
     members:

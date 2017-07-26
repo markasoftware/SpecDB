@@ -3,7 +3,7 @@ humanName: Bulldozer
 type: CPU Architecture
 topHeader: 'SELECT CPU:'
 data:
-  Release Date: '2011-10-24'
+  Release Date: '2011-10-12'
   Lithography: 32 nm
   Sockets:
   - AM3+

@@ -1,5 +1,5 @@
 name: 920
-humanName: X4920
+humanName: X4 920
 isPart: true
 type: CPU
 inherits:
@@ -9,5 +9,7 @@ data:
   Socket: AM2+
   L3 Cache (Total): 6 MiB
   TDP: 125 W
+  Release Date: '2009-01-08'
+
 
 

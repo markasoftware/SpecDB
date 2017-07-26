@@ -3,7 +3,7 @@ humanName: Heka
 type: CPU Architecture
 topHeader: 'SELECT CPU:'
 data:
-  Release Date: '2010-09-01'
+  Release Date: '2009-02-09'
   Lithography: 45 nm
   Sockets:
   - AM2+
