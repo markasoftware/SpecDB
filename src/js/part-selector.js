@@ -1,14 +1,36 @@
 const m = require('mithril');
 const specData = require('spec-data');
-const specKeys = Object.keys(specData);
 const mainSelector = require('./components/main-selector.js');
 
 module.exports = {
     searchTerm: '',
     breadcrumbs: [],
-    onupdate: vnode => vnode.dom.parentElement.scrollTop = 0,
+    onupdate: vnode => document.getElementById('part-selector').scrollTop = 0,
     view: vnode => {
+        const searchSections = [];
+        Object.keys(specData)
+        .filter(c =>
+            vnode.state.searchTerm.split(/[ \-_]/g).every(term =>
+                    specData[c].humanName.toLowerCase().includes(term.toLowerCase())
+            ) && specData[c].isPart
+        )
+        // group by type
+        // possible TODO: make this do in a certain order. i.e, CPUs should probably go above APUs once that's implemented
+        .sort((a, b) => specData[a].type > specData[b].type)
+        .forEach(c => {
+            // if we have a new type, create a new section
+            if(searchSections.length === 0 || searchSections[searchSections.length - 1].header !== specData[c].type + 's') {
+                searchSections.push({
+                    // best way to pluralize
+                    // TODO: refactor
+                    header: specData[c].type + 's',
+                    members: [],
+                });
+            }
+            searchSections[searchSections.length - 1].members.push(c);
+        });
         const curData = specData[vnode.state.breadcrumbs.length ? vnode.state.breadcrumbs.slice(-1) : 'AMD'];
+
         return m('.padded', [
             m('input#search-toggle[type="checkbox"][name="search-toggle"]'),
             m('label#search-toggle-label[for="search-toggle"]',
@@ -21,14 +43,7 @@ module.exports = {
                 }),
                 m('h2', 'RESULTS:'),
                 m(mainSelector, {
-                    sections: [{
-                        // perform search, match every word
-                        members: specKeys.filter(curKey =>
-                            vnode.state.searchTerm.split(/[ \-_]/g).every(term =>
-                                specData[curKey].humanName.toLowerCase().includes(term.toLowerCase())
-                            ) && specData[curKey].isPart
-                        ),
-                    }],
+                    sections: searchSections,
                 }),
             ]),
             m('#not-searching-container', [
