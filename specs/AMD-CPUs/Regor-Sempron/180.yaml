@@ -1,0 +1,11 @@
+name: 180
+humanName: '180'
+isPart: true
+type: CPU
+inherits:
+  - Regor-Sempron
+data:
+  Base Frequency: 2.4 GHz
+  Release Date: 'Q3 2010'
+
+

@@ -1,0 +1,11 @@
+name: 190
+humanName: '190'
+isPart: true
+type: CPU
+inherits:
+  - Regor-Sempron
+data:
+  Base Frequency: 2.5 GHz
+  Release Date: 'Q3 2011'
+
+
