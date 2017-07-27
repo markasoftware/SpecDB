@@ -12,7 +12,7 @@ data:
   VRAM Capacity: 4 GiB
   VRAM Bus Width: 4096 Bits
   VRAM Type: HBM
-  VRAM Bandwidth: 477 GiB/s
+  VRAM Bandwidth: 512 GiB/s
   TDP: 175 W
 inherits:
   - GCN 3

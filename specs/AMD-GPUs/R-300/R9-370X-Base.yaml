@@ -10,7 +10,7 @@ data:
   VRAM Frequency: 5600 MT/s
   VRAM Bus Width: 256 Bits
   VRAM Type: GDDR5
-  VRAM Bandwidth: 167 GiB/s
+  VRAM Bandwidth: 179.2 GiB/s
   TDP: 185 W
 inherits:
   - GCN 1

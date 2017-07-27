@@ -15,5 +15,5 @@ data:
   VRAM Frequency: 5500 MT/s
   VRAM Capacity: 2 GiB
   VRAM Bus Width: 256 Bits
-  VRAM Bandwidth: 164 GiB/s
+  VRAM Bandwidth: 176 GiB/s
   TDP: 190 W

@@ -12,7 +12,7 @@ data:
   VRAM Capacity: 4 GiB
   VRAM Bus Width: 256 Bits
   VRAM Type: GDDR5
-  VRAM Bandwidth: 170 GiB/s
+  VRAM Bandwidth: 182.4 GiB/s
   TDP: 190 W
 inherits:
   - GCN 3

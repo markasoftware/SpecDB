@@ -10,9 +10,9 @@ data:
   Base Frequency: 1000 MHz
   VRAM Frequency: 1000 MT/s
   VRAM Capacity: 4 GiB (per chip)
-  VRAM Bus Width: 4196 Bits
+  VRAM Bus Width: 4096 Bits
   VRAM Type: HBM
-  VRAM Bandwidth: 477 GiB/s
+  VRAM Bandwidth: 512 GiB/s
   TDP: 350 W
 inherits:
   - GCN 3

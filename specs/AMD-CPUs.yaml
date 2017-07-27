@@ -10,10 +10,13 @@ sections:
         - Epyc
     - header: AMD FX FAMILY
       members:
-        - Excavator
-        - Steamroller
         - Piledriver
         - Bulldozer
+    - header: ATHLON X4 FAMILY
+      members:
+        - Carrizo
+        - Kaveri
+        - Richland
     - header: PHENOM II X6 FAMILY
       members: 
         - Thuban
@@ -49,6 +52,8 @@ sections:
         - Toliman
     - header: ATHLON X2 FAMILY
       members: 
+        - Kaveri
+        - Richland
         - Kuma
     - header: SEMPRON 100 FAMILY
       members: 
