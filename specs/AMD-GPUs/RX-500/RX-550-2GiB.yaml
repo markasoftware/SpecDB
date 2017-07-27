@@ -1,0 +1,21 @@
+name: RX-550-2GiB
+humanName: RX 550 (2GiB)
+isPart: true
+type: Graphics Card
+inherits:
+  - GCN 4
+data:
+  Release Date: '2017-04-18'
+  Base Frequency: 1100 MHz
+  Boost Frequency: 1183 MHz
+  VRAM Frequency: 7000 MT/s
+  VRAM Bandwidth: 112 GiB/s
+  VRAM Capacity: 2 GiB
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 512
+  Die Size: 101 mm
+  GPU: Polaris 12 
+  TDP: 50 W
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 Bits

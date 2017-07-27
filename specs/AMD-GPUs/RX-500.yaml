@@ -19,3 +19,5 @@ sections:
     members:
     - RX-560-4GiB
     - RX-560-2GiB
+    - RX-550-4GiB
+    - RX-550-2GiB

@@ -6,8 +6,8 @@ data:
   Release Date: '2016-08-04'
   Base Frequency: 926 MHz
   Boost Frequency: 1206 MHz
-  VRAM Frequency: 6000 MT/s
-  VRAM Bandwidth: 197 GiB/s
+  VRAM Frequency: 6600 MT/s
+  VRAM Bandwidth: 211 GiB/s
   Render Output Unit Count: 32
   Texture Mapping Unit Count: 128
   Shader Processor Count: 2048

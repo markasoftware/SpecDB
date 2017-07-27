@@ -8,7 +8,7 @@ data:
   Boost Frequency: 1244 MHz
   VRAM Frequency: 7000 MT/s
   VRAM Capacity: 4 GiB
-  VRAM Bandwidth: 209 GiB/s
+  VRAM Bandwidth: 224 GiB/s
   TDP: 150 W
 inherits:
   - RX 570 580 Base
