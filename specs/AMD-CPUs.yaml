@@ -41,3 +41,12 @@ sections:
     - header: ATHLON II FAMILY
       members: 
         - Sargas
+    - header: PHENOM X4 FAMILY
+      members: 
+        - Agena
+    - header: PHENOM X3 FAMILY
+      members: 
+        - Toliman
+    - header: ATHLON X2 FAMILY
+      members: 
+        - Kuma

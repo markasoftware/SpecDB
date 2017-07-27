@@ -1,0 +1,11 @@
+name: 9450e
+humanName: X4 9450e
+isPart: true
+type: CPU
+inherits:
+  - Agena
+data:
+  Base Frequency: 2.1 GHz
+  TDP: 65 W
+  Release Date: '2008-10'
+
