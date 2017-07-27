@@ -50,9 +50,9 @@ test('date', t => {
 
     t.deepEqual(subject.preprocess('2001-02-27'), new Date('2001-02-27'), 'preprocess yyyy-mm-dd');
     t.deepEqual(subject.preprocess('2001-02'), new Date('2001-02-01'), 'preprocess yyyy-mm');
-    t.deepEqual(subject.preprocess('2001'), new Date('2001-01-01'), 'preprocess yyyy');
-    t.deepEqual(subject.preprocess('Q2 2001'), new Date('2001-04-01'), 'preprocess Q');
-    t.deepEqual(subject.preprocess('H2 2001'), new Date('2001-07-01'), 'preprocess H');
+    t.deepEqual(subject.preprocess('2001'), new Date(2001, 0), 'preprocess yyyy');
+    t.deepEqual(subject.preprocess('Q2 2001'), new Date(2001, 3), 'preprocess Q');
+    t.deepEqual(subject.preprocess('H2 2001'), new Date(2001, 6), 'preprocess H');
 
     t.equal(subject.postprocess('2001-02-27'), 'February 27, 2001', 'basic postprocess');
     t.end();

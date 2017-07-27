@@ -3,12 +3,13 @@
 }
 #about-wrapper h1 {
     font-size: 3.5em;
+    margin-bottom: 7vh;
 }
 #about-wrapper p {
     color: #777;
     font-size: 14pt;
     width: 30vw;
-    margin-top: 7vh;
+    margin: 4vh 0;
 }
 #about-wrapper a {
     font-size: 14pt;

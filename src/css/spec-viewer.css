@@ -1,14 +1,14 @@
-.big-padded {
-    padding: 3em 4vw;
+#spec-viewer {
+    flex: 60vw;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    padding: 5vh 4vw 0 4vw;
 }
 #nothing-selected {
     font-size: 4em;
     font-style: italic;
     text-align: center;
     color: #888;
-    line-height: 15vh;
-    padding-top: 0;
-    margin-top: 0;
     font-family: Quicksand, sans-serif;
 }
 .justify-center {
@@ -27,34 +27,35 @@ h2.centered {
 h2.top {
     padding-top: 0;
 }
-table {
+.spec-tab {
     background-color: #fff;
     box-shadow: 0 0 5px #999;
     margin: 5vh auto;
     border-collapse: collapse;
 }
-th, td {
+.spec-tab th, .spec-tab td {
     padding: 1.3em 1em;
     border-left: 1px solid #ccc;
     width: 10vw;
+    vertical-align: top;
 }
-th {
+.spec-tab th {
     font-weight: 600;
     font-size: 1.1em;
 }
-tr:nth-child(even) {
+.spec-tab tr:nth-child(even) {
     background-color: #f7f7f7;
 }
-td.winner {
+.spec-tab td.winner {
     color: #ff4545;
 }
-td:first-child {
+.spec-tab td:first-child {
     color: #777;
     border-left: none;
     width: 8vw;
     font-family: Quicksand, sans-serif;
 }
-td.left-corner {
+.spec-tab td.left-corner {
     border: none;
 }
 .hr {
@@ -67,7 +68,7 @@ td.left-corner {
     color: #777;
     position: absolute;
     text-align: center;
-    bottom: 1.5em;
+    bottom: 0;
     font-size: 0.9em;
 }
 #info-links a {

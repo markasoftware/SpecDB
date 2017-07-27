@@ -31,11 +31,11 @@ module.exports = {
         });
         const curData = specData[vnode.state.breadcrumbs.length ? vnode.state.breadcrumbs.slice(-1) : 'AMD'];
 
-        return m('.padded', [
+        return [
             m('input#search-toggle[type="checkbox"][name="search-toggle"]'),
             m('label#search-toggle-label[for="search-toggle"]',
                 // TODO: replace with svg icon for better compatibility
-                m('#search-icon', '⚲'), // u26b2
+                m('#search-icon', '⚲') // u26b2
             ),
             m('#searching-container', [
                 m('input#search-bar[placeholder="Search..."]', {
@@ -62,6 +62,6 @@ module.exports = {
                     onCategorySelect: newCrumb => vnode.state.breadcrumbs.push(newCrumb),
                 })
             ]),
-        ]);
+        ];
     },
 }

@@ -1,3 +1,12 @@
+#part-selector {
+    flex: 40vw;
+    /* otherwise, the scrollbar affects width and can mess things up */
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    right: 0;
+    box-shadow: 0 0 15px #999;
+    padding: 5vh;
+}
 #part-selector span.a {
     font-size: 14pt;
 }

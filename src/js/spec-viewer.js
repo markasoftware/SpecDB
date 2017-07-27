@@ -19,8 +19,8 @@ module.exports = {
             rowNames = pure.getRowNames(partData, vnode.state.advancedRows);
         }
         // filter out advanced rows if necessary
-        return m('.relative-container', [
-            m('.big-padded', partNames.length === 0 ? [
+        return [
+            (partNames.length === 0 ? [
                 m('#nothing-selected', 'No Parts Selected'),
             ] : [
                 m('h2.centered.top', 'SELECTED COMPONENTS:'),
@@ -41,7 +41,7 @@ module.exports = {
                         onclick: () => vnode.state.advancedRows = !vnode.state.advancedRows,
                     }, 'Show Advanced Data'),
                 ]),
-                m('table', [
+                m('table.spec-tab', [
                     // header with part names
                     m('tr', [
                         m('td.left-corner'),
@@ -74,6 +74,6 @@ module.exports = {
                 ' — ',
                 m('a', { href: 'https://github.com/markasoftware/SpecDB', target: '_blank' }, 'GitHub'),
             ]),
-        ]);
+        ];
     },
 }

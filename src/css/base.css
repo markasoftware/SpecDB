@@ -13,17 +13,6 @@ body {
     height: 100vh;
     transition: transform 200ms ease-in-out;
 }
-#spec-viewer {
-    flex: 60vw;
-    overflow: auto;
-}
-#part-selector {
-    flex: 40vw;
-    /* otherwise, the scrollbar affects width and can mess things up */
-    overflow: scroll;
-    right: 0;
-    box-shadow: 0 0 15px #999;
-}
 #clicky-movey {
     display: none;
     flex: 20vw;
@@ -41,9 +30,6 @@ a, .a {
 }
 a:hover, .a:hover, a:active, .a:active {
     text-decoration: underline;
-}
-.padded {
-    padding: 5vh;
 }
 h2 {
     padding: 3vh 0;
@@ -78,10 +64,6 @@ h3 {
     border-radius: 3px;
     transition: transform 400ms;
     padding: 1.5vh 1.5vw;
-}
-.relative-container {
-    position: relative;
-    min-height: 100vh;
 }
 input[type="checkbox"] {
     display: none;
