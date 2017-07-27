@@ -1,11 +1,15 @@
 #spec-viewer {
     flex: 60vw;
-    overflow: scroll;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     padding: 5vh 4vw 0 4vw;
 }
 #nothing-selected {
-    font-size: 4em;
+    font-size: 4rem;
+    line-height: 4rem;
+    height: calc(95vh - 2.5rem);
     font-style: italic;
     text-align: center;
     color: #888;
@@ -66,9 +70,7 @@ h2.top {
 #info-links {
     width: 100%;
     color: #777;
-    position: absolute;
     text-align: center;
-    bottom: 0;
     font-size: 0.9em;
 }
 #info-links a {

@@ -12,11 +12,12 @@
     #big-flex-wrapper {
         width: 200vw;
     }
-    #spec-viewer {
+    /* it worked without higher specificity before but now it's not so whatever */
+    div#spec-viewer {
         flex: 90vw;
         box-shadow: 0 0 15px #999;
     }
-    #part-selector {
+    div#part-selector {
         flex: 90vw;
     }
     #clicky-movey {

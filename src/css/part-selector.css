@@ -1,7 +1,9 @@
 #part-selector {
     flex: 40vw;
+    box-sizing: border-box;
     /* otherwise, the scrollbar affects width and can mess things up */
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     right: 0;
     box-shadow: 0 0 15px #999;
