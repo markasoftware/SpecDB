@@ -31,16 +31,19 @@ h2.centered {
 h2.top {
     padding-top: 0;
 }
+
+/* table stuff */
 .spec-tab {
     background-color: #fff;
     box-shadow: 0 0 5px #999;
-    margin: 5vh auto;
     border-collapse: collapse;
+    margin: 5vh auto;
 }
 .spec-tab th, .spec-tab td {
     padding: 1.3em 1em;
     border-left: 1px solid #ccc;
-    width: 10vw;
+    max-width: 10rem;
+    min-width: 10rem;
     vertical-align: top;
 }
 .spec-tab th {
@@ -50,16 +53,16 @@ h2.top {
 .spec-tab tr:nth-child(even) {
     background-color: #f7f7f7;
 }
-.spec-tab td.winner {
+.spec-tab .winner {
     color: #ff4545;
 }
-.spec-tab td:first-child {
+.spec-tab .row-header {
     color: #777;
     border-left: none;
     width: 8vw;
     font-family: Quicksand, sans-serif;
 }
-.spec-tab td.left-corner {
+.spec-tab .left-corner {
     border: none;
 }
 .hr {
@@ -72,6 +75,7 @@ h2.top {
     color: #777;
     text-align: center;
     font-size: 0.9em;
+    margin-bottom: 1rem;
 }
 #info-links a {
     color: inherit;
@@ -89,4 +93,79 @@ h2.top {
     cursor: pointer;
     margin: 0 1vw;
     user-select: none;
+}
+
+/* table sections stuff */
+.spec-tab td.table-section-hidden {
+    max-width: 0;
+    min-width: 0;
+    width: 0;
+    /* setting height to 0 allows us to do percentage height for children,
+       but doesn't actually change the height of the cell. */
+    height: 0;
+    padding: 0;
+    border: none;
+}
+.table-section {
+    height: 100%;
+    position: relative;
+    left: calc(-30px - 8rem);
+    width: calc(30px + 7rem);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.table-section-label {
+    width: 6rem;
+    text-align: right;
+    margin-right: 1rem;
+}
+.table-section-bracket {
+    position: relative;
+    height: calc(100% - 3rem);
+    width: 30px;
+}
+.table-section-bracket div {
+    position: absolute;
+}
+.bracket-curve {
+  border-radius: 999px;
+  box-sizing: border-box;
+  height: 40px;
+  width: 40px;
+  border: 10px solid transparent;
+  border-top-color: #999;;
+}
+.bracket-rect {
+  height: calc((100% - 70px) / 2);
+  background-color: #999;
+  width: 10px;
+}
+#bracket-upper-end {
+  transform: rotate(-45deg);
+  left: 10px;
+  top: 0;
+}
+#bracket-upper-rect {
+  left: 10px;
+  top: 20px;
+}
+#bracket-upper-join {
+  transform: rotate(135deg);
+  left: -20px;
+  top: calc((100% - 70px) / 2);
+}
+#bracket-lower-join {
+  transform: rotate(45deg);
+  bottom: calc((100% - 70px) / 2);
+  left: -20px;
+}
+#bracket-lower-rect {
+  left: 10px;
+  bottom: 20px;
+}
+#bracket-lower-end {
+  transform: rotate(-135deg);
+  left: 10px;
+  bottom: 0;
 }

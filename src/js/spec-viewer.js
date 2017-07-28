@@ -44,6 +44,7 @@ module.exports = {
                 m('table.spec-tab', [
                     // header with part names
                     m('tr', [
+                        m('td.table-section-hidden'),
                         m('td.left-corner'),
                         partData.map(c => m('th', c.humanName))
                     ]),
@@ -59,6 +60,21 @@ module.exports = {
                             return;
                         }
                         return m('tr', [
+                            // TODO: logic for sections
+                            (curRowName === 'Base Frequency' ?
+                            m('td.table-section-hidden[rowspan="7"]', 
+                                m('.table-section', [
+                                    m('a.table-section-label', 'Basic Specs'),
+                                    m('.table-section-bracket', [
+                                        m('#bracket-upper-end.bracket-curve'),
+                                        m('#bracket-upper-rect.bracket-rect'),
+                                        m('#bracket-upper-join.bracket-curve'),
+                                        m('#bracket-lower-join.bracket-curve'),
+                                        m('#bracket-lower-rect.bracket-rect'),
+                                        m('#bracket-lower-end.bracket-curve'),
+                                    ]),
+                                ])
+                            ) : []),
                             m('td.row-header', curRowName),
                             processed.values.map((c, i) => m('td' + 
                                 ((!allEqual) && isComparing && processed.maxIndices.includes(i)? '.winner' : ''), c)),
