@@ -22,7 +22,7 @@
     line-height: 3rem;
 }
 .part {
-    height: 8em;
+    min-height: 8em;
     min-width: 250px;
     width: 15vw;
     box-shadow: 0 0 8px #777;

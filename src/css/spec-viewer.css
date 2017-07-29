@@ -72,6 +72,7 @@ h2.top {
     color: #777;
     text-align: center;
     font-size: 0.9em;
+    margin-bottom: 1rem;
 }
 #info-links a {
     color: inherit;
