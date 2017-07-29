@@ -1,8 +1,8 @@
 isPart: true
 type: Graphics Card
-data:
+data: 
   GPU: Pitcairn
-  Codename:Pitcairn Pro
+  Codename: Pitcairn Pro
   Release Date: '2013-11-13'
   Die Size: 212 mm
   Shader Processor Count: 1280
