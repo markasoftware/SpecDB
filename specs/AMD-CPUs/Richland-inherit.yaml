@@ -1,0 +1,12 @@
+hidden: true
+name: Richland
+data:
+  Architecture: Piledriver
+  Lithography: 32 nm
+  Socket: FM2
+  Core Count: 4
+  Thread Count: 4
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 0 MiB
+  Release Date: '2013-06'
+  

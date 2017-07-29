@@ -12,50 +12,42 @@ sections:
       members:
         - Piledriver
         - Bulldozer
+    - header: PHENOM X6 FAMILY
+      members: 
+        - Thuban
+    - header: PHENOM X4 FAMILY
+      members: 
+        - Zosma
+        - Deneb
+        - Porpus
+        - Agena
+    - header: PHENOM X3 FAMILY
+      members: 
+        - Heka
+        - Toliman
+    - header: PHENOM X2 FAMILY
+      members: 
+        - Callisto
+        - Regor
     - header: ATHLON X4 FAMILY
       members:
         - Carrizo
         - Kaveri
         - Richland
-    - header: PHENOM II X6 FAMILY
-      members: 
-        - Thuban
-    - header: PHENOM II X4 FAMILY
-      members: 
-        - Zosma
-        - Deneb
-        - Porpus
-    - header: PHENOM II X3 FAMILY
-      members: 
-        - Heka
-    - header: PHENOM II X2 FAMILY
-      members: 
-        - Callisto
-        - Regor
-    - header: ATHLON II X4 FAMILY
-      members: 
         - Porpus-Athlon
-    - header: ATHLON II X3 FAMILY
+    - header: ATHLON X3 FAMILY
       members: 
         - Rana
-    - header: ATHLON II X2 FAMILY
-      members: 
-        - Regor-Athlon
-    - header: ATHLON II FAMILY
-      members: 
-        - Sargas
-    - header: PHENOM X4 FAMILY
-      members: 
-        - Agena
-    - header: PHENOM X3 FAMILY
-      members: 
-        - Toliman
     - header: ATHLON X2 FAMILY
       members: 
-        - Kaveri
-        - Richland
+        - Kaveri-X2
+        - Richland-X2
+        - Regor-Athlon
         - Kuma
-    - header: SEMPRON 100 FAMILY
+    - header: ATHLON FAMILY
+      members: 
+        - Sargas
+    - header: SEMPRON FAMILY
       members: 
         - Regor-Sempron
         - Sargas-Sempron

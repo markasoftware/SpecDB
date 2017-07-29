@@ -1,0 +1,12 @@
+name: 350
+humanName: X2 350
+isPart: true
+type: CPU
+inherits:
+  - Richland-X2
+data:
+  Base Frequency: 3.5 GHz
+  Boost Frequency: 3.9 GHz
+  TDP: 65 W
+
+

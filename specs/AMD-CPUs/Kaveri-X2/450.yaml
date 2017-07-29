@@ -1,0 +1,12 @@
+name: 450s
+humanName: X2 450
+isPart: true
+type: CPU
+inherits:
+  - Kaveri-X2
+data:
+  Base Frequency: 3.5 GHz
+  Boost Frequency: 3.9 GHz
+  TDP: 65 W
+
+

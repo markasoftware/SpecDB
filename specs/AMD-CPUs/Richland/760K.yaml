@@ -1,0 +1,12 @@
+name: 760K
+humanName: X4 760K
+isPart: true
+type: CPU
+inherits:
+  - Richland
+data:
+  Base Frequency: 3.8 GHz
+  Boost Frequency: 4.1 GHz
+  TDP: 100 W
+  Unlocked: true
+
