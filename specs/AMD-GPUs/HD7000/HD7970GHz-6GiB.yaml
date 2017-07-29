@@ -1,0 +1,22 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: Tahiti
+  Codename: Tahiti XT2
+  Release Date: '2011-06-22'
+  Die Size: 352 mm
+  Shader Processor Count: 2048
+  Texture Mapping Unit Count: 128
+  Render Output Unit Count: 32
+  Base Frequency: 1000 MHz
+  Boost Frequency: 1050 MHz
+  VRAM Frequency: 6000 MT/s
+  VRAM Capacity: 6 GiB
+  VRAM Bus Width: 384 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 288 GB/s
+  TDP: 250 W
+inherits:
+  - GCN 1
+name: HD-7970GHz-6GiB
+humanName: HD 7970 GHz Edition (6GiB)
