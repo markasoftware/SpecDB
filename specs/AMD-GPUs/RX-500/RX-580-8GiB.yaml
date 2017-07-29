@@ -8,8 +8,9 @@ data:
   Boost Frequency: 1340 MHz
   VRAM Frequency: 8000 MT/s
   VRAM Capacity: 8 GiB
-  VRAM Bandwidth: 256 GiB/s
+  VRAM Bandwidth: 256 GB/s
   TDP: 185 W
+  Codename: Ellesmere XTX
 inherits:
   - RX 570 580 Base
 name: RX-580-8GiB

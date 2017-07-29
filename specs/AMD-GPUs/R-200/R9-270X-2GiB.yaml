@@ -1,7 +1,8 @@
 isPart: true
 type: Graphics Card
 data:
-  GPU: Pitcairn XT
+  GPU: Pitcairn
+  Codename: Pitcairn XT
   Release Date: '2013-08-08'
   Die Size: 212 mm
   Shader Processor Count: 1280

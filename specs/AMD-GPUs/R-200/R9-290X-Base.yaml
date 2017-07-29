@@ -9,4 +9,5 @@ data:
   Render Output Unit Count: 64
   Base Frequency: 1000 MHz
   TDP: 250 W
-  GPU: Hawaii XT
+  GPU: Hawaii 
+  Codename: Hawaii XT

@@ -9,13 +9,14 @@ data:
   Base Frequency: 1100 MHz
   Boost Frequency: 1183 MHz
   VRAM Frequency: 7000 MT/s
-  VRAM Bandwidth: 112 GiB/s
+  VRAM Bandwidth: 112 GB/s
   VRAM Capacity: 4 GiB
   Render Output Unit Count: 16
   Texture Mapping Unit Count: 32
   Shader Processor Count: 512
   Die Size: 101 mm
   GPU: Polaris 12 
+  Codename: Lexa Pro
   TDP: 50 W
   VRAM Type: GDDR5
   VRAM Bus Width: 128 Bits

@@ -1,7 +1,8 @@
 isPart: true
 type: Graphics Card
 data:
-  GPU: Bonaire Pro
+  GPU: Bonaire
+  Codename: Bonaire Pro
   Release Date: '2015-06-18'
   Die Size: 160 mm
   Shader Processor Count: 768

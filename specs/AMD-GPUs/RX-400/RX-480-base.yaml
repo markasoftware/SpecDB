@@ -11,6 +11,7 @@ data:
   Shader Processor Count: 2304
   Die Size: 232 mm
   GPU: Polaris 10
+  Codename: Ellesmere XT
   TDP: 150 W
   VRAM Type: GDDR5
   VRAM Bus Width: 256 Bits

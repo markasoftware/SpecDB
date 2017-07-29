@@ -1,7 +1,8 @@
 isPart: true
 type: Graphics Card
 data:
-  GPU: Tonga Pro
+  GPU: Tonga
+  Codename: Tonga Pro
   Release Date: '2015-06-18'
   Die Size: 359 mm
   Shader Processor Count: 1792
@@ -12,7 +13,7 @@ data:
   VRAM Capacity: 4 GiB
   VRAM Bus Width: 256 Bits
   VRAM Type: GDDR5
-  VRAM Bandwidth: 182.4 GiB/s
+  VRAM Bandwidth: 182.4 GB/s
   TDP: 190 W
 inherits:
   - GCN 3

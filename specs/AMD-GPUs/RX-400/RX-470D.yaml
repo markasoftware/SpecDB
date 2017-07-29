@@ -5,7 +5,7 @@ type: Graphics Card
 inherits:
   - GCN 4
 data:
-  VRAM Capacity: 8 GiB
+  VRAM Capacity: 8 GB
   Release Date: '2016-10-21'
   Base Frequency: 926 MHz
   Boost Frequency: 1206 MHz
@@ -16,6 +16,7 @@ data:
   Shader Processor Count: 1792
   Die Size: 232 mm
   GPU: Polaris 10
+  Codename: Ellesmere LE
   TDP: 120 W
   VRAM Type: GDDR5
   VRAM Bus Width: 256 Bits

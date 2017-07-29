@@ -7,12 +7,13 @@ data:
   Base Frequency: 1090 MHz
   Boost Frequency: 1200 MHz
   VRAM Frequency: 7000 MT/s
-  VRAM Bandwidth: 112 GiB/s
+  VRAM Bandwidth: 112 GB/s
   Render Output Unit Count: 16
   Texture Mapping Unit Count: 56
   Shader Processor Count: 896
   Die Size: 123 mm
   GPU: Polaris 11
+  Codename: Baffin Pro
   TDP: 75 W
   VRAM Type: GDDR5
   VRAM Bus Width: 128 Bits

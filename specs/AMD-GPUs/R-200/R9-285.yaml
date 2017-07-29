@@ -6,7 +6,8 @@ inherits:
   - GCN 3
 data:
   Release Date: '2014-09-02'
-  GPU: Tonga Pro
+  GPU: Tonga
+  Codename: Tonga Pro
   Die Size: 359 mm
   Shader Processor Count: 1792
   Texture Mapping Unit Count: 112
@@ -15,5 +16,5 @@ data:
   VRAM Frequency: 5500 MT/s
   VRAM Capacity: 2 GiB
   VRAM Bus Width: 256 Bits
-  VRAM Bandwidth: 176 GiB/s
+  VRAM Bandwidth: 176 GB/s
   TDP: 190 W

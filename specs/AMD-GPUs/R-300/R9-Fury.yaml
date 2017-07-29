@@ -1,7 +1,8 @@
 isPart: true
 type: Graphics Card
 data:
-  GPU: Fiji Pro
+  GPU: Fiji
+  Codename: Fiji Pro
   Release Date: '2015-07-14'
   Die Size: 596 mm
   Shader Processor Count: 3584
@@ -12,7 +13,7 @@ data:
   VRAM Capacity: 4 GiB
   VRAM Bus Width: 4096 Bits
   VRAM Type: HBM
-  VRAM Bandwidth: 512 GiB/s
+  VRAM Bandwidth: 512 GB/s
   TDP: 275 W
 inherits:
   - GCN 3

@@ -1,7 +1,8 @@
 isPart: true
 type: Graphics Card
 data:
-  GPU: Bonaire XTX
+  GPU: Bonaire
+  Codename: Bonaire XTX
   Release Date: '2013-08-08'
   Die Size: 160 mm
   Shader Processor Count: 896
@@ -12,7 +13,7 @@ data:
   VRAM Capacity: 1 GiB
   VRAM Bus Width: 128 Bits
   VRAM Type: GDDR5
-  VRAM Bandwidth: 104 GiB/s
+  VRAM Bandwidth: 104 GB/s
   TDP: 115 W
 inherits:
   - GCN 2
