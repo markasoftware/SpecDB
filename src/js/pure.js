@@ -52,55 +52,52 @@ module.exports.genSubtext = data => {
     }
 }
 
-const sortValues = {
-    CPU: [
-        'Base Frequency',
-        'Boost Frequency',
-        'Core Count',
-        'Thread Count',
-        'L2 Cache (Total)',
-        'L3 Cache (Total)',
-        'TDP',
-        'Architecture',
-        'Release Date',
-    ],
-    'Graphics Card': [
-        'Base Frequency',
-        'Boost Frequency',
-        'VRAM Capacity',
-        'Shader Processor Count',
-        'Texture Mapping Unit Count',
-        'Render Output Unit Count',
-        'TDP',
-    ]
-};
+module.exports.getTableData = (parts, sections) =>
+    // generate all data here, hidden sections will be handled in spec-viewer.js
+    // performance overhead is minimal
+    
+    // find all sections with this stuff in them
+    Object.keys(sections)
+    .map(curSection => ({
+        name: curSection,
+        rows: Object.keys(sections[curSection].rows)
+        // filter to only those that at least 1 part has
+        .filter(curRow => parts.find(curPart => curPart.data[curRow]))
+        .map(curRow => {
+            const processor = sections[curSection].rows[curRow];
+            const canCompare = processor.compare && parts.length > 1;
+            // get a list of cells with pre and post processed values
+            const fullDataCells = parts.map(curPart => {
+                const yamlValue = curPart.data[curRow];
+                const initial = yamlValue || processor.default || yamlValue;
+                return {
+                    postprocessed:
+                        processor.postprocess ?
+                            processor.postprocess(toReturn.initial) :
+                            toReturn.initial,
+                    preprocessed:
+                        processor.preprocess ?
+                            processor.preprocess(toReturn.initial) :
+                            toReturn.initial,
+                };
+            });
+            // find best value
+            const bestPreprocessedValue = canCompare && fullDataCells.reduce((a, b) =>
+                processor.compare(a, b) ? a : b
+            );
+            // now, take the full data cells and the best value to create a slimmed down version
+            // containing only the displayed/postprocessed value and whether this cell is a winner
+            return {
+                name: curRow,
+                cells: fullDataCells.map((fullCell) => ({
+                    value: fullCell.postprocessed,
+                    winner: canCompare && fullCell.preprocessed === bestPreprocessedValue,
+                })),
+            };
+        }),
+    }));
 
-const getIndex = (haystack, needle) => {
-    const index = haystack.indexOf(needle);
-    return index === -1 ? 9999 : index;
-}
-
-
-const commonBasicRows = [
-    'Base Frequency',
-    'Boost Frequency',
-    'TDP',
-    'Architecture',
-    'Release Date',
-];
-
-const specificBasicRows = {
-    'CPU': [
-        'Core Count',
-        'Thread Count',
-    ],
-    'Graphics Card': [
-        'Shader Processor Count',
-        'VRAM Capacity',
-    ],
-}
-
-module.exports.getRowNames = (parts, advancedRows) => {
+module.exports.getSectionNames = (parts, advancedRows) => {
     const curType = parts[0].type;
     const curSortVals = sortValues[curType];
     const toReturn = parts.reduce((a, b) => a.concat(Object.keys(b.data)), [])

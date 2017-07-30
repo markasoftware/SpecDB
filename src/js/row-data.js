@@ -40,7 +40,7 @@ const versionCompare = (a, b) => {
 
 const boolPost = c => c ? 'Yes' : 'No';
 
-// NaN check is for TBA or something else, after parseFloating it is NaN and should be considered bad so highlighting still works for other parts
+// NaN check is for TBA and stuff
 const numberUpCompare = (a, b) => a > b || isNaN(b);
 const numberDownCompare = (a, b) => a < b || isNaN(b);
 
@@ -136,30 +136,41 @@ const types = {
 };
 
 module.exports = {
-    // quoting all of these for consistency
-    'Core Count': types.numberUp,
-    'Module Count': types.numberUp,
-    'Thread Count': types.numberUp,
-    'Lithography': types.numberDown,
-    'TDP': types.numberDown,
-    'L2 Cache (Total)': types.unitUp,
-    'L3 Cache (Total)': types.unitUp,
-    'Base Frequency': types.unitUp,
-    'Boost Frequency': types.unitUp,
-    'XFR Frequency': types.unitUp,
-    'Unlocked': types.boolTrue,
-    'XFR Support': types.boolTrue,
-    'Release Date': types.dateUp,
-    'Die Size': types.numberUp,
-    // GPU Stuff
-    'Shader Processor Count': types.numberUp,
-    'Texture Mapping Unit Count': types.numberUp,
-    'Render Output Unit Count': types.numberUp,
-    'VRAM Capacity': types.unitUp,
-    'VRAM Bandwidth': types.unitUp,
-    // TODO: maybe make this have units?
-    'VRAM Frequency': types.numberUp,
-    'VRAM Bus Width': types.numberUp,
-    'DirectX Support': types.versionUp,
-    'Vulkan Support': types.versionUp,
+    'Basic Specs': {
+        display: true,
+        rows: {
+            'Base Frequency': types.unitUp,
+            'Boost Frequency': types.unitUp,
+            'Core Count': types.numberUp,
+            'Thread Count': types.numberUp,
+            'Render Output Unit Count': types.numberUp,
+            'VRAM Capacity': types.unitUp,
+            'Release Date': types.dateUp,
+            'TDP': tyes.numberDown,
+        },
+    },
+    'Advanced Specs': {
+        display: false,
+        rows: {
+            'Module Count': types.numberUp,
+            'Lithography': types.numberDown,
+            'L2 Cache (Total)': types.unitUp,
+            'L3 Cache (Total)': types.unitUp,
+            'XFR Frequency': types.unitUp,
+            'Shader Processor Count': types.numberUp,
+            'Texture Mapping Unit Count': types.numberUp,
+            'VRAM Bandwidth': types.unitUp,
+            'VRAM Bus Width': types.numberUp,
+            'VRAM Type': types.numberUp,
+        },
+    },
+    'Feature Support': {
+        display: false,
+        rows: {
+            'Unlocked': types.boolTrue,
+            'XFR Support': types.boolTrue,
+            'DirectX Support': types.versionUp,
+            'Vulkan Support': types.versionUp,
+        },
+    },
 };
