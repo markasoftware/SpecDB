@@ -1,0 +1,32 @@
+name: Toliman
+humanName: Toliman
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2008-03-27'
+  Lithography: 65 nm
+  Sockets:
+  - AM2+
+  Foundry: Global Foundries
+sections:
+  - header: Black Edition SKUs
+    members:
+      - 8750
+  - header: Standard SKUs
+    members:
+      - 8400
+      - 8450
+      - 8500
+      - 8550
+      - 8600
+      - 8650
+      - 8750
+      - 8850
+  - header: Low Power SKUs
+    members:
+      - 8250e
+      - 8450e
+  - header: Buisness Class SKUs
+    members:
+      - 8600B
+      - 8750B

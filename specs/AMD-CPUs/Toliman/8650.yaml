@@ -1,0 +1,11 @@
+name: 8650
+humanName: X3 8650
+isPart: true
+type: CPU
+inherits:
+  - Toliman
+data:
+  Base Frequency: 2.3 GHz
+  TDP: 95 W
+  Release Date: '2008-04-23'
+

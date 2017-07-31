@@ -1,0 +1,11 @@
+name: 9150e
+humanName: X4 9150e
+isPart: true
+type: CPU
+inherits:
+  - Agena
+data:
+  Base Frequency: 1.8 GHz
+  TDP: 65 W
+  Release Date: '2008-06-01'
+

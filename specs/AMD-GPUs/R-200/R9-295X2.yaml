@@ -10,6 +10,7 @@ data:
   Texture Mapping Unit Count: 352
   Render Output Unit Count: 128
   Base Frequency: '1018 MHz'
-  GPU: Vesuvius
+  GPU: Hawaii
+  Codename: Vesuvius
   VRAM Capacity: 4 GiB (per GPU)
   TDP: 500 W

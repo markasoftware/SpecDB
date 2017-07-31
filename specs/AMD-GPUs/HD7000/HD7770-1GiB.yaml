@@ -1,0 +1,22 @@
+
+isPart: true
+type: Graphics Card
+data:
+  GPU: Cape Verde
+  Codename: Cape Verde XT
+  Release Date: '2012-02-15'
+  Die Size: 123 mm
+  Shader Processor Count: 640
+  Texture Mapping Unit Count: 40
+  Render Output Unit Count: 16
+  Base Frequency: 1000 MHz 
+  VRAM Frequency: 4500 MT/s
+  VRAM Capacity: 1 GiB
+  VRAM Bus Width: 128 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 72 GB/s
+  TDP: 80 W
+inherits:
+  - GCN 1
+name: HD-7770-1GiB
+humanName: HD 7770 (1GiB)

@@ -1,0 +1,12 @@
+name: Athlon X4 845
+humanName: Athlon X4 845
+isPart: true
+type: CPU
+inherits:
+  - Carrizo-Base
+data:
+  Base Frequency: 3.5 GHz
+  Boost Frequency: 3.8 GHz
+  TDP: 65 W
+  L3 Cache (Total): x
+

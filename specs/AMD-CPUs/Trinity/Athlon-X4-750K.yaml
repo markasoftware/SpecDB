@@ -1,0 +1,16 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 4
+  Core Count: 4
+  Base Frequency: 3.4 GHz
+  Boost Frequency: 4.0 GHz
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 0 MiB
+  TDP: 100 W
+  Release Date: '2012-10-01'
+  Unlocked: true
+inherits:
+  - Trinity
+name: X4-750K
+humanName: X4 750K

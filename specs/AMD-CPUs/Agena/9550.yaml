@@ -1,0 +1,11 @@
+name: 9550
+humanName: X4 9550
+isPart: true
+type: CPU
+inherits:
+  - Agena
+data:
+  Base Frequency: 2.2 GHz
+  TDP: 95 W
+  Release Date: '2008-03-27'
+

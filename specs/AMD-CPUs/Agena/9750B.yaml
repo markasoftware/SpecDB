@@ -1,0 +1,11 @@
+name: 9750B
+humanName: X4 9750B
+isPart: true
+type: CPU
+inherits:
+  - Agena
+data:
+  Base Frequency: 2.4 GHz
+  TDP: 95 W
+  Release Date: '2008-08-15'
+

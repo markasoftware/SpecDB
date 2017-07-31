@@ -1,7 +1,8 @@
 isPart: true
 type: Graphics Card
 data:
-  GPU: Pitcairn XT
+  GPU: Pitcairn
+  Codename: Pitcairn XT
   Release Date: '2013-08-08'
   Die Size: 212 mm
   Shader Processor Count: 1280
@@ -13,7 +14,7 @@ data:
   VRAM Capacity: 2 GiB
   VRAM Bus Width: 256 Bits
   VRAM Type: GDDR5
-  VRAM Bandwidth: 167 GiB/s
+  VRAM Bandwidth: 167 GB/s
   TDP: 180 W
 inherits:
   - GCN 1

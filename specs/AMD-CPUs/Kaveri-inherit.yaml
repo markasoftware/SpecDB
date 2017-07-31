@@ -1,0 +1,12 @@
+hidden: true
+name: Kaveri
+data:
+  Architecture: Steamroller
+  Lithography: 28 nm
+  Socket: FM2+
+  Core Count: 4
+  Thread Count: 4
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 0 MiB
+  Release Date: '2016-03-01'
+  

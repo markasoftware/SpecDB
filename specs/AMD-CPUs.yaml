@@ -10,34 +10,47 @@ sections:
         - Epyc
     - header: AMD FX FAMILY
       members:
-        - Excavator
-        - Steamroller
         - Piledriver
         - Bulldozer
-    - header: PHENOM II X6 FAMILY
+    - header: PHENOM X6 FAMILY
       members: 
         - Thuban
-    - header: PHENOM II X4 FAMILY
+    - header: PHENOM X4 FAMILY
       members: 
         - Zosma
         - Deneb
         - Porpus
-    - header: PHENOM II X3 FAMILY
+        - Agena
+    - header: PHENOM X3 FAMILY
       members: 
         - Heka
-    - header: PHENOM II X2 FAMILY
+        - Toliman
+    - header: PHENOM X2 FAMILY
       members: 
         - Callisto
         - Regor
-    - header: ATHLON II X4 FAMILY
-      members: 
+    - header: ATHLON X4 FAMILY
+      members:
+        - Bristol-Ridge
+        - Carrizo
+        - Kaveri
+        - Richland
+        - Trinity
+        - Llano
         - Porpus-Athlon
-    - header: ATHLON II X3 FAMILY
+    - header: ATHLON X3 FAMILY
       members: 
         - Rana
-    - header: ATHLON II X2 FAMILY
+    - header: ATHLON X2 FAMILY
       members: 
+        - Kaveri-X2
+        - Richland-X2
         - Regor-Athlon
-    - header: ATHLON II FAMILY
+        - Kuma
+    - header: ATHLON FAMILY
       members: 
         - Sargas
+    - header: SEMPRON FAMILY
+      members: 
+        - Regor-Sempron
+        - Sargas-Sempron

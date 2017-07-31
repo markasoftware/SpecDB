@@ -6,4 +6,5 @@ data:
   Die Size: 428 mm
   VRAM Frequency: 5000 MT/s
   VRAM Bus Width: 512 Bits
-  VRAM Bandwidth: 298 GiB/s
+  VRAM Bandwidth: 320 GB/s
+  VRAM Type: GDDR5
