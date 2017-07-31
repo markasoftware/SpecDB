@@ -1,7 +1,0 @@
-hidden: true
-name: Carrizo
-data:
-  Architecture: Excavator
-  Lithography: 28 nm
-  Socket: FM2+
-  Unlocked: true

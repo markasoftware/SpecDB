@@ -1,6 +1,0 @@
-hidden: true
-name: Trinity
-data:
-  Architecture: Piledriver
-  Lithography: 32 nm
-  Socket: FM2
