@@ -1,3 +1,14 @@
+#part-selector {
+    flex: 40vw;
+    box-sizing: border-box;
+    /* otherwise, the scrollbar affects width and can mess things up */
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    right: 0;
+    box-shadow: 0 0 15px #999;
+    padding: 5vh;
+}
 #part-selector span.a {
     font-size: 14pt;
 }
@@ -11,7 +22,7 @@
     line-height: 3rem;
 }
 .part {
-    height: 8em;
+    min-height: 8em;
     min-width: 250px;
     width: 15vw;
     box-shadow: 0 0 8px #777;

@@ -7,5 +7,4 @@ data:
   Thread Count: 6
   L2 Cache (Total): 3 MiB
   L3 Cache (Total): 6 MiB
-  Socket: AM2+
-   
+  Socket: AM3,AM2+
