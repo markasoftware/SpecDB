@@ -6,6 +6,12 @@ const pure = require('./pure.js');
 const rowData = require('./row-data.js');
 const seo = require('./seo.js');
 
+// this probably should go somewhere else, but we're putting it here
+// if localStorage settings for whether sections should be displayed is not there,
+// set it to the default `display` thing from rowData
+localStorage.sectionDisplay = localStorage.sectionDisplay || {};
+Object.keys(rowData).forEach(c => localStorage[c] = localStorage[c] || rowData[c].display );
+
 module.exports = {
     identicalRows: true,
     advancedRows: false,
@@ -13,11 +19,8 @@ module.exports = {
     onupdate: seo.update,
     view: vnode => {
         const partNames = hashMan.getList();
-        let partData, rowNames;
-        if(partNames.length > 0) {
-            partData = partNames.map(c => specData[c]);
-            rowNames = pure.getRowNames(partData, vnode.state.advancedRows);
-        }
+        const partData = partNames.map(c => specData[c]);
+        const sections = pure.getTableData(partData, rowData);
         // filter out advanced rows if necessary
         return [
             (partNames.length === 0 ? [
@@ -49,7 +52,10 @@ module.exports = {
                         partData.map(c => m('th', c.humanName))
                     ]),
                     // now for real data
-                    rowNames.map(curRowName => {
+                    sectionNames.map(curSection => {
+
+                    });
+                    /*rowNames.map(curRowName => {
                         // get all the values for the current row
                         const rowValues = partData.map(c => c.data[curRowName]);
                         const processed = pure.processRow(rowValues, rowData[curRowName]);
@@ -80,6 +86,7 @@ module.exports = {
                                 ((!allEqual) && isComparing && processed.maxIndices.includes(i)? '.winner' : ''), c)),
                         ]);
                     }),
+                    */
                 ]),
             ]),
             // bottom thing with info

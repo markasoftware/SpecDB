@@ -135,42 +135,114 @@ const types = {
     }
 };
 
-module.exports = {
-    'Basic Specs': {
+// for testing
+module.exports.types = types;
+
+module.exports.sections = [
+    {
+        name: 'Basic Specs',
         display: true,
-        rows: {
-            'Base Frequency': types.unitUp,
-            'Boost Frequency': types.unitUp,
-            'Core Count': types.numberUp,
-            'Thread Count': types.numberUp,
-            'Render Output Unit Count': types.numberUp,
-            'VRAM Capacity': types.unitUp,
-            'Release Date': types.dateUp,
-            'TDP': tyes.numberDown,
-        },
+        rows: [
+            {
+                name: 'Base Frequency',
+                processor: types.unitUp,
+            },
+            {
+                name: 'Boost Frequency',
+                processor: types.unitUp,
+            },
+            {
+                name: 'Core Count',
+                processor: types.numberUp,
+            },
+            {
+                name: 'Thread Count',
+                processor: types.numberUp,
+            },
+            {
+                name: 'Render Output Unit Count',
+                processor: types.numberUp,
+            },
+            {
+                name: 'VRAM Capacity',
+                processor: types.unitUp,
+            },
+            {
+                name: 'Release Date',
+                processor: types.dateUp,
+            },
+            {
+                name: 'TDP',
+                processor: types.numberDown,
+            }
+        ],
     },
-    'Advanced Specs': {
+    {
+        name: 'Advanced Specs',
         display: false,
-        rows: {
-            'Module Count': types.numberUp,
-            'Lithography': types.numberDown,
-            'L2 Cache (Total)': types.unitUp,
-            'L3 Cache (Total)': types.unitUp,
-            'XFR Frequency': types.unitUp,
-            'Shader Processor Count': types.numberUp,
-            'Texture Mapping Unit Count': types.numberUp,
-            'VRAM Bandwidth': types.unitUp,
-            'VRAM Bus Width': types.numberUp,
-            'VRAM Type': types.numberUp,
-        },
+        rows: [
+            {
+                name: 'Module Count',
+                processor: types.numberUp,
+            },
+            {
+                name: 'Lithography',
+                processor: types.numberDown,
+            },
+            {
+                name: 'L2 Cache (Total)',
+                processor: types.unitUp,
+            },
+            {
+                name: 'L3 Cache (Total)',
+                processor: types.unitUp,
+            },
+            {
+                name: 'XFR Frequency',
+                processor: types.unitUp,
+            },
+            {
+                name: 'Shader Processor Count',
+                processor: types.numberUp,
+            },
+            {
+                name: 'Texture Mapping Unit Count',
+                processor: types.numberUp,
+            },
+            {
+                name: 'VRAM Bandwidth',
+                processor: types.unitUp,
+            },
+            {
+                name: 'VRAM Bus Width',
+                processor: types.numberUp,
+            },
+            {
+                name: 'VRAM Type',
+                processor: types.numberUp,
+            },
+        ],
     },
-    'Feature Support': {
+    {
+        name: 'Feature Support',
         display: false,
-        rows: {
-            'Unlocked': types.boolTrue,
-            'XFR Support': types.boolTrue,
-            'DirectX Support': types.versionUp,
-            'Vulkan Support': types.versionUp,
-        },
+        rows: [
+            {
+                name: 'Unlocked',
+                processor: types.boolTrue,
+            },
+            {
+                name: 'XFR Support',
+                processor: types.boolTrue,
+            },
+            {
+                name: 'DirectX Support',
+                processor: types.versionUp,
+            },
+            {
+                name: 'Vulkan Support',
+                processor: types.versionUp,
+            },
+        ],
     },
-};
+];

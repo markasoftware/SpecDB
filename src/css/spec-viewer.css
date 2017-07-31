@@ -38,12 +38,13 @@ h2.top {
     box-shadow: 0 0 5px #999;
     border-collapse: collapse;
     margin: 5vh auto;
+    width: calc(100% - 30px - 9rem);
 }
 .spec-tab th, .spec-tab td {
     padding: 1.3em 1em;
     border-left: 1px solid #ccc;
     max-width: 10rem;
-    min-width: 10rem;
+    min-width: 4rem;
     vertical-align: top;
 }
 .spec-tab th {
