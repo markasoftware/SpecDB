@@ -1,0 +1,16 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 4
+  Core Count: 4
+  Base Frequency: 3.2 GHz
+  Boost Frequency: 3.7 GHz
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 4 MiB
+  TDP: 65 W
+  Release Date: '2012-10-01'
+  Unlocked: not true
+inherits:
+  - Trinity
+name: Athlon X4 740
+humanName: Athlon X4 740
