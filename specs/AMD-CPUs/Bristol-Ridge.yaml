@@ -1,0 +1,16 @@
+name: Bristol-Ridge
+humanName: Bristol Ridge
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Lithography: 28 nm
+  Sockets:
+  - AM4
+  - FM2+
+  Foundry: Global Foundries
+sections:
+  - header: 7th GEN. QUAD CORE
+    members:
+      - X4-970
+      - X4-950
+      - X4-940

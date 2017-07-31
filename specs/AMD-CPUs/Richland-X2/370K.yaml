@@ -1,0 +1,11 @@
+name: 370K
+humanName: X2 370K
+isPart: true
+type: CPU
+inherits:
+  - Richland-X2
+data:
+  Base Frequency: 4.0 GHz
+  Boost Frequency: 4.2 GHz
+  TDP: 65 W
+  Unlocked: true

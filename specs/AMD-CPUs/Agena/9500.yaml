@@ -1,0 +1,11 @@
+name: 9500
+humanName: X4 9500
+isPart: true
+type: CPU
+inherits:
+  - Agena
+data:
+  Base Frequency: 2.2 GHz
+  TDP: 95 W
+  Release Date: '2007-11-19'
+

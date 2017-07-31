@@ -1,0 +1,12 @@
+name: 860K
+humanName: X4 860K
+isPart: true
+type: CPU
+inherits:
+  - Kaveri
+data:
+  Base Frequency: 3.7 GHz
+  Boost Frequency: 4.0 GHz
+  TDP: 95 W
+  Unlocked: true
+

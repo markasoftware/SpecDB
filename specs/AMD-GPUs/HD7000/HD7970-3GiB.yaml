@@ -1,0 +1,21 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: Tahiti
+  Codename: Tahiti XT
+  Release Date: '2012-01-09'
+  Die Size: 352 mm
+  Shader Processor Count: 2048
+  Texture Mapping Unit Count: 128
+  Render Output Unit Count: 32
+  Base Frequency: 925 MHz
+  VRAM Frequency: 5500 MT/s
+  VRAM Capacity: 3 GiB
+  VRAM Bus Width: 384 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 264 GB/s
+  TDP: 250 W
+inherits:
+  - GCN 1
+name: HD-7970-3GiB
+humanName: HD 7970 (3GiB)

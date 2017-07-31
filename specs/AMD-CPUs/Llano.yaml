@@ -1,0 +1,20 @@
+name: Llano
+humanName: Llano
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2011-Q2 | 2012-Q1'
+  Lithography: 32 nm
+  Sockets:
+  - FM1
+  Foundry: Global Foundries
+sections:
+  - header: 3rd GEN. QUAD CORE
+    members:
+      - X4-651K
+      - X4-651
+      - X4-641
+      - X4-638
+      - X4-631
+
+  

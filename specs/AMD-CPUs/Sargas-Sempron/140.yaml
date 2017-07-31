@@ -1,0 +1,12 @@
+name: 140
+humanName: '140'
+isPart: true
+type: CPU
+inherits:
+  - Sargas-Sempron
+data:
+  Base Frequency: 2.7 GHz
+  Release Date: '2009-06'
+  L2 Cache (Total): 2 MiB
+
+

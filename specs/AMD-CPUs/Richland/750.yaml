@@ -1,0 +1,12 @@
+name: 750
+humanName: X4 750
+isPart: true
+type: CPU
+inherits:
+  - Richland
+data:
+  Base Frequency: 3.4 GHz
+  Boost Frequency: 3.9 GHz
+  TDP: 65 W
+
+

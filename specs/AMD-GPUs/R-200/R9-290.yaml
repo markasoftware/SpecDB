@@ -12,4 +12,5 @@ data:
   Base Frequency: 947 MHz
   VRAM Capacity: 4 GiB
   TDP: 250 W
-  GPU: Hawaii Pro
+  GPU: Hawaii
+  Codename: Hawaii Pro

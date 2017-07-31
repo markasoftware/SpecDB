@@ -1,0 +1,11 @@
+name: 8550
+humanName: X3 8550
+isPart: true
+type: CPU
+inherits:
+  - Toliman
+data:
+  Base Frequency: 2.2 GHz
+  TDP: 95 W
+  Release Date: '2008-04-23'
+

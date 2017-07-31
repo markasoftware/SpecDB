@@ -1,0 +1,11 @@
+name: 6500BE
+humanName: X2 6500 Black Edition
+isPart: true
+type: CPU
+inherits:
+  - Kuma
+data:
+  Base Frequency: 2.3 GHz
+  TDP: 95 W
+  Release Date: '2009-09-08'
+  Unlocked: true

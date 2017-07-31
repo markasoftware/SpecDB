@@ -1,0 +1,19 @@
+name: Sargas-Sempron
+humanName: Sargas
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2009-07'
+  Lithography: 45 nm
+  Sockets:
+  - AM2+
+  - AM3
+  Foundry: Global Foundries
+sections:
+  - header: Standard SKUs
+    members:
+      - 130
+      - 140
+      - 145
+      - 150
+

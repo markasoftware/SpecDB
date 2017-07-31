@@ -1,0 +1,11 @@
+hidden: true
+name: Agena
+data:
+  Architecture: K10
+  Lithography: 65 nm
+  Core Count: 4
+  Thread Count: 4
+  L2 Cache (Total): 2 MiB
+  L3 Cache (Total): 2 MiB
+  Socket: AM2+
+   

@@ -1,7 +1,8 @@
 isPart: true
 type: Graphics Card
 data:
-  GPU: Tahiti Pro
+  GPU: Tahiti
+  Codename: Tahiti Pro
   Release Date: '2014-03-04'
   Die Size: 352 mm
   Shader Processor Count: 1792
@@ -13,7 +14,7 @@ data:
   VRAM Capacity: 3 GiB
   VRAM Bus Width: 384 Bits
   VRAM Type: GDDR5
-  VRAM Bandwidth: 233 GiB/s
+  VRAM Bandwidth: 240 GB/s
   TDP: 250 W
 inherits:
   - GCN 1

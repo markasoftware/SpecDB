@@ -1,0 +1,20 @@
+name: Kuma
+humanName: Kuma
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2008-09-08'
+  Lithography: 65 nm
+  Sockets:
+  - AM2+
+  Foundry: Global Foundries
+sections:
+  - header: Black Edition SKUs
+    members:
+      - 6500
+      - 7750
+      - 7850
+  - header: Standard SKUs
+    members:
+      - 7450
+      - 7550
