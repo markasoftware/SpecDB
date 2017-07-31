@@ -5,7 +5,6 @@ data:
   Core Count: 4
   Base Frequency: 3.0 GHz
   L2 Cache (Total): 4 MiB
-  L3 Cache (Total): 0 MiB
   TDP: 100 W
   Release Date: '2012-Q1'
   Unlocked: true
