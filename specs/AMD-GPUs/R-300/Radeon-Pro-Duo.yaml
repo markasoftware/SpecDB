@@ -10,7 +10,7 @@ data:
   Render Output Unit Count: 128
   Base Frequency: 1000 MHz
   VRAM Frequency: 1000 MT/s
-  VRAM Capacity: 4 GiB (per chip)
+  VRAM Capacity: 4 GiB (per GPU)
   VRAM Bus Width: 4096 Bits
   VRAM Type: HBM
   VRAM Bandwidth: 512 GB/s

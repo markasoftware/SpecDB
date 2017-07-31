@@ -7,3 +7,4 @@ data:
   VRAM Frequency: 5000 MT/s
   VRAM Bus Width: 512 Bits
   VRAM Bandwidth: 320 GB/s
+  VRAM Type: GDDR5
