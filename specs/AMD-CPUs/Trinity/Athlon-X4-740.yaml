@@ -6,7 +6,6 @@ data:
   Base Frequency: 3.2 GHz
   Boost Frequency: 3.7 GHz
   L2 Cache (Total): 4 MiB
-  L3 Cache (Total): 0 MiB
   TDP: 65 W
   Release Date: '2012-10-01'
 inherits:

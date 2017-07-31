@@ -6,7 +6,7 @@ isPart: true
 type: CPU
 data:
   Thread Count: 64
-  Core Count: 24
+  Core Count: 32
   Base Frequency: 2.2 GHz
   Boost Frequency: 3.2 GHz
   L2 Cache (Total): 16 MiB
