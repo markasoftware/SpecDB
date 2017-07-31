@@ -11,9 +11,15 @@ const unitToNum = inStr => {
         'KiB': 1024,
         'MiB': 1024 * 1024,
         'GiB': 1024 * 1024 * 1024,
+        'KB': 1000,
+        'MB': 1000 * 1000,
+        'GB': 1000 * 1000 * 1000,
         'KiB/s': 1024,
         'MiB/s': 1024 * 1024,
         'GiB/s': 1024 * 1024 * 1024,
+        'KB/s': 1000,
+        'MB/s': 1000 * 1000,
+        'GB/s': 1000 * 1000 * 1000,
         'Hz': 1,
         'KHz': 1000,
         'MHz': 1000 * 1000,
@@ -94,8 +100,7 @@ const types = {
         },
         compare: numberUpCompare,
         postprocess: c => {
-            const d = types.dateUp.preprocess(c);
-            const humanMonth = [
+            const months = [
                 'January',
                 'February',
                 'March',
@@ -108,8 +113,26 @@ const types = {
                 'October',
                 'November',
                 'December',
-            ][d.getUTCMonth()];
-            return `${humanMonth} ${d.getUTCDate()}, ${d.getUTCFullYear()}`;
+            ];
+            const getMonth = () => months[c.slice(5, 7) - 1];
+            // yyyy-mm-dd
+            if(/^\d{4}-\d{2}-\d{2}$/.test(c)) {
+                return `${getMonth()} ${c.slice(8)}, ${c.slice(0, 4)}`;
+            }
+            // yyyy-mm
+            if(/^\d{4}-\d{2}$/.test(c)) {
+                return `${getMonth()} ${c.slice(0, 4)}`;
+            }
+            // Quarters
+            if(/^Q\d \d{4}$/.test(c)) {
+                return `Quarter ${c[1]}, ${c.slice(3)}`;
+            }
+            // Halves
+            if(/^H\d \d{4}$/.test(c)) {
+                return `Half ${c[1]}, ${c.slice(3)}`;
+            }
+            // yyyy and any other weird stuff
+            return c;
         }
     },
     versionUp: {
