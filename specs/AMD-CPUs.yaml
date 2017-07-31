@@ -31,9 +31,12 @@ sections:
         - Regor
     - header: ATHLON X4 FAMILY
       members:
+        - Bristol-Ridge
         - Carrizo
         - Kaveri
         - Richland
+        - Trinity
+        - Llano
         - Porpus-Athlon
     - header: ATHLON X3 FAMILY
       members: 

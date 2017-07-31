@@ -1,0 +1,16 @@
+name: Carrizo
+humanName: Carrizo
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Lithography: 28 nm
+  Sockets:
+  - FM2+
+  Foundry: Global Foundries
+sections:
+  - header: NSTS QUAD CORE
+    members:
+      - X4-845
+      - X4-835
+
+

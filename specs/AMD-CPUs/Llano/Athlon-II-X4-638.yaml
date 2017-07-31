@@ -1,0 +1,14 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 4
+  Core Count: 4
+  Base Frequency: 2.7 GHz
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 0 MiB
+  TDP: 65 W
+  Release Date: '2012-02-08'
+inherits:
+  - Llano
+name: X4-638
+humanName: X4 638
