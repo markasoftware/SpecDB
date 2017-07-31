@@ -1,13 +1,10 @@
 # SpecDB
 
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/SpecDB-AMD/SpecDB)
-[![Netlify](https://www.netlify.com/img/global/badges/netlify-dark.svg)](https://netlify.com)
-
 SpecDB is a beatiful and easy-to-use AMD equivalent to Intel's ARK. It's powered by Mithril and Browserify on the front-end, and has no backend (just static files).
 
 SpecDB (master branch) is live at https://specdb.info/, and the beta branch is deployed at https://beta.specdb.info/
 
-Most discussion about development happens in comment threads here on github, or on [gitter](https://gitter.im/SpecDB-AMD/SpecDB)
+Visit our [Discord channel](https://discord.gg/xfVHZAb) to chat with other developers!
 
 Look at the [wiki](https://github.com/markasoftware/SpecDB/wiki) for more detailed technical info than this readme!
 

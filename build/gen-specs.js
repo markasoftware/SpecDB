@@ -1,5 +1,16 @@
-const parseYaml = require('js-yaml').safeLoad;
 const fs = require('fs');
+const jsYaml = require('js-yaml');
+
+const parseYaml = filePath => {
+    let toReturn;
+    try {
+        toReturn = jsYaml.safeLoad(fs.readFileSync(filePath));
+    } catch (e) {
+        console.error(`FATAL: yaml parsing failed for ${filePath}. Aborting. Error: ${e}`);
+        process.exit(1);
+    }
+    return toReturn;
+}
 
 const basePath = process.argv[2];
 const specOutPath = process.argv[3];
@@ -13,7 +24,7 @@ const traverseHidden = path => {
     fs.readdirSync(path).forEach(subPath => {
         // i really don't need a regex here but fuck it
         if(/\.yaml$/.test(subPath)) {
-            const data = parseYaml(fs.readFileSync(`${path}/${subPath}`));
+            const data = parseYaml(`${path}/${subPath}`);
             if(data.hidden) {
                 hidden[data.name] = data;
             }
@@ -37,7 +48,7 @@ const traverse = path => {
     fs.readdirSync(path).forEach(subPath => {
         const fullPath = `${path}/${subPath}`;
         if(fs.statSync(fullPath).isFile()) {
-            const curData = parseYaml(fs.readFileSync(fullPath));
+            const curData = parseYaml(fullPath);
             if(curData.isPart) {
                 toSitemap.push(`https://specdb.info/#!/${curData.name}`);
             }
