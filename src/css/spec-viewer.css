@@ -21,9 +21,6 @@
 #selected-parts-list {
     margin-bottom: 5vh;
 }
-#spec-table {
-    margin: 0 auto;
-}
 h2.centered {
     text-align: center;
     width: 100%;
@@ -38,13 +35,14 @@ h2.top {
     box-shadow: 0 0 5px #999;
     border-collapse: collapse;
     margin: 5vh auto;
-    width: calc(100% - 30px - 9rem);
+    max-width: calc(100% - 30px - 9rem);
 }
 .spec-tab th, .spec-tab td {
     padding: 1.3em 1em;
     border-left: 1px solid #ccc;
     max-width: 10rem;
     min-width: 4rem;
+    width: 10rem;
     vertical-align: top;
 }
 .spec-tab th {
@@ -65,6 +63,14 @@ h2.top {
 }
 .spec-tab .left-corner {
     border: none;
+}
+.spec-tab .table-section-collapsed {
+    border: none;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+    background: repeating-linear-gradient(-45deg, #f7f7f7, #f7f7f7 10px, #fff 10px, #fff 20px);
 }
 .hr {
     width: 100%;
