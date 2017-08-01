@@ -59,6 +59,10 @@ module.exports = {
                     ]),
                     // now for real data
                     sections.map(curSection => {
+                        // if we don't have any data for this section, exit now
+                        if(curSection.rows.length === 0) {
+                            return;
+                        }
                         const curLsKey = `table-section-display-${curSection.name}`;
                         const toggleLs = () => localStorage.setItem(curLsKey,
                             localStorage.getItem(curLsKey) === 'yes' ? 'no' : 'yes');

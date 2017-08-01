@@ -70,7 +70,7 @@ module.exports.getTableData = (parts, sections) =>
                 const fullDataCells = parts.map(curPart => {
                     const yamlValue = curPart.data[curRow.name];
                     const yamlUndefined = typeof yamlValue === 'undefined';
-                    const initialUndefined = yamlUndefined && !curRow.processor.default;
+                    const initialUndefined = yamlUndefined && typeof curRow.processor.default === 'undefined';
                     const initial = yamlUndefined ? curRow.processor.default : yamlValue;
                     return initialUndefined ? {
                         postprocessed: '',
