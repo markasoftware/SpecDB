@@ -1,0 +1,8 @@
+hidden: true
+name: Seoul
+data:
+  Architecture: Piledriver
+  Lithography: 32 nm
+  Socket: C32
+  L3 Cache (Total): 8 MiB
+  Release Date: '2012-12-04'

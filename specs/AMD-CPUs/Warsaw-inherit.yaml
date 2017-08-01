@@ -1,0 +1,9 @@
+hidden: true
+name: Warsaw
+data:
+  Architecture: Piledriver
+  Lithography: 32 nm
+  Socket: G34
+  TDP: 99 W
+  L3 Cache (Total): 16 MiB
+  Release Date: '2014-01-22'

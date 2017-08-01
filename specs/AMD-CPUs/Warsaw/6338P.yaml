@@ -1,0 +1,12 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 12
+  Core Count: 12
+  Base Frequency: 2.3 GHz
+  Boost Frequency: 2.8 GHz
+  L2 Cache (Total): 12 MiB
+inherits:
+  - Warsaw
+name: 6338P
+humanName: 6338P

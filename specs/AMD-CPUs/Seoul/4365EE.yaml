@@ -1,0 +1,13 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 8
+  Core Count: 8
+  Base Frequency: 2.0 GHz
+  Boost Frequency: 2.8 GHz
+  L2 Cache (Total): 8 MiB
+  TDP: 40 W
+inherits:
+  - Seoul
+name: 4365EE
+humanName: 4365EE

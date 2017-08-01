@@ -1,0 +1,13 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 12
+  Core Count: 12
+  Base Frequency: 2.8 GHz
+  Boost Frequency: 3.4 GHz
+  L2 Cache (Total): 12 MiB
+  TDP: 115 W
+inherits:
+  - Abu-Dhabi
+name: '6348'
+humanName: '6348'

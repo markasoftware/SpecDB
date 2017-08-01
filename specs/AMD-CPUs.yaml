@@ -54,3 +54,14 @@ sections:
       members: 
         - Regor-Sempron
         - Sargas-Sempron
+    - header: OPTERON FAMILY
+      members: 
+        - Warsaw
+        - Abu-Dhabi
+        - Seoul
+        - Delhi
+        - Interlagos
+        - Valencia
+        - Zurich
+        - Magny-Cours
+        - Lisbon

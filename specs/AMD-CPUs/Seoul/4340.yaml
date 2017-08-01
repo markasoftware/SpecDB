@@ -1,0 +1,13 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 6
+  Core Count: 6
+  Base Frequency: 3.5 GHz
+  Boost Frequency: 3.8 GHz
+  L2 Cache (Total): 6 MiB
+  TDP: 95 W
+inherits:
+  - Seoul
+name: '4340'
+humanName: '4340'

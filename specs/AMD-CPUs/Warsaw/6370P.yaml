@@ -1,0 +1,12 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 16
+  Core Count: 16
+  Base Frequency: 2.0 GHz
+  Boost Frequency: 2.5 GHz
+  L2 Cache (Total): 16 MiB
+inherits:
+  - Warsaw
+name: 6370P
+humanName: 6370P

@@ -1,0 +1,13 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 4
+  Core Count: 4
+  Base Frequency: 2.8 GHz
+  Boost Frequency: 3.8 GHz
+  L2 Cache (Total): 4 MiB
+  TDP: 45 W
+inherits:
+  - Delhi
+name: 3350HE
+humanName: 3350HE

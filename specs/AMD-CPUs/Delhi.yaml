@@ -1,0 +1,20 @@
+name: Delhi
+humanName: Delhi
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2012-12-04'
+  Lithography: 32 nm
+  Sockets:
+  - AM3+
+  Foundry: Global Foundries
+sections:
+  - header: Eight Core SKUs
+    members:
+      - 3365
+      - 3380
+  - header: Quad Core SKUs
+    members:
+      - 3320EE
+      - 3350HE
+ 

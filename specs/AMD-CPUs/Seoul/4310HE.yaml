@@ -1,0 +1,13 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 4
+  Core Count: 4
+  Base Frequency: 2.2 GHz
+  Boost Frequency: 3.0 GHz
+  L2 Cache (Total): 4 MiB
+  TDP: 35 W
+inherits:
+  - Seoul
+name: 4310EE
+humanName: 4310EE
