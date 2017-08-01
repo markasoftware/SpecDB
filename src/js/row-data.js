@@ -46,7 +46,7 @@ const versionCompare = (a, b) => {
 
 const boolPost = c => c ? 'Yes' : 'No';
 
-// NaN check is for TBA or something else, after parseFloating it is NaN and should be considered bad so highlighting still works for other parts
+// NaN check is for TBA and stuff
 const numberUpCompare = (a, b) => a > b || isNaN(b);
 const numberDownCompare = (a, b) => a < b || isNaN(b);
 
@@ -141,31 +141,114 @@ const types = {
     }
 };
 
-module.exports = {
-    // quoting all of these for consistency
-    'Core Count': types.numberUp,
-    'Module Count': types.numberUp,
-    'Thread Count': types.numberUp,
-    'Lithography': types.numberDown,
-    'TDP': types.numberDown,
-    'L2 Cache (Total)': types.unitUp,
-    'L3 Cache (Total)': types.unitUp,
-    'Base Frequency': types.unitUp,
-    'Boost Frequency': types.unitUp,
-    'XFR Frequency': types.unitUp,
-    'Unlocked': types.boolTrue,
-    'XFR Support': types.boolTrue,
-    'Release Date': types.dateUp,
-    'Die Size': types.numberUp,
-    // GPU Stuff
-    'Shader Processor Count': types.numberUp,
-    'Texture Mapping Unit Count': types.numberUp,
-    'Render Output Unit Count': types.numberUp,
-    'VRAM Capacity': types.unitUp,
-    'VRAM Bandwidth': types.unitUp,
-    // TODO: maybe make this have units?
-    'VRAM Frequency': types.numberUp,
-    'VRAM Bus Width': types.numberUp,
-    'DirectX Support': types.versionUp,
-    'Vulkan Support': types.versionUp,
-};
+// for testing
+module.exports.types = types;
+
+module.exports.sections = [
+    {
+        name: 'Basic Specs',
+        display: true,
+        rows: [
+            {
+                name: 'Base Frequency',
+                processor: types.unitUp,
+            },
+            {
+                name: 'Boost Frequency',
+                processor: types.unitUp,
+            },
+            {
+                name: 'Core Count',
+                processor: types.numberUp,
+            },
+            {
+                name: 'Thread Count',
+                processor: types.numberUp,
+            },
+            {
+                name: 'Render Output Unit Count',
+                processor: types.numberUp,
+            },
+            {
+                name: 'VRAM Capacity',
+                processor: types.unitUp,
+            },
+            {
+                name: 'Release Date',
+                processor: types.dateUp,
+            },
+            {
+                name: 'TDP',
+                processor: types.numberDown,
+            }
+        ],
+    },
+    {
+        name: 'Advanced Specs',
+        display: false,
+        rows: [
+            {
+                name: 'Module Count',
+                processor: types.numberUp,
+            },
+            {
+                name: 'Lithography',
+                processor: types.numberDown,
+            },
+            {
+                name: 'L2 Cache (Total)',
+                processor: types.unitUp,
+            },
+            {
+                name: 'L3 Cache (Total)',
+                processor: types.unitUp,
+            },
+            {
+                name: 'XFR Frequency',
+                processor: types.unitUp,
+            },
+            {
+                name: 'Shader Processor Count',
+                processor: types.numberUp,
+            },
+            {
+                name: 'Texture Mapping Unit Count',
+                processor: types.numberUp,
+            },
+            {
+                name: 'VRAM Bandwidth',
+                processor: types.unitUp,
+            },
+            {
+                name: 'VRAM Bus Width',
+                processor: types.numberUp,
+            },
+            {
+                name: 'VRAM Type',
+                processor: types.numberUp,
+            },
+        ],
+    },
+    {
+        name: 'Feature Support',
+        display: false,
+        rows: [
+            {
+                name: 'Unlocked',
+                processor: types.boolTrue,
+            },
+            {
+                name: 'XFR Support',
+                processor: types.boolTrue,
+            },
+            {
+                name: 'DirectX Support',
+                processor: types.versionUp,
+            },
+            {
+                name: 'Vulkan Support',
+                processor: types.versionUp,
+            },
+        ],
+    },
+];
