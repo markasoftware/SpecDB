@@ -1,0 +1,16 @@
+name: Llano
+humanName: Llano
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2012-Q1
+  Lithography: 32 nm
+  Sockets:
+  - FM1
+  Foundry: Global Foundries
+sections:
+  - header: 3rd GEN. DUAL CORE
+    members:
+      - Athlon II X2 221
+
+  
