@@ -55,7 +55,7 @@ module.exports.genSubtext = data => {
 module.exports.getTableData = (parts, sections) =>
     // generate all data here, hidden sections will be handled in spec-viewer.js
     // performance overhead is minimal
-    
+
     sections
     .map(curSection => ({
         name: curSection.name,
@@ -65,35 +65,40 @@ module.exports.getTableData = (parts, sections) =>
             // using parts.filter instead of parts.find for compatibility
             .filter(curRow => parts.filter(curPart => curPart.data[curRow.name]).length)
             .map(curRow => {
-                const canCompare = curRow.processor.compare && parts.length > 1;
+                const canCompare = parts.length > 1 && curRow.processor.compare;
                 // get a list of cells with pre and post processed values
                 const fullDataCells = parts.map(curPart => {
                     const yamlValue = curPart.data[curRow.name];
                     const yamlUndefined = typeof yamlValue === 'undefined';
                     const initialUndefined = yamlUndefined && !curRow.processor.default;
                     const initial = yamlUndefined ? curRow.processor.default : yamlValue;
-                    return initialUndefined ? { } : {
-                        postprocessed:
-                            curRow.processor.postprocess ?
-                                curRow.processor.postprocess(initial) :
-                                initial,
+                    return initialUndefined ? {
+                        postprocessed: '',
+                    } : {
                         preprocessed:
                             curRow.processor.preprocess ?
                                 curRow.processor.preprocess(initial) :
                                 initial,
+                        postprocessed:
+                            curRow.processor.postprocess ?
+                                curRow.processor.postprocess(initial) :
+                                initial,
                     };
                 });
                 // find best value
-                const bestPreprocessedValue = canCompare && fullDataCells.reduce((a, b) =>
-                    curRow.processor.compare(a, b) ? a : b
+                const bestPreprocessedValue = canCompare && fullDataCells.map(c => c.preprocessed).reduce((a, b) =>
+                    typeof b === 'undefined' || curRow.processor.compare(a, b) ? a : b
                 );
+                // check if all are winners. If this is the case, we don't want any winners
+                const highlightWinners = canCompare && fullDataCells.some(c => c.preprocessed != bestPreprocessedValue);
                 // now, take the full data cells and the best value to create a slimmed down version
                 // containing only the displayed/postprocessed value and whether this cell is a winner
                 return {
                     name: curRow.name,
                     cells: fullDataCells.map((fullCell) => ({
                         value: fullCell.postprocessed,
-                        winner: canCompare && fullCell.preprocessed === bestPreprocessedValue,
+                        // !! is required, otherwise it can be undefined
+                        winner: !!(highlightWinners && fullCell.preprocessed === bestPreprocessedValue),
                     })),
                 };
             }),
