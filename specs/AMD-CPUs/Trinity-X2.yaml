@@ -1,0 +1,15 @@
+name: Trinity
+humanName: Trinity
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2012-10-01'
+  Lithography: 32 nm
+  Sockets:
+  - FM2
+  Foundry: Global Foundries
+sections:
+  - header: 4th GEN. QUAD CORE
+    members:
+      - Athlon X2 340
+  
