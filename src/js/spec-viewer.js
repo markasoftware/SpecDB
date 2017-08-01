@@ -90,7 +90,7 @@ module.exports = {
                                     m('td.row-header', curRow.name),
                                     curRow.cells.map(curCell =>
                                         m('td', {
-                                            class: curCell.winner ? '.winner' : '',
+                                            class: curCell.winner ? 'winner' : '',
                                         }, curCell.value)
                                     ),
                                 ])
