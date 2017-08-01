@@ -1,0 +1,11 @@
+name: 1045T
+humanName: X6 1045T
+isPart: true
+type: CPU
+inherits:
+  - Thuban
+data:
+  Base Frequency: 2.7 GHz
+  Boost Frequency: 3.2 GHz
+  TDP: 95 W
+  Release Date: '2010-09'

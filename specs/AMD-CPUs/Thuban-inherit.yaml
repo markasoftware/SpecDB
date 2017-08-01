@@ -1,0 +1,10 @@
+hidden: true
+name: Thuban
+data:
+  Architecture: K10
+  Lithography: 45 nm
+  Core Count: 6
+  Thread Count: 6
+  L2 Cache (Total): 3 MiB
+  L3 Cache (Total): 6 MiB
+  Socket: AM3,AM2+

@@ -1,0 +1,11 @@
+name: 1075T
+humanName: X6 1075T
+isPart: true
+type: CPU
+inherits:
+  - Thuban
+data:
+  Base Frequency: 3.0 GHz
+  Boost Frequency: 3.5 GHz
+  TDP: 125 W
+  Release Date: '2010-09-21'

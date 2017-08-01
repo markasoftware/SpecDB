@@ -1,0 +1,24 @@
+name: Thuban
+humanName: Thuban
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2010-04-27'
+  Lithography: 45 nm
+  Sockets:
+  - AM2+
+  - AM3
+  Foundry: Global Foundries
+sections:
+  - header: Black Edition SKUs
+    members:
+      - 1075TBE
+      - 1090TBE
+      - 1100TBE
+  - header: Standard SKUs
+    members:
+      - 1035T
+      - 1045T
+      - 1055T
+      - 1065T
+      - 1075T

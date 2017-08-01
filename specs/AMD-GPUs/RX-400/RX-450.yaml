@@ -1,0 +1,21 @@
+name: RX-450
+humanName: RX 450
+isPart: true
+type: Graphics Card
+inherits:
+  - GCN 1
+data:
+  Release Date: '2016-06-30'
+  Base Frequency: 1050 MHz
+  VRAM Frequency: 4500 MT/s
+  VRAM Bandwidth: 72 GB/s
+  VRAM Capacity: 2 GiB
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 512
+  Die Size: 123 mm
+  GPU: Cape Verde 
+  Codename: Cape Verde Pro
+  TDP: 65 W
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 Bits

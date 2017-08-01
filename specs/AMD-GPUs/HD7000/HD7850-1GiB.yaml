@@ -1,0 +1,21 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: Pitcairn
+  Codename: Pitcairn Pro
+  Release Date: '2012-03-19'
+  Die Size: 212 mm
+  Shader Processor Count: 1024
+  Texture Mapping Unit Count: 64
+  Render Output Unit Count: 32
+  Base Frequency: 860 MHz 
+  VRAM Frequency: 4800 MT/s
+  VRAM Capacity: 1 GiB
+  VRAM Bus Width: 256 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 153.6 GB/s
+  TDP: 130  W
+inherits:
+  - GCN 1
+name: HD-7850-1GiB
+humanName: HD 7870 (1GiB)

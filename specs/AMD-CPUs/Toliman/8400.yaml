@@ -1,0 +1,11 @@
+name: 8400
+humanName: X3 8400
+isPart: true
+type: CPU
+inherits:
+  - Toliman
+data:
+  Base Frequency: 2.1 GHz
+  TDP: 95 W
+  Release Date: '2008-03-27'
+

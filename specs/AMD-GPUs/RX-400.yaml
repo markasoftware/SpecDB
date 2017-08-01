@@ -15,7 +15,10 @@ sections:
     - RX-480-4GiB
     - RX-470-8GiB
     - RX-470-4GiB
+    - RX-470D
   - header: ENTRY LEVEL
     members:
     - RX-460-4GiB
     - RX-460-2GiB
+    - RX-455
+    - RX-450

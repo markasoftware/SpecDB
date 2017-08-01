@@ -1,0 +1,11 @@
+hidden: true
+name: Callisto
+data:
+  Architecture: K10
+  Lithography: 45 nm
+  Core Count: 2
+  Thread Count: 2
+  L2 Cache (Total): 1 MiB
+  L3 Cache (Total): 6 MiB
+  TDP: 80 W
+  Socket: AM3,AM2+

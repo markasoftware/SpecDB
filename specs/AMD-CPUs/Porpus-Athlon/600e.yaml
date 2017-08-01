@@ -1,0 +1,10 @@
+name: 600e
+humanName: X4 600e
+isPart: true
+type: CPU
+inherits:
+  - Porpus-Athlon
+data:
+  Base Frequency: 2.2 GHz
+  TDP: 45 W
+  Release Date: '2009-10-20'

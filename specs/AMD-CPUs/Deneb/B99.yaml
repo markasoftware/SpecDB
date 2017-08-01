@@ -1,0 +1,12 @@
+name: B99
+humanName: X4 B99
+isPart: true
+type: CPU
+inherits:
+  - Deneb
+data:
+  Base Frequency: 3.3 GHz
+  Socket: AM3,AM2+
+  L3 Cache (Total): 6 MiB
+  TDP: 95 W
+  Release Date: '2011 '

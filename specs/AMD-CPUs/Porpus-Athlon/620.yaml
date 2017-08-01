@@ -1,0 +1,10 @@
+name: 620
+humanName: X4 620 
+isPart: true
+type: CPU
+inherits:
+  - Porpus-Athlon
+data:
+  Base Frequency: 2.6 GHz
+  TDP: 95 W
+  Release Date: '2009-09-16'

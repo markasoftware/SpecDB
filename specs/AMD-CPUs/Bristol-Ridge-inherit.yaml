@@ -1,0 +1,7 @@
+hidden: true
+name: Bristol-Ridge
+data:
+  Architecture: Excavator
+  Lithography: 28 nm
+  Socket: AM4
+  Unlocked: true

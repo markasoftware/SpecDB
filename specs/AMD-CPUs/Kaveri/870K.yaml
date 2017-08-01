@@ -1,0 +1,12 @@
+name: 870K
+humanName: X4 870K
+isPart: true
+type: CPU
+inherits:
+  - Kaveri
+data:
+  Base Frequency: 3.9 GHz
+  Boost Frequency: 4.1 GHz
+  TDP: 95 W
+  Unlocked: true
+

@@ -1,0 +1,10 @@
+hidden: true
+name: Sargas-Sempron
+data:
+  Architecture: K10
+  Lithography: 45 nm
+  Core Count: 1
+  Thread Count: 1
+  TDP: 45 W
+  Socket: AM3,AM2+
+   

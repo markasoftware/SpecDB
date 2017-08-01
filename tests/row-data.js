@@ -2,7 +2,7 @@ const test = require('tape');
 const rowData = require('../src/js/row-data.js');
 
 test('bool', t => {
-    const subject = rowData.Unlocked;
+    const subject = rowData.types.boolTrue;
 
     // this is a bit stupid
     t.equal(subject.default, false, 'default');
@@ -14,7 +14,7 @@ test('bool', t => {
     t.end();
 });
 test('number', t => {
-    const subject = rowData['Thread Count'];
+    const subject = rowData.types.numberUp;
 
     // we won't test preprocess because it's literally just parseFloat currently
     // I hope that all major JS engines have well tested standard libraries
@@ -25,7 +25,7 @@ test('number', t => {
     t.end();
 });
 test('units', t => {
-    const subject = rowData['VRAM Capacity'];
+    const subject = rowData.types.unitUp;
 
     // we won't be testing all units because that's tedious and is basically just mirroring
     t.equal(subject.preprocess('2.4 GHz'), 2400000000, '2.4 GHz');
@@ -34,7 +34,7 @@ test('units', t => {
     t.end();
 });
 test('version', t => {
-    const subject = rowData['DirectX Support'];
+    const subject = rowData.types.versionUp;
 
     t.equal(subject.default, '0.0');
 
@@ -46,14 +46,19 @@ test('version', t => {
     t.end();
 });
 test('date', t => {
-    const subject = rowData['Release Date'];
+    const subject = rowData.types.dateUp;
 
     t.deepEqual(subject.preprocess('2001-02-27'), new Date('2001-02-27'), 'preprocess yyyy-mm-dd');
     t.deepEqual(subject.preprocess('2001-02'), new Date('2001-02-01'), 'preprocess yyyy-mm');
-    t.deepEqual(subject.preprocess('2001'), new Date('2001-01-01'), 'preprocess yyyy');
-    t.deepEqual(subject.preprocess('Q2 2001'), new Date('2001-04-01'), 'preprocess Q');
-    t.deepEqual(subject.preprocess('H2 2001'), new Date('2001-07-01'), 'preprocess H');
+    t.deepEqual(subject.preprocess('2001'), new Date(2001, 0), 'preprocess yyyy');
+    t.deepEqual(subject.preprocess('Q2 2001'), new Date(2001, 3), 'preprocess Q');
+    t.deepEqual(subject.preprocess('H2 2001'), new Date(2001, 6), 'preprocess H');
 
-    t.equal(subject.postprocess('2001-02-27'), 'February 27, 2001', 'basic postprocess');
+    t.equal(subject.postprocess('2001-02-27'), 'February 27, 2001', 'postprocess yyyy-mm-dd');
+    t.equal(subject.postprocess('2001-02'), 'February 2001', 'postprocess yyyy-mm');
+    t.equal(subject.postprocess('2001'), '2001', 'postprocess yyyy');
+    t.equal(subject.postprocess('Q2 2001'), 'Quarter 2, 2001', 'postprocess Q');
+    t.equal(subject.postprocess('H2 2001'), 'Half 2, 2001', 'preprocess H');
+
     t.end();
 });

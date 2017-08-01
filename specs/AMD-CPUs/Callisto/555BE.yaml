@@ -1,0 +1,10 @@
+name: 555BE
+humanName: X2 555 Black Edition
+isPart: true
+type: CPU
+inherits:
+  - Callisto
+data:
+  Base Frequency: 3.2 GHz
+  Unlocked: true
+  Release Date: '2010-01-25'

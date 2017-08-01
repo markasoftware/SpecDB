@@ -1,0 +1,35 @@
+name: Agena
+humanName: Agena
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2007-11-19'
+  Lithography: 65 nm
+  Sockets:
+  - AM2+
+  Foundry: Global Foundries
+sections:
+  - header: Black Edition SKUs
+    members:
+      - 9600
+      - 9850
+      - 9950
+  - header: Standard SKUs
+    members:
+      - 9500
+      - 9550
+      - 9600
+      - 9650
+      - 9750
+      - 9850
+  - header: Low Power SKUs
+    members:
+      - 9100e
+      - 9150e
+      - 9350e
+      - 9450e
+  - header: Buisness Class SKUs
+    members:
+      - 9600B
+      - 9750B
+      - 9850B

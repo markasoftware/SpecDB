@@ -1,0 +1,13 @@
+name: 960TBE
+humanName: X4 960T Black Edition
+isPart: true
+type: CPU
+inherits:
+  - Zosma
+data:
+  Base Frequency: 3.0 GHz
+  Boost Frequency: 3.4 GHz
+  L3 Cache (Total): 6 MiB
+  TDP: 125 W
+  Unlocked: true
+  Release Date: 'Q4 2010'

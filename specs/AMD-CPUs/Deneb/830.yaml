@@ -1,0 +1,12 @@
+name: 830
+humanName: X4 830
+isPart: true
+type: CPU
+inherits:
+  - Deneb
+data:
+  Base Frequency: 2.8 GHz
+  Socket: AM3,AM2+
+  L3 Cache (Total): 6 MiB
+  TDP: 95 W
+  Release Date: 'Q3 2010'

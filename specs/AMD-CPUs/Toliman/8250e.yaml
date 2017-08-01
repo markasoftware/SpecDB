@@ -1,0 +1,11 @@
+name: 8250e
+humanName: X3 8250e
+isPart: true
+type: CPU
+inherits:
+  - Toliman
+data:
+  Base Frequency: 1.9 GHz
+  TDP: 65 W
+  Release Date: '2008-09-08'
+

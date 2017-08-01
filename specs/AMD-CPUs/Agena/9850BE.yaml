@@ -1,0 +1,11 @@
+name: 9850BE
+humanName: X4 9850 Black Edition
+isPart: true
+type: CPU
+inherits:
+  - Agena
+data:
+  Base Frequency: 2.5 GHz
+  TDP: 125 W
+  Release Date: '2008-03-27'
+  Unlocked: true

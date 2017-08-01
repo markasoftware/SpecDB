@@ -1,0 +1,11 @@
+name: X4-970
+humanName: X4 970
+isPart: true
+type: CPU
+inherits:
+  - Excavator-4C-Base
+data:
+  Base Frequency: 3.8 GHz
+  Boost Frequency: 4.0 GHz
+  TDP: 65 W
+

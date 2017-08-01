@@ -11,9 +11,15 @@ const unitToNum = inStr => {
         'KiB': 1024,
         'MiB': 1024 * 1024,
         'GiB': 1024 * 1024 * 1024,
+        'KB': 1000,
+        'MB': 1000 * 1000,
+        'GB': 1000 * 1000 * 1000,
         'KiB/s': 1024,
         'MiB/s': 1024 * 1024,
         'GiB/s': 1024 * 1024 * 1024,
+        'KB/s': 1000,
+        'MB/s': 1000 * 1000,
+        'GB/s': 1000 * 1000 * 1000,
         'Hz': 1,
         'KHz': 1000,
         'MHz': 1000 * 1000,
@@ -40,7 +46,7 @@ const versionCompare = (a, b) => {
 
 const boolPost = c => c ? 'Yes' : 'No';
 
-// NaN check is for TBA or something else, after parseFloating it is NaN and should be considered bad so highlighting still works for other parts
+// NaN check is for TBA and stuff
 const numberUpCompare = (a, b) => a > b || isNaN(b);
 const numberDownCompare = (a, b) => a < b || isNaN(b);
 
@@ -94,8 +100,7 @@ const types = {
         },
         compare: numberUpCompare,
         postprocess: c => {
-            const d = types.dateUp.preprocess(c);
-            const humanMonth = [
+            const months = [
                 'January',
                 'February',
                 'March',
@@ -108,8 +113,26 @@ const types = {
                 'October',
                 'November',
                 'December',
-            ][d.getUTCMonth()];
-            return `${humanMonth} ${d.getUTCDate()}, ${d.getUTCFullYear()}`;
+            ];
+            const getMonth = () => months[c.slice(5, 7) - 1];
+            // yyyy-mm-dd
+            if(/^\d{4}-\d{2}-\d{2}$/.test(c)) {
+                return `${getMonth()} ${c.slice(8)}, ${c.slice(0, 4)}`;
+            }
+            // yyyy-mm
+            if(/^\d{4}-\d{2}$/.test(c)) {
+                return `${getMonth()} ${c.slice(0, 4)}`;
+            }
+            // Quarters
+            if(/^Q\d \d{4}$/.test(c)) {
+                return `Quarter ${c[1]}, ${c.slice(3)}`;
+            }
+            // Halves
+            if(/^H\d \d{4}$/.test(c)) {
+                return `Half ${c[1]}, ${c.slice(3)}`;
+            }
+            // yyyy and any other weird stuff
+            return c;
         }
     },
     versionUp: {
@@ -118,31 +141,114 @@ const types = {
     }
 };
 
-module.exports = {
-    // quoting all of these for consistency
-    'Core Count': types.numberUp,
-    'Module Count': types.numberUp,
-    'Thread Count': types.numberUp,
-    'Lithography': types.numberDown,
-    'TDP': types.numberDown,
-    'L2 Cache (Total)': types.unitUp,
-    'L3 Cache (Total)': types.unitUp,
-    'Base Frequency': types.unitUp,
-    'Boost Frequency': types.unitUp,
-    'XFR Frequency': types.unitUp,
-    'Unlocked': types.boolTrue,
-    'XFR Support': types.boolTrue,
-    'Release Date': types.dateUp,
-    'Die Size': types.numberUp,
-    // GPU Stuff
-    'Shader Processor Count': types.numberUp,
-    'Texture Mapping Unit Count': types.numberUp,
-    'Render Output Unit Count': types.numberUp,
-    'VRAM Capacity': types.unitUp,
-    'VRAM Bandwidth': types.unitUp,
-    // TODO: maybe make this have units?
-    'VRAM Frequency': types.numberUp,
-    'VRAM Bus Width': types.numberUp,
-    'DirectX Support': types.versionUp,
-    'Vulkan Support': types.versionUp,
-};
+// for testing
+module.exports.types = types;
+
+module.exports.sections = [
+    {
+        name: 'Basic Specs',
+        display: true,
+        rows: [
+            {
+                name: 'Base Frequency',
+                processor: types.unitUp,
+            },
+            {
+                name: 'Boost Frequency',
+                processor: types.unitUp,
+            },
+            {
+                name: 'Core Count',
+                processor: types.numberUp,
+            },
+            {
+                name: 'Thread Count',
+                processor: types.numberUp,
+            },
+            {
+                name: 'Render Output Unit Count',
+                processor: types.numberUp,
+            },
+            {
+                name: 'VRAM Capacity',
+                processor: types.unitUp,
+            },
+            {
+                name: 'Release Date',
+                processor: types.dateUp,
+            },
+            {
+                name: 'TDP',
+                processor: types.numberDown,
+            }
+        ],
+    },
+    {
+        name: 'Advanced Specs',
+        display: false,
+        rows: [
+            {
+                name: 'Module Count',
+                processor: types.numberUp,
+            },
+            {
+                name: 'Lithography',
+                processor: types.numberDown,
+            },
+            {
+                name: 'L2 Cache (Total)',
+                processor: types.unitUp,
+            },
+            {
+                name: 'L3 Cache (Total)',
+                processor: types.unitUp,
+            },
+            {
+                name: 'XFR Frequency',
+                processor: types.unitUp,
+            },
+            {
+                name: 'Shader Processor Count',
+                processor: types.numberUp,
+            },
+            {
+                name: 'Texture Mapping Unit Count',
+                processor: types.numberUp,
+            },
+            {
+                name: 'VRAM Bandwidth',
+                processor: types.unitUp,
+            },
+            {
+                name: 'VRAM Bus Width',
+                processor: types.numberUp,
+            },
+            {
+                name: 'VRAM Type',
+                processor: types.numberUp,
+            },
+        ],
+    },
+    {
+        name: 'Feature Support',
+        display: false,
+        rows: [
+            {
+                name: 'Unlocked',
+                processor: types.boolTrue,
+            },
+            {
+                name: 'XFR Support',
+                processor: types.boolTrue,
+            },
+            {
+                name: 'DirectX Support',
+                processor: types.versionUp,
+            },
+            {
+                name: 'Vulkan Support',
+                processor: types.versionUp,
+            },
+        ],
+    },
+];

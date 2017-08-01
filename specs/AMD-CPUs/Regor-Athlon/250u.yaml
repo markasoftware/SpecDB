@@ -1,0 +1,11 @@
+name: 250u
+humanName: X2 250u
+isPart: true
+type: CPU
+inherits:
+  - Regor-Athlon
+data:
+  Base Frequency: 1.6 GHz
+  TDP: 25 W
+  L2 Cache (Total): 2 MiB
+  Release Date: '2009-10-20'

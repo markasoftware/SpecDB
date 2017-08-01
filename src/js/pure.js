@@ -52,97 +52,57 @@ module.exports.genSubtext = data => {
     }
 }
 
-const sortValues = {
-    CPU: [
-        'Base Frequency',
-        'Boost Frequency',
-        'Core Count',
-        'Thread Count',
-        'L2 Cache (Total)',
-        'L3 Cache (Total)',
-        'TDP',
-        'Architecture',
-        'Release Date',
-    ],
-    'Graphics Card': [
-        'Base Frequency',
-        'Boost Frequency',
-        'VRAM Capacity',
-        'Shader Processor Count',
-        'Texture Mapping Unit Count',
-        'Render Output Unit Count',
-        'TDP',
-    ]
-};
+module.exports.getTableData = (parts, sections) =>
+    // generate all data here, hidden sections will be handled in spec-viewer.js
+    // performance overhead is minimal
 
-const getIndex = (haystack, needle) => {
-    const index = haystack.indexOf(needle);
-    return index === -1 ? 9999 : index;
-}
-
-
-const commonBasicRows = [
-    'Base Frequency',
-    'Boost Frequency',
-    'TDP',
-    'Architecture',
-    'Release Date',
-];
-
-const specificBasicRows = {
-    'CPU': [
-        'Core Count',
-        'Thread Count',
-    ],
-    'Graphics Card': [
-        'Shader Processor Count',
-        'VRAM Capacity',
-    ],
-}
-
-module.exports.getRowNames = (parts, advancedRows) => {
-    const curType = parts[0].type;
-    const curSortVals = sortValues[curType];
-    const toReturn = parts.reduce((a, b) => a.concat(Object.keys(b.data)), [])
-        // fancy es5 remove duplicate thing. I actually benchmarked it, and believe it or not it's faster than the native-ish Array.from(new Set()) and has better browser support!
-        .filter((c, i, s) => s.indexOf(c) === i)
-        .sort((a, b) => getIndex(curSortVals, a) - getIndex(curSortVals, b));
-    if(advancedRows) {
-        return toReturn;
-    } else {
-        const basicRows = commonBasicRows.concat(specificBasicRows[curType]);
-        return toReturn.filter(c => basicRows.includes(c));
-    }
-}
-
-
-module.exports.processRow = (values, processor) => {
-    const maxIndices = [];
-
-    if(processor) {
-        // Insert default values
-        values = values.map(c => (c === undefined && processor.default !== undefined) ? processor.default : c);
-
-        // find max value, if necessary
-        if(processor.compare) {
-            const preprocess = processor.preprocess ? processor.preprocess : (c => c);
-            // filter is to get rid of any undefined values
-            const maxValue = values.filter(c => typeof c !== 'undefined').reduce((a, b) => processor.compare(preprocess(a), preprocess(b)) ? a : b)
-            // find which ones are equal to the maxValue, put into maxIndices
-            values.forEach((c, i) => {
-                if(c === maxValue) {
-                    maxIndices.push(i);
-                }
-            });
-        }
-        values = values.map(c => (c !== undefined && processor.postprocess) ? processor.postprocess(c) : c);
-    }
-
-    return {
-        values,
-        maxIndices,
-    };
-}
+    sections
+    .map(curSection => ({
+        name: curSection.name,
+        // the rows are already in order
+        rows: curSection.rows
+            // filter to only those that at least 1 part has
+            // using parts.filter instead of parts.find for compatibility
+            .filter(curRow => parts.filter(curPart => curPart.data[curRow.name]).length)
+            .map(curRow => {
+                const canCompare = parts.length > 1 && curRow.processor.compare;
+                // get a list of cells with pre and post processed values
+                const fullDataCells = parts.map(curPart => {
+                    const yamlValue = curPart.data[curRow.name];
+                    const yamlUndefined = typeof yamlValue === 'undefined';
+                    const initialUndefined = yamlUndefined && typeof curRow.processor.default === 'undefined';
+                    const initial = yamlUndefined ? curRow.processor.default : yamlValue;
+                    return initialUndefined ? {
+                        postprocessed: '',
+                    } : {
+                        preprocessed:
+                            curRow.processor.preprocess ?
+                                curRow.processor.preprocess(initial) :
+                                initial,
+                        postprocessed:
+                            curRow.processor.postprocess ?
+                                curRow.processor.postprocess(initial) :
+                                initial,
+                    };
+                });
+                // find best value
+                const bestPreprocessedValue = canCompare && fullDataCells.map(c => c.preprocessed).reduce((a, b) =>
+                    typeof b === 'undefined' || curRow.processor.compare(a, b) ? a : b
+                );
+                // check if all are winners. If this is the case, we don't want any winners
+                const highlightWinners = canCompare && fullDataCells.some(c => c.preprocessed != bestPreprocessedValue);
+                // now, take the full data cells and the best value to create a slimmed down version
+                // containing only the displayed/postprocessed value and whether this cell is a winner
+                return {
+                    name: curRow.name,
+                    cells: fullDataCells.map((fullCell) => ({
+                        value: fullCell.postprocessed,
+                        // !! is required, otherwise it can be undefined
+                        winner: !!(highlightWinners && fullCell.preprocessed === bestPreprocessedValue),
+                    })),
+                };
+            }),
+    }));
 
 module.exports.seo = list => {
     const tr = {};

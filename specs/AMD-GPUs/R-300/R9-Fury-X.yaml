@@ -1,7 +1,8 @@
 isPart: true
 type: Graphics Card
 data:
-  GPU: Fiji XT
+  GPU: Fiji
+  Codename: Fiji XT
   Release Date: '2015-06-24'
   Die Size: 596 mm
   Shader Processor Count: 4096
@@ -12,7 +13,7 @@ data:
   VRAM Capacity: 4 GiB
   VRAM Bus Width: 4096 Bits
   VRAM Type: HBM
-  VRAM Bandwidth: 477 GiB/s
+  VRAM Bandwidth: 512 GB/s
   TDP: 275 W
 inherits:
   - GCN 3

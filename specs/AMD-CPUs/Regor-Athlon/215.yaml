@@ -1,0 +1,11 @@
+name: 215
+humanName: X2 215
+isPart: true
+type: CPU
+inherits:
+  - Regor-Athlon
+data:
+  Base Frequency: 2.7 GHz
+  TDP: 65 W
+  L2 Cache (Total): 1 MiB
+  Release Date: '2009-10-20'

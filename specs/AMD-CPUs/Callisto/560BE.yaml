@@ -1,0 +1,10 @@
+name: 560BE
+humanName: X2 560 Black Edition
+isPart: true
+type: CPU
+inherits:
+  - Callisto
+data:
+  Base Frequency: 3.3 GHz
+  Unlocked: true
+  Release Date: '2010-09-21'

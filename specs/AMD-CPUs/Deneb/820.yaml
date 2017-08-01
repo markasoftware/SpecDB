@@ -1,0 +1,12 @@
+name: 820
+humanName: X4 820
+isPart: true
+type: CPU
+inherits:
+  - Deneb
+data:
+  Base Frequency: 2.8 GHz
+  Socket: AM3,AM2+
+  L3 Cache (Total): 4 MiB
+  TDP: 95 W
+  Release Date: 'Q3 2009'

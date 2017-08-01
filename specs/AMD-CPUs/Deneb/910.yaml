@@ -1,0 +1,12 @@
+name: 910
+humanName: X4 910
+isPart: true
+type: CPU
+inherits:
+  - Deneb
+data:
+  Base Frequency: 2.6 GHz
+  Socket: AM3,AM2+
+  L3 Cache (Total): 6 MiB
+  TDP: 95 W
+  Release Date: '2009-02-09'

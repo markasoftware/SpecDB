@@ -1,0 +1,11 @@
+name: B77
+humanName: X3 B77
+isPart: true
+type: CPU
+inherits:
+  - Heka
+data:
+  Base Frequency: 3.2 GHz
+  Socket: AM3,AM2+
+  TDP: 95 W
+  Release Date: '2010-05-11'

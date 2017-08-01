@@ -1,0 +1,10 @@
+hidden: true
+name: Regor
+data:
+  Architecture: K10
+  Lithography: 45 nm
+  Core Count: 2
+  Thread Count: 2
+  L2 Cache (Total): 2 MiB
+  TDP: 65 W
+  Socket: AM3,AM2+

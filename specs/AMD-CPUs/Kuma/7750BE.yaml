@@ -1,0 +1,11 @@
+name: 7750BE
+humanName: X2 7750 Black Edition
+isPart: true
+type: CPU
+inherits:
+  - Kuma
+data:
+  Base Frequency: 2.5 GHz
+  TDP: 95 W
+  Release Date: '2008-12-15'
+  Unlocked: true

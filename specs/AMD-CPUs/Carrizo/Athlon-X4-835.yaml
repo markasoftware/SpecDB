@@ -1,0 +1,11 @@
+name: X4-835
+humanName: X4 835
+isPart: true
+type: CPU
+inherits:
+  - Carrizo-Base
+data:
+  Base Frequency: 3.1 GHz
+  Boost Frequency: 3.4 GHz
+  TDP: 65 W
+

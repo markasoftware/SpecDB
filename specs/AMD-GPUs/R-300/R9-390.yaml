@@ -1,7 +1,8 @@
 isPart: true
 type: Graphics Card
 data:
-  GPU: Hawaii Pro
+  GPU: Hawaii
+  Codename: Hawaii Pro
   Release Date: '2015-06-18'
   Die Size: 438 mm
   Shader Processor Count: 2560
@@ -12,7 +13,7 @@ data:
   VRAM Capacity: 8 GiB
   VRAM Bus Width: 512 Bits
   VRAM Type: GDDR5
-  VRAM Bandwidth: 358 GiB/s
+  VRAM Bandwidth: 384 GB/s
   TDP: 275 W
 inherits:
   - GCN 2

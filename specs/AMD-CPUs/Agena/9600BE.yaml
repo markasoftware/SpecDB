@@ -1,0 +1,11 @@
+name: 9600BE
+humanName: X4 9600 Black Edition
+isPart: true
+type: CPU
+inherits:
+  - Agena
+data:
+  Base Frequency: 2.3 GHz
+  TDP: 95 W
+  Release Date: '2007-11-19'
+  Unlocked: true

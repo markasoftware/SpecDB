@@ -1,0 +1,20 @@
+name: Zosma
+humanName: Zosma
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2010-09-01'
+  Lithography: 45 nm
+  Sockets:
+  - AM2+
+  - AM3
+  Foundry: Global Foundries
+sections:
+  - header: Black Edition SKUs
+    members:
+      - 960TBE
+  - header: Standard SKUs
+    members:
+      - 960T
+      - 840T
+      - 650T

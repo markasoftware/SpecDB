@@ -1,0 +1,12 @@
+name: 145
+humanName: '145'
+isPart: true
+type: CPU
+inherits:
+  - Sargas-Sempron
+data:
+  Base Frequency: 2.8 GHz
+  Release Date: '2010-09'
+  L2 Cache (Total): 2 MiB
+
+

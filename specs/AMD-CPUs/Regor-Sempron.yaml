@@ -1,0 +1,16 @@
+name: Regor-Sempron
+humanName: Regor
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: 'Q3 2010'
+  Lithography: 45 nm
+  Sockets:
+  - AM2+
+  - AM3
+  Foundry: Global Foundries
+sections:
+  - header: Standard SKUs
+    members:
+      - 180
+      - 190

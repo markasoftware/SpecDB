@@ -1,0 +1,9 @@
+name: 521
+humanName: X2 521
+isPart: true
+type: CPU
+inherits:
+  - Regor
+data:
+  Base Frequency: 3.5 GHz
+  Release Date: 'Q2 2011'

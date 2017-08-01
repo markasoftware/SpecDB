@@ -1,0 +1,14 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 4
+  Core Count: 4
+  Base Frequency: 2.6 GHz
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 0 Mib
+  TDP: 100 W
+  Release Date: '2012-08-15'
+inherits:
+  - Llano
+name: X4-631
+humanName: X4 631

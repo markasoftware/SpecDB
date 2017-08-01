@@ -1,0 +1,8 @@
+hidden: true
+name: Regor-Athlon
+data:
+  Architecture: K10
+  Lithography: 45 nm
+  Core Count: 2
+  Thread Count: 2
+  Socket: AM3,AM2+

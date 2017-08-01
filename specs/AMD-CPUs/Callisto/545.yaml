@@ -1,0 +1,9 @@
+name: 545
+humanName: X2 545
+isPart: true
+type: CPU
+inherits:
+  - Callisto
+data:
+  Base Frequency: 3.0 GHz
+  Release Date: '2009-06-01'

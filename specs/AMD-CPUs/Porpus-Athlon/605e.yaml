@@ -1,0 +1,10 @@
+name: 605e
+humanName: X4 605e
+isPart: true
+type: CPU
+inherits:
+  - Porpus-Athlon
+data:
+  Base Frequency: 2.3 GHz
+  TDP: 45 W
+  Release Date: '2009-10-20'

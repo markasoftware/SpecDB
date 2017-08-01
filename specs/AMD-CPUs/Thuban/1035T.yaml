@@ -1,0 +1,11 @@
+name: 1035T
+humanName: X6 1035T
+isPart: true
+type: CPU
+inherits:
+  - Thuban
+data:
+  Base Frequency: 2.6 GHz
+  Boost Frequency: 3.1 GHz
+  TDP: 95 W
+  Release Date: '2010-05'

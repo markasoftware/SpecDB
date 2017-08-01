@@ -1,0 +1,12 @@
+name: 905e
+humanName: X4 905e
+isPart: true
+type: CPU
+inherits:
+  - Deneb
+data:
+  Base Frequency: 2.5 GHz
+  Socket: AM3,AM2+
+  L3 Cache (Total): 6 MiB
+  TDP: 65 W
+  Release Date: '2009-06-02'

@@ -1,0 +1,11 @@
+name: 260
+humanName: X2 260
+isPart: true
+type: CPU
+inherits:
+  - Regor-Athlon
+data:
+  Base Frequency: 3.2 GHz
+  TDP: 65 W
+  L2 Cache (Total): 2 MiB
+  Release Date: '2010-05-11'
