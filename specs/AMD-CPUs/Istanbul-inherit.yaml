@@ -1,0 +1,11 @@
+hidden: true
+name: Istanbul
+data:
+  Architecture: K10
+  Lithography: 45 nm
+  Socket: F
+  L2 Cache (Total): 3 MiB
+  L3 Cache (Total): 6 MiB
+  Thread Count: 6
+  Core Count: 6
+

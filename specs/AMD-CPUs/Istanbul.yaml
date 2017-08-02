@@ -3,7 +3,7 @@ humanName: Istanbull
 type: CPU Architecture
 topHeader: 'SELECT CPU:'
 data:
-  Release Date: '2010-03-29'
+  Release Date: '2009-06-02'
   Lithography: 45 nm
   Sockets:
   - F

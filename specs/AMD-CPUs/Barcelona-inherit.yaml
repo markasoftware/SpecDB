@@ -1,0 +1,11 @@
+hidden: true
+name: Barcelona
+data:
+  Architecture: K10
+  Lithography: 65 nm
+  Socket: F
+  L2 Cache (Total): 2 MiB
+  L3 Cache (Total): 2 MiB
+  Thread Count: 4
+  Core Count: 4
+

@@ -1,7 +1,7 @@
 isPart: true
 type: Graphics Card
 data:
-  GPU: Malta
+  GPU: Tahiti
   Codename: Malta
   Release Date: '2013'
   Die Size: 352 mm²

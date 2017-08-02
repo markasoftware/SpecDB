@@ -1,0 +1,11 @@
+hidden: true
+name: Suzuka
+data:
+  Architecture: K10
+  Lithography: 45 nm
+  Socket: AM3
+  L2 Cache (Total): 2 MiB
+  L3 Cache (Total): 6 MiB
+  Thread Count: 4
+  Core Count: 4
+

@@ -1,0 +1,16 @@
+name: Budapest
+humanName: Budapest
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2008-04'
+  Lithography: 65 nm
+  Sockets:
+  - AM2+
+  Foundry: Global Foundries
+sections:
+  - header:  Quad core CPUs
+    members:
+      - 1352
+      - 1354
+      - 1356

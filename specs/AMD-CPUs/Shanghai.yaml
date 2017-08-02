@@ -1,0 +1,43 @@
+name: Shanghai
+humanName: Shanghai
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2008-11-13'
+  Lithography: 45 nm
+  Sockets:
+  - F
+  Foundry: Global Foundries
+sections:
+  - header:  Eight Socket CPU
+    members:
+      - 8374HE
+      - 8376HE
+      - 8378
+      - 8379HE
+      - 8380
+      - 8381HE
+      - 8382
+      - 8384
+      - 8386SE
+      - 8387
+      - 8389
+      - 8393SE
+  - header:  Dual Socket CPU
+    members: 
+      - 2372HE
+      - 2373EE
+      - 2374HE
+      - 2376
+      - 2376HE
+      - 2377EE
+      - 2378
+      - 2379HE
+      - 2380
+      - 2381HE
+      - 2382
+      - 2384
+      - 2386SE
+      - 2387
+      - 2389
+      - 2393SE
