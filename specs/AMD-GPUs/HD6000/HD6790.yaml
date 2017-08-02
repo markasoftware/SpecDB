@@ -1,0 +1,21 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: Barts
+  Codename: Barts LE
+  Release Date: '2011-04-04'
+  Die Size: 255 mm²
+  Shader Processor Count: 800
+  Texture Mapping Unit Count: 40
+  Render Output Unit Count: 16
+  Base Frequency: 840 MHz
+  VRAM Frequency: 4200 MT/s
+  VRAM Capacity: 1 GiB
+  VRAM Bus Width: 256 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 134.4 GB/s
+  TDP: 150 W
+inherits:
+  - TeraScale-2
+name: HD-6790
+humanName: HD 6790

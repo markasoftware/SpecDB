@@ -1,0 +1,38 @@
+name: HD6000
+humanName: HD 6000 Series
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 40 nm
+  DirectX Support: '12.0'
+  Release Date: '2010-10'
+sections:
+  - header: ENTHUSIAST
+    members:
+      - HD-6990
+  - header: HIGH END
+    members:
+      - HD-6970
+      - HD-6950-2GiB
+      - HD-6950-1GiB
+      - HD-6930-2GiB
+      - HD-6930-1GiB
+      - HD-6870-2GiB
+      - HD-6870-1GiB
+      - HD-6850
+  - header: MID RANGE
+    members:
+      - HD-6790
+      - HD-6770-512MiB
+  - header: ENTRY LEVEL
+    members:
+      - HD-6670-2GiB
+      - HD-6670-1GiB
+      - HD-6670-512MiB-DDR3
+      - HD-6570
+      - HD-6570-DDR3
+      - HD-6450-2GiB
+      - HD-6450-1GiB
+      - HD-6450-512MiB-DDR3
+      - HD-6350
