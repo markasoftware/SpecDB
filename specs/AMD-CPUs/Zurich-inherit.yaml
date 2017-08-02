@@ -1,0 +1,8 @@
+hidden: true
+name: Zurich
+data:
+  Architecture: Bulldozer
+  Lithography: 32 nm
+  Socket: AM3+
+  L3 Cache (Total): 8 MiB
+

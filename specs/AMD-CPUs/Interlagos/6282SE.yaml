@@ -1,0 +1,14 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 16
+  Core Count: 16
+  Base Frequency: 2.6 GHz
+  Boost Frequency: 3.3 GHz
+  L2 Cache (Total): 16 MiB
+  TDP: 140 W
+  Release Date: '2011-11-14'
+inherits:
+  - Interlagos
+name: 6282SE
+humanName: 6282SE

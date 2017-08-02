@@ -1,0 +1,14 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 12
+  Core Count: 12
+  Base Frequency: 2.2 GHz
+  Boost Frequency: 3.1 GHz
+  L2 Cache (Total): 12 MiB
+  TDP: 85 W
+  Release Date: '2012-05-01'
+inherits:
+  - Interlagos
+name: 6230HE
+humanName: 6230HE

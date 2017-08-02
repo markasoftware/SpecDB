@@ -1,0 +1,8 @@
+hidden: true
+name: Interlagos
+data:
+  Architecture: Bulldozer
+  Lithography: 32 nm
+  Socket: G34
+  L3 Cache (Total): 16 MiB
+

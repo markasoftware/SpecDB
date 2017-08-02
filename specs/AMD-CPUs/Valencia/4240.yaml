@@ -1,0 +1,14 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 6
+  Core Count: 6
+  Base Frequency: 3.4 GHz
+  Boost Frequency: 3.8 GHz
+  L2 Cache (Total): 6 MiB
+  TDP: 95 W
+  Release Date: '2012-05-01'
+inherits:
+  - Valencia
+name: '4238'
+humanName: '4238'

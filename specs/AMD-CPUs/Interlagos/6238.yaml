@@ -1,0 +1,14 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 12
+  Core Count: 12
+  Base Frequency: 2.6 GHz
+  Boost Frequency: 3.2 GHz
+  L2 Cache (Total): 12 MiB
+  TDP: 115 W
+  Release Date: '2011-11-14'
+inherits:
+  - Interlagos
+name: '6238'
+humanName: '6238'

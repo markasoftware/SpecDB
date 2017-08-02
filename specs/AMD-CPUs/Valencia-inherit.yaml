@@ -1,0 +1,8 @@
+hidden: true
+name: Valencia
+data:
+  Architecture: Bulldozer
+  Lithography: 32 nm
+  Socket: C32
+  L3 Cache (Total): 8 MiB
+

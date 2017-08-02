@@ -1,4 +1,4 @@
-name: Trinity
+name: Trinity-X2
 humanName: Trinity
 type: CPU Architecture
 topHeader: 'SELECT CPU:'
@@ -11,5 +11,5 @@ data:
 sections:
   - header: 4th GEN. QUAD CORE
     members:
-      - Athlon X2 340
+      - X2 340
   

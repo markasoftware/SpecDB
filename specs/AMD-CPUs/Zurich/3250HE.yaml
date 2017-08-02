@@ -1,0 +1,14 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 4
+  Core Count: 4
+  Base Frequency: 2.5 GHz
+  Boost Frequency: 3.5 GHz
+  L2 Cache (Total): 4 MiB
+  TDP: 45 W
+  Release Date: '2012-03-20'
+inherits:
+  - Zurich
+name: 3250HE
+humanName: 3250HE

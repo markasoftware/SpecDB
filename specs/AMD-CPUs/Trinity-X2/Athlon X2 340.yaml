@@ -9,6 +9,6 @@ data:
   TDP: 100 W
   Release Date: '2012-10-01'
 inherits:
-  - TrinityX2
-name: Athlon-X2-340
-humanName: Athlon X2 340
+  - Trinity-X2
+name: X2-340
+humanName: X2 340

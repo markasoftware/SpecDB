@@ -8,6 +8,6 @@ data:
   TDP: 65 W
   Release Date: '2012-Q1'
 inherits:
-  - LlanoX2
-name: Athlon-II-X2-221
-humanName: Athlon II X2 221
+  - Llano-X2
+name: X2-221
+humanName: X2 221

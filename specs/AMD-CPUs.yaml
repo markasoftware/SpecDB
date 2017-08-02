@@ -45,6 +45,8 @@ sections:
       members: 
         - Kaveri-X2
         - Richland-X2
+        - Trinity-X2
+        - Llano-X2
         - Regor-Athlon
         - Kuma
     - header: ATHLON FAMILY
