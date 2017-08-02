@@ -1,16 +1,14 @@
-name: Trinity
-humanName: Trinity
+name: Richland-Sempron
+humanName: Richland
 type: CPU Architecture
 topHeader: 'SELECT CPU:'
 data:
-  Release Date: '2012-10-01'
+  Release Date: '2013-06'
   Lithography: 32 nm
   Sockets:
   - FM2
   Foundry: Global Foundries
 sections:
-  - header: 4th GEN. QUAD CORE
+  - header: Standard SKUs
     members:
-      - X4-750K
-      - X4-740
-  
+     - 240

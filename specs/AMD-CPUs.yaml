@@ -54,6 +54,8 @@ sections:
         - Sargas
     - header: SEMPRON FAMILY
       members: 
+        - Richland-Sempron
+        - Trinity-Sempron
         - Regor-Sempron
         - Sargas-Sempron
     - header: OPTERON FAMILY
@@ -67,3 +69,6 @@ sections:
         - Zurich
         - Magny-Cours
         - Lisbon
+        - Istanbul
+        - Shanghai
+        - Suzuka
