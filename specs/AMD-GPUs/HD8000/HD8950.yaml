@@ -1,0 +1,23 @@
+
+isPart: true
+type: Graphics Card
+data:
+  GPU: Tahiti PRO
+  Codename: Tahiti PRO
+  Release Date: '2013'
+  Die Size: 352 mm²
+  Shader Processor Count: 1792
+  Texture Mapping Unit Count: 112
+  Render Output Unit Count: 32
+  Base Frequency: 850 MHz
+  Boost Frequency: 925 MHz
+  VRAM Frequency: 1250 MHz
+  VRAM Capacity: 3 GiB
+  VRAM Bus Width: 384 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 240 GB/s
+  TDP: 225 W
+inherits:
+  - GCN 1
+name: HD-8950
+humanName: HD 8950

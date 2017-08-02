@@ -1,0 +1,22 @@
+
+isPart: true
+type: Graphics Card
+data:
+  GPU: Caicos
+  Codename: Caicos
+  Release Date: '2013'
+  Die Size: 67 mm²
+  Shader Processor Count: 160
+  Texture Mapping Unit Count: 8
+  Render Output Unit Count: 4
+  Base Frequency: 875 MHz
+  VRAM Frequency: 900 MHz
+  VRAM Capacity: 1 GiB
+  VRAM Bus Width: 64 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 28.8 GB/s
+  TDP: 35 W
+inherits:
+  - TeraScale-2
+name: HD-8490
+humanName: HD 8490

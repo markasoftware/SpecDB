@@ -1,0 +1,22 @@
+
+isPart: true
+type: Graphics Card
+data:
+  GPU: Caicos
+  Codename: Caicos
+  Release Date: '2013'
+  Die Size: 67 mm²
+  Shader Processor Count: 160
+  Texture Mapping Unit Count: 8
+  Render Output Unit Count: 4
+  Base Frequency: 625 MHz
+  VRAM Frequency: 533 MHz
+  VRAM Capacity: 512 MiB
+  VRAM Bus Width: 64 Bits
+  VRAM Type: DDR3
+  VRAM Bandwidth: 8.53 GB/s
+  TDP: 18 W
+inherits:
+  - TeraScale-2
+name: HD-8450-DDR3
+humanName: HD 8450-DDR3
