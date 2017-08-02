@@ -14,5 +14,6 @@ sections:
       - R-200
       - HD8000
   - header: 2012 and prior
-    members: 
+    members:
       - HD7000
+      - HD6000
