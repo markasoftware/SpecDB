@@ -1,0 +1,26 @@
+name: Lisbon
+humanName: Lisbon
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2010-06-23'
+  Lithography: 45 nm
+  Sockets:
+  - C32
+  Foundry: Global Foundries
+sections:
+  - header: Six Core
+    members:
+     - 4162EE
+     - 4164EE
+     - 4170HE
+     - 4171HE
+     - 4174HE
+     - 4176HE
+     - 4180
+     - 4182
+  - header: Quad Core
+    members: 
+      - 4122
+      - 4130
+      - 4133

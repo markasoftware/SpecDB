@@ -1,0 +1,13 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 8
+  Core Count: 8
+  Base Frequency: 2.0 GHz
+  L2 Cache (Total): 4 MiB
+  TDP: 115 W
+  Release Date: '2010-03-29'
+inherits:
+  - Magny-Cours
+name: '6128'
+humanName: '6128'

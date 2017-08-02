@@ -1,0 +1,8 @@
+hidden: true
+name: Magny-Cours
+data:
+  Architecture: K10
+  Lithography: 45 nm
+  Socket: G34
+  L3 Cache (Total): 12 MiB
+

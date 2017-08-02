@@ -1,0 +1,8 @@
+hidden: true
+name: Lisbon
+data:
+  Architecture: K10
+  Lithography: 45 nm
+  Socket: C32
+  L3 Cache (Total): 6 MiB
+

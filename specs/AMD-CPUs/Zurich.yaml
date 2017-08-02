@@ -3,7 +3,7 @@ humanName: Zurich
 type: CPU Architecture
 topHeader: 'SELECT CPU:'
 data:
-  Release Date: '2011-11-14'
+  Release Date: '2012-03-20'
   Lithography: 32 nm
   Sockets:
   - AM3+

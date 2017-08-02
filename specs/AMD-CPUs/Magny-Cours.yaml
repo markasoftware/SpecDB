@@ -1,0 +1,32 @@
+name: Magny-Cours
+humanName: Magny-Cours
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2010-03-29'
+  Lithography: 45 nm
+  Sockets:
+  - G34
+  Foundry: Global Foundries
+sections:
+  - header: Twelve Core
+    members:
+     - 6164HE
+     - 6166HE
+     - 6168
+     - 6172
+     - 6172
+     - 6174
+     - 6176
+     - 6176SE
+     - 6180SE
+  - header: Eight Core
+    members: 
+      - 6124HE
+      - 6128
+      - 6128HE
+      - 6132HE
+      - 6134
+      - 6136
+      - 6140
+      
