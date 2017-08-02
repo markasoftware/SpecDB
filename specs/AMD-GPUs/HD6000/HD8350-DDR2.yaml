@@ -1,3 +1,4 @@
+
 isPart: true
 type: Graphics Card
 data:
@@ -9,7 +10,7 @@ data:
   Texture Mapping Unit Count: 8
   Render Output Unit Count: 4
   Base Frequency: 500 MHz 
-  VRAM Frequency: 800 MT/s
+  VRAM Frequency: 400 MHz
   VRAM Capacity: 256 MiB
   VRAM Bus Width: 64 Bits
   VRAM Type: DDR2

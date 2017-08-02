@@ -1,21 +1,22 @@
+
 isPart: true
 type: Graphics Card
 data:
-  GPU: Cape Verde
-  Codename: Cape Verde LE
-  Release Date: '2013-11-05'
-  Die Size: 123 mm²
+  GPU: Oland
+  Codename: Oland
+  Release Date: '2013'
+  Die Size: 90 mm²
   Shader Processor Count: 384
   Texture Mapping Unit Count: 24
   Render Output Unit Count: 8
-  Base Frequency: 800 MHz
-  VRAM Frequency: 4500 MT/s
-  VRAM Capacity: 1 GiB
+  Base Frequency: 730 MHz
+  VRAM Frequency: 1150 MHz
+  VRAM Capacity: 2 GiB
   VRAM Bus Width: 128 Bits
   VRAM Type: GDDR5
   VRAM Bandwidth: 72 GB/s
-  TDP: 47 W
+  TDP: 66 W
 inherits:
   - GCN 1
-name: HD-8730
-humanName: HD 8730
+name: HD-8570
+humanName: HD 8570

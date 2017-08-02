@@ -1,7 +1,8 @@
+
 isPart: true
 type: Graphics Card
 data:
-  GPU: Tahiti
+  GPU: Tahiti PRO
   Codename: Tahiti PRO
   Release Date: '2013'
   Die Size: 352 mm²
@@ -10,7 +11,7 @@ data:
   Render Output Unit Count: 32
   Base Frequency: 850 MHz
   Boost Frequency: 925 MHz
-  VRAM Frequency: 5000 MT/s
+  VRAM Frequency: 1250 MHz
   VRAM Capacity: 3 GiB
   VRAM Bus Width: 384 Bits
   VRAM Type: GDDR5

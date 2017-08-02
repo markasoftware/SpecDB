@@ -1,3 +1,4 @@
+
 isPart: true
 type: Graphics Card
 data:
@@ -8,14 +9,14 @@ data:
   Shader Processor Count: 160
   Texture Mapping Unit Count: 8
   Render Output Unit Count: 4
-  Base Frequency: 625 MHz
-  VRAM Frequency: 1066 MT/s
-  VRAM Capacity: 512 MiB
+  Base Frequency: 750 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Capacity: 1 GiB
   VRAM Bus Width: 64 Bits
-  VRAM Type: DDR3
-  VRAM Bandwidth: 8.53 GB/s
-  TDP: 18 W
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 25.6 GB/s
+  TDP: 35 W
 inherits:
   - TeraScale-2
-name: HD-8450-DDR3
-humanName: HD 8450-DDR3
+name: HD-8470
+humanName: HD 8470

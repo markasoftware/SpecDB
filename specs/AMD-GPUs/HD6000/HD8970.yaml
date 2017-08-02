@@ -1,7 +1,8 @@
+
 isPart: true
 type: Graphics Card
 data:
-  GPU: Tahiti
+  GPU: Tahiti XT2
   Codename: Tahiti XT2
   Release Date: '2013'
   Die Size: 352 mm²
@@ -10,7 +11,7 @@ data:
   Render Output Unit Count: 32
   Base Frequency: 1000 MHz
   Boost Frequency: 1050 MHz
-  VRAM Frequency: 6000 MT/s
+  VRAM Frequency: 1500 MHz
   VRAM Capacity: 3 GiB
   VRAM Bus Width: 384 Bits
   VRAM Type: GDDR5

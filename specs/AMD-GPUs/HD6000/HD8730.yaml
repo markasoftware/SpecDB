@@ -1,7 +1,8 @@
+
 isPart: true
 type: Graphics Card
 data:
-  GPU: Cape Verde
+  GPU: Cape Verde LE
   Codename: Cape Verde LE
   Release Date: '2013-11-05'
   Die Size: 123 mm²
@@ -9,7 +10,7 @@ data:
   Texture Mapping Unit Count: 24
   Render Output Unit Count: 8
   Base Frequency: 800 MHz
-  VRAM Frequency: 4500 MT/s
+  VRAM Frequency: 1125 MHz
   VRAM Capacity: 1 GiB
   VRAM Bus Width: 128 Bits
   VRAM Type: GDDR5

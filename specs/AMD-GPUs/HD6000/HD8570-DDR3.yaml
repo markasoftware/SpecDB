@@ -1,3 +1,4 @@
+
 isPart: true
 type: Graphics Card
 data:
@@ -8,14 +9,14 @@ data:
   Shader Processor Count: 384
   Texture Mapping Unit Count: 24
   Render Output Unit Count: 8
-  Base Frequency: 730 MHz
-  VRAM Frequency: 4600 MT/s
+  Base Frequency: 730 MHz 
+  VRAM Frequency: 900 MHz
   VRAM Capacity: 2 GiB
   VRAM Bus Width: 128 Bits
-  VRAM Type: GDDR5
-  VRAM Bandwidth: 72 GB/s
+  VRAM Type: DDR3
+  VRAM Bandwidth: 28.8 GB/s
   TDP: 66 W
 inherits:
   - GCN 1
-name: HD-8570
-humanName: HD 8570
+name: HD-8570-DDR3
+humanName: HD 8570 DDR3
