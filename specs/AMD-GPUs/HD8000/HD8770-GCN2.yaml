@@ -1,0 +1,21 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: Bonaire
+  Codename: Bonaire XT
+  Release Date: '2013'
+  Die Size: 160 mm²
+  Shader Processor Count: 896
+  Texture Mapping Unit Count: 56
+  Render Output Unit Count: 16
+  Base Frequency: 1000 MHz
+  VRAM Frequency: 6000 MT/s
+  VRAM Capacity: 2 GiB
+  VRAM Bus Width: 128 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 96 GB/s
+  TDP: 85 W
+inherits:
+  - GCN 2
+name: HD-8770
+humanName: HD 8770

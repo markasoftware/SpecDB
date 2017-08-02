@@ -1,0 +1,6 @@
+hidden: true
+name: TeraScale 2
+data:
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'

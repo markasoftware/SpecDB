@@ -1,0 +1,21 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: Oland
+  Codename: Oland
+  Release Date: '2013'
+  Die Size: 90 mm²
+  Shader Processor Count: 384
+  Texture Mapping Unit Count: 24
+  Render Output Unit Count: 8
+  Base Frequency: 730 MHz 
+  VRAM Frequency: 1800 MT/s
+  VRAM Capacity: 2 GiB
+  VRAM Bus Width: 128 Bits
+  VRAM Type: DDR3
+  VRAM Bandwidth: 28.8 GB/s
+  TDP: 66 W
+inherits:
+  - GCN 1
+name: HD-8570-DDR3
+humanName: HD 8570 DDR3
