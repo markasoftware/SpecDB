@@ -1,0 +1,7 @@
+hidden: true
+name: GCN 5
+data:
+  Architecture: 5th Gen GCN
+  Lithography: 14 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.0'

@@ -1,0 +1,18 @@
+name: RX-VEGA
+humanName: RX VEGA
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.0'
+  Release Date: '2017-08-14'
+sections:
+  - header: ENTHUSIAST
+    members:
+    - RX-VEGA64-LIQUID
+    - RX-VEGA64
+  - header: HIGH LEVEL
+    members:
+    - RX-VEGA56
