@@ -1,0 +1,21 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: Cypress
+  Codename: Cypress XT
+  Release Date: '2009-11-23'
+  Die Size: 334 mm²
+  Shader Processor Count: 1600
+  Texture Mapping Unit Count: 80
+  Render Output Unit Count: 32
+  Base Frequency: 850 MHz
+  VRAM Frequency: 4800 MT/s
+  VRAM Capacity: 2 GiB
+  VRAM Bus Width: 256 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 153.6 GB/s
+  TDP: 188 W
+inherits:
+  - TeraScale-2
+name: HD-5870-2GiB
+humanName: HD 5870 2GiB

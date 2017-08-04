@@ -1,0 +1,21 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: Cypress
+  Codename: Hemlock XT
+  Release Date: '2009-11-18'
+  Die Size: 334 mm²
+  Shader Processor Count: 3200
+  Texture Mapping Unit Count: 160
+  Render Output Unit Count: 64
+  Base Frequency: 725 MHz
+  VRAM Frequency: 4000 MT/s
+  VRAM Capacity: 1 GiB (per GPU)
+  VRAM Bus Width: 256 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 128 GB/s
+  TDP: 294 W
+inherits:
+  - TeraScale-2
+name: HD-5970-1GiB
+humanName: HD 5970 1GiB

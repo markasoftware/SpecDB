@@ -1,0 +1,21 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: Redwood
+  Codename: Redwood XT
+  Release Date: '2010-01-14'
+  Die Size: 104 mm²
+  Shader Processor Count: 400
+  Texture Mapping Unit Count: 20
+  Render Output Unit Count: 8
+  Base Frequency: 775 MHz 
+  VRAM Frequency: 4000 MT/s
+  VRAM Capacity: 1 GiB
+  VRAM Bus Width: 128 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 64 GB/s
+  TDP: 64 W
+inherits:
+  - TeraScale-2
+name: HD-5670-1GiB
+humanName: HD 5670 1GiB

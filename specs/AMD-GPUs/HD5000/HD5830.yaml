@@ -1,0 +1,21 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: Cypress
+  Codename: Cypress LE
+  Release Date: '2010-02-25'
+  Die Size: 334 mm²
+  Shader Processor Count: 1120
+  Texture Mapping Unit Count: 56
+  Render Output Unit Count: 16
+  Base Frequency: 800 MHz 
+  VRAM Frequency: 4000 MT/s
+  VRAM Capacity: 1 GiB
+  VRAM Bus Width: 256 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 128 GB/s
+  TDP: 175 W
+inherits:
+  - TeraScale-2
+name: HD-5830
+humanName: HD 5830

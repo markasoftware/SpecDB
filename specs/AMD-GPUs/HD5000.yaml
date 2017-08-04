@@ -1,0 +1,52 @@
+name: HD5000
+humanName: Radeon HD 5000 Series
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Release Date: '2009-09-10'
+sections:
+  - header: ENTHUSIAST
+    members:
+      - HD-5970-2GiB
+      - HD-5970-1GiB
+  - header: HIGH END
+    members:
+      - HD-5870-Eyefinity-6
+      - HD-5870-2GiB
+      - HD-5870-1GiB
+      - HD-5850-2GiB
+      - HD-5850-1GiB
+      - HD-5830
+  - header: MID RANGE
+    members:
+      - HD-5770-X2
+      - HD-5770-1GiB
+      - HD-5770-512MiB
+      - HD-5750-1GiB
+      - HD-5750-512MiB
+      - HD-5730
+      - HD-5690
+      - HD-5670-2GiB
+      - HD-5670-1GiB
+      - HD-5670-512MiB
+  - header: ENTRY LEVEL
+    members:
+      - HD-5630
+      - HD-5610
+      - HD-5570-2GiB-DDR3
+      - HD-5570
+      - HD-5570-512
+      - HD-5570-GDDR3
+      - HD-5570-Turks
+      - HD-5550
+      - HD-5530
+      - HD-5490
+      - HD-5470
+      - HD-5450-2GiB-DDR3
+      - HD-5450-1GiB-DDR3
+      - HD-5450-1GiB-DDR2
+      - HD-5450-512MiB-DDR3      
+      - HD-5450-512MiB-DDR2
