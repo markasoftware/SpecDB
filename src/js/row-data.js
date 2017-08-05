@@ -24,6 +24,10 @@ const unitToNum = inStr => {
         'KHz': 1000,
         'MHz': 1000 * 1000,
         'GHz': 1000 * 1000 * 1000,
+        'KFLOPs': 1000,
+        'MFLOPs': 1000 * 1000,
+        'GFLOPs': 1000 * 1000 * 1000,
+        'TFLOPs': 1000 * 1000 * 1000 * 1000,
     }
     return splitUp[0] * units[splitUp[1]];
 }
@@ -138,7 +142,11 @@ const types = {
     versionUp: {
         compare: versionCompare,
         default: '0.0',
-    }
+    },
+    enum: values => ({
+        compare: (a, b) => values.indexOf(a) < values.indexOf(b),
+        default: values[values.length - 1],
+    }),
 };
 
 // for testing
@@ -164,6 +172,10 @@ module.exports.sections = [
             {
                 name: 'Thread Count',
                 processor: types.numberUp,
+            },
+            {
+                name: 'FP32 Compute',
+                processor: types.unitUp,
             },
             {
                 name: 'Render Output Unit Count',
@@ -196,6 +208,10 @@ module.exports.sections = [
                 processor: types.numberDown,
             },
             {
+                name: 'L1 Cache (Total)',
+                processor: types.unitUp,
+            },
+            {
                 name: 'L2 Cache (Total)',
                 processor: types.unitUp,
             },
@@ -204,8 +220,16 @@ module.exports.sections = [
                 processor: types.unitUp,
             },
             {
+                name: 'FP64 Compute',
+                processor: types.unitUp,
+            },
+            {
                 name: 'XFR Frequency',
                 processor: types.unitUp,
+            },
+            {
+                name: 'Die Size',
+                processor: types.numberUp,
             },
             {
                 name: 'Shader Processor Count',
@@ -230,6 +254,24 @@ module.exports.sections = [
         ],
     },
     {
+        name: 'Compatibility',
+        display: false,
+        rows: [
+            {
+                name: 'Memory Channels',
+                processor: types.numberUp,
+            },
+            {
+                name: 'Max Memory Speed',
+                processor: types.unitUp,
+            },
+            {
+                name: 'Max PCI-e Lanes',
+                processor: types.numberUp,
+            },
+        ],
+    },
+    {
         name: 'Feature Support',
         display: false,
         rows: [
@@ -246,8 +288,28 @@ module.exports.sections = [
                 processor: types.versionUp,
             },
             {
+                name: 'OpenGL Support',
+                processor: types.versionUp,
+            },
+            {
                 name: 'Vulkan Support',
                 processor: types.versionUp,
+            },
+            {
+                name: 'OpenCL Support',
+                processor: types.versionUp,
+            },
+            {
+                name: 'FreeSync Support',
+                processor: types.boolTrue,
+            },
+            {
+                name: 'Crossfire Support',
+                processor: types.enum(['CrossfireX', 'Crossfire', 'No']),
+            },
+            {
+                name: 'Crossfire Connector',
+                processor: types.enum(['Not Required', 'Required']),
             },
         ],
     },

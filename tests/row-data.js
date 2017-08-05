@@ -62,3 +62,14 @@ test('date', t => {
 
     t.end();
 });
+test('enum', t => {
+    const subject = rowData.types.enum;
+
+    t.equal(subject(['boop']).default, 'boop');
+    t.equal(subject(['foop', 'bloop']).default, 'bloop');
+
+    t.equal(subject(['good', 'not good', 'even worse']).compare('not good', 'good'), false);
+    t.equal(subject(['good', 'not good', 'even worse']).compare('good', 'even worse'), true);
+
+    t.end();
+});
