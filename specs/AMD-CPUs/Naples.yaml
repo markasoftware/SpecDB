@@ -1,5 +1,5 @@
-name: Epyc
-humanName: Epyc
+name: Naples
+humanName: Naples
 type: CPU Architecture
 topHeader: 'SELECT CPU:'
 data:

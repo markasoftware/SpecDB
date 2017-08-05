@@ -1,4 +1,4 @@
-name: Summit Ridge
+name: Summit_Ridge
 humanName: Summit Ridge
 type: CPU Architecture
 topHeader: 'SELECT CPU:'
@@ -8,11 +8,6 @@ data:
   Sockets:
     - AM4
 sections:
-  - header: THREADRIPPER
-    members:
-      - 1950X
-      - 1920X
-      - 1900x
   - header: RYZEN 7
     members:
       - R7-1800X

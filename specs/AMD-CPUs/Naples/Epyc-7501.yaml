@@ -1,7 +1,7 @@
-name: Epyc-7551
-humanName: Epyc 7551
+name: Epyc-7501
+humanName: Epyc 7501
 inherits:
-  - Epyc
+  - Naples
 isPart: true
 type: CPU
 data:
@@ -11,4 +11,4 @@ data:
   Boost Frequency: 3.0 GHz
   L2 Cache (Total): 16 MiB
   L3 Cache (Total): 64 MiB
-  TDP: 180 W
+  TDP: 155 W

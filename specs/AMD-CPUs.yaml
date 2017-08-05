@@ -6,7 +6,7 @@ topHeader: "SELECT ARCHITECTURE:"
 sections:
     - header: ZEN FAMILY
       members:
-        - Summit Ridge
+        - Summit_Ridge
         - Bristol Ridge
         - Whitehaven
         - Naples
@@ -17,6 +17,7 @@ sections:
         - Valencia
         - Interlagos
     - header: PILEDRIVER FAMILY
+      members:
         - Vishera
         - Delhi
         - Seoul
@@ -24,6 +25,7 @@ sections:
         - Trinity
         - Richland
     - header: K10 FAMILY
+      members:
         - Thuban
         - Deneb
         - Heka

@@ -1,14 +1,14 @@
-name: Epyc-7451
-humanName: Epyc 7451
+name: Epyc-7401P
+humanName: Epyc 7401P
 inherits:
-  - Epyc
+  - Naples
 isPart: true
 type: CPU
 data:
   Thread Count: 48
   Core Count: 24
-  Base Frequency: 2.3 GHz
-  Boost Frequency: 3.2 GHz
+  Base Frequency: 2.0 GHz
+  Boost Frequency: 3.0 GHz
   L2 Cache (Total): 12 MiB
   L3 Cache (Total): 64 MiB
-  TDP: 180 W
+  TDP: 155 W

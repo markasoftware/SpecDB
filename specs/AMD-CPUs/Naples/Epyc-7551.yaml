@@ -1,7 +1,7 @@
-name: Epyc-7551P
-humanName: Epyc 7551P
+name: Epyc-7551
+humanName: Epyc 7551
 inherits:
-  - Epyc
+  - Naples
 isPart: true
 type: CPU
 data:

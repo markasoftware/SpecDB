@@ -1,7 +1,7 @@
 hidden: true
 name: Ryzen Threadripper Base
 inherits:
-  - Threadripper
+  - Whitehaven
 data:
   Release Date: '2017-08-12'
   XFR Support: true

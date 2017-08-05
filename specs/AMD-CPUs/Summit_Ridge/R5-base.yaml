@@ -1,7 +1,7 @@
 hidden: true
 name: Ryzen R5 Base
 inherits:
-  - Summit Ridge
+  - Summit_Ridge
 data:
   Release Date: '2017-04-11'
   XFR Support: true
