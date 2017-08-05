@@ -1,0 +1,10 @@
+isPart: true
+type: CPU
+data:
+  Base Frequency: 2.3  GHz
+  TDP: 60 W
+  Release Date: '2009-04-22'
+inherits:
+  - Shanghai
+name: 2377EE
+humanName: 2377EE

@@ -1,5 +1,5 @@
 name: HD5000
-humanName: Radeon HD 5000 Series
+humanName: HD 5000 Series
 type: Graphics Architecture
 isPart: false
 topHeader: 'SELECT CARD:'

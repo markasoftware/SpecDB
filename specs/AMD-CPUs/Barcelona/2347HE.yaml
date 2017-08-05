@@ -1,0 +1,10 @@
+isPart: true
+type: CPU
+data:
+  Base Frequency: 1.9  GHz
+  TDP: 68 W
+  Release Date: '2007-09-10'
+inherits:
+  - Barcelona
+name: 2347HE
+humanName: 2347HE

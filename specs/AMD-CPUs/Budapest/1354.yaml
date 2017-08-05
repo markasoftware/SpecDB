@@ -1,0 +1,8 @@
+isPart: true
+type: CPU
+data:
+  Base Frequency: 2.2 GHz
+inherits:
+  - Budapest
+name: '1354'
+humanName: '1354'

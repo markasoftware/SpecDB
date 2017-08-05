@@ -1,0 +1,10 @@
+isPart: true
+type: CPU
+data:
+  Base Frequency: 3.1  GHz
+  TDP: 137 W
+  Release Date: '2009-04-22'
+inherits:
+  - Shanghai
+name: 2393SE
+humanName: 2393SE

@@ -1,0 +1,10 @@
+isPart: true
+type: CPU
+data:
+  Base Frequency: 2.8 GHz
+  TDP: 137 W
+  Release Date: '2009-01-26'
+inherits:
+  - Shanghai
+name: 2386SE
+humanName: 2386SE

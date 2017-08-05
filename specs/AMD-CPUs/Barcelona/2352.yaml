@@ -1,0 +1,10 @@
+isPart: true
+type: CPU
+data:
+  Base Frequency: 2.1  GHz
+  TDP: 95 W
+  Release Date: '2007-08'
+inherits:
+  - Barcelona
+name: '2352'
+humanName: '2352'

@@ -1,0 +1,10 @@
+isPart: true
+type: CPU
+data:
+  Base Frequency: 2.8 GHz
+  TDP: 137 W
+  Release Date: '2008-11-13'
+inherits:
+  - Shanghai
+name: 8386SE
+humanName: 8386SE

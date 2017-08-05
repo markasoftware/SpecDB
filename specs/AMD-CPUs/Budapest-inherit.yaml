@@ -3,9 +3,12 @@ name: Budapest
 data:
   Architecture: K10
   Lithography: 65 nm
-  Socket: F
+  Socket: AM2+
   L2 Cache (Total): 2 MiB
   L3 Cache (Total): 2 MiB
   Thread Count: 4
   Core Count: 4
+  TDP:  115W
+  Release Date: '2008-04'
+
 

@@ -1,0 +1,10 @@
+isPart: true
+type: CPU
+data:
+  Base Frequency: 1.8 GHz
+  TDP: 60 W
+  Release Date: '2009-08-31'
+inherits:
+  - Istanbul
+name: 2419EE
+humanName: 2419EE

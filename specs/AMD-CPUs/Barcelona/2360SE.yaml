@@ -1,0 +1,10 @@
+isPart: true
+type: CPU
+data:
+  Base Frequency: 2.5  GHz
+  TDP: 119 W
+  Release Date: '2007-08'
+inherits:
+  - Barcelona
+name: 2360SE
+humanName: 2360SE
