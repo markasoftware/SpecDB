@@ -1,0 +1,44 @@
+name: HD4000
+humanName: Radeon HD 4000 Series
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Release Date: '2008-06-16'
+sections:
+  - header: ENTHUSIAST
+    members:
+      - HD-4890
+      - HD-4870-X2
+      - HD-4850-X2
+  - header: HIGH END
+    members:
+      - HD-4870
+      - HD-4860
+      - HD-4855
+      - HD-4850
+      - HD-4830
+      - HD-4670-X2
+  - header: MID RANGE
+    members:
+      - HD-4810
+      - HD-4770
+      - HD-4750
+      - HD-4730
+      - HD-4710
+      - HD-4700
+      - HD-4670-AGP
+      - HD-4670
+      - HD-4650-AGP
+      - HD-4650
+  - header: ENTRY LEVEL
+    members:
+      - HD-4570-Rebrand
+      - HD-4570
+      - HD-4550
+      - HD-4520
+      - HD-4350-AGP
+      - HD-4350
+      - HD-4250

@@ -1,0 +1,21 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: RV770
+  Codename: RV770 LE
+  Release Date: '2008-10-21'
+  Die Size: 256 mm²
+  Shader Processor Count: 640
+  Texture Mapping Unit Count: 32
+  Render Output Unit Count: 16
+  Base Frequency: 575 MHz 
+  VRAM Frequency: 1800 MT/s
+  VRAM Capacity: 512 MiB
+  VRAM Bus Width: 256 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 57.60 GB/s
+  TDP: 95 W
+inherits:
+  - TeraScale-1
+name: HD-4830
+humanName: HD 4830

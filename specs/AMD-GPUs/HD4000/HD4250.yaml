@@ -1,0 +1,21 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: RV620
+  Codename: RV620 LE
+  Release Date: '2009-02-25'
+  Die Size: 67 mm²
+  Shader Processor Count: 40
+  Texture Mapping Unit Count: 4
+  Render Output Unit Count: 4
+  Base Frequency: 594 MHz 
+  VRAM Frequency: 792 MT/s
+  VRAM Capacity: 512 MiB
+  VRAM Bus Width: 64 Bits
+  VRAM Type: DDR2
+  VRAM Bandwidth: 6.4 GB/s
+  TDP: 25 W
+inherits:
+  - TeraScale-1
+name: HD-4250
+humanName: HD 4250

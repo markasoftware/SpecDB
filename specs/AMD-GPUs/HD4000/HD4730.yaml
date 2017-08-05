@@ -1,0 +1,21 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: RV770
+  Codename: RV770 CE
+  Release Date: '2008-06-08'
+  Die Size: 256 mm²
+  Shader Processor Count: 640
+  Texture Mapping Unit Count: 32
+  Render Output Unit Count: 8
+  Base Frequency: 750 MHz 
+  VRAM Frequency: 3600 MT/s
+  VRAM Capacity: 512 MiB
+  VRAM Bus Width: 128 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 57.60 GB/s
+  TDP: 110 W
+inherits:
+  - TeraScale-1
+name: HD-4730
+humanName: HD 4730

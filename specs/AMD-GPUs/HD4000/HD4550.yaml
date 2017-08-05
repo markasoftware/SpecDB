@@ -1,0 +1,21 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: RV710
+  Codename: RV710
+  Release Date: '2009-09-30'
+  Die Size: 73 mm²
+  Shader Processor Count: 80
+  Texture Mapping Unit Count: 8
+  Render Output Unit Count: 4
+  Base Frequency: 600 MHz 
+  VRAM Frequency: 1310 MT/s
+  VRAM Capacity: 256 MiB
+  VRAM Bus Width: 64 Bits
+  VRAM Type: DDR2
+  VRAM Bandwidth: 10.48 GB/s
+  TDP: 25 W
+inherits:
+  - TeraScale-1
+name: HD-4550
+humanName: HD 4550
