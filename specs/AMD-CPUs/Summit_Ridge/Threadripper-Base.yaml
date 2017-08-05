@@ -1,5 +1,5 @@
 hidden: true
-name: Ryzen R9 Base
+name: Ryzen Threadripper Base
 inherits:
   - Threadripper
 data:

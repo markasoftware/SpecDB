@@ -1,7 +1,7 @@
 hidden: true
-name: Ryzen
+name: Summit Ridge
 data:
-  Architecture: Ryzen
+  Architecture: Summit Ridge
   Lithography: 14 nm
   Socket: AM4
   Unlocked: true

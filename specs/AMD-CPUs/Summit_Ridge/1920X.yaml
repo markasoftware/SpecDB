@@ -1,10 +1,9 @@
-
-name: R9-1920X
-humanName: R9 1920X
+name: 1920X
+humanName: 1920X
 isPart: true
 type: CPU
 inherits:
-  - Ryzen R9 Base
+  - Ryzen Threadripper Base
 data:
   Core Count: 12
   Thread Count: 24

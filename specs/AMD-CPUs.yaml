@@ -6,11 +6,39 @@ topHeader: "SELECT ARCHITECTURE:"
 sections:
     - header: ZEN FAMILY
       members:
-        - Ryzen
-        - Epyc
-    - header: AMD FX FAMILY
+        - Summit Ridge
+        - Bristol Ridge
+        - Whitehaven
+        - Naples
+    - header: BULLDOZER FAMILY
       members:
-        - Excavator
-        - Steamroller
-        - Piledriver
-        - Bulldozer
+        - Zambezi
+        - Zurich
+        - Valencia
+        - Interlagos
+    - header: PILEDRIVER FAMILY
+        - Vishera
+        - Delhi
+        - Seoul
+        - Abu Dhabi
+        - Trinity
+        - Richland
+    - header: K10 FAMILY
+        - Thuban
+        - Deneb
+        - Heka
+        - Callisto
+        - Agena
+        - Toliman
+        - Regor
+        - Propus
+        - Lima
+        - Kuma
+        - Sparta
+        - Barcelona
+        - Budapest
+        - Shanghai
+        - Istanbul
+        - Lisbon
+        - Mangy-Cours
+        - Llano

@@ -1,5 +1,5 @@
-name: Ryzen
-humanName: Ryzen
+name: Summit Ridge
+humanName: Summit Ridge
 type: CPU Architecture
 topHeader: 'SELECT CPU:'
 data:
@@ -10,8 +10,9 @@ data:
 sections:
   - header: THREADRIPPER
     members:
-      - R9-1950X
-      - R9-1920X
+      - 1950X
+      - 1920X
+      - 1900x
   - header: RYZEN 7
     members:
       - R7-1800X
