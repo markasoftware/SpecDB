@@ -5,7 +5,6 @@ const mainSelector = require('./components/main-selector.js');
 module.exports = {
     searchTerm: '',
     breadcrumbs: [],
-    onupdate: vnode => document.getElementById('part-selector').scrollTop = 0,
     view: vnode => {
         const searchSections = [];
         Object.keys(specData)
@@ -59,7 +58,10 @@ module.exports = {
                 m('h2', curData.topHeader),
                 m(mainSelector, {
                     sections: curData.sections,
-                    onCategorySelect: newCrumb => vnode.state.breadcrumbs.push(newCrumb),
+                    onCategorySelect: newCrumb => {
+                        document.getElementById('part-selector').scrollTop = 0;
+                        vnode.state.breadcrumbs.push(newCrumb);
+                    },
                 })
             ]),
         ];
