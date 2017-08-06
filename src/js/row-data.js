@@ -24,10 +24,10 @@ const unitToNum = inStr => {
         'KHz': 1000,
         'MHz': 1000 * 1000,
         'GHz': 1000 * 1000 * 1000,
-        'KFLOPs': 1000,
-        'MFLOPs': 1000 * 1000,
-        'GFLOPs': 1000 * 1000 * 1000,
-        'TFLOPs': 1000 * 1000 * 1000 * 1000,
+        'KFLOPS': 1000,
+        'MFLOPS': 1000 * 1000,
+        'GFLOPS': 1000 * 1000 * 1000,
+        'TFLOPS': 1000 * 1000 * 1000 * 1000,
     }
     return splitUp[0] * units[splitUp[1]];
 }
@@ -288,6 +288,10 @@ module.exports.sections = [
                 processor: types.versionUp,
             },
             {
+                name: 'HLSL Shader Model',
+                processor: types.versionUp,
+            },
+            {
                 name: 'OpenGL Support',
                 processor: types.versionUp,
             },
@@ -305,11 +309,7 @@ module.exports.sections = [
             },
             {
                 name: 'Crossfire Support',
-                processor: types.enum(['CrossfireX', 'Crossfire', 'No']),
-            },
-            {
-                name: 'Crossfire Connector',
-                processor: types.enum(['Not Required', 'Required']),
+                processor: types.enum(['XDMA', 'CrossfireX', 'No']),
             },
         ],
     },
