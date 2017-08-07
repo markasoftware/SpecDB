@@ -20,3 +20,5 @@ data:
   TDP: 120 W
   VRAM Type: GDDR5
   VRAM Bus Width: 256 Bits
+  FP32 Compute: 3.319 TFLOPS
+  FP64 Compute: 207 GFLOPS

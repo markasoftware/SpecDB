@@ -12,6 +12,7 @@ data:
   Codename: Ellesmere Xl
   TDP: 150 W
   FP32 Compute: 4.784 TFLOPS
+  FP64 Compute: 299 GFLOPS
 inherits:
   - RX 570 580 Base
 name: RX-570-8GiB

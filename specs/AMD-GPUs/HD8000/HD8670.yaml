@@ -16,6 +16,8 @@ data:
   VRAM Type: GDDR5
   VRAM Bandwidth: 72 GB/s
   TDP: 86 W
+  FP32 Compute: 768 GFLOPS
+  FP64 Compute: 48 GFLOPS
 inherits:
   - GCN 1
 name: HD-8670

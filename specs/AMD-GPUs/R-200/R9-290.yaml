@@ -14,3 +14,5 @@ data:
   TDP: 250 W
   GPU: Hawaii
   Codename: Hawaii Pro
+  FP32 Compute: 4.849 TFLOPS
+  FP64 Compute: 606 GFLOPS

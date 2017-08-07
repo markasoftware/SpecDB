@@ -16,6 +16,8 @@ data:
   VRAM Type: GDDR5
   VRAM Bandwidth: 288 GB/s
   TDP: 250 W
+  FP32 Compute: 3.482 TFLOPS
+  FP64 Compute: 870 GFLOPS
 inherits:
   - GCN 1
 name: R9-280X

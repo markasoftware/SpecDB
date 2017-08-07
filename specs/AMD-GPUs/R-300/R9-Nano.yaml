@@ -15,6 +15,8 @@ data:
   VRAM Type: HBM
   VRAM Bandwidth: 512 GB/s
   TDP: 175 W
+  FP32 Compute: 8.192 TFLOPS
+  FP64 Compute: 512 GFLOPS
 inherits:
   - GCN 3
 name: R9-Nano
