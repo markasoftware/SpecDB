@@ -11,6 +11,7 @@ data:
   VRAM Bandwidth: 224 GB/s
   TDP: 150 W
   Codename: Ellesmere Xl
+  FP32 Compute: 4.784 GFLOPS
 inherits:
   - RX 570 580 Base
 name: RX-570-4GiB

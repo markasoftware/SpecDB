@@ -6,6 +6,18 @@ const pure = require('./pure.js');
 const rowData = require('./row-data.js');
 const seo = require('./seo.js');
 
+// this probably should go somewhere else, but we're putting it here
+// if localStorage settings for whether sections should be displayed is not there,
+// set it to the default `display` thing from rowData
+rowData.sections.forEach(curSection => {
+    const curKey = `table-section-display-${curSection.name}`;
+    if(localStorage.getItem(curKey) === null) {
+        // using yes/no instead of true/false to make it clear these aren't real booleans
+        // (localStorage only supports strings)
+        localStorage.setItem(curKey, curSection.display ? 'yes' : 'no');
+    }
+});
+
 module.exports = {
     identicalRows: true,
     advancedRows: false,
@@ -13,11 +25,8 @@ module.exports = {
     onupdate: seo.update,
     view: vnode => {
         const partNames = hashMan.getList();
-        let partData, rowNames;
-        if(partNames.length > 0) {
-            partData = partNames.map(c => specData[c]);
-            rowNames = pure.getRowNames(partData, vnode.state.advancedRows);
-        }
+        const partData = partNames.map(c => specData[c]);
+        const sections = pure.getTableData(partData, rowData.sections);
         // filter out advanced rows if necessary
         return [
             (partNames.length === 0 ? [
@@ -44,25 +53,58 @@ module.exports = {
                 m('table.spec-tab', [
                     // header with part names
                     m('tr', [
+                        m('td.table-section-hidden'),
                         m('td.left-corner'),
                         partData.map(c => m('th', c.humanName))
                     ]),
                     // now for real data
-                    rowNames.map(curRowName => {
-                        // get all the values for the current row
-                        const rowValues = partData.map(c => c.data[curRowName]);
-                        const processed = pure.processRow(rowValues, rowData[curRowName]);
-                        const isComparing = processed.values.length > 1;
-                        const allEqual = processed.values.reduce((a, b) => a === b);
-                        // if identical rows are hidden and this is identical, skip it
-                        if(isComparing && allEqual && (!vnode.state.identicalRows)) {
+                    sections.map(curSection => {
+                        // if we don't have any data for this section, exit now
+                        if(curSection.rows.length === 0) {
                             return;
                         }
-                        return m('tr', [
-                            m('td.row-header', curRowName),
-                            processed.values.map((c, i) => m('td' + 
-                                ((!allEqual) && isComparing && processed.maxIndices.includes(i)? '.winner' : ''), c)),
-                        ]);
+                        const curLsKey = `table-section-display-${curSection.name}`;
+                        const toggleLs = () => localStorage.setItem(curLsKey,
+                            localStorage.getItem(curLsKey) === 'yes' ? 'no' : 'yes');
+                        return localStorage.getItem(curLsKey) === 'yes' ?
+                            // section is displayed
+                            curSection.rows.map((curRow, i) =>
+                                m('tr', [
+                                    // include bracket if this is the top row
+                                    i === 0 &&
+                                        m('td.table-section-hidden', {
+                                            rowspan: curSection.rows.length,
+                                        },
+                                            m('.table-section', [
+                                                m('a.table-section-label', { onclick: toggleLs }, curSection.name),
+                                                m('.table-section-bracket', [
+                                                    m('#bracket-upper-end.bracket-curve'),
+                                                    m('#bracket-upper-rect.bracket-rect'),
+                                                    m('#bracket-upper-join.bracket-curve'),
+                                                    m('#bracket-lower-join.bracket-curve'),
+                                                    m('#bracket-lower-rect.bracket-rect'),
+                                                    m('#bracket-lower-end.bracket-curve'),
+                                                ]),
+                                            ])
+                                        ),
+                                    m('td.row-header', curRow.name),
+                                    curRow.cells.map(curCell =>
+                                        m('td', {
+                                            class: curCell.winner ? 'winner' : '',
+                                        }, curCell.value)
+                                    ),
+                                ])
+                            ) :
+                            // section is collapsed
+                            m('tr', [
+                                m('td.table-section-hidden'),
+                                m('td.table-section-collapsed', {
+                                    // +1 to account for row header thing
+                                    colspan: curSection.rows[0].cells.length + 1,
+                                },
+                                    m('a', { onclick: toggleLs }, curSection.name)
+                                ),
+                            ])
                     }),
                 ]),
             ]),

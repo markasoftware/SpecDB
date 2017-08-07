@@ -39,7 +39,10 @@ traverseHidden(basePath);
 const getInheritance = data => {
     const toReturn = Object.assign({}, data.data);
     (data.inherits || []).forEach(curInherit => {
+        // fml
+        const savedToReturn = JSON.parse(JSON.stringify(toReturn));
         Object.assign(toReturn, getInheritance(hidden[curInherit]));
+        Object.assign(toReturn, savedToReturn);
     });
     return toReturn;
 }
