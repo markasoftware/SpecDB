@@ -15,6 +15,8 @@ data:
   VRAM Type: GDDR5
   VRAM Bandwidth: 264 GB/s
   TDP: 250 W
+  FP32 Compute: 3.789 TFLOPS
+  FP64 Compute: 947 GFLOPS
 inherits:
   - GCN 1
 name: HD-7970-3GiB

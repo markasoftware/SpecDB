@@ -16,6 +16,8 @@ data:
   VRAM Type: GDDR5
   VRAM Bandwidth: 192 GB/s
   TDP: 185  W
+  FP32 Compute: 2.842 TFLOPS
+  FP64 Compute: 710 GFLOPS
 inherits:
   - GCN 1
 name: HD-7870XT

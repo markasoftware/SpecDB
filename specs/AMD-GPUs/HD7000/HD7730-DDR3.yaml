@@ -16,6 +16,8 @@ data:
   VRAM Type: DDR3
   VRAM Bandwidth: 25.6 GB/s
   TDP: 47 W
+  FP32 Compute: 614 GFLOPS
+  FP64 Compute: 38.4  GFLOPS
 inherits:
   - GCN 1
 name: HD-7730-DDR3

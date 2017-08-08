@@ -4,3 +4,7 @@ data:
   Architecture: TeraScale 1
   Lithography: 40 nm
   DirectX Support: '10.1'
+  HLSL Shader Model: '4.1'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Crossfire Support: CrossfireX

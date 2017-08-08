@@ -16,6 +16,8 @@ data:
   VRAM Type: GDDR5
   VRAM Bandwidth: 288 GB/s
   TDP: 375 W
+  FP32 Compute: 8.200 TFLOPS
+  FP64 Compute: 1.894 TFLOPS
 inherits:
   - GCN 1
 name: HD-7990

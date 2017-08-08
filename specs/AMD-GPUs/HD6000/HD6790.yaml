@@ -15,6 +15,7 @@ data:
   VRAM Type: GDDR5
   VRAM Bandwidth: 134.4 GB/s
   TDP: 150 W
+  FP32 Compute: 1.344 TFLOPS
 inherits:
   - TeraScale-2
 name: HD-6790
