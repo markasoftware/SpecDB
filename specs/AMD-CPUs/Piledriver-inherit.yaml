@@ -5,3 +5,21 @@ data:
   Lithography: 32 nm
   Socket: AM3+
   Unlocked: true
+  Max Memory Frequency: 1866 MHz
+  Max Memory Channels: 2
+  AVX/SSE/MMX: AVX
+  FMA4: true
+  FMA3: true
+  BMI: BMI1
+  AES: true
+  Other Extensions:
+    - CLMUL
+    - TSX
+    - XOP
+    # WARNING: This is not a complete list of extensions supported in Piledriver
+    # This is just to show how to use list types
+    # I'm not even sure if TSX or XOP is supported here
+  Compatible Chipsets:
+    # also not sure if this is complete
+    - '970'
+    - 990fx

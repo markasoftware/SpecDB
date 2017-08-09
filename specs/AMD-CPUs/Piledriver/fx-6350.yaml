@@ -9,6 +9,9 @@ data:
   Boost Frequency: 4.2 GHz
   Core Count: 6
   Thread Count: 6
+  L1 Cache (Data): 96 KiB
+  L1 Cache (Instruction): 192 KiB
   L2 Cache (Total): 6 MiB
   L3 Cache (Total): 8 MiB
   TDP: 125 W
+  Steppings: OR-C0

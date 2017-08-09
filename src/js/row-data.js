@@ -63,6 +63,16 @@ const types = {
         preprocess: parseFloat,
         compare: numberDownCompare,
     },
+    numBoolUp: {
+        preprocess: parseFloat,
+        compare: numberUpCompare,
+        postprocess: c => isNaN(c) ? 'No' : c,
+    },
+    numBoolDown: {
+        preprocess: parseFloat,
+        compare: numberDownCompare,
+        postprocess: c => isNaN(c) ? 'No' : c,
+    },
     unitUp: {
         preprocess: unitToNum,
         compare: numberUpCompare,
@@ -147,6 +157,10 @@ const types = {
         compare: (a, b) => values.indexOf(a) < values.indexOf(b),
         default: values[values.length - 1],
     }),
+    list: {
+        preprocess: c => c instanceof Array ? c : [c],
+        default: [],
+    }
 };
 
 // for testing
@@ -196,6 +210,30 @@ module.exports.sections = [
         ],
     },
     {
+        name: 'Architectural Info',
+        display: false,
+        rows: [
+            {
+                name: 'Architecture',
+            },
+            {
+                name: 'Die Size',
+            },
+            {
+                name: 'Socket',
+                processor: types.list,
+            },
+            {
+                name: 'Lithography',
+                processor: types.numberDown,
+            },
+            {
+                name: 'Stepping',
+                processor: types.list,
+            },
+        ],
+    },
+    {
         name: 'Advanced Specs',
         display: false,
         rows: [
@@ -204,11 +242,11 @@ module.exports.sections = [
                 processor: types.numberUp,
             },
             {
-                name: 'Lithography',
-                processor: types.numberDown,
+                name: 'L1 Cache (Data)',
+                processor: types.unitUp,
             },
             {
-                name: 'L1 Cache (Total)',
+                name: 'L1 Cache (Instruction)',
                 processor: types.unitUp,
             },
             {
@@ -239,6 +277,16 @@ module.exports.sections = [
                 name: 'Texture Mapping Unit Count',
                 processor: types.numberUp,
             },
+        ],
+    },
+    {
+        name: 'VRAM Specs',
+        display: false,
+        rows: [
+            {
+                name: 'VRAM Frequency',
+                processor: types.unitUp,
+            },
             {
                 name: 'VRAM Bandwidth',
                 processor: types.unitUp,
@@ -258,21 +306,58 @@ module.exports.sections = [
         display: false,
         rows: [
             {
-                name: 'Memory Channels',
+                name: 'Max Memory Channels',
                 processor: types.numberUp,
             },
             {
-                name: 'Max Memory Speed',
+                name: 'Max Memory Frequency',
                 processor: types.unitUp,
             },
             {
-                name: 'Max PCI-e Lanes',
-                processor: types.numberUp,
+                name: 'Compatible Chipsets',
+                processor: types.list,
             },
         ],
     },
     {
-        name: 'Feature Support',
+        name: 'x86 Extensions',
+        display: false,
+        rows: [
+            {
+                name: 'AVX/SSE/MMX',
+                processor: types.enum('AVX-512', 'AVX2', 'AVX',
+                    'SSE 4.2', 'SSE 4.1', 'SSSE3', 'SSE3', 'SSE2', 'SSE', 
+                    'EMMX', 'MMX',
+                    'No'),
+            },
+            {
+                name: 'FMA4',
+                processor: types.boolTrue,
+            },
+            {
+                name: 'FMA3',
+                processor: types.boolTrue,
+            },
+            {
+                name: 'BMI',
+                processor: types.enum('BMI2', 'BMI1', 'No'),
+            },
+            {
+                name: 'AES',
+                processor: types.boolTrue,
+            },
+            {
+                name: 'SHA',
+                processor: types.boolTrue,
+            },
+            {
+                name: 'Other Extensions',
+                processor: types.list,
+            },
+        ],
+    },
+    {
+        name: 'Features',
         display: false,
         rows: [
             {

@@ -20,7 +20,6 @@ const sections = [
             },
             {
                 name: 'Dankness',
-                processor: {},
             },
             {
                 name: 'Foop',
