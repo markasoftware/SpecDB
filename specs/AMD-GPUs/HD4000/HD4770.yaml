@@ -4,7 +4,7 @@ data:
   GPU: RV740
   Codename: RV740
   Release Date: '2009-04-28'
-  Die Size: 137 mm²
+  Die Size: 137 mm
   Shader Processor Count: 640
   Texture Mapping Unit Count: 32
   Render Output Unit Count: 16
@@ -15,6 +15,8 @@ data:
   VRAM Type: GDDR5
   VRAM Bandwidth: 51.20 GB/s
   TDP: 80 W
+  FP32 Compute: 960 GFLOPS
+  FP64 Compute: 192 GFLOPS
 inherits:
   - TeraScale-1-40nm
 name: HD-4780

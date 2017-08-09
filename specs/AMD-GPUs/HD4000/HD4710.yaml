@@ -4,7 +4,7 @@ data:
   GPU: RV730
   Codename: RV730 XT
   Release Date: '2008-09-10'
-  Die Size: 146 mm²
+  Die Size: 146 mm
   Shader Processor Count: 320
   Texture Mapping Unit Count: 32
   Render Output Unit Count: 8
@@ -15,6 +15,7 @@ data:
   VRAM Type: GDDR3
   VRAM Bandwidth: 25.60 GB/s
   TDP: 59 W
+  FP32 Compute: 480 GFLOPS
 inherits:
   - TeraScale-1
 name: HD-4710

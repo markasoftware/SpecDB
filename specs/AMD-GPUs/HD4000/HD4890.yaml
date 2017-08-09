@@ -4,7 +4,7 @@ data:
   GPU: RV790
   Codename: RV790 XT
   Release Date: '2009-04-02'
-  Die Size: 282 mm²
+  Die Size: 282 mm
   Shader Processor Count: 800
   Texture Mapping Unit Count: 40
   Render Output Unit Count: 16
@@ -15,6 +15,8 @@ data:
   VRAM Type: GDDR5
   VRAM Bandwidth: 124.8 GB/s
   TDP: 190 W
+  FP32 Compute: 1.360 TFLOPS
+  FP64 Compute: 272 GFLOPS
 inherits:
   - TeraScale-1
 name: HD-4890

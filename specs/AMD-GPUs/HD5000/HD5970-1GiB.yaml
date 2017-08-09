@@ -4,7 +4,7 @@ data:
   GPU: Cypress
   Codename: Hemlock XT
   Release Date: '2009-11-18'
-  Die Size: 334 mm²
+  Die Size: 334 mm
   Shader Processor Count: 3200
   Texture Mapping Unit Count: 160
   Render Output Unit Count: 64
@@ -15,6 +15,8 @@ data:
   VRAM Type: GDDR5
   VRAM Bandwidth: 128 GB/s
   TDP: 294 W
+  FP32 Compute: 4.640 TFLOPS
+  FP64 Compute: 928 GFLOPS
 inherits:
   - TeraScale-2
 name: HD-5970-1GiB

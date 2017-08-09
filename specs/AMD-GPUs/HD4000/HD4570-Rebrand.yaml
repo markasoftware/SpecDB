@@ -4,7 +4,7 @@ data:
   GPU: RV635
   Codename: RV635 PRO
   Release Date: '2009-11-22'
-  Die Size: 135 mm²
+  Die Size: 135 mm
   Shader Processor Count: 120
   Texture Mapping Unit Count: 8
   Render Output Unit Count: 4

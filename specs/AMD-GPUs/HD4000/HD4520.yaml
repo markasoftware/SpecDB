@@ -4,7 +4,7 @@ data:
   GPU: RV710
   Codename: RV710
   Release Date: '2009-12-02'
-  Die Size: 73 mm²
+  Die Size: 73 mm
   Shader Processor Count: 80
   Texture Mapping Unit Count: 8
   Render Output Unit Count: 4
@@ -15,6 +15,7 @@ data:
   VRAM Type: DDR2
   VRAM Bandwidth: 6.4 GB/s
   TDP: 25 W
+  FP32 Compute: 104 GFLOPS
 inherits:
   - TeraScale-1
 name: HD-4520
