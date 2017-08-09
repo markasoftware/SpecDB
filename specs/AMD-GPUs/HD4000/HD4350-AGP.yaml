@@ -16,6 +16,7 @@ data:
   VRAM Bandwidth: 10.40 GB/s
   TDP: 20 W
   FP32 Compute: 104 GFLOPS
+  Crossfire Support: No
 inherits:
   - TeraScale-1
 name: HD-4350-AGP

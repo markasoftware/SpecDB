@@ -16,6 +16,7 @@ data:
   VRAM Bandwidth: 16 GB/s
   TDP: 39 W
   FP32 Compute: 416 GFLOPS
+  Crossfire Support: No
 inherits:
   - TeraScale-2
 name: HD-5570-Turks

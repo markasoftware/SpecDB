@@ -16,6 +16,7 @@ data:
   VRAM Bandwidth: 51.2 GB/s
   TDP: 39 W
   FP32 Compute: 352 GFLOPS
+  Crossfire Support: No
 inherits:
   - TeraScale-2
 name: HD-5550
