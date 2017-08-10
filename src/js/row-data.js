@@ -325,10 +325,10 @@ module.exports.sections = [
         rows: [
             {
                 name: 'AVX/SSE/MMX',
-                processor: types.enum('AVX-512', 'AVX2', 'AVX',
+                processor: types.enum(['AVX-512', 'AVX2', 'AVX',
                     'SSE 4.2', 'SSE 4.1', 'SSSE3', 'SSE3', 'SSE2', 'SSE', 
                     'EMMX', 'MMX',
-                    'No'),
+                    'No']),
             },
             {
                 name: 'FMA4',
@@ -340,7 +340,7 @@ module.exports.sections = [
             },
             {
                 name: 'BMI',
-                processor: types.enum('BMI2', 'BMI1', 'No'),
+                processor: types.enum(['BMI2', 'BMI1', 'No']),
             },
             {
                 name: 'AES',
