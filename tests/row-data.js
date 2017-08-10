@@ -24,6 +24,14 @@ test('number', t => {
     t.equal(subject.compare(NaN, 0), false, 'compare false 2');
     t.end();
 });
+test('numbool', t => {
+    const subject = rowData.types.numBoolUp;
+
+    t.equal(subject.postprocess('2.123'), '2.123', 'does not affect normal strings');
+    t.equal(subject.postprocess(NaN), 'No', 'NaN to No');
+
+    t.end();
+});
 test('units', t => {
     const subject = rowData.types.unitUp;
 
@@ -65,11 +73,19 @@ test('date', t => {
 test('enum', t => {
     const subject = rowData.types.enum;
 
-    t.equal(subject(['boop']).default, 'boop');
-    t.equal(subject(['foop', 'bloop']).default, 'bloop');
+    t.equal(subject(['boop']).default, 'boop', 'default with only one item');
+    t.equal(subject(['foop', 'bloop']).default, 'bloop', 'default with multiple items');
 
-    t.equal(subject(['good', 'not good', 'even worse']).compare('not good', 'good'), false);
-    t.equal(subject(['good', 'not good', 'even worse']).compare('good', 'even worse'), true);
+    t.equal(subject(['good', 'not good', 'even worse']).compare('not good', 'good'), false, 'comparison false');
+    t.equal(subject(['good', 'not good', 'even worse']).compare('good', 'even worse'), true, 'comparison true');
+
+    t.end();
+});
+test('list', t => {
+    const subject = rowData.types.list;
+
+    t.deepEqual(subject.preprocess(['hi', 'world']), ['hi', 'world'], 'array stays as array');
+    t.deepEqual(subject.preprocess('hi world'), ['hi world'], 'puts single item into array');
 
     t.end();
 });

@@ -6,3 +6,24 @@ data:
   Socket: C32
   L3 Cache (Total): 8 MiB
   Release Date: '2012-12-04'
+  Max Memory Frequency: 1866 MHz
+  Max Memory Channels: 2
+  AVX/SSE/MMX: AVX
+  FMA4: true
+  FMA3: true
+  BMI: BMI1
+  AES: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - F16C
+    - ABM
+    - TBM
+    - XOP
+    - CLMUL
+  Compatible Chipsets:
+    - SP5690
+    - SP5670
+    - SP5580
+    - SP5100
+  Steppings: C0

@@ -65,6 +65,7 @@ module.exports.getTableData = (parts, sections) =>
             // using parts.filter instead of parts.find for compatibility
             .filter(curRow => parts.filter(curPart => curPart.data[curRow.name]).length)
             .map(curRow => {
+                curRow.processor = curRow.processor || {};                
                 const canCompare = parts.length > 1 && curRow.processor.compare;
                 // get a list of cells with pre and post processed values
                 const fullDataCells = parts.map(curPart => {

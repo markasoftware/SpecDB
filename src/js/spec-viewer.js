@@ -78,12 +78,12 @@ module.exports = {
                                             m('.table-section', [
                                                 m('a.table-section-label', { onclick: toggleLs }, curSection.name),
                                                 m('.table-section-bracket', [
-                                                    m('#bracket-upper-end.bracket-curve'),
-                                                    m('#bracket-upper-rect.bracket-rect'),
-                                                    m('#bracket-upper-join.bracket-curve'),
-                                                    m('#bracket-lower-join.bracket-curve'),
-                                                    m('#bracket-lower-rect.bracket-rect'),
-                                                    m('#bracket-lower-end.bracket-curve'),
+                                                    m('.bracket-upper-end.bracket-curve'),
+                                                    m('.bracket-upper-rect.bracket-rect'),
+                                                    m('.bracket-upper-join.bracket-curve'),
+                                                    m('.bracket-lower-join.bracket-curve'),
+                                                    m('.bracket-lower-rect.bracket-rect'),
+                                                    m('.bracket-lower-end.bracket-curve'),
                                                 ]),
                                             ])
                                         ),
@@ -91,7 +91,14 @@ module.exports = {
                                     curRow.cells.map(curCell =>
                                         m('td', {
                                             class: curCell.winner ? 'winner' : '',
-                                        }, curCell.value)
+                                        // if it's an array, then do line-break separated values, otherwise do just the value
+                                        }, curCell.value instanceof Array ?
+                                            [
+                                                curCell.value[0],
+                                                curCell.value.slice(1).map(c => [ m('br'), c ]),
+                                            ]
+                                            : curCell.value
+                                        )
                                     ),
                                 ])
                             ) :

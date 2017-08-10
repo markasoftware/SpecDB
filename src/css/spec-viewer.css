@@ -129,7 +129,8 @@ h2.top {
 }
 .table-section-bracket {
     position: relative;
-    height: calc(100% - 3rem);
+    height: calc(100% - 2rem);
+    min-height: 60px;
     width: 30px;
 }
 .table-section-bracket div {
@@ -148,30 +149,30 @@ h2.top {
   background-color: #999;
   width: 10px;
 }
-#bracket-upper-end {
+.bracket-upper-end {
   transform: rotate(-45deg);
   left: 10px;
   top: 0;
 }
-#bracket-upper-rect {
+.bracket-upper-rect {
   left: 10px;
   top: 20px;
 }
-#bracket-upper-join {
+.bracket-upper-join {
   transform: rotate(135deg);
   left: -20px;
   top: calc((100% - 70px) / 2);
 }
-#bracket-lower-join {
+.bracket-lower-join {
   transform: rotate(45deg);
   bottom: calc((100% - 70px) / 2);
   left: -20px;
 }
-#bracket-lower-rect {
+.bracket-lower-rect {
   left: 10px;
   bottom: 20px;
 }
-#bracket-lower-end {
+.bracket-lower-end {
   transform: rotate(-135deg);
   left: 10px;
   bottom: 0;
