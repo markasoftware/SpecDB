@@ -9,6 +9,8 @@ data:
   L3 Cache (Total): 8 MiB
   TDP: 95 W
   Release Date: '2014-09-02'
+  L1 Cache (Data): 128 KiB
+  L1 Cache (Instruction): 256 KiB
 inherits:
   - Piledriver
 name: FX-8370E

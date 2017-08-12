@@ -7,6 +7,8 @@ data:
   Boost Frequency: 2.8 GHz
   L2 Cache (Total): 8 MiB
   TDP: 40 W
+  L1 Cache (Data): 128 KiB
+  L1 Cache (Instruction): 256 KiB
 inherits:
   - Seoul
 name: 4365EE

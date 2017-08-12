@@ -9,3 +9,5 @@ data:
   Boost Frequency: 4.0 GHz
   XFR Frequency: 4.1 GHz
   TDP: 95 W
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 512 KiB

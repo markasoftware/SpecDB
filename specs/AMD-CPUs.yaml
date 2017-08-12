@@ -4,10 +4,10 @@ type: none
 isPart: false
 topHeader: "SELECT ARCHITECTURE:"
 sections:
-    - header: ZEN FAMILY
+    - header: RYZEN FAMILY
       members:
         - Ryzen
-        - Epyc
+        - Naples
     - header: AMD FX FAMILY
       members:
         - Piledriver

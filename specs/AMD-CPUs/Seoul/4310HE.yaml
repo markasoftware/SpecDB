@@ -7,6 +7,8 @@ data:
   Boost Frequency: 3.0 GHz
   L2 Cache (Total): 4 MiB
   TDP: 35 W
+  L1 Cache (Data): 64 KiB
+  L1 Cache (Instruction): 128 KiB
 inherits:
   - Seoul
 name: 4310EE

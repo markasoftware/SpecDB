@@ -7,6 +7,8 @@ data:
   Boost Frequency: 3.5 GHz
   L2 Cache (Total): 16 MiB
   TDP: 140 W
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 512 KiB
 inherits:
   - Abu-Dhabi
 name: 6386SE

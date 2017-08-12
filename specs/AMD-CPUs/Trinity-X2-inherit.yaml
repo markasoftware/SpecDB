@@ -4,3 +4,25 @@ data:
   Architecture: Piledriver
   Lithography: 32 nm
   Socket: FM2
+  L1 Cache (Data): 32 KiB
+  L1 Cache (Instruction): 64 KiB
+  Max Memory Frequency: 1600 MHz 
+  Max Memory Channels: 2
+  AVX/SSE/MMX: AVX
+  FMA4: true
+  FMA3: true
+  BMI: BMI
+  AES: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - F16C
+    - ABM
+    - TBM
+    - XOP
+    - CLMUL
+  Compatible Chipsets:
+    - A85X
+    - A75
+    - A55
+

@@ -24,6 +24,7 @@ data:
   Compatible Chipsets:
     - SP5690
     - SP5670
+    - SP5650
     - SP5580
     - SP5100
   Steppings: C0

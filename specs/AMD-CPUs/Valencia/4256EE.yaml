@@ -8,6 +8,8 @@ data:
   L2 Cache (Total): 8 MiB
   TDP: 35 W
   Release Date: '2011-11-14'
+  L1 Cache (Data): 128 KiB
+  L1 Cache (Instruction): 256 KiB
 inherits:
   - Valencia
 name: 4256EE

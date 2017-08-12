@@ -7,6 +7,8 @@ data:
   Boost Frequency: 3.5 GHz
   L2 Cache (Total): 6 MiB
   TDP: 95 W
+  L1 Cache (Data): 96 KiB
+  L1 Cache (Instruction): 192 KiB
 inherits:
   - Seoul
 name: '4334'

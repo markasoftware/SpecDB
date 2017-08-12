@@ -9,7 +9,7 @@ data:
   - FM2
   Foundry: Global Foundries
 sections:
-  - header: 4th GEN. QUAD CORE
+  - header: 4th GEN. DUAL CORE
     members:
       - 240
   

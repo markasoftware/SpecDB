@@ -8,6 +8,8 @@ data:
   L2 Cache (Total): 16 MiB
   TDP: 140 W
   Release Date: '2012-05-01'
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 512 KiB
 inherits:
   - Interlagos
 name: 6284SE

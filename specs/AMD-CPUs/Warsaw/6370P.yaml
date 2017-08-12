@@ -6,6 +6,8 @@ data:
   Base Frequency: 2.0 GHz
   Boost Frequency: 2.5 GHz
   L2 Cache (Total): 16 MiB
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 512 KiB
 inherits:
   - Warsaw
 name: 6370P

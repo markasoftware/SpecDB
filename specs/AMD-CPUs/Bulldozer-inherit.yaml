@@ -15,7 +15,6 @@ data:
   Other Extensions:
     - X86-64
     - AMD-V
-    - F16C
     - ABM
     - XOP
     - CLMUL

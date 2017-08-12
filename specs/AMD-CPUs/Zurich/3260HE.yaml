@@ -8,6 +8,8 @@ data:
   L2 Cache (Total): 4 MiB
   TDP: 45 W
   Release Date: '2012-03-20'
+  L1 Cache (Data): 64 KiB
+  L1 Cache (Instruction): 128 KiB
 inherits:
   - Zurich
 name: 3260HE

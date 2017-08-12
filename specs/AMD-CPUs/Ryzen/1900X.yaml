@@ -1,0 +1,17 @@
+name: 1900X
+humanName: 1900X
+isPart: true
+type: CPU
+inherits:
+  - Ryzen R9 Base
+data:
+  Core Count: 8
+  Thread Count: 16
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 16 MiB
+  Base Frequency: 3.8 GHz
+  Boost Frequency: 4.0 GHz
+  XFR Frequency: 4.2 GHz
+  TDP: 180 W
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 512 KiB

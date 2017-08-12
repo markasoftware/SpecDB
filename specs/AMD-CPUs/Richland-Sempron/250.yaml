@@ -13,5 +13,5 @@ data:
   Thread Count: 2
   L2 Cache (Total): 1 MiB
   Release Date: '2013-06'
-
-
+  L1 Cache (Data): 32 KiB
+  L1 Cache (Instruction): 64 KiB

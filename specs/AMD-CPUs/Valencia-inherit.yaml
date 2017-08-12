@@ -5,7 +5,7 @@ data:
   Lithography: 32 nm
   Socket: C32
   L3 Cache (Total): 8 MiB
-  Max Memory Frequency: 1866 MHz
+  Max Memory Frequency: 1600 MHz
   Max Memory Channels: 2
   AVX/SSE/MMX: AVX
   FMA4: true
@@ -15,7 +15,6 @@ data:
   Other Extensions:
     - X86-64
     - AMD-V
-    - F16C
     - ABM
     - XOP
     - CLMUL

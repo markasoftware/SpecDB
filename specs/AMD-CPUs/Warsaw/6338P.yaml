@@ -6,6 +6,8 @@ data:
   Base Frequency: 2.3 GHz
   Boost Frequency: 2.8 GHz
   L2 Cache (Total): 12 MiB
+  L1 Cache (Data): 192 KiB
+  L1 Cache (Instruction): 384 KiB
 inherits:
   - Warsaw
 name: 6338P

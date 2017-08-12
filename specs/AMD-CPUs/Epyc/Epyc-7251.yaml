@@ -12,3 +12,6 @@ data:
   Base Frequency: 2.1 GHz
   Boost Frequency: 2.9 GHz
   TDP: 120 W
+  Max Memory Frequency: 2400 MHz
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 512 KiB

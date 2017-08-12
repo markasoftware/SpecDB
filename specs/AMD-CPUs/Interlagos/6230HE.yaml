@@ -8,6 +8,8 @@ data:
   L2 Cache (Total): 12 MiB
   TDP: 85 W
   Release Date: '2012-05-01'
+  L1 Cache (Data): 192 KiB
+  L1 Cache (Instruction): 384 KiB
 inherits:
   - Interlagos
 name: 6230HE
