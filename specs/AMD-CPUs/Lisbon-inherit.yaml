@@ -5,4 +5,17 @@ data:
   Lithography: 45 nm
   Socket: C32
   L3 Cache (Total): 6 MiB
+  Max Memory Frequency: 1333 MHz
+  Max Memory Channels: 2
+  AVX/SSE/MMX: SSE4a
+  FMA4: false
+  FMA3: false
+  BMI: No
+  AES: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - ABM
+    - E3D-Now!
+  Compatible Chipsets:
 

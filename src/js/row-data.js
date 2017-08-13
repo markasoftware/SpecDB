@@ -326,7 +326,7 @@ module.exports.sections = [
             {
                 name: 'AVX/SSE/MMX',
                 processor: types.enum(['AVX-512', 'AVX2', 'AVX',
-                    'SSE 4.2', 'SSE 4.1', 'SSSE3', 'SSE3', 'SSE2', 'SSE', 
+                    'SSE 4.2', 'SSE 4.1', 'SSE4a', 'SSSE3', 'SSE3', 'SSE2', 'SSE', 
                     'EMMX', 'MMX',
                     'No']),
             },
