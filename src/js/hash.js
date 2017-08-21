@@ -17,7 +17,7 @@ const showError = msg => {
     }, 2500);
 }
 
-const clickyMovey = document.getElementById('clicky-movey');
+const specViewer = document.getElementById('spec-viewer');
 
 module.exports = {
     // c => c does the work of geting rid of empty strings, which occurs when there is no parts (empty string input)
@@ -30,11 +30,13 @@ module.exports = {
         if(curList.length > 0 && specData[curList[0]].type !== specData[newName].type) {
             return showError('All parts must be the same type');
         }
-        clickyMovey.style.animation = 'none';
+        specViewer.style.animation = 'none';
         // force reflow
         // I believe that this is the only legitimate use of the void function, apart from bookmarklets
-        void(clickyMovey.offsetHeight);
-        clickyMovey.style.animation = 'blinky 300ms';
+        void(specViewer.offsetHeight);
+        if(screen.availWidth <= 800 && screen.availWidth < screen.availHeight) {
+            specViewer.style.animation = 'blinky 300ms';
+        }
         if(!module.exports.getList().includes(newName)) {
             m.route.set('/' + module.exports.getList().concat(newName).join(','));
         }

@@ -118,10 +118,14 @@ module.exports = {
             // bottom thing with info
             m('#info-links', [
                 // dash is u2014
-                'SpecDB — ',
+                m('span', [
+                    'Spec',
+                    m('strong', 'DB'),
+                ]),
+                ' — ',
                 m('a', { href: '#!/about'}, 'About'),
                 ' — ',
-                m('a', { href: 'https://github.com/markasoftware/SpecDB', target: '_blank' }, 'GitHub'),
+                m('a', { href: 'https://github.com/markasoftware/SpecDB', target: '_blank', rel: 'noopener' }, 'GitHub'),
             ]),
         ];
     },

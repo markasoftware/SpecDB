@@ -84,6 +84,11 @@ h2.top {
     font-size: 0.9em;
     margin-bottom: 1rem;
 }
+#info-links span {
+    color: #fff;
+    background-color: #ff4545;
+    padding: 0.2rem 0.5rem;
+}
 #info-links a {
     color: inherit;
     text-decoration: underline;
@@ -123,9 +128,9 @@ h2.top {
     justify-content: flex-end;
 }
 .table-section-label {
-    width: 6rem;
-    text-align: right;
-    margin-right: 1rem;
+    text-align: center;
+    transform-origin: center center 0;
+    transform: rotate(-90deg);
 }
 .table-section-bracket {
     position: relative;

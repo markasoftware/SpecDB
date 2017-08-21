@@ -3,11 +3,12 @@
     box-sizing: border-box;
     /* otherwise, the scrollbar affects width and can mess things up */
     overflow-y: scroll;
-    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     right: 0;
+    /* if this is ever changed, make sure to update mobile.css as well! */
     box-shadow: 0 0 15px #999;
     padding: 5vh;
+    background-color: #f7f7f7;
 }
 #part-selector span.a {
     font-size: 14pt;

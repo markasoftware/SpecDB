@@ -8,23 +8,21 @@
     }
 }
 
+/* if the rules to activate mobile mode are changed, change them in hash.js too! */
 @media (max-width: 800px) and (orientation: portrait) {
-    #big-flex-wrapper {
-        width: 200vw;
-    }
-    /* it worked without higher specificity before but now it's not so whatever */
-    div#spec-viewer {
-        flex: 90vw;
-        box-shadow: 0 0 15px #999;
-    }
     div#part-selector {
-        flex: 90vw;
+        position: fixed;
+        height: 100vh;
+        width: 90vw;
+        top: 0;
+        right: 0;
+        transform: translateX(90vw);
+        transition: transform 300ms;
+        box-shadow: none;
     }
-    #clicky-movey {
-        display: block;
-    }
-    #mobile-toggle:checked ~ #big-flex-wrapper {
-        transform: translateX(-100vw);
+    #mobile-toggle:checked ~ #big-flex-wrapper > #part-selector {
+        transform: translateX(0);
+        box-shadow: 0 0 15px #999;
     }
     .part {
         flex-basis: 250px;
