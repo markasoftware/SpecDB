@@ -34,4 +34,7 @@
     table.spec-tab td, table.spec-tab th {
         padding: 1rem 0.5rem;
     }
+    div.table-section {
+        left: 0.5rem;
+    }
 }

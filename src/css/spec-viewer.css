@@ -121,29 +121,30 @@ h2.top {
 .table-section {
     height: 100%;
     position: relative;
-    left: calc(-30px - 2rem);
+    left: 1rem;
     width: calc(30px + 1.5rem);
 }
 .table-section-label-wrapper {
     position: absolute;
-    left: -5rem;
-    top: 0;
+    left: -2rem;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
 }
 .table-section-label {
     transform-origin: center center;
-    transform: rotate(-90deg);
+    transform: rotate(90deg);
     width: 10rem;
     text-align: center;
 }
 .table-section-bracket {
     position: absolute;
+    /* way too lazy to flip it properly */
+    transform-origin: center center;
+    transform: rotate(180deg);
     height: calc(100% - 2rem);
     top: 1rem;
-    right: 0;
+    left: 0;
     min-height: 60px;
     width: 30px;
 }

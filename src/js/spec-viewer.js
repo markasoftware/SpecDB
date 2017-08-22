@@ -53,9 +53,9 @@ module.exports = {
                 m('table.spec-tab', [
                     // header with part names
                     m('tr', [
-                        m('td.table-section-hidden'),
                         m('td.left-corner'),
-                        partData.map(c => m('th', c.humanName))
+                        partData.map(c => m('th', c.humanName)),
+                        m('td.table-section-hidden'),
                     ]),
                     // now for real data
                     sections.map(curSection => {
@@ -70,6 +70,19 @@ module.exports = {
                             // section is displayed
                             curSection.rows.map((curRow, i) =>
                                 m('tr', [
+                                    m('td.row-header', curRow.name),
+                                    curRow.cells.map(curCell =>
+                                        m('td', {
+                                            class: curCell.winner ? 'winner' : '',
+                                        // if it's an array, then do line-break separated values, otherwise do just the value
+                                        }, curCell.value instanceof Array ?
+                                            [
+                                                curCell.value[0],
+                                                curCell.value.slice(1).map(c => [ m('br'), c ]),
+                                            ]
+                                            : curCell.value
+                                        )
+                                    ),
                                     // include bracket if this is the top row
                                     i === 0 &&
                                         m('td.table-section-hidden', {
@@ -89,30 +102,17 @@ module.exports = {
                                                 ]),
                                             ])
                                         ),
-                                    m('td.row-header', curRow.name),
-                                    curRow.cells.map(curCell =>
-                                        m('td', {
-                                            class: curCell.winner ? 'winner' : '',
-                                        // if it's an array, then do line-break separated values, otherwise do just the value
-                                        }, curCell.value instanceof Array ?
-                                            [
-                                                curCell.value[0],
-                                                curCell.value.slice(1).map(c => [ m('br'), c ]),
-                                            ]
-                                            : curCell.value
-                                        )
-                                    ),
                                 ])
                             ) :
                             // section is collapsed
                             m('tr', [
-                                m('td.table-section-hidden'),
                                 m('td.table-section-collapsed', {
                                     // +1 to account for row header thing
                                     colspan: curSection.rows[0].cells.length + 1,
                                 },
                                     m('a', { onclick: toggleLs }, curSection.name)
                                 ),
+                                m('td.table-section-hidden'),
                             ])
                     }),
                 ]),
