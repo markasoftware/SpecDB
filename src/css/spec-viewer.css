@@ -121,20 +121,29 @@ h2.top {
 .table-section {
     height: 100%;
     position: relative;
-    left: calc(-30px - 8rem);
-    width: calc(30px + 7rem);
+    left: calc(-30px - 2rem);
+    width: calc(30px + 1.5rem);
+}
+.table-section-label-wrapper {
+    position: absolute;
+    left: -5rem;
+    top: 0;
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 .table-section-label {
-    text-align: center;
-    transform-origin: center center 0;
+    transform-origin: center center;
     transform: rotate(-90deg);
+    width: 10rem;
+    text-align: center;
 }
 .table-section-bracket {
-    position: relative;
+    position: absolute;
     height: calc(100% - 2rem);
+    top: 1rem;
+    right: 0;
     min-height: 60px;
     width: 30px;
 }

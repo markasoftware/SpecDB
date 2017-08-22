@@ -76,7 +76,9 @@ module.exports = {
                                             rowspan: curSection.rows.length,
                                         },
                                             m('.table-section', [
-                                                m('a.table-section-label', { onclick: toggleLs }, curSection.name),
+                                                m('.table-section-label-wrapper',
+                                                    m('a.table-section-label', { onclick: toggleLs }, curSection.name)
+                                                ),
                                                 m('.table-section-bracket', [
                                                     m('.bracket-upper-end.bracket-curve'),
                                                     m('.bracket-upper-rect.bracket-rect'),
