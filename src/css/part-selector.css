@@ -87,3 +87,40 @@
     width: 75%;
     font-family: Quicksand, sans-serif;
 }
+
+#mobile-toggle-label-wrapper {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 25vh;
+    height: 10vh;
+    transition: transform 300ms;
+    z-index: 999;
+}
+#mobile-toggle-label {
+    border-top-left-radius: 999px;
+    border-bottom-left-radius: 999px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5vh;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 15px #999;
+    height: 100%;
+    /* for some reason 10vh isn't centered */
+    line-height: 9vh;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #888;
+}
+#mobile-toggle-label-shadow-cover {
+    width: 20px;
+    height: 100%;
+    background-color: #f7f7f7;
+    position: absolute;
+    left: -2px;
+    top: 0;
+}
+#mobile-toggle:checked ~ #mobile-toggle-label-wrapper {
+    transform: translateX(-90vw);
+}

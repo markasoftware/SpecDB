@@ -33,6 +33,8 @@ h2.top {
 .spec-tab-wrapper {
     width: 100%;
     overflow-x: auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
 }
 .spec-tab {
     background-color: #fff;
