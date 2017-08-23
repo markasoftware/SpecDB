@@ -4,7 +4,7 @@
     overflow-y: scroll;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
-    padding: 5vh 4vw 0 4vw;
+    padding: 5vh 0 0 0;
 }
 #nothing-selected {
     font-size: 4rem;
@@ -30,6 +30,10 @@ h2.top {
 }
 
 /* table stuff */
+.spec-tab-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
 .spec-tab {
     background-color: #fff;
     box-shadow: 0 0 5px #999;
@@ -132,10 +136,14 @@ h2.top {
     align-items: center;
 }
 .table-section-label {
-    transform-origin: center center;
+    position: absolute;
+    display: block;
+    transform-origin: top left;
     transform: rotate(90deg);
     width: 10rem;
     text-align: center;
+    top: calc(50% - 5rem);
+    left: 4rem;
 }
 .table-section-bracket {
     position: absolute;

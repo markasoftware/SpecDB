@@ -50,72 +50,72 @@ module.exports = {
                         onclick: () => vnode.state.advancedRows = !vnode.state.advancedRows,
                     }, 'Show Advanced Data'),
                 ]),
-                m('table.spec-tab', [
-                    // header with part names
-                    m('tr', [
-                        m('td.left-corner'),
-                        partData.map(c => m('th', c.humanName)),
-                        m('td.table-section-hidden'),
-                    ]),
-                    // now for real data
-                    sections.map(curSection => {
-                        // if we don't have any data for this section, exit now
-                        if(curSection.rows.length === 0) {
-                            return;
-                        }
-                        const curLsKey = `table-section-display-${curSection.name}`;
-                        const toggleLs = () => localStorage.setItem(curLsKey,
-                            localStorage.getItem(curLsKey) === 'yes' ? 'no' : 'yes');
-                        return localStorage.getItem(curLsKey) === 'yes' ?
-                            // section is displayed
-                            curSection.rows.map((curRow, i) =>
-                                m('tr', [
-                                    m('td.row-header', curRow.name),
-                                    curRow.cells.map(curCell =>
-                                        m('td', {
-                                            class: curCell.winner ? 'winner' : '',
-                                        // if it's an array, then do line-break separated values, otherwise do just the value
-                                        }, curCell.value instanceof Array ?
-                                            [
-                                                curCell.value[0],
-                                                curCell.value.slice(1).map(c => [ m('br'), c ]),
-                                            ]
-                                            : curCell.value
-                                        )
-                                    ),
-                                    // include bracket if this is the top row
-                                    i === 0 &&
-                                        m('td.table-section-hidden', {
-                                            rowspan: curSection.rows.length,
-                                        },
-                                            m('.table-section', [
-                                                m('.table-section-label-wrapper',
-                                                    m('a.table-section-label', { onclick: toggleLs }, curSection.name)
-                                                ),
-                                                m('.table-section-bracket', [
-                                                    m('.bracket-upper-end.bracket-curve'),
-                                                    m('.bracket-upper-rect.bracket-rect'),
-                                                    m('.bracket-upper-join.bracket-curve'),
-                                                    m('.bracket-lower-join.bracket-curve'),
-                                                    m('.bracket-lower-rect.bracket-rect'),
-                                                    m('.bracket-lower-end.bracket-curve'),
-                                                ]),
-                                            ])
+                m('.spec-tab-wrapper',
+                    m('table.spec-tab', [
+                        // header with part names
+                        m('tr', [
+                            m('td.left-corner'),
+                            partData.map(c => m('th', c.humanName)),
+                            m('td.table-section-hidden'),
+                        ]),
+                        // now for real data
+                        sections.map(curSection => {
+                            // if we don't have any data for this section, exit now
+                            if(curSection.rows.length === 0) {
+                                return;
+                            }
+                            const curLsKey = `table-section-display-${curSection.name}`;
+                            const toggleLs = () => localStorage.setItem(curLsKey,
+                                localStorage.getItem(curLsKey) === 'yes' ? 'no' : 'yes');
+                            return localStorage.getItem(curLsKey) === 'yes' ?
+                                // section is displayed
+                                curSection.rows.map((curRow, i) =>
+                                    m('tr', [
+                                        m('td.row-header', curRow.name),
+                                        curRow.cells.map(curCell =>
+                                            m('td', {
+                                                class: curCell.winner ? 'winner' : '',
+                                            // if it's an array, then do line-break separated values, otherwise do just the value
+                                            }, curCell.value instanceof Array ?
+                                                [
+                                                    curCell.value[0],
+                                                    curCell.value.slice(1).map(c => [ m('br'), c ]),
+                                                ]
+                                                : curCell.value
+                                            )
                                         ),
+                                        // include bracket if this is the top row
+                                        i === 0 &&
+                                            m('td.table-section-hidden', {
+                                                rowspan: curSection.rows.length,
+                                            },
+                                                m('.table-section', [
+                                                    m('a.table-section-label', { onclick: toggleLs }, curSection.name),
+                                                    m('.table-section-bracket', [
+                                                        m('.bracket-upper-end.bracket-curve'),
+                                                        m('.bracket-upper-rect.bracket-rect'),
+                                                        m('.bracket-upper-join.bracket-curve'),
+                                                        m('.bracket-lower-join.bracket-curve'),
+                                                        m('.bracket-lower-rect.bracket-rect'),
+                                                        m('.bracket-lower-end.bracket-curve'),
+                                                    ]),
+                                                ])
+                                            ),
+                                    ])
+                                ) :
+                                // section is collapsed
+                                m('tr', [
+                                    m('td.table-section-collapsed', {
+                                        // +1 to account for row header thing
+                                        colspan: curSection.rows[0].cells.length + 1,
+                                    },
+                                        m('a', { onclick: toggleLs }, curSection.name)
+                                    ),
+                                    m('td.table-section-hidden'),
                                 ])
-                            ) :
-                            // section is collapsed
-                            m('tr', [
-                                m('td.table-section-collapsed', {
-                                    // +1 to account for row header thing
-                                    colspan: curSection.rows[0].cells.length + 1,
-                                },
-                                    m('a', { onclick: toggleLs }, curSection.name)
-                                ),
-                                m('td.table-section-hidden'),
-                            ])
-                    }),
-                ]),
+                        }),
+                    ]),
+                ),
             ]),
             // bottom thing with info
             m('#info-links', [
