@@ -8,35 +8,35 @@
     }
 }
 
+/* if the rules to activate mobile mode are changed, change them in hash.js too! */
 @media (max-width: 800px) and (orientation: portrait) {
-    #big-flex-wrapper {
-        width: 200vw;
-    }
-    /* it worked without higher specificity before but now it's not so whatever */
-    div#spec-viewer {
-        flex: 90vw;
-        box-shadow: 0 0 15px #999;
-    }
     div#part-selector {
-        flex: 90vw;
+        position: fixed;
+        height: 100vh;
+        width: 90vw;
+        top: 0;
+        right: 0;
+        transform: translateX(90vw);
+        box-shadow: none;
+        transition: all 300ms;
     }
-    #clicky-movey {
-        display: block;
-    }
-    #mobile-toggle:checked ~ #big-flex-wrapper {
-        transform: translateX(-100vw);
+    #mobile-toggle:checked ~ #big-flex-wrapper > #part-selector {
+        transform: translateX(0);
+        box-shadow: 0 0 15px #999;
     }
     .part {
         flex-basis: 250px;
     }
-    table.spec-tab {
-        position: relative;
-        left: 5rem;
-    }
     table.spec-tab td, table.spec-tab th {
         padding: 1rem 0.5rem;
     }
+    div.table-section {
+        left: 0.5rem;
+    }
     a.table-section-label {
-        width: 4rem;
+        left: 3.5rem;
+    }
+    div#mobile-toggle-label-wrapper {
+        display: block;
     }
 }

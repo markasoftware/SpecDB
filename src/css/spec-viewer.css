@@ -4,7 +4,7 @@
     overflow-y: scroll;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
-    padding: 5vh 4vw 0 4vw;
+    padding: 5vh 0 0 0;
 }
 #nothing-selected {
     font-size: 4rem;
@@ -30,6 +30,12 @@ h2.top {
 }
 
 /* table stuff */
+.spec-tab-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
 .spec-tab {
     background-color: #fff;
     box-shadow: 0 0 5px #999;
@@ -84,6 +90,11 @@ h2.top {
     font-size: 0.9em;
     margin-bottom: 1rem;
 }
+#info-links span {
+    color: #fff;
+    background-color: #ff4545;
+    padding: 0.2rem 0.5rem;
+}
 #info-links a {
     color: inherit;
     text-decoration: underline;
@@ -116,20 +127,34 @@ h2.top {
 .table-section {
     height: 100%;
     position: relative;
-    left: calc(-30px - 8rem);
-    width: calc(30px + 7rem);
+    left: 1rem;
+    width: calc(30px + 1.5rem);
+}
+.table-section-label-wrapper {
+    position: absolute;
+    left: -2rem;
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
 }
 .table-section-label {
-    width: 6rem;
-    text-align: right;
-    margin-right: 1rem;
+    position: absolute;
+    display: block;
+    transform-origin: top left;
+    transform: rotate(90deg);
+    width: 10rem;
+    text-align: center;
+    top: calc(50% - 5rem);
+    left: 4rem;
 }
 .table-section-bracket {
-    position: relative;
+    position: absolute;
+    /* way too lazy to flip it properly */
+    transform-origin: center center;
+    transform: rotate(180deg);
     height: calc(100% - 2rem);
+    top: 1rem;
+    left: 0;
     min-height: 60px;
     width: 30px;
 }

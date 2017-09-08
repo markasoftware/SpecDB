@@ -31,7 +31,7 @@ module.exports = {
         const curData = specData[vnode.state.breadcrumbs.length ? vnode.state.breadcrumbs.slice(-1) : 'AMD'];
 
         return [
-            m('input#search-toggle[type="checkbox"][name="search-toggle"]'),
+            m('input#search-toggle[type="checkbox"]'),
             m('label#search-toggle-label[for="search-toggle"]',
                 // TODO: replace with svg icon for better compatibility
                 m('#search-icon', '⚲') // u26b2
