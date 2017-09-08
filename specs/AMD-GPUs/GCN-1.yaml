@@ -4,4 +4,8 @@ data:
   Architecture: 1st Gen GCN
   Lithography: 28 nm
   DirectX Support: '12.0'
+  HLSL Shader Model: '6.0'
   Vulkan Support: '1.0'
+  OpenGL Support: '4.5'
+  OpenCL Support: '1.2'
+  Crossfire Support: CrossfireX

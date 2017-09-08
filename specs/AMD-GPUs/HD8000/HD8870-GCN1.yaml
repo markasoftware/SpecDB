@@ -1,0 +1,24 @@
+
+isPart: true
+type: Graphics Card
+data:
+  GPU: Pitcairn
+  Codename: Pitcairn XT
+  Release Date: '2013'
+  Die Size: 212 mm²
+  Shader Processor Count: 1280
+  Texture Mapping Unit Count: 80
+  Render Output Unit Count: 32
+  Base Frequency: 1000 MHz
+  VRAM Frequency: 4800 MT/s
+  VRAM Capacity: 2 GiB
+  VRAM Bus Width: 256 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 153.6 GB/s
+  TDP: 150 W
+  FP32 Compute: 2.560 TFLOPS
+  FP64 Compute: 160 GFLOPS
+inherits:
+  - GCN 1
+name: HD-8870
+humanName: HD 8870

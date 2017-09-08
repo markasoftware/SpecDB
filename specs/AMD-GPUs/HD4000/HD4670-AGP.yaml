@@ -1,0 +1,22 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: RV730
+  Codename: RV730 XT
+  Release Date: '2007-07-17'
+  Die Size: 146 mm
+  Shader Processor Count: 320
+  Texture Mapping Unit Count: 32
+  Render Output Unit Count: 8
+  Base Frequency: 750 MHz 
+  VRAM Frequency: 1600 MT/s
+  VRAM Capacity: 1 GiB
+  VRAM Bus Width: 128 Bits
+  VRAM Type: GDDR3
+  VRAM Bandwidth: 25.60 GB/s
+  TDP: 59 W
+  FP32 Compute: 480 GFLOPS
+inherits:
+  - TeraScale-1
+name: HD-4670-AGP
+humanName: HD 4670 AGP

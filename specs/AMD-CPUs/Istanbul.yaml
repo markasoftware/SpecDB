@@ -1,0 +1,31 @@
+name: Istanbul
+humanName: Istanbull
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2009-06-02'
+  Lithography: 45 nm
+  Sockets:
+  - F
+  Foundry: Global Foundries
+sections:
+  - header:  Eight Socket CPU
+    members:
+      - 8419EE
+      - 8419
+      - 8423
+      - 8425HE
+      - 8431
+      - 8435
+      - 8439SE
+  - header:  Dual Socket CPU
+    members: 
+      - 2419EE
+      - 2419
+      - 2423HE
+      - 2425HE
+      - 2427
+      - 2431
+      - 2435
+      - 2439SE
+    

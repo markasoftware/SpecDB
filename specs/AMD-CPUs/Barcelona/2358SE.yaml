@@ -1,0 +1,10 @@
+isPart: true
+type: CPU
+data:
+  Base Frequency: 2.4  GHz
+  TDP: 119 W
+  Release Date: '2007-08'
+inherits:
+  - Barcelona
+name: 2358SE
+humanName: 2358SE

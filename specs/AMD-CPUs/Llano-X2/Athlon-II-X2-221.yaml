@@ -1,0 +1,13 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 2
+  Core Count: 2
+  Base Frequency: 2.8 GHz
+  L2 Cache (Total): 4 MiB
+  TDP: 65 W
+  Release Date: '2012-Q1'
+inherits:
+  - Llano-X2
+name: X2-221
+humanName: X2 221

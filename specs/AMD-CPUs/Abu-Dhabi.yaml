@@ -1,0 +1,29 @@
+name: Abu-Dhabi
+humanName: Abu Dhabi
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2012-11-05'
+  Lithography: 32 nm
+  Sockets:
+  - G34
+  Foundry: Global Foundries
+sections:
+  - header: Sixteen Core
+    members:
+     - 6366HE
+     - 6376
+     - 6378
+     - 6380
+     - 6386SE
+  - header: Twelve Core
+    members: 
+      - 6344
+      - 6348
+  - header: Eight Core
+    members:
+      - 6320
+      - 6328
+  - header: Quad Core
+    members:
+      - 6308

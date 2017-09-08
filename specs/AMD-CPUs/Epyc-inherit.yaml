@@ -5,3 +5,23 @@ data:
   Lithography: 14 nm
   Socket: SP3
   Release Date: '2017-07-20'
+  Max Memory Frequency: 2666 MHz
+  Max Memory Channels: 8
+  AVX/SSE/MMX: AVX2
+  FMA4: false
+  FMA3: true
+  BMI: BMI2
+  AES: true
+  SHA: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - F16C
+    - ABM
+    - XOP
+    - CLMUL
+    - RDRAND
+    - ADX
+  Compatible Chipsets:
+    - SOC
+ 

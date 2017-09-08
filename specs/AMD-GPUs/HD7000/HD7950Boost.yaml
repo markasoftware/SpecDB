@@ -16,6 +16,8 @@ data:
   VRAM Type: GDDR5
   VRAM Bandwidth: 240 GB/s
   TDP: 225 W
+  FP32 Compute: 3.046 TFLOPS
+  FP64 Compute: 762 GFLOPS
 inherits:
   - GCN 1
 name: HD-7950Boost

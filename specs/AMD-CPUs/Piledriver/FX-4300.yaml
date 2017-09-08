@@ -9,6 +9,8 @@ data:
   L3 Cache (Total): 4 MiB
   TDP: 95 W
   Release Date: '2012-10-23'
+  L1 Cache (Data): 64 KiB
+  L1 Cache (Instruction): 128 KiB
 inherits:
   - Piledriver
 name: FX-4300

@@ -1,0 +1,18 @@
+name: Zurich
+humanName: Zurich
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2012-03-20'
+  Lithography: 32 nm
+  Sockets:
+  - AM3+
+  Foundry: Global Foundries
+sections:
+  - header: Eight Core
+    members:
+      - 3280
+  - header: Four Core
+    members: 
+      - 3250HE
+      - 3260HE

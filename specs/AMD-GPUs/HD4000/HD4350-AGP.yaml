@@ -1,0 +1,23 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: RV710
+  Codename: RV710
+  Release Date: '2008-09-30'
+  Die Size: 73 mm
+  Shader Processor Count: 80
+  Texture Mapping Unit Count: 8
+  Render Output Unit Count: 4
+  Base Frequency: 600 MHz 
+  VRAM Frequency: 1300 MT/s
+  VRAM Capacity: 512 MiB
+  VRAM Bus Width: 64 Bits
+  VRAM Type: DDR3
+  VRAM Bandwidth: 10.40 GB/s
+  TDP: 20 W
+  FP32 Compute: 104 GFLOPS
+  Crossfire Support: No
+inherits:
+  - TeraScale-1
+name: HD-4350-AGP
+humanName: HD 4350 AGP

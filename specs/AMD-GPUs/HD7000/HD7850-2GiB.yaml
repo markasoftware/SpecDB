@@ -15,7 +15,9 @@ data:
   VRAM Type: GDDR5
   VRAM Bandwidth: 153.6 GB/s
   TDP: 130  W
+  FP32 Compute: 1.761 TFLOPS
+  FP64 Compute: 110 GFLOPS
 inherits:
   - GCN 1
 name: HD-7850-2GiB
-humanName: HD 7870 (2GiB)
+humanName: HD 7850 (2GiB)

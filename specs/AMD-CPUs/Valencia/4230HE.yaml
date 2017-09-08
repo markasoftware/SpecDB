@@ -1,0 +1,16 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 6
+  Core Count: 6
+  Base Frequency: 2.9 GHz
+  Boost Frequency: 3.7 GHz
+  L2 Cache (Total): 6 MiB
+  TDP: 65 W
+  Release Date: '2012-05-01'
+  L1 Cache (Data): 96 KiB
+  L1 Cache (Instruction): 192 KiB
+inherits:
+  - Valencia
+name: 4230HE
+humanName: 4230HE

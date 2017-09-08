@@ -1,0 +1,14 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 2
+  Core Count: 2
+  Base Frequency: 3.2 GHz
+  Boost Frequency: 3.6 GHz
+  L2 Cache (Total): 1 MiB
+  TDP: 100 W
+  Release Date: '2012-10-01'
+inherits:
+  - Trinity-X2
+name: X2-340
+humanName: X2 340

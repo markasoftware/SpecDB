@@ -9,3 +9,4 @@ call ..\node_modules\.bin\browserify -r %TEMP%\specs.js:spec-data --noparse mith
 echo Bundling styles...
 copy /y ..\src\css\*.css ..\public\generated\all.css >nul 2>&1
 echo Build complete
+Pause

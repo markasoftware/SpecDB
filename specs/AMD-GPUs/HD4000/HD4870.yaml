@@ -1,0 +1,23 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: RV770
+  Codename: RV770 PRO
+  Release Date: '2008-06-25'
+  Die Size: 256 mm
+  Shader Processor Count: 800
+  Texture Mapping Unit Count: 40
+  Render Output Unit Count: 16
+  Base Frequency: 750 MHz 
+  VRAM Frequency: 3600 MT/s
+  VRAM Capacity: 512 MiB 
+  VRAM Bus Width: 256 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 115.2 GB/s
+  TDP: 150 W
+  FP32 Compute: 1.200 TFLOPS
+  FP64 Compute: 240 GFLOPS
+inherits:
+  - TeraScale-1
+name: HD-4870
+humanName: HD 4870

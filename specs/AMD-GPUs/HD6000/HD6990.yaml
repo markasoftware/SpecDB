@@ -1,0 +1,23 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: Cayman
+  Codename: Antilles XT
+  Release Date: '2011-03-08'
+  Die Size: 389 mm²
+  Shader Processor Count: 3072
+  Texture Mapping Unit Count: 192
+  Render Output Unit Count: 64
+  Base Frequency: 830 MHz
+  VRAM Frequency: 5000 MT/s
+  VRAM Capacity: 2 GiB (per GPU)
+  VRAM Bus Width: 256 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 160 GB/s
+  TDP: 375 W
+  FP32 Compute: 5.099 TFLOPS
+  FP64 Compute: 1.277 TFLOPS
+inherits:
+  - TeraScale-3
+name: HD-6990
+humanName: HD 6990

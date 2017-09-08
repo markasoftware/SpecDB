@@ -12,3 +12,5 @@ data:
   L2 Cache (Total): 12 MiB
   L3 Cache (Total): 64 MiB
   TDP: 155 W
+  L1 Cache (Data): 768 KiB
+  L1 Cache (Instruction): 1536 KiB

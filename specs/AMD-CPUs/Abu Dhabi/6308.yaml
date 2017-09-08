@@ -1,0 +1,14 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 4
+  Core Count: 4
+  Base Frequency: 3.5 GHz
+  L2 Cache (Total): 4 MiB
+  TDP: 115 W
+  L1 Cache (Data): 64 KiB
+  L1 Cache (Instruction): 128 KiB
+inherits:
+  - Abu-Dhabi
+name: '6308'
+humanName: '6308'

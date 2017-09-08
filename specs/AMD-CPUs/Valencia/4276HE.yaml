@@ -1,0 +1,16 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 8
+  Core Count: 8
+  Base Frequency: 2.6 GHz
+  Boost Frequency: 3.6 GHz
+  L2 Cache (Total): 8 MiB
+  TDP: 65 W
+  Release Date: '2012-05-01'
+  L1 Cache (Data): 128 KiB
+  L1 Cache (Instruction): 256 KiB
+inherits:
+  - Valencia
+name: 4276HE
+humanName: 4276HE

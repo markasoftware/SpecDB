@@ -7,3 +7,5 @@ data:
   Thread Count: 6
   L2 Cache (Total): 6 MiB
   L3 Cache (Total): 8 MiB
+  L1 Cache (Data): 96 KiB
+  L1 Cache (Instruction): 192 KiB

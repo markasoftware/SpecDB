@@ -1,0 +1,10 @@
+isPart: true
+type: CPU
+data:
+  Base Frequency: 2.3  GHz
+  TDP: 79 W
+  Release Date: '2009-01-26'
+inherits:
+  - Shanghai
+name: 2376HE
+humanName: 2376HE

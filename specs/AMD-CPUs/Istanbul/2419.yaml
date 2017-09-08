@@ -1,0 +1,10 @@
+isPart: true
+type: CPU
+data:
+  Base Frequency: 1.8 GHz
+  TDP: 115 W
+  Release Date: '2009-06-02'
+inherits:
+  - Istanbul
+name: '2419'
+humanName: '2419'

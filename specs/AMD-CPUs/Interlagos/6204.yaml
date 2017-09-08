@@ -1,0 +1,15 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 4
+  Core Count: 4
+  Base Frequency: 3.3 GHz
+  L2 Cache (Total): 4 MiB
+  TDP: 115 W
+  Release Date: '2011-11-14'
+  L1 Cache (Data): 64 KiB
+  L1 Cache (Instruction): 128 KiB
+inherits:
+  - Interlagos
+name: '6204'
+humanName: '6204'

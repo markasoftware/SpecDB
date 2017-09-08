@@ -5,3 +5,4 @@ inherits:
 data:
   Release Date: '2017-08-12'
   XFR Support: true
+  Max Memory Frequency: 2666 MHz

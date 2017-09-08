@@ -1,0 +1,22 @@
+hidden: true
+name: Magny-Cours
+data:
+  Architecture: K10
+  Lithography: 45 nm
+  Socket: G34
+  L3 Cache (Total): 12 MiB
+  Max Memory Frequency: 1333 MHz
+  Max Memory Channels: 2
+  AVX/SSE/MMX: SSE4a
+  FMA4: false
+  FMA3: false
+  BMI: No
+  AES: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - ABM
+    - E3D-Now!
+  Compatible Chipsets:
+
+

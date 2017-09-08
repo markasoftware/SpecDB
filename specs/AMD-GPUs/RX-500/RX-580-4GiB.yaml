@@ -12,6 +12,7 @@ data:
   TDP: 185 W
   Codename: Ellesmere XTX
   FP32 Compute: 5.792 TFLOPS
+  FP64 Compute: 362 GFLOPS
 inherits:
   - RX 570 580 Base
 name: RX-580-4GiB

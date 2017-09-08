@@ -18,3 +18,5 @@ data:
   VRAM Bus Width: 256 Bits
   VRAM Bandwidth: 176 GB/s
   TDP: 190 W
+  FP32 Compute: 3.290 TFLOPS
+  FP64 Compute: 207 GFLOPS

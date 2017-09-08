@@ -11,3 +11,5 @@ data:
   TDP: 250 W
   GPU: Hawaii 
   Codename: Hawaii XT
+  FP32 Compute: 5.632 TFLOPS
+  FP64 Compute: 704 GFLOPS0

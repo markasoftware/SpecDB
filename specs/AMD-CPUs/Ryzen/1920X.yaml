@@ -1,5 +1,5 @@
-name: R9-1920X
-humanName: R9 1920X
+name: 1920X
+humanName: 1920X
 isPart: true
 type: CPU
 inherits:
@@ -8,8 +8,10 @@ data:
   Core Count: 12
   Thread Count: 24
   L2 Cache (Total): 6 MiB
-  L3 Cache (Total): TBA
+  L3 Cache (Total): 32 MiB
   Base Frequency: 3.5 GHz
   Boost Frequency: 4.0 GHz
-  XFR Frequency: 4.1 GHz
+  XFR Frequency: 4.2 GHz
   TDP: 180 W
+  L1 Cache (Data): 384 KiB
+  L1 Cache (Instruction): 768 KiB

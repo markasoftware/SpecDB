@@ -1,0 +1,8 @@
+isPart: true
+type: CPU
+data:
+  Base Frequency: 2.9 GHz
+inherits:
+  - Suzuka
+name: '1389'
+humanName: '1389'

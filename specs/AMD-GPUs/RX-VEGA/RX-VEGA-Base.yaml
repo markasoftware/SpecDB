@@ -1,0 +1,10 @@
+hidden: true
+name: RX VEGA Base
+inherits:
+  - GCN 5
+data:
+  VRAM Type: HBM2
+  VRAM Bus Width: 2048 Bits
+  Release Date: '2017-08-14'
+  Die Size: 484 mm²
+  GPU: VEGA

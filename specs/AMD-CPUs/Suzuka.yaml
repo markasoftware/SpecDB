@@ -1,0 +1,16 @@
+name: Suzuka
+humanName: Suzuka
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2009-06'
+  Lithography: 45 nm
+  Sockets:
+  - F
+  Foundry: Global Foundries
+sections:
+  - header:  Quad core CPUs
+    members:
+      - 1381
+      - 1385
+      - 1389

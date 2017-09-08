@@ -1,0 +1,30 @@
+hidden: true
+name: Abu-Dhabi
+data:
+  Architecture: Piledriver
+  Lithography: 32 nm
+  Socket: G34
+  L3 Cache (Total): 16 MiB
+  Release Date: '2012-11-05'
+  Max Memory Frequency: 1866 MHz
+  Max Memory Channels: 4
+  AVX/SSE/MMX: AVX
+  FMA4: true
+  FMA3: true
+  BMI: BMI1
+  AES: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - F16C
+    - ABM
+    - TBM
+    - XOP
+    - CLMUL
+  Compatible Chipsets:
+    - SP5690
+    - SP5670
+    - SP5650
+    - SP5580
+    - SP5100
+  Steppings: C0

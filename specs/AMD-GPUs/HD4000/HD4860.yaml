@@ -1,0 +1,23 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: RV790
+  Codename: RV790 GT
+  Release Date: '2009-09-09'
+  Die Size: 282 mm
+  Shader Processor Count: 640
+  Texture Mapping Unit Count: 32
+  Render Output Unit Count: 16
+  Base Frequency: 750 MHz 
+  VRAM Frequency: 3000 MT/s
+  VRAM Capacity: 512 MiB 
+  VRAM Bus Width: 256 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 96 GB/s
+  TDP: 130 W
+  FP32 Compute: 896 GFLOPS
+  FP64 Compute: 179.2 GFLOPS
+inherits:
+  - TeraScale-1
+name: HD-4860
+humanName: HD 4860

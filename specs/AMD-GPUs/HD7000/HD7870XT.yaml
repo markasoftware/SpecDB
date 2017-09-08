@@ -5,7 +5,7 @@ data:
   Codename: Tahiti LE
   Release Date: '2011-11-19'
   Die Size: 352 mm
-  Shader Processor Count: 1526
+  Shader Processor Count: 1536
   Texture Mapping Unit Count: 96
   Render Output Unit Count: 32
   Base Frequency: 925 MHz
@@ -16,7 +16,9 @@ data:
   VRAM Type: GDDR5
   VRAM Bandwidth: 192 GB/s
   TDP: 185  W
+  FP32 Compute: 2.842 TFLOPS
+  FP64 Compute: 710 GFLOPS
 inherits:
   - GCN 1
-name: HD-7870
+name: HD-7870XT
 humanName: HD 7870XT

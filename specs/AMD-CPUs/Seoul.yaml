@@ -1,0 +1,24 @@
+name: Seoul
+humanName: Seoul
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2012-12-04'
+  Lithography: 32 nm
+  Sockets:
+  - C32
+  Foundry: Global Foundries
+sections:
+  - header: Eight Core SKUs
+    members:
+      - 4365EE
+      - 4376HE
+      - 4386
+  - header: Six Core SKUs
+    members:
+      - 4332HE
+      - 4334
+      - 4340
+  - header: Quad Core SKUs
+    members:
+      - 4310EE

@@ -4,10 +4,10 @@ type: none
 isPart: false
 topHeader: "SELECT ARCHITECTURE:"
 sections:
-    - header: ZEN FAMILY
+    - header: RYZEN FAMILY
       members:
         - Ryzen
-        - Epyc
+        - Naples
     - header: AMD FX FAMILY
       members:
         - Piledriver
@@ -45,6 +45,8 @@ sections:
       members: 
         - Kaveri-X2
         - Richland-X2
+        - Trinity-X2
+        - Llano-X2
         - Regor-Athlon
         - Kuma
     - header: ATHLON FAMILY
@@ -52,5 +54,23 @@ sections:
         - Sargas
     - header: SEMPRON FAMILY
       members: 
+        - Richland-Sempron
+        - Trinity-Sempron
         - Regor-Sempron
         - Sargas-Sempron
+    - header: OPTERON FAMILY
+      members: 
+        - Warsaw
+        - Abu-Dhabi
+        - Seoul
+        - Delhi
+        - Interlagos
+        - Valencia
+        - Zurich
+        - Magny-Cours
+        - Lisbon
+        - Istanbul
+        - Shanghai
+        - Suzuka
+        - Barcelona
+        - Budapest

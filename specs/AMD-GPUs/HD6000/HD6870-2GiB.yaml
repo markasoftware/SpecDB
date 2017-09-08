@@ -1,0 +1,22 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: Barts
+  Codename: Barts XT
+  Release Date: '2010-10-22'
+  Die Size: 255 mm²
+  Shader Processor Count: 1120
+  Texture Mapping Unit Count: 56
+  Render Output Unit Count: 32
+  Base Frequency: 900 MHz
+  VRAM Frequency: 4200 MT/s
+  VRAM Capacity: 2 GiB
+  VRAM Bus Width: 256 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 134.4 GB/s
+  TDP: 151 W
+  FP32 Compute: 2.016 TFLOPS
+inherits:
+  - TeraScale-2
+name: HD-6850-2GiB
+humanName: HD 6850 2GiB

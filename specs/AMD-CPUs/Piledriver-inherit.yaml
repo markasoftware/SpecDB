@@ -13,13 +13,16 @@ data:
   BMI: BMI1
   AES: true
   Other Extensions:
-    - CLMUL
-    - TSX
+    - X86-64
+    - AMD-V
+    - F16C
+    - ABM
+    - TBM
     - XOP
-    # WARNING: This is not a complete list of extensions supported in Piledriver
-    # This is just to show how to use list types
-    # I'm not even sure if TSX or XOP is supported here
+    - CLMUL
   Compatible Chipsets:
-    # also not sure if this is complete
     - '970'
-    - 990fx
+    - 980G
+    - 990X
+    - 990FX
+  Steppings: C0

@@ -16,6 +16,8 @@ data:
   VRAM Type: GDDR5
   VRAM Bandwidth: 179.2 GB/s
   TDP: 150 W
+  FP32 Compute: 2.304 TFLOPS
+  FP64 Compute: 144 GFLOPS
 inherits:
   - GCN 1
 name: R9-270

@@ -1,0 +1,21 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: RV635
+  Codename: RV635 PRO
+  Release Date: '2009-11-22'
+  Die Size: 135 mm
+  Shader Processor Count: 120
+  Texture Mapping Unit Count: 8
+  Render Output Unit Count: 4
+  Base Frequency: 796 MHz 
+  VRAM Frequency: 792 MT/s
+  VRAM Capacity: 1 GiB
+  VRAM Bus Width: 128 Bits
+  VRAM Type: DDR2
+  VRAM Bandwidth: 12.67 GB/s
+  TDP: 65 W
+inherits:
+  - TeraScale-1
+name: HD-4570-Rebrand
+humanName: HD 4570 Rebrand

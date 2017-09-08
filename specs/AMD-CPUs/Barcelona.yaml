@@ -1,0 +1,36 @@
+name: Barcelona
+humanName: Barcelona
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2007-09'
+  Lithography: 65 nm
+  Sockets:
+  - F
+  Foundry: Global Foundries
+sections:
+  - header:  Eight Socket CPU
+    members:
+     - 8346HE
+     - 8347
+     - 8347HE
+     - 8350
+     - 8350HE
+     - 8352
+     - 8354
+     - 8356
+     - 8358SE
+     - 8360SE 
+  - header:  Dual Socket CPU
+    members: 
+      - 2344HE
+      - 2346HE
+      - 2347
+      - 2347HE
+      - 2350
+      - 2350HE
+      - 2352
+      - 2354
+      - 2356
+      - 2358SE
+      - 2360SE

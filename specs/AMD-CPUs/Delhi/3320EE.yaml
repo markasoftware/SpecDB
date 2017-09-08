@@ -1,0 +1,15 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 4
+  Core Count: 4
+  Base Frequency: 1.9 GHz
+  Boost Frequency: 2.5 GHz
+  L2 Cache (Total): 4 MiB
+  TDP: 25 W
+  L1 Cache (Data): 64 KiB
+  L1 Cache (Instruction): 128 KiB
+inherits:
+  - Delhi
+name: 3320EE
+humanName: 3320EE

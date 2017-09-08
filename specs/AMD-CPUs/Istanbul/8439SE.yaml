@@ -1,0 +1,10 @@
+isPart: true
+type: CPU
+data:
+  Base Frequency: 2.8 GHz
+  TDP: 137 W
+  Release Date: '2009-07-13'
+inherits:
+  - Istanbul
+name: 8439SE
+humanName: 8439SE

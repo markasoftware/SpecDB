@@ -7,4 +7,42 @@ data:
   Thread Count: 1
   TDP: 45 W
   Socket: AM3,AM2+
-   
+  L1 Cache (Data): 64 KiB
+  L1 Cache (Instruction): 64 KiB
+  Max Memory Frequency: 1333 MHz
+  Max Memory Channels: 2
+  AVX/SSE/MMX: SSE4a
+  FMA4: false
+  FMA3: false
+  BMI: No
+  AES: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - ABM
+    - E3D-Now!
+  Compatible Chipsets:
+    - 990FX
+    - 990x
+    - 970
+    - 890FX
+    - 890GX
+    - 880G
+    - 870
+    - 790FX
+    - 790X
+    - 790GX
+    - 785G
+    - 785E
+    - 780G
+    - 780V
+    - 780E
+    - 770
+    - 760G
+    - 740G
+    - 740
+    - 690V
+    - 690G
+    - 580X
+    - 570X
+    - 550X

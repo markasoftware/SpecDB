@@ -1,0 +1,13 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 12
+  Core Count: 12
+  Base Frequency: 2.1 GHz
+  L2 Cache (Total): 6 MiB
+  TDP: 115 W
+  Release Date: '2010-03-29'
+inherits:
+  - Magny-Cours
+name: '6172'
+humanName: '6172'

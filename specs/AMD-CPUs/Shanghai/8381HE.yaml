@@ -1,0 +1,10 @@
+isPart: true
+type: CPU
+data:
+  Base Frequency: 2.5 GHz
+  TDP: 79 W
+  Release Date: '2009-04-22'
+inherits:
+  - Shanghai
+name: 8381HE
+humanName: 8381HE

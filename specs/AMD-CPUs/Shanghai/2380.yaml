@@ -1,0 +1,10 @@
+isPart: true
+type: CPU
+data:
+  Base Frequency: 2.5 GHz
+  TDP: 115 W
+  Release Date: '2008-11-13'
+inherits:
+  - Shanghai
+name: '2380'
+humanName: '2380'

@@ -3,7 +3,7 @@ humanName: Trinity
 type: CPU Architecture
 topHeader: 'SELECT CPU:'
 data:
-  Release Date: '2013-06-01'
+  Release Date: '2012-10-01'
   Lithography: 32 nm
   Sockets:
   - FM2

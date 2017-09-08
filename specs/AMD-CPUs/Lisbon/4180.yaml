@@ -1,0 +1,13 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 6
+  Core Count: 6
+  Base Frequency: 2.6 GHz
+  L2 Cache (Total): 3 MiB
+  TDP: 95 W
+  Release Date: '2010-06-23'
+inherits:
+  - Lisbon
+name: '4180'
+humanName: '4180'

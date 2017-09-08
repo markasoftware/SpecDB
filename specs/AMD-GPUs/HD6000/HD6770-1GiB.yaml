@@ -1,0 +1,22 @@
+isPart: true
+type: Graphics Card
+data:
+  GPU: Juniper
+  Codename: Juniper XT
+  Release Date: '2011-04-19'
+  Die Size: 166 mm²
+  Shader Processor Count: 800
+  Texture Mapping Unit Count: 40
+  Render Output Unit Count: 16
+  Base Frequency: 850 MHz
+  VRAM Frequency: 4200 MT/s
+  VRAM Capacity: 1 GiB
+  VRAM Bus Width: 128 Bits
+  VRAM Type: GDDR5
+  VRAM Bandwidth: 67.2 GB/s
+  TDP: 108 W
+  FP32 Compute: 1.360 TFLOPS
+inherits:
+  - TeraScale-2
+name: HD-6770-1GiB
+humanName: HD 6770 1GiB

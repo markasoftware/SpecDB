@@ -1,0 +1,10 @@
+hidden: true
+name: TeraScale-2
+data:
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  HLSL Shader Model: '5.0'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Crossfire Support: CrossfireX

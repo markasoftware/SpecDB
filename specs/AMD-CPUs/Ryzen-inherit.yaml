@@ -5,3 +5,26 @@ data:
   Lithography: 14 nm
   Socket: AM4
   Unlocked: true
+  Max Memory Frequency: 2666 MHz
+  Max Memory Channels: 2
+  AVX/SSE/MMX: AVX2
+  FMA4: false
+  FMA3: true
+  BMI: BMI2
+  AES: true
+  SHA: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - F16C
+    - ABM
+    - CLMUL
+    - RDRAND
+    - ADX
+  Compatible Chipsets:
+    - X370
+    - B350
+    - A320
+    - X300
+    - A300
+  Steppings: B1

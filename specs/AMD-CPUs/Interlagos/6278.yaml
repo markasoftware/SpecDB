@@ -1,0 +1,16 @@
+isPart: true
+type: CPU
+data:
+  Thread Count: 16
+  Core Count: 16
+  Base Frequency: 2.4 GHz
+  Boost Frequency: 3.3 GHz
+  L2 Cache (Total): 16 MiB
+  TDP: 115 W
+  Release Date: '2012-05-01'
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 512 KiB
+inherits:
+  - Interlagos
+name: '6278'
+humanName: '6278'

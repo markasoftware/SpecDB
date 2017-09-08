@@ -21,3 +21,4 @@ data:
   VRAM Type: GDDR5
   VRAM Bus Width: 128 Bits
   FP32 Compute: 2.406 TFLOPS
+  FP64 Compute: 150 GFLOPS

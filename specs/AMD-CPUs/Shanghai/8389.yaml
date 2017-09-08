@@ -1,0 +1,10 @@
+isPart: true
+type: CPU
+data:
+  Base Frequency: 2.9  GHz
+  TDP: 115 W
+  Release Date: '2009-04-22'
+inherits:
+  - Shanghai
+name: '8389'
+humanName: '8389'

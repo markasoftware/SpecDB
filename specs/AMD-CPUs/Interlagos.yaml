@@ -1,0 +1,32 @@
+name: Interlagos
+humanName: Interlagos
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2011-11-14'
+  Lithography: 32 nm
+  Sockets:
+  - G34
+  Foundry: Global Foundries
+sections:
+  - header: Sixteen Core
+    members:
+     - 6262HE
+     - 6272
+     - 6274
+     - 6276
+     - 6278
+     - 6282SE
+     - 6284SE
+  - header: Twelve Core
+    members: 
+      - 6230HE
+      - 6234
+      - 6238
+  - header: Eight Core
+    members:
+      - 6212
+      - 6220
+  - header: Quad Core
+    members:
+      - 6204

@@ -15,6 +15,8 @@ data:
   VRAM Type: GDDR5
   VRAM Bandwidth: 104 GB/s
   TDP: 100 W
+  FP32 Compute: 1.536 TFLOPS
+  FP64 Compute: 96 GFLOPS
 inherits:
   - GCN 2
 name: R7-360

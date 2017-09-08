@@ -4,14 +4,19 @@ type: none
 isPart: false
 topHeader: 'SELECT ARCHITECTURE/SERIES:'
 sections:
-  - header: 2016 - PRESENT
+  - header: RX Series
     members:
+      - RX-VEGA
       - RX-500
       - RX-400
-  - header: 2013 - 2015
+  - header: R Series
     members:
       - R-300
       - R-200
-  - header: 2012 AND PRIOR
-    members: 
+  - header: HD Series
+    members:
+      - HD8000
       - HD7000
+      - HD6000
+      - HD5000
+      - HD4000

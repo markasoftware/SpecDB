@@ -1,0 +1,10 @@
+isPart: true
+type: CPU
+data:
+  Base Frequency: 1.7  GHz
+  TDP: 68 W
+  Release Date: '2007-08'
+inherits:
+  - Barcelona
+name: 2344HE
+humanName: 2344HE

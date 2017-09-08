@@ -1,0 +1,26 @@
+name: Valencia
+humanName: Valencia
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2011-11-14'
+  Lithography: 32 nm
+  Sockets:
+  - C32
+  Foundry: Global Foundries
+sections:
+  - header: Eight Core
+    members:
+      - 4256EE
+      - 4274HE
+      - 4276HE
+      - 4280
+      - 4284
+  - header: Six Core
+    members: 
+      - 4226
+      - 4228HE
+      - 4230HE
+      - 4234
+      - 4238
+      - 4240

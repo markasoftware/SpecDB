@@ -13,6 +13,8 @@ data:
   VRAM Type: GDDR5
   VRAM Bandwidth: 179.2 GB/s
   TDP: 110 W
+  FP32 Compute: 1.997 TFLOPS
+  FP64 Compute: 125 GFLOPS
 inherits:
   - GCN 1
 name: R7 370 Base

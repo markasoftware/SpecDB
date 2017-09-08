@@ -15,6 +15,8 @@ data:
   VRAM Type: GDDR5
   VRAM Bandwidth: 182.4 GB/s
   TDP: 190 W
+  FP32 Compute: 3.973 TFLOPS
+  FP64 Compute: 248 GFLOPS
 inherits:
   - GCN 3
 name: R9-380X

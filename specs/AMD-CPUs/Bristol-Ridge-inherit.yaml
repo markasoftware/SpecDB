@@ -5,3 +5,26 @@ data:
   Lithography: 28 nm
   Socket: AM4
   Unlocked: true
+  L1 Cache (Data): 64 KiB
+  L1 Cache (Instruction): 128 KiB
+  Max Memory Frequency: 2400 MHz
+  Max Memory Channels: 2
+  AVX/SSE/MMX: AVX2
+  FMA4: true
+  FMA3: true
+  BMI: BMI2
+  AES: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - F16C
+    - ABM
+    - TBM
+    - XOP
+    - CLMUL
+  Compatible Chipsets:
+    - X370
+    - B350
+    - A320
+    - X300
+    - A300

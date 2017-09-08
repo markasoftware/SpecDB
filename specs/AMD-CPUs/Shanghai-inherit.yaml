@@ -1,0 +1,25 @@
+hidden: true
+name: Shanghai
+data:
+  Architecture: K10
+  Lithography: 45 nm
+  Socket: F
+  L2 Cache (Total): 2 MiB
+  L3 Cache (Total): 6 MiB
+  Thread Count: 4
+  Core Count: 4
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 256 KiB
+  Max Memory Frequency: 1333 MHz
+  Max Memory Channels: 2
+  AVX/SSE/MMX: SSE4a
+  FMA4: false
+  FMA3: false
+  BMI: No
+  AES: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - ABM
+    - E3D-Now!
+  Compatible Chipsets:

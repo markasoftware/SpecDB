@@ -14,3 +14,5 @@ data:
   Codename: Vesuvius
   VRAM Capacity: 4 GiB (per GPU)
   TDP: 500 W
+  FP32 Compute: 11.467 TFLOPS
+  FP64 Compute: 1.433 TFLOPS
