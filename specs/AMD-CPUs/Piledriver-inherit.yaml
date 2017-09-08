@@ -18,14 +18,9 @@ data:
     - F16C
     - ABM
     - TBM
-    #- TSX
     - XOP
     - CLMUL
-    # WARNING: This is not a complete list of extensions supported in Piledriver
-    # This is just to show how to use list types
-    # I'm not even sure if TSX or XOP is supported here > XOP is TSX isnt
   Compatible Chipsets:
-    # also not sure if this is complete, > It wasn't
     - '970'
     - 980G
     - 990X
