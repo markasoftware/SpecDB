@@ -1,6 +1,6 @@
 # SpecDB
 
-SpecDB is a beatiful and easy-to-use AMD equivalent to Intel's ARK. It's powered by Mithril and Browserify on the front-end, and has no backend (just static files).
+SpecDB is a beautiful and easy-to-use AMD equivalent to Intel's ARK. It's powered by Mithril and Browserify on the front-end, and has no backend (just static files).
 
 SpecDB (master branch) is live at https://specdb.info/, and the beta branch is deployed at https://beta.specdb.info/
 
@@ -12,14 +12,15 @@ Look at the [wiki](https://github.com/markasoftware/SpecDB/wiki) for more detail
 
 1. Clone the rep
 2. Move to cloned directory
-3. Run `npm install` to get node dependencies
-4. On *nix (Linux, Mac, BSD, etc), run `build/build.bash` from the cloned directory to build. On windows, do `build\build-win.bat`
+3. Update your Node.js to latest version (see https://nodejs.org )
+4. Run `npm install` to get Node.js dependencies
+5. On *nix (Linux, Mac, BSD, etc), run `build/build.bash` from the cloned directory to build. On windows, do `build\build-win.bat`
 
 *Note: we previously recommended running `npm run build` to build.
 This is no longer recommended because npm introduces a significant performance overhead for some reason, and would be hard to make cross-platform.
 That being said, it will still work and just runs `build/build.bash` internally.*
 
-Then, you can view SpecDB at file:///home/markasoftware/whatever/specdb/, which sholud be good enough for development. You may wish to use a proper file server, like Nginx, instead.
+Then, you can view SpecDB at file:///home/markasoftware/whatever/specdb/, which should be good enough for development. You may wish to use a proper file server, like Nginx, instead.
 
 ## Contributing
 
