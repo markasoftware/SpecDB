@@ -12,14 +12,16 @@ Look at the [wiki](https://github.com/markasoftware/SpecDB/wiki) for more detail
 
 1. Clone the rep
 2. Move to cloned directory
+3. Update your nodejs installation by running  `curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -`
+4. Install the latest NodeJS package `sudo apt-get install -y nodejs`
 3. Run `npm install` to get node dependencies
-4. On *nix (Linux, Mac, BSD, etc), run `build/build.bash` from the cloned directory to build. On windows, do `build\build-win.bat`
+4. On *nix (Linux, Mac, BSD, etc), run `bash build/build.bash` from the cloned directory to build. On windows, do `build\build-win.bat`
 
 *Note: we previously recommended running `npm run build` to build.
 This is no longer recommended because npm introduces a significant performance overhead for some reason, and would be hard to make cross-platform.
-That being said, it will still work and just runs `build/build.bash` internally.*
+That being said, it will still work and just runs `bash build/build.bash` internally.*
 
-Then, you can view SpecDB at file:///home/markasoftware/whatever/specdb/, which sholud be good enough for development. You may wish to use a proper file server, like Nginx, instead.
+Then, you can view SpecDB at file:///path/to/cloned/repo/public/index.html, which should be good enough for development. You may wish to use a proper file server, like Nginx, instead.
 
 ## Contributing
 
