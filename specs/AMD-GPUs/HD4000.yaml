@@ -1,5 +1,5 @@
 name: HD4000
-humanName: Radeon HD 4000 Series
+humanName: HD 4000 Series
 type: Graphics Architecture
 isPart: false
 topHeader: 'SELECT CARD:'

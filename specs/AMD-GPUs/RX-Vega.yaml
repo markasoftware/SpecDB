@@ -1,5 +1,5 @@
-name: RX-VEGA
-humanName: RX VEGA
+name: RX-Vega
+humanName: RX Vega
 type: Graphics Architecture
 isPart: false
 topHeader: 'SELECT CARD:'
@@ -11,8 +11,8 @@ data:
 sections:
   - header: ENTHUSIAST
     members:
-    - RX-VEGA64-LIQUID
-    - RX-VEGA64
-  - header: HIGH LEVEL
+    - RX-Vega-64-Liquid
+    - RX-Vega-64
+  - header: HIGH END
     members:
-    - RX-VEGA56
+    - RX-Vega-56

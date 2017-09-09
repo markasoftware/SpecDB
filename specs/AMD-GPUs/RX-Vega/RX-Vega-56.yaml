@@ -10,8 +10,8 @@ data:
   VRAM Capacity: 8 GiB
   VRAM Bandwidth: 410 GB/s
   TDP: 210 W
-  Codename: VEGA 56
+  Codename: Vega 56
 inherits:
-  - RX VEGA Base
-name: RX-VEGA-56
-humanName: RX VEGA 56
+  - RX Vega Base
+name: RX-Vega-56
+humanName: RX Vega 56

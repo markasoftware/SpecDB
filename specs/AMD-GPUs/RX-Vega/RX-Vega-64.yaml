@@ -4,14 +4,14 @@ data:
   Shader Processor Count: 4096
   Texture Mapping Unit Count: 256
   Render Output Unit Count: 64
-  Base Frequency: 1406 MHz
-  Boost Frequency: 1677 MHz
+  Base Frequency: 1247 MHz
+  Boost Frequency: 1546 MHz
   VRAM Frequency: 1890 MT/s
   VRAM Capacity: 8 GiB
   VRAM Bandwidth: 483.8 GB/s
-  TDP: 345 W
-  Codename: VEGA 64 Liquid
+  TDP: 295 W
+  Codename: Vega 64
 inherits:
-  - RX VEGA Base
-name: RX-VEGA-64-Liquid
-humanName: RX VEGA 64 Liquid
+  - RX Vega Base
+name: RX-Vega-64
+humanName: RX Vega 64

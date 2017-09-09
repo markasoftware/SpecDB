@@ -1,5 +1,5 @@
 hidden: true
-name: RX VEGA Base
+name: RX Vega Base
 inherits:
   - GCN 5
 data:
@@ -7,4 +7,4 @@ data:
   VRAM Bus Width: 2048 Bits
   Release Date: '2017-08-14'
   Die Size: 484 mm²
-  GPU: VEGA
+  GPU: Vega
