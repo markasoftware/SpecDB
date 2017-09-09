@@ -6,7 +6,7 @@ topHeader: 'SELECT ARCHITECTURE/SERIES:'
 sections:
   - header: RX Series
     members:
-      - RX-VEGA
+      - RX-Vega
       - RX-500
       - RX-400
   - header: R Series
