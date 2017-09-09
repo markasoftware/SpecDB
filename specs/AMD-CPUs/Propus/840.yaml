@@ -3,7 +3,7 @@ humanName: X4 840
 isPart: true
 type: CPU
 inherits:
-  - Porpus
+  - Propus
 data:
   Base Frequency: 3.2 GHz
   Release Date: '2011-01-04'

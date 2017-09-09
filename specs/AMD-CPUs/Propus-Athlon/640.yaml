@@ -3,7 +3,7 @@ humanName: X4 640
 isPart: true
 type: CPU
 inherits:
-  - Porpus-Athlon
+  - Propus-Athlon
 data:
   Base Frequency: 3.0 GHz
   TDP: 95 W

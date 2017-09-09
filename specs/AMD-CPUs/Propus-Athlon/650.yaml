@@ -3,7 +3,7 @@ humanName: X4 650
 isPart: true
 type: CPU
 inherits:
-  - Porpus-Athlon
+  - Propus-Athlon
 data:
   Base Frequency: 3.2 GHz
   TDP: 95 W

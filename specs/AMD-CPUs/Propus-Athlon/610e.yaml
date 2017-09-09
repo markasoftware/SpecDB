@@ -3,7 +3,7 @@ humanName: X4 610e
 isPart: true
 type: CPU
 inherits:
-  - Porpus-Athlon
+  - Propus-Athlon
 data:
   Base Frequency: 2.4 GHz
   TDP: 45 W
