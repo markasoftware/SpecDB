@@ -18,7 +18,6 @@ data:
     - AMD-V
     - F16C
     - ABM
-    - XOP
     - CLMUL
     - RDRAND
     - ADX

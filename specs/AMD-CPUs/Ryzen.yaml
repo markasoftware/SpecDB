@@ -10,9 +10,9 @@ data:
 sections:
   - header: THREADRIPPER
     members:
-      - 1950X
-      - 1920X
-      - 1900X
+      - R9-1950X
+      - R9-1920X
+      - R9-1900X
   - header: RYZEN 7
     members:
       - R7-1800X
