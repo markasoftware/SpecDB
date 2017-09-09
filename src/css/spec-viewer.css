@@ -31,6 +31,7 @@ h2.top {
 .spec-tab-wrapper {
     width: 100%;
     overflow-x: auto;
+    overflow-y: hidden;
     padding: 0 1rem;
     box-sizing: border-box;
 }
@@ -115,6 +116,7 @@ h2.top {
 
 /* table sections stuff */
 .spec-tab td.table-section-hidden {
+    position: relative;
     max-width: 0;
     min-width: 0;
     width: 0;
@@ -123,12 +125,6 @@ h2.top {
     height: 0;
     padding: 0;
     border: none;
-}
-.table-section {
-    height: 100%;
-    position: relative;
-    left: 1rem;
-    width: calc(30px + 1.5rem);
 }
 .table-section-label-wrapper {
     position: absolute;
@@ -145,7 +141,7 @@ h2.top {
     width: 10rem;
     text-align: center;
     top: calc(50% - 5rem);
-    left: 4rem;
+    left: 4.5rem;
 }
 .table-section-bracket {
     position: absolute;
@@ -154,7 +150,7 @@ h2.top {
     transform: rotate(180deg);
     height: calc(100% - 2rem);
     top: 1rem;
-    left: 0;
+    left: 1rem;
     min-height: 60px;
     width: 30px;
 }

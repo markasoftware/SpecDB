@@ -84,8 +84,9 @@ module.exports = {
                                         i === 0 &&
                                             m('td.table-section-hidden', {
                                                 rowspan: curSection.rows.length,
+                                                onclick: toggleLs,
                                             },
-                                                m('.table-section', { onclick: toggleLs }, [
+                                                [
                                                     m('.a.table-section-label', curSection.name),
                                                     m('.table-section-bracket', [
                                                         m('.bracket-upper-end.bracket-curve'),
@@ -95,7 +96,7 @@ module.exports = {
                                                         m('.bracket-lower-rect.bracket-rect'),
                                                         m('.bracket-lower-end.bracket-curve'),
                                                     ]),
-                                                ])
+                                                ]
                                             ),
                                     ])
                                 ) :
