@@ -22,7 +22,8 @@ sections:
   - header: MID RANGE
     members:
       - R9-380X
-      - R9-380
+      - R9-380-4GiB
+      - R9-380-2GiB
       - R9-370X-4GiB
       - R9-370X-2GiB
       - R7-370-4GiB
