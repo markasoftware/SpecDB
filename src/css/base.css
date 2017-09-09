@@ -10,18 +10,9 @@ body {
 }
 #big-flex-wrapper {
     display: flex;
-    height: 100vh;
+    height: 100%;
+    align-items: stretch;
     transition: transform 200ms ease-in-out;
-}
-#clicky-movey {
-    display: none;
-    flex: 20vw;
-    line-height: 100vh;
-    cursor: pointer;
-    text-align: center;
-}
-#clicky-movey img {
-    width: 65%;
 }
 a, .a {
     color: #ff4545;

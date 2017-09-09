@@ -45,10 +45,6 @@ module.exports = {
                         class: vnode.state.identicalRows ? 'red-selected' : '',
                         onclick: () => vnode.state.identicalRows = !vnode.state.identicalRows,
                     }, 'Show Identical Rows'),
-                    m('.table-option', {
-                        class: vnode.state.advancedRows ? 'red-selected' : '',
-                        onclick: () => vnode.state.advancedRows = !vnode.state.advancedRows,
-                    }, 'Show Advanced Data'),
                 ]),
                 m('.spec-tab-wrapper',
                     m('table.spec-tab', [
@@ -89,8 +85,8 @@ module.exports = {
                                             m('td.table-section-hidden', {
                                                 rowspan: curSection.rows.length,
                                             },
-                                                m('.table-section', [
-                                                    m('a.table-section-label', { onclick: toggleLs }, curSection.name),
+                                                m('.table-section', { onclick: toggleLs }, [
+                                                    m('.a.table-section-label', curSection.name),
                                                     m('.table-section-bracket', [
                                                         m('.bracket-upper-end.bracket-curve'),
                                                         m('.bracket-upper-rect.bracket-rect'),
@@ -104,12 +100,12 @@ module.exports = {
                                     ])
                                 ) :
                                 // section is collapsed
-                                m('tr', [
+                                m('tr', { onclick: toggleLs }, [
                                     m('td.table-section-collapsed', {
                                         // +1 to account for row header thing
                                         colspan: curSection.rows[0].cells.length + 1,
                                     },
-                                        m('a', { onclick: toggleLs }, curSection.name)
+                                        m('a', curSection.name)
                                     ),
                                     m('td.table-section-hidden'),
                                 ])

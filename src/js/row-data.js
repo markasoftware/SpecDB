@@ -29,7 +29,7 @@ const unitToNum = inStr => {
         'GFLOPS': 1000 * 1000 * 1000,
         'TFLOPS': 1000 * 1000 * 1000 * 1000,
     }
-    return splitUp[0] * units[splitUp[1]];
+    return units[splitUp[1]] ? splitUp[0] * units[splitUp[1]] : +splitUp[0];
 }
 
 const versionCompare = (a, b) => {

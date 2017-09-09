@@ -74,7 +74,7 @@
     display: none;
 }
 #search-toggle:checked ~ #searching-container {
-    display: unset;
+    display: block;
 }
 #search-bar {
     background-color: #ccc;

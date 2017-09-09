@@ -1,8 +1,6 @@
 #spec-viewer {
     flex: 60vw;
-    box-sizing: border-box;
     overflow-y: scroll;
-    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     padding: 5vh 0 0 0;
 }
@@ -79,7 +77,9 @@ h2.top {
     background: repeating-linear-gradient(-45deg, #f7f7f7, #f7f7f7 10px, #fff 10px, #fff 20px);
 }
 .hr {
-    width: 100%;
+    width: 80%;
+    position: relative;
+    left: 10%;
     height: 1px;
     background-color: #aaa;
 }
