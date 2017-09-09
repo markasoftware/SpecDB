@@ -18,5 +18,5 @@ data:
   FP32 Compute: 2.016 TFLOPS
 inherits:
   - TeraScale-2
-name: HD-6850-1GiB
-humanName: HD 6850 1GiB
+name: HD-6870-1GiB
+humanName: HD 6870 1GiB
