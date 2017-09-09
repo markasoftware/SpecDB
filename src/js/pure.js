@@ -52,7 +52,7 @@ module.exports.genSubtext = data => {
     }
 }
 
-module.exports.getTableData = (parts, sections) =>
+module.exports.getTableData = (parts, sections, opts) =>
     // generate all data here, hidden sections will be handled in spec-viewer.js
     // performance overhead is minimal
 
@@ -62,8 +62,13 @@ module.exports.getTableData = (parts, sections) =>
         // the rows are already in order
         rows: curSection.rows
             // filter to only those that at least 1 part has
-            // using parts.filter instead of parts.find for compatibility
-            .filter(curRow => parts.filter(curPart => curPart.data[curRow.name]).length)
+            // also filter out identical rows if that option is enabled
+            // using parts.filter for the inner part instead of parts.find for compatibility
+            .filter(curRow => parts.filter(curPart => curPart.data[curRow.name]).length
+                && (parts.length === 1 || opts.showIdenticalRows || parts.filter(
+                    (c, _, a) => JSON.stringify(c.data[curRow.name]) !== JSON.stringify(a[0].data[curRow.name])
+                ).length > 0)
+            )
             .map(curRow => {
                 curRow.processor = curRow.processor || {};                
                 const canCompare = parts.length > 1 && curRow.processor.compare;

@@ -20,13 +20,14 @@ rowData.sections.forEach(curSection => {
 
 module.exports = {
     identicalRows: true,
-    advancedRows: false,
     oncreate: seo.update,
     onupdate: seo.update,
     view: vnode => {
         const partNames = hashMan.getList();
         const partData = partNames.map(c => specData[c]);
-        const sections = pure.getTableData(partData, rowData.sections);
+        const sections = pure.getTableData(partData, rowData.sections, {
+            showIdenticalRows: vnode.state.identicalRows,
+        });
         // filter out advanced rows if necessary
         return [
             (partNames.length === 0 ? [

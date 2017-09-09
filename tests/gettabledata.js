@@ -6,6 +6,8 @@ const testOpts = {
     objectPrintDepth: 10,
 };
 
+const opts = { showIdenticalRows: true };
+
 const sections = [
     {
         name: 'Basic Specs',
@@ -56,7 +58,7 @@ test('Single Part', testOpts, t => {
             { data: {
                 'Dankness': '2',
             }},
-        ], sections),
+        ], sections, opts),
         [
             {
                 name: 'Basic Specs',
@@ -78,7 +80,7 @@ test('Single Part', testOpts, t => {
             { data: {
                 'Foop': 'hi',
             }},
-        ], sections),
+        ], sections, opts),
         [{
             name: 'Basic Specs',
             rows: [{
@@ -97,7 +99,7 @@ test('Single Part', testOpts, t => {
                 'Foop': 'MAX',
                 'Boost Frequency': '3 GHz',
             }},
-        ], sections),
+        ], sections, opts),
         [{
             name: 'Basic Specs',
             rows: [{
@@ -134,7 +136,7 @@ test('basic multiple parts', testOpts, t => {
         { data: {
             'Dankness': 'hi',
         }}
-    ], sections),
+    ], sections, opts),
     [{
         name: 'Basic Specs',
         rows: [{
@@ -154,7 +156,7 @@ test('basic multiple parts', testOpts, t => {
             'Foop': '100',
         }},
         { data: {}},
-    ], sections), [{
+    ], sections, opts), [{
         name: 'Basic Specs',
         rows: [{
             name: 'Foop',
@@ -173,7 +175,7 @@ test('basic multiple parts', testOpts, t => {
             'Dankness': 'AUTOBAHN THE AUTOBAHN',
         }},
         { data: {}},
-    ], sections), [{
+    ], sections, opts), [{
         name: 'Basic Specs',
         rows: [{
             name: 'Dankness',
@@ -198,7 +200,7 @@ test('Winners', testOpts, t => {
         { data: {
             'Base Frequency': '1.1 GHz',
         }},
-    ], sections), [{
+    ], sections, opts), [{
         name: 'Basic Specs',
         rows: [{
             name: 'Base Frequency',
@@ -219,7 +221,7 @@ test('Winners', testOpts, t => {
         { data: {
             'Base Frequency': '1.7 GHz',
         }},
-    ], sections), [{
+    ], sections, opts), [{
         name: 'Basic Specs',
         rows: [{
             name: 'Base Frequency',
@@ -243,7 +245,7 @@ test('Winners', testOpts, t => {
         { data: {
             'Base Frequency': '1.1 GHz',
         }},
-    ], sections), [{
+    ], sections, opts), [{
         name: 'Basic Specs',
         rows: [{
             name: 'Base Frequency',
@@ -268,7 +270,7 @@ test('Winners', testOpts, t => {
         { data: {
             'Foop': '99',
         }},
-    ], sections), [{
+    ], sections, opts), [{
         name: 'Basic Specs',
         rows: [{
             name: 'Foop',
@@ -281,6 +283,92 @@ test('Winners', testOpts, t => {
             }],
         }],
     }, emptyAdvanced], 'Preprocessing before comparison');
+
+    t.end();
+});
+
+test('Ignore Identical', t => {
+    t.deepEqual(pure.getTableData([
+        { data: {
+            'Dankness': 14,
+            'Foop': 'hello world',
+        }},
+        { data: {
+            'Dankness': 15,
+            'Foop': 'hi world',
+        }},
+    ], sections, { showIdenticalRows: false }), [{
+        name: 'Basic Specs',
+        rows: [{
+            name: 'Dankness',
+            cells: [{
+                value: 14,
+                winner: false,
+            }, {
+                value: 15,
+                winner: false,
+            }],
+        }, {
+            name: 'Foop',
+            cells: [{
+                value: 'HELLO WORLD',
+                winner: false,
+            }, {
+                value: 'HI WORLD',
+                winner: false,
+            }],
+        }],
+    }, emptyAdvanced], 'Rows are different, should not be hidden');
+
+    t.deepEqual(pure.getTableData([
+        { data: {
+            'Dankness': 42,
+        }},
+    ], sections, { showIdenticalRows: false }), [{
+        name: 'Basic Specs',
+        rows: [{
+            name: 'Dankness',
+            cells: [{
+                value: 42,
+                winner: false,
+            }],
+        }],
+    }, emptyAdvanced], 'only one part, should not remove rows');
+
+    t.deepEqual(pure.getTableData([
+        { data: {
+            'Dankness': 15,
+        }},
+        { data: {
+            'Dankness': 15,
+        }},
+    ], sections, { showIdenticalRows: false }), [{
+        name: 'Basic Specs',
+        rows: [],
+    }, emptyAdvanced], 'Rows are simple and the same, should be removed');
+
+    t.deepEqual(pure.getTableData([
+        { data: {
+            'Dankness': 42,
+            'Foop': 'l0l',
+        }},
+        { data: {
+            'Dankness': 1337,
+            'Foop': 'l0l',
+        }},
+    ], sections, { showIdenticalRows: false }), [{
+        name: 'Basic Specs',
+        rows: [{
+            name: 'Dankness',
+            cells: [{
+                value: 42,
+                winner: false,
+            }, {
+                value: 1337,
+                winner: false,
+            }],
+        }],
+    }, emptyAdvanced], 'One row is identical, other is not');
 
     t.end();
 });
