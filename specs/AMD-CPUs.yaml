@@ -20,7 +20,7 @@ sections:
       members: 
         - Zosma
         - Deneb
-        - Porpus
+        - Propus
         - Agena
     - header: PHENOM X3 FAMILY
       members: 
@@ -38,7 +38,7 @@ sections:
         - Richland
         - Trinity
         - Llano
-        - Porpus-Athlon
+        - Propus-Athlon
     - header: ATHLON X3 FAMILY
       members: 
         - Rana

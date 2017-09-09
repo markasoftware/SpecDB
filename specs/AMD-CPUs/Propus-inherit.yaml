@@ -1,11 +1,12 @@
 hidden: true
-name: Porpus-Athlon
+name: Propus
 data:
   Architecture: K10
   Lithography: 45 nm
   Core Count: 4
   Thread Count: 4
   L2 Cache (Total): 2 MiB
+  TDP: 95 W
   Socket: AM3,AM2+
   L1 Cache (Data): 256 KiB
   L1 Cache (Instruction): 256 KiB

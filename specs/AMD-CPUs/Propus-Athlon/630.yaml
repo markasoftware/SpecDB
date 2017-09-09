@@ -1,10 +1,10 @@
-name: 620
-humanName: X4 620 
+name: 630
+humanName: X4 630 
 isPart: true
 type: CPU
 inherits:
-  - Porpus-Athlon
+  - Propus-Athlon
 data:
-  Base Frequency: 2.6 GHz
+  Base Frequency: 2.8 GHz
   TDP: 95 W
   Release Date: '2009-09-16'

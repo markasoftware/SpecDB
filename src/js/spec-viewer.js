@@ -83,7 +83,7 @@ module.exports = {
                                         ),
                                         // include bracket if this is the top row
                                         i === 0 &&
-                                            m('td.table-section-hidden', {
+                                            m(`td.table-section-hidden.not-that-hidden`, {
                                                 rowspan: curSection.rows.length,
                                                 onclick: toggleLs,
                                             },
