@@ -115,16 +115,17 @@ h2.top {
 }
 
 /* table sections stuff */
-.spec-tab td.table-section-hidden {
+td.table-section-hidden {
     position: relative;
     max-width: 0;
     min-width: 0;
     width: 0;
-    /* setting height to 0 allows us to do percentage height for children,
-       but doesn't actually change the height of the cell. */
-    height: 0;
+    height: 0;    
     padding: 0;
     border: none;
+}
+td.table-section-hidden.not-that-hidden {
+    height: 9rem;
 }
 .table-section-label-wrapper {
     position: absolute;
@@ -138,9 +139,9 @@ h2.top {
     display: block;
     transform-origin: top left;
     transform: rotate(90deg);
-    width: 10rem;
+    width: 9rem;
     text-align: center;
-    top: calc(50% - 5rem);
+    top: calc(50% - 4.5rem);
     left: 4.5rem;
 }
 .table-section-bracket {
