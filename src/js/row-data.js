@@ -217,6 +217,12 @@ module.exports.sections = [
                 name: 'Architecture',
             },
             {
+                name: 'GPU',
+            },
+            {
+                name: 'Codename',
+            },
+            {
                 name: 'Die Size',
             },
             {
