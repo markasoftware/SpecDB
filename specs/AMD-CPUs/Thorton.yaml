@@ -1,0 +1,17 @@
+name: Thorton
+humanName: Thorton
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2003-09-01'
+  Lithography: 130 nm
+  Sockets:
+    - A
+sections:
+  - header: Standard SKUs
+    members:
+      - XP-2000-THT
+      - XP-2200-THT
+      - XP-2400-THT
+      - XP-2600-THT
+      - XP-3100-THT

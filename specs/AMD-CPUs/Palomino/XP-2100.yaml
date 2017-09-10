@@ -1,0 +1,10 @@
+name: XP-2100-PAL
+humanName: Athlon XP 2100+ (Palomino)
+isPart: true
+type: CPU
+inherits:
+  - Palomino
+data:
+  Base Frequency: 1.733 GHz
+  TDP: 72 W
+  Release Date: '2002-03-13'

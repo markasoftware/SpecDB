@@ -1,0 +1,12 @@
+name: XP-2700-TBR
+humanName: Athlon XP 2700+ (Thoroughbred)
+isPart: true
+type: CPU
+inherits:
+  - Thoroughbred
+data:
+  Base Frequency: 2.167 GHz
+  TDP: 68.3 W
+  Release Date: '2002-10-01'
+  Max Memory Frequency: 166 MHz
+  Steppings: B

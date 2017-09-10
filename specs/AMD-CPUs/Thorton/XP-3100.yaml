@@ -1,0 +1,11 @@
+name: XP-3100-THT
+humanName: Athlon XP 3100+ (Thorton)
+isPart: true
+type: CPU
+inherits:
+  - Thorton
+data:
+  Base Frequency: 2.2 GHz
+  TDP: 68.3 W
+  Release Date: '2003-12'
+  Max Memory Frequency: 200 MHz

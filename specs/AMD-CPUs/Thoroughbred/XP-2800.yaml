@@ -1,0 +1,12 @@
+name: XP-2800-TBR
+humanName: Athlon XP 2800+ (Thoroughbred)
+isPart: true
+type: CPU
+inherits:
+  - Thoroughbred
+data:
+  Base Frequency: 2.250 GHz
+  TDP: 74.3 W
+  Release Date: '2002-10-01'
+  Max Memory Frequency: 166 MHz
+  Steppings: B

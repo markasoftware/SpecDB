@@ -1,0 +1,11 @@
+name: XP-2400-TBR
+humanName: Athlon XP 2400+ (Thoroughbred)
+isPart: true
+type: CPU
+inherits:
+  - Thoroughbred
+data:
+  Base Frequency: 2.0 GHz
+  TDP: 65.3 W
+  Release Date: '2002-08-21'
+  Steppings: B

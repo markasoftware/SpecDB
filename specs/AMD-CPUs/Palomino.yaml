@@ -1,0 +1,19 @@
+name: Palomino
+humanName: Palomino
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2001-10-09'
+  Lithography: 180 nm
+  Sockets:
+    - A
+sections:
+  - header: Standard SKUs
+    members:
+      - XP-1500-PAL
+      - XP-1600-PAL
+      - XP-1700-PAL
+      - XP-1800-PAL
+      - XP-1900-PAL
+      - XP-2000-PAL
+      - XP-2100-PAL

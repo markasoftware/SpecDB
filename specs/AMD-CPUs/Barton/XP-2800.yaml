@@ -1,0 +1,10 @@
+name: XP-2800-BAR
+humanName: Athlon XP 2800+ (Barton)
+isPart: true
+type: CPU
+inherits:
+  - Barton
+data:
+  Base Frequency: 2.083 GHz
+  TDP: 68.3 W
+  Release Date: '2003-02-10'

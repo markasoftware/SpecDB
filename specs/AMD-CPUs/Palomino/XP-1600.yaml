@@ -1,0 +1,10 @@
+name: XP-1600-PAL
+humanName: Athlon XP 1600+ (Palomino)
+isPart: true
+type: CPU
+inherits:
+  - Palomino
+data:
+  Base Frequency: 1.4 GHz
+  TDP: 62.8 W
+  Release Date: '2001-10-09'

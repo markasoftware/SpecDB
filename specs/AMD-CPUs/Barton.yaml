@@ -1,0 +1,17 @@
+name: Barton
+humanName: Barton
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2003-02-10'
+  Lithography: 130 nm
+  Sockets:
+    - A
+sections:
+  - header: Standard SKUs
+    members:
+      - XP-2500-BAR
+      - XP-2600-BAR
+      - XP-2800-BAR
+      - XP-3000-BAR
+      - XP-3200-BAR

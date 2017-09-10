@@ -1,0 +1,11 @@
+name: XP-3200-BAR
+humanName: Athlon XP 3200+ (Barton)
+isPart: true
+type: CPU
+inherits:
+  - Barton
+data:
+  Base Frequency: 2.200 GHz
+  TDP: 76.8 W
+  Release Date: '2003-05-13'
+  Max Memory Frequency: 200 MHz

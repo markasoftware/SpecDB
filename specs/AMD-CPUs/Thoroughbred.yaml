@@ -1,0 +1,23 @@
+name: Thoroughbred
+humanName: Thoroughbred
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2002-06-10'
+  Lithography: 130 nm
+  Sockets:
+    - A
+sections:
+  - header: Standard SKUs
+    members:
+      - XP-1600-TBR
+      - XP-1700-TBR
+      - XP-1800-TBR
+      - XP-1900-TBR
+      - XP-2000-TBR
+      - XP-2100-TBR
+      - XP-2200-TBR
+      - XP-2400-TBR
+      - XP-2600-TBR
+      - XP-2700-TBR
+      - XP-2800-TBR

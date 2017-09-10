@@ -1,0 +1,10 @@
+name: XP-1700-TBR
+humanName: Athlon XP 1700+ (Thoroughbred)
+isPart: true
+type: CPU
+inherits:
+  - Thoroughbred
+data:
+  Base Frequency: 1.467 GHz
+  TDP: 49.5 W
+  Release Date: '2002-06-10'

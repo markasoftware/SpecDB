@@ -1,0 +1,10 @@
+name: XP-2000-PAL
+humanName: Athlon XP 2000+ (Palomino)
+isPart: true
+type: CPU
+inherits:
+  - Palomino
+data:
+  Base Frequency: 1.667 GHz
+  TDP: 70 W
+  Release Date: '2002-01-07'
