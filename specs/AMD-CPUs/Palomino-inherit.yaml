@@ -1,0 +1,21 @@
+hidden: true
+name: Palomino
+data:
+  Architecture: K6
+  Lithography: 180 nm
+  Socket: A
+  Unlocked: false
+  Core Count: 1
+  Thread Count: 1
+  L1 Cache (Data): 64 KiB
+  L1 Cache (Instruction): 64 KiB
+  L2 Cache (Total): 256 KiB
+  Max Memory Frequency: 133 MHz
+  Max Memory Channels: 2
+  AVX/SSE/MMX: SSE
+  Other Extensions:
+    - 3DNow!
+    - MMX
+  Compatible Chipsets:
+    - AMD-760
+  Steppings: A5

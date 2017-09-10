@@ -1,0 +1,10 @@
+name: XP-1700-PAL
+humanName: Athlon XP 1700+ (Palomino)
+isPart: true
+type: CPU
+inherits:
+  - Palomino
+data:
+  Base Frequency: 1.467 GHz
+  TDP: 64 W
+  Release Date: '2001-10-09'

@@ -14,20 +14,20 @@ sections:
         - Piledriver
         - Bulldozer
     - header: PHENOM X6 FAMILY
-      members: 
+      members:
         - Thuban
     - header: PHENOM X4 FAMILY
-      members: 
+      members:
         - Zosma
         - Deneb
         - Propus
         - Agena
     - header: PHENOM X3 FAMILY
-      members: 
+      members:
         - Heka
         - Toliman
     - header: PHENOM X2 FAMILY
-      members: 
+      members:
         - Callisto
         - Regor
     - header: ATHLON X4 FAMILY
@@ -40,10 +40,10 @@ sections:
         - Llano
         - Propus-Athlon
     - header: ATHLON X3 FAMILY
-      members: 
+      members:
         - Rana
     - header: ATHLON X2 FAMILY
-      members: 
+      members:
         - Kaveri-X2
         - Richland-X2
         - Trinity-X2
@@ -51,16 +51,16 @@ sections:
         - Regor-Athlon
         - Kuma
     - header: ATHLON FAMILY
-      members: 
+      members:
         - Sargas
     - header: SEMPRON FAMILY
-      members: 
+      members:
         - Richland-Sempron
         - Trinity-Sempron
         - Regor-Sempron
         - Sargas-Sempron
     - header: OPTERON FAMILY
-      members: 
+      members:
         - Warsaw
         - Abu-Dhabi
         - Seoul
@@ -75,3 +75,6 @@ sections:
         - Suzuka
         - Barcelona
         - Budapest
+    - header: ATHLON XP FAMILY
+      members:
+        - Palomino

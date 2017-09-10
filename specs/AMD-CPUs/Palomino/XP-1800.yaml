@@ -1,0 +1,10 @@
+name: XP-1800-PAL
+humanName: Athlon XP 1800+ (Palomino)
+isPart: true
+type: CPU
+inherits:
+  - Palomino
+data:
+  Base Frequency: 1.533 GHz
+  TDP: 66 W
+  Release Date: '2001-10-09'
