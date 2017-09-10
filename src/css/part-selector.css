@@ -7,7 +7,7 @@
     right: 0;
     /* if this is ever changed, make sure to update mobile.css as well! */
     box-shadow: 0 0 15px #999;
-    padding: 5vh;
+    padding: 2rem;
     background-color: #f7f7f7;
 }
 #part-selector span.a {
@@ -92,8 +92,8 @@
     display: none;
     position: fixed;
     right: 0;
-    top: 25vh;
-    height: 10vh;
+    top: 25%;
+    height: 4rem;
     transition: transform 300ms;
     z-index: 999;
 }
@@ -103,12 +103,12 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 5vh;
+    width: 2rem;
     background-color: #f7f7f7;
     box-shadow: 0 0 15px #999;
     height: 100%;
     /* for some reason 10vh isn't centered */
-    line-height: 9vh;
+    line-height: 3.5rem;
     font-size: 1.5rem;
     text-align: center;
     color: #888;

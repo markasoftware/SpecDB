@@ -17,7 +17,7 @@
     justify-content: center;
 }
 #selected-parts-list {
-    margin-bottom: 5vh;
+    margin-bottom: 2rem;
 }
 h2.centered {
     text-align: center;
@@ -115,7 +115,7 @@ h2.top {
 }
 
 /* table sections stuff */
-td.table-section-hidden {
+.spec-tab td.table-section-hidden {
     position: relative;
     max-width: 0;
     min-width: 0;
