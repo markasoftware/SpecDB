@@ -1,0 +1,10 @@
+name: XP-2400-THT
+humanName: Athlon XP 2400+ (Thorton)
+isPart: true
+type: CPU
+inherits:
+  - Thorton
+data:
+  Base Frequency: 2.0 GHz
+  TDP: 68.3 W
+  Release Date: '2003-09-01'

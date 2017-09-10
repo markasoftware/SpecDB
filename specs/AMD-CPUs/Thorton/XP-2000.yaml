@@ -1,0 +1,10 @@
+name: XP-2000-THT
+humanName: Athlon XP 2000+ (Thorton)
+isPart: true
+type: CPU
+inherits:
+  - Thorton
+data:
+  Base Frequency: 1.667 GHz
+  TDP: 60.3 W
+  Release Date: '2003-09-01'
