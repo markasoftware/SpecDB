@@ -6,7 +6,7 @@ data:
   Release Date: '2001-10-09'
   Lithography: 180 nm
   Sockets:
-    - A (462)
+    - A
 sections:
   - header: Standard SKUs
     members:
