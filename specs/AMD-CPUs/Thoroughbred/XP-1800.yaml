@@ -1,0 +1,10 @@
+name: XP-1800-TBR
+humanName: Athlon XP 1800+ (Thoroughbred)
+isPart: true
+type: CPU
+inherits:
+  - Thoroughbred
+data:
+  Base Frequency: 1.533 GHz
+  TDP: 51 W
+  Release Date: '2002-06-10'

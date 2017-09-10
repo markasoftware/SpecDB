@@ -1,0 +1,10 @@
+name: XP-2600-TBR
+humanName: Athlon XP 2600+ (Thoroughbred)
+isPart: true
+type: CPU
+inherits:
+  - Thoroughbred
+data:
+  Base Frequency: 2.133 GHz
+  TDP: 68.3 W
+  Release Date: '2002-08-21'

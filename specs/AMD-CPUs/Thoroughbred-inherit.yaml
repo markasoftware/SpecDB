@@ -1,8 +1,8 @@
 hidden: true
-name: Palomino
+name: Thoroughbred
 data:
   Architecture: K7
-  Lithography: 180 nm
+  Lithography: 130 nm
   Socket: A
   Unlocked: false
   Core Count: 1
@@ -18,4 +18,4 @@ data:
     - MMX
   Compatible Chipsets:
     - AMD-760
-  Steppings: A5
+  Steppings: A B

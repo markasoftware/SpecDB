@@ -1,0 +1,11 @@
+name: XP-3100-TBR
+humanName: Athlon XP 3100+ (Thoroughbred)
+isPart: true
+type: CPU
+inherits:
+  - Thoroughbred
+data:
+  Base Frequency: 2.200 GHz
+  TDP: 0 W
+  Release Date: '2002-08-21'
+  Max Memory Frequency: 200 MHz

@@ -1,0 +1,10 @@
+name: XP-1900-TBR
+humanName: Athlon XP 1900+ (Thoroughbred)
+isPart: true
+type: CPU
+inherits:
+  - Thoroughbred
+data:
+  Base Frequency: 1.6 GHz
+  TDP: 52.5 W
+  Release Date: '2002-06-10'

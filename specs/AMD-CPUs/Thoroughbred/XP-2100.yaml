@@ -1,0 +1,10 @@
+name: XP-2100-TBR
+humanName: Athlon XP 2100+ (Thoroughbred)
+isPart: true
+type: CPU
+inherits:
+  - Thoroughbred
+data:
+  Base Frequency: 1.733 GHz
+  TDP: 62.1 W
+  Release Date: '2002-06-10'

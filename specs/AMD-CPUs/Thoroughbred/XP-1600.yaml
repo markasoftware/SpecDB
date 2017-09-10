@@ -1,0 +1,10 @@
+name: XP-1600-TBR
+humanName: Athlon XP 1600+ (Thoroughbred)
+isPart: true
+type: CPU
+inherits:
+  - Thoroughbred
+data:
+  Base Frequency: 1.4 GHz
+  TDP: 48.5 W
+  Release Date: '2002-06-10'
