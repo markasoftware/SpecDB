@@ -1,0 +1,10 @@
+name: XP-3000-BAR
+humanName: Athlon XP 3000+ (Barton)
+isPart: true
+type: CPU
+inherits:
+  - Barton
+data:
+  Base Frequency: 2.167 GHz
+  TDP: 74.3 W
+  Release Date: '2003-02-10'
