@@ -193,3 +193,21 @@ test('APU', t => {
     ]);
     t.end();
 });
+
+test('APU Architecture', t => {
+    // also mainly helper functions
+    t.deepEqual(pure.genSubtext({
+        type: 'APU Architecture',
+        data: {
+            Lithography: '32nm',
+            'Release Date': '1776-06-04',
+            'Vulkan Support': '1.0',
+            'DirectX Support': '9.1',
+        },
+    }), [
+        '32nm Lithography',
+        'Released 1776-06-04',
+        'Supports Vulkan, no DX12',
+    ]);
+    t.end();
+});

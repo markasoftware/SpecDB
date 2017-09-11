@@ -9,38 +9,45 @@ module.exports.genSubtext = data => {
         const textWithoutBoost = `${d['Base Frequency'].replace(' ', '')} ${prefix}${hasBoost ? 'Base' : 'Clock'}`;
         return hasBoost ? `${textWithoutBoost}, ${d['Boost Frequency'].replace(' ', '')} ${prefix}Boost` : textWithoutBoost;
     }
+    const genNextGenAPIText = d => {
+        const dx12 = parseInt(d['DirectX Support']) >= 12;
+        const vulkan = parseInt(d['Vulkan Support']) >= 1;
+        return dx12 ?
+            vulkan ?
+                // dx12 and vulkan
+                'Supports DX12 and Vulkan'
+            :
+                // only dx 12
+                'Supports DX12, no Vulkan'
+        :
+            vulkan ?
+                // only vulkan
+                'Supports Vulkan, no DX12'
+            :
+                // neither
+                'No DX12 or Vulkan support'
+    }
+    const genReleaseDate = d => `Released ${d['Release Date']}`;
 
     switch(data.type) {
         case 'CPU Architecture':
             return [
                 innerData.Lithography.replace(' ', '') + ' Lithography',
-                'Released ' + innerData['Release Date'],
+                genReleaseDate(innerData),
                  innerData.Sockets.join(', ') + ' Socket' + (innerData.Sockets.length > 1 ? 's' : ''),
             ];
         case 'Graphics Architecture':
-            const dx12 = parseInt(innerData['DirectX Support']) >= 12;
-            const vulkan = parseInt(innerData['Vulkan Support']) >= 1;
             return [
                 innerData.Lithography.replace(' ', '') + ' Lithography',
-                'Released ' + innerData['Release Date'],
-                // who doesn't love some nice little conditionals?
-                (
-                    dx12 ?
-                        vulkan ?
-                            // dx12 and vulkan
-                            'Supports DX12 and Vulkan'
-                        :
-                            // only dx 12
-                            'Supports DX12, no Vulkan'
-                    :
-                        vulkan ?
-                            // only vulkan
-                            'Supports Vulkan, no DX12'
-                        :
-                            // neither
-                            'No DX12 or Vulkan support'
-                ),
+                genReleaseDate(innerData),
+                genNextGenAPIText(innerData),
             ];
+        case 'APU Architecture':
+            return [
+                innerData.Lithography.replace(' ', '') + ' Lithography',
+                genReleaseDate(innerData),
+                genNextGenAPIText(innerData),
+            ]
         case 'CPU':
             return [
                 genCoreText(innerData),
