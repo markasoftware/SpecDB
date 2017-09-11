@@ -149,7 +149,7 @@ test('Graphics Card', t => {
     t.deepEqual(pure.genSubtext({
         type: 'Graphics Card',
         data: {
-            'VRAM Capacity': '4GiB',
+            'VRAM Capacity': '4 GiB',
             'Shader Processor Count': 2304,
             'Base Frequency': '1120 MHz',
             'Boost Frequency': '1445 MHz',
@@ -162,7 +162,7 @@ test('Graphics Card', t => {
     t.deepEqual(pure.genSubtext({
         type: 'Graphics Card',
         data: {
-            'VRAM Capacity': '4GiB',
+            'VRAM Capacity': '4 GiB',
             'Shader Processor Count': 2304,
             'Base Frequency': '1100 MHz',
         },
@@ -171,5 +171,25 @@ test('Graphics Card', t => {
         '2304 Shader Processors',
         '1100MHz Clock',
     ], 'only base frequency');
+    t.end();
+});
+
+test('APU', t => {
+    // this is pretty simple and mainly uses helper functions defined for GPU and CPU
+    // so, it's not very thorough
+    t.deepEqual(pure.genSubtext({
+        type: 'APU',
+        data: {
+            'Base Frequency': '550 MHz',
+            'Boost Frequency': '551 MHz',
+            'Core Count': 15,
+            'Thread Count': 16,
+            'Shader Processor Count': 4242,
+        },
+    }), [
+        '15 Cores, 16 Threads',
+        '550MHz CPU Base, 551MHz CPU Boost',
+        '4242 Shader Processors',
+    ]);
     t.end();
 });

@@ -4,80 +4,80 @@ type: none
 isPart: false
 topHeader: "SELECT ARCHITECTURE:"
 sections:
-    - header: RYZEN FAMILY
-      members:
-        - Ryzen
-        - Threadripper
-        - Naples
-    - header: AMD FX FAMILY
-      members:
-        - Piledriver
-        - Bulldozer
-    - header: PHENOM X6 FAMILY
-      members:
-        - Thuban
-    - header: PHENOM X4 FAMILY
-      members:
-        - Zosma
-        - Deneb
-        - Propus
-        - Agena
-    - header: PHENOM X3 FAMILY
-      members:
-        - Heka
-        - Toliman
-    - header: PHENOM X2 FAMILY
-      members:
-        - Callisto
-        - Regor
-    - header: ATHLON X4 FAMILY
-      members:
-        - Bristol-Ridge
-        - Carrizo
-        - Kaveri
-        - Richland
-        - Trinity
-        - Llano
-        - Propus-Athlon
-    - header: ATHLON X3 FAMILY
-      members:
-        - Rana
-    - header: ATHLON X2 FAMILY
-      members:
-        - Kaveri-X2
-        - Richland-X2
-        - Trinity-X2
-        - Llano-X2
-        - Regor-Athlon
-        - Kuma
-    - header: ATHLON FAMILY
-      members:
-        - Sargas
-    - header: SEMPRON FAMILY
-      members:
-        - Richland-Sempron
-        - Trinity-Sempron
-        - Regor-Sempron
-        - Sargas-Sempron
-    - header: OPTERON FAMILY
-      members:
-        - Warsaw
-        - Abu-Dhabi
-        - Seoul
-        - Delhi
-        - Interlagos
-        - Valencia
-        - Zurich
-        - Magny-Cours
-        - Lisbon
-        - Istanbul
-        - Shanghai
-        - Suzuka
-        - Barcelona
-        - Budapest
-    - header: ATHLON XP FAMILY
-      members:
-        - Palomino
-        - Thoroughbred
-        - Barton
-        - Thorton
+  - header: RYZEN FAMILY
+    members:
+      - Ryzen
+      - Threadripper
+      - Naples
+  - header: AMD FX FAMILY
+    members:
+      - Piledriver
+      - Bulldozer
+  - header: PHENOM X6 FAMILY
+    members:
+      - Thuban
+  - header: PHENOM X4 FAMILY
+    members:
+      - Zosma
+      - Deneb
+      - Propus
+      - Agena
+  - header: PHENOM X3 FAMILY
+    members:
+      - Heka
+      - Toliman
+  - header: PHENOM X2 FAMILY
+    members:
+      - Callisto
+      - Regor
+  - header: ATHLON X4 FAMILY
+    members:
+      - Bristol-Ridge
+      - Carrizo
+      - Kaveri
+      - Richland
+      - Trinity
+      - Llano
+      - Propus-Athlon
+  - header: ATHLON X3 FAMILY
+    members:
+      - Rana
+  - header: ATHLON X2 FAMILY
+    members:
+      - Kaveri-X2
+      - Richland-X2
+      - Trinity-X2
+      - Llano-X2
+      - Regor-Athlon
+      - Kuma
+  - header: ATHLON FAMILY
+    members:
+      - Sargas
+  - header: SEMPRON FAMILY
+    members:
+      - Richland-Sempron
+      - Trinity-Sempron
+      - Regor-Sempron
+      - Sargas-Sempron
+  - header: OPTERON FAMILY
+    members:
+      - Warsaw
+      - Abu-Dhabi
+      - Seoul
+      - Delhi
+      - Interlagos
+      - Valencia
+      - Zurich
+      - Magny-Cours
+      - Lisbon
+      - Istanbul
+      - Shanghai
+      - Suzuka
+      - Barcelona
+      - Budapest
+  - header: ATHLON XP FAMILY
+    members:
+      - Palomino
+      - Thoroughbred
+      - Barton
+      - Thorton

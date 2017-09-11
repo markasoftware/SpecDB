@@ -2,10 +2,18 @@
 
 module.exports.genSubtext = data => {
     const innerData = data.data;
+
+    const genCoreText = d => `${d['Core Count']} Cores, ${d['Thread Count']} Threads`;
+    const genClockText = (d, prefix = '') => {
+        const hasBoost = !!d['Boost Frequency'];
+        const textWithoutBoost = `${d['Base Frequency'].replace(' ', '')} ${prefix}${hasBoost ? 'Base' : 'Clock'}`;
+        return hasBoost ? `${textWithoutBoost}, ${d['Boost Frequency'].replace(' ', '')} ${prefix}Boost` : textWithoutBoost;
+    }
+
     switch(data.type) {
         case 'CPU Architecture':
             return [
-                innerData.Lithography.replace(' ','') + ' Lithography',
+                innerData.Lithography.replace(' ', '') + ' Lithography',
                 'Released ' + innerData['Release Date'],
                  innerData.Sockets.join(', ') + ' Socket' + (innerData.Sockets.length > 1 ? 's' : ''),
             ];
@@ -13,7 +21,7 @@ module.exports.genSubtext = data => {
             const dx12 = parseInt(innerData['DirectX Support']) >= 12;
             const vulkan = parseInt(innerData['Vulkan Support']) >= 1;
             return [
-                innerData.Lithography.replace(' ','') + ' Lithography',
+                innerData.Lithography.replace(' ', '') + ' Lithography',
                 'Released ' + innerData['Release Date'],
                 // who doesn't love some nice little conditionals?
                 (
@@ -35,18 +43,21 @@ module.exports.genSubtext = data => {
             ];
         case 'CPU':
             return [
-                innerData['Core Count'] + ' Cores, ' + innerData['Thread Count'] + ' Threads',
-                innerData['Base Frequency'].replace(' ','') + ' Base, ' + (innerData['Boost Frequency'] || 'No').replace(' ','') + ' Boost',
-                innerData.TDP.replace(' ','') + ' TDP',
+                genCoreText(innerData),
+                innerData['Base Frequency'].replace(' ', '') + ' Base, ' + (innerData['Boost Frequency'] || 'No').replace(' ', '') + ' Boost',
+                innerData.TDP.replace(' ', '') + ' TDP',
             ];
         case 'Graphics Card':
             return [
-                innerData['VRAM Capacity'].replace(' ','') + ' VRAM',
+                innerData['VRAM Capacity'].replace(' ', '') + ' VRAM',
                 innerData['Shader Processor Count'] + ' Shader Processors',
-                (innerData['Boost Frequency'] ?
-                    innerData['Base Frequency'].replace(' ','') + ' Base, ' + innerData['Boost Frequency'].replace(' ','') + ' Boost' :
-                    innerData['Base Frequency'].replace(' ','') + ' Clock'
-                ),
+                genClockText(innerData),
+            ];
+        case 'APU':
+            return [
+                genCoreText(innerData),
+                genClockText(innerData, 'CPU '),
+                innerData['Shader Processor Count'] + ' Shader Processors',
             ]
         default: return [];
     }
