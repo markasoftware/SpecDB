@@ -287,7 +287,9 @@ test('Winners', testOpts, t => {
     t.end();
 });
 
-test('Ignore Identical', t => {
+test('Show Identical Rows', testOpts, t => {
+
+    const identicalOpts = { showIdenticalRows: false, showUncomparableRows: true };
     t.deepEqual(pure.getTableData([
         { data: {
             'Dankness': 14,
@@ -297,7 +299,7 @@ test('Ignore Identical', t => {
             'Dankness': 15,
             'Foop': 'hi world',
         }},
-    ], sections, { showIdenticalRows: false }), [{
+    ], sections, identicalOpts), [{
         name: 'Basic Specs',
         rows: [{
             name: 'Dankness',
@@ -324,7 +326,7 @@ test('Ignore Identical', t => {
         { data: {
             'Dankness': 42,
         }},
-    ], sections, { showIdenticalRows: false }), [{
+    ], sections, identicalOpts), [{
         name: 'Basic Specs',
         rows: [{
             name: 'Dankness',
@@ -342,7 +344,7 @@ test('Ignore Identical', t => {
         { data: {
             'Dankness': 15,
         }},
-    ], sections, { showIdenticalRows: false }), [{
+    ], sections, identicalOpts), [{
         name: 'Basic Specs',
         rows: [],
     }, emptyAdvanced], 'Rows are simple and the same, should be removed');
@@ -356,7 +358,7 @@ test('Ignore Identical', t => {
             'Dankness': 1337,
             'Foop': 'l0l',
         }},
-    ], sections, { showIdenticalRows: false }), [{
+    ], sections, identicalOpts), [{
         name: 'Basic Specs',
         rows: [{
             name: 'Dankness',
@@ -370,5 +372,54 @@ test('Ignore Identical', t => {
         }],
     }, emptyAdvanced], 'One row is identical, other is not');
 
+    t.end();
+});
+
+test('Show Uncomparable Rows', testOpts, t => {
+
+    const uncomparableOpts = { showIdenticalRows: true, showUncomparableRows: false };
+
+    t.deepEqual(pure.getTableData([
+        { data: {
+            'Dankness': 13,
+        }},
+        { data: {
+            'Dankness': 77,
+        }},
+    ], sections, uncomparableOpts), [{
+        name: 'Basic Specs',
+        rows: [{
+            name: 'Dankness',
+            cells: [{
+                value: 13,
+                winner: false,
+            }, {
+                value: 77,
+                winner: false,
+            }],
+        }],
+    }, emptyAdvanced], 'showUncomparable is false, but no uncomparable rows');
+
+    t.deepEqual(pure.getTableData([
+        { data: {
+            'Foop': '0hHh',
+            'Dankness': 24,
+        }},
+        { data: {
+            'Foop': 'HhH',
+        }},
+    ], sections, uncomparableOpts), [{
+        name: 'Basic Specs',
+        rows: [{
+            name: 'Foop',
+            cells: [{
+                value: '0HHH',
+                winner: false,
+            }, {
+                value: 'HHH',
+                winner: false,
+            }],
+        }],
+    }, emptyAdvanced], 'One row is uncomparable, other is comparable');
     t.end();
 });
