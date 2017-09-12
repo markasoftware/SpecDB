@@ -48,7 +48,6 @@ module.exports = {
                         class: vnode.state.identicalRows && 'red-selected',
                         onclick: () => vnode.state.identicalRows = !vnode.state.identicalRows,
                     }, 'Show Identical Rows'),
-                    partData.some(c => c.type === 'APU') &&
                     m('.table-option', {
                         class: vnode.state.uncomparableRows && 'red-selected',
                         onclick: () => vnode.state.uncomparableRows = !vnode.state.uncomparableRows,
