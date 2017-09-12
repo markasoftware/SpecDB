@@ -9,7 +9,18 @@ data:
   Sockets:
     - AM4
     - FM2+
+  DirectX Support: '12.0'
+  Vulkan Support: '1.0'
 sections:
-  - header: IDK
+  - header: Standard SKUs
     members:
       - A6-9500
+      - A6-9550
+      - A8-9600
+      - A10-9700
+      - A12-9800
+  - header: Low Power SKUs
+    members:
+      - A6-9500E
+      - A10-9700E
+      - A12-9800E

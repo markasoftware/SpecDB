@@ -9,4 +9,4 @@ data:
   OpenGL Support: '4.5'
   OpenCL Support: '2.0'
   FreeSync Support: true
-  Crossfire Support: XDMA
+  Crossfire Support: No
