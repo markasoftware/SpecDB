@@ -20,6 +20,7 @@ rowData.sections.forEach(curSection => {
 
 module.exports = {
     identicalRows: true,
+    uncomparableRows: true,
     oncreate: seo.update,
     onupdate: seo.update,
     view: vnode => {
@@ -27,6 +28,7 @@ module.exports = {
         const partData = partNames.map(c => specData[c]);
         const sections = pure.getTableData(partData, rowData.sections, {
             showIdenticalRows: vnode.state.identicalRows,
+            showUncomparableRows: vnode.state.uncomparableRows,
         });
         // filter out advanced rows if necessary
         return [
@@ -43,9 +45,14 @@ module.exports = {
                 // table options, e.g hide identical rows, advanced rows
                 m('.flex-wrapper.justify-center', [
                     m('.table-option', {
-                        class: vnode.state.identicalRows ? 'red-selected' : '',
+                        class: vnode.state.identicalRows && 'red-selected',
                         onclick: () => vnode.state.identicalRows = !vnode.state.identicalRows,
                     }, 'Show Identical Rows'),
+                    partData.some(c => c.type === 'APU') &&
+                    m('.table-option', {
+                        class: vnode.state.uncomparableRows && 'red-selected',
+                        onclick: () => vnode.state.uncomparableRows = !vnode.state.uncomparableRows,
+                    }, 'Show Uncomparable Rows'),
                 ]),
                 m('.spec-tab-wrapper',
                     m('table.spec-tab', [

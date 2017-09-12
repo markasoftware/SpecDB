@@ -6,7 +6,7 @@ const testOpts = {
     objectPrintDepth: 10,
 };
 
-const opts = { showIdenticalRows: true };
+const opts = { showIdenticalRows: true, showUncomparableRows: true };
 
 const sections = [
     {

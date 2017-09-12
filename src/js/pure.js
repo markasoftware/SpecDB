@@ -86,9 +86,12 @@ module.exports.getTableData = (parts, sections, opts) =>
             // also filter out identical rows if that option is enabled
             // using parts.filter for the inner part instead of parts.find for compatibility
             .filter(curRow => parts.filter(curPart => curPart.data[curRow.name]).length
+                // showIdenticalRows
                 && (parts.length === 1 || opts.showIdenticalRows || parts.filter(
                     (c, _, a) => JSON.stringify(c.data[curRow.name]) !== JSON.stringify(a[0].data[curRow.name])
                 ).length > 0)
+                // showUncomparableRows
+                && (opts.showUncomparableRows || parts.every(p => typeof p.data[curRow.name] !== 'undefined'))
             )
             .map(curRow => {
                 curRow.processor = curRow.processor || {};                
