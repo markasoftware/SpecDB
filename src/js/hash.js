@@ -27,8 +27,13 @@ module.exports = {
         if(curList.length >= 6) {
             return showError('Maximum 6 parts at once');
         }
-        if(curList.length > 0 && specData[curList[0]].type !== specData[newName].type) {
-            return showError('All parts must be the same type');
+        const typeCompat = {
+            'APU': ['APU', 'CPU', 'Graphics Card'],
+            'Graphics Card': ['Graphics Card', 'APU'],
+            'CPU': ['CPU', 'APU'],
+        };
+        if(curList.length > 0 && !curList.every(c => typeCompat[specData[c].type].includes(specData[newName].type))) {
+            return showError('All parts must be comparable! (no CPU-vs-GPU)');
         }
         specViewer.style.animation = 'none';
         // force reflow
