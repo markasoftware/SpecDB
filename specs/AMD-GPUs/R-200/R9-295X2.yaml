@@ -9,7 +9,7 @@ data:
   Shader Processor Count: 5632
   Texture Mapping Unit Count: 352
   Render Output Unit Count: 128
-  Base Frequency: '1018 MHz'
+  GPU Base Frequency: '1018 MHz'
   GPU: Hawaii
   Codename: Vesuvius
   VRAM Capacity: 4 GiB (per GPU)

@@ -4,8 +4,8 @@ data:
   Shader Processor Count: 3584
   Texture Mapping Unit Count: 224
   Render Output Unit Count: 64
-  Base Frequency: 1156 MHz
-  Boost Frequency: 1471 MHz
+  GPU Base Frequency: 1156 MHz
+  GPU Boost Frequency: 1471 MHz
   VRAM Frequency: 1600 MT/s
   VRAM Capacity: 8 GiB
   VRAM Bandwidth: 410 GB/s

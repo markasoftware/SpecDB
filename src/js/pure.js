@@ -4,10 +4,13 @@ module.exports.genSubtext = data => {
     const innerData = data.data;
 
     const genCoreText = d => `${d['Core Count']} Cores, ${d['Thread Count']} Threads`;
-    const genClockText = (d, prefix = '') => {
-        const hasBoost = !!d['Boost Frequency'];
-        const textWithoutBoost = `${d['Base Frequency'].replace(' ', '')} ${prefix}${hasBoost ? 'Base' : 'Clock'}`;
-        return hasBoost ? `${textWithoutBoost}, ${d['Boost Frequency'].replace(' ', '')} ${prefix}Boost` : textWithoutBoost;
+    const genClockText = (d, useGpu, prefix = '') => {
+        const gpuPrefix = useGpu ? 'GPU ' : '';
+        const baseFreq = d[`${gpuPrefix}Base Frequency`];
+        const boostFreq = d[`${gpuPrefix}Boost Frequency`];
+        const hasBoost = !!boostFreq;
+        const textWithoutBoost = `${baseFreq.replace(' ', '')} ${prefix}${hasBoost ? 'Base' : 'Clock'}`;
+        return hasBoost ? `${textWithoutBoost}, ${boostFreq.replace(' ', '')} ${prefix}Boost` : textWithoutBoost;
     }
     const genNextGenAPIText = d => {
         const dx12 = parseInt(d['DirectX Support']) >= 12;
@@ -58,12 +61,12 @@ module.exports.genSubtext = data => {
             return [
                 innerData['VRAM Capacity'].replace(' ', '') + ' VRAM',
                 innerData['Shader Processor Count'] + ' Shader Processors',
-                genClockText(innerData),
+                genClockText(innerData, true),
             ];
         case 'APU':
             return [
                 genCoreText(innerData),
-                genClockText(innerData, 'CPU '),
+                genClockText(innerData, false, 'CPU '),
                 innerData['Shader Processor Count'] + ' Shader Processors',
             ]
         default: return [];

@@ -8,7 +8,7 @@ data:
   Shader Processor Count: 1408
   Texture Mapping Unit Count: 88
   Render Output Unit Count: 32
-  Base Frequency: 800 MHz
+  GPU Base Frequency: 800 MHz
   VRAM Frequency: 5000 MT/s
   VRAM Capacity: 1 GiB
   VRAM Bus Width: 256 Bits

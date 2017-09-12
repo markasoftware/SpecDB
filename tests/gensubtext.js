@@ -151,8 +151,8 @@ test('Graphics Card', t => {
         data: {
             'VRAM Capacity': '4 GiB',
             'Shader Processor Count': 2304,
-            'Base Frequency': '1120 MHz',
-            'Boost Frequency': '1445 MHz',
+            'GPU Base Frequency': '1120 MHz',
+            'GPU Boost Frequency': '1445 MHz',
         },
     }), [
         '4GiB VRAM',
@@ -164,7 +164,7 @@ test('Graphics Card', t => {
         data: {
             'VRAM Capacity': '4 GiB',
             'Shader Processor Count': 2304,
-            'Base Frequency': '1100 MHz',
+            'GPU Base Frequency': '1100 MHz',
         },
     }), [
         '4GiB VRAM',

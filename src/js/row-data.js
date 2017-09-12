@@ -180,6 +180,14 @@ module.exports.sections = [
                 processor: types.unitUp,
             },
             {
+                name: 'GPU Base Frequency',
+                processor: types.unitUp,
+            },
+            {
+                name: 'GPU Boost Frequency',
+                processor: types.unitUp,
+            },
+            {
                 name: 'Core Count',
                 processor: types.numberUp,
             },
@@ -221,6 +229,9 @@ module.exports.sections = [
             },
             {
                 name: 'Codename',
+            },
+            {
+                name: 'GPU Model',
             },
             {
                 name: 'Die Size',

@@ -1,0 +1,22 @@
+isPart: true
+name: A6-9500
+humanName: A6-9500
+type: APU
+inherits:
+  - GCN 3
+data:
+  Architecture: Excavator
+  GPU Model: Radeon R5
+  Module Count: 1
+  Core Count: 2
+  Thread Count: 2
+  TDP: 65 W
+  Release Date: '2016-09-05'
+  Shader Processor Count: 384
+  Render Output Unit Count: 6
+  Base Frequency: 3.5 GHz
+  Boost Frequency: 3.8 GHz
+  GPU Base Frequency: 1029 MHz
+  L2 Cache (Total): 1 MiB
+  L1 Cache (Instruction): 96 KiB
+  L1 Cache (Data): 64 KiB

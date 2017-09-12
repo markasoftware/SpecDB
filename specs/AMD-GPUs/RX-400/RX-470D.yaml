@@ -7,8 +7,8 @@ inherits:
 data:
   VRAM Capacity: 8 GB
   Release Date: '2016-10-21'
-  Base Frequency: 926 MHz
-  Boost Frequency: 1206 MHz
+  GPU Base Frequency: 926 MHz
+  GPU Boost Frequency: 1206 MHz
   VRAM Frequency: 7000 MT/s
   VRAM Bandwidth: 224 GB/s
   Render Output Unit Count: 32

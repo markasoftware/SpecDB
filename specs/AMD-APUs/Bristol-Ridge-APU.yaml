@@ -1,0 +1,15 @@
+name: Bristol-Ridge-APUs
+humanName: Bristol Ridge (APUs)
+type: APU Architecture
+isPart: false
+topHeader: 'SELECT APU:'
+data:
+  Lithography: 28nm
+  Release Date: '2016-09-05'
+  Sockets:
+    - AM4
+    - FM2+
+sections:
+  - header: IDK
+    members:
+      - A6-9500

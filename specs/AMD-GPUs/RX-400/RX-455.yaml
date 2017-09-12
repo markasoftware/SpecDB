@@ -6,7 +6,7 @@ inherits:
   - GCN 2
 data:
   Release Date: '2016-06-30'
-  Base Frequency: 1050 MHz
+  GPU Base Frequency: 1050 MHz
   VRAM Frequency: 6500 MT/s
   VRAM Bandwidth: 104 GB/s
   VRAM Capacity: 2 GiB
