@@ -4,6 +4,9 @@ type: none
 isPart: false
 topHeader: 'SELECT ARCHITECTURE:'
 sections:
-  - header: 7Th GEN. A-SERIES
+  - header: 7TH GEN. A-SERIES
     members:
       - Bristol-Ridge-APUs
+  - header: 5TH AND 6TH GEN A-SERIES
+    members:
+      - Kaveri-APUs

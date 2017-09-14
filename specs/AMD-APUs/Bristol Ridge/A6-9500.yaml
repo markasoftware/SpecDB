@@ -19,6 +19,7 @@ data:
   TDP: 65 W
   Max Memory Frequency: 2400 MHz
   Max Memory Channels: 2
+  Unlocked: true
   AVX/SSE/MMX: AVX2
   FMA4: true
   FMA3: true

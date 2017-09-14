@@ -1,29 +1,29 @@
 isPart: true
-name: A6-9500E
-humanName: A6-9500E
+name: A6-7470K
+humanName: A6-7470K
 type: APU
 inherits:
-  - GCN 3
+  - GCN 2
 data:
-  Architecture: Excavator
+  Architecture: Steamroller
   Lithography: 28 nm
-  Socket: AM4
-  Release Date: '2016-09-05'
+  Socket: FM2+
+  Release Date: '2016-02-02'
   Core Count: 2
   Thread Count: 2
-  Base Frequency: 3.0 GHz
-  Boost Frequency: 3.4 GHz
+  Base Frequency: 3.7 GHz
+  Boost Frequency: 4.0 GHz
   L2 Cache (Total): 1 MiB
   L1 Cache (Instruction): 96 KiB
   L1 Cache (Data): 64 KiB
-  TDP: 35 W
-  Max Memory Frequency: 2400 MHz
+  TDP: 65 W
+  Max Memory Frequency: 2133 MHz
   Max Memory Channels: 2
   Unlocked: true
-  AVX/SSE/MMX: AVX2
+  AVX/SSE/MMX: AVX
   FMA4: true
   FMA3: true
-  BMI: BMI2
+  BMI: BMI
   AES: true
   Other Extensions:
     - X86-64
@@ -34,17 +34,14 @@ data:
     - XOP
     - CLMUL
   Compatible Chipsets:
-    - X370
-    - B350
-    - A320
-    - X300
-    - A300
-  GPU Model: Radeon R5 Bristol Ridge
-  # Module Count: 1
+    - A88X
+    - A78
+    - A68H
+    - A58
+  GPU Model: Radeon R5 Kaveri
   Shader Processor Count: 256
   Texture Mapping Unit Count: 16
   Render Output Unit Count: 8
-  GPU Base Frequency: 576 MHz
-  GPU Boost Frequency: 800 MHz
-  VRAM Type: DDR4
+  GPU Base Frequency: 800 MHz
+  VRAM Type: DDR3
   Crossfire Support: No
