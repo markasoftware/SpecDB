@@ -35,7 +35,7 @@ module.exports = {
             (partNames.length === 0 ? [
                 m('#nothing-selected', 'No Parts Selected'),
             ] : [
-                m('h2.centered.top', 'SELECTED COMPONENTS:'),
+                m('h2.centered.top.mt1', 'SELECTED COMPONENTS:'),
                 m('#selected-parts-list.flex-wrapper.justify-center', partNames.map(curPartName => m(singlePart, {
                     name: curPartName,
                     canSelect: false,

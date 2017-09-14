@@ -10,13 +10,13 @@ Look at the [wiki](https://github.com/markasoftware/SpecDB/wiki) for more detail
 
 ## Setting up
 
-1. Clone the rep
-2. Move to cloned directory
-3. Update your Node.js to latest version (see https://nodejs.org )
-4. Run `npm install` to get Node.js dependencies
-5. On *nix (Linux, Mac, BSD, etc), run `build/build.bash` from the cloned directory to build. On windows, do `build\build-win.bat`
+1. Update your Node.js to latest version (see https://nodejs.org)
+2. Clone the repo — `git clone https://github.com/markasoftware/SpecDB.git`
+3. `cd SpecDB`
+4. `npm install` — install project dependencies
+5. In the project's root directory, execute `build/build.bash` to build it. If you're on Windows, run `build\build-win.bat` instead.
 
-*Note: we previously recommended running `npm run build` to build.
+*Note: We previously suggested `npm run build` for the build step.
 This is no longer recommended because npm introduces a significant performance overhead for some reason, and would be hard to make cross-platform.
 That being said, it will still work and just runs `build/build.bash` internally.*
 
