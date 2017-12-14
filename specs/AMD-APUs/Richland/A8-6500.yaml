@@ -1,0 +1,45 @@
+isPart: true
+name: A8-6500
+humanName: A8-6500
+type: APU
+inherits:
+  - TeraScale-3
+data:
+  Architecture: Piledriver
+  Lithography: 32 nm
+  Socket: FM2
+  Release Date: '2013-06-04'
+  Core Count: 4
+  Thread Count: 4
+  Base Frequency: 3.5 GHz
+  Boost Frequency: 4.1 GHz
+  L2 Cache (Total): 4 MiB
+  L1 Cache (Instruction): 128 KiB
+  L1 Cache (Data): 64 KiB
+  TDP: 65 W
+  Max Memory Frequency: 1866 MHz
+  Max Memory Channels: 2
+  AVX/SSE/MMX: AVX
+  FMA4: true
+  FMA3: true
+  BMI: BMI
+  AES: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - F16C
+    - ABM
+    - TBM
+    - XOP
+    - CLMUL
+  Compatible Chipsets:
+    - A85X
+    - A75
+    - A55
+  GPU Model: HD 8570D
+  Shader Processor Count: 256
+  Texture Mapping Unit Count: 16
+  Render Output Unit Count: 8
+  GPU Base Frequency: 800 MHz
+  VRAM Type: DDR3
+  Crossfire Support: No

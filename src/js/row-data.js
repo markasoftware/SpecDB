@@ -33,6 +33,10 @@ const unitToNum = inStr => {
 }
 
 const versionCompare = (a, b) => {
+	if (a == 'N/A')
+		a = '0.0'
+	if (b == 'N/A')
+		b = '0.0'
     const aSplit = a.split('.').map(Number);
     const bSplit = b.split('.').map(Number);
     // if any part of b is lower than a, a is greater, otherwise equal or worse
@@ -151,7 +155,7 @@ const types = {
     },
     versionUp: {
         compare: versionCompare,
-        default: '0.0',
+        default: 'N/A',
     },
     enum: values => ({
         compare: (a, b) => values.indexOf(a) < values.indexOf(b),
@@ -314,7 +318,7 @@ module.exports.sections = [
             },
             {
                 name: 'VRAM Type',
-                processor: types.numberUp,
+                processor: types.enum(['HBM2', 'GDDR6', 'GDDR5X', 'HBM', 'GDDR5', 'GDDR4', 'GDDR3', 'DDR4', 'DDR3', 'DDR2', 'DDR', 'No']),
             },
         ],
     },
@@ -357,7 +361,7 @@ module.exports.sections = [
             },
             {
                 name: 'BMI',
-                processor: types.enum(['BMI2', 'BMI1', 'No']),
+                processor: types.enum(['BMI2', 'BMI', 'No']),
             },
             {
                 name: 'AES',
@@ -411,7 +415,7 @@ module.exports.sections = [
             },
             {
                 name: 'Crossfire Support',
-                processor: types.enum(['XDMA', 'CrossfireX', 'No']),
+                processor: types.enum(['XDMA', 'CrossfireX', 'Hybrid', 'No']),
             },
         ],
     },

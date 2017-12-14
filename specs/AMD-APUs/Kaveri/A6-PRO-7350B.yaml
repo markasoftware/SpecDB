@@ -1,0 +1,46 @@
+isPart: true
+name: A6-PRO-7350B
+humanName: A6 PRO 7350B
+type: APU
+inherits:
+  - GCN 2
+data:
+  Architecture: Steamroller
+  Lithography: 28 nm
+  Socket: FM2+
+  Release Date: '2014-07-31'
+  Core Count: 2
+  Thread Count: 2
+  Base Frequency: 3.4 GHz
+  Boost Frequency: 3.8 GHz
+  L2 Cache (Total): 1 MiB
+  L1 Cache (Instruction): 96 KiB
+  L1 Cache (Data): 32 KiB
+  TDP: 65 W
+  Max Memory Frequency: 1866 MHz
+  Max Memory Channels: 2
+  AVX/SSE/MMX: AVX
+  FMA4: true
+  FMA3: true
+  BMI: BMI
+  AES: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - F16C
+    - ABM
+    - TBM
+    - XOP
+    - CLMUL
+  Compatible Chipsets:
+    - A88X
+    - A78
+    - A68H
+    - A58
+  GPU Model: Radeon R5 Kaveri
+  Shader Processor Count: 192
+  Texture Mapping Unit Count: 12
+  Render Output Unit Count: 8
+  GPU Base Frequency: 514 MHz
+  VRAM Type: DDR3
+  Crossfire Support: No

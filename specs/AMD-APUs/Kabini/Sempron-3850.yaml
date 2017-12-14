@@ -1,0 +1,38 @@
+isPart: true
+name: Sempron-3850
+humanName: Sempron 3850
+type: APU
+inherits:
+  - GCN 1
+data:
+  Architecture: Jaguar
+  Lithography: 28 nm
+  Socket: AM1
+  Release Date: '2014-04-09'
+  Core Count: 4
+  Thread Count: 4
+  Base Frequency: 1.3 GHz
+  L2 Cache (Total): 2 MiB
+  L1 Cache (Instruction): 128 KiB
+  L1 Cache (Data): 128 KiB
+  TDP: 25 W
+  Max Memory Frequency: 1600 MHz
+  Max Memory Channels: 1
+  AVX/SSE/MMX: AVX
+  BMI: BMI
+  AES: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - F16C
+    - ABM
+    - MOVBE
+    - XSAVE
+    - CLMUL
+  GPU Model: HD-8280
+  Shader Processor Count: 128
+  Texture Mapping Unit Count: 8
+  Render Output Unit Count: 4
+  GPU Base Frequency: 450 MHz
+  VRAM Type: DDR3
+  Crossfire Support: No

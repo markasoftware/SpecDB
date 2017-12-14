@@ -15,7 +15,7 @@ data:
   Boost Frequency: 4.0 GHz
   L2 Cache (Total): 1 MiB
   L1 Cache (Instruction): 96 KiB
-  L1 Cache (Data): 64 KiB
+  L1 Cache (Data): 32 KiB
   TDP: 65 W
   Max Memory Frequency: 2133 MHz
   Max Memory Channels: 2

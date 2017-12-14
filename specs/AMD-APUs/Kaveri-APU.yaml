@@ -5,7 +5,7 @@ isPart: false
 topHeader: 'SELECT APU:'
 data:
   Lithography: 28nm
-  Release Date: '2016-09-05'
+  Release Date: '2014-01-14'
   Sockets:
     - FM2+
   DirectX Support: '12.0'
