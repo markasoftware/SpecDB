@@ -51,7 +51,7 @@ module.exports = {
                     m('.table-option', {
                         class: vnode.state.uncomparableRows && 'red-selected',
                         onclick: () => vnode.state.uncomparableRows = !vnode.state.uncomparableRows,
-                    }, 'Show Uncomparable Rows'),
+                    }, 'Show Irrelevant Rows'),
                 ]),
                 m('.spec-tab-wrapper',
                     m('table.spec-tab', [

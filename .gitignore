@@ -1,4 +1,2 @@
 node_modules
-drafts
-yarn.lock
-package-lock.json
+npm-debug.log

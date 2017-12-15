@@ -14,11 +14,7 @@ Look at the [wiki](https://github.com/markasoftware/SpecDB/wiki) for more detail
 2. Clone the repo — `git clone https://github.com/markasoftware/SpecDB.git`
 3. `cd SpecDB`
 4. `npm install` — install project dependencies
-5. In the project's root directory, execute `build/build.bash` to build it. If you're on Windows, run `build\build-win.bat` instead.
-
-*Note: We previously suggested `npm run build` for the build step.
-This is no longer recommended because npm introduces a significant performance overhead for some reason, and would be hard to make cross-platform.
-That being said, it will still work and just runs `build/build.bash` internally.*
+5. On Mac or Linux, from the project's root directory, execute `npm run build` to build it. You can also run `build/build.bash` if `npm run build` is too slow for you. If you're on Windows, run `build\build-win.bat` instead. You can also just navigate to that directory in a file manager and double click `build-win.bat` if you're a terminal-o-phobe.
 
 Then, you can view SpecDB at file:///home/markasoftware/whatever/specdb/, which should be good enough for development. You may wish to use a proper file server, like Nginx, instead.
 
