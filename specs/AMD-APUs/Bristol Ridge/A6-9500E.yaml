@@ -1,6 +1,6 @@
 isPart: true
-name: A6-9500
-humanName: A6-9500
+name: A6-9500E
+humanName: A6-9500E
 type: APU
 inherits:
   - GCN 3
@@ -11,12 +11,12 @@ data:
   Release Date: '2016-09-05'
   Core Count: 2
   Thread Count: 2
-  Base Frequency: 3.5 GHz
-  Boost Frequency: 3.8 GHz
+  Base Frequency: 3.0 GHz
+  Boost Frequency: 3.4 GHz
   L2 Cache (Total): 1 MiB
   L1 Cache (Instruction): 96 KiB
   L1 Cache (Data): 64 KiB
-  TDP: 65 W
+  TDP: 35 W
   Max Memory Frequency: 2400 MHz
   Max Memory Channels: 2
   Unlocked: true
@@ -40,12 +40,11 @@ data:
     - X300
     - A300
   GPU Model: Radeon R5 Bristol Ridge
-  # Module Count: 1 
-  # I dont know about this at the moments as this only applies to family 15h CPUs
-  Shader Processor Count: 384
-  Texture Mapping Unit Count: 24
+  # Module Count: 1
+  Shader Processor Count: 256
+  Texture Mapping Unit Count: 16
   Render Output Unit Count: 8
-  GPU Base Frequency: 720 MHz
-  GPU Boost Frequency: 1029 MHz
+  GPU Base Frequency: 576 MHz
+  GPU Boost Frequency: 800 MHz
   VRAM Type: DDR4
   Crossfire Support: No

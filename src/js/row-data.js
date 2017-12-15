@@ -313,7 +313,7 @@ module.exports.sections = [
             },
             {
                 name: 'VRAM Type',
-                processor: types.numberUp,
+                processor: types.enum(['HBM2', 'GDDR6', 'GDDR5X', 'HBM', 'GDDR5', 'GDDR4', 'GDDR3', 'DDR4', 'DDR3', 'DDR2', 'DDR', 'No']),
             },
         ],
     },
@@ -356,7 +356,7 @@ module.exports.sections = [
             },
             {
                 name: 'BMI',
-                processor: types.enum(['BMI2', 'BMI1', 'No']),
+                processor: types.enum(['BMI2', 'BMI', 'No']),
             },
             {
                 name: 'AES',
@@ -410,7 +410,7 @@ module.exports.sections = [
             },
             {
                 name: 'Crossfire Support',
-                processor: types.enum(['XDMA', 'CrossfireX', 'No']),
+                processor: types.enum(['XDMA', 'CrossfireX', 'Hybrid', 'No']),
             },
         ],
     },

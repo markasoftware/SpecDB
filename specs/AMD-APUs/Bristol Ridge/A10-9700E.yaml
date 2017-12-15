@@ -1,6 +1,6 @@
 isPart: true
-name: A6-9500
-humanName: A6-9500
+name: A10-9700E
+humanName: A10-9700E
 type: APU
 inherits:
   - GCN 3
@@ -9,14 +9,14 @@ data:
   Lithography: 28 nm
   Socket: AM4
   Release Date: '2016-09-05'
-  Core Count: 2
-  Thread Count: 2
-  Base Frequency: 3.5 GHz
-  Boost Frequency: 3.8 GHz
-  L2 Cache (Total): 1 MiB
-  L1 Cache (Instruction): 96 KiB
-  L1 Cache (Data): 64 KiB
-  TDP: 65 W
+  Core Count: 4
+  Thread Count: 4
+  Base Frequency: 3.0 GHz
+  Boost Frequency: 3.5 GHz
+  L2 Cache (Total): 2 MiB
+  L1 Cache (Instruction): 192 KiB
+  L1 Cache (Data): 128 KiB
+  TDP: 35 W
   Max Memory Frequency: 2400 MHz
   Max Memory Channels: 2
   Unlocked: true
@@ -45,7 +45,7 @@ data:
   Shader Processor Count: 384
   Texture Mapping Unit Count: 24
   Render Output Unit Count: 8
-  GPU Base Frequency: 720 MHz
-  GPU Boost Frequency: 1029 MHz
+  GPU Base Frequency: 600 MHz
+  GPU Boost Frequency: 847 MHz
   VRAM Type: DDR4
   Crossfire Support: No

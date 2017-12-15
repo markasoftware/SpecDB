@@ -1,0 +1,42 @@
+isPart: true
+name: A8-3870K
+humanName: A8-3870K
+type: APU
+inherits:
+  - TeraScale-2
+data:
+  Architecture: K10
+  Lithography: 32 nm
+  Socket: FM1
+  Release Date: '2011-12-20'
+  Core Count: 4
+  Thread Count: 4
+  Base Frequency: 3.0 GHz
+  #Boost Frequency: 3.7 GHz
+  L2 Cache (Total): 4 MiB
+  L1 Cache (Instruction): 256 KiB
+  L1 Cache (Data): 256 KiB
+  TDP: 100 W
+  Unlocked: true
+  Max Memory Frequency: 1866 MHz
+  Max Memory Channels: 2
+  AVX/SSE/MMX: SSE4a
+  FMA4: false
+  FMA3: false
+  BMI: No
+  AES: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - ABM
+    - E3D-Now!
+  Compatible Chipsets:
+    - A75
+    - A55
+  GPU Model: HD 6550D
+  Shader Processor Count: 400
+  Texture Mapping Unit Count: 20
+  Render Output Unit Count: 8
+  GPU Base Frequency: 600 MHz
+  VRAM Type: DDR3
+  Crossfire Support: No

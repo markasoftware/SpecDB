@@ -1,0 +1,41 @@
+isPart: true
+name: A6-3620
+humanName: A6-3620
+type: APU
+inherits:
+  - TeraScale-2
+data:
+  Architecture: K10
+  Lithography: 32 nm
+  Socket: FM1
+  Release Date: '2011-12-20'
+  Core Count: 4
+  Thread Count: 4
+  Base Frequency: 2.2 GHz
+  Boost Frequency: 2.5 GHz
+  L2 Cache (Total): 4 MiB
+  L1 Cache (Instruction): 256 KiB
+  L1 Cache (Data): 256 KiB
+  TDP: 65 W
+  Max Memory Frequency: 1866 MHz
+  Max Memory Channels: 2
+  AVX/SSE/MMX: SSE4a
+  FMA4: false
+  FMA3: false
+  BMI: No
+  AES: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - ABM
+    - E3D-Now!
+  Compatible Chipsets:
+    - A75
+    - A55
+  GPU Model: HD 6530D
+  Shader Processor Count: 320
+  Texture Mapping Unit Count: 16
+  Render Output Unit Count: 8
+  GPU Base Frequency: 443 MHz
+  VRAM Type: DDR3
+  Crossfire Support: No

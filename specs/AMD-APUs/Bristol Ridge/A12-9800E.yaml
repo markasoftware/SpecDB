@@ -1,6 +1,6 @@
 isPart: true
-name: A6-9500
-humanName: A6-9500
+name: A12-9800E
+humanName: A12-9800E
 type: APU
 inherits:
   - GCN 3
@@ -9,14 +9,14 @@ data:
   Lithography: 28 nm
   Socket: AM4
   Release Date: '2016-09-05'
-  Core Count: 2
-  Thread Count: 2
-  Base Frequency: 3.5 GHz
+  Core Count: 4
+  Thread Count: 4
+  Base Frequency: 3.1 GHz
   Boost Frequency: 3.8 GHz
-  L2 Cache (Total): 1 MiB
-  L1 Cache (Instruction): 96 KiB
-  L1 Cache (Data): 64 KiB
-  TDP: 65 W
+  L2 Cache (Total): 2 MiB
+  L1 Cache (Instruction): 192 KiB
+  L1 Cache (Data): 128 KiB
+  TDP: 35 W
   Max Memory Frequency: 2400 MHz
   Max Memory Channels: 2
   Unlocked: true
@@ -39,13 +39,13 @@ data:
     - A320
     - X300
     - A300
-  GPU Model: Radeon R5 Bristol Ridge
+  GPU Model: Radeon R7 Bristol Ridge
   # Module Count: 1 
   # I dont know about this at the moments as this only applies to family 15h CPUs
-  Shader Processor Count: 384
-  Texture Mapping Unit Count: 24
+  Shader Processor Count: 512
+  Texture Mapping Unit Count: 32
   Render Output Unit Count: 8
-  GPU Base Frequency: 720 MHz
-  GPU Boost Frequency: 1029 MHz
+  GPU Base Frequency: 655 MHz
+  GPU Boost Frequency: 900 MHz
   VRAM Type: DDR4
   Crossfire Support: No

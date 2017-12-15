@@ -1,0 +1,38 @@
+isPart: true
+name: Athlon-5370
+humanName: Athlon 5370
+type: APU
+inherits:
+  - GCN 1
+data:
+  Architecture: Jaguar
+  Lithography: 28 nm
+  Socket: AM1
+  Release Date: '2016-02'
+  Core Count: 4
+  Thread Count: 4
+  Base Frequency: 2.20 GHz
+  L2 Cache (Total): 2 MiB
+  L1 Cache (Instruction): 128 KiB
+  L1 Cache (Data): 128 KiB
+  TDP: 25 W
+  Max Memory Frequency: 1600 MHz
+  Max Memory Channels: 1
+  AVX/SSE/MMX: AVX
+  BMI: BMI
+  AES: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - F16C
+    - ABM
+    - MOVBE
+    - XSAVE
+    - CLMUL
+  GPU Model: HD-8400
+  Shader Processor Count: 128
+  Texture Mapping Unit Count: 8
+  Render Output Unit Count: 4
+  GPU Base Frequency: 600 MHz
+  VRAM Type: DDR3
+  Crossfire Support: No
