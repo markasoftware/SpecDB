@@ -33,10 +33,6 @@ const unitToNum = inStr => {
 }
 
 const versionCompare = (a, b) => {
-	if (a == 'N/A')
-		a = '0.0'
-	if (b == 'N/A')
-		b = '0.0'
     const aSplit = a.split('.').map(Number);
     const bSplit = b.split('.').map(Number);
     // if any part of b is lower than a, a is greater, otherwise equal or worse
