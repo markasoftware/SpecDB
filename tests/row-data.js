@@ -44,8 +44,6 @@ test('units', t => {
 test('version', t => {
     const subject = rowData.types.versionUp;
 
-    t.equal(subject.default, '0.0');
-
     t.equal(subject.compare('1.2', '1.1'), true, 'basic short');
     t.equal(subject.compare('62.18.63.2', '63'), false, 'length difference');
     t.equal(subject.compare('1.1', '1'), true, 'length difference, same otherwise');
