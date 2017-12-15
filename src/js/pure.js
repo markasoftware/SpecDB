@@ -117,7 +117,7 @@ module.exports.getTableData = (parts, sections, opts) =>
                 });
                 // find best value
                 const bestPreprocessedValue = canCompare && fullDataCells.map(c => c.preprocessed).reduce((a, b) =>
-                    typeof b === 'undefined' || curRow.processor.compare(a, b) ? a : b
+                    (typeof b === 'undefined' || typeof a === 'undefined' || curRow.processor.compare(a, b)) ? a : b
                 );
                 // check if all are winners. If this is the case, we don't want any winners
                 const highlightWinners = canCompare && fullDataCells.some(c => c.preprocessed != bestPreprocessedValue);
