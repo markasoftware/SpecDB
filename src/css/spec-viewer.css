@@ -2,7 +2,7 @@
     flex: 60vw;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
-    padding: 5vh 0 0 0;
+    padding: 2rem 0 0 0;
 }
 #nothing-selected {
     font-size: 4rem;
@@ -43,7 +43,7 @@ h2.top {
     max-width: calc(100% - 30px - 9rem);
 }
 .spec-tab th, .spec-tab td {
-    padding: 1.3em 1em;
+    padding: 0.75em 1em;
     border-left: 1px solid #ccc;
     max-width: 10rem;
     min-width: 4rem;

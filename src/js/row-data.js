@@ -155,7 +155,6 @@ const types = {
     },
     versionUp: {
         compare: versionCompare,
-        default: 'N/A',
     },
     enum: values => ({
         compare: (a, b) => values.indexOf(a) < values.indexOf(b),
