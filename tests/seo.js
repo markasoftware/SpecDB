@@ -10,10 +10,10 @@ test('canonical', t => {
 });
 
 test('title', t => {
-    t.equal(pure.seo([]).title, 'SpecDB — View and Compare Graphics Cards and CPUs', 'empty list');
-    t.equal(pure.seo(['i7 7700k']).title, 'SpecDB — i7 7700k Specs and Comparison', 'single element');
-    t.equal(pure.seo(['i7 7700k', 'R7 1800X']).title, 'SpecDB — i7 7700k vs R7 1800X', 'two elements');
-    t.equal(pure.seo(['i7 7700k', 'R7 1800X', 'FX 6300']).title, 'SpecDB — Compare the i7 7700k, R7 1800X, and FX 6300', 'many elements');
+    t.equal(pure.seo([]).title, 'View and Compare Graphics Cards and CPUs — SpecDB', 'empty list');
+    t.equal(pure.seo(['i7 7700k']).title, 'i7 7700k Specs and Comparison — SpecDB', 'single element');
+    t.equal(pure.seo(['i7 7700k', 'R7 1800X']).title, 'i7 7700k vs R7 1800X — SpecDB', 'two elements');
+    t.equal(pure.seo(['i7 7700k', 'R7 1800X', 'FX 6300']).title, 'Compare the i7 7700k, R7 1800X, and FX 6300 — SpecDB', 'many elements');
     t.end();
 });
 

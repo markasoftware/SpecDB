@@ -32,6 +32,13 @@ const sections = [
                     default: '15 mhz',
                 },
             },
+            {
+                name: 'Release Date',
+                processor: {
+                    preprocess: c => new Date(c),
+                    compare: (a, b) => true,
+                }
+            }
         ],
     },
     // just to have multiple sections
@@ -284,6 +291,27 @@ test('Winners', testOpts, t => {
         }],
     }, emptyAdvanced], 'Preprocessing before comparison');
 
+    t.deepEqual(pure.getTableData([
+        { data: {
+            'Release Date': '2017-01-01',
+        }},
+        { data: {
+            'Release Date': '2017-01-01',
+        }},
+    ], sections, opts), [{
+        name: 'Basic Specs',
+        rows: [{
+            name: 'Release Date',
+            cells: [{
+                value: '2017-01-01',
+                winner: false,
+            }, {
+                value: '2017-01-01',
+                winner: false,
+            }],
+        }],
+    }, emptyAdvanced], 'Understands equality for non-primitives (dates)');
+
     t.end();
 });
 
@@ -406,7 +434,7 @@ test('Show Uncomparable Rows', testOpts, t => {
             'Dankness': 24,
         }},
         { data: {
-            'Foop': 'HhH',
+            'Foop': '1HhH',
         }},
     ], sections, uncomparableOpts), [{
         name: 'Basic Specs',
@@ -416,8 +444,8 @@ test('Show Uncomparable Rows', testOpts, t => {
                 value: '0HHH',
                 winner: false,
             }, {
-                value: 'HHH',
-                winner: false,
+                value: '1HHH',
+                winner: true,
             }],
         }],
     }, emptyAdvanced], 'One row is uncomparable, other is comparable');

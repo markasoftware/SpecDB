@@ -283,10 +283,6 @@ module.exports.sections = [
                 processor: types.unitUp,
             },
             {
-                name: 'Die Size',
-                processor: types.numberUp,
-            },
-            {
                 name: 'Shader Processor Count',
                 processor: types.numberUp,
             },

@@ -94,7 +94,7 @@ module.exports.getTableData = (parts, sections, opts) =>
                 && (opts.showUncomparableRows || parts.every(p => typeof p.data[curRow.name] !== 'undefined'))
             )
             .map(curRow => {
-                curRow.processor = curRow.processor || {};                
+                curRow.processor = curRow.processor || {};
                 const canCompare = parts.length > 1 && curRow.processor.compare;
                 // get a list of cells with pre and post processed values
                 const fullDataCells = parts.map(curPart => {
@@ -116,19 +116,20 @@ module.exports.getTableData = (parts, sections, opts) =>
                     };
                 });
                 // find best value
-                const bestPreprocessedValue = canCompare && fullDataCells.map(c => c.preprocessed).reduce((a, b) =>
+                const bestPreprocessedJSON = canCompare && JSON.stringify(fullDataCells.map(c => c.preprocessed).reduce((a, b) =>
                     typeof b === 'undefined' || curRow.processor.compare(a, b) ? a : b
-                );
+                ));
                 // check if all are winners. If this is the case, we don't want any winners
-                const highlightWinners = canCompare && fullDataCells.some(c => c.preprocessed != bestPreprocessedValue);
+                // some things may not be completely primitive, for ex lists
+                const highlightWinners = canCompare && fullDataCells.some(c => JSON.stringify(c.preprocessed) != bestPreprocessedJSON);
                 // now, take the full data cells and the best value to create a slimmed down version
                 // containing only the displayed/postprocessed value and whether this cell is a winner
                 return {
                     name: curRow.name,
                     cells: fullDataCells.map((fullCell) => ({
                         value: fullCell.postprocessed,
-                        // !! is required, otherwise it can be undefined
-                        winner: !!(highlightWinners && fullCell.preprocessed === bestPreprocessedValue),
+                        // the !! is required, otherwise it can be undefined
+                        winner: !!(highlightWinners && JSON.stringify(fullCell.preprocessed) === bestPreprocessedJSON),
                     })),
                 };
             }),
@@ -143,20 +144,20 @@ module.exports.seo = list => {
     switch(list.length) {
         case 0:
             // dash is unicode u2014
-            tr.title = 'SpecDB — View and Compare Graphics Cards and CPUs';
+            tr.title = 'View and Compare Graphics Cards and CPUs — SpecDB';
             tr.description = 'A modern, fast, and beautiful spec viewing and comparison platform for PC hardware.';
             break;
         case 1:
-            tr.title = `SpecDB — ${list[0]} Specs and Comparison`;
+            tr.title = `${list[0]} Specs and Comparison — SpecDB`;
             tr.description = 'View the specs of the ' + list[0] + ' and compare it to other similar parts on SpecDB.';
             break;
         case 2:
-            tr.title = `SpecDB — ${list[0]} vs ${list[1]}`;
+            tr.title = `${list[0]} vs ${list[1]} — SpecDB`;
             tr.description = 'Compare the specs for the ' + list[0] + ' and ' + list[1] + ' side-by-side on SpecDB.';
             break;
         default:
             const humanList = list.slice(0, -1).join(', ') + ', and ' + list[list.length - 1];
-            tr.title = `SpecDB — Compare the ${humanList}`;
+            tr.title = `Compare the ${humanList} — SpecDB`;
             tr.description = `Compare the specs for the ${humanList} side-by-side on SpecDB.`;
     }
     return tr;
