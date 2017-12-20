@@ -1,0 +1,45 @@
+isPart: true
+name: A4-7300
+humanName: A4-7300
+type: APU
+inherits:
+  - TeraScale-3
+data:
+  Architecture: Piledriver
+  Lithography: 32 nm
+  Socket: FM2
+  Release Date: '2014-07'
+  Core Count: 2
+  Thread Count: 2
+  Base Frequency: 3.8 GHz
+  Boost Frequency: 4.0 GHz
+  L2 Cache (Total): 1 MiB
+  L1 Cache (Instruction): 64 KiB
+  L1 Cache (Data): 32 KiB
+  TDP: 65 W
+  Max Memory Frequency: 1600 MHz
+  Max Memory Channels: 2
+  AVX/SSE/MMX: AVX
+  FMA4: true
+  FMA3: true
+  BMI: BMI
+  AES: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - F16C
+    - ABM
+    - TBM
+    - XOP
+    - CLMUL
+  Compatible Chipsets:
+    - A85X
+    - A75
+    - A55
+  GPU Model: HD 8470D
+  Shader Processor Count: 192
+  Texture Mapping Unit Count: 12
+  Render Output Unit Count: 4
+  GPU Base Frequency: 800 MHz
+  VRAM Type: DDR3
+  Crossfire Support: No

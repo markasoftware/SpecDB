@@ -35,7 +35,7 @@ module.exports = {
             (partNames.length === 0 ? [
                 m('#nothing-selected', 'No Parts Selected'),
             ] : [
-                m('h2.centered.top', 'SELECTED COMPONENTS:'),
+                m('h2.centered.top.mt1', 'SELECTED COMPONENTS:'),
                 m('#selected-parts-list.flex-wrapper.justify-center', partNames.map(curPartName => m(singlePart, {
                     name: curPartName,
                     canSelect: false,
@@ -51,7 +51,7 @@ module.exports = {
                     m('.table-option', {
                         class: vnode.state.uncomparableRows && 'red-selected',
                         onclick: () => vnode.state.uncomparableRows = !vnode.state.uncomparableRows,
-                    }, 'Show Uncomparable Rows'),
+                    }, 'Show Irrelevant Rows'),
                 ]),
                 m('.spec-tab-wrapper',
                     m('table.spec-tab', [

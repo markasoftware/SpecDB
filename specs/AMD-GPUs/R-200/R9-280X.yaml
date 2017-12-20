@@ -3,7 +3,7 @@ type: Graphics Card
 data:
   GPU: Tahiti
   Codename: Tahiti XTL
-  Release Date: '2014-08-08'
+  Release Date: '2013-08-08'
   Die Size: 352 mm
   Shader Processor Count: 2048
   Texture Mapping Unit Count: 128

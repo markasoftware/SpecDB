@@ -1,0 +1,46 @@
+isPart: true
+name: A6-5400K
+humanName: A6-5400K
+type: APU
+inherits:
+  - TeraScale-3
+data:
+  Architecture: Piledriver
+  Lithography: 32 nm
+  Socket: FM2
+  Release Date: '2012-10-01'
+  Core Count: 2
+  Thread Count: 2
+  Base Frequency: 3.6 GHz
+  Boost Frequency: 3.8 GHz
+  L2 Cache (Total): 4 MiB
+  L1 Cache (Instruction): 64 KiB
+  L1 Cache (Data): 32 KiB
+  TDP: 65 W
+  Unlocked: true
+  Max Memory Frequency: 1866 MHz
+  Max Memory Channels: 2
+  AVX/SSE/MMX: AVX
+  FMA4: true
+  FMA3: true
+  BMI: BMI
+  AES: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - F16C
+    - ABM
+    - TBM
+    - XOP
+    - CLMUL
+  Compatible Chipsets:
+    - A85X
+    - A75
+    - A55
+  GPU Model: HD 7540D
+  Shader Processor Count: 192
+  Texture Mapping Unit Count: 12
+  Render Output Unit Count: 4
+  GPU Base Frequency: 760 MHz
+  VRAM Type: DDR3
+  Crossfire Support: No

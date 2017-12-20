@@ -1,0 +1,40 @@
+isPart: true
+name: A4-3400
+humanName: A4-3400
+type: APU
+inherits:
+  - TeraScale-2
+data:
+  Architecture: K10
+  Lithography: 32 nm
+  Socket: FM1
+  Release Date: '2011-09-07'
+  Core Count: 2
+  Thread Count: 2
+  Base Frequency: 2.7 GHz
+  L2 Cache (Total): 1 MiB
+  L1 Cache (Instruction): 128 KiB
+  L1 Cache (Data): 128 KiB
+  TDP: 100 W
+  Max Memory Frequency: 1600 MHz
+  Max Memory Channels: 2
+  AVX/SSE/MMX: SSE4a
+  FMA4: false
+  FMA3: false
+  BMI: No
+  AES: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - ABM
+    - E3D-Now!
+  Compatible Chipsets:
+    - A75
+    - A55
+  GPU Model: HD 6410D
+  Shader Processor Count: 160
+  Texture Mapping Unit Count: 8
+  Render Output Unit Count: 4
+  GPU Base Frequency: 600 MHz
+  VRAM Type: DDR3
+  Crossfire Support: No

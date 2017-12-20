@@ -6,17 +6,46 @@ inherits:
   - GCN 3
 data:
   Architecture: Excavator
-  GPU Model: Radeon R5
-  Module Count: 1
+  Lithography: 28 nm
+  Socket: AM4
+  Release Date: '2016-09-05'
   Core Count: 2
   Thread Count: 2
-  TDP: 65 W
-  Release Date: '2016-09-05'
-  Shader Processor Count: 384
-  Render Output Unit Count: 6
   Base Frequency: 3.5 GHz
   Boost Frequency: 3.8 GHz
-  GPU Base Frequency: 1029 MHz
   L2 Cache (Total): 1 MiB
   L1 Cache (Instruction): 96 KiB
   L1 Cache (Data): 64 KiB
+  TDP: 65 W
+  Max Memory Frequency: 2400 MHz
+  Max Memory Channels: 2
+  Unlocked: true
+  AVX/SSE/MMX: AVX2
+  FMA4: true
+  FMA3: true
+  BMI: BMI2
+  AES: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - F16C
+    - ABM
+    - TBM
+    - XOP
+    - CLMUL
+  Compatible Chipsets:
+    - X370
+    - B350
+    - A320
+    - X300
+    - A300
+  GPU Model: Radeon R5 Bristol Ridge
+  # Module Count: 1 
+  # I dont know about this at the moments as this only applies to family 15h CPUs
+  Shader Processor Count: 384
+  Texture Mapping Unit Count: 24
+  Render Output Unit Count: 8
+  GPU Base Frequency: 720 MHz
+  GPU Boost Frequency: 1029 MHz
+  VRAM Type: DDR4
+  Crossfire Support: No

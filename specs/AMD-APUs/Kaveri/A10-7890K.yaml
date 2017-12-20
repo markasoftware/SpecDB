@@ -1,0 +1,47 @@
+isPart: true
+name: A10-7890K
+humanName: A10-7890K
+type: APU
+inherits:
+  - GCN 2
+data:
+  Architecture: Steamroller
+  Lithography: 28 nm
+  Socket: FM2+
+  Release Date: '2016-03-01'
+  Core Count: 4
+  Thread Count: 4
+  Base Frequency: 4.1 GHz
+  Boost Frequency: 4.3 GHz
+  L2 Cache (Total): 4 MiB
+  L1 Cache (Instruction): 192 KiB
+  L1 Cache (Data): 64 KiB
+  TDP: 95 W
+  Max Memory Frequency: 2133 MHz
+  Max Memory Channels: 2
+  Unlocked: true
+  AVX/SSE/MMX: AVX
+  FMA4: true
+  FMA3: true
+  BMI: BMI
+  AES: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - F16C
+    - ABM
+    - TBM
+    - XOP
+    - CLMUL
+  Compatible Chipsets:
+    - A88X
+    - A78
+    - A68H
+    - A58
+  GPU Model: Radeon R7 Kaveri
+  Shader Processor Count: 512
+  Texture Mapping Unit Count: 32
+  Render Output Unit Count: 8
+  GPU Base Frequency: 866 MHz
+  VRAM Type: DDR3
+  Crossfire Support: No

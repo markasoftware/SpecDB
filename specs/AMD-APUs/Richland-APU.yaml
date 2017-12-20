@@ -1,0 +1,36 @@
+name: Richland-APUs
+humanName: Richland(APUs)
+type: APU Architecture
+isPart: false
+topHeader: 'SELECT APU:'
+data:
+  Lithography: 32nm
+  Release Date: '2013-06-04'
+  Sockets:
+    - FM2
+  DirectX Support: '11.0'
+sections:
+  - header: Standard SKUs
+    members:
+      - A4-4000
+      - A4-4020
+      - A4-6300
+      - A4-6300B
+      - A4-6320
+      - A4-6320B
+      - A4-7300
+      - A4-7300B
+      - A6-6400B
+      - A6-6400K
+      - A6-6420B
+      - A6-6420K
+      - A8-6500T
+      - A8-6500
+      - A8-6500B
+      - A8-6600K
+      - A10-6700T
+      - A10-6700
+      - A10-6790B
+      - A10-6790K
+      - A10-6800K
+      - A10-6800B

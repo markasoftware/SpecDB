@@ -116,8 +116,8 @@ module.exports.getTableData = (parts, sections, opts) =>
                     };
                 });
                 // find best value
-                const bestPreprocessedJSON = canCompare && JSON.stringify(fullDataCells.map(c => c.preprocessed).reduce((a, b) =>
-                    typeof b === 'undefined' || curRow.processor.compare(a, b) ? a : b
+                const bestPreprocessedValue = canCompare && JSON.stringify(fullDataCells.map(c => c.preprocessed).reduce((a, b) =>
+                    (typeof b === 'undefined' || typeof a === 'undefined' || curRow.processor.compare(a, b)) ? a : b
                 ));
                 // check if all are winners. If this is the case, we don't want any winners
                 // some things may not be completely primitive, for ex lists
