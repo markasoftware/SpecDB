@@ -4,7 +4,7 @@ data:
   GPU: Tahiti
   Codename: Tahiti XT2
   Release Date: '2013'
-  Die Size: 352 mm²
+  Die Size: 352 mm
   Shader Processor Count: 2048
   Texture Mapping Unit Count: 128
   Render Output Unit Count: 32

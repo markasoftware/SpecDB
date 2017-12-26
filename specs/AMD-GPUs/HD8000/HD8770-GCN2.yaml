@@ -4,7 +4,7 @@ data:
   GPU: Bonaire
   Codename: Bonaire XT
   Release Date: '2013'
-  Die Size: 160 mm²
+  Die Size: 160 mm
   Shader Processor Count: 896
   Texture Mapping Unit Count: 56
   Render Output Unit Count: 16

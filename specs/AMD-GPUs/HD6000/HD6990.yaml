@@ -4,7 +4,7 @@ data:
   GPU: Cayman
   Codename: Antilles XT
   Release Date: '2011-03-08'
-  Die Size: 389 mm²
+  Die Size: 389 mm
   Shader Processor Count: 3072
   Texture Mapping Unit Count: 192
   Render Output Unit Count: 64

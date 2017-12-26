@@ -5,7 +5,7 @@ data:
   GPU: Pitcairn
   Codename: Pitcairn XT
   Release Date: '2013'
-  Die Size: 212 mm²
+  Die Size: 212 mm
   Shader Processor Count: 1280
   Texture Mapping Unit Count: 80
   Render Output Unit Count: 32

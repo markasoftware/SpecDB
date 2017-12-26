@@ -24,14 +24,6 @@ test('number', t => {
     t.equal(subject.compare(NaN, 0), false, 'compare false 2');
     t.end();
 });
-test('numbool', t => {
-    const subject = rowData.types.numBoolUp;
-
-    t.equal(subject.postprocess('2.123'), '2.123', 'does not affect normal strings');
-    t.equal(subject.postprocess(NaN), 'No', 'NaN to No');
-
-    t.end();
-});
 test('units', t => {
     const subject = rowData.types.unitUp;
 
@@ -43,6 +35,11 @@ test('units', t => {
 });
 test('version', t => {
     const subject = rowData.types.versionUp;
+
+    t.equal(subject.default, '0', 'default');
+
+    t.equal(subject.postprocess('1.2.3'), '1.2.3', 'postprocess 1.2.3 -> 1.2.3');
+    t.equal(subject.postprocess('0'), 'No', 'postprocess 0 -> No')
 
     t.equal(subject.compare('1.2', '1.1'), true, 'basic short');
     t.equal(subject.compare('62.18.63.2', '63'), false, 'length difference');

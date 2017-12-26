@@ -4,7 +4,7 @@ data:
   GPU: Tahiti
   Codename: Tahiti PRO
   Release Date: '2013'
-  Die Size: 352 mm²
+  Die Size: 352 mm
   Shader Processor Count: 1792
   Texture Mapping Unit Count: 112
   Render Output Unit Count: 32

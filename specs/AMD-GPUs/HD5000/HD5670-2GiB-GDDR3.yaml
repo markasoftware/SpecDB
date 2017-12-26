@@ -4,7 +4,7 @@ data:
   GPU: Redwood
   Codename: Redwood XT
   Release Date: '2010-01-14'
-  Die Size: 104 mm²
+  Die Size: 104 mm
   Shader Processor Count: 400
   Texture Mapping Unit Count: 20
   Render Output Unit Count: 8

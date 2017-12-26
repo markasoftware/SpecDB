@@ -4,7 +4,7 @@ data:
   GPU: Cayman
   Codename: Cayman CE
   Release Date: '2011-12'
-  Die Size: 389 mm²
+  Die Size: 389 mm
   Shader Processor Count: 1280
   Texture Mapping Unit Count: 80
   Render Output Unit Count: 32

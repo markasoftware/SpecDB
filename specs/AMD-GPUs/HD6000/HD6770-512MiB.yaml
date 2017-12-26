@@ -4,7 +4,7 @@ data:
   GPU: Juniper
   Codename: Juniper XT
   Release Date: '2011-04-19'
-  Die Size: 166 mm²
+  Die Size: 166 mm
   Shader Processor Count: 800
   Texture Mapping Unit Count: 40
   Render Output Unit Count: 16

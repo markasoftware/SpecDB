@@ -4,7 +4,7 @@ data:
   GPU: Tahiti
   Codename: Malta
   Release Date: '2013'
-  Die Size: 352 mm²
+  Die Size: 352 mm
   Shader Processor Count: 4096
   Texture Mapping Unit Count: 256
   Render Output Unit Count: 64

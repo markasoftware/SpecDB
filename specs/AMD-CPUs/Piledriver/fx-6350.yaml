@@ -5,6 +5,7 @@ type: CPU
 inherits:
   - Piledriver
 data:
+  Release Date: '2013-04-30'
   Base Frequency: 3.9 GHz
   Boost Frequency: 4.2 GHz
   Core Count: 6

@@ -4,7 +4,7 @@ data:
   GPU: Cedar
   Codename: Cedar
   Release Date: '2011-04-07'
-  Die Size: 59 mm²
+  Die Size: 59 mm
   Shader Processor Count: 80
   Texture Mapping Unit Count: 8
   Render Output Unit Count: 4

@@ -4,7 +4,7 @@ data:
   GPU: Barts
   Codename: Barts XT
   Release Date: '2010-10-22'
-  Die Size: 255 mm²
+  Die Size: 255 mm
   Shader Processor Count: 1120
   Texture Mapping Unit Count: 56
   Render Output Unit Count: 32

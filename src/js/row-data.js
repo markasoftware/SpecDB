@@ -63,16 +63,6 @@ const types = {
         preprocess: parseFloat,
         compare: numberDownCompare,
     },
-    numBoolUp: {
-        preprocess: parseFloat,
-        compare: numberUpCompare,
-        postprocess: c => isNaN(c) ? 'No' : c,
-    },
-    numBoolDown: {
-        preprocess: parseFloat,
-        compare: numberDownCompare,
-        postprocess: c => isNaN(c) ? 'No' : c,
-    },
     unitUp: {
         preprocess: unitToNum,
         compare: numberUpCompare,
@@ -151,6 +141,8 @@ const types = {
     },
     versionUp: {
         compare: versionCompare,
+        postprocess: c => c === '0' ? 'No' : c,
+        default: '0',
     },
     enum: values => ({
         compare: (a, b) => values.indexOf(a) < values.indexOf(b),

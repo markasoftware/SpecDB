@@ -4,7 +4,7 @@ data:
   GPU: Cayman
   Codename: Cayman Pro
   Release Date: '2010-12-15'
-  Die Size: 389 mm²
+  Die Size: 389 mm
   Shader Processor Count: 1408
   Texture Mapping Unit Count: 88
   Render Output Unit Count: 32
