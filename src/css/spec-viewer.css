@@ -138,8 +138,9 @@ td.table-section-hidden.not-that-hidden {
     left: 4.5rem;
 }
 .table-collapse-button {
-    transform: none;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    left: 1rem;
+    top: 0.7rem;
 }
 .table-section-bracket {
     position: absolute;

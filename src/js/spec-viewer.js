@@ -21,9 +21,7 @@ const sectionsLs = {
     setAll: setTo => rowData.sections.map(c => sectionsLs.set(c.name, setTo)),
 };
 
-// this probably should go somewhere else, but we're putting it here
-// if localStorage settings for whether sections should be displayed is not there,
-// set it to the default `display` thing from rowData
+// If unused before, set the section display to the defaults.
 if(!sectionsLs.initialized) {
     rowData.sections.forEach(curSection => {
         sectionsLs.set(curKey, curSection.display);
@@ -71,8 +69,8 @@ module.exports = {
                         m('tr', [
                             m('td.left-corner'),
                             partData.map(c => m('th', c.humanName)),
-                            m('td.table-section-hidden', [
-                                m('.a.table-section-label.table-collapse-button', { onclick: () => {
+                            m('td.table-section-hidden.table-collapse-button', [
+                                m('.a', { onclick: () => {
                                     if(sectionsLs.checkAll() === 1) {
                                         // everything is already shown, hide things
                                         sectionsLs.setAll(false);
@@ -80,7 +78,7 @@ module.exports = {
                                         // some or everything is hidden, show everything
                                         sectionsLs.setAll(true);
                                     }
-                                }}, '+'),
+                                }}, m.trust(`${sectionsLs.checkAll() === 1 ? '-' : '+'}&nbsp;All`)),
                             ]),
                         ]),
                         // now for real data
