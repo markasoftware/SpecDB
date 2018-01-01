@@ -10,7 +10,7 @@ module.exports = {
         Object.keys(specData)
         .filter(c =>
             vnode.state.searchTerm.split(/[ \-_]/g).every(term =>
-                    specData[c].humanName.toLowerCase().includes(term.toLowerCase())
+                    JSON.stringify(specData[c]).toLowerCase().includes(term.toLowerCase())
             ) && specData[c].isPart
         )
         // group by type

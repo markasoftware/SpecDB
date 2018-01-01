@@ -6,17 +6,27 @@ const pure = require('./pure.js');
 const rowData = require('./row-data.js');
 const seo = require('./seo.js');
 
-// this probably should go somewhere else, but we're putting it here
-// if localStorage settings for whether sections should be displayed is not there,
-// set it to the default `display` thing from rowData
-rowData.sections.forEach(curSection => {
-    const curKey = `table-section-display-${curSection.name}`;
-    if(localStorage.getItem(curKey) === null) {
-        // using yes/no instead of true/false to make it clear these aren't real booleans
-        // (localStorage only supports strings)
-        localStorage.setItem(curKey, curSection.display ? 'yes' : 'no');
-    }
-});
+// localStorage section display module
+const sectionsLs = {
+    initialized: localStorage.getItem(`table-section-display-${rowData.sections[0].name}`) !== null,
+    get: name => localStorage.getItem(`table-section-display-${name}`) === 'yes',
+    set: (name, val) => localStorage.setItem(`table-section-display-${name}`, val ? 'yes' : 'no'),
+    toggle: name => sectionsLs.set(name, !sectionsLs.get(name)),
+    // returns 1 for all on, -1 for all off, 0 for mixed
+    // yeah, I know this isn't java and there's a better way, but this is how I'm gonna do it
+    checkAll: () => {
+        const firstSectionState = sectionsLs.get(rowData.sections[0].name)
+        return rowData.sections.every(c => sectionsLs.get(c.name) === firstSectionState) ? firstSectionState * 2 - 1 /* #winning */: 0;
+    },
+    setAll: setTo => rowData.sections.map(c => sectionsLs.set(c.name, setTo)),
+};
+
+// If unused before, set the section display to the defaults.
+if(!sectionsLs.initialized) {
+    rowData.sections.forEach(curSection => {
+        sectionsLs.set(curKey, curSection.display);
+    });
+}
 
 module.exports = {
     identicalRows: true,
@@ -59,7 +69,17 @@ module.exports = {
                         m('tr', [
                             m('td.left-corner'),
                             partData.map(c => m('th', c.humanName)),
-                            m('td.table-section-hidden'),
+                            m('td.table-section-hidden.table-collapse-button', [
+                                m('.a', { onclick: () => {
+                                    if(sectionsLs.checkAll() === 1) {
+                                        // everything is already shown, hide things
+                                        sectionsLs.setAll(false);
+                                    } else {
+                                        // some or everything is hidden, show everything
+                                        sectionsLs.setAll(true);
+                                    }
+                                }}, m.trust(`${sectionsLs.checkAll() === 1 ? '-' : '+'}&nbsp;All`)),
+                            ]),
                         ]),
                         // now for real data
                         sections.map(curSection => {
@@ -67,10 +87,7 @@ module.exports = {
                             if(curSection.rows.length === 0) {
                                 return;
                             }
-                            const curLsKey = `table-section-display-${curSection.name}`;
-                            const toggleLs = () => localStorage.setItem(curLsKey,
-                                localStorage.getItem(curLsKey) === 'yes' ? 'no' : 'yes');
-                            return localStorage.getItem(curLsKey) === 'yes' ?
+                            return sectionsLs.get(curSection.name) ?
                                 // section is displayed
                                 curSection.rows.map((curRow, i) =>
                                     m('tr', [
@@ -91,7 +108,7 @@ module.exports = {
                                         i === 0 &&
                                             m(`td.table-section-hidden.not-that-hidden`, {
                                                 rowspan: curSection.rows.length,
-                                                onclick: toggleLs,
+                                                onclick: () => sectionsLs.toggle(curSection.name),
                                             },
                                                 [
                                                     m('.a.table-section-label', curSection.name),
@@ -108,7 +125,7 @@ module.exports = {
                                     ])
                                 ) :
                                 // section is collapsed
-                                m('tr', { onclick: toggleLs }, [
+                                m('tr', { onclick: () => sectionsLs.toggle(curSection.name) }, [
                                     m('td.table-section-collapsed', {
                                         // +1 to account for row header thing
                                         colspan: curSection.rows[0].cells.length + 1,

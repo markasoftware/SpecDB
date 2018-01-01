@@ -127,13 +127,6 @@ h2.top {
 td.table-section-hidden.not-that-hidden {
     height: 9rem;
 }
-.table-section-label-wrapper {
-    position: absolute;
-    left: -2rem;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
 .table-section-label {
     position: absolute;
     display: block;
@@ -143,6 +136,11 @@ td.table-section-hidden.not-that-hidden {
     text-align: center;
     top: calc(50% - 4.5rem);
     left: 4.5rem;
+}
+.table-collapse-button {
+    font-size: 1.2rem;
+    left: 1rem;
+    top: 0.7rem;
 }
 .table-section-bracket {
     position: absolute;
