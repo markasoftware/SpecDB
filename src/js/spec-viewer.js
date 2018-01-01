@@ -24,7 +24,7 @@ const sectionsLs = {
 // If unused before, set the section display to the defaults.
 if(!sectionsLs.initialized) {
     rowData.sections.forEach(curSection => {
-        sectionsLs.set(curKey, curSection.display);
+        sectionsLs.set(curSection.name, curSection.display);
     });
 }
 
