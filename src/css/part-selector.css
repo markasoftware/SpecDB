@@ -62,6 +62,10 @@
 #search-icon {
     transform: rotate(45deg);
     font-size: 2.5rem;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 #searching-container {
     display: none;
@@ -112,6 +116,7 @@
     font-size: 1.5rem;
     text-align: center;
     color: #888;
+    cursor: pointer;
 }
 #mobile-toggle-label-shadow-cover {
     width: 20px;

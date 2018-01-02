@@ -123,6 +123,10 @@ h2.top {
     height: 0;    
     padding: 0;
     border: none;
+    cursor: pointer;
+}
+.table-section-hidden:hover .a {
+    text-decoration: underline;
 }
 td.table-section-hidden.not-that-hidden {
     height: 9rem;
@@ -162,7 +166,7 @@ td.table-section-hidden.not-that-hidden {
   height: 40px;
   width: 40px;
   border: 10px solid transparent;
-  border-top-color: #999;;
+  border-top-color: #999;
 }
 .bracket-rect {
   height: calc((100% - 70px) / 2);

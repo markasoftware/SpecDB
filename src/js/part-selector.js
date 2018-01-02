@@ -1,4 +1,5 @@
 const m = require('mithril');
+const naturalCompare = require('natural-compare');
 const specData = require('spec-data');
 const mainSelector = require('./components/main-selector.js');
 
@@ -15,7 +16,7 @@ module.exports = {
         )
         // group by type
         // possible TODO: make this do in a certain order. i.e, CPUs should probably go above APUs once that's implemented
-        .sort((a, b) => specData[a].type > specData[b].type)
+        .sort((a, b) => naturalCompare(specData[a].type, specData[b].type) || naturalCompare(a.toLowerCase(), b.toLowerCase()))
         .forEach(c => {
             // if we have a new type, create a new section
             if(searchSections.length === 0 || searchSections[searchSections.length - 1].header !== specData[c].type + 's') {

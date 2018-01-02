@@ -9,7 +9,7 @@
 }
 
 /* if the rules to activate mobile mode are changed, change them in hash.js too! */
-@media (max-width: 800px) and (max-device-aspect-ratio: 1/1) {
+@media (max-width: 800px) {
     div#part-selector {
         position: fixed;
         width: 90vw;

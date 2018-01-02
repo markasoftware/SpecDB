@@ -20,6 +20,7 @@
     "csso-cli": "*",
     "js-yaml": "^3",
     "mithril": "^1",
+    "natural-compare": "^1.4.0",
     "tap-spec": "*",
     "tape": "^4",
     "uglify-js": "^2"
@@ -27,9 +28,9 @@
   "author": "Mark Polyakov",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/markasoftware/amd-specs/issues"
+    "url": "https://github.com/markasoftware/SpecDB/issues"
   },
-  "homepage": "https://github.com/markasoftware/amd-specs",
+  "homepage": "https://github.com/markasoftware/SpecDB",
   "babel": {
     "presets": [
       [
