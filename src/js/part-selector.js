@@ -3,27 +3,39 @@ const naturalCompare = require('natural-compare');
 const specData = require('spec-data');
 const mainSelector = require('./components/main-selector.js');
 
+// by caching json representation of parts, it is actually quite a bit faster searching
+// shouldn't use more than a few megs of ram
+const specDataJSONs = {};
+Object.keys(specData).forEach(c => specDataJSONs[c] = JSON.stringify(specData[c]).toLowerCase())
+
 module.exports = {
     searchTerm: '',
+    enableSearchLimit: true,
     breadcrumbs: [],
     view: vnode => {
         const searchSections = [];
-        Object.keys(specData)
+
+        const searchLimit = 50;
+        const unlimitedSearchResults = Object.keys(specData)
         .filter(c =>
             vnode.state.searchTerm.split(/[ \-_]/g).every(term =>
-                    JSON.stringify(specData[c]).toLowerCase().includes(term.toLowerCase())
+                specDataJSONs[c].includes(term.toLowerCase())
             ) && specData[c].isPart
         )
         // group by type
         // possible TODO: make this do in a certain order. i.e, CPUs should probably go above APUs once that's implemented
-        .sort((a, b) => naturalCompare(specData[a].type, specData[b].type) || naturalCompare(a.toLowerCase(), b.toLowerCase()))
-        .forEach(c => {
+        .sort((a, b) => naturalCompare(specData[a].type, specData[b].type) || naturalCompare(a.toLowerCase(), b.toLowerCase()));
+        const searchNeedsLimiting = unlimitedSearchResults.length > searchLimit && vnode.state.enableSearchLimit;
+        const limitedSearchResults = searchNeedsLimiting ?
+            unlimitedSearchResults.slice(0, searchLimit) :
+            unlimitedSearchResults;
+        limitedSearchResults.forEach(c => {
             // if we have a new type, create a new section
             if(searchSections.length === 0 || searchSections[searchSections.length - 1].header !== specData[c].type + 's') {
                 searchSections.push({
                     // best way to pluralize
                     // TODO: refactor
-                    header: specData[c].type + 's',
+                    header: `${specData[c].type}s`,
                     members: [],
                 });
             }
@@ -39,12 +51,19 @@ module.exports = {
             ),
             m('#searching-container', [
                 m('input#search-bar[placeholder="Search..."]', {
-                    oninput: m.withAttr('value', newTerm => vnode.state.searchTerm = newTerm),
+                    oninput: m.withAttr('value', newTerm => {
+                        vnode.state.enableSearchLimit = true;
+                        vnode.state.searchTerm = newTerm;
+                    }),
                 }),
                 m('h2', 'RESULTS:'),
                 m(mainSelector, {
                     sections: searchSections,
                 }),
+                searchNeedsLimiting && m('h3.a.center-text',
+                    { onclick: () => vnode.state.enableSearchLimit = false },
+                    `Search limited to ${searchLimit} results, click to view all ${unlimitedSearchResults.length}`,
+                )
             ]),
             m('#not-searching-container', [
                 m('#breadcrumbs', [

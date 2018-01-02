@@ -64,7 +64,9 @@ input[type="checkbox"] {
     color: #f44 !important;
     border: 2px solid #f44 !important;
 }
-
 .mt1 {
     margin-top: 0.5rem;
+}
+.center-text {
+    text-align: center;
 }
