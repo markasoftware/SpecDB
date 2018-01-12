@@ -1,0 +1,18 @@
+{
+    "name": "SpecDB",
+    "short_name": "SpecDB",
+    "description": "View and compare graphics cards, CPUs, and APUs manufactured by AMD",
+    "start_url": ".",
+    "theme_color": "#ff4545",
+    "background_color": "#eee",
+    "display": "standalone",
+    "icons": [{
+        "src": "icon-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+    }, {
+        "src": "icon-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+    }]
+}

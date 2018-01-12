@@ -21,6 +21,7 @@
     "js-yaml": "^3",
     "mithril": "^1",
     "natural-compare": "^1.4.0",
+    "sw-precache": "^5.2.0",
     "tap-spec": "*",
     "tape": "^4",
     "uglify-js": "^2"

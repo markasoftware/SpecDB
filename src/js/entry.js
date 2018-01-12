@@ -11,3 +11,9 @@ m.mount(document.getElementById('part-selector'), require('./part-selector.js'))
 if(hash.getList().length === 0) {
     document.getElementById('mobile-toggle').checked = true;
 }
+
+// service worker registration
+if('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js')
+    .catch(() => console.log('Service worker registration failed, make sure you are in production mode'));
+}
