@@ -4,7 +4,7 @@ type: none
 isPart: false
 topHeader: "SELECT PLATFORM:"
 sections:
- - members:
-    - CPUs-DESKTOP
-    - CPUs-MOBILE
-    - CPUs-SERVER
+    members:
+        -CPUs-DESKTOP
+        -CPUs-MOBILE
+        -CPUs-SERVER

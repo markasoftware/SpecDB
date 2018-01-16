@@ -1,0 +1,34 @@
+name: CPUs-SERVER
+humanName: SERVER CPUs
+type: none
+isPart: false
+topHeader: "SELECT ARCHITECTURE:"
+sections:
+  - header: ZEN EPYC FAMILIES
+    members:
+      - Naples
+  - header: PILEDRIVER OPTERON FAMILIES
+    members:
+      - Warsaw
+      - Abu-Dhabi
+      - Seoul
+      - Delhi
+  - header: BULLDOZER OPTERON FAMILIES
+    members:
+      - Interlagos
+      - Valencia
+      - Zurich     
+  - header: K10 OPTERON FAMILIES
+    members:
+      - Magny-Cours
+      - Lisbon
+      - Istanbul
+      - Shanghai
+      - Suzuka
+      - Barcelona
+      - Budapest
+
+
+
+ 
+

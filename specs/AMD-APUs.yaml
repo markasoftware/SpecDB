@@ -2,22 +2,9 @@ name: APUs-AMD
 humanName: APUs
 type: none
 isPart: false
-topHeader: 'SELECT ARCHITECTURE:'
+topHeader: "SELECT PLATFORM:"
 sections:
-  - header: 7TH GEN. A-SERIES
-    members:
-      - Bristol-Ridge-APUs
-  - header: 4TH AND 5TH GEN. A-SERIES
-    members:
-      - Kaveri-APUs
-      - Kabini-APUs
-  - header: 3RD GEN. A-SERIES
-    members:
-      - Richland-APUs
-  - header: 2ND GEN. A-SERIES
-    members:
-        - Trinity-APUs
-  - header: 1ST GEN A-SERIES
-    members:
-        - Llano-APUs
-        
+ - members:
+    - APUs-DESKTOP
+    - APUs-MOBILE
+    - APUs-SERVER

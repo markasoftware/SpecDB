@@ -1,4 +1,4 @@
-name: Kaveri-X2
+name: Kaveri
 humanName: Kaveri
 type: CPU Architecture
 topHeader: 'SELECT CPU:'
@@ -11,5 +11,8 @@ data:
 sections:
   - header: Standard SKUs
     members:
+     - 840R
+     - 860K
+     - 870K
+     - 880K
      - 450s
-  
