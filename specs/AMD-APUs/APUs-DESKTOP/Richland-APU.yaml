@@ -1,5 +1,5 @@
 name: Richland-APUs
-humanName: Richland(APUs)
+humanName: Richland
 type: APU Architecture
 isPart: false
 topHeader: 'SELECT APU:'

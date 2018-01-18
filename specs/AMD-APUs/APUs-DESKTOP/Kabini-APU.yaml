@@ -1,5 +1,5 @@
 name: Kabini-APUs
-humanName: Kabini(APUs)
+humanName: Kabini
 type: APU Architecture
 isPart: false
 topHeader: 'SELECT APU:'
