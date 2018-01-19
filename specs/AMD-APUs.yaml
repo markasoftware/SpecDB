@@ -6,8 +6,8 @@ topHeader: "SELECT PLATFORM:"
 sections:
  - members:
     - APUs-DESKTOP
-    - APUs-MOBILE
-    - APUs-ULTRA-MOBILE
-    - APUs-EMBEDDED
-    - APUs-SERVER
-    - APUs-CUSTOM
+#    - APUs-MOBILE
+#    - APUs-ULTRA-MOBILE
+#    - APUs-EMBEDDED
+#    - APUs-SERVER
+#    - APUs-CUSTOM

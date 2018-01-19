@@ -6,5 +6,5 @@ topHeader: "SELECT PLATFORM:"
 sections:
  - members:
     - CPUs-DESKTOP
-    - CPUs-MOBILE
+#    - CPUs-MOBILE
     - CPUs-SERVER

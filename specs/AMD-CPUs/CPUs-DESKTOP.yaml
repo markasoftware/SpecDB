@@ -38,9 +38,9 @@ sections:
       - Regor-Athlon
       - Sargas
       - Kuma
- #- header: ATHLON 64 FAMILIES
- #   members:
- #     - Brisbane
+  - header: ATHLON 64 FAMILIES
+    members:
+      - Brisbane
  #     - Windsor
  #     - Toledo
  #     - Manchester

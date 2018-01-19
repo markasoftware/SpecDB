@@ -1,0 +1,10 @@
+name: X2-5400+BE(B)
+humanName: X2 5400+ Black Edition Brisbane
+isPart: true
+type: CPU
+inherits:
+  - Brisbane
+data:
+  Base Frequency: 2.8 Ghz
+  Release Date: '2008-06'
+  Unlocked: True

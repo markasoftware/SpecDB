@@ -1,0 +1,8 @@
+name: X2-4600+(B)
+humanName: X2 4600+ Brisbane
+isPart: true
+type: CPU
+inherits:
+  - Brisbane
+data:
+  Base Frequency: 2.4 Ghz

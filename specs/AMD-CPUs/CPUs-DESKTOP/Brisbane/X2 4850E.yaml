@@ -1,0 +1,10 @@
+name: X2-4850E(B)
+humanName: X2 4850E Brisbane
+isPart: true
+type: CPU
+inherits:
+  - Brisbane
+data:
+  Base Frequency: 2.5 Ghz
+  Release Date: '2008-03-05'
+  TDP: 45 W

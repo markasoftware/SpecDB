@@ -1,0 +1,10 @@
+name: X2-3250E(B)
+humanName: X2 3250E Brisbane
+isPart: true
+type: CPU
+inherits:
+  - Brisbane
+data:
+  Base Frequency: 2.3 Ghz
+  Release Date: '2008-Q4'
+  TDP: 22 W

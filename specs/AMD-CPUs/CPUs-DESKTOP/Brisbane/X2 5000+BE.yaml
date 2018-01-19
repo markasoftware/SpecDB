@@ -1,0 +1,10 @@
+name: X2-5000+BE(B)
+humanName: X2 5000+ Black Edition Brisbane
+isPart: true
+type: CPU
+inherits:
+  - Brisbane
+data:
+  Base Frequency: 2.6 Ghz
+  Release Date: '2007-09-05'
+  Unlocked: True

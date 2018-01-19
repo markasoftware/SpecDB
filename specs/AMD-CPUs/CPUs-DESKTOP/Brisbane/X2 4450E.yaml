@@ -1,0 +1,10 @@
+name: X2-4450E(B)
+humanName: X2 4450E Brisbane
+isPart: true
+type: CPU
+inherits:
+  - Brisbane
+data:
+  Base Frequency: 2.3 Ghz
+  Release Date: '2008-04-21'
+  TDP: 45 W
