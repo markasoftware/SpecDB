@@ -1,0 +1,19 @@
+name: Toledo
+humanName: Toledo
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2005-05-31'
+  Lithography: 90 nm
+  Sockets:
+  - 939
+  Foundry: AMD Foundries
+sections:
+  - header: Standard SKUs
+    members:
+      - X2-3800+(T)
+      - X2-4200+(T)
+      - X2-4400+(T)
+      - X2-4600+(T)
+      - X2-4800+(T)
+      - FX-60

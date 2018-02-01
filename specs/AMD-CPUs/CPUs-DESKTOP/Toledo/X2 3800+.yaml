@@ -1,0 +1,10 @@
+name: X2-3800+(T)
+humanName: X2 3800+ Toledo
+isPart: true
+type: CPU
+inherits:
+  - Toledo
+data:
+  Base Frequency:  2.0 GHz
+  Release Date: '2005-08-01'
+

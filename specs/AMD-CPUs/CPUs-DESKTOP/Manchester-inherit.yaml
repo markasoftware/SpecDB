@@ -1,20 +1,20 @@
 hidden: true
-name: Windsor
+name: Manchester
 data:
   Architecture: K8
   Lithography: 90 nm
-  Stepping: F3
+  Stepping: E4
   Core Count: 2
   Thread Count: 2
   L2 Cache (Total): 1 MiB
-  Socket: AM2
+  Socket: '939'
   TDP: 89W
   L1 Cache (Data): 128 KiB
   L1 Cache (Instruction): 128 KiB
-  Max Memory Frequency: 1066 MHz
+  Max Memory Frequency: 400 MHz
   Max Memory Channels: 2
-  Unlocked: true
   AVX/SSE/MMX: SSE3
+  Unlocked: true
   FMA4: false
   FMA3: false
   BMI: No
@@ -24,21 +24,3 @@ data:
     - AMD-V
     - E3D-Now!
   Compatible Chipsets:
-    - 870
-    - 790FX
-    - 790X
-    - 790GX
-    - 785G
-    - 785E
-    - 780G
-    - 780V
-    - 780E
-    - 770
-    - 760G
-    - 740G
-    - 740
-    - 690V
-    - 690G
-    - 580X
-    - 570X
-    - 550X

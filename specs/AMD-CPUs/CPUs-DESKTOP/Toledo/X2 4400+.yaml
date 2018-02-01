@@ -1,0 +1,10 @@
+name: X2-4400+(T)
+humanName: X2 4400+ Toledo
+isPart: true
+type: CPU
+inherits:
+  - Toledo
+data:
+  Base Frequency:  2.2 GHz
+  Release Date: '2005-05-31'
+  L2 Cache (Total): 2 MiB

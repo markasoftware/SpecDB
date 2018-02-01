@@ -1,0 +1,17 @@
+name: Manchester
+humanName: Manchester
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2005-05-31'
+  Lithography: 90 nm
+  Sockets:
+  - 939
+  Foundry: AMD Foundries
+sections:
+  - header: Standard SKUs
+    members:
+      - X2-3600+(M)
+      - X2-3800+(M)
+      - X2-4200+(M)
+      - X2-4600+(M)

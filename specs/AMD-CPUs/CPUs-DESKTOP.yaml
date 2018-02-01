@@ -42,8 +42,8 @@ sections:
     members:
       - Brisbane
       - Windsor
- #     - Toledo
- #     - Manchester
+      - Toledo
+      - Manchester
  #     - Lima
  #     - Orleans
  #     - Toledo

@@ -1,0 +1,9 @@
+name: X2-4600+(T)
+humanName: X2 4600+ Toledo
+isPart: true
+type: CPU
+inherits:
+  - Toledo
+data:
+  Base Frequency:  2.4 GHz
+  Release Date: '2005-05-31'
