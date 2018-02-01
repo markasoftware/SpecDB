@@ -24,6 +24,9 @@ module.exports = {
     getList: () => location.hash.slice(3).split(',').filter(c => c),
     add: newName => {
         const curList = module.exports.getList();
+        if(curList.includes(newName)) {
+            return;
+        }
         if(curList.length >= 6) {
             return showError('Maximum 6 parts at once');
         }
@@ -42,9 +45,7 @@ module.exports = {
         if(screen.availWidth <= 800 && screen.availWidth < screen.availHeight) {
             specViewer.style.animation = 'blinky 300ms';
         }
-        if(!module.exports.getList().includes(newName)) {
-            m.route.set('/' + module.exports.getList().concat(newName).join(','));
-        }
+        m.route.set('/' + curList.concat(newName).join(','));
     },
     remove: oldName => m.route.set('/' + module.exports.getList().filter(c => c !== oldName).join(',')),
 }
