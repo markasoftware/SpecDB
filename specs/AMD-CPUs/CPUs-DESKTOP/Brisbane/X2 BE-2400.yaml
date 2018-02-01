@@ -5,6 +5,6 @@ type: CPU
 inherits:
   - Brisbane
 data:
-  Base Frequency: 2.3 Ghz
+  Base Frequency: 2.3 GHz
   Release Date: '2008-10-08'
   TDP: 45 W

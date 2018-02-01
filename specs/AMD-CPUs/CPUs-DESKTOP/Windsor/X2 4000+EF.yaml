@@ -1,0 +1,11 @@
+name: X2-4000+(WEF)
+humanName: X2 4000+ Windsor EF
+isPart: true
+type: CPU
+inherits:
+  - Windsor
+data:
+  Base Frequency: 2.0 GHz
+  Release Date: '2007-02-20'
+  TDP: 65 W
+  L2 Cache (Total): 2 MiB

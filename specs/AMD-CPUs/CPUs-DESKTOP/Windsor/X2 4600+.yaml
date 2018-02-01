@@ -1,0 +1,9 @@
+name: X2-4600+(W)
+humanName: X2 4600+ Windsor
+isPart: true
+type: CPU
+inherits:
+  - Windsor
+data:
+  Base Frequency: 2.4 GHz
+  Release Date: '2006-05-23'

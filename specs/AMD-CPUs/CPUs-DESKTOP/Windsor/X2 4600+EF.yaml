@@ -1,0 +1,10 @@
+name: X2-4600+(WEF)
+humanName: X2 4600+ Windsor EF
+isPart: true
+type: CPU
+inherits:
+  - Windsor
+data:
+  Base Frequency: 2.4 GHz
+  Release Date: '2006-05-23'
+  TDP: 65 W

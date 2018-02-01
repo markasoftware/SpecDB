@@ -1,0 +1,10 @@
+name: X2-3800+(W)
+humanName: X2 3800+ Windsor
+isPart: true
+type: CPU
+inherits:
+  - Windsor
+data:
+  Base Frequency:  2.0 GHz
+  Release Date: '2006-05-23'
+

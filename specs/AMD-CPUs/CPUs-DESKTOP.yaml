@@ -41,7 +41,7 @@ sections:
   - header: ATHLON 64 FAMILIES
     members:
       - Brisbane
- #     - Windsor
+      - Windsor
  #     - Toledo
  #     - Manchester
  #     - Lima

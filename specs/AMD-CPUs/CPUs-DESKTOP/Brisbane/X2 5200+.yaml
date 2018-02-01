@@ -5,5 +5,5 @@ type: CPU
 inherits:
   - Brisbane
 data:
-  Base Frequency: 2.7 Ghz
+  Base Frequency: 2.7 GHz
   Release Date: '2007-10-08'

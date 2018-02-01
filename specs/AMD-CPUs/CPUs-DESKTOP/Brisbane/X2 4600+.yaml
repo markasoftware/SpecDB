@@ -5,4 +5,4 @@ type: CPU
 inherits:
   - Brisbane
 data:
-  Base Frequency: 2.4 Ghz
+  Base Frequency: 2.4 GHz
