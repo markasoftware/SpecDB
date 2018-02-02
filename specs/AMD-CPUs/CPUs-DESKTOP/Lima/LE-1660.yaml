@@ -1,0 +1,9 @@
+name: LE-1660
+humanName: LE-1660
+isPart: true
+type: CPU
+inherits:
+  - Lima
+data:
+  Base Frequency: 2.8 GHz
+  Release Date: '2008'

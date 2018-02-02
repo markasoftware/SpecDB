@@ -1,0 +1,20 @@
+name: Brisbane
+humanName: Brisbane
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2007-02-20'
+  Lithography: 65 nm
+  Sockets:
+  - AM2
+  Foundry: AMD Foundries
+sections:
+  - header: Standard SKUs
+    members:
+      - 2650E
+      - 2850E
+      - 3500+(L)
+      - 3800+(L)
+      - 1640
+      - 1640B
+      - 1660

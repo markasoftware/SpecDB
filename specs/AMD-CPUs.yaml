@@ -8,3 +8,4 @@ sections:
     - CPUs-DESKTOP
 #    - CPUs-MOBILE
     - CPUs-SERVER
+#   - CPUs-EMBEDDED

@@ -1,0 +1,9 @@
+name: LE-1640B
+humanName: LE-1640B
+isPart: true
+type: CPU
+inherits:
+  - Lima
+data:
+  Base Frequency: 2.7 GHz
+  Release Date: '2008-04-28'
