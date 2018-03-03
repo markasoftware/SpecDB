@@ -23,7 +23,7 @@
     "natural-compare": "^1.4.0",
     "sw-precache": "^5.2.0",
     "tap-spec": "*",
-    "tape": "^4",
+    "tape": "^4.9.0",
     "uglify-js": "^2"
   },
   "author": "Mark Polyakov",

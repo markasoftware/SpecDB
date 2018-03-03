@@ -6,46 +6,46 @@ const specData = require('spec-data');
 
 let showErrorLock = false;
 const showError = msg => {
-    if(showErrorLock) return;
-    const errorElt = document.querySelector('#error');
-    showErrorLock = true;
-    errorElt.textContent = msg;
-    errorElt.style.transform = 'translateY(6em)';
-    setTimeout(() => {
-        errorElt.style.transform = 'none';
-        setTimeout(() => showErrorLock = false, 500);
-    }, 2500);
+	if(showErrorLock) return;
+	const errorElt = document.querySelector('#error');
+	showErrorLock = true;
+	errorElt.textContent = msg;
+	errorElt.style.transform = 'translateY(6em)';
+	setTimeout(() => {
+		errorElt.style.transform = 'none';
+		setTimeout(() => showErrorLock = false, 500);
+	}, 2500);
 }
 
 const specViewer = document.getElementById('spec-viewer');
 
 module.exports = {
-    // c => c does the work of geting rid of empty strings, which occurs when there is no parts (empty string input)
-    getList: () => location.hash.slice(3).split(',').filter(c => c),
-    add: newName => {
-        const curList = module.exports.getList();
-        if(curList.includes(newName)) {
-            return;
-        }
-        if(curList.length >= 6) {
-            return showError('Maximum 6 parts at once');
-        }
-        const typeCompat = {
-            'APU': ['APU', 'CPU', 'Graphics Card'],
-            'Graphics Card': ['Graphics Card', 'APU'],
-            'CPU': ['CPU', 'APU'],
-        };
-        if(curList.length > 0 && !curList.every(c => typeCompat[specData[c].type].includes(specData[newName].type))) {
-            return showError('All parts must be comparable! (no CPU-vs-GPU)');
-        }
-        specViewer.style.animation = 'none';
-        // force reflow
-        // I believe that this is the only legitimate use of the void function, apart from bookmarklets
-        void(specViewer.offsetHeight);
-        if(screen.availWidth <= 800 && screen.availWidth < screen.availHeight) {
-            specViewer.style.animation = 'blinky 300ms';
-        }
-        m.route.set('/' + curList.concat(newName).join(','));
-    },
-    remove: oldName => m.route.set('/' + module.exports.getList().filter(c => c !== oldName).join(',')),
+	// c => c does the work of geting rid of empty strings, which occurs when there is no parts (empty string input)
+	getList: () => location.hash.slice(3).split(',').filter(c => c),
+	add: newName => {
+		const curList = module.exports.getList();
+		if(curList.includes(newName)) {
+			return;
+		}
+		if(curList.length >= 6) {
+			return showError('Maximum 6 parts at once');
+		}
+		const typeCompat = {
+			'APU': ['APU', 'CPU', 'Graphics Card'],
+			'Graphics Card': ['Graphics Card', 'APU'],
+			'CPU': ['CPU', 'APU'],
+		};
+		if(curList.length > 0 && !curList.every(c => typeCompat[specData[c].type].includes(specData[newName].type))) {
+			return showError('All parts must be comparable! (no CPU-vs-GPU)');
+		}
+		specViewer.style.animation = 'none';
+		// force reflow
+		// I believe that this is the only legitimate use of the void function, apart from bookmarklets
+		void(specViewer.offsetHeight);
+		if(screen.availWidth <= 800 && screen.availWidth < screen.availHeight) {
+			specViewer.style.animation = 'blinky 300ms';
+		}
+		m.route.set('/' + curList.concat(newName).join(','));
+	},
+	remove: oldName => m.route.set('/' + module.exports.getList().filter(c => c !== oldName).join(',')),
 }

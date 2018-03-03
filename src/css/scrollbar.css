@@ -1,7 +1,7 @@
 /* damn this stuff looks so cool */
 ::-webkit-scrollbar {
-    width: 13px;
+	width: 13px;
 }
 ::-webkit-scrollbar-thumb:vertical {
-    background-color: #ddd;
+	background-color: #ddd;
 }

@@ -1,164 +1,164 @@
 #spec-viewer {
-    flex: 60vw;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-    padding: 2rem 0 0 0;
+	flex: 60vw;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	padding: 2rem 0 0 0;
 }
 #nothing-selected {
-    font-size: 4rem;
-    line-height: 4rem;
-    height: calc(95vh - 2.5rem);
-    font-style: italic;
-    text-align: center;
-    color: #888;
-    font-family: Quicksand, sans-serif;
+	font-size: 4rem;
+	line-height: 4rem;
+	height: calc(95vh - 2.5rem);
+	font-style: italic;
+	text-align: center;
+	color: #888;
+	font-family: Quicksand, sans-serif;
 }
 .justify-center {
-    justify-content: center;
+	justify-content: center;
 }
 #selected-parts-list {
-    margin-bottom: 2rem;
+	margin-bottom: 2rem;
 }
 h2.centered {
-    text-align: center;
-    width: 100%;
+	text-align: center;
+	width: 100%;
 }
 h2.top {
-    padding-top: 0;
+	padding-top: 0;
 }
 
 /* table stuff */
 .spec-tab-wrapper {
-    width: 100%;
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding: 0 1rem;
-    box-sizing: border-box;
+	width: 100%;
+	overflow-x: auto;
+	overflow-y: hidden;
+	padding: 0 1rem;
+	box-sizing: border-box;
 }
 .spec-tab {
-    background-color: #fff;
-    box-shadow: 0 0 5px #999;
-    border-collapse: collapse;
-    margin: 5vh auto;
-    max-width: calc(100% - 30px - 9rem);
+	background-color: #fff;
+	box-shadow: 0 0 5px #999;
+	border-collapse: collapse;
+	margin: 5vh auto;
+	max-width: calc(100% - 30px - 9rem);
 }
 .spec-tab th, .spec-tab td {
-    padding: 0.75em 1em;
-    border-left: 1px solid #ccc;
-    max-width: 10rem;
-    min-width: 4rem;
-    width: 10rem;
-    vertical-align: top;
+	padding: 0.75em 1em;
+	border-left: 1px solid #ccc;
+	max-width: 10rem;
+	min-width: 4rem;
+	width: 10rem;
+	vertical-align: top;
 }
 .spec-tab th {
-    font-weight: 600;
-    font-size: 1.1em;
+	font-weight: 600;
+	font-size: 1.1em;
 }
 .spec-tab tr:nth-child(even) {
-    background-color: #f7f7f7;
+	background-color: #f7f7f7;
 }
 .spec-tab .winner {
-    color: #ff4545;
+	color: #ff4545;
 }
 .spec-tab .row-header {
-    color: #777;
-    border-left: none;
-    width: 8vw;
-    font-family: Quicksand, sans-serif;
+	color: #777;
+	border-left: none;
+	width: 8vw;
+	font-family: Quicksand, sans-serif;
 }
 .spec-tab .left-corner {
-    border: none;
+	border: none;
 }
 .spec-tab .table-section-collapsed {
-    border: none;
-    text-align: center;
-    border: 1px solid #ccc;
-    border-left: none;
-    border-right: none;
-    background: repeating-linear-gradient(-45deg, #f7f7f7, #f7f7f7 10px, #fff 10px, #fff 20px);
+	border: none;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-left: none;
+	border-right: none;
+	background: repeating-linear-gradient(-45deg, #f7f7f7, #f7f7f7 10px, #fff 10px, #fff 20px);
 }
 .hr {
-    width: 80%;
-    position: relative;
-    left: 10%;
-    height: 1px;
-    background-color: #aaa;
+	width: 80%;
+	position: relative;
+	left: 10%;
+	height: 1px;
+	background-color: #aaa;
 }
 #info-links {
-    width: 100%;
-    color: #777;
-    text-align: center;
-    font-size: 0.9em;
-    margin-bottom: 1rem;
+	width: 100%;
+	color: #777;
+	text-align: center;
+	font-size: 0.9em;
+	margin-bottom: 1rem;
 }
 #info-links span {
-    color: #fff;
-    background-color: #ff4545;
-    padding: 0.2rem 0.5rem;
+	color: #fff;
+	background-color: #ff4545;
+	padding: 0.2rem 0.5rem;
 }
 #info-links a {
-    color: inherit;
-    text-decoration: underline;
-    transition: color 400ms;
+	color: inherit;
+	text-decoration: underline;
+	transition: color 400ms;
 }
 #info-links a:hover {
-    color: #ff4545;
+	color: #ff4545;
 }
 .table-option {
-    color: #999;
-    border: 2px solid transparent;
-    transition: all 250ms;
-    padding: 1em;
-    cursor: pointer;
-    margin: 0 1vw;
-    user-select: none;
+	color: #999;
+	border: 2px solid transparent;
+	transition: all 250ms;
+	padding: 1em;
+	cursor: pointer;
+	margin: 0 1vw;
+	user-select: none;
 }
 
 /* table sections stuff */
 .spec-tab td.table-section-hidden {
-    position: relative;
-    max-width: 0;
-    min-width: 0;
-    width: 0;
-    height: 0;    
-    padding: 0;
-    border: none;
-    cursor: pointer;
+	position: relative;
+	max-width: 0;
+	min-width: 0;
+	width: 0;
+	height: 0;	
+	padding: 0;
+	border: none;
+	cursor: pointer;
 }
 .table-section-hidden:hover .a {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 td.table-section-hidden.not-that-hidden {
-    height: 9rem;
+	height: 9rem;
 }
 .table-section-label {
-    position: absolute;
-    display: block;
-    transform-origin: top left;
-    transform: rotate(90deg);
-    width: 9rem;
-    text-align: center;
-    top: calc(50% - 4.5rem);
-    left: 4.5rem;
+	position: absolute;
+	display: block;
+	transform-origin: top left;
+	transform: rotate(90deg);
+	width: 9rem;
+	text-align: center;
+	top: calc(50% - 4.5rem);
+	left: 4.5rem;
 }
 .table-collapse-button {
-    font-size: 1.2rem;
-    left: 1rem;
-    top: 0.7rem;
+	font-size: 1.2rem;
+	left: 1rem;
+	top: 0.7rem;
 }
 .table-section-bracket {
-    position: absolute;
-    /* way too lazy to flip it properly */
-    transform-origin: center center;
-    transform: rotate(180deg);
-    height: calc(100% - 2rem);
-    top: 1rem;
-    left: 1rem;
-    min-height: 60px;
-    width: 30px;
+	position: absolute;
+	/* way too lazy to flip it properly */
+	transform-origin: center center;
+	transform: rotate(180deg);
+	height: calc(100% - 2rem);
+	top: 1rem;
+	left: 1rem;
+	min-height: 60px;
+	width: 30px;
 }
 .table-section-bracket div {
-    position: absolute;
+	position: absolute;
 }
 .bracket-curve {
   border-radius: 999px;

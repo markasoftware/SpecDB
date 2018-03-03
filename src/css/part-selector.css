@@ -1,131 +1,131 @@
 #part-selector {
-    flex: 40vw;
-    box-sizing: border-box;
-    /* otherwise, the scrollbar affects width and can mess things up */
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-    right: 0;
-    /* if this is ever changed, make sure to update mobile.css as well! */
-    box-shadow: 0 0 15px #999;
-    padding: 2rem;
-    background-color: #f7f7f7;
+	flex: 40vw;
+	box-sizing: border-box;
+	/* otherwise, the scrollbar affects width and can mess things up */
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	right: 0;
+	/* if this is ever changed, make sure to update mobile.css as well! */
+	box-shadow: 0 0 15px #999;
+	padding: 2rem;
+	background-color: #f7f7f7;
 }
 #part-selector span.a {
-    font-size: 14pt;
+	font-size: 14pt;
 }
 #part-selector span.separator {
-    color: #aaa;
-    padding: 0.5em;
+	color: #aaa;
+	padding: 0.5em;
 }
 #breadcrumbs {
-    font-family: Quicksand, sans-serif;
-    /* to center compared to search icon */
-    line-height: 3rem;
+	font-family: Quicksand, sans-serif;
+	/* to center compared to search icon */
+	line-height: 3rem;
 }
 .part {
-    min-height: 8em;
-    min-width: 250px;
-    width: 12vw;
-    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
-    background-color: #fff;
-    border-radius: 3px;
-    border-left: 5px solid #ff4545;
-    margin: 0 20px 20px 0;
-    cursor: pointer;
+	min-height: 8em;
+	min-width: 250px;
+	width: 12vw;
+	box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
+	background-color: #fff;
+	border-radius: 3px;
+	border-left: 5px solid #ff4545;
+	margin: 0 20px 20px 0;
+	cursor: pointer;
 }
 .part-padding {
-    padding: 15px;
-    overflow: none;
+	padding: 15px;
+	overflow: none;
 }
 .part-header {
-    font-size: 1.4em;
-    font-weight: 600;
+	font-size: 1.4em;
+	font-weight: 600;
 }
 .part-subtext {
-    font-size: 0.9em;
-    padding-top: 1em;
-    color: #888;
+	font-size: 0.9em;
+	padding-top: 1em;
+	color: #888;
 }
 #search-toggle-label {
-    float: right;
-    border: 2px solid transparent;
-    color: #777;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 3rem;
-    height: 3rem;
-    cursor: pointer;
-    box-sizing: border-box;
-    transition: all 300ms;
+	float: right;
+	border: 2px solid transparent;
+	color: #777;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 3rem;
+	height: 3rem;
+	cursor: pointer;
+	box-sizing: border-box;
+	transition: all 300ms;
 }
 #search-icon {
-    transform: rotate(45deg);
-    font-size: 2.5rem;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
+	transform: rotate(45deg);
+	font-size: 2.5rem;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
 }
 #searching-container {
-    display: none;
+	display: none;
 }
 #search-toggle:checked ~ #search-toggle-label {
-    border: 2px solid #f44;
-    color: #f44;
+	border: 2px solid #f44;
+	color: #f44;
 }
 #search-toggle:checked ~ #not-searching-container {
-    display: none;
+	display: none;
 }
 #search-toggle:checked ~ #searching-container {
-    display: block;
+	display: block;
 }
 #search-bar {
-    background-color: #ccc;
-    color: #888;
-    border: none;
-    font-size: 2rem;
-    padding: 0.5rem;
-    height: 3rem;
-    box-sizing: border-box;
-    width: 75%;
-    font-family: Quicksand, sans-serif;
+	background-color: #ccc;
+	color: #888;
+	border: none;
+	font-size: 2rem;
+	padding: 0.5rem;
+	height: 3rem;
+	box-sizing: border-box;
+	width: 75%;
+	font-family: Quicksand, sans-serif;
 }
 
 #mobile-toggle-label-wrapper {
-    display: none;
-    position: fixed;
-    right: 0;
-    top: 25%;
-    height: 4rem;
-    transition: transform 300ms;
-    z-index: 999;
+	display: none;
+	position: fixed;
+	right: 0;
+	top: 25%;
+	height: 4rem;
+	transition: transform 300ms;
+	z-index: 999;
 }
 #mobile-toggle-label {
-    border-top-left-radius: 999px;
-    border-bottom-left-radius: 999px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 2rem;
-    background-color: #f7f7f7;
-    box-shadow: 0 0 15px #999;
-    height: 100%;
-    /* for some reason 10vh isn't centered */
-    line-height: 3.5rem;
-    font-size: 1.5rem;
-    text-align: center;
-    color: #888;
-    cursor: pointer;
+	border-top-left-radius: 999px;
+	border-bottom-left-radius: 999px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 2rem;
+	background-color: #f7f7f7;
+	box-shadow: 0 0 15px #999;
+	height: 100%;
+	/* for some reason 10vh isn't centered */
+	line-height: 3.5rem;
+	font-size: 1.5rem;
+	text-align: center;
+	color: #888;
+	cursor: pointer;
 }
 #mobile-toggle-label-shadow-cover {
-    width: 20px;
-    height: 100%;
-    background-color: #f7f7f7;
-    position: absolute;
-    left: -2px;
-    top: 0;
+	width: 20px;
+	height: 100%;
+	background-color: #f7f7f7;
+	position: absolute;
+	left: -2px;
+	top: 0;
 }
 #mobile-toggle:checked ~ #mobile-toggle-label-wrapper {
-    transform: translateX(-90vw);
+	transform: translateX(-90vw);
 }
