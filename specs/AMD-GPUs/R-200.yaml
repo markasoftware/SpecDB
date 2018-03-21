@@ -6,7 +6,7 @@ topHeader: 'SELECT CARD:'
 data:
   Lithography: 28 nm
   DirectX Support: '12.0'
-  Vulkan Support: '1.0'
+  Vulkan Support: '1.1'
   Release Date: '2013-10-08'
 sections:
   - header: ENTHUSIAST

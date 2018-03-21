@@ -6,7 +6,7 @@ topHeader: 'SELECT CARD:'
 data:
   Lithography: 14 nm
   DirectX Support: '12.0'
-  Vulkan Support: '1.0'
+  Vulkan Support: '1.1'
   Release Date: '2016-06-29'
 sections:
   - header: MID RANGE
