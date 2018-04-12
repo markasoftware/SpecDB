@@ -1,0 +1,10 @@
+name: X2-BE-2350(B)
+humanName: X2 BE 2350 Brisbane
+isPart: true
+type: CPU
+inherits:
+  - Brisbane
+data:
+  Base Frequency: 2.1 GHz
+  Release Date: '2007-06-05'
+  TDP: 45 W

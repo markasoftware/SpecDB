@@ -1,0 +1,21 @@
+name: APUs-EMBEDDED
+humanName: EMBEDDED APUs
+type: none
+isPart: false
+topHeader: 'SELECT ARCHITECTURE:'
+sections:
+  - header: G-SERIES APUs
+    members:
+      - LX-Family
+      - Prairie Falcon
+      - Brown Falcon
+      - Crowned Eagle
+      - Steppe Eagle
+      - Kabini-E
+      - Ontario-E
+      - Zacate-E
+  - header: R-SERIES APUs
+    members:
+      - Trinity-E
+      - Bald Eagle
+      - Merlin Falcon

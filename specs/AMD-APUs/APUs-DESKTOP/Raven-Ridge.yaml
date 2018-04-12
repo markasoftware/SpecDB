@@ -1,0 +1,18 @@
+name: Raven-Ridge-APUs
+humanName: Raven Ridge
+type: APU Architecture
+isPart: false
+topHeader: 'SELECT APU:'
+data:
+  Lithography: 14nm
+  Release Date: '2018-02-12'
+  Sockets:
+    - AM4
+  DirectX Support: '12.0'
+  Vulkan Support: '1.1'
+sections:
+  - header: Standard SKUs
+    members:
+      - R3-2200G
+      - R5-2400G
+     

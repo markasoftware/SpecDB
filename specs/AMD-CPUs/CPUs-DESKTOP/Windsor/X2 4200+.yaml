@@ -1,0 +1,9 @@
+name: X2-4200+(W)
+humanName: X2 4200+ Windsor
+isPart: true
+type: CPU
+inherits:
+  - Windsor
+data:
+  Base Frequency: 2.2 GHz
+  Release Date: '2006-05-23'

@@ -1,0 +1,11 @@
+name: X2-4400+(WEF)
+humanName: X2 4400+ Windsor EF
+isPart: true
+type: CPU
+inherits:
+  - Windsor
+data:
+  Base Frequency: 2.2 GHz
+  Release Date: '2006-05-23'
+  L2 Cache (Total): 2 MiB
+  TDP: 65 W

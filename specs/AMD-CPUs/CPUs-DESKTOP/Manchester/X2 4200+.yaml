@@ -1,0 +1,10 @@
+name: X2-4200+(M)
+humanName: X2 4200+ Manchester
+isPart: true
+type: CPU
+inherits:
+  - Manchester
+data:
+  Base Frequency:  2.2 GHz
+  Release Date: '2005-05-31'
+

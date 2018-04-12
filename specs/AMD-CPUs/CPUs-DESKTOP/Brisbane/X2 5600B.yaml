@@ -1,0 +1,9 @@
+name: X2-5600B(B)
+humanName: X2 5600B Brisbane
+isPart: true
+type: CPU
+inherits:
+  - Brisbane
+data:
+  Base Frequency: 2.9 GHz
+  Release Date: '2008-08-18'

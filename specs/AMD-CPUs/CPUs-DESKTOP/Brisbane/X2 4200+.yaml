@@ -1,0 +1,9 @@
+name: X2-4200+(B)
+humanName: X2 4200+ Brisbane
+isPart: true
+type: CPU
+inherits:
+  - Brisbane
+data:
+  Base Frequency: 2.2 GHz
+  Release Date: '2007'

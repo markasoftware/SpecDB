@@ -1,0 +1,10 @@
+name: X2-BE-2300(B)
+humanName: X2 BE 2300 Brisbane
+isPart: true
+type: CPU
+inherits:
+  - Brisbane
+data:
+  Base Frequency: 1.9 GHz
+  Release Date: '2007-06-05'
+  TDP: 45 W

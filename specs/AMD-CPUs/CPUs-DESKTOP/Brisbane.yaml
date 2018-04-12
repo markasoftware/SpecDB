@@ -1,0 +1,47 @@
+name: Brisbane
+humanName: Brisbane
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2006-12-05'
+  Lithography: 65 nm
+  Sockets:
+  - AM2
+  Foundry: AMD Foundries
+sections:
+  - header: Black Edition SKUs
+    members:
+      - X2-5000+BE(B)
+      - X2-5400+BE(B)
+  - header: Standard SKUs
+    members:
+      - X2-3600+(B)
+      - X2-4000+(B)
+      - X2-4200+(B)
+      - X2-4400+(B)
+      - X2-4600+(B)
+      - X2-4800+(B)
+      - X2-5000+(B)
+      - X2-5200+(B)
+      - X2-5400+(B)
+      - X2-5600+(B)
+      - X2-5800+(B)
+      - X2-6000+(B)
+  - header: Low Power SKUs
+    members:
+      - X2-BE-2300(B)
+      - X2-BE-2350(B)
+      - X2-BE-2400(B)
+      - X2-3250E(B)
+      - X2-4050E(B)
+      - X2-4450E(B)
+      - X2-4850E(B)
+      - X2-5050E(B)
+  - header: Businesss Class SKUs
+    members:
+      - X2-4450B(B)
+      - X2-4850B(B)
+      - X2-5000B(B)
+      - X2-5200B(B)
+      - X2-5400B(B)
+      - X2-5600B(B)

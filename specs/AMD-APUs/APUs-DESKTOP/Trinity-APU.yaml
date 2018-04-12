@@ -1,0 +1,24 @@
+name: Trinity-APUs
+humanName: Trinity
+type: APU Architecture
+isPart: false
+topHeader: 'SELECT APU:'
+data:
+  Lithography: 32nm
+  Release Date: '2012-10-01'
+  Sockets:
+    - FM2
+  DirectX Support: '11.0'
+sections:
+  - header: Standard SKUs
+    members:
+      - A4-5300
+      - A4-5300B
+      - A6-5400K
+      - A6-5400B
+      - A8-5500
+      - A8-5500B
+      - A8-5600K
+      - A10-5700
+      - A10-5800K
+      - A10-5800B

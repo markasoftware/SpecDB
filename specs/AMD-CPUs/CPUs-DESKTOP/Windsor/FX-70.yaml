@@ -1,0 +1,12 @@
+name: FX-70
+humanName: FX-70
+isPart: true
+type: CPU
+inherits:
+  - Windsor
+data:
+  Base Frequency: 2.6 GHz
+  Release Date: '2006-11-30'
+  L2 Cache (Total): 2 MiB
+  TDP: 125 W
+  Socket: 1207 FX

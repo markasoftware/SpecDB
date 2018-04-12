@@ -1,0 +1,43 @@
+hidden: true
+name: Lima
+data:
+  Architecture: K8
+  Lithography: 65 nm
+  Stepping: G2
+  Core Count: 1
+  Thread Count: 1
+  L2 Cache (Total): 512 KiB
+  Socket: AM2
+  TDP: 45W
+  L1 Cache (Data): 64 KiB
+  L1 Cache (Instruction): 64 KiB
+  Max Memory Frequency: 1066 MHz
+  Max Memory Channels: 2
+  AVX/SSE/MMX: SSE3
+  FMA4: false
+  FMA3: false
+  BMI: No
+  AES: false
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - E3D-Now!
+  Compatible Chipsets:
+    - 870
+    - 790FX
+    - 790X
+    - 790GX
+    - 785G
+    - 785E
+    - 780G
+    - 780V
+    - 780E
+    - 770
+    - 760G
+    - 740G
+    - 740
+    - 690V
+    - 690G
+    - 580X
+    - 570X
+    - 550X

@@ -1,0 +1,9 @@
+name: X2-5400B(B)
+humanName: X2 5400B Brisbane
+isPart: true
+type: CPU
+inherits:
+  - Brisbane
+data:
+  Base Frequency: 2.8 GHz
+  Release Date: '2008-04-28'

@@ -1,0 +1,11 @@
+name: FX-62
+humanName: FX-62
+isPart: true
+type: CPU
+inherits:
+  - Windsor
+data:
+  Base Frequency: 2.6 GHz
+  Release Date: '2006-11-30'
+  L2 Cache (Total): 2 MiB
+  TDP: 125 W

@@ -1,0 +1,18 @@
+name: APUs-DESKTOP
+humanName: DESKTOP APUs
+type: none
+isPart: false
+topHeader: 'SELECT ARCHITECTURE:'
+sections:
+  - header: RYZEN APUs
+    members:
+      - Raven-Ridge-APUs
+  - header: A-SERIES APUs
+    members:
+      - Bristol-Ridge-APUs
+      - Kaveri-APUs
+      - Kabini-APUs
+      - Richland-APUs
+      - Trinity-APUs
+      - Llano-APUs
+        
