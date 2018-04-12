@@ -1,0 +1,9 @@
+name: X2-5000+(B)
+humanName: X2 5000+ Brisbane
+isPart: true
+type: CPU
+inherits:
+  - Brisbane
+data:
+  Base Frequency: 2.6 GHz
+  Release Date: '2006-12-05'

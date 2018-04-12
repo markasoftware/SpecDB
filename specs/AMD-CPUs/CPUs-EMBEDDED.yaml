@@ -1,0 +1,9 @@
+name: CPUs-EMBEDDED
+humanName: EMBEDDED CPUs
+type: none
+isPart: false
+topHeader: "SELECT ARCHITECTURE:"
+sections:
+  - header: WAT FAMILIES
+    members:
+      - Lima

@@ -1,0 +1,10 @@
+name: X2-4600+(M)
+humanName: X2 4600+ Manchester
+isPart: true
+type: CPU
+inherits:
+  - Manchester
+data:
+  Base Frequency:  2.4 GHz
+  Release Date: '2005-05-31'
+  TDP: 110 W

@@ -1,0 +1,102 @@
+name: CPUs-DESKTOP
+humanName: DESKTOP CPUs
+type: none
+isPart: false
+topHeader: "SELECT ARCHITECTURE:"
+sections:
+# Comments mean it has not yet been finished
+  - header: RYZEN FAMILIES
+    members:
+      - Ryzen
+      - Threadripper
+  - header: AMD FX FAMILIES
+    members:
+      - Piledriver
+      - Bulldozer
+  - header: PHENOM FAMILIES
+    members:
+      - Thuban
+      - Zosma
+      - Deneb
+      - Propus
+      - Heka
+      - Callisto
+      - Regor
+      - Agena
+      - Toliman
+  - header: 15H ATHLON FAMILIES
+    members:
+      - Bristol-Ridge
+      - Carrizo
+      - Kaveri
+      - Richland
+      - Trinity
+  - header: K10 ATHLON FAMILIES
+    members:
+      - Propus-Athlon
+      - Rana
+      - Regor-Athlon
+      - Sargas
+      - Kuma
+  - header: ATHLON 64 FAMILIES
+    members:
+      - Brisbane
+      - Windsor
+      - Toledo
+      - Manchester
+      - Lima
+ #     - Orleans
+ #     - Toledo
+ #     - San-Diego
+ #     - Venice
+ #     - Winchester
+ #     - Newcastle
+ #     - ClawHammer
+ #     - SledgeHammer
+  - header: ATHLON XP FAMILIES
+    members:
+      - Palomino
+      - Thoroughbred
+      - Barton
+      - Thorton
+#  - header: ATHLON FAMILIES
+#   members:
+#      - Thunderbird
+#      - Orion
+#      - Pluto
+#      - Argon
+  - header: SEMPRON FAMILIES
+    members:
+      - Richland-Sempron
+      - Trinity-Sempron
+      - Regor-Sempron
+      - Sargas-Sempron
+#      - Brisbane-Sempron
+#      - Sparta-Sempron
+#      - Manila-Sempron
+#      - Palermo-Sempron
+#      - Paris-Sempron
+#      - Barton-Sempron
+#      - Thorton-Sempron
+#      - Thoroughbred-Sempron
+#  - header: DURON FAMILIES
+#    members:
+#      - Applebred
+#      - Morgan
+#      - Spitfire
+#  - header: K6 FAMILIES
+#    members
+#      - Sharptooth
+#      - Chomper
+#      - Little Foot
+#      - Model 6
+#  - header: VINTAGE FAMILIES
+#    members:
+#      - 5k86
+#      - SSA/5
+#      - Am5x86
+#      - Am486
+#      - Am386
+#      - Am286
+      
+    

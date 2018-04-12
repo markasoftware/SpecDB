@@ -1,0 +1,10 @@
+name: 2650E
+humanName: 2650E
+isPart: true
+type: CPU
+inherits:
+  - Lima
+data:
+  Base Frequency: 1.6 GHz
+  Release Date: '2008-Q4'
+  TDP: 15 W

@@ -1,0 +1,18 @@
+name: APUs-UlTRA-MOBILE
+humanName: UlTRA MOBILE APUs
+type: none
+isPart: false
+topHeader: 'SELECT ARCHITECTURE:'
+sections:
+  - header: ULTRA MOBILE PLATFORMS
+    members:
+      - Desna
+      - Ontario
+      - Zacate
+      - Hondo
+      - Kabini
+      - Temash
+      - Beema
+      - Mullins
+      - Carrizo-L
+      - Stoney Ridge

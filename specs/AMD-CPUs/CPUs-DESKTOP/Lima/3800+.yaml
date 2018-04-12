@@ -1,0 +1,9 @@
+name: 3800+(L)
+humanName: 3800+ Lima
+isPart: true
+type: CPU
+inherits:
+  - Lima
+data:
+  Base Frequency: 2.2 GHz
+  Release Date: '2007-02-20'

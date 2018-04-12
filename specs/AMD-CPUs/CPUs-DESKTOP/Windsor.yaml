@@ -1,0 +1,45 @@
+name: Windsor
+humanName: Windsor
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2006-05-23'
+  Lithography: 90 nm
+  Sockets:
+  - AM2
+  Foundry: AMD Foundries
+sections:
+  - header: Standard SKUs
+    members:
+      - X2-3800+(W)
+      - X2-4000+(W)
+      - X2-4200+(W)
+      - X2-4400+(W)
+      - X2-4600+(W)
+      - X2-4800+(W)
+      - X2-5000+(W)
+      - X2-5200+(W)
+      - X2-5400+(W)
+      - X2-5600+(W)
+      - X2-6000+(W)
+  - header: Energy-Efficient SKUs
+    members:
+      - X2-3600+(WEF)
+      - X2-3800+(WEF)
+      - X2-4000+(WEF)
+      - X2-4200+(WEF)
+      - X2-4400+(WEF)
+      - X2-4600+(WEF)
+      - X2-4800+(WEF)
+      - X2-5000+(WEF)
+      - X2-5200+(WEF)
+  - header: Low Power SKUs
+    members:
+      - X2-3800+(WUP)
+  - header: Unlocked SKUs
+    members:
+     - X2-6400+BE(W)
+     - FX-62
+     - FX-70
+     - FX-72
+     - FX-74

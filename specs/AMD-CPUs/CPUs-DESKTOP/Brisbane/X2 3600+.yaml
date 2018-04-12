@@ -1,0 +1,9 @@
+name: X2-3600+(B)
+humanName: X2 3600+ Brisbane
+isPart: true
+type: CPU
+inherits:
+  - Brisbane
+data:
+  Base Frequency: 1.9 GHz
+  Release Date: '2007-01'

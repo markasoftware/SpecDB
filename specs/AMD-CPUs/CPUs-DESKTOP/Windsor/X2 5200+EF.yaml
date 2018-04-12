@@ -1,0 +1,11 @@
+name: X2-5200+(WEF)
+humanName: X2 5200+ Windsor EF
+isPart: true
+type: CPU
+inherits:
+  - Windsor
+data:
+  Base Frequency: 2.6 GHz
+  Release Date: '2007-02-20'
+  L2 Cache (Total): 2 MiB
+  TDP: 65 W

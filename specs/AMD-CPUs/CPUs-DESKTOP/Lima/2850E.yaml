@@ -1,0 +1,10 @@
+name: 2850E
+humanName: 2850E
+isPart: true
+type: CPU
+inherits:
+  - Lima
+data:
+  Base Frequency: 1.8 GHz
+  Release Date: '2008-Q4'
+  TDP: 22 W

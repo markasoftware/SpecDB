@@ -1,0 +1,17 @@
+name: Richland
+humanName: Richland
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2013-06'
+  Lithography: 32 nm
+  Sockets:
+  - FM2
+  Foundry: Global Foundries
+sections:
+  - header: Standard SKUs
+    members:
+     - 750
+     - 760K
+     - 350
+     - 370K

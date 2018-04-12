@@ -1,0 +1,10 @@
+name: X2-5800+(B)
+humanName: X2 5800+ Brisbane
+isPart: true
+type: CPU
+inherits:
+  - Brisbane
+data:
+  Base Frequency: 3.0 GHz
+  Release Date: '2008-04'
+  TDP: 89 W

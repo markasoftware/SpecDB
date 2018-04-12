@@ -1,0 +1,9 @@
+name: X2-5400+(W)
+humanName: X2 5400+ Windsor
+isPart: true
+type: CPU
+inherits:
+  - Windsor
+data:
+  Base Frequency: 2.8 GHz
+  Release Date: '2006-12-12'

@@ -1,0 +1,22 @@
+isPart: true
+name: R3-2200U
+humanName: R3-2200U
+type: APU
+inherits:
+  - GCN 5
+  - Raven-Ridge
+data:
+ 
+  Core Count: 2
+  Thread Count: 4
+  Base Frequency: 2.5 GHz
+  Boost Frequency: 3.4 GHz
+  L3 Cache (Total): 4 MiB
+  L2 Cache (Total): 1 MiB
+  L1 Cache (Instruction): 128 KiB
+  L1 Cache (Data): 64 KiB
+  GPU Model: RX Vega 3
+  Shader Processor Count: 192
+  Texture Mapping Unit Count: 12
+  Render Output Unit Count: 4
+  GPU Base Frequency: 1100 MHz

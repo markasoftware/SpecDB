@@ -1,0 +1,26 @@
+hidden: true
+name: Toledo
+data:
+  Architecture: K8
+  Lithography: 90 nm
+  Stepping: E6
+  Core Count: 2
+  Thread Count: 2
+  L2 Cache (Total): 1 MiB
+  Socket: '939'
+  TDP: 89W
+  L1 Cache (Data): 128 KiB
+  L1 Cache (Instruction): 128 KiB
+  Max Memory Frequency: 400 MHz
+  Max Memory Channels: 2
+  AVX/SSE/MMX: SSE3
+  Unlocked: true
+  FMA4: false
+  FMA3: false
+  BMI: No
+  AES: false
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - E3D-Now!
+  Compatible Chipsets:

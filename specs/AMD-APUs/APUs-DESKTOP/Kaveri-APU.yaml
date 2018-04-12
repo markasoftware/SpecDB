@@ -1,0 +1,26 @@
+name: Kaveri-APUs
+humanName: Kaveri
+type: APU Architecture
+isPart: false
+topHeader: 'SELECT APU:'
+data:
+  Lithography: 28nm
+  Release Date: '2014-01-14'
+  Sockets:
+    - FM2+
+  DirectX Support: '12.0'
+  Vulkan Support: '1.0'
+sections:
+  - header: Standard SKUs
+    members:
+      - A6-7400K
+      - A6-7470K
+      - A8-7600
+      - A8-7650K
+      - A8-7670K
+      - A10-7700K
+      - A10-7800
+      - A10-7850K
+      - A10-7860K
+      - A10-7870K
+      - A10-7890K
