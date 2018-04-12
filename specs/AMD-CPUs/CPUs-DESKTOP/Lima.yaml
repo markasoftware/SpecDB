@@ -1,5 +1,5 @@
-name: Brisbane
-humanName: Brisbane
+name: Lima
+humanName: Lima
 type: CPU Architecture
 topHeader: 'SELECT CPU:'
 data:
@@ -15,6 +15,6 @@ sections:
       - 2850E
       - 3500+(L)
       - 3800+(L)
-      - 1640
-      - 1640B
-      - 1660
+      - LE-1640(L)
+      - LE-1640B(L)
+      - LE-1660(L)

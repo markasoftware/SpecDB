@@ -4,7 +4,7 @@ data:
   Architecture: 5th Gen GCN
   Lithography: 14 nm
   DirectX Support: '12.1'
-  Vulkan Support: '1.0'
+  Vulkan Support: '1.1'
   HLSL Shader Model: '6.0'
   OpenGL Support: '4.5'
   OpenCL Support: '2.0'

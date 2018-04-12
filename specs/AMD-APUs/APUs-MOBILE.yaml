@@ -6,12 +6,13 @@ topHeader: 'SELECT ARCHITECTURE:'
 sections:
   - header: RYZEN APUs
     members:
-      -Raven-Ridge-M
-  - header: A-SERIES APUs
-    members:
-      - Bristol-Ridge-M-APUs
-      - Kaveri-M-APUs
-      - Kabini-M-APUs
-      - Richland-M-APUs
-      - Trinity-M-APUs
-      - Llano-M-APUs
+      - Raven-Ridge-M
+#  - header: A-SERIES APUs
+#    members:
+#      - Bristol-Ridge-M-APUs
+#      - Kaveri-M-APUs
+#      - Kabini-M-APUs
+#      - Richland-M-APUs
+#      - Trinity-M-APUs
+#      - Llano-M-APUs
+        
