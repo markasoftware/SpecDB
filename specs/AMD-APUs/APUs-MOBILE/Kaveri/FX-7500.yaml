@@ -1,0 +1,22 @@
+isPart: true
+name: FX-7500
+humanName: FX-7500
+type: APU
+inherits:
+  - GCN 2
+  - Kaveri
+data:
+
+  Core Count: 4
+  Thread Count: 4
+  Base Frequency: 2.1 GHz
+  Boost Frequency: 3.3 GHz
+  Release Date: '2014-06'
+  TDP: 20 W
+  Max Memory Frequency: 1600 MHz
+  GPU Model: Radeon R7 Kaveri
+  Shader Processor Count: 384
+  Texture Mapping Unit Count: 24
+  Render Output Unit Count: 8
+  GPU Base Frequency: 498 MHz
+  GPU Boost Frequency: 553 MHz

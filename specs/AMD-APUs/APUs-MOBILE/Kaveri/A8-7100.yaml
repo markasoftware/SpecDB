@@ -1,0 +1,22 @@
+isPart: true
+name: A8-7100
+humanName: A8-7100
+type: APU
+inherits:
+  - GCN 2
+  - Kaveri
+data:
+
+  Core Count: 4
+  Thread Count: 4
+  Base Frequency: 1.8 GHz
+  Boost Frequency: 3.0 GHz
+  Release Date: '2014-06'
+  TDP: 20 W
+  Max Memory Frequency: 1600 MHz
+  GPU Model: Radeon R5 Kaveri
+  Shader Processor Count: 256
+  Texture Mapping Unit Count: 16
+  Render Output Unit Count: 4
+  GPU Base Frequency: 450 MHz
+  GPU Boost Frequency: 514 MHz

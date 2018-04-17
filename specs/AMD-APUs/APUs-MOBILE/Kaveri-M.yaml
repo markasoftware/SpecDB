@@ -1,0 +1,29 @@
+name: Kaveri-M
+humanName: Kaveri Mobile
+type: APU Architecture
+isPart: false
+topHeader: 'SELECT APU:'
+data:
+  Lithography: 28nm
+  Release Date: '2014-06'
+  Sockets:
+    - FP3
+  DirectX Support: '12.0'
+  Vulkan Support: '1.1'
+sections:
+  - header: Standard SKUs
+    members:
+      - A6-7000
+      - A8-7100
+      - A8-7200P
+      - A10-7300
+      - A10-7400P
+  - header: FX SKUs
+    members:
+      - FX-7500
+      - FX-7600P
+  - header: Pro SKUs
+    members:
+      - A6-7050B
+      - A8-7150B
+      - A10-7350B

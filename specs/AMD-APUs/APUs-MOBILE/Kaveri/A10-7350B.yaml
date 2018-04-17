@@ -1,0 +1,21 @@
+isPart: true
+name: A10-7350B
+humanName: A10-7350B
+type: APU
+inherits:
+  - GCN 2
+  - Kaveri
+data:
+
+  Core Count: 4
+  Thread Count: 4
+  Base Frequency: 1.9 GHz
+  Boost Frequency: 3.2 GHz
+  Release Date: '2014-06'
+  TDP: 20 W
+  Max Memory Frequency: 1600 MHz
+  GPU Model: Radeon R6 Kaveri
+  Shader Processor Count: 384
+  Texture Mapping Unit Count: 24
+  Render Output Unit Count: 8
+  GPU Base Frequency: 553 MHz

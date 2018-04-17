@@ -11,7 +11,7 @@ sections:
     members:
       - Bristol-Ridge-M
       - Carrizo-M
-#      - Kaveri-M
+      - Kaveri-M
 #      - Kabini-M
 #      - Richland-M
 #      - Trinity-M
