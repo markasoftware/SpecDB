@@ -1,0 +1,21 @@
+isPart: true
+name: A8-8600P
+humanName: A8-8600P
+type: APU
+inherits:
+  - GCN 3
+  - Carrizo
+data:
+
+  Core Count: 4
+  Thread Count: 4
+  Base Frequency: 1.6 GHz
+  Boost Frequency: 3.0 GHz
+  Release Date: '2015-06'
+  Max Memory Frequency: 2133 MHz
+  GPU Model: Radeon R6 Carrizo
+  Shader Processor Count: 384
+  Texture Mapping Unit Count: 24
+  Render Output Unit Count: 8
+  GPU Base Frequency: 720 MHz
+  VRAM Type: DDR3

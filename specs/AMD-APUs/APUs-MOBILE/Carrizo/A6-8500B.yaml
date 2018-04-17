@@ -1,0 +1,23 @@
+isPart: true
+name: A6-8500B
+humanName: A6-8500B
+type: APU
+inherits:
+  - GCN 3
+  - Carrizo
+data:
+
+  Core Count: 2
+  Thread Count: 2
+  Base Frequency: 1.6 GHz
+  Boost Frequency: 3.0 GHz
+  L2 Cache (Total): 1 MiB
+  L1 Cache (Instruction): 96 KiB
+  L1 Cache (Data): 64 KiB
+  Release Date: '2016-Q3'
+  Max Memory Frequency: 1866 MHz
+  GPU Model: Radeon R5 Bristol Ridge
+  Shader Processor Count: 256
+  Texture Mapping Unit Count: 16
+  Render Output Unit Count: 4
+  GPU Base Frequency: 800 MHz

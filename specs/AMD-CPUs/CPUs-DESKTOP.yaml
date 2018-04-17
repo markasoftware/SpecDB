@@ -24,14 +24,14 @@ sections:
       - Regor
       - Agena
       - Toliman
-  - header: 15H ATHLON FAMILIES
+  - header: ATHLON FAMILIES (15H)
     members:
       - Bristol-Ridge
       - Carrizo
       - Kaveri
       - Richland
       - Trinity
-  - header: K10 ATHLON FAMILIES
+  - header: ATHLON FAMILIES (K10)
     members:
       - Propus-Athlon
       - Rana

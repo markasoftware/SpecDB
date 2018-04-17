@@ -10,6 +10,7 @@ sections:
   - header: A-SERIES APUs
     members:
       - Bristol-Ridge-M
+      - Carrizo-M
 #      - Kaveri-M
 #      - Kabini-M
 #      - Richland-M
