@@ -1,0 +1,21 @@
+isPart: true
+name: A10-9620P
+humanName: A10-9620P
+type: APU
+inherits:
+  - GCN 3
+  - Bristol-Ridge
+data:
+
+  Core Count: 4
+  Thread Count: 4
+  Base Frequency: 2.5 GHz
+  Boost Frequency: 3.4 GHz
+  Release Date: '2016-06'
+  TDP: 12-15 W
+  Max Memory Frequency: 1866 MHz
+  GPU Model: Radeon R5 Bristol Ridge
+  Shader Processor Count: 384
+  Texture Mapping Unit Count: 24
+  Render Output Unit Count: 6
+  GPU Base Frequency: 758 MHz

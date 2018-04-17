@@ -1,0 +1,21 @@
+isPart: true
+name: A12-9730P
+humanName: A12-9730P
+type: APU
+inherits:
+  - GCN 3
+  - Bristol-Ridge
+data:
+
+  Core Count: 4
+  Thread Count: 4
+  Base Frequency: 2.8 GHz
+  Boost Frequency: 3.5 GHz
+  Release Date: '2016-06'
+  TDP: 25-45 W
+  Max Memory Frequency: 2400 MHz
+  GPU Model: Radeon R7 Bristol Ridge
+  Shader Processor Count: 384
+  Texture Mapping Unit Count: 24
+  Render Output Unit Count: 6
+  GPU Base Frequency: 900 MHz

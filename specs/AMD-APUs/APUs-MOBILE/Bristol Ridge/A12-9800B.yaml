@@ -1,0 +1,21 @@
+isPart: true
+name: A12-9800B
+humanName: A12-9800B
+type: APU
+inherits:
+  - GCN 3
+  - Bristol-Ridge
+data:
+
+  Core Count: 4
+  Thread Count: 4
+  Base Frequency: 2.7 GHz
+  Boost Frequency: 3.6 GHz
+  Release Date: '2016-10-24'
+  TDP: 12-15 W
+  Max Memory Frequency: 1866 MHz
+  GPU Model: Radeon R7 Bristol Ridge
+  Shader Processor Count: 512
+  Texture Mapping Unit Count: 32
+  Render Output Unit Count: 8
+  GPU Base Frequency: 758 MHz

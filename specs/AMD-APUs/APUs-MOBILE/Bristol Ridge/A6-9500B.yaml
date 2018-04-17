@@ -1,0 +1,24 @@
+isPart: true
+name: A6-9500B
+humanName: A6-9500B
+type: APU
+inherits:
+  - GCN 3
+  - Bristol-Ridge
+data:
+
+  Core Count: 2
+  Thread Count: 2
+  Base Frequency: 2.3 GHz
+  Boost Frequency: 3.2 GHz
+  L2 Cache (Total): 1 MiB
+  L1 Cache (Instruction): 96 KiB
+  L1 Cache (Data): 64 KiB
+  Release Date: '2016-10-24'
+  TDP: 12-15 W
+  Max Memory Frequency: 1866 MHz
+  GPU Model: Radeon R5 Bristol Ridge
+  Shader Processor Count: 256
+  Texture Mapping Unit Count: 16
+  Render Output Unit Count: 4
+  GPU Base Frequency: 800 MHz
