@@ -1,0 +1,25 @@
+name: Trinity-M
+humanName: Trinity Mobile
+type: APU Architecture
+isPart: false
+topHeader: 'SELECT APU:'
+data:
+  Lithography: 32nm
+  Release Date: '2012-05-12'
+  Sockets:
+    - FP2
+    - FS1r2
+  DirectX Support: '11.0'
+sections:
+  - header: Standard SKUs
+    members:
+      - A4-4300M
+      - A6-4400M
+      - A8-4500M
+      - A10-4600M
+  - header: Low Power SKUs
+    members:
+      - A4-4355M
+      - A6-4455M
+      - A8-4555M
+      - A10-4655M

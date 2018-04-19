@@ -33,6 +33,7 @@ data:
     - TBM
     - XOP
     - CLMUL
+    - RDRAND
   Compatible Chipsets:
     - X370
     - B350

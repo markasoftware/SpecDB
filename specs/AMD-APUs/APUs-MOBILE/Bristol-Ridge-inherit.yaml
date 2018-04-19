@@ -1,0 +1,27 @@
+hidden: true
+name: Bristol-Ridge
+data:
+  Architecture: Excavator
+  Lithography: 28 nm
+  Socket: FP4
+  Unlocked: false
+  Max Memory Channels: 2
+  L2 Cache (Total): 2 MiB
+  L1 Cache (Instruction): 192 KiB
+  L1 Cache (Data): 128 KiB
+  AVX/SSE/MMX: AVX2
+  FMA4: true
+  FMA3: true
+  BMI: BMI2
+  AES: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - F16C
+    - ABM
+    - TBM
+    - XOP
+    - CLMUL
+    - RDRAND
+  VRAM Type: DDR4
+  Crossfire Support: No

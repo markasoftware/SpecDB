@@ -6,7 +6,7 @@ data:
   Lithography: 14 nm
   Socket: FP5
   Unlocked: false
-  TDP: 25 W
+  TDP: 12W - 25 W
   # how do cTDP?
   Max Memory Frequency: 2400 MHz
   Max Memory Channels: 2

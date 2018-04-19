@@ -7,12 +7,13 @@ sections:
   - header: RYZEN APUs
     members:
       - Raven-Ridge-M
-#  - header: A-SERIES APUs
-#    members:
-#      - Bristol-Ridge-M-APUs
-#      - Kaveri-M-APUs
-#      - Kabini-M-APUs
-#      - Richland-M-APUs
-#      - Trinity-M-APUs
-#      - Llano-M-APUs
+  - header: A-SERIES APUs
+    members:
+      - Bristol-Ridge-M
+      - Carrizo-M
+      - Kaveri-M
+#      - Kabini-M
+#      - Richland-M
+#      - Trinity-M
+#      - Llano-M
         

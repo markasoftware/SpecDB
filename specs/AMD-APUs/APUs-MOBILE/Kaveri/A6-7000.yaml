@@ -1,0 +1,25 @@
+isPart: true
+name: A6-7000
+humanName: A6-7000
+type: APU
+inherits:
+  - GCN 2
+  - Kaveri
+data:
+
+  Core Count: 2
+  Thread Count: 2
+  Base Frequency: 2.2 GHz
+  Boost Frequency: 3.0 GHz
+  L2 Cache (Total): 1 MiB
+  L1 Cache (Instruction): 96 KiB
+  L1 Cache (Data): 32 KiB
+  Release Date: '2014-06'
+  TDP: 17 W
+  Max Memory Frequency: 1333 MHz
+  GPU Model: Radeon R4 Kaveri
+  Shader Processor Count: 192
+  Texture Mapping Unit Count: 12
+  Render Output Unit Count: 3
+  GPU Base Frequency: 494 MHz
+  GPU Boost Frequency: 533 MHz

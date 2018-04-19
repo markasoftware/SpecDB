@@ -1,0 +1,34 @@
+name: Bristol-Ridge-M
+humanName: Bristol Ridge Mobile
+type: APU Architecture
+isPart: false
+topHeader: 'SELECT APU:'
+data:
+  Lithography: 28nm
+  Release Date: '2016-06'
+  Sockets:
+    - FP4
+  DirectX Support: '12.0'
+  Vulkan Support: '1.1'
+sections:
+  - header: Standard SKUs
+    members:
+      - A10-9600P
+      - A10-9620P
+      - A10-9630P
+      - A12-9700P
+      - A12-9720P
+      - A12-9730P
+  - header: FX SKUs
+    members:
+      - FX-9800P
+      - FX-9830P
+  - header: Pro SKUs
+    members:
+      - A6-9500B
+      - A8-9600B
+      - A8-9630B
+      - A10-9700B
+      - A12-9730B
+      - A12-9800B
+      - A12-9830B

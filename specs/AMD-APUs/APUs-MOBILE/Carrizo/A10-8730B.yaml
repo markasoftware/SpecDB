@@ -1,0 +1,20 @@
+isPart: true
+name: A10-8730B
+humanName: A10-8730B
+type: APU
+inherits:
+  - GCN 3
+  - Carrizo
+data:
+
+  Core Count: 4
+  Thread Count: 4
+  Base Frequency: 2.4 GHz
+  Boost Frequency: 3.3 GHz
+  Release Date: '2016-Q3'
+  Max Memory Frequency: 1866 MHz
+  GPU Model: Radeon R5 Carrizo
+  Shader Processor Count: 384
+  Texture Mapping Unit Count: 24
+  Render Output Unit Count: 8
+  GPU Base Frequency: 720 MHz

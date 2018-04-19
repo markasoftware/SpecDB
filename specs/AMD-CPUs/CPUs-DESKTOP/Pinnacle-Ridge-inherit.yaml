@@ -1,12 +1,14 @@
 hidden: true
-name: Ryzen
+name: Pinnacle-Ridge
 data:
-  Architecture: Zen
-  Lithography: 14 nm
+  Architecture: Zen+
+  Lithography: 12 nm
   Socket: AM4
   Unlocked: true
-  Max Memory Frequency: 2666 MHz
+  Max Memory Frequency: 2933 MHz
   Max Memory Channels: 2
+  L3 Cache (Total): 16 MiB
+  XFR Support: true
   AVX/SSE/MMX: AVX2
   FMA4: false
   FMA3: true
@@ -22,6 +24,9 @@ data:
     - RDRAND
     - ADX
   Compatible Chipsets:
+    - X470
+    - B470
+    - A420
     - X370
     - B350
     - A320

@@ -1,0 +1,22 @@
+isPart: true
+name: FX-7600P
+humanName: FX-7600P
+type: APU
+inherits:
+  - GCN 2
+  - Kaveri
+data:
+
+  Core Count: 4
+  Thread Count: 4
+  Base Frequency: 2.7 GHz
+  Boost Frequency: 3.6 GHz
+  Release Date: '2014-06'
+  TDP: 35 W
+  Max Memory Frequency: 2133 MHz
+  GPU Model: Radeon R7 Kaveri
+  Shader Processor Count: 512
+  Texture Mapping Unit Count: 32
+  Render Output Unit Count: 8
+  GPU Base Frequency: 600 MHz
+  GPU Boost Frequency: 686 MHz

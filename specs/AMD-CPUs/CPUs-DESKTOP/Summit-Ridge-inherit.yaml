@@ -1,12 +1,12 @@
 hidden: true
-name: Threadripper
+name: Summit-Ridge
 data:
   Architecture: Zen
   Lithography: 14 nm
-  Socket: TR4
+  Socket: AM4
   Unlocked: true
-  Max Memory Frequency: 3200 MHz
-  Max Memory Channels: 4
+  Max Memory Frequency: 2666 MHz
+  Max Memory Channels: 2
   AVX/SSE/MMX: AVX2
   FMA4: false
   FMA3: true
@@ -22,5 +22,12 @@ data:
     - RDRAND
     - ADX
   Compatible Chipsets:
-    - X399
-  Steppings: B2
+    - X470
+    - B470
+    - A420
+    - X370
+    - B350
+    - A320
+    - X300
+    - A300
+  Steppings: B1

@@ -1,0 +1,18 @@
+name: Pinnacle-Ridge
+humanName: Pinnacle Ridge
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2018-04-19'
+  Lithography: 12 nm
+  Sockets:
+    - AM4
+sections:
+  - header: RYZEN 7
+    members:
+      - R7-2700X
+      - R7-2700
+  - header: RYZEN 5
+    members:
+      - R5-2600X
+      - R5-2600

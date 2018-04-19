@@ -1,0 +1,22 @@
+isPart: true
+name: A8-7200P
+humanName: A8-7200P
+type: APU
+inherits:
+  - GCN 2
+  - Kaveri
+data:
+
+  Core Count: 4
+  Thread Count: 4
+  Base Frequency: 2.4 GHz
+  Boost Frequency: 3.3 GHz
+  Release Date: '2014-06'
+  TDP: 35 W
+  Max Memory Frequency: 1866 MHz
+  GPU Model: Radeon R5 Kaveri
+  Shader Processor Count: 256
+  Texture Mapping Unit Count: 16
+  Render Output Unit Count: 4
+  GPU Base Frequency: 553 MHz
+  GPU Boost Frequency: 626 MHz

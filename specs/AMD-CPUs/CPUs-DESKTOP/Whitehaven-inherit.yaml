@@ -1,0 +1,26 @@
+hidden: true
+name: Whitehaven
+data:
+  Architecture: Zen
+  Lithography: 14 nm
+  Socket: TR4
+  Unlocked: true
+  Max Memory Frequency: 3200 MHz
+  Max Memory Channels: 4
+  AVX/SSE/MMX: AVX2
+  FMA4: false
+  FMA3: true
+  BMI: BMI2
+  AES: true
+  SHA: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - F16C
+    - ABM
+    - CLMUL
+    - RDRAND
+    - ADX
+  Compatible Chipsets:
+    - X399
+  Steppings: B2

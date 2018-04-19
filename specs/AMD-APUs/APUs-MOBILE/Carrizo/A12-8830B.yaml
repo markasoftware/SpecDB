@@ -1,0 +1,20 @@
+isPart: true
+name: A12-8830B
+humanName: A12-8830B
+type: APU
+inherits:
+  - GCN 3
+  - Carrizo
+data:
+
+  Core Count: 4
+  Thread Count: 4
+  Base Frequency: 2.5 GHz
+  Boost Frequency: 3.4 GHz
+  Release Date: '2015-Q3'
+  Max Memory Frequency: 1866 MHz
+  GPU Model: Radeon R8 Carrizo
+  Shader Processor Count: 512
+  Texture Mapping Unit Count: 32
+  Render Output Unit Count: 8
+  GPU Base Frequency: 720 MHz

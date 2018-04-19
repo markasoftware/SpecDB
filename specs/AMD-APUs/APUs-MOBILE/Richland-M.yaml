@@ -1,0 +1,28 @@
+name: Richland-M
+humanName: Richland Mobile
+type: APU Architecture
+isPart: false
+topHeader: 'SELECT APU:'
+data:
+  Lithography: 32nm
+  Release Date: '2013-05'
+  Sockets:
+    - FP2
+    - FS1r2
+  DirectX Support: '11.0'
+sections:
+  - header: Standard SKUs
+    members:
+      - A4-5150M
+      - A6-5350M
+      - A6-5357M
+      - A8-5550M
+      - A8-5557M
+      - A10-5750M
+      - A10-5757M
+  - header: Low Power SKUs
+    members:
+      - A4-5145M
+      - A6-5345M
+      - A8-5545M
+      - A10-5745M

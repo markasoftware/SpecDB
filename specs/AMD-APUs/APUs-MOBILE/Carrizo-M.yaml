@@ -1,0 +1,31 @@
+name: Carrizo-M
+humanName: Carrizo Mobile
+type: APU Architecture
+isPart: false
+topHeader: 'SELECT APU:'
+data:
+  Lithography: 28nm
+  Release Date: '2015-06'
+  Sockets:
+    - FP4
+  DirectX Support: '12.0'
+  Vulkan Support: '1.1'
+sections:
+  - header: Standard SKUs
+    members:
+      - A6-8500P
+      - A8-8600P
+      - A10-8700P
+      - A10-8780P
+  - header: FX SKUs
+    members:
+      - FX-8800P
+  - header: Pro SKUs
+    members:
+      - A6-8500B
+      - A6-8530B
+      - A8-8600B
+      - A10-8700B
+      - A10-8730B
+      - A12-8800B
+      - A12-8830B

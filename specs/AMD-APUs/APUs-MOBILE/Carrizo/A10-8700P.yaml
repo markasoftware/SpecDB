@@ -1,0 +1,21 @@
+isPart: true
+name: A10-8700P
+humanName: A10-8700P
+type: APU
+inherits:
+  - GCN 3
+  - Carrizo
+data:
+
+  Core Count: 4
+  Thread Count: 4
+  Base Frequency: 1.8 GHz
+  Boost Frequency: 3.2 GHz
+  Release Date: '2015-06'
+  Max Memory Frequency: 2133 MHz
+  GPU Model: Radeon R6 Carrizo
+  Shader Processor Count: 384
+  Texture Mapping Unit Count: 24
+  Render Output Unit Count: 8
+  GPU Base Frequency: 800 MHz
+  VRAM Type: DDR3
