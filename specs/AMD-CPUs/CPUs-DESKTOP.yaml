@@ -7,8 +7,9 @@ sections:
 # Comments mean it has not yet been finished
   - header: RYZEN FAMILIES
     members:
-      - Ryzen
-      - Threadripper
+      - Pinnacle-Ridge
+      - Whitehaven
+      - Summit-Ridge
   - header: AMD FX FAMILIES
     members:
       - Piledriver

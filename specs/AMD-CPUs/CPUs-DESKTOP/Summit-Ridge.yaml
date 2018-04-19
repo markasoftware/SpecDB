@@ -1,5 +1,5 @@
-name: Ryzen
-humanName: Ryzen
+name: Summit-Ridge
+humanName: Summit Ridge
 type: CPU Architecture
 topHeader: 'SELECT CPU:'
 data:
@@ -7,7 +7,6 @@ data:
   Lithography: 14 nm
   Sockets:
     - AM4
-    - TR4
 sections:
   - header: RYZEN 7
     members:

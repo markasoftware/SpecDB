@@ -1,5 +1,5 @@
-name: Threadripper
-humanName: Threadripper
+name: Whitehaven
+humanName: Whitehaven
 type: CPU Architecture
 topHeader: 'SELECT CPU:'
 data:
@@ -10,6 +10,6 @@ data:
 sections:
   - header: THREADRIPPER
     members:
-      - R9-1950X
-      - R9-1920X
-      - R9-1900X
+      - 1950X
+      - 1920X
+      - 1900X

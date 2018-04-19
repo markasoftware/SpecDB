@@ -1,5 +1,5 @@
-name: R9-1900X
-humanName: R9 1900X
+name: 1900X
+humanName: 1900X
 isPart: true
 type: CPU
 inherits:
