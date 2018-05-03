@@ -1,8 +1,8 @@
 // pure easy to test stuff goes here for some reason
 
-module.exports.genSubtext = data => {
+module.exports.genSubtext = (data, passedSpecData) => {
 	const innerData = data.data;
-
+	
 	const genCoreText = d => `${d['Core Count']} Cores, ${d['Thread Count']} Threads`;
 	const genClockText = (d, useGpu, prefix = '') => {
 		const gpuPrefix = useGpu ? 'GPU ' : '';
@@ -31,8 +31,37 @@ module.exports.genSubtext = data => {
 				'No DX12 or Vulkan support'
 	}
 	const genReleaseDate = d => `Released ${d['Release Date']}`;
+	const getPartChildCount = d => {
+		const specData = passedSpecData || require('spec-data');
+		let t = 0;
+		const tallyChildren = part => {
+			if (!part) {
+				return;
+			}
+			if (part.isPart) {
+				t++;
+			} else {
+				part.sections.forEach(sec =>
+					sec.members.forEach(m => tallyChildren(specData[m]))
+				);
+			}
+		}
+		tallyChildren(d);
+		return `${t} Parts`;
+	}
+	const getDirectChildCount = d => {
+		let t = 0;
+		// sometimes, this is just easier than functionally
+		d.sections.forEach(c => t += c.members.length );
+		return `${t} Subcategories`;
+	}
 
 	switch(data.type) {
+		case 'Generic Container':
+			return [
+				getPartChildCount(data),
+				getDirectChildCount(data),
+			];
 		case 'CPU Architecture':
 			return [
 				innerData.Lithography.replace(' ', '') + ' Lithography',

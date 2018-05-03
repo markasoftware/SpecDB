@@ -5,7 +5,14 @@ topHeader: "SELECT CATEGORY:"
 forChildren:
   manufacturer: AMD
 sections:
- - members:
-    - CPUs-AMD
-    - APUs-AMD
-    - GPUs-AMD
+  - header: CPUs
+    members:
+    - CPUs-DESKTOP
+    - CPUs-SERVER
+  - header: GPUs
+    members:
+    - GPUs-CONSUMER
+  - header: APUs
+    members:
+    - APUs-DESKTOP
+    - APUs-MOBILE

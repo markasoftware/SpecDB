@@ -1,6 +1,6 @@
 name: APUs-DESKTOP
-humanName: DESKTOP APUs
-type: none
+humanName: Desktop APUs
+type: Generic Container
 isPart: false
 topHeader: 'SELECT ARCHITECTURE:'
 sections:

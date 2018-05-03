@@ -1,6 +1,6 @@
 name: APUs-MOBILE
-humanName: MOBILE APUs
-type: none
+humanName: Mobile APUs
+type: Generic Container
 isPart: false
 topHeader: 'SELECT ARCHITECTURE:'
 sections:

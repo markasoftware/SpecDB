@@ -1,8 +1,8 @@
-name: GPUs-AMD
-humanName: GPUs
-type: none
+name: GPUs-CONSUMER
+humanName: Consumer GPUs
+type: Generic Container
 isPart: false
-topHeader: 'SELECT ARCHITECTURE/SERIES:'
+topHeader: 'SELECT SERIES:'
 sections:
   - header: RX Series
     members:

@@ -1,6 +1,6 @@
 name: APUs-UlTRA-MOBILE
 humanName: UlTRA MOBILE APUs
-type: none
+type: Generic Container
 isPart: false
 topHeader: 'SELECT ARCHITECTURE:'
 sections:

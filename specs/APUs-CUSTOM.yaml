@@ -1,6 +1,6 @@
 name: APUs-CUSTOM
 humanName: CUSTOM APUs
-type: none
+type: Generic Container
 isPart: false
 topHeader: 'SELECT ARCHITECTURE:'
 sections:
