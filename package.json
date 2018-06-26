@@ -6,7 +6,9 @@
     "test": "tape tests/*.js | tap-spec",
     "build": "bash build/build.bash",
     "create-cpu": "node build/create-cpu.js",
-    "create-gpu": "node build/create-gpu.js"
+    "create-gpu": "node build/create-gpu.js",
+    
+    "scrape:intel": "bash build/scrape-intel.bash"
   },
   "repository": {
     "type": "git",

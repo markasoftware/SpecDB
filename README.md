@@ -14,9 +14,13 @@ Look at the [wiki](https://github.com/markasoftware/SpecDB/wiki) for more detail
 2. Clone the repo — `git clone https://github.com/markasoftware/SpecDB.git`
 3. `cd SpecDB`
 4. `npm install` — install project dependencies
-5. On Mac or Linux, from the project's root directory, execute `npm run build` to build it. You can also run `build/build.bash` if `npm run build` is too slow for you. If you're on Windows, run `build\build-win.bat` instead. You can also just navigate to that directory in a file manager and double click `build-win.bat` if you're a terminal-o-phobe.
+5. `npm run build` — generate front end resources from source code. This must be run after every change to the source code or specs.
 
-Then, you can view SpecDB at file:///home/markasoftware/whatever/specdb/, which should be good enough for development. You may wish to use a proper file server, like Nginx, instead.
+Then, you can view SpecDB at file:///home/markasoftware/whatever/specdb/, which should be good enough for development.
+
+### Bonus: Auto-rebuilding
+
+If you want to automatically rebuild the front-end when you modify files, install [entr](https://bitbucket.org/eradman/entr) (preferrably through your OS' package manager), then run `find specs src | entr npm run build`. As long as you keep this command running, things will update automatically. This does *not* include "hot-reloading"; you will still need to refresh your browser window after an update.
 
 ## Contributing
 
