@@ -2,14 +2,6 @@
   "name": "amd-specs",
   "version": "0.0.0",
   "description": "An AMD equivalent for Intel's ARK",
-  "scripts": {
-    "test": "tape tests/*.js | tap-spec",
-    "build": "bash build/build.bash",
-    "create-cpu": "node build/create-cpu.js",
-    "create-gpu": "node build/create-gpu.js",
-    
-    "scrape:intel": "bash build/scrape-intel.bash"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/markasoftware/amd-specs.git"

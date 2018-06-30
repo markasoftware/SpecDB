@@ -8,19 +8,25 @@ Visit our [Discord channel](https://discord.gg/xfVHZAb) to chat with other devel
 
 Look at the [wiki](https://github.com/markasoftware/SpecDB/wiki) for more detailed technical info than this readme!
 
+## Prerequisites
+
+* Unix-like system. Linux, Mac, and some sort of BSD are all ok.
+* GNU `make`: This comes out-of-the-box on Linux and Mac.
+* `curl`: Also comes out-of-the-box on Mac and *most* Linux distributions.
+* Optionally: [entr](https://bitbucket.org/eradman/entr). This will allow you to automatically rebuild SpecDB when you modify a file.
+
 ## Setting up
 
-1. Update your Node.js to latest version (see https://nodejs.org)
-2. Clone the repo — `git clone https://github.com/markasoftware/SpecDB.git`
-3. `cd SpecDB`
-4. `npm install` — install project dependencies
-5. `npm run build` — generate front end resources from source code. This must be run after every change to the source code or specs.
+1. Clone the repo — `git clone https://github.com/markasoftware/SpecDB.git`
+1. `cd SpecDB`
+1. `npm install` — install project dependencies
+1. `make` — generate front end resources from source code. This must be run after every change to the source code or specs.
 
 Then, you can view SpecDB at file:///home/markasoftware/whatever/specdb/, which should be good enough for development.
 
 ### Bonus: Auto-rebuilding
 
-If you want to automatically rebuild the front-end when you modify files, install [entr](https://bitbucket.org/eradman/entr) (preferrably through your OS' package manager), then run `find specs src | entr npm run build`. As long as you keep this command running, things will update automatically. This does *not* include "hot-reloading"; you will still need to refresh your browser window after an update.
+If you want to automatically rebuild the front-end when you modify files, install [entr](https://bitbucket.org/eradman/entr) (preferrably through your OS' package manager), then run `make watch`. Auto-rebuilding will only function while this script is running.
 
 ## Contributing
 
