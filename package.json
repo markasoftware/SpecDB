@@ -13,6 +13,7 @@
     "browserify": "^14.5.0",
     "csso-cli": "*",
     "js-yaml": "^3",
+    "lodash": "^4.17.10",
     "mithril": "^1.1.6",
     "natural-compare": "^1.4.0",
     "sw-precache": "^5.2.0",

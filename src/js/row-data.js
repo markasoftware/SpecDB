@@ -1,36 +1,13 @@
 // provide row comparison, post-processing, pre-processing, etc
 
+const units = require('./units');
+
 // these are the "generic" types that some of our rows classify as
 // preprocess takes in the cell value, then turns it into something compare can use
 // compare should return the "best" out of both parameters
 // postprocess takes the original value and turns it into hooman-readable form
 // preprocess and postprocess may be omitted
-const unitToNum = inStr => {
-	const splitUp = inStr.split(' ');
-	const units = {
-		'KiB': 1024,
-		'MiB': 1024 * 1024,
-		'GiB': 1024 * 1024 * 1024,
-		'KB': 1000,
-		'MB': 1000 * 1000,
-		'GB': 1000 * 1000 * 1000,
-		'KiB/s': 1024,
-		'MiB/s': 1024 * 1024,
-		'GiB/s': 1024 * 1024 * 1024,
-		'KB/s': 1000,
-		'MB/s': 1000 * 1000,
-		'GB/s': 1000 * 1000 * 1000,
-		'Hz': 1,
-		'KHz': 1000,
-		'MHz': 1000 * 1000,
-		'GHz': 1000 * 1000 * 1000,
-		'KFLOPS': 1000,
-		'MFLOPS': 1000 * 1000,
-		'GFLOPS': 1000 * 1000 * 1000,
-		'TFLOPS': 1000 * 1000 * 1000 * 1000,
-	}
-	return units[splitUp[1]] ? splitUp[0] * units[splitUp[1]] : +splitUp[0];
-}
+const unitToNum = inStr => units.toNumber(units.parseString(inStr));
 
 const versionCompare = (a, b) => {
 	const aSplit = a.split('.').map(Number);

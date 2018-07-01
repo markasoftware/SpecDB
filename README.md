@@ -24,9 +24,12 @@ Look at the [wiki](https://github.com/markasoftware/SpecDB/wiki) for more detail
 
 Then, you can view SpecDB at file:///home/markasoftware/whatever/specdb/, which should be good enough for development.
 
-### Bonus: Auto-rebuilding
+### Bonus Commands
 
-If you want to automatically rebuild the front-end when you modify files, install [entr](https://bitbucket.org/eradman/entr) (preferrably through your OS' package manager), then run `make watch`. Auto-rebuilding will only function while this script is running.
+* `make watch`: Start auto-rebuild daemon. You still need to manually. Requires [entr](https://bitbucket.org/eradman/entr)
+* `make test`: Run unit tests. If any of these fail, do not commit! Fix them!
+* `make -B tmp/intel-scrape.json`: Force re-scrape of Intel data. By default, it will never re-scrape after the first time you run `make`.
+* `make production`: Build for production. If you previously ran `make` without `production`, it is crucial that you run `make clean` before `make production` to get rid of the crusty development files. If somebody knows how to properly use sentinel files with `make` to auto clean when switching between dev and prod, please let me know.
 
 ## Contributing
 
