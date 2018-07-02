@@ -12,6 +12,7 @@
     "babel-preset-env": "^1.6.1",
     "browserify": "^14.5.0",
     "csso-cli": "*",
+    "find": "^0.2.9",
     "js-yaml": "^3",
     "lodash": "^4.17.10",
     "mithril": "^1.1.6",
