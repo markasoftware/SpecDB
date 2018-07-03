@@ -19,8 +19,9 @@ Look at the [wiki](https://github.com/markasoftware/SpecDB/wiki) for more detail
 
 1. Clone the repo — `git clone https://github.com/markasoftware/SpecDB.git`
 1. `cd SpecDB`
-1. `npm install` — install project dependencies
 1. `make` — generate front end resources from source code. This must be run after every change to the source code or specs.
+
+The `make` command will take a while to run the first time -- it has to do all the scraping as well as installing NPM dependencies. However, `make` is smart (thank [RMS](https://rms.sexy)), so subsequent runs will only build the minimum amount necessary.
 
 Then, you can view SpecDB at file:///home/markasoftware/whatever/specdb/, which should be good enough for development.
 

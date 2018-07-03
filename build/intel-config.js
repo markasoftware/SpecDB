@@ -1,4 +1,3 @@
-const trs = require('./intel-transformers.js');
 const units = require('../src/js/units');
 
 const families = {
