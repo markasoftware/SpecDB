@@ -1,38 +1,39 @@
-PATH       := node_modules/.bin:${PATH}
+PATH       := ./node_modules/.bin:${PATH}
 
-tests      := tests/*.js
+tests      := ./tests/*.js
 
-css_output := public/all.css
-css_input  := ${wildcard src/css/*.css}
+css_output := ./public/all.css
+css_input  := ${wildcard ./src/css/*.css}
 
-js_output  := public/bundle.js
+js_output  := ./public/bundle.js
 js_input   := ${shell find src/js -name '*.js' -type f}
-js_entry   := src/js/entry.js
+js_entry   := ./src/js/entry.js
 js_noparse := mithril
 
-n_sentinel := .npm-make-sentinel
+n_sentinel := ./.npm-make-sentinel
 
 # pathnames should be relative to where?
-sw_root    := public
+sw_root    := ./public
 # where to output, relative to sw_root
-sw_basename:= sw.js
+sw_basename:= ./sw.js
 sw_output  := ${sw_root}/${sw_basename}
 # files to cache
-sw_input   := public/**
+sw_input   := ./public/**
 
 # ./ so `browserify` understands it
 spec_output:= ./tmp/specs.js
 
 # custom/authoritative specs
-athr_output:= tmp/authoritative.json
+athr_output:= ./tmp/authoritative.json
 athr_input := ${shell find specs -name '*.yaml' -type f}
-athr_folder:=specs
+athr_folder:= ./specs
 
-map_output := public/sitemap.txt
+map_output := ./public/sitemap.txt
 
-# we separate scrape and parse because 14mb is too much to keep redownloading.
-intc_scrape:= tmp/intel-scrape.json
-intc_parse := tmp/intel-parse.json
+intc_procs := ./tmp/intel-scrape.json
+intc_codes := ./tmp/intel-scrape-codenames.json
+intc_scrape:= ${intc_procs} ${intc_codes}
+intc_parse := ./tmp/intel-parse.json
 
 prod       := false
 
@@ -69,18 +70,30 @@ ${athr_output} : ${athr_input} build/gen-specs.js
 	node build/gen-specs.js ${athr_folder} ${athr_output}
 
 ${intc_scrape} :
-	curl -o ${intc_scrape} 'https://odata.intel.com/API/v1_0/Products/Processors()?$$format=json'
+	curl -o ${intc_procs} 'https://odata.intel.com/API/v1_0/Products/Processors()?$$format=json'
+	curl -o ${intc_codes} 'https://odata.intel.com/API/v1_0/Products/CodeNames()?$$format=json'
 
-${intc_parse} : build/intel-parse.js ${intc_scrape}
+${intc_parse} : build/intel-parse.js build/intel-config.js ${intc_scrape}
 	node build/intel-parse.js ${intc_scrape} ${intc_parse}
 
 ${n_sentinel} : package.json
 	npm install
 	touch ${n_sentinel}
 
+# clean everything
 clean:
 	rm -f ${css_output} ${js_output} ${sw_output} \
 		${spec_output} ${map_output} ${intc_scrape} \
 		${intc_parse} ${athr_output} ${n_sentinel}
 
-.PHONY: development production test clean watch
+# only clean code, nothing spec related
+clean-code:
+	rm -f ${css_output} ${js_output} ${sw_output}
+
+# only clean things that can be regenerated without a network connection
+clean-nonet:
+	rm -f ${css_output} ${js_output} ${sw_output} \
+		${spec_output} ${map_output} ${intc_parse} \
+		${athr_output}
+
+.PHONY: development production test clean clean-code clean-nonet watch

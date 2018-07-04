@@ -45,6 +45,9 @@ const unitsJs = {
 		};
 	},
 	toNumber: unitObj => flatUnits[unitObj.unit] * unitObj.num,
+	toString: unitObj => unitObj.unit === 'count' ?
+		`${unitObj.num}` :
+		`${unitObj.num} ${unitObj.unit}`,
 	reduce: (unitObj, minReducedValue = 1) => {
 		const num = unitsJs.toNumber(unitObj);
 		// find which sub-group of units we belong to

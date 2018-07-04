@@ -30,3 +30,9 @@ test('units: reduce', t => {
 	t.deepEqual(res, { num: 75, unit: 'KHz' }, 'Decreased minReducedValue');
 	t.end();
 });
+
+test('units: toString', t => {
+	t.equal(units.toString({ num: '58', unit: 'count' }), '58', 'count');
+	t.equal(units.toString({ num: '782', unit: 'Hz' }), '782 Hz', 'Hz');
+	t.end();
+});
