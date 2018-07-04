@@ -25,6 +25,8 @@ module.exports = {
 						vnode.attrs.onCategorySelect(vnode.attrs.name);
 					}
 				},
+				class: curData.data && curData.data.Manufacturer
+					&& curData.data.Manufacturer.toLowerCase() || 'amd',
 			}, [
 				m('.part-padding', [
 					m('.part-header', curData.humanName),

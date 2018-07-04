@@ -44,7 +44,7 @@ production: ${n_sentinel} ${prod_guard} ${css_output} \
 test:
 	tape ${tests} | tap-spec
 watch:
-	find specs src | entr make
+	find specs src build | entr ${MAKE}
 
 ${css_output} : ${css_input}
 	cat ${css_input} > ${css_output}

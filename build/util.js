@@ -13,5 +13,6 @@ module.exports = {
 	// ahhh, mmmm, splendid
 	isoDate: n => (new Date(parseInt(n.toString().replace(/\D/g, '')))).toISOString().split('T')[0],
 	unitTransformer: unit => num => units.toString(units.reduce({ num, unit })),
+	substTransformer: substs => d => _.findLast(substs, (v, k) => d.includes(k)),
 	urlify: c => c.replace(/\s/g, '-').replace(/[^a-zA-Z0-9-]/g, ''),
 };

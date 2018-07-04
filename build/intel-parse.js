@@ -35,19 +35,28 @@ const partList = procs.filter(c => familyList.includes(c.ProductFamilyId)).map(c
 	const toReturn = { isPart: true, inherits: [ 'Intel' ] };
 	// iterate through the keys according to Intel's website
 	for (let intelKey of _.intersection(Object.keys(c), Object.keys(intelConfig.keyMap))) {
-		if (_.isNil(c[intelKey])) {
+		const intelValue = _.isString(c[intelKey]) ? c[intelKey].trim() : c[intelKey];
+		if (_.isNil(intelValue) || intelValue === '') {
 			continue;
 		}
-		const intelValue = typeof c[intelKey] === 'string' ? c[intelKey].trim() : c[intelKey];
-		const keyMapValue = intelConfig.keyMap[intelKey];
-		const sdbOutputs = _.isArray(keyMapValue) ? keyMapValue : [keyMapValue];
+		const sdbOutputs = _.castArray(intelConfig.keyMap[intelKey]);
 		// loop through all SDB keys this key refers to
 		for (let sdbOutput of sdbOutputs) {
 			const toMerge = {};
-			if (typeof sdbOutput === 'string') {
+			if (_.isString(sdbOutput)) {
 				_.set(toMerge, sdbOutput, intelValue);
 			} else {
 				// it's an object
+				const transformerOutput = sdbOutput.transformer(intelValue, toReturn);
+				if (
+					_.isNil(transformerOutput) ||
+					_.isFunction(transformerOutput) ||
+					_.isPlainObject(transformerOutput)
+				) {
+					console.error(`Key ${intelKey} for output key ${sdbOutput.name} incorrect type!`);
+					console.error(transformerOutput);
+					process.exit(1);
+				}
 				_.set(toMerge, sdbOutput.name, sdbOutput.transformer(intelValue, toReturn));
 			}
 			// merging bullshit allows arrays to work nicely, so adding to

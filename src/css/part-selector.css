@@ -29,9 +29,14 @@
 	box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
 	background-color: #fff;
 	border-radius: 3px;
-	border-left: 5px solid #ff4545;
 	margin: 0 20px 20px 0;
 	cursor: pointer;
+}
+.part.amd {
+	border-left: 5px solid #ff4545;
+}
+.part.intel {
+	border-left: 5px solid hsl(200, 90%, 50%);
 }
 .part-padding {
 	padding: 15px;
