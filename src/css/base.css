@@ -23,13 +23,14 @@ a:hover, .a:hover, a:active, .a:active {
 	text-decoration: underline;
 }
 h2 {
-	padding: 2vh 0;
+	padding-top: 2vh;
 	color: #444;
 	font-family: Trebuchet MS, Open Sans, sans-serif;
-	font-size: 1.7em;
+	font-size: 1.5em;
 }
 h3 {
-	padding: 1vh 0;
+	padding: 1rem 0 0.7rem 0;
+	margin: 0;
 	font-size: 1.33em;
 	font-weight: lighter;
 	color: #858585;

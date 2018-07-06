@@ -56,7 +56,6 @@ module.exports = {
 						vnode.state.searchTerm = newTerm;
 					}),
 				}),
-				m('h2', 'RESULTS:'),
 				m(mainSelector, {
 					sections: searchSections,
 				}),

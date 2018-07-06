@@ -17,7 +17,8 @@
 	justify-content: center;
 }
 #selected-parts-list {
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
+	margin-left: 15px;
 }
 h2.centered {
 	text-align: center;
@@ -39,11 +40,11 @@ h2.top {
 	background-color: #fff;
 	box-shadow: 0 0 5px #999;
 	border-collapse: collapse;
-	margin: 5vh auto;
+	margin: 5px auto 1.5rem auto;
 	max-width: calc(100% - 30px - 9rem);
 }
 .spec-tab th, .spec-tab td {
-	padding: 0.75em 1em;
+	padding: 0.6em;
 	border-left: 1px solid #ccc;
 	max-width: 10rem;
 	min-width: 4rem;
@@ -108,9 +109,10 @@ h2.top {
 	color: #999;
 	border: 2px solid transparent;
 	transition: all 250ms;
-	padding: 1em;
+	padding: 0.5em;
 	cursor: pointer;
-	margin: 0 1vw;
+	margin: 1rem;
+	margin-top: 0;
 	user-select: none;
 }
 
