@@ -7,10 +7,9 @@ data:
   Sockets:
   - FM2+
   Foundry: Global Foundries
+  Release Date: '2016-02'
 sections:
   - header: NSTS QUAD CORE
     members:
       - X4-845
       - X4-835
-
-

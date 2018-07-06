@@ -49,7 +49,6 @@ const partList = procs.filter(c => familyList.includes(c.ProductFamilyId)).map(c
 				// it's an object
 				const transformerOutput = sdbOutput.transformer(intelValue, toReturn);
 				if (
-					_.isNil(transformerOutput) ||
 					_.isFunction(transformerOutput) ||
 					_.isPlainObject(transformerOutput)
 				) {

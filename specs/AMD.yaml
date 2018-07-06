@@ -1,5 +1,6 @@
 name: AMD
 humanName: AMD
+type: Generic Container
 isPart: false
 topHeader: "SELECT CATEGORY:"
 forChildren:

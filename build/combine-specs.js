@@ -36,7 +36,55 @@ const resolveInheritance = k => {
 };
 Object.keys(toOutput).forEach(resolveInheritance);
 noInherits.forEach(c => console.error(`WARNING: Could not find spec object ${c}`));
-toOutput = _.pickBy(toOutput, v => !v.hidden);
+// TODO: move this somewhere else
+const requiredProps = {
+	'Generic Container': [],
+	'CPU Architecture': [
+		'Lithography',
+		'Release Date',
+		'Sockets',
+	],
+	'Graphics Architecture': [
+		'Lithography',
+		'Release Date',
+	],
+	'APU Architecture': [
+		'Lithography',
+		'Release Date',
+	],
+	CPU: [
+		'Core Count',
+		'Thread Count',
+		'Base Frequency',
+		'TDP',
+	],
+	'Graphics Card': [
+		'VRAM Capacity',
+		'Shader Processor Count',
+		'GPU Base Frequency',
+	],
+	'APU': [
+		'Core Count',
+		'Thread Count',
+		'Base Frequency',
+		'Shader Processor Count',
+	],
+};
+toOutput = _.pickBy(toOutput, (v, k) => {
+	if (v.hidden) {
+		return false;
+	}
+	if (!requiredProps[v.type]) {
+		console.error(`WARNING: Unknown type ${v.type} for ${k}`);
+		return false;
+	}
+	const missingProperties = requiredProps[v.type].filter(c => !(c in v.data))
+	if (missingProperties.length > 0) {
+		console.error(`WARNING: Part ${k} is missing required props: ${missingProperties}`);
+		return false;
+	}
+	return true;
+});
 
 fs.writeFileSync(outputFile, `module.exports=${JSON.stringify(toOutput)}`, 'utf8');
 

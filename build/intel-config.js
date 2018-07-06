@@ -33,15 +33,22 @@ const intelConfig = {
 		ProcessorNumber: [
 			'name',
 			{ name: 'humanName', transformer: util.urlify },
+			{ name: 'data.Unlocked', transformer: c => c.slice(-1) === 'K' || undefined },
 		],
-		CoreCount: 'data.Core Count',
+		CoreCount: [
+			'data.Core Count',
+			'data.Thread Count',
+		],
 		HyperThreading: { name: 'data.Thread Count', transformer: (c, d) => d.data['Core Count'] * (c ? 2 : 1) },
 		NumMemoryChannels: 'data.Max Memory Channels',
-		MemoryTypes: { name: 'data.Max Memory Frequency', transformer: c => _.max(c.match(/\d{3,}/g)) },
+		MemoryTypes: { name: 'data.Max Memory Frequency', transformer: c => `${_.max(c.match(/\d{3,}/g).map(Number))} MHz` },
 		ClockSpeedMhz: { name: 'data.Base Frequency', transformer: util.unitTransformer('MHz') },
 		ClockSpeedMaxMhz: { name: 'data.Boost Frequency', transformer: util.unitTransformer('MHz') },
 		CacheKB: { name: 'data.L2 Cache (Total)', transformer: util.unitTransformer('KiB') },
 		DieSize: { name: 'data.Die Size', transformer: c => `${c} mm`},
+		BornOnDate: { name: 'data.Release Date', transformer: c => c.replace("'", ' ')
+			.replace(/(?=[0-6]\d)/, '20')
+			.replace(/(?=[7-9]\d)/, '19') },
 		LaunchDate: { name: 'data.Release Date', transformer: util.isoDate },
 		SocketsSupported: 'data.Socket',
 		AESTech: 'data.AES',
@@ -51,6 +58,7 @@ const intelConfig = {
 			'SSE4.1': 'SSE 4.1',
 			'SSE4.2': 'SSE 4.2',
 			'AVX2': 'AVX2',
+			'AVX512': 'AVX512',
 		}) },
 	},
 };

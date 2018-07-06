@@ -8,6 +8,7 @@ data:
   - AM4
   - FM2+
   Foundry: Global Foundries
+  Release Date: '2016-09-05'
 sections:
   - header: 7th GEN. QUAD CORE
     members:
