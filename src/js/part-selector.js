@@ -41,7 +41,7 @@ module.exports = {
 			}
 			searchSections[searchSections.length - 1].members.push(c);
 		});
-		const curData = specData[vnode.state.breadcrumbs.length ? vnode.state.breadcrumbs.slice(-1) : 'AMD'];
+		const curData = specData[vnode.state.breadcrumbs.length ? vnode.state.breadcrumbs.slice(-1) : 'Root'];
 
 		return [
 			m('input#search-toggle[type="checkbox"]'),

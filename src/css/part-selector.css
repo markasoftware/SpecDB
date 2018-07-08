@@ -10,7 +10,7 @@ body {
 	right: 0;
 	/* if this is ever changed, make sure to update mobile.css as well! */
 	box-shadow: 0 0 15px #999;
-	padding: 2rem 5px 2rem 1.3rem;
+	padding: 2rem 5px 0 1.3rem;
 	background-color: #f7f7f7;
 }
 #part-selector h2 {

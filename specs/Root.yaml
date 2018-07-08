@@ -1,10 +1,8 @@
-name: AMD
-humanName: AMD
+name: Root
+humanName: Root
 type: Generic Container
 isPart: false
 topHeader: "SELECT CATEGORY:"
-forChildren:
-  manufacturer: AMD
 sections:
   - header: AMD
     members:
@@ -13,3 +11,8 @@ sections:
     - GPUs-CONSUMER
     - APUs-DESKTOP
     - APUs-MOBILE
+  - header: Intel
+    members:
+    - Intel-CPUs-DESKTOP
+    - Intel-CPUs-MOBILE
+    - Intel-CPUs-SERVER

@@ -31,8 +31,8 @@ const intelConfig = {
 		Lithography: 'data.Lithography',
 		MaxTDP: { name: 'data.TDP', transformer: c => c + ' W' },
 		ProcessorNumber: [
-			'name',
-			{ name: 'humanName', transformer: util.urlify },
+			'humanName',
+			{ name: 'name', transformer: util.urlify },
 			{ name: 'data.Unlocked', transformer: c => c.slice(-1) === 'K' || undefined },
 		],
 		CoreCount: [

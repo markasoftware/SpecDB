@@ -26,7 +26,7 @@
 		transform: translateX(0);
 		box-shadow: 0 0 15px #999;
 	}
-	.part {
+	div.part {
 		/* subtract 2*right padding */
 		flex-basis: calc((100% - 30px) / 2);
 		min-width: 0;

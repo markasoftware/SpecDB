@@ -6,7 +6,7 @@ const _ = require('lodash');
 const parseYaml = filePath => {
 	let toReturn;
 	try {
-		toReturn = jsYaml.safeLoad(fs.readFileSync(filePath));
+		toReturn = jsYaml.safeLoadAll(fs.readFileSync(filePath));
 	} catch (e) {
 		console.error(`FATAL: yaml parsing failed for ${filePath}. Aborting. Error: ${e}`);
 		process.exit(1);
@@ -14,12 +14,16 @@ const parseYaml = filePath => {
 	return toReturn;
 }
 
+const multiNames = yaml =>
+	_.castArray(yaml.name).map(c => _.chain(yaml).clone().set('name', c).value());
+
 const [basePath, specOutPath] = process.argv.slice(2);
 const yamls = find.fileSync(/\.yaml$/, basePath);
 // who's ready for some FUNCTIONAL PROGRAMMING???
 const toOutput = _
 	.chain(yamls)
-	.map(parseYaml)
+	.flatMap(parseYaml)
+	.flatMap(multiNames)
 	// TODO: instead of spoofing the names, either switch to:
 	// a) separate names for inheritors than actual categories -- probably best option
 	// b) different `data` and `abstractData` properties to allow things to coexist
