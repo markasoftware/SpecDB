@@ -5,6 +5,7 @@ data:
   Lithography: 32 nm
   Socket: AM3+
   Unlocked: true
+  Memory Type: DDR3
   Max Memory Frequency: 1866 MHz
   Max Memory Channels: 2
   AVX/SSE/MMX: AVX

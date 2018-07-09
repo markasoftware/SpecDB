@@ -5,6 +5,8 @@ topHeader: 'SELECT CPU:'
 data:
   Release Date: '2018-02-12'
   Lithography: 14 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.1'
   Sockets:
     - FP5
 sections:

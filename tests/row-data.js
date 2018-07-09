@@ -73,6 +73,10 @@ test('enum', t => {
 
 	t.equal(subject(['good', 'not good', 'even worse']).compare('not good', 'good'), false, 'comparison false');
 	t.equal(subject(['good', 'not good', 'even worse']).compare('good', 'even worse'), true, 'comparison true');
+	t.equal(subject(['good', 'not good', 'even worse'], { allowPartialMatch: true })
+		.compare('pretty good', 'even worse'), true, 'partial match');
+	t.equal(subject(['good', 'not good', 'even worse'], { allowPartialMatch: true })
+		.compare('even worse', 'pretty good'), false, 'partial match, reverse');
 
 	t.end();
 });

@@ -13,6 +13,7 @@ sections:
     - APUs-MOBILE
   - header: Intel
     members:
-    - Intel-CPUs-DESKTOP
-    - Intel-CPUs-MOBILE
-    - Intel-CPUs-SERVER
+    - Desktop-CPUs-Intel
+    - Mobile-CPUs-Intel
+    - Embedded-CPUs-Intel
+    - Server-CPUs-Intel

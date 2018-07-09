@@ -67,12 +67,9 @@ const partList = procs.filter(c => familyList.includes(c.ProductFamilyId)).map(c
 	return toReturn;
 });
 // END step 4
-// convert list to name-keyed object
-const toOutput = {};
-for (let part of partList) {
-	const partName = part.name;
-	delete part.name;
-	toOutput[partName] = part;
-}
+const toOutput = util.keyByName(partList);
+
+// do the sectioning thing
+Object.assign(toOutput, util.genSections(toOutput, intelConfig.sectionPages));
 
 util.writeJSON(intelParse, toOutput);

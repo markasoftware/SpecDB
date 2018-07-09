@@ -28,6 +28,12 @@ const intelConfig = {
 			'data.Architecture',
 			{ name: 'inherits', transformer: c => [util.urlify(c)] },
 		],
+		MarketSegment: { name: 'data.Market', transformer: c => ({
+			DT: 'Desktop',
+			SRV: 'Server',
+			EMB: 'Embedded',
+			MBL: 'Mobile',
+		})[c] },
 		Lithography: 'data.Lithography',
 		MaxTDP: { name: 'data.TDP', transformer: c => c + ' W' },
 		ProcessorNumber: [
@@ -41,7 +47,10 @@ const intelConfig = {
 		],
 		HyperThreading: { name: 'data.Thread Count', transformer: (c, d) => d.data['Core Count'] * (c ? 2 : 1) },
 		NumMemoryChannels: 'data.Max Memory Channels',
-		MemoryTypes: { name: 'data.Max Memory Frequency', transformer: c => `${_.max(c.match(/\d{3,}/g).map(Number))} MHz` },
+		MemoryTypes: [
+			{ name: 'data.Max Memory Frequency', transformer: c => `${_.max(c.match(/\d{3,}/g).map(Number))} MHz` },
+			{ name: 'data.Memory Type', transformer: c => c.match(/\S*DDR[^-, ]*/g).join(', ') },
+		],
 		ClockSpeedMhz: { name: 'data.Base Frequency', transformer: util.unitTransformer('MHz') },
 		ClockSpeedMaxMhz: { name: 'data.Boost Frequency', transformer: util.unitTransformer('MHz') },
 		CacheKB: { name: 'data.L2 Cache (Total)', transformer: util.unitTransformer('KiB') },
@@ -60,6 +69,46 @@ const intelConfig = {
 			'AVX2': 'AVX2',
 			'AVX512': 'AVX512',
 		}) },
+		GraphicsFreqMHz: { name: 'data.GPU Base Frequency', transformer: util.unitTransformer('MHz') },
+		GraphicsMaxFreqMHz:
+			{ name: 'data.GPU Boost Frequency', transformer: util.unitTransformer('MHz') },
+		GraphicsMaxMemMB: [
+			{ name: 'data.VRAM Type', transformer: (c, d) => d.data['Memory Type'] || 'RAM' },
+			{ name: 'data.Maximum VRAM Capacity', transformer: util.unitTransformer('MiB') },
+		],
+		GraphicsDirectXSupport: { name: 'data.DirectX Support', transformer:
+			c => _.max(c.match(/[0-9.]*/g).map(Number)).toString() },
+		GraphicsOpenGLSupport: 'data.OpenGL Support',
+		// TODO: GraphicsDeviceId to identify which model of HD graphics it is
 	},
+	sectionPages: [
+		{
+			toName: c => `${c.data.Market} CPUs (Intel)`,
+			// TODO: make the headers purely cosmetic and not acutally filter things down
+			// so that we can do it by date properly. Fuck
+			toHeader: c => 'yais',
+			base: c => ({
+				type: 'Generic Container',
+				topHeader: 'SELECT ARCHITECTURE:',
+				data: { Manufacturer: 'Intel' },
+			}),
+		},
+		{
+			toName: c => `${c.data.Market}-${c.data.Architecture}`,
+			toHeader: c => `${c.data['Thread Count']} Threads`,
+			base: c => ({
+				humanName: c[0].data.Architecture,
+				type: 'CPU Architecture',
+				topHeader: 'SELECT CPU:',
+				data: {
+					Manufacturer: 'Intel',
+					Lithography: c[0].data.Lithography,
+					'Release Date': c[0].data['Release Date'],
+					Sockets: [ c[0].data.Socket ],
+				},
+			}),
+		},
+	],
+	// TODO: maybe prune properties only useful during sectionPages? (market)
 };
 module.exports = intelConfig;

@@ -9,16 +9,17 @@
   "dependencies": {
     "babel-cli": "^6",
     "babel-plugin-array-includes": "^2",
+    "babel-plugin-transform-es2015-for-of": "^6.23.0",
     "babel-preset-env": "^1.6.1",
     "browserify": "^16",
     "csso-cli": "*",
+    "faucet": "*",
     "find": "^0.2.9",
     "js-yaml": "^3",
     "lodash": "^4.17.10",
     "mithril": "^1.1.6",
     "natural-compare": "^1.4.0",
     "sw-precache": "^5.2.0",
-    "tap-spec": "*",
     "tape": "^4.9.0",
     "uglify-js": "^3"
   },
@@ -39,7 +40,13 @@
       ]
     ],
     "plugins": [
-      "array-includes"
+      "array-includes",
+      [
+        "transform-es2015-for-of",
+        {
+          "loose": true
+        }
+      ]
     ]
   }
 }

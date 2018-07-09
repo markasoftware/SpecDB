@@ -42,7 +42,7 @@ production: prod := true
 production: ${n_sentinel} ${prod_guard} ${css_output} \
 	${js_output} ${sw_output} ${map_output}
 test:
-	tape ${tests} | tap-spec
+	tape ${tests} | faucet
 watch:
 	find specs src build | entr ${MAKE}
 

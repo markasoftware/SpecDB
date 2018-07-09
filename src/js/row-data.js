@@ -121,8 +121,19 @@ const types = {
 		postprocess: c => c === '0' ? 'No' : c,
 		default: '0',
 	},
-	enum: values => ({
-		compare: (a, b) => values.indexOf(a) < values.indexOf(b),
+	enum: (values, opts = {}) => ({
+		compare: (a, b) => {
+			if (opts.allowPartialMatch) {
+				for (const value of values) {
+					if (a.includes(value) != b.includes(value)) {
+						return a.includes(value);
+					}
+				}
+				// both equal
+				return true;
+			}
+			return values.indexOf(a) < values.indexOf(b);
+		},
 		default: values[values.length - 1],
 	}),
 	list: {
@@ -130,6 +141,13 @@ const types = {
 		default: [],
 	}
 };
+// for thing that rely on other functions in there
+Object.assign(types, {
+	memory: types.enum(
+		['HBM2', 'GDDR6', 'GDDR5X', 'HBM', 'GDDR5', 'GDDR4', 'GDDR3', 'DDR4', 'DDR3', 'DDR2', 'DDR', ''],
+		{ allowPartialMatch: true },
+	),
+});
 
 // for testing
 module.exports.types = types;
@@ -265,6 +283,10 @@ module.exports.sections = [
 		display: false,
 		rows: [
 			{
+				name: 'VRAM Type',
+				processor: types.memory,
+			},
+			{
 				name: 'VRAM Frequency',
 				processor: types.unitUp,
 			},
@@ -277,8 +299,8 @@ module.exports.sections = [
 				processor: types.numberUp,
 			},
 			{
-				name: 'VRAM Type',
-				processor: types.enum(['HBM2', 'GDDR6', 'GDDR5X', 'HBM', 'GDDR5', 'GDDR4', 'GDDR3', 'DDR4', 'DDR3', 'DDR2', 'DDR', 'No']),
+				name: 'Maximum VRAM Capacity',
+				processor: types.unitUp,
 			},
 		],
 	},
@@ -289,6 +311,10 @@ module.exports.sections = [
 			{
 				name: 'Max Memory Channels',
 				processor: types.numberUp,
+			},
+			{
+				name: 'Memory Type',
+				processor: types.memory,
 			},
 			{
 				name: 'Max Memory Frequency',
