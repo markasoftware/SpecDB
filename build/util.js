@@ -89,5 +89,43 @@ const util = {
 		};
 		return genPage(data, pages)[1];
 	},
+
+	bucket: (modulo, opts = {}) => n => {
+		const
+			separator = opts.separator || '-',
+			min = opts.min || -Infinity,
+			max = opts.max || Infinity,
+			ranges = opts.ranges || [],
+			offset = opts.offset || 0;
+		
+		// just WOW
+		const mod = (a, b) =>
+			(a % b + b) % b;
+		
+		const getContainingRange = n =>
+			ranges.find(r => _.inRange(n, r[0], r[1]));
+		const getContainer = n =>
+			getContainingRange(n) ||
+			[ n - mod(n - offset, modulo), n + (modulo - 1 - mod(n - offset, modulo)) ];
+		
+		const containingRange = getContainer(n);
+		const bottomRange = getContainingRange(containingRange[0]) || containingRange;
+		const topRange = getContainingRange(containingRange[1]) || containingRange;
+		const edgedRange = [
+			_.isEqual(bottomRange, containingRange) ?
+				containingRange[0] : bottomRange[1] + 1,
+			_.isEqual(topRange, containingRange) ?
+				containingRange[1] : topRange[0] - 1,
+		];
+		
+		const clampedRange = [
+			edgedRange[0] <= min ? opts.minText || min : edgedRange[0],
+			edgedRange[1] >= max ? opts.maxText || max : edgedRange[1],
+		];
+		
+		const finalRange = clampedRange;
+
+		return finalRange.join(separator);
+	},
 };
 module.exports = util;

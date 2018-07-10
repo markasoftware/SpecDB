@@ -1,5 +1,6 @@
 const _ = require('lodash');
 const units = require('../src/js/units');
+const dates = require('../src/js/dates');
 const util = require('./util');
 
 const intelConfig = {
@@ -92,7 +93,8 @@ const intelConfig = {
 			toName: c => `${c.data.Market} CPUs (Intel)`,
 			// TODO: make the headers purely cosmetic and not acutally filter things down
 			// so that we can do it by date properly. Fuck
-			toHeader: c => c.data['Release Date'],
+			toHeader: c => util.bucket(5, { max: new Date().getFullYear() })
+				(dates.parse(c.data['Release Date']).getFullYear()),
 			base: c => ({
 				type: 'Generic Container',
 				topHeader: 'SELECT ARCHITECTURE:',
@@ -109,7 +111,7 @@ const intelConfig = {
 				data: {
 					Manufacturer: 'Intel',
 					Lithography: c[0].data.Lithography,
-					'Release Date': c[0].data['Release Date'],
+					'Release Date': _.minBy(c.map(d => d.data['Release Date']), d => dates.parse(d)),
 					Sockets: [ c[0].data.Socket ],
 				},
 			}),

@@ -48,23 +48,6 @@ test('version', t => {
 	t.equal(subject.compare('19.9', '119'), false, 'weird regression test thing');
 	t.end();
 });
-test('date', t => {
-	const subject = rowData.types.dateUp;
-
-	t.deepEqual(subject.preprocess('2001-02-27'), new Date('2001-02-27'), 'preprocess yyyy-mm-dd');
-	t.deepEqual(subject.preprocess('2001-02'), new Date('2001-02-01'), 'preprocess yyyy-mm');
-	t.deepEqual(subject.preprocess('2001'), new Date(2001, 0), 'preprocess yyyy');
-	t.deepEqual(subject.preprocess('Q2 2001'), new Date(2001, 3), 'preprocess Q');
-	t.deepEqual(subject.preprocess('H2 2001'), new Date(2001, 6), 'preprocess H');
-
-	t.equal(subject.postprocess('2001-02-27'), 'February 27, 2001', 'postprocess yyyy-mm-dd');
-	t.equal(subject.postprocess('2001-02'), 'February 2001', 'postprocess yyyy-mm');
-	t.equal(subject.postprocess('2001'), '2001', 'postprocess yyyy');
-	t.equal(subject.postprocess('Q2 2001'), 'Quarter 2, 2001', 'postprocess Q');
-	t.equal(subject.postprocess('H2 2001'), 'Half 2, 2001', 'preprocess H');
-
-	t.end();
-});
 test('enum', t => {
 	const subject = rowData.types.enum;
 
