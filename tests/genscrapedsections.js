@@ -73,6 +73,7 @@ test('build: genSections', t => {
 		toName: c => 'meow wolf',
 		toHeader: c => c.data.cats,
 		headerSorter: (a, b) => a > b,
+		memberSorter: (a, b) => a.humanName > b.humanName,
 		base: c => ({
 			topHeader: 'SELECT GENDER:',
 			type: 'CPU Architecture',
@@ -93,7 +94,7 @@ test('build: genSections', t => {
 			type: 'CPU Architecture',
 			sections: [{
 				header: '2',
-				members: [ 'slow', 'medium' ],
+				members: [ 'medium', 'slow' ],
 			}, {
 				header: '4',
 				members: [ 'fast' ],

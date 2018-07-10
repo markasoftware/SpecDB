@@ -67,8 +67,10 @@ const util = {
 					.toPairs()
 					.map(([ header, members ]) => ({
 						header,
-						members: Object.keys(members).sort(
-							page.memberSort || _.flip(naturalCompare)
+						members: Object.keys(members).sort((a, b) =>
+							page.memberSorter ?
+								page.memberSorter(members[a], members[b])
+								: _.flip(naturalCompare)(a, b),
 						),
 					}))
 					.value()
@@ -92,40 +94,76 @@ const util = {
 
 	bucket: (modulo, opts = {}) => n => {
 		const
-			separator = opts.separator || '-',
+			separator = opts.separator || ' - ',
 			min = opts.min || -Infinity,
 			max = opts.max || Infinity,
 			ranges = opts.ranges || [],
 			offset = opts.offset || 0;
-		
+
 		// just WOW
 		const mod = (a, b) =>
 			(a % b + b) % b;
-		
-		const getContainingRange = n =>
-			ranges.find(r => _.inRange(n, r[0], r[1]));
-		const getContainer = n =>
-			getContainingRange(n) ||
-			[ n - mod(n - offset, modulo), n + (modulo - 1 - mod(n - offset, modulo)) ];
-		
-		const containingRange = getContainer(n);
-		const bottomRange = getContainingRange(containingRange[0]) || containingRange;
-		const topRange = getContainingRange(containingRange[1]) || containingRange;
-		const edgedRange = [
-			_.isEqual(bottomRange, containingRange) ?
-				containingRange[0] : bottomRange[1] + 1,
-			_.isEqual(topRange, containingRange) ?
-				containingRange[1] : topRange[0] - 1,
-		];
-		
-		const clampedRange = [
-			edgedRange[0] <= min ? opts.minText || min : edgedRange[0],
-			edgedRange[1] >= max ? opts.maxText || max : edgedRange[1],
-		];
-		
-		const finalRange = clampedRange;
 
-		return finalRange.join(separator);
+		const getContainingRange = (n, ranges) =>
+			ranges.find(r => n >= r[0] && n <= r[1]);
+
+		// returns the smallest "intersection" of all ranges
+		const collapseRanges = ([a, b, ...ranges]) =>
+			b ?
+				collapseRanges([
+					[
+						Math.max(a[0], b[0]),
+						Math.min(a[1], b[1]),
+					],
+				...ranges])
+			: a;
+
+		// step 1: make the ranges passed in "tesselate"
+		// i.e, [2, 5] -> [-Infinity, 1], [2, 5], [6, Infinity]
+		const sortedRanges = [
+			[ -Infinity, -Infinity ],
+			...ranges.sort((a, b) => a[0] - b[0]),
+			[ Infinity, Infinity ],
+		];
+		// it does not matter than there is no pair where the first
+		// range is added, because the first range is -Infinity
+		// and cannot occur
+		const rangesWithPrevious = _.zip(
+			sortedRanges.slice(0, -1),
+			sortedRanges.slice(1),
+		);
+		const tesselatingRanges = _.flatMap(rangesWithPrevious, c => {
+			const previousRange = c[0];
+			const nextRange = c[1];
+			return [
+				// true as third part of array indicates
+				// that it can be broken up later by modulo
+				[ previousRange[1] + 1, nextRange[0] - 1, true ],
+				nextRange,
+			// if ranges already tesselate, don't include our thing
+			].filter(c => c[0] <= c[1]);
+		});
+
+		const tesselatingRange = getContainingRange(n, tesselatingRanges);
+		const unclampedRange = tesselatingRange[2] ?
+			collapseRanges([
+				tesselatingRange,
+				[ n - mod(n - offset, modulo), n + (modulo - 1 - mod(n - offset, modulo)) ],
+			])
+			// don't need to get rid of [2] manually, collapse does
+			: tesselatingRange;
+		const closestRange = collapseRanges([
+			unclampedRange,
+			[ min, max ],
+		]);
+
+		const finalRange = [
+			closestRange[0] === min && opts.minText || closestRange[0],
+			closestRange[1] === max && opts.maxText || closestRange[1],
+		];
+
+		return finalRange[0] === finalRange[1] ?
+			finalRange[0].toString() : finalRange.join(separator);
 	},
 };
 module.exports = util;

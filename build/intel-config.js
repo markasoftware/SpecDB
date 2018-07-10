@@ -91,10 +91,11 @@ const intelConfig = {
 	sectionPages: [
 		{
 			toName: c => `${c.data.Market} CPUs (Intel)`,
-			// TODO: make the headers purely cosmetic and not acutally filter things down
-			// so that we can do it by date properly. Fuck
-			toHeader: c => util.bucket(5, { max: new Date().getFullYear() })
-				(dates.parse(c.data['Release Date']).getFullYear()),
+			toHeader: c => util.bucket(5, {
+				max: new Date().getFullYear(),
+				maxText: 'Present',
+			})(dates.parse(c.data['Release Date']).getFullYear()),
+			memberSorter: (a, b) => dates.parse(b.data['Release Date']) - dates.parse(a.data['Release Date']),
 			base: c => ({
 				type: 'Generic Container',
 				topHeader: 'SELECT ARCHITECTURE:',
@@ -103,7 +104,13 @@ const intelConfig = {
 		},
 		{
 			toName: c => `${c.data.Market}-${c.data.Architecture}`,
-			toHeader: c => `${c.data['Thread Count']} Threads`,
+			toHeader: c => `${
+				util.bucket(1, {
+					ranges: [ [ 9, 16 ], [ 17, 64 ], [ 65, 128 ]],
+					max: 65,
+					maxText: 'What the FUCK',
+				})(c.data['Thread Count'])
+			} Threads`,
 			base: c => ({
 				humanName: c[0].data.Architecture,
 				type: 'CPU Architecture',
@@ -111,7 +118,12 @@ const intelConfig = {
 				data: {
 					Manufacturer: 'Intel',
 					Lithography: c[0].data.Lithography,
-					'Release Date': _.minBy(c.map(d => d.data['Release Date']), d => dates.parse(d)),
+					'Release Date': _.minBy(
+						c
+							.filter(d => d.data['Release Date'])
+							.map(d => d.data['Release Date']),
+						d => dates.parse(d),
+					) || null,
 					Sockets: [ c[0].data.Socket ],
 				},
 			}),

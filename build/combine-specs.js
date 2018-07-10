@@ -78,7 +78,7 @@ toOutput = _.pickBy(toOutput, (v, k) => {
 		console.error(`WARNING: Unknown type ${v.type} for ${k}`);
 		return false;
 	}
-	const missingProperties = requiredProps[v.type].filter(c => !(c in v.data))
+	const missingProperties = requiredProps[v.type].filter(c => _.isNil(v.data[c]));
 	if (missingProperties.length > 0) {
 		console.error(`WARNING: Part ${k} is missing required props: ${missingProperties}`);
 		return false;
