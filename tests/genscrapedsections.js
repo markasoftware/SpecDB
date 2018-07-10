@@ -71,7 +71,7 @@ test('build: genSections', t => {
 	
 	const advOpts = [{
 		toName: c => 'meow wolf',
-		toHeader: c => c.cores,
+		toHeader: c => c.data.cats,
 		headerSorter: (a, b) => a > b,
 		base: c => ({
 			topHeader: 'SELECT GENDER:',
@@ -82,7 +82,7 @@ test('build: genSections', t => {
 		toHeader: c => 'yais',
 		base: c => ({
 			topHeader: 'SELECT: :TCELES',
-			data: { cats: c[0].speed },
+			data: { cats: c[0].cores },
 		}),
 	}];
 	const advOutput = util.keyByName([
@@ -103,7 +103,7 @@ test('build: genSections', t => {
 			name: 'fast',
 			humanName: 'fast',
 			topHeader: 'SELECT: :TCELES',
-			data: { cats: 'fast' },
+			data: { cats: 4 },
 			sections: [{
 				header: 'yais',
 				members: [ 'i5_8500' ],
@@ -113,7 +113,7 @@ test('build: genSections', t => {
 			name: 'medium',
 			humanName: 'medium',
 			topHeader: 'SELECT: :TCELES',
-			data: { cats: 'medium' },
+			data: { cats: 2 },
 			sections: [{
 				header: 'yais',
 				members: [ 'i3_4130' ],
@@ -123,7 +123,7 @@ test('build: genSections', t => {
 			name: 'slow',
 			humanName: 'slow',
 			topHeader: 'SELECT: :TCELES',
-			data: { cats: 'slow' },
+			data: { cats: 2 },
 			sections: [{
 				header: 'yais',
 				members: [ 'g3258' ],

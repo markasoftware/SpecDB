@@ -4,12 +4,13 @@ const util = require('./util');
 
 const intelConfig = {
 	// SPECIFIC
+	// we don't use the values, they're for future use so i don't have to look
+	// at the accursed odata page again
 	families: {
-		122139: {
-			isPart: true,
-			manufacturer: 'Intel',
-			type: 'CPU',
-		}
+		122139: 'Core',
+		29862: 'Pentium',
+		595: 'Xeon',
+		43521: 'Pentium',
 	},
 	deferred: {
 		codeName: {
@@ -48,7 +49,12 @@ const intelConfig = {
 		HyperThreading: { name: 'data.Thread Count', transformer: (c, d) => d.data['Core Count'] * (c ? 2 : 1) },
 		NumMemoryChannels: 'data.Max Memory Channels',
 		MemoryTypes: [
-			{ name: 'data.Max Memory Frequency', transformer: c => `${_.max(c.match(/\d{3,}/g).map(Number))} MHz` },
+			{ name: 'data.Max Memory Frequency', transformer: c => {
+				const regexMatches = c.match(/\d{3,}/g);
+				if (!_.isNil(regexMatches)) {
+					return `${_.max(regexMatches.map(Number))} MHz`;
+				}
+			} },
 			{ name: 'data.Memory Type', transformer: c => c.match(/\S*DDR[^-, ]*/g).join(', ') },
 		],
 		ClockSpeedMhz: { name: 'data.Base Frequency', transformer: util.unitTransformer('MHz') },
@@ -86,7 +92,7 @@ const intelConfig = {
 			toName: c => `${c.data.Market} CPUs (Intel)`,
 			// TODO: make the headers purely cosmetic and not acutally filter things down
 			// so that we can do it by date properly. Fuck
-			toHeader: c => 'yais',
+			toHeader: c => c.data['Release Date'],
 			base: c => ({
 				type: 'Generic Container',
 				topHeader: 'SELECT ARCHITECTURE:',

@@ -54,29 +54,36 @@ const util = {
 				return [ Object.keys(data), {} ];
 			}
 
-			const deepTree = util.genDeepTree(data, [ page.toName, page.toHeader ]);
+			const deepTree = util.genDeepTree(data, [ page.toName ]);
 			const subsectionData = {};
 
-			const ownSubsectionData = util.keyByName(Object.keys(deepTree).map(name => ({
-					name: util.urlify(name),
-					humanName: name,
-					sections: Object.keys(deepTree[name]).map(header => {
-						const [ members, childData ] = genPage(deepTree[name][header], pages);
-						safeAssign(subsectionData, childData);
-						return { header, members: members.sort(page.memberSort || _.flip(naturalCompare)) };
-					}).sort((a, b) =>
+			const ownSubsectionData = util.keyByName(Object.keys(deepTree).map(name => {
+				const [ allMembers, childData ] = genPage(deepTree[name], pages);
+				const allMembersObj = _.pickBy({ ...childData, ...data}, (v, k) => allMembers.includes(k));
+
+				const deepMembersObj = util.genDeepTree(allMembersObj, [ page.toHeader ]);
+				const membersArr = _
+					.chain(deepMembersObj)
+					.toPairs()
+					.map(([ header, members ]) => ({
+						header,
+						members: Object.keys(members).sort(
+							page.memberSort || _.flip(naturalCompare)
+						),
+					}))
+					.value()
+					.sort((a, b) =>
 						page.headerSorter ?
 							page.headerSorter(a.header, b.header)
-							: _.flip(naturalCompare)(a.header, b.header)
-					),
-					...page.base(_
-						.chain(deepTree[name])
-						.values()
-						.flatMap(_.values)
-						.value()
-					),
-				})
-			));
+							: _.flip(naturalCompare)(a.header, b.header));
+				safeAssign(subsectionData, childData);
+				return {
+					name: util.urlify(name),
+					humanName: name,
+					sections: membersArr,
+					...page.base(Object.values(deepTree[name])),
+				}
+			}));
 			safeAssign(subsectionData, ownSubsectionData);
 			return [ Object.keys(ownSubsectionData), subsectionData ];
 		};

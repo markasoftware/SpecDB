@@ -29,9 +29,8 @@ procs = processDeferred('codeName', codeNames.d, procs.d);
 // END step 2
 
 // step 3
-const familyList = Object.keys(intelConfig.families).map(c => parseInt(c));
 // BEGIN step 4
-const partList = procs.filter(c => familyList.includes(c.ProductFamilyId)).map(c => {
+const partList = procs.filter(c => c.ProductFamilyId in intelConfig.families).map(c => {
 	const toReturn = { isPart: true, inherits: [ 'Intel' ] };
 	// iterate through the keys according to Intel's website
 	for (let intelKey of _.intersection(Object.keys(c), Object.keys(intelConfig.keyMap))) {
