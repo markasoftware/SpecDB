@@ -20,6 +20,9 @@ const intelConfig = {
 			procProp: 'CodeNameEPMId',
 		},
 	},
+	// KEYMAP HELPERS
+	nameTransformer: (c, d, od) =>
+		`${intelConfig.families[od.ProductFamilyId]} ${c}`,
 	// STANDARD
 	keyMap: {
 		// conveniently, all objects in the odata standard have __metadata
@@ -39,8 +42,10 @@ const intelConfig = {
 		Lithography: 'data.Lithography',
 		MaxTDP: { name: 'data.TDP', transformer: c => c + ' W' },
 		ProcessorNumber: [
-			'humanName',
-			{ name: 'name', transformer: util.urlify },
+			{ name: 'humanName', transformer: (c, d, od) => intelConfig.nameTransformer(c, d, od) },
+			{ name: 'name', transformer: (c, d, od) => 
+				util.urlify(intelConfig.nameTransformer(c, d, od))
+			},
 			{ name: 'data.Unlocked', transformer: c => c.slice(-1) === 'K' || undefined },
 		],
 		CoreCount: [

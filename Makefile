@@ -1,4 +1,6 @@
 PATH       := ./node_modules/.bin:${PATH}
+# to dl, this followed by output file followed by url
+curl_cli   := curl --retry 5 --retry-delay 5 --connect-timeout 30 -fo
 
 tests      := ./tests/*.js
 
@@ -70,8 +72,8 @@ ${athr_output} : ${athr_input} build/gen-specs.js
 	node build/gen-specs.js ${athr_folder} ${athr_output}
 
 ${intc_scrape} :
-	curl -o ${intc_procs} 'https://odata.intel.com/API/v1_0/Products/Processors()?$$format=json'
-	curl -o ${intc_codes} 'https://odata.intel.com/API/v1_0/Products/CodeNames()?$$format=json'
+	${curl_cli} ${intc_procs} 'https://odata.intel.com/API/v1_0/Products/Processors()?$$format=json'
+	${curl_cli} ${intc_codes} 'https://odata.intel.com/API/v1_0/Products/CodeNames()?$$format=json'
 
 ${intc_parse} : build/intel-parse.js build/intel-config.js ${intc_scrape}
 	node build/intel-parse.js ${intc_scrape} ${intc_parse}

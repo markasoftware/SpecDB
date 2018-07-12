@@ -33,7 +33,7 @@ procs = processDeferred('codeName', codeNames.d, procs.d);
 const partList = procs.filter(c => c.ProductFamilyId in intelConfig.families).map(c => {
 	const toReturn = { isPart: true, inherits: [ 'Intel' ] };
 	// iterate through the keys according to Intel's website
-	for (let intelKey of _.intersection(Object.keys(c), Object.keys(intelConfig.keyMap))) {
+	for (let intelKey of _.intersection(Object.keys(intelConfig.keyMap), Object.keys(c))) {
 		const intelValue = _.isString(c[intelKey]) ? c[intelKey].trim() : c[intelKey];
 		if (_.isNil(intelValue) || intelValue === '') {
 			continue;
@@ -46,7 +46,7 @@ const partList = procs.filter(c => c.ProductFamilyId in intelConfig.families).ma
 				_.set(toMerge, sdbOutput, intelValue);
 			} else {
 				// it's an object
-				const transformerOutput = sdbOutput.transformer(intelValue, toReturn);
+				const transformerOutput = sdbOutput.transformer(intelValue, toReturn, c);
 				if (
 					_.isFunction(transformerOutput) ||
 					_.isPlainObject(transformerOutput)
@@ -55,7 +55,7 @@ const partList = procs.filter(c => c.ProductFamilyId in intelConfig.families).ma
 					console.error(transformerOutput);
 					process.exit(1);
 				}
-				_.set(toMerge, sdbOutput.name, sdbOutput.transformer(intelValue, toReturn));
+				_.set(toMerge, sdbOutput.name, transformerOutput);
 			}
 			// merging bullshit allows arrays to work nicely, so adding to
 			// the list of supported x86 extensions or the inherits list still works.
