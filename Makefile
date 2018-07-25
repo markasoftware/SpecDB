@@ -1,6 +1,7 @@
 PATH       := ./node_modules/.bin:${PATH}
 # to dl, this followed by output file followed by url
-curl_cli   := curl --retry 5 --retry-delay 5 --connect-timeout 30 -fo
+curl       := curl --retry 5 --retry-delay 5 --connect-timeout 30 -fo
+node       := node ${NODE_OPTS}
 
 tests      := ./tests/*.js
 
@@ -26,7 +27,7 @@ sw_input   := ./public/**
 spec_output:= ./tmp/specs.js
 
 # custom/authoritative specs
-athr_output:= ./tmp/authoritative.json
+athr_output:= ./tmp/authoritative-parse.json
 athr_input := ${shell find specs -name '*.yaml' -type f}
 athr_folder:= ./specs
 
@@ -37,6 +38,16 @@ intc_codes := ./tmp/intel-scrape-codenames.json
 intc_scrape:= ${intc_procs} ${intc_codes}
 intc_parse := ./tmp/intel-parse.json
 
+ubch_cpus  := ./tmp/userbenchmark-scrape-cpus.csv
+ubch_gpus  := ./tmp/userbenchmark-scrape-gpus.csv
+ubch_scrape:= ${ubch_cpus} ${ubch_gpus}
+ubch_parse := ./tmp/userbenchmark-parse.json
+
+3dmk_cpus  := ./tmp/3dmark-scrape-cpus.html
+3dmk_gpus  := ./tmp/3dmark-scrape-gpus.html
+3dmk_scrape:= ${3dmk_cpus} ${3dmk_gpus}
+3dmk_parse := ./tmp/3dmark-parse.json
+
 prod       := false
 
 development: ${n_sentinel} ${dev_guard} ${css_output} ${js_output}
@@ -44,7 +55,7 @@ production: prod := true
 production: ${n_sentinel} ${prod_guard} ${css_output} \
 	${js_output} ${sw_output} ${map_output}
 test:
-	tape ${tests} | faucet
+	tape ${tests} | tap-summary
 watch:
 	find specs src build | entr ${MAKE}
 
@@ -65,18 +76,32 @@ ${sw_output} : ${sw_input}
 	uglifyjs -cmo ${sw_output} \
 		${sw_output} 2>/dev/null
 
-${spec_output} ${map_output} : ${athr_output} ${intc_parse} build/combine-specs.js
-	node build/combine-specs.js ${spec_output} ${map_output} ${athr_output} ${intc_parse}
+${spec_output} ${map_output} : ${athr_output} ${intc_parse} ${ubch_parse} ${3dmk_parse} build/combine-specs.js
+	${node} build/combine-specs.js ${spec_output} ${map_output} ${athr_output} ${intc_parse}
 
 ${athr_output} : ${athr_input} build/gen-specs.js
-	node build/gen-specs.js ${athr_folder} ${athr_output}
+	${node} build/gen-specs.js ${athr_folder} ${athr_output}
 
 ${intc_scrape} :
-	${curl_cli} ${intc_procs} 'https://odata.intel.com/API/v1_0/Products/Processors()?$$format=json'
-	${curl_cli} ${intc_codes} 'https://odata.intel.com/API/v1_0/Products/CodeNames()?$$format=json'
+	${curl} ${intc_procs} 'https://odata.intel.com/API/v1_0/Products/Processors()?$$format=json'
+	${curl} ${intc_codes} 'https://odata.intel.com/API/v1_0/Products/CodeNames()?$$format=json'
 
 ${intc_parse} : build/intel-parse.js build/intel-config.js ${intc_scrape}
-	node build/intel-parse.js ${intc_scrape} ${intc_parse}
+	${node} build/intel-parse.js ${intc_scrape} ${intc_parse}
+
+${ubch_scrape} :
+	${curl} ${ubch_cpus} 'http://www.userbenchmark.com/resources/download/csv/CPU_UserBenchmarks.csv'
+	${curl} ${ubch_gpus} 'http://www.userbenchmark.com/resources/download/csv/GPU_UserBenchmarks.csv'
+
+${ubch_parse} : ${ubch_scrape} build/userbenchmark-parse.js
+	${node} build/userbenchmark-parse.js ${ubch_scrape} ${ubch_parse}
+
+${3dmk_scrape} :
+	${curl} ${3dmk_cpus} 'https://benchmarks.ul.com/compare/best-cpus'
+	${curl} ${3dmk_gpus} 'https://benchmarks.ul.com/compare/best-gpus'
+
+${3dmk_parse} :
+#	${node} build/3dmark-parse.js ${3dmk_scrape} ${3dmk_parse}
 
 ${n_sentinel} : package.json
 	npm install

@@ -19,15 +19,18 @@ const util = {
 	isoDate: n => (new Date(parseInt(n.toString().replace(/\D/g, '')))).toISOString().split('T')[0],
 	unitTransformer: unit => num => units.toString(units.reduce({ num, unit })),
 	substTransformer: substs => d => _.findLast(substs, (v, k) => d.includes(k)),
-	urlify: c => c.replace(/\s/g, '-').replace(/[^a-zA-Z0-9-]/g, ''),
+	urlify: c => c
+		.replace(/\s/g, '-')
+		.replace(/[^a-zA-Z0-9-]/g, ''),
 	keyByName: arr => _
 		.chain(arr)
 		.keyBy(c => c.name)
-		.mapValues(c => {
-			delete c.name;
-			return c;
-		})
+		.mapValues(c => _.omitBy(c, (v, k) => k === 'name'))
 		.value(),
+
+	unkeyByName: obj => Object.values(
+		_.mapValues(obj, (v, k) => ({ ...v, name: k }))
+	),
 
 	genDeepTree: (data, [grouper, ...groupers]) =>
 		grouper ? _
@@ -89,7 +92,7 @@ const util = {
 			safeAssign(subsectionData, ownSubsectionData);
 			return [ Object.keys(ownSubsectionData), subsectionData ];
 		};
-		return genPage(data, pages)[1];
+		return util.unkeyByName(genPage(data, pages)[1]);
 	},
 
 	bucket: (modulo, opts = {}) => n => {
@@ -165,5 +168,8 @@ const util = {
 		return finalRange[0] === finalRange[1] ?
 			finalRange[0].toString() : finalRange.join(separator);
 	},
+	// creates a matching regex
+	ezMatch: foreign =>
+		new RegEx(_.words(foreign.toLowercase()).map(c => `(?=.*${c})`).join(''), 'i'),
 };
 module.exports = util;

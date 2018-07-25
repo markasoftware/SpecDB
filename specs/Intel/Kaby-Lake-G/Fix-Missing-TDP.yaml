@@ -1,12 +1,7 @@
-name:
-  - Core-i5-8305G
-  - Core-i7-8705G
-  - Core-i7-8706G
+name: Core-i5-8[37]0[56]G
 data:
   TDP: 65 W
 ---
-name:
-  - Core-i7-8709G
-  - Core-i7-8809G
+name: Core-i7-8?09G
 data:
   TDP: 100 W

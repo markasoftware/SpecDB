@@ -1,6 +1,8 @@
 const test = require('tape');
 const util = require('../build/util.js');
 
+const _ = require('lodash');
+
 const fixture = {
 	i5_8500: {
 		series: 'core',
@@ -53,7 +55,7 @@ test('build: genSections', t => {
 			data: { meow: c[0].market },
 		}),
 	}];
-	const basicOutput = util.keyByName([
+	const basicOutput = [
 		{
 			name: 'desktop',
 			humanName: 'desktop',
@@ -66,7 +68,7 @@ test('build: genSections', t => {
 				{ header: 'fast', members: [ 'i5_8500' ] },
 			],
 		},
-	]);
+	];
 	t.deepEqual(gs(fixture, basicOpts), basicOutput, 'basic');
 	
 	const advOpts = [{
@@ -86,7 +88,7 @@ test('build: genSections', t => {
 			data: { cats: c[0].cores },
 		}),
 	}];
-	const advOutput = util.keyByName([
+	const advOutput = [
 		{
 			name: 'meow-wolf',
 			humanName: 'meow wolf',
@@ -130,8 +132,8 @@ test('build: genSections', t => {
 				members: [ 'g3258' ],
 			}],
 		},
-	]);
-	t.deepEqual(gs(fixture, advOpts), advOutput, 'advanced');
+	];
+	t.deepEqual(_.sortBy(gs(fixture, advOpts), 'name'), _.sortBy(advOutput, 'name'), 'advanced');
 
 	const throwOpts = [{
 		toName: c => c.market,
