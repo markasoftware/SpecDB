@@ -113,14 +113,10 @@ clean:
 		${spec_output} ${map_output} ${intc_scrape} \
 		${intc_parse} ${athr_output} ${n_sentinel}
 
-# only clean code, nothing spec related
-clean-code:
-	rm -f ${css_output} ${js_output} ${sw_output}
-
 # only clean things that can be regenerated without a network connection
 clean-nonet:
 	rm -f ${css_output} ${js_output} ${sw_output} \
 		${spec_output} ${map_output} ${intc_parse} \
 		${athr_output}
 
-.PHONY: development production test clean clean-code clean-nonet watch
+.PHONY: development production test clean clean-nonet scrape watch

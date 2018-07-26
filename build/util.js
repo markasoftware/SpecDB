@@ -6,8 +6,12 @@ const units = require('../src/js/units');
 
 const util = {
 	merger: (a, b) => {
-		if (_.isArray(a)) {
-			return a.concat(b);
+		if (a instanceof Array) {
+			if (b instanceof Array) {
+				return b.concat(a);
+			} else {
+				throw new Error('util.merger: Only one side was an array');
+			}
 		}
 	},
 	readJSON: c => require(`${process.cwd()}/${c}`),

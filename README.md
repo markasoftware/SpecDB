@@ -29,8 +29,9 @@ Then, you can view SpecDB at file:///home/markasoftware/whatever/specdb/, which 
 
 * `make watch`: Start auto-rebuild daemon. You still need to manually. Requires [entr](https://bitbucket.org/eradman/entr)
 * `make test`: Run unit tests. If any of these fail, do not commit! Fix them!
-* `make -B tmp/intel-scrape.json`: Force re-scrape of Intel data. By default, it will never re-scrape after the first time you run `make`.
-* `make production`: Build for production. If you previously ran `make` without `production`, it is crucial that you run `make clean` before `make production` to get rid of the crusty development files. If somebody knows how to properly use sentinel files with `make` to auto clean when switching between dev and prod, please let me know.
+* `make production`: Build for production. If you previously ran `make` without `production`, run `make clean-nonet` before this.
+* `make clean`: Destroy all generated files. This will trigger a rescrape the next time you run `make`.
+* `make clean-nonet`: Destroy all generated files that can be re-generated without a network connection (i.e, it will not trigger a re-scrape).
 
 ## Contributing
 
