@@ -46,7 +46,6 @@ const intelConfig = {
 			{ name: 'name', transformer: (c, d, od) => 
 				util.urlify(intelConfig.nameTransformer(c, d, od))
 			},
-			{ name: 'data.Unlocked', transformer: c => c.slice(-1) === 'K' || undefined },
 		],
 		CoreCount: [
 			'data.Core Count',
@@ -112,7 +111,7 @@ const intelConfig = {
 			toHeader: c => `${
 				util.bucket(1, {
 					ranges: [ [ 9, 16 ], [ 17, 64 ], [ 65, 128 ]],
-					max: 65,
+					max: 129,
 					maxText: 'What the FUCK',
 				})(c.data['Thread Count'])
 			} Threads`,
@@ -129,7 +128,14 @@ const intelConfig = {
 							.map(d => d.data['Release Date']),
 						d => dates.parse(d),
 					) || null,
-					Sockets: [ c[0].data.Socket ],
+					Sockets: _
+						.chain(c)
+						.filter(d => typeof d.data.Socket === 'string')
+						.flatMap(d => d.data.Socket.split(', '))
+						// TODO: should we do this replacement or not? Should we do it everywhere sockets are mentioned?
+						.map(socket => socket.replace(/(FC|-)/g, ''))
+						.uniq()
+						.value(),
 				},
 			}),
 		},

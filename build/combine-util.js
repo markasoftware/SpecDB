@@ -43,21 +43,17 @@ const combineUtil = {
 			'Shader Processor Count',
 		],
 	},
-	toGlobMatcher: glob => {
-		const matcher = micromatch.matcher(glob);
-		return c => matcher(c.name);
-	},
 	// @param name = 'name'
-	// @return (() => bool) || 'name'
+	// @return ((name, item) => bool) || 'name'
 	// throws an error if not string nor matchable
 	toMatcher: name =>
 		typeof name === 'string' ?
 			isGlob(name, { strict: false }) ?
-				combineUtil.toGlobMatcher(name)
+				micromatch.matcher(name)
 			: name
 		// ! string
 		: _.isRegExp(name) ?
-			c => name.test(c.name)
+			c => name.test(c)
 		// ! string && ! regex
 		: _.isFunction(name) ?
 			name
@@ -74,20 +70,22 @@ const combineUtil = {
 	// will fail.
 	// @param items = the data itself
 	// @param key = the key to process inheritance for
+	// @param hiddenOnly = if we should only include items with hidden: true, for processing inheritance. For internal use.
 	// @return: an item
-	getDiscreteItem: memoize((items, key) => {
+	getDiscreteItem: memoize((items, key, hiddenOnly) => {
 		const preInheritance = _.mergeWith({},
 			// sort ascending priority
 			...items[key].sort((a, b) => b.priority - a.priority)
 			// get rid of item wrapper, take out priority
 			.map(c => _.omit(c.item, 'priority')),
 			util.merger);
+		if (hiddenOnly && !preInheritance.hidden) {
+			return false;
+		}
 		const inherits = preInheritance.inherits || [];
 		const inheritsData = inherits.map(c =>
-			items[c] && _.pickBy(
-				combineUtil.getDiscreteItem(items, c),
-				(v, k) => k === 'data',
-			)
+			items[c] && _.pick(combineUtil.getDiscreteItem(items, c, true), 'data')
+		// get rid of items for which there was no inheritance data
 		).filter(_.identity);
 		const postInheritance = _.mergeWith({},
 			...inheritsData,
@@ -123,6 +121,22 @@ const combineUtil = {
 
 		const keyedAllDiscrete = _.mergeWith({}, keyedMatchingDiscrete, keyedExplicitDiscrete, util.merger);
 		return keyedAllDiscrete;
+	},
+
+	filterKeyedCombined: (v, k) => {
+		if (v.hidden) {
+			return false;
+		}
+		if (!combineUtil.typeRequiredProps[v.type]) {
+			console.error(`WARNING: Unknown type ${v.type} for ${k}`);
+			return false;
+		}
+		const missingProperties = combineUtil.typeRequiredProps[v.type].filter(c => _.isNil(v.data[c]));
+		if (missingProperties.length > 0) {
+			console.error(`WARNING: Part ${k} is missing required props: ${missingProperties}`);
+			return false;
+		}
+		return true;
 	},
 };
 module.exports = combineUtil;
