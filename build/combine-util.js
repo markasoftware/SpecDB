@@ -70,18 +70,17 @@ const combineUtil = {
 	// will fail.
 	// @param items = the data itself
 	// @param key = the key to process inheritance for
-	// @param hiddenOnly = if we should only include items with hidden: true, for processing inheritance. For internal use.
+	// @param includeHidden: Whether to include hidden objects in the final thing, defaults to no.
 	// @return: an item
-	getDiscreteItem: memoize((items, key, hiddenOnly) => {
+	getDiscreteItem: memoize((items, key, includeHidden) => {
 		const preInheritance = _.mergeWith({},
 			// sort ascending priority
-			...items[key].sort((a, b) => b.priority - a.priority)
+			...items[key]
+			.filter(c => !includeHidden === !c.item.hidden)
+			.sort((a, b) => b.priority - a.priority)
 			// get rid of item wrapper, take out priority
-			.map(c => _.omit(c.item, 'priority')),
+			.map(c => c.item),
 			util.merger);
-		if (hiddenOnly && !preInheritance.hidden) {
-			return false;
-		}
 		const inherits = preInheritance.inherits || [];
 		const inheritsData = inherits.map(c =>
 			items[c] && _.pick(combineUtil.getDiscreteItem(items, c, true), 'data')
@@ -124,11 +123,14 @@ const combineUtil = {
 	},
 
 	filterKeyedCombined: (v, k) => {
-		if (v.hidden) {
+		// if there's no v.type, we assume it is empty, and prune it.
+		// TODO: probably remove, this should go in some sort of "flattenDiscreteKeyedItems" function
+		if (!v.type) {
 			return false;
 		}
 		if (!combineUtil.typeRequiredProps[v.type]) {
 			console.error(`WARNING: Unknown type ${v.type} for ${k}`);
+			console.error(v);
 			return false;
 		}
 		const missingProperties = combineUtil.typeRequiredProps[v.type].filter(c => _.isNil(v.data[c]));

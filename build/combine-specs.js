@@ -26,8 +26,17 @@ const combineUtil = require('./combine-util');
 
 const [ outputFile, sitemapFile, ...parsedPaths ] = process.argv.slice(2);
 
-const doubleArr = parsedPaths.map(path => {
-	const yamls = util.readJSON(path);
+const readAndDeserialize = cliPath => {
+	const [path, deserializerPath] = cliPath.split(':');
+	const serialized = util.readJSON(path);
+	// TODO: this is actually the exact same is the readJSON implementation
+	return deserializerPath ?
+		require(`${process.cwd()}/${deserializerPath}`)(serialized)
+		: serialized;
+}
+
+const doubleArr = parsedPaths.map(cliPath => {
+	const yamls = readAndDeserialize(cliPath);
 	if (!_.isArray(yamls)) {
 		throw new Error(`ERROR: Parsed data at ${path} was not an array. Make sure it's not keyed by name!`);
 		return;

@@ -149,6 +149,16 @@ module.exports.sections = [
 		],
 	},
 	{
+		name: 'Benchmarks',
+		display: true,
+		rows: [
+			{
+				name: 'UserBenchmark Score',
+				processor: types.numberUp,
+			},
+		],
+	},
+	{
 		name: 'Architectural Info',
 		display: false,
 		rows: [
