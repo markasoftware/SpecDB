@@ -21,7 +21,26 @@ const combineUtil = require('./combine-util');
  * Now, restraints/things we want to assert about the data:
  *  - Missing required subtitle props
  *  - Things being imported that do not exist
- *  - 
+ */
+
+/*
+ * Terminology:
+ *  - Flat: *not* keyed by name, for example: [ { name: 'hello', ...data }, { name: 'meow', ...data } ]
+ *  - Keyed: Keyed by name, eg: { hello: { ...data }, meow: { ...data } }
+ *  - Discrete: With different priority items kept separately, can be either flat or keyed. eg of flat:
+ *       [ { priority: 0, item: { name: 'hello', ...data } }, { priority: 5, item: { name: 'bye', ...data } } ]
+ *     and eg of keyed:
+ *       { hello: [ { priority: 0, item: { ...data } } ] }
+ *  - Combined: With all priority items combined in the correct order. keyedCombined is the same format as
+ *    in spec-data.js, the final thing. Note that this doesn't necessarily mean that a keyedCombined object
+ *    is ready to be written to disk; it might only contain some of the data, or it might contain extranneous data
+ *  - Explicit: An item with an "exact" name. An item with an explicit name will create that name if nothing else
+ *    has that name.
+ *  - Matcher: An item which is a "matcher". It will never cause the creation of a new name, only add data to a
+ *    part which was created by an explicit item.
+ *  - String matcher: An item which has a fixed name, but won't create that name.
+ *  - Function matcher: An item with a smart function matcher, the part's data will be applied to all parts for
+ *    which the predicate returns true
  */
 
 const [ outputFile, sitemapFile, ...parsedPaths ] = process.argv.slice(2);
@@ -41,15 +60,9 @@ const doubleArr = parsedPaths.map(cliPath => {
 		throw new Error(`ERROR: Parsed data at ${path} was not an array. Make sure it's not keyed by name!`);
 		return;
 	}
-	const items = _.chain(yamls)
-		.filter(c => !_.isNil(c.name))
-		.flatMap(yaml =>
-			_.castArray(yaml.name).map(name => 
-				({ ...yaml, name: combineUtil.toMatcher(name) })
-			)
-		 )
-		.value();
-	return items;
+	// Why not put this later? Because i don't want to have to do a two-layer map right afterwards for no reason,
+	// nor have to be ready to handle arrays for the rest of the script!
+	return combineUtil.duplicateOn(yamls, 'name');
 });
 
 const flatPrioritizedItems = _.flatMap(doubleArr, (items, i) =>
@@ -59,14 +72,9 @@ debug(`Total items (flat discrete) properties: ${flatPrioritizedItems.length}`);
 
 const keyedAllDiscrete = combineUtil.applyMatchers(flatPrioritizedItems);
 debug(`Total item count (combined): ${Object.keys(keyedAllDiscrete).length}`);
+const keyedAllCombined = combineUtil.undiscrete(keyedAllDiscrete);
 
-const toReturn = _
-	.chain(keyedAllDiscrete)
-	// this essentially un-discretes everything
-	.mapValues((v, k) => combineUtil.getDiscreteItem(keyedAllDiscrete, k))
-	// remove hidden and malformatted parts
-	.pickBy(combineUtil.filterKeyedCombined)
-	.value();
+const toReturn = _.pickBy(keyedAllCombined, combineUtil.filterKeyedCombined);
 debug(`Final item count: ${Object.keys(toReturn).length}`);
 
 fs.writeFileSync(outputFile, `module.exports=${JSON.stringify(toReturn)}`, 'utf8');

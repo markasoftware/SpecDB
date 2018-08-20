@@ -2,6 +2,56 @@ const test = require('tape');
 const _ = require('lodash');
 const cu = require('../build/combine-util');
 
+test('combineUtil: duplicateOn', t => {
+	const in1 = [{ hello: 'world' }];
+	const out1 = in1;
+	t.deepEqual(cu.duplicateOn(in1, 'hello'), out1, 'prop being duplicated on is the only one');
+
+	const in2 = [{ hello: 'world', goodbye: 'mars' }];
+	const out2 = in2;
+	t.deepEqual(cu.duplicateOn(in2, 'hello'), out2, 'multiple props, but only one obj');
+
+	const in3 = [
+		{ hello: 'world' },
+		{ hello: 'neptune'},
+	];
+	const out3 = in3;
+	t.deepEqual(cu.duplicateOn(in3, 'hello'), out3, 'multiple objects');
+
+	const in4 = [{ hello: [1, 2] }];
+	const out4 = [
+		{ hello: 1 },
+		{ hello: 2 },
+	];
+	t.deepEqual(cu.duplicateOn(in4, 'hello'), out4, 'simple duplicator');
+
+	const in5 = [
+		{ hello: [1, 2], meow: 'cat' },
+		{ hello: 'mars', meow: 'dog' },
+	];
+	const out5 = [
+		{ hello: 1, meow: 'cat' },
+		{ hello: 2, meow: 'cat' },
+		{ hello: 'mars', meow: 'dog' },
+	];
+	t.deepEqual(cu.duplicateOn(in5, 'hello'), out5);
+
+	const in6 = [
+		{ hello: true, boop: 'maybe' },
+		{ boop: 'certainly' },
+		// TODO: is this really behavior we want? (null specifically, we need undefined)
+		{ hello: null, boop: 'certainly' },
+		// for good measure
+		{ hello: undefined, boop: 'certainly' },
+	];
+	const out6 = [
+		{ hello: true, boop: 'maybe' },
+	];
+	t.deepEqual(cu.duplicateOn(in6, 'hello'), out6, 'prunes objects without the prop');
+
+	t.end()
+});
+
 test('combineUtil: groupByAndDelete', t => {
 	const in1 = [{ hello: 'yes' }];
 	const out1 = { yes: [{}]};
@@ -23,6 +73,7 @@ test('combineUtil: groupByAndDelete', t => {
 		'yay world': [{ hello: {} }],
 	};
 	t.deepEqual(cu.groupByAndDelete(in3, 'hello.cat'), out3, 'deep');
+
 	t.end();
 });
 
@@ -80,6 +131,7 @@ test('combineUtil: getDiscreteItem', t => {
 			{ priority: 2, item: { inherits: [ 'Skylake' ], data: { speed: 'slow' } } },
 		],
 	};
+	// TODO: get rid of the unnecessary *datas and figure out what to do with those
 	const skylakeData = { hidden: true, data: { socket: 'lga' } };
 	const craterlakeData = {
 		socket: [ 'dna', 'lga' ],
@@ -118,24 +170,42 @@ test('combineUtil: applyMatchers', t => {
 
 	const in2 = [
 		{ priority: 0, item: { name: 'hi' } },
-		{ priority: 0, item: { name: c => true, meow: 'yes' } },
+		{ priority: 0, item: { name: 'hi', matcher: true, meow: 'yes' } },
 	];
 	const out2 = {
 		hi: [ { priority: 0, item: {} }, { priority: 0, item: { meow: 'yes' } } ],
 	};
-	t.deepEqual(cu.applyMatchers(in2), out2, 'single explicit + single matcher');
+	t.deepEqual(cu.applyMatchers(in2), out2, 'single explicit + single string matcher');
 
 	const in3 = [
+		{ priority: 0, item: { name: 'hi' } },
+		{ priority: 0, item: { name: 'noop', matcher: true, meow: 'yes' } },
+	];
+	const out3 = {
+		hi: [ { priority: 0, item: {} } ],
+	};
+	t.deepEqual(cu.applyMatchers(in3), out3, 'single explicit + single unmatched string matcher');
+
+	const in4 = [
+		{ priority: 0, item: { name: 'hi' } },
+		{ priority: 0, item: { name: () => true, matcher: true, meow: 'yes' } },
+	];
+	const out4 = {
+		hi: [ { priority: 0, item: {} }, { priority: 0, item: { meow: 'yes' } } ],
+	};
+	t.deepEqual(cu.applyMatchers(in4), out4, 'single explicit + single function matcher');
+
+	const in5 = [
 		{ priority: 5, item: { name: 'feep', cats: 5 } },
 		{ priority: 15, item: { name: 'foop', dogs: 17 } },
 		// this also verifies that low-priority explicit is applied before high-priority matchers
-		{ priority: 7, item: { name: (c, v) => v.cats === 5, salamanders: 1 } },
+		{ priority: 7, item: { name: (c, v) => v.cats === 5, matcher: true, salamanders: 1 } },
 	];
-	const out3 = {
+	const out5 = {
 		feep: [ { priority: 5, item: { cats: 5 } }, { priority: 7, item: { salamanders: 1 } } ],
 		foop: [ { priority: 15, item: { dogs: 17 } } ],
 	};
-	t.deepEqual(cu.applyMatchers(in3), out3, '2 explicit + single matcher, matcher is discriminate and based on value');
+	t.deepEqual(cu.applyMatchers(in5), out5, '2 explicit + single matcher, matcher is discriminate and based on value');
 	t.end();
 });
 

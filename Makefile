@@ -76,10 +76,11 @@ ${sw_output} : ${sw_input}
 	uglifyjs -cmo ${sw_output} \
 		${sw_output} 2>/dev/null
 
-${spec_output} ${map_output} : ${athr_output} ${intc_parse} ${ubch_parse} ${3dmk_parse} build/userbenchmark-deserialize.js build/combine-specs.js
+${spec_output} ${map_output} : ${athr_output} ${intc_parse} ${ubch_parse} ${3dmk_parse} \
+	build/authoritative-deserialize.js build/combine-specs.js
 	${node} build/combine-specs.js ${spec_output} ${map_output} \
-		${athr_output} ${intc_parse} \
-		${ubch_parse}:build/userbenchmark-deserialize.js
+		${athr_output}:build/authoritative-deserialize.js \
+		${intc_parse} ${ubch_parse}
 
 ${athr_output} : ${athr_input} build/gen-specs.js
 	${node} build/gen-specs.js ${athr_folder} ${athr_output}

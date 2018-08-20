@@ -43,6 +43,25 @@ const combineUtil = {
 			'Shader Processor Count',
 		],
 	},
+	// TODO: possibly improve by allowing deep onMe using _.get and _.set
+	// @param data = an array of objects, which should all have the next param as a prop
+	// @param onMe = the property string to duplicate on
+	// @return = the transformed original object. Won't mutate original object. See tests/combine.js
+	duplicateOn: (data, onMe) =>
+		_.flatMap(data, datum => {
+			if (_.isNil(datum[onMe])) {
+				// hehe, i guess we can do this with flatMap
+				return [];
+			}
+			const allValues = _.castArray(datum[onMe]);
+			// don't know how to do this functionally
+			return allValues.map(oneValue => {
+				const clonedDatum = _.clone(datum);
+				clonedDatum[onMe] = oneValue;
+				return clonedDatum;
+			});
+		}),
+	// maybe move this elsewhere, because it's not used in the actual combination process (just deserializers)?
 	// @param name = 'name'
 	// @return ((name, item) => bool) || 'name'
 	// throws an error if not string nor matchable
@@ -96,36 +115,55 @@ const combineUtil = {
 	// @param flatDiscrete = flat, prioritized array of items, both matchers and names
 	// @return: keyed discrete, but with matchers fully applied
 	applyMatchers: flatDiscrete => {
-		const [ flatMatching, flatExplicit ] = _.partition(flatDiscrete, item => _.isFunction(item.item.name));
+		const [ flatMatching, flatExplicit ] = _.partition(flatDiscrete, item => item.item.matcher);
 		debug('Flat discrete:');
 		debug(`${flatExplicit.length} explicit items`);
 		debug(`${flatMatching.length} matching items`);
-		const keyedExplicitDiscrete = combineUtil.groupByAndDelete(flatExplicit, 'item.name');
-		const explicitNames = Object.keys(keyedExplicitDiscrete);
-		const keyedMatchingDiscrete = combineUtil.groupByAndDelete(
-			// TODO: refactor this
-			// for example, we won't just use item.name in the raw and stuff -- instead we can assign a variable which says
-			// matchingFunction, one for rawMatchingData (without item.name), etc. Right now it's a mess of dealing with the
-			// on-disk format, and what a matcher really means. We need to clear that up.
-			_.flatMap(flatMatching, c =>
-				explicitNames
-				.filter(name =>
-					c.item.name(name, combineUtil.getDiscreteItem(keyedExplicitDiscrete, name))
-				)
-				.map(name => ({ ..._.omit(c, 'item.name'), explicitName: name }))
-			),
-			'explicitName',
-		);
-		debug(`Matcher-generated items (explicitized): ${Object.keys(keyedMatchingDiscrete).length}`);
+		const explicitKeyedDiscrete = combineUtil.groupByAndDelete(flatExplicit, 'item.name');
+		const explicitKeyedCombined = combineUtil.undiscrete(explicitKeyedDiscrete);
+		const explicitNames = Object.keys(explicitKeyedCombined);
+		// for each matcher item, convert into an array of explicit-ish items
+		const flatMatched = _.flatMap(flatMatching, matcherItemWithPriority => {
+			const matcherItem = matcherItemWithPriority.item;
+			const matcherName = matcherItem.name;
+			let matchedNames;
+			if (typeof matcherName === 'string') {
+				matchedNames = explicitNames.includes(matcherName) ? [matcherName] : [];
+			} else {
+				const matcherFunc = matcherName;
+				// filter is still pretty fast
+				matchedNames = explicitNames.filter(explicitName => {
+					const explicitValue = explicitKeyedCombined[explicitName];
+					return matcherFunc(explicitName, explicitValue);
+				});
+			}
+			// same as matcherItem, but each item has the name of a matched explicitName
+			const itemsWithPriorities = matchedNames.map(name => (
+				{
+					priority: matcherItemWithPriority.priority,
+					item: {
+						..._.omit(matcherItem, 'matcher'),
+						name,
+					},
+				}
+			));
+			return itemsWithPriorities;
+		});
+		debug(`Matcher-generated items (explicitized): ${Object.keys(flatMatched).length}`);
+		const matchedKeyedDiscrete = combineUtil.groupByAndDelete(flatMatched, 'item.name');
 
-		const keyedAllDiscrete = _.mergeWith({}, keyedMatchingDiscrete, keyedExplicitDiscrete, util.merger);
-		return keyedAllDiscrete;
+		const allKeyedDiscrete = _.mergeWith({}, matchedKeyedDiscrete, explicitKeyedDiscrete, util.merger);
+		return allKeyedDiscrete;
 	},
 
+	// @param v = part data
+	// @param k = part name (machine readable)
+	// @return = true/false whether this part should be in spec-data.js
 	filterKeyedCombined: (v, k) => {
-		// if there's no v.type, we assume it is empty, and prune it.
-		// TODO: probably remove, this should go in some sort of "flattenDiscreteKeyedItems" function
-		if (!v.type) {
+		// if there's no v.type, it might be hidden or something
+		// TODO: this mainly happens for hidden items, but if there is, eg, a matcher without hidden, we might
+		// want to warn about it -- but we can't because we don't know if it's hidden! Maybe I'm overthinking things...
+		if (!v.type && !v.hidden) {
 			return false;
 		}
 		if (!combineUtil.typeRequiredProps[v.type]) {
@@ -140,5 +178,10 @@ const combineUtil = {
 		}
 		return true;
 	},
+
+	// @param keyedDiscrete
+	// @return = keyedCombined
+	undiscrete: keyedDiscrete =>
+		_.mapValues(keyedDiscrete, (v, k) => combineUtil.getDiscreteItem(keyedDiscrete, k))
 };
 module.exports = combineUtil;

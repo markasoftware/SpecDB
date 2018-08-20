@@ -15,11 +15,8 @@ const versionCompare = (a, b) => {
 	const bSplit = b.split('.').map(Number);
 	// if any part of b is lower than a, a is greater, otherwise equal or worse
 	for(let i = 0; i < Math.min(aSplit.length, bSplit.length); ++i) {
-		if(aSplit[i] > bSplit[i]) {
-			return true;
-		}
-		if(aSplit[i] < bSplit[i]) {
-			return false;
+		if (aSplit[i] !== bSplit[i]) {
+			return aSplit[i] > bSplit[i];
 		}
 	}
 	// if all available digits are the same, the longer one is better (1.1 is better than 1)

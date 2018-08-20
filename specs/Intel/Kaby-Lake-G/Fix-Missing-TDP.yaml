@@ -1,7 +1,9 @@
 name: Core-i[57]-8[37]0[56]G
+matcher: yes
 data:
   TDP: 65 W
 ---
 name: Core-i7-8?09G
+matcher: yes
 data:
   TDP: 100 W
