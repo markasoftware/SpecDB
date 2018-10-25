@@ -150,7 +150,11 @@ module.exports.sections = [
 		display: true,
 		rows: [
 			{
-				name: 'UserBenchmark Score',
+				name: 'UserBenchmark CPU Score',
+				processor: types.numberUp,
+			},
+			{
+				name: 'UserBenchmark GPU Score',
 				processor: types.numberUp,
 			},
 		],

@@ -7,11 +7,14 @@ const intelConfig = {
 	// SPECIFIC
 	// we don't use the values, they're for future use so i don't have to look
 	// at the accursed odata page again
+	// FUCK I FORGOT ATOM AND HAD TO LOOK AT THE ACCURSED ODATA PAGE AGAIN
+	// here it is, by the way: https://odata.intel.com/API/v1_0/Products/Families()?$format=json
 	families: {
 		122139: 'Core',
 		29862: 'Pentium',
 		595: 'Xeon',
 		43521: 'Pentium',
+		29035: 'Atom',
 	},
 	deferred: {
 		codeName: {

@@ -77,6 +77,100 @@ const combineUtil = {
 		: _.isFunction(name) ?
 			name
 		: new Error(`bad type generating matcher: ${name}`),
+	/**
+	 * converts a third-party name for a part into a matcher which will match the SpecDB name for said part.
+	 * @param hints has fields:
+	 *   - name (required) some sort of name. Eg: 'AMD R7 1700X' or 'R7 1800'
+	 *   - brand (optional): 'AMD', 'amd', 'Intel', 'NVIDIA'
+	 *   - type (optional): 'cpu', 'Gpu'
+	 * @return a valid SpecDB matcher to go straight into the `name` field of an item. No toMatcher is needed after this. False if hints are too fucked up
+	 */
+	thirdPartyNameToMatcher: hintsArg => {
+		// also clones it, which we want
+		const hints = _.mapValues(hintsArg, v => typeof v === 'string' ? v.trim() : v);
+
+		if (typeof hints.name !== 'string') {
+			console.error('Hint name was not a string');
+			return false;
+		}
+
+		if (typeof hints.brand !== 'string') {
+			hints.brand = /^amd/i.test(hints.name) ? 'amd' :
+				/^intel/i.test(hints.name) ? 'intel' :
+				/^nvidia/i.test(hints.name) ? 'nvidia' :
+				hints.brand;
+		} else {
+			hints.brand = hints.brand.toLowerCase();
+		}
+
+		if (typeof hints.type === 'string') {
+			hints.type = hints.type.toLowerCase();
+		}
+
+		const series = [
+			// RX
+			{
+				nameTest: /R[579X][- _]\d\d\d/,
+				brand: 'amd',
+				type: 'gpu',
+				parser: () => {
+					const regexMatch = hints.name.match(/(R[579X][- _]\d\d\dX?)([- _](\d+)GB)?/);
+					if (regexMatch) {
+						const [ , rxXxx, , memorySize ] = regexMatch;
+						return combineUtil.toMatcher(
+							memorySize ?
+								`${rxXxx}-${memorySize}GiB` :
+								new RegExp(`^${rxXxx}`)
+						);
+					}
+				},
+			},
+			// Ryzen
+			{
+				nameTest: /^Ryzen(?![- _]TR)/,
+				brand: 'amd',
+				type: 'cpu',
+				parser: () => {
+					return hints.name.replace(/Ryzen[- _]/, 'R');
+				},
+			},
+			// Threadripper
+			{
+				nameTest: /^Ryzen[- _]TR/,
+				brand: 'amd',
+				type: 'cpu',
+				parser: () => {
+					return hints.name.replace(/^Ryzen[- _]/, '');
+				}
+			},
+			// Core
+			{
+				nameTest: /^Core/,
+				brand: 'intel',
+				type: 'cpu',
+				parser: () => {
+					return hints.name.replace(/[-_ ]/g, '-');
+				},
+			},
+		];
+
+		const compatibleSeries = series.filter(serie => !(
+				!serie.nameTest.test(hints.name) ||
+				typeof hints.brand === 'string' && serie.brand !== hints.brand ||
+				typeof hints.type === 'string' && serie.type !== hints.type
+		));
+
+		switch (compatibleSeries.length) {
+			case 0:
+				debug(`No compatible series for ${hints.name}`);
+				return false;
+			case 1:
+				return compatibleSeries[0].parser();
+			default:
+				console.error(`Multiple series matched third party ${hints.name}: ${compatibleSeries.map(c => c.nameTest)}`);
+				return false;
+		}
+	},
 	// @param prioritizedItems = [ { priority: 5, item: { item } } ]
 	// @return { 'i5-8500': [ { priority: 5, item: { item } } ] }
 	groupByAndDelete: (objs, prop) => _
