@@ -61,6 +61,7 @@ const outDataArr = allInData
 			name: row.Model,
 			type: row.Type,
 			brand: row.Brand,
+			source: 'userbenchmark',
 		},
 		data: {
 			[`UserBenchmark ${row.Type} Score`]: row.Benchmark,

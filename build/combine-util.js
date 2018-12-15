@@ -86,6 +86,8 @@ const combineUtil = {
 	 * @return a valid SpecDB matcher to go straight into the `name` field of an item. No toMatcher is needed after this. False if hints are too fucked up
 	 */
 	thirdPartyNameToMatcher: hintsArg => {
+		const matchFields = ['brand', 'type', 'source'];
+
 		// also clones it, which we want
 		const hints = _.mapValues(hintsArg, v => typeof v === 'string' ? v.trim() : v);
 
@@ -93,12 +95,13 @@ const combineUtil = {
 			console.error('Hint name was not a string');
 			return false;
 		}
+		hints.hyphenatedName = hints.name.replace(/[ _]/g, '-');
 
 		if (typeof hints.brand !== 'string') {
 			hints.brand = /^amd/i.test(hints.name) ? 'amd' :
 				/^intel/i.test(hints.name) ? 'intel' :
 				/^nvidia/i.test(hints.name) ? 'nvidia' :
-				hints.brand;
+				null;
 		} else {
 			hints.brand = hints.brand.toLowerCase();
 		}
@@ -110,11 +113,12 @@ const combineUtil = {
 		const series = [
 			// RX
 			{
-				nameTest: /R[579X][- _]\d\d\d/,
+				nameTest: /^R[579X]-\d\d\d/,
 				brand: 'amd',
 				type: 'gpu',
 				parser: () => {
-					const regexMatch = hints.name.match(/(R[579X][- _]\d\d\dX?)([- _](\d+)GB)?/);
+					// TODO: how do we give data with GB specified higher priority than data w/o?
+					const regexMatch = hints.hyphenatedName.match(/(R[579X]-\d\d\dX?)(-(\d+)GB)?/);
 					if (regexMatch) {
 						const [ , rxXxx, , memorySize ] = regexMatch;
 						return combineUtil.toMatcher(
@@ -125,44 +129,62 @@ const combineUtil = {
 					}
 				},
 			},
+			// FX
+			{
+				nameTest: /^FX/,
+				brand: 'amd',
+				type: 'cpu',
+				parser: () => hints.hyphenatedName,
+			},
 			// Ryzen
 			{
-				nameTest: /^Ryzen(?![- _]TR)/,
+				nameTest: /^Ryzen(?!-TR)/,
 				brand: 'amd',
 				type: 'cpu',
 				parser: () => {
-					return hints.name.replace(/Ryzen[- _]/, 'R');
+					return hints.hyphenatedName.replace('Ryzen-', 'R');
 				},
 			},
 			// Threadripper
 			{
-				nameTest: /^Ryzen[- _]TR/,
+				nameTest: /^Ryzen-TR/,
 				brand: 'amd',
 				type: 'cpu',
 				parser: () => {
-					return hints.name.replace(/^Ryzen[- _]/, '');
+					return hints.hyphenatedName.replace('Ryzen-TR-', '');
 				}
 			},
-			// Core
+			// simple Intel
 			{
-				nameTest: /^Core/,
+				nameTest: /^(Pentium)|(Core)|(Xeon)|(Celeron)|(Atom)/,
 				brand: 'intel',
 				type: 'cpu',
 				parser: () => {
-					return hints.name.replace(/[-_ ]/g, '-');
+					return hints.hyphenatedName;
 				},
+			},
+			// userbenchmark untagged Intel
+			{
+				nameTest: /^[A-Z]\d+$/,
+				brand: 'intel',
+				type: 'cpu',
+				// WARN: if the source field is missing this could still match, even though we
+				// want it to strictly match only userbenchmark. In practice, this is unlikely to
+				// be an issue because we always have source filled out. A `strictHints` flag could do.
+				source: 'userbenchmark',
+				parser: () => `Core-${hints.name}`,
 			},
 		];
 
-		const compatibleSeries = series.filter(serie => !(
-				!serie.nameTest.test(hints.name) ||
-				typeof hints.brand === 'string' && serie.brand !== hints.brand ||
-				typeof hints.type === 'string' && serie.type !== hints.type
-		));
+		const compatibleSeries = series.filter(serie =>
+				serie.nameTest.test(serie.rawNameTest ? hints.name : hints.hyphenatedName) &&
+				matchFields.every(field =>
+					typeof hints[field] !== typeof serie[field] || hints[field] === serie[field]
+				)
+			);
 
 		switch (compatibleSeries.length) {
 			case 0:
-				debug(`No compatible series for ${hints.name}`);
 				return false;
 			case 1:
 				return compatibleSeries[0].parser();
