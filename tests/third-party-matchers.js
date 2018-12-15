@@ -39,6 +39,30 @@ test('3PM: Threadripper', t => {
 	t.end();
 });
 
+test('3PM: FX', t => {
+	t.equal(threepm({
+		brand: 'amd',
+		type: 'cpu',
+		name: 'FX-6300',
+	}), 'FX-6300');
+
+	t.end();
+})
+
+test('3PM: Phenom & Athlon', t => {
+	confirmMatches({
+		brand: 'amd',
+		type: 'cpu',
+		name: 'Athlon X4 800',
+	}, [ 'X4-800', 'X4-800BE'], [], t, 'Athlon X4 800');
+
+	confirmMatches({
+		name: 'Phenom II X9 B1025T',
+	}, [ 'B1025T', 'B1025TBE' ], [], t, 'Phenom II X9 B1025T');
+
+	t.end();
+});
+
 test('3PM: Simple Intel', t => {
 	t.equal(threepm({
 		name: 'Core i7-4700K',

@@ -131,7 +131,7 @@ const combineUtil = {
 			},
 			// FX
 			{
-				nameTest: /^FX/,
+				nameTest: /^FX-\d+$/,
 				brand: 'amd',
 				type: 'cpu',
 				parser: () => hints.hyphenatedName,
@@ -156,11 +156,36 @@ const combineUtil = {
 			},
 			// simple Intel
 			{
-				nameTest: /^(Pentium)|(Core)|(Xeon)|(Celeron)|(Atom)/,
+				nameTest: /^(Pentium|Core|Xeon|Celeron|Atom)/,
 				brand: 'intel',
 				type: 'cpu',
 				parser: () => {
 					return hints.hyphenatedName;
+				},
+			},
+			// Phenom/Athlon, no T on end
+			{
+				nameTest: /^(Phenom|Athlon)-(I+-)?X\d-[A-Z]*\d+$/,
+				brand: 'amd',
+				type: 'cpu',
+				parser: () => {
+					// extract the X*-*** portion
+					const regexMatch = hints.hyphenatedName.match(/(X\d-[A-Z0-9]+)$/);
+					if (regexMatch) {
+						return combineUtil.toMatcher(
+							new RegExp(`^${regexMatch[1]}(BE)?$`)
+						);
+					}
+				}
+			},
+			// Phenom/Athlon, T on end
+			{
+				nameTest: /^(Phenom|Athlon)-(I+-)?X\d-[A-Z]*\d+T$/,
+				brand: 'amd',
+				type: 'cpu',
+				parser: () => {
+					const model = hints.name.match(/[A-Z0-9]+$/)[0];
+					return combineUtil.toMatcher(new RegExp(`^${model}(BE)?$`));
 				},
 			},
 			// userbenchmark untagged Intel
