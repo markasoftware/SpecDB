@@ -81,6 +81,7 @@ ${spec_output} ${map_output} : ${athr_output} ${intc_parse} ${ubch_parse} ${3dmk
 	${node} build/combine-specs.js ${spec_output} ${map_output} \
 		${athr_output}:build/authoritative-deserialize.js \
 		${ubch_parse}:build/userbenchmark-deserialize.js \
+		${3dmk_parse}:build/3dmark-deserialize.js \
 		${intc_parse}
 
 ${athr_output} : ${athr_input} build/gen-specs.js
@@ -105,7 +106,7 @@ ${3dmk_scrape} :
 	${curl} ${3dmk_gpus} 'https://benchmarks.ul.com/compare/best-gpus'
 
 ${3dmk_parse} :
-#	${node} build/3dmark-parse.js ${3dmk_scrape} ${3dmk_parse}
+	${node} build/3dmark-parse.js ${3dmk_scrape} ${3dmk_parse}
 
 ${n_sentinel} : package.json
 	npm install
@@ -113,14 +114,13 @@ ${n_sentinel} : package.json
 
 # clean everything
 clean:
-	rm -f ${css_output} ${js_output} ${sw_output} \
-		${spec_output} ${map_output} ${intc_scrape} \
-		${intc_parse} ${athr_output} ${n_sentinel}
+	${MAKE} clean-nonet
+	rm -f ${n_sentinel} ${intc_scrape} ${3dmk_scrape} ${ubch_scrape}
 
 # only clean things that can be regenerated without a network connection
 clean-nonet:
 	rm -f ${css_output} ${js_output} ${sw_output} \
 		${spec_output} ${map_output} ${intc_parse} \
-		${athr_output}
+		${ubch_parse} ${3dmk_parse} ${athr_output}
 
 .PHONY: development production test clean clean-nonet watch

@@ -71,6 +71,9 @@ test('3PM: Simple Intel', t => {
 		name: 'Pentium G3258',
 	}), 'Pentium-G3258');
 	t.equal(threepm({
+		name: 'Intel Core i7-4770K Processor',
+	}), 'Core-i7-4770K');
+	t.equal(threepm({
 		brand: 'intel',
 		type: 'cpu',
 		name: 'Core i7-4700K',
@@ -100,6 +103,9 @@ test('3PM: RX GPUs', t => {
 	}, [
 		'RX-580', 'RX-580-4GiB', 'RX-580-8GiB'
 	], [], t, 'RX 580');
+	confirmMatches({
+		name: 'R9 390',
+	}, [ 'R9-390' ], [ 'R9-390X' ], t, 'R9 390 (but not X)');
 	t.equal(threepm({
 		brand: 'amd',
 		type: 'gpu',

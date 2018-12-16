@@ -157,6 +157,14 @@ module.exports.sections = [
 				name: 'UserBenchmark GPU Score',
 				processor: types.numberUp,
 			},
+			{
+				name: '3DMark Fire Strike Physics Score',
+				processor: types.numberUp,
+			},
+			{
+				name: '3DMark Fire Strike Graphics Score',
+				processor: types.numberUp,
+			},
 		],
 	},
 	{

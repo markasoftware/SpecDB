@@ -95,14 +95,23 @@ const combineUtil = {
 			console.error('Hint name was not a string');
 			return false;
 		}
-		hints.hyphenatedName = hints.name.replace(/[ _]/g, '-');
+		// hyphenate the name and remove common filler words
+		hints.cleanName = hints.name
+			.replace(/[ _]/g, '-');
+		['processor', 'radeon'].forEach(w => {
+			hints.cleanName = hints.cleanName.replace(new RegExp(`-*${w}-*`, 'i'), '');
+		});
 
-		if (typeof hints.brand !== 'string') {
-			hints.brand = /^amd/i.test(hints.name) ? 'amd' :
-				/^intel/i.test(hints.name) ? 'intel' :
-				/^nvidia/i.test(hints.name) ? 'nvidia' :
-				null;
-		} else {
+		['amd', 'intel', 'nvidia'].forEach(b => {
+			const brandRegex = new RegExp(`^${b}-*`, 'i');
+			if (brandRegex.test(hints.name)) {
+				hints.cleanName = hints.cleanName.replace(brandRegex, '');
+				if (typeof hints.brand !== 'string') {
+					hints.brand = b;
+				}
+			}
+		});
+		if (typeof hints.brand === 'string') {
 			hints.brand = hints.brand.toLowerCase();
 		}
 
@@ -118,13 +127,13 @@ const combineUtil = {
 				type: 'gpu',
 				parser: () => {
 					// TODO: how do we give data with GB specified higher priority than data w/o?
-					const regexMatch = hints.hyphenatedName.match(/(R[579X]-\d\d\dX?)(-(\d+)GB)?/);
+					const regexMatch = hints.cleanName.match(/(R[579X]-\d\d\dX?)(-(\d+)GB)?/);
 					if (regexMatch) {
 						const [ , rxXxx, , memorySize ] = regexMatch;
 						return combineUtil.toMatcher(
 							memorySize ?
 								`${rxXxx}-${memorySize}GiB` :
-								new RegExp(`^${rxXxx}`)
+								new RegExp(`^${rxXxx}(-\\d+GiB)?$`)
 						);
 					}
 				},
@@ -134,7 +143,7 @@ const combineUtil = {
 				nameTest: /^FX-\d+$/,
 				brand: 'amd',
 				type: 'cpu',
-				parser: () => hints.hyphenatedName,
+				parser: () => hints.cleanName,
 			},
 			// Ryzen
 			{
@@ -142,7 +151,7 @@ const combineUtil = {
 				brand: 'amd',
 				type: 'cpu',
 				parser: () => {
-					return hints.hyphenatedName.replace('Ryzen-', 'R');
+					return hints.cleanName.replace('Ryzen-', 'R');
 				},
 			},
 			// Threadripper
@@ -151,7 +160,7 @@ const combineUtil = {
 				brand: 'amd',
 				type: 'cpu',
 				parser: () => {
-					return hints.hyphenatedName.replace('Ryzen-TR-', '');
+					return hints.cleanName.replace('Ryzen-TR-', '');
 				}
 			},
 			// simple Intel
@@ -160,7 +169,7 @@ const combineUtil = {
 				brand: 'intel',
 				type: 'cpu',
 				parser: () => {
-					return hints.hyphenatedName;
+					return hints.cleanName;
 				},
 			},
 			// Phenom/Athlon, no T on end
@@ -170,7 +179,7 @@ const combineUtil = {
 				type: 'cpu',
 				parser: () => {
 					// extract the X*-*** portion
-					const regexMatch = hints.hyphenatedName.match(/(X\d-[A-Z0-9]+)$/);
+					const regexMatch = hints.cleanName.match(/(X\d-[A-Z0-9]+)$/);
 					if (regexMatch) {
 						return combineUtil.toMatcher(
 							new RegExp(`^${regexMatch[1]}(BE)?$`)
@@ -202,7 +211,7 @@ const combineUtil = {
 		];
 
 		const compatibleSeries = series.filter(serie =>
-				serie.nameTest.test(serie.rawNameTest ? hints.name : hints.hyphenatedName) &&
+				serie.nameTest.test(serie.rawNameTest ? hints.name : hints.cleanName) &&
 				matchFields.every(field =>
 					typeof hints[field] !== typeof serie[field] || hints[field] === serie[field]
 				)
