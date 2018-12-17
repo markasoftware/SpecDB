@@ -105,7 +105,7 @@ ${3dmk_scrape} :
 	${curl} ${3dmk_cpus} 'https://benchmarks.ul.com/compare/best-cpus'
 	${curl} ${3dmk_gpus} 'https://benchmarks.ul.com/compare/best-gpus'
 
-${3dmk_parse} :
+${3dmk_parse} : ${3dmk_scrape} build/3dmark-parse.js
 	${node} build/3dmark-parse.js ${3dmk_scrape} ${3dmk_parse}
 
 ${n_sentinel} : package.json
