@@ -1,11 +1,11 @@
-name: R7-2700
-humanName: R7 2700
+name: R7-PRO-2700
+humanName: R7 PRO 2700
 isPart: true
 type: CPU
 inherits:
   - Pinnacle-Ridge
 data:
-  Release Date: '2018-04-19'
+  Release Date: '2018-09-06'
   Core Count: 8
   Thread Count: 16
   L2 Cache (Total): 4 MiB

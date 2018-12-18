@@ -1,0 +1,16 @@
+name: Colfax
+humanName: Colfax
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2018-08-13'
+  Lithography: 12 nm
+  Sockets:
+    - TR4
+sections:
+  - header: THREADRIPPER
+    members:
+      - 2990WX
+      - 2970WX
+      - 2950X
+      - 2920X
