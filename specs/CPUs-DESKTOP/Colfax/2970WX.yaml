@@ -1,0 +1,17 @@
+name: 2970WX
+humanName: 2970WX
+isPart: true
+type: CPU
+inherits:
+  - Coflax
+data:
+  Release Date: '2018-10-29'
+  Core Count: 24
+  Thread Count: 48
+  Base Frequency: 3 GHz
+  Boost Frequency: 4.2 GHz
+  L2 Cache (Total): 12 MiB
+  L3 Cache (Total): 64 MiB
+  TDP: 250 W
+  L1 Cache (Data): 768 KiB
+  L1 Cache (Instruction): 1536 KiB

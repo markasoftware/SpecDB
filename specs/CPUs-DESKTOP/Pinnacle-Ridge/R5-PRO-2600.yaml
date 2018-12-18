@@ -1,0 +1,17 @@
+name: R5-PRO-2600
+humanName: R5 PRO 2600
+isPart: true
+type: CPU
+inherits:
+  - Pinnacle-Ridge
+data:
+  Release Date: '2018-09-06'
+  Core Count: 6
+  Thread Count: 12
+  L2 Cache (Total): 3 MiB
+  Base Frequency: 3.4 GHz
+  Boost Frequency: 3.9 GHz
+#  XFR Frequency: 4.1 GHz
+  TDP: 65 W
+  L1 Cache (Data): 192 KiB
+  L1 Cache (Instruction): 384 KiB
