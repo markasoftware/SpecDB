@@ -48,6 +48,9 @@ ubch_parse := ./tmp/userbenchmark-parse.json
 3dmk_scrape:= ${3dmk_cpus} ${3dmk_gpus}
 3dmk_parse := ./tmp/3dmark-parse.json
 
+gbch_scrape:= ./tmp/geekbench-scrape.html
+gbch_parse := ./tmp/geekbench-parse.json
+
 prod       := false
 
 development: ${n_sentinel} ${dev_guard} ${css_output} ${js_output}
@@ -77,11 +80,12 @@ ${sw_output} : ${sw_input}
 		${sw_output} 2>/dev/null
 
 ${spec_output} ${map_output} : ${athr_output} ${intc_parse} ${ubch_parse} ${3dmk_parse} \
-	build/authoritative-deserialize.js build/combine-specs.js
+	${gbch_parse} build/authoritative-deserialize.js build/combine-specs.js
 	${node} build/combine-specs.js ${spec_output} ${map_output} \
 		${athr_output}:build/authoritative-deserialize.js \
 		${ubch_parse}:build/userbenchmark-deserialize.js \
 		${3dmk_parse}:build/3dmark-deserialize.js \
+		${gbch_parse}:build/geekbench-deserialize.js \
 		${intc_parse}
 
 ${athr_output} : ${athr_input} build/gen-specs.js
@@ -108,6 +112,13 @@ ${3dmk_scrape} :
 ${3dmk_parse} : ${3dmk_scrape} build/3dmark-parse.js
 	${node} build/3dmark-parse.js ${3dmk_scrape} ${3dmk_parse}
 
+${gbch_scrape} :
+	${curl} ${gbch_scrape} 'https://browser.geekbench.com/processor-benchmarks'
+
+# MAYBE: an implicit rule for -parse.json
+${gbch_parse} : ${gbch_scrape} build/geekbench-parse.js
+	${node} build/geekbench-parse.js ${gbch_scrape} ${gbch_parse}
+
 ${n_sentinel} : package.json
 	npm install
 	touch ${n_sentinel}
@@ -115,12 +126,13 @@ ${n_sentinel} : package.json
 # clean everything
 clean:
 	${MAKE} clean-nonet
-	rm -f ${n_sentinel} ${intc_scrape} ${3dmk_scrape} ${ubch_scrape}
+	rm -f ${n_sentinel} ${intc_scrape} ${3dmk_scrape} ${ubch_scrape} ${gbch_scrape}
 
 # only clean things that can be regenerated without a network connection
 clean-nonet:
 	rm -f ${css_output} ${js_output} ${sw_output} \
 		${spec_output} ${map_output} ${intc_parse} \
-		${ubch_parse} ${3dmk_parse} ${athr_output}
+		${ubch_parse} ${3dmk_parse} ${gbch_parse} \
+		${athr_output}
 
 .PHONY: development production test clean clean-nonet watch

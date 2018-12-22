@@ -165,6 +165,14 @@ module.exports.sections = [
 				name: '3DMark Fire Strike Graphics Score',
 				processor: types.numberUp,
 			},
+			{
+				name: 'Geekbench Single-Core Score',
+				processor: types.numberUp,
+			},
+			{
+				name: 'Geekbench Multi-Core Score',
+				processor: types.numberUp,
+			},
 		],
 	},
 	{

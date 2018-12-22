@@ -323,7 +323,7 @@ const combineUtil = {
 		}
 		const missingProperties = combineUtil.typeRequiredProps[v.type].filter(c => _.isNil(v.data[c]));
 		if (missingProperties.length > 0) {
-			console.error(`WARNING: Part ${k} is missing required props: ${missingProperties}`);
+			debug(`WARNING: Part ${k} is missing required props: ${missingProperties}`);
 			return false;
 		}
 		return true;
