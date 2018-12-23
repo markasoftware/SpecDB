@@ -83,18 +83,9 @@ body {
 	-webkit-user-select: none;
 	user-select: none;
 }
-#searching-container {
-	display: none;
-}
-#search-toggle:checked ~ #search-toggle-label {
-	border: 2px solid #f44;
-	color: #f44;
-}
-#search-toggle:checked ~ #not-searching-container {
-	display: none;
-}
-#search-toggle:checked ~ #searching-container {
-	display: block;
+#search-toggle-label.selected {
+    border: 2px solid #f44;
+    color: #f44;
 }
 #search-bar {
 	background-color: #ccc;
