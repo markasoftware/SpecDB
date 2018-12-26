@@ -138,6 +138,20 @@ const combineUtil = {
 					}
 				},
 			},
+			// HD
+			{
+				nameTest: /HD-.*\d{4}(-|$)/,
+				brand: 'amd',
+				type: 'gpu',
+				parser: () => {
+					// a name can be just HD-1111, in which case we match against all variants EXCEPT -X2 because that means a two-die thing
+					// TODO: wrap function around .match which throws an easily catchable MatcherGeneratorError or something
+					const [, num, isX2] = hints.cleanName.match(/-(\d{4})(.*X2)?/);
+					return isX2 ?
+						`HD-${num}-X2` :
+						combineUtil.toMatcher(new RegExp(`^HD-${num}(-[^X].*)*$`));
+				},
+			},
 			// FX
 			{
 				nameTest: /^FX-\d+$/,

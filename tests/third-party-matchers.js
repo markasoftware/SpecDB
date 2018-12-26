@@ -3,8 +3,8 @@ const combineUtil = require('../build/combine-util');
 
 const threepm = combineUtil.thirdPartyNameToMatcher;
 const confirmMatches = (hints, matches, notMatches, t, msg) => {
-	const matcher = threepm(hints);
-	t.equal(typeof matcher, 'function', `"${msg}" is a fixed matcher`);
+	const rawMatcher = threepm(hints);
+	const matcher = typeof rawMatcher === 'function' ? rawMatcher : c => c === rawMatcher;
 	for (const match of matches) {
 		t.ok(matcher(match), `"${msg}" has match for "${match}"`);
 	}
@@ -111,6 +111,20 @@ test('3PM: RX GPUs', t => {
 		type: 'gpu',
 		name: 'RX 580 4GB',
 	}), 'RX-580-4GiB');
+
+	t.end();
+});
+
+test('3PM: HD GPUs', t => {
+	confirmMatches({
+		name: 'HD 7780',
+	}, [ 'HD-7780' ], [ 'HD-7790' ], t, 'HD 7780');
+	confirmMatches({
+		name: 'HD 4560',
+	}, [ 'HD-4560', 'HD-4560-DDR2', 'HD-4560-DDR3'], ['HD-4560-X2', 'HD-4570-EyeFinity'], t, 'HD 4560 matching against variants');
+	confirmMatches({
+		name: 'HD 4560 (X2)',
+	}, [ 'HD-4560-X2'], [ 'HD-4560', 'HD-4560-DDR3'], t, 'HD 4560 (X2)');
 
 	t.end();
 });
