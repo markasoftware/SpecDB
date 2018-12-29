@@ -50,7 +50,7 @@ watch:
 
 ${css_output} : ${css_input}
 	cat ${css_input} > ${css_output}
-	if ${prod}; then csso ${css_output} ${css_output}; fi
+	if ${prod}; then csso ${css_output} -o ${css_output}; fi
 
 ${js_output} : ${js_input} ${spec_output}
 	browserify -r ${spec_output}:spec-data \
