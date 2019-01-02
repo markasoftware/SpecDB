@@ -3,7 +3,7 @@ humanName: 2970WX
 isPart: true
 type: CPU
 inherits:
-  - Coflax
+  - Colfax
 data:
   Release Date: '2018-10-29'
   Core Count: 24

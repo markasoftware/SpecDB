@@ -3,7 +3,7 @@ humanName: 2990WX
 isPart: true
 type: CPU
 inherits:
-  - Coflax
+  - Colfax
 data:
   Release Date: '2018-08-13'
   Core Count: 32
