@@ -11,7 +11,7 @@ data:
 sections:
   - header: Black Edition SKUs
     members:
-      - 8750
+      - 8750BE
   - header: Standard SKUs
     members:
       - 8400

@@ -11,9 +11,9 @@ data:
 sections:
   - header: Black Edition SKUs
     members:
-      - 6500
-      - 7750
-      - 7850
+      - 6500BE
+      - 7750BE
+      - 7850BE
   - header: Standard SKUs
     members:
       - 7450
