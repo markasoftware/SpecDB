@@ -19,6 +19,7 @@
     "lodash": "^4.17.10",
     "mithril": "^1.1.6",
     "natural-compare": "^1.4.0",
+    "object-assign": "^4.1.1",
     "sw-precache": "^5.2.0",
     "tape": "^4.9.0",
     "uglify-js": "^3"

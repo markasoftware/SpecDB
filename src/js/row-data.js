@@ -1,5 +1,7 @@
 // provide row comparison, post-processing, pre-processing, etc
 
+const objectAssign = require('object-assign');
+
 const units = require('./units');
 const dates = require('./dates');
 
@@ -87,7 +89,7 @@ const types = {
 	}
 };
 // for thing that rely on other functions in there
-Object.assign(types, {
+objectAssign(types, {
 	memory: types.enum(
 		['HBM2', 'GDDR6', 'GDDR5X', 'HBM', 'GDDR5', 'GDDR4', 'GDDR3', 'DDR4', 'DDR3', 'DDR2', 'DDR', ''],
 		{ allowPartialMatch: true },
