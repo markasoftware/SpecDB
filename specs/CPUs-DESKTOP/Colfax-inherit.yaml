@@ -1,12 +1,12 @@
 hidden: true
-name: Whitehaven
+name: Colfax
 data:
-  Architecture: Zen
-  Lithography: 14 nm
+  Architecture: Zen+
+  Lithography: 12 nm
   Socket: TR4
   Unlocked: true
   Memory Type: DDR4
-  Max Memory Frequency: 2666 MHz
+  Max Memory Frequency: 2933 MHz
   Max Memory Channels: 4
   AVX/SSE/MMX: AVX2
   FMA4: false

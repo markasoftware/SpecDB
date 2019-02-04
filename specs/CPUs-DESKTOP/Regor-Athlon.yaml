@@ -12,6 +12,7 @@ data:
 sections:
   - header: Standard SKUs
     members:
+      - 215
       - 220
       - 240
       - 245

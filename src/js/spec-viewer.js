@@ -29,6 +29,108 @@ if(!sectionsLs.initialized) {
 	});
 }
 
+const bracket = {
+	view: vnode => {
+		const curSection = vnode.attrs.section;
+		return m(`td.table-section-hidden.not-that-hidden`, {
+			rowspan: curSection.rows.length,
+			onclick: () => sectionsLs.toggle(curSection.name),
+		},
+			[
+				m('.a.table-section-label', curSection.name),
+				m('.table-section-bracket', [
+					m('.bracket-upper-end.bracket-curve'),
+					m('.bracket-upper-rect.bracket-rect'),
+					m('.bracket-upper-join.bracket-curve'),
+					m('.bracket-lower-join.bracket-curve'),
+					m('.bracket-lower-rect.bracket-rect'),
+					m('.bracket-lower-end.bracket-curve'),
+				]),
+			]
+		);
+	},
+};
+
+const openRow = {
+	view: vnode =>
+		m('tr', [
+			m('td.row-header', vnode.attrs.row.name),
+			vnode.attrs.row.cells.map(curCell =>
+				m('td', {
+					class: curCell.winner ? 'winner' : '',
+				// if it's an array, then do line-break separated values, otherwise do just the value
+				}, curCell.value instanceof Array ?
+					[
+						curCell.value[0],
+						curCell.value.slice(1).map(c => [ m('br'), c ]),
+					]
+					: curCell.value
+				)
+			),
+			// include bracket if this is the top row
+			vnode.attrs.isTop && m(bracket, { section: vnode.attrs.section }),
+		]),
+};
+
+const closedRow = {
+	view: vnode => {
+		const curSection = vnode.attrs.section;
+		return m('tr', { onclick: () => sectionsLs.toggle(curSection.name) }, [
+			m('td.table-section-collapsed', {
+				// +1 to account for row header thing
+				colspan: curSection.rows[0].cells.length + 1,
+			},
+				m('a', curSection.name)
+			),
+			m('td.table-section-hidden'),
+		]);
+	},
+}
+
+const section = {
+	view: vnode => {
+		const curSection = vnode.attrs.section;
+		// if we don't have any data for this section, exit now
+		if(curSection.rows.length === 0) {
+			return;
+		}
+		return sectionsLs.get(curSection.name) ?
+			curSection.rows.map((curRow, i) =>
+				m(openRow, { section: curSection, row: curRow, isTop: i === 0 })
+			) : m(closedRow, { section: curSection });
+	},
+};
+
+const toggleAllSectionsButton = {
+	view: vnode =>
+		m('.a', { onclick: () => {
+			if(sectionsLs.checkAll() === 1) {
+				// everything is already shown, hide things
+				sectionsLs.setAll(false);
+			} else {
+				// some or everything is hidden, show everything
+				sectionsLs.setAll(true);
+			}
+		}}, m.trust(`${sectionsLs.checkAll() === 1 ? '-' : '+'}&nbsp;All`)),
+};
+
+const specTable = {
+	view: vnode =>
+		m('.spec-tab-wrapper',
+			m('table.spec-tab', [
+				// header with part names
+				m('tr', [
+					m('td.left-corner'),
+					vnode.attrs.humanNames.map(c => m('th', c)),
+					m('td.table-section-hidden.table-collapse-button', m(toggleAllSectionsButton)),
+				]),
+				// now for real data
+				vnode.attrs.sections.map(s => m(section, { section: s })),
+			])
+		),
+
+};
+
 module.exports = {
 	identicalRows: true,
 	uncomparableRows: true,
@@ -37,6 +139,7 @@ module.exports = {
 	view: vnode => {
 		const partNames = hashMan.getList();
 		const partData = partNames.map(c => specData[c]);
+		const partHumanNames = partData.map(c => c.humanName);
 		const sections = pure.getTableData(partData, rowData.sections, {
 			showIdenticalRows: vnode.state.identicalRows,
 			showUncomparableRows: vnode.state.uncomparableRows,
@@ -66,80 +169,7 @@ module.exports = {
 						onclick: () => vnode.state.uncomparableRows = !vnode.state.uncomparableRows,
 					}, 'Show Incomplete Rows'),
 				]),
-				m('.spec-tab-wrapper',
-					m('table.spec-tab', [
-						// header with part names
-						m('tr', [
-							m('td.left-corner'),
-							partData.map(c => m('th', c.humanName)),
-							m('td.table-section-hidden.table-collapse-button', [
-								m('.a', { onclick: () => {
-									if(sectionsLs.checkAll() === 1) {
-										// everything is already shown, hide things
-										sectionsLs.setAll(false);
-									} else {
-										// some or everything is hidden, show everything
-										sectionsLs.setAll(true);
-									}
-								}}, m.trust(`${sectionsLs.checkAll() === 1 ? '-' : '+'}&nbsp;All`)),
-							]),
-						]),
-						// now for real data
-						sections.map(curSection => {
-							// if we don't have any data for this section, exit now
-							if(curSection.rows.length === 0) {
-								return;
-							}
-							return sectionsLs.get(curSection.name) ?
-								// section is displayed
-								curSection.rows.map((curRow, i) =>
-									m('tr', [
-										m('td.row-header', curRow.name),
-										curRow.cells.map(curCell =>
-											m('td', {
-												class: curCell.winner ? 'winner' : '',
-											// if it's an array, then do line-break separated values, otherwise do just the value
-											}, curCell.value instanceof Array ?
-												[
-													curCell.value[0],
-													curCell.value.slice(1).map(c => [ m('br'), c ]),
-												]
-												: curCell.value
-											)
-										),
-										// include bracket if this is the top row
-										i === 0 &&
-											m(`td.table-section-hidden.not-that-hidden`, {
-												rowspan: curSection.rows.length,
-												onclick: () => sectionsLs.toggle(curSection.name),
-											},
-												[
-													m('.a.table-section-label', curSection.name),
-													m('.table-section-bracket', [
-														m('.bracket-upper-end.bracket-curve'),
-														m('.bracket-upper-rect.bracket-rect'),
-														m('.bracket-upper-join.bracket-curve'),
-														m('.bracket-lower-join.bracket-curve'),
-														m('.bracket-lower-rect.bracket-rect'),
-														m('.bracket-lower-end.bracket-curve'),
-													]),
-												]
-											),
-									])
-								) :
-								// section is collapsed
-								m('tr', { onclick: () => sectionsLs.toggle(curSection.name) }, [
-									m('td.table-section-collapsed', {
-										// +1 to account for row header thing
-										colspan: curSection.rows[0].cells.length + 1,
-									},
-										m('a', curSection.name)
-									),
-									m('td.table-section-hidden'),
-								])
-						}),
-					]),
-				),
+				m(specTable, { sections, humanNames: partHumanNames }),
 				m(infoLinks),
 			]),
 		];

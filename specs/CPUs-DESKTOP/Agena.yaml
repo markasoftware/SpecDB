@@ -11,9 +11,9 @@ data:
 sections:
   - header: Black Edition SKUs
     members:
-      - 9600
-      - 9850
-      - 9950
+      - 9600BE
+      - 9850BE
+      - 9950BE
   - header: Standard SKUs
     members:
       - 9500

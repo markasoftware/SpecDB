@@ -1,0 +1,18 @@
+name: 2990WX
+humanName: 2990WX
+isPart: true
+type: CPU
+inherits:
+  - Colfax
+data:
+  Release Date: '2018-08-13'
+  Core Count: 32
+  Thread Count: 64
+  Base Frequency: 3 GHz
+  Boost Frequency: 4.2 GHz
+  L2 Cache (Total): 16 MiB
+  L3 Cache (Total): 64 MiB
+  TDP: 250 W
+  # holy shit that's a lot!
+  L1 Cache (Data): 1024 KiB
+  L1 Cache (Instruction): 2048 KiB

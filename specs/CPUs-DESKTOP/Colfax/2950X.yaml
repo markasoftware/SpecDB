@@ -1,0 +1,17 @@
+name: 2950X
+humanName: 2950X
+isPart: true
+type: CPU
+inherits:
+  - Colfax
+data:
+  Release Date: '2018-08-31'
+  Core Count: 16
+  Thread Count: 32
+  Base Frequency: 3.5 GHz
+  Boost Frequency: 4.4 GHz
+  L2 Cache (Total): 8 MiB
+  L3 Cache (Total): 32 MiB
+  TDP: 180 W
+  L1 Cache (Data): 512 KiB
+  L1 Cache (Instruction): 1024 KiB
