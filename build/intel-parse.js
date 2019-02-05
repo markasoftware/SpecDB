@@ -66,9 +66,7 @@ const partList = procs.filter(c => c.ProductFamilyId in intelConfig.families).ma
 	return toReturn;
 });
 // END step 4
-const toOutput = util.keyByName(partList);
+const keyedPartList = util.keyByName(partList);
+const toReturn = partList.concat(util.genSections(keyedPartList, intelConfig.sectionPages));
 
-// do the sectioning thing
-Object.assign(toOutput, util.genSections(toOutput, intelConfig.sectionPages));
-
-util.writeJSON(intelParse, toOutput);
+util.writeJSON(intelParse, toReturn);

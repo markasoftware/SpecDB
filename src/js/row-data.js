@@ -15,11 +15,8 @@ const versionCompare = (a, b) => {
 	const bSplit = b.split('.').map(Number);
 	// if any part of b is lower than a, a is greater, otherwise equal or worse
 	for(let i = 0; i < Math.min(aSplit.length, bSplit.length); ++i) {
-		if(aSplit[i] > bSplit[i]) {
-			return true;
-		}
-		if(aSplit[i] < bSplit[i]) {
-			return false;
+		if (aSplit[i] !== bSplit[i]) {
+			return aSplit[i] > bSplit[i];
 		}
 	}
 	// if all available digits are the same, the longer one is better (1.1 is better than 1)
@@ -146,6 +143,36 @@ module.exports.sections = [
 				name: 'TDP',
 				processor: types.numberDown,
 			}
+		],
+	},
+	{
+		name: 'Benchmarks',
+		display: true,
+		rows: [
+			{
+				name: 'UserBenchmark CPU Score',
+				processor: types.numberUp,
+			},
+			{
+				name: 'UserBenchmark GPU Score',
+				processor: types.numberUp,
+			},
+			{
+				name: '3DMark Fire Strike Physics Score',
+				processor: types.numberUp,
+			},
+			{
+				name: '3DMark Fire Strike Graphics Score',
+				processor: types.numberUp,
+			},
+			{
+				name: 'Geekbench Single-Core Score',
+				processor: types.numberUp,
+			},
+			{
+				name: 'Geekbench Multi-Core Score',
+				processor: types.numberUp,
+			},
 		],
 	},
 	{

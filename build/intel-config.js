@@ -7,11 +7,14 @@ const intelConfig = {
 	// SPECIFIC
 	// we don't use the values, they're for future use so i don't have to look
 	// at the accursed odata page again
+	// FUCK I FORGOT ATOM AND HAD TO LOOK AT THE ACCURSED ODATA PAGE AGAIN
+	// here it is, by the way: https://odata.intel.com/API/v1_0/Products/Families()?$format=json
 	families: {
 		122139: 'Core',
 		29862: 'Pentium',
 		595: 'Xeon',
 		43521: 'Pentium',
+		29035: 'Atom',
 	},
 	deferred: {
 		codeName: {
@@ -46,7 +49,6 @@ const intelConfig = {
 			{ name: 'name', transformer: (c, d, od) => 
 				util.urlify(intelConfig.nameTransformer(c, d, od))
 			},
-			{ name: 'data.Unlocked', transformer: c => c.slice(-1) === 'K' || undefined },
 		],
 		CoreCount: [
 			'data.Core Count',
@@ -112,7 +114,7 @@ const intelConfig = {
 			toHeader: c => `${
 				util.bucket(1, {
 					ranges: [ [ 9, 16 ], [ 17, 64 ], [ 65, 128 ]],
-					max: 65,
+					max: 129,
 					maxText: 'What the FUCK',
 				})(c.data['Thread Count'])
 			} Threads`,
@@ -129,7 +131,14 @@ const intelConfig = {
 							.map(d => d.data['Release Date']),
 						d => dates.parse(d),
 					) || null,
-					Sockets: [ c[0].data.Socket ],
+					Sockets: _
+						.chain(c)
+						.filter(d => typeof d.data.Socket === 'string')
+						.flatMap(d => d.data.Socket.split(', '))
+						// TODO: should we do this replacement or not? Should we do it everywhere sockets are mentioned?
+						.map(socket => socket.replace(/(FC|-)/g, ''))
+						.uniq()
+						.value(),
 				},
 			}),
 		},
