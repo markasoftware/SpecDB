@@ -1,3 +1,5 @@
+const objectAssign = require('object-assign')
+
 const units = [
 	// special unit
 	{ 'count': 1 },
@@ -34,7 +36,7 @@ const units = [
 		'TFLOPS': 1000 * 1000 * 1000 * 1000,
 	},
 ];
-const flatUnits = units.reduce((acc, c) => Object.assign({}, acc, c), {});
+const flatUnits = units.reduce((acc, c) => objectAssign({}, acc, c), {});
 
 const unitsJs = {
 	parseString: str => {
