@@ -1,0 +1,12 @@
+name: K6-2-475(C)
+humanName: K6-2 475 Chomper
+isPart: true
+type: CPU
+inherits:
+  - Chomper
+data:
+  Base Frequency:  0.475 GHz
+  TDP: 29.60W
+  Release Date: '1999-04-15'
+
+  

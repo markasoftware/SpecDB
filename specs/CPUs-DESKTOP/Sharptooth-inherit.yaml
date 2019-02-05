@@ -1,0 +1,17 @@
+hidden: true
+name: Sharptooth
+data:
+  Architecture: K6
+  Lithography: 250 nm
+  Socket: Super 7
+  Unlocked: false
+  Core Count: 1
+  Thread Count: 1
+  L1 Cache (Data): 32 KiB
+  L1 Cache (Instruction): 32 KiB
+  L2 Cache (Total): 256 KiB
+  Max Memory Frequency: 133 MHz
+  Max Memory Channels: 1
+  AVX/SSE/MMX: MMX
+  Other Extensions:
+    - 3DNow!

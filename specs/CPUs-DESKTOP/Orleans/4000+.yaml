@@ -1,0 +1,9 @@
+name: 4000+(O)
+humanName: 4000+ Orleans
+isPart: true
+type: CPU
+inherits:
+  - Orleans
+data:
+  Base Frequency: 2.4 GHz
+  Release Date: '2007-02-20'

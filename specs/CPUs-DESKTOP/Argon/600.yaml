@@ -1,0 +1,10 @@
+name: 600(A)
+humanName: Athlon 600 Argon
+isPart: true
+type: CPU
+inherits:
+  - Argon
+data:
+  Base Frequency:  0.6 GHz
+  TDP: 50W
+  Release Date: '1999-06-23'

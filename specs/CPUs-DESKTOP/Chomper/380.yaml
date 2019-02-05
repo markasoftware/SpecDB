@@ -1,0 +1,12 @@
+name: K6-2-380(C)
+humanName: K6-2 380 Chomper
+isPart: true
+type: CPU
+inherits:
+  - Chomper
+data:
+  Base Frequency:  0.380 GHz
+  TDP: 20.80W
+  Release Date: '1998-10-15'
+
+  

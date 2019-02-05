@@ -1,0 +1,8 @@
+name: FX-53(S)
+humanName: FX-53 SlegeHammer
+isPart: true
+type: CPU
+inherits:
+  - SledgeHammer
+data:
+  Base Frequency:  2.4 GHz

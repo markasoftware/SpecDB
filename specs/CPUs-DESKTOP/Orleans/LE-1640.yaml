@@ -1,0 +1,11 @@
+name: LE-1640(O)
+humanName: LE-1640 Orleans
+isPart: true
+type: CPU
+inherits:
+  - Orleans
+data:
+  Base Frequency: 2.6 GHz
+  Release Date: '2008-01-07'
+  L2 Cache (Total): 1 MiB
+  TDP: 45W

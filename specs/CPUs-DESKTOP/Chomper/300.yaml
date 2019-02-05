@@ -1,0 +1,12 @@
+name: K6-2-300(C)
+humanName: K6-2 300 Chomper
+isPart: true
+type: CPU
+inherits:
+  - Chomper
+data:
+  Base Frequency:  0.300 GHz
+  TDP: 17.20W
+  Release Date: '1998-06-04'
+
+  

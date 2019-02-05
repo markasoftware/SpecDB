@@ -1,0 +1,10 @@
+name: 700(T)
+humanName: Athlon 700 Thunderbird
+isPart: true
+type: CPU
+inherits:
+  - Thunderbird
+data:
+  Base Frequency:  0.7 GHz
+  TDP: 40W
+  Release Date: '2000-06-05'

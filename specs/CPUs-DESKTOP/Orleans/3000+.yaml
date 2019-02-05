@@ -1,0 +1,9 @@
+name: 3000+(O)
+humanName: 3000+ Orleans
+isPart: true
+type: CPU
+inherits:
+  - Orleans
+data:
+  Base Frequency: 1.8 GHz
+  Release Date: '2006-05-23'

@@ -1,0 +1,16 @@
+name: Winchester
+humanName: Winchester
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2004-10-14'
+  Lithography: 90 nm
+  Sockets:
+  - 939
+  Foundry: AMD Foundries
+sections:
+  - header: Standard SKUs
+    members:
+      - 3000+(W)
+      - 3200+(W)
+      - 3500+(W)

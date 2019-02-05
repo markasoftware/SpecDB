@@ -1,0 +1,12 @@
+name: K5-133
+humanName: K5 PR 133
+isPart: true
+type: CPU
+inherits:
+  - 5K86
+data:
+  Base Frequency:  0.100 GHz
+  TDP: 13.73W
+  Release Date: '1996-10-07'
+  
+  

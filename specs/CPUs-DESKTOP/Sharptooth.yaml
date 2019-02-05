@@ -1,0 +1,18 @@
+name: Sharptooth
+humanName: Sharptooth
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '1999-02-22'
+  Lithography: 250 nm
+  Sockets:
+  - Super 7
+  Foundry: AMD Foundries
+sections:
+    - header: Standard SKUs
+      members:
+      - K6-III-333(S)
+      - K6-III-400(S)
+      - K6-III-450(S)
+
+      

@@ -1,0 +1,20 @@
+name: 5K86
+humanName: 5K86
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '1996-10-07'
+  Lithography: 350 nm
+  Sockets:
+  - 5
+  - 7
+  Foundry: AMD Foundries
+sections:
+    - header: Standard SKUs
+      members:
+      - K5-PR120
+      - K5-PR133
+      - K5-PR150
+      - K5-PR166
+      - K5-PR200
+      

@@ -1,0 +1,20 @@
+name: Pluto
+humanName: Pluto
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2000-03-06'
+  Lithography: 180 nm
+  Sockets:
+  - Slot A
+  Foundry: AMD Foundries
+sections:
+    - header: Standard SKUs
+      members:
+      - 550(P)
+      - 600(P)
+      - 650(P)
+      - 700(P)
+      - 750(P)
+      - 800(P)
+      - 850(P)

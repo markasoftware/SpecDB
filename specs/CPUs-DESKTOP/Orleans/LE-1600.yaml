@@ -1,0 +1,11 @@
+name: LE-1600(O)
+humanName: LE-1600 Orleans
+isPart: true
+type: CPU
+inherits:
+  - Orleans
+data:
+  Base Frequency: 2.2 GHz
+  Release Date: '2007-10-08'
+  L2 Cache (Total): 1 MiB
+  TDP: 45W

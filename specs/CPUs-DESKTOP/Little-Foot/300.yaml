@@ -1,0 +1,12 @@
+name: K6-300(L)
+humanName: K6 300 Little Foot
+isPart: true
+type: CPU
+inherits:
+  - M6
+data:
+  Base Frequency:  0.300 GHz
+  TDP: 15.4W
+  Release Date: '1998-03-05'
+  Lithography: 250 nm
+  

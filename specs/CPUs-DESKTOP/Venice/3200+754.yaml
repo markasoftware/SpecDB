@@ -1,0 +1,11 @@
+name: 3200+(V)
+humanName: 3200+ Venice
+isPart: true
+type: CPU
+inherits:
+  - Venice
+data:
+  Base Frequency:  2.4 GHz
+  Socket: '754'
+  TDP: 59W
+  Max Memory Channels: 1

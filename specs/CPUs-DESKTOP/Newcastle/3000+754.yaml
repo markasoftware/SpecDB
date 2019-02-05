@@ -1,0 +1,10 @@
+name: 3000+(N)
+humanName: 3000+ Newcastle
+isPart: true
+type: CPU
+inherits:
+  - Newcastle
+data:
+  Base Frequency:  2.0 GHz
+  Socket: '754'
+  Max Memory Channels: 1

@@ -1,0 +1,10 @@
+name: 950(O)
+humanName: Athlon 950 Orion
+isPart: true
+type: CPU
+inherits:
+  - Pluto
+data:
+  Base Frequency:  0.95 GHz
+  TDP: 62W
+  Release Date: '2000-03-06'

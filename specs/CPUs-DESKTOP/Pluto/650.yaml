@@ -1,0 +1,10 @@
+name: 650(P)
+humanName: Athlon 650 Pluto
+isPart: true
+type: CPU
+inherits:
+  - Pluto
+data:
+  Base Frequency:  0.65 GHz
+  TDP: 36W
+  Release Date: '1999-11-29'

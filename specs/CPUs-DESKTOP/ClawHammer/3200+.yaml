@@ -1,0 +1,8 @@
+name: 3200+(C)
+humanName: 3200+ ClawHammer
+isPart: true
+type: CPU
+inherits:
+  - ClawHammer
+data:
+  Base Frequency:  2.2 GHz

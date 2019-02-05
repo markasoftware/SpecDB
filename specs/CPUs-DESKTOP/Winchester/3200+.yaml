@@ -1,0 +1,8 @@
+name: 3200+(W)
+humanName: 3200+ Winchester
+isPart: true
+type: CPU
+inherits:
+  - Venice
+data:
+  Base Frequency:  2.0 GHz

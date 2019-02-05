@@ -1,0 +1,26 @@
+hidden: true
+name: Venice
+data:
+  Architecture: K8
+  Lithography: 90 nm
+  Stepping: E3
+  Core Count: 1
+  Thread Count: 1
+  L2 Cache (Total): 512 KiB
+  Socket: '939'
+  TDP: 67W
+  L1 Cache (Data): 64 KiB
+  L1 Cache (Instruction): 64 KiB
+  Max Memory Frequency: 400 MHz
+  Max Memory Channels: 2
+  AVX/SSE/MMX: SSE3
+  Unlocked: true
+  FMA4: false
+  FMA3: false
+  BMI: No
+  AES: false
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - E3D-Now!
+  Compatible Chipsets:

@@ -1,0 +1,8 @@
+name: 2800+(C)
+humanName: 2800+ ClawHammer
+isPart: true
+type: CPU
+inherits:
+  - ClawHammer
+data:
+  Base Frequency:  1.8 GHz

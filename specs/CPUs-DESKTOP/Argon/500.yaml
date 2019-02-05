@@ -1,0 +1,10 @@
+name: 500(A)
+humanName: Athlon 500 Argon
+isPart: true
+type: CPU
+inherits:
+  - Argon
+data:
+  Base Frequency:  0.5 GHz
+  TDP: 42W
+  Release Date: '1999-06-23'

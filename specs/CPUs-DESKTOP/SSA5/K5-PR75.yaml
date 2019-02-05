@@ -1,0 +1,12 @@
+name: K5-PR75
+humanName: K5 PR 75
+isPart: true
+type: CPU
+inherits:
+  - 5K86
+data:
+  Base Frequency:  0.075 GHz
+  TDP: 11.16W
+  Release Date: '1996-03-27'
+  
+  

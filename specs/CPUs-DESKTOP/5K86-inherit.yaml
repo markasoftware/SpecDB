@@ -1,0 +1,14 @@
+hidden: true
+name: 5K86
+data:
+  Architecture: K5
+  Lithography: 350 nm
+  Socket: '7'
+  Unlocked: false
+  Core Count: 1
+  Thread Count: 1
+  L1 Cache (Data): 8 KiB
+  L1 Cache (Instruction): 16 KiB
+  Max Memory Frequency: 133 MHz
+  Max Memory Channels: 1
+  

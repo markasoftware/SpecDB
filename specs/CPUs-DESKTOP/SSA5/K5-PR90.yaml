@@ -1,0 +1,12 @@
+name: K5-90
+humanName: K5 PR 90
+isPart: true
+type: CPU
+inherits:
+  - 5K86
+data:
+  Base Frequency:  0.090 GHz
+  TDP: 13.93W
+  Release Date: '1996-03-27'
+  
+  

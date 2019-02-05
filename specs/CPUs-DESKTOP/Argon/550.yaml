@@ -1,0 +1,10 @@
+name: 550(A)
+humanName: Athlon 550 Argon
+isPart: true
+type: CPU
+inherits:
+  - Argon
+data:
+  Base Frequency:  0.55 GHz
+  TDP: 46W
+  Release Date: '1999-06-23'

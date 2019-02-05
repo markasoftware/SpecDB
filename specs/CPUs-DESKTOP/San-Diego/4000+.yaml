@@ -1,0 +1,8 @@
+name: 4000+(S)
+humanName: 4000+ San Diego
+isPart: true
+type: CPU
+inherits:
+  - San-Diego
+data:
+  Base Frequency:  2.4 GHz

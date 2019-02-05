@@ -1,0 +1,11 @@
+name: K6-2-200(C)
+humanName: K6 200 Chomper
+isPart: true
+type: CPU
+inherits:
+  - Chomper
+data:
+  Base Frequency:  0.200 GHz
+  Release Date: '1998-06-04'
+
+  

@@ -1,0 +1,11 @@
+name: K6-2-233(C)
+humanName: K6-2 233 Chomper
+isPart: true
+type: CPU
+inherits:
+  - Chomper
+data:
+  Base Frequency:  0.233 GHz
+  Release Date: '1998-06-04'
+
+  

@@ -1,0 +1,16 @@
+name: Orion
+humanName: Orion
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2000-03-06'
+  Lithography: 180 nm
+  Sockets:
+  - Slot A
+  Foundry: AMD Foundries
+sections:
+    - header: Standard SKUs
+      members:
+      - 900(O)
+      - 950(O)
+      - 1000(O)

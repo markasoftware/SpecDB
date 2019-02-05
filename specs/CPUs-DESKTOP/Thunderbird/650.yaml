@@ -1,0 +1,10 @@
+name: 650(T)
+humanName: Athlon 650 Thunderbird
+isPart: true
+type: CPU
+inherits:
+  - Thunderbird
+data:
+  Base Frequency:  0.65 GHz
+  TDP: 38W
+  Release Date: '2000-06-05'

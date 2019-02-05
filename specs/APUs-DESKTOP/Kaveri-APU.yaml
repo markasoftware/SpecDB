@@ -24,3 +24,10 @@ sections:
       - A10-7860K
       - A10-7870K
       - A10-7890K
+  - header: Business SKUs
+    members:
+      - A6-PRO-7350B
+      - A6-PRO-7400B
+      - A8-PRO-7600B
+      - A10-PRO-7800B
+      - A10-PRO-7850B

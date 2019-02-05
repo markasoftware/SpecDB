@@ -1,0 +1,10 @@
+name: 3200+(N)
+humanName: 3200+ Newcastle
+isPart: true
+type: CPU
+inherits:
+  - Newcastle
+data:
+  Base Frequency:  2.2 GHz
+  Socket: '754'
+  Max Memory Channels: 1

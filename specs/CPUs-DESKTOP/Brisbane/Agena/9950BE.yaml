@@ -1,0 +1,11 @@
+name: 9950BE
+humanName: X4 9950 Black Edition
+isPart: true
+type: CPU
+inherits:
+  - Agena
+data:
+  Base Frequency: 2.6 GHz
+  TDP: 125 W
+  Release Date: '2008-06-01'
+  Unlocked: true

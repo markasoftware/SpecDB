@@ -1,0 +1,11 @@
+name: K6-3-333(S)
+humanName: K6-3 333 Sharptooth
+isPart: true
+type: CPU
+inherits:
+  - Sharptooth
+data:
+  Base Frequency:  0.333 GHz
+  Release Date: '1999-05-13'
+
+  

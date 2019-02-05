@@ -1,0 +1,10 @@
+name: 850(P)
+humanName: Athlon 850 Pluto
+isPart: true
+type: CPU
+inherits:
+  - Pluto
+data:
+  Base Frequency:  0.85 GHz
+  TDP: 50W
+  Release Date: '2000-02-11'

@@ -1,0 +1,9 @@
+name: 2800+(N)
+humanName: 2800+ Newcastle
+isPart: true
+type: CPU
+inherits:
+  - Newcastle
+data:
+  Base Frequency:  1.8 GHz
+  Socket: '754'

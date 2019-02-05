@@ -1,0 +1,8 @@
+name: 3700+(S)
+humanName: 3700+ San Diego
+isPart: true
+type: CPU
+inherits:
+  - San-Diego
+data:
+  Base Frequency:  2.2 GHz

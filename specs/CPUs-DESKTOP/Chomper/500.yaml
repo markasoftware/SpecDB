@@ -1,0 +1,12 @@
+name: K6-2-500(C)
+humanName: K6-2 500 Chomper
+isPart: true
+type: CPU
+inherits:
+  - Chomper
+data:
+  Base Frequency:  0.500 GHz
+  TDP: 20.7W
+  Release Date: '1999-03-11'
+
+  
