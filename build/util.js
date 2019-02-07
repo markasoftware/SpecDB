@@ -197,33 +197,20 @@ const util = {
 		 * @return parser which succeeds if either a or b does
 		 */
 		const or = (...a) => p => {
-			if (a.length === 0) {
-				return;
-			}
 			try {
 				a[0](p);
 			} catch (e) {
-				or(a.slice(1), p);
+				if (a.length === 1) {
+					// maybe we should be appending something to the error here, but it's hard to make it meaningful
+					throw e;
+				}
+				or(...a.slice(1))(p);
 			}
 		};
 
 		const and = (...a) => p => {
 			// l o w e f f o r t
 			a.forEach(c => c(p));
-		};
-
-		/**
-		 * Run t if c returns true, else run e
-		 * @param c takes p as argument, returns boolean
-		 * @param t run if c returns true
-		 * @param e run if c returns false (has default)
-		 */
-		const ifElse = (c, t, e = _.noop) => p => {
-			if (c(p)) {
-				t(p);
-			} else {
-				e(p);
-			}
 		};
 
 		/**
@@ -267,7 +254,14 @@ const util = {
 			}
 		};
 
-		const parseStringy = or(parseType('string'), parseType('number'));
+		const parseTrue = p => {
+			parseType('boolean')(p);
+			if (p !== true) {
+				throw new YamlVerifyError('Expected "true", found "false"');
+			}
+		};
+
+		const parseStringy = or(parseType('number'), parseType('string'));
 
 		const parseSections = forEach(and(
 			atPath('header', parseStringy),
@@ -275,13 +269,6 @@ const util = {
 						 forEach(parseStringy)
 						),
 		));
-
-		// @param p the whole yaml
-		// @return boolean
-		const isPart = p => {
-			atPath('isPart', parseType('boolean'))(p);
-			return p.isPart;
-		};
 
 		// @param p the whole yaml
 		const parseRequiredSubtextData = p => {
@@ -325,18 +312,23 @@ const util = {
 			typeRequiredProps[type].forEach(c => c(p));
 		};
 
-		return and(
-			atPath('name', parseStringy),
-			atPath('humanName', parseStringy),
-			parseRequiredSubtextData,
-			ifElse(isPart,
-						 // parts only need subtext data, so we're done! Free as the wind!
-						 _.noop,
-						 and(
-							 atPath('topHeader', parseStringy),
-							 atPath('sections', parseSections),
-						 )
-						),
+		or(
+			and(
+				atPath('hidden', parseTrue),
+				atPath('name', parseStringy),
+			),
+			and(
+				atPath('name', parseStringy),
+				atPath('humanName', parseStringy),
+				parseRequiredSubtextData,
+				or(
+					atPath('isPart', parseTrue),
+					and(
+						atPath('topHeader', parseStringy),
+						atPath('sections', parseSections),
+					),
+				),
+			),
 		)(yamlObject);
 	}
 };

@@ -209,25 +209,3 @@ test('combineUtil: applyMatchers', t => {
 	t.end();
 });
 
-test('combineUtil: filterKeyedCombined', t => {
-	const fixtures = {
-		i5: { type: 'Generic Container' },
-		i7: {},
-		Newton: { type: 'Graphics Architecture', data: {
-			Lithography: '595nm',
-			'Release Date': 'tomorrow',
-		} },
-		Firelake: { type: 'Graphics Architecture', data: {
-			Lithography: '595nm',
-			Yapper: false,
-		} },
-		// should not be in: unknown type
-		bRhcuorCUHC: { type: 'Large Opaque Slimy Blob' },
-	};
-	t.ok(cu.filterKeyedCombined(fixtures.i5), 'basic');
-	t.notOk(cu.filterKeyedCombined(fixtures.i7), 'hidden (no data)');
-	t.ok(cu.filterKeyedCombined(fixtures.Newton), 'has required props');
-	t.notOk(cu.filterKeyedCombined(fixtures.Firelake), 'missing required props');
-	t.notOk(cu.filterKeyedCombined(fixtures.bRhcuorCUHC), 'unknown type');
-	t.end();
-});

@@ -74,7 +74,7 @@ const keyedAllDiscrete = combineUtil.applyMatchers(flatPrioritizedItems);
 debug(`Total item count (combined): ${Object.keys(keyedAllDiscrete).length}`);
 const keyedAllCombined = combineUtil.undiscrete(keyedAllDiscrete);
 
-const toReturn = _.pickBy(keyedAllCombined, combineUtil.filterKeyedCombined);
+const toReturn = combineUtil.filterYamls(keyedAllCombined);
 debug(`Final item count: ${Object.keys(toReturn).length}`);
 
 fs.writeFileSync(outputFile, `module.exports=${JSON.stringify(toReturn)}`, 'utf8');

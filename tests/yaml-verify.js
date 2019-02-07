@@ -33,7 +33,7 @@ test('YAMLVERIFY: Missing properties', t => {
 });
 
 test('YAMLVERIFY: Wrong types', t => {
-	const typeRegex = /incorrect type.*found "(?!undefined).+"/i;
+	const typeRegex = /incorrect type/i;
 
 	t.throws(() => yamlVerify({
 		name: 'BLEP',
@@ -48,17 +48,6 @@ test('YAMLVERIFY: Wrong types', t => {
 		type: 'Generic Container',
 		sections: { },
 	}), typeRegex, 'sections is not an array');
-	t.doesNotThrow(() => yamlVerify({
-		name: 'BLEP',
-		humanName: 'BLEP',
-		isPart: false,
-		type: 'Generic Container',
-		sections: [
-			{ header: 'RYZEN APUs', members: []},
-			{ header: 'Reindeer', members: [ 'Rudolph', 'Prancer', 'Dancer' ]},
-			{ header: 'BLYZEN APUs', members: [ 'B6-BBBB' ]},
-		],
-	}), 'section');
 
 	t.end();
 });
@@ -82,6 +71,7 @@ test('YAMLVERIFY: All clear', t => {
 		humanName: 'BLEP',
 		isPart: false,
 		type: 'Generic Container',
+		topHeader: 'cod is 4 killerz',
 		sections: [
 			{ header: 'RYZEN APUs', members: []},
 			{ header: 'Reindeer', members: [ 'Rudolph', 'Prancer', 'Dancer' ]},
@@ -93,6 +83,7 @@ test('YAMLVERIFY: All clear', t => {
 		humanName: 'rr',
 		isPart: false,
 		type: 'CPU Architecture',
+		topHeader: 'cod is 4 killerz',
 		data: {
 			'Release Date': '2018-08-13',
 			Lithography: '12 nm',
@@ -102,6 +93,10 @@ test('YAMLVERIFY: All clear', t => {
 			{ header: 'do NOT say yeet one more fucking time', members: [ 'HH, h', 'rr'] },
 		],
 	}), 'complex section');
+	t.doesNotThrow(() => yamlVerify({
+		name: 'CLEPTO',
+		hidden: true,
+	}), 'minimal hidden');
 
 	t.end();
 });

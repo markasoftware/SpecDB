@@ -9,40 +9,6 @@ const util = require('./util');
 const gdiCache = new MixedTupleMap();
 
 const combineUtil = {
-	// TODO: move elsewhere
-	typeRequiredProps: {
-		'Generic Container': [],
-		'CPU Architecture': [
-			'Lithography',
-			'Release Date',
-			'Sockets',
-		],
-		'Graphics Architecture': [
-			'Lithography',
-			'Release Date',
-		],
-		'APU Architecture': [
-			'Lithography',
-			'Release Date',
-		],
-		CPU: [
-			'Core Count',
-			'Thread Count',
-			'Base Frequency',
-			'TDP',
-		],
-		'Graphics Card': [
-			'VRAM Capacity',
-			'Shader Processor Count',
-			'GPU Base Frequency',
-		],
-		'APU': [
-			'Core Count',
-			'Thread Count',
-			'Base Frequency',
-			'Shader Processor Count',
-		],
-	},
 	// TODO: possibly improve by allowing deep onMe using _.get and _.set
 	// @param data = an array of objects, which should all have the next param as a prop
 	// @param onMe = the property string to duplicate on
@@ -320,28 +286,18 @@ const combineUtil = {
 		return allKeyedDiscrete;
 	},
 
-	// @param v = part data
-	// @param k = part name (machine readable)
-	// @return = true/false whether this part should be in spec-data.js
-	filterKeyedCombined: (v, k) => {
-		// if there's no v.type, it might be hidden or something
-		// TODO: this mainly happens for hidden items, but if there is, eg, a matcher without hidden, we might
-		// want to warn about it -- but we can't because we don't know if it's hidden! Maybe I'm overthinking things...
-		if (!v.type && !v.hidden) {
-			return false;
-		}
-		if (!combineUtil.typeRequiredProps[v.type]) {
-			console.error(`WARNING: Unknown type ${v.type} for ${k}`);
-			console.error(v);
-			return false;
-		}
-		const missingProperties = combineUtil.typeRequiredProps[v.type].filter(c => _.isNil(v.data[c]));
-		if (missingProperties.length > 0) {
-			debug(`WARNING: Part ${k} is missing required props: ${missingProperties}`);
-			return false;
-		}
-		return true;
-	},
+	// such a horrible name, they ain't yamls no more
+	filterYamls: yamls =>
+		_.pickBy(yamls, (yaml, name) => {
+			try {
+				util.yamlVerify({ ...yaml, name });
+			} catch (e) {
+				console.error(`Error processing "${name}", omitting it:`);
+				console.error(String(e));
+				return false;
+			}
+			return true;
+		}),
 
 	// @param keyedDiscrete
 	// @return = keyedCombined
