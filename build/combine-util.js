@@ -165,7 +165,7 @@ const combineUtil = {
 							new RegExp(`^${regexMatch[1]}(BE)?$`)
 						);
 					}
-				}
+				},
 			},
 			// Phenom/Athlon, T on end
 			{
