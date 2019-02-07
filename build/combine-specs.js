@@ -62,7 +62,7 @@ const doubleArr = parsedPaths.map(cliPath => {
 	}
 	// Why not put this later? Because i don't want to have to do a two-layer map right afterwards for no reason,
 	// nor have to be ready to handle arrays for the rest of the script!
-	return combineUtil.duplicateOn(yamls, 'name');
+	return combineUtil.duplicateOn(yamls.map(combineUtil.applyMetadata).filter(_.identity), 'name');
 });
 
 const flatPrioritizedItems = _.flatMap(doubleArr, (items, i) =>
@@ -74,7 +74,7 @@ const keyedAllDiscrete = combineUtil.applyMatchers(flatPrioritizedItems);
 debug(`Total item count (combined): ${Object.keys(keyedAllDiscrete).length}`);
 const keyedAllCombined = combineUtil.undiscrete(keyedAllDiscrete);
 
-const toReturn = combineUtil.filterYamls(keyedAllCombined);
+const toReturn = _.mapValues(combineUtil.filterYamls(keyedAllCombined), combineUtil.stripMetadata);
 debug(`Final item count: ${Object.keys(toReturn).length}`);
 
 fs.writeFileSync(outputFile, `module.exports=${JSON.stringify(toReturn)}`, 'utf8');

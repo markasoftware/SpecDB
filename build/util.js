@@ -174,6 +174,12 @@ const util = {
 	ezMatch: foreign =>
 		new RegEx(_.words(foreign.toLowercase()).map(c => `(?=.*${c})`).join(''), 'i'),
 
+	/**
+	 * Verify that a combined spec object is valid.
+	 * @param {combinedSingleSpec} yamlObject
+	 * @returns {null} nothing
+	 * @throws {YamlVerifyError} Error with meaningful toString (but not .message)
+	 */
 	yamlVerify: yamlObject => {
 		class YamlVerifyError extends Error {
 			constructor(msg) {
@@ -312,21 +318,30 @@ const util = {
 			typeRequiredProps[type].forEach(c => c(p));
 		};
 
-		or(
-			and(
+		and(
+			or(
 				atPath('hidden', parseTrue),
-				atPath('name', parseStringy),
-			),
-			and(
-				atPath('name', parseStringy),
-				atPath('humanName', parseStringy),
-				parseRequiredSubtextData,
-				or(
-					atPath('isPart', parseTrue),
-					and(
-						atPath('topHeader', parseStringy),
-						atPath('sections', parseSections),
+				//and(
+					//forHumanYamls ? atPath('name', parseStringy) : _.noop,
+				//),
+				and(
+					//forHumanYamls ? atPath('name', parseStringy) : _.noop,
+					atPath('humanName', parseStringy),
+					parseRequiredSubtextData,
+					or(
+						atPath('isPart', parseTrue),
+						and(
+							atPath('topHeader', parseStringy),
+							atPath('sections', parseSections),
+						),
 					),
+				),
+			),
+			atPath('inherits',
+				or(
+					parseType('undefined'),
+					parseType('string'),
+					forEach(parseType('string')),
 				),
 			),
 		)(yamlObject);

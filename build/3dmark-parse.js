@@ -12,10 +12,12 @@ const parse = (path, partType, benchmarkType) => {
 			return { name, score };
 		}).get();
 	const niceData = rawData.filter(c => c.score).map(c => ({
-		matcherInfo: {
-			name: c.name,
-			type: partType,
-			source: '3dmark',
+		combineMetadata: {
+			matcherInfo: {
+				name: c.name,
+				type: partType,
+				source: '3dmark',
+			},
 		},
 		data: {
 			[`3DMark Fire Strike ${benchmarkType} Score`]: c.score,

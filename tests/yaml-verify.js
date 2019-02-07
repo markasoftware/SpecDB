@@ -52,6 +52,30 @@ test('YAMLVERIFY: Wrong types', t => {
 	t.end();
 });
 
+test('YAMLVERIFY: inherits', t => {
+	const typeRegex = /incorrect type/i;
+
+	t.throws(() => yamlVerify({
+		name: 'Yat',
+		humanName: 'yat',
+		isPart: true,
+		type: 'Generic Container',
+		inherits: 637,
+	}), typeRegex, 'Inherits is number');
+	t.throws(() => yamlVerify({
+		name: 'Yat',
+		humanName: 'yat',
+		isPart: true,
+		type: 'Generic Container',
+		inherits: [
+			{ }
+		],
+	}), typeRegex, 'Inherits is array of objects');
+	// TODO: we should probably put the all clear tests one-by-one in the relevant test suites
+
+	t.end();
+});
+
 test('YAMLVERIFY: All clear', t => {
 	t.doesNotThrow(() => yamlVerify({
 		name: 'Yeet',
@@ -67,7 +91,6 @@ test('YAMLVERIFY: All clear', t => {
 		},
 	}), 'basic CPU part');
 	t.doesNotThrow(() => yamlVerify({
-		name: 'BLEP',
 		humanName: 'BLEP',
 		isPart: false,
 		type: 'Generic Container',
@@ -79,11 +102,14 @@ test('YAMLVERIFY: All clear', t => {
 		],
 	}), 'section');
 	t.doesNotThrow(() => yamlVerify({
-		name: 'BLACK_OPS_$',
 		humanName: 'rr',
 		isPart: false,
 		type: 'CPU Architecture',
 		topHeader: 'cod is 4 killerz',
+		inherits: [
+			'ur_mom',
+			'my_mom',
+		],
 		data: {
 			'Release Date': '2018-08-13',
 			Lithography: '12 nm',
@@ -94,7 +120,6 @@ test('YAMLVERIFY: All clear', t => {
 		],
 	}), 'complex section');
 	t.doesNotThrow(() => yamlVerify({
-		name: 'CLEPTO',
 		hidden: true,
 	}), 'minimal hidden');
 

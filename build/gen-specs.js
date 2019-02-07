@@ -24,5 +24,5 @@ const toOutput = _.flatMap(yamls, parseYaml).map(c => {
 		return { ...c, name: c.name.toString() };
 	}
 	return c;
-});
+}).map(c => ({ ...c, combineMetadata: { verifyYaml: true }}) );
 fs.writeFileSync(specOutPath, JSON.stringify(toOutput));

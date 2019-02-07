@@ -290,18 +290,45 @@ const combineUtil = {
 	filterYamls: yamls =>
 		_.pickBy(yamls, (yaml, name) => {
 			try {
-				util.yamlVerify({ ...yaml, name });
+				util.yamlVerify(yaml);
 			} catch (e) {
-				console.error(`Error processing "${name}", omitting it:`);
-				console.error(String(e));
+				if (yaml.combineMetadata && yaml.combineMetadata.verifyYaml) {
+					console.error(`Error processing "${name}", omitting it:`);
+					console.error(String(e));
+				} else {
+					debug(`Error processing "${name}", omitting it:`);
+					debug(String(e));
+				}
 				return false;
 			}
 			return true;
 		}),
 
+	/**
+	 * Use information in spec.combineMetadata to modify its data before combining it with any other data
+	 * @param {} individual
+	 * @return the modified object OR false, in which case it should be omitted.
+	 */
+	applyMetadata: individual => {
+		const toReturn = _.clone(individual);
+		if (individual.combineMetadata) {
+			if (individual.combineMetadata.matcherInfo) {
+				const matcher = combineUtil.thirdPartyNameToMatcher(individual.combineMetadata.matcherInfo);
+				if (matcher === false) {
+					return false;
+				}
+				toReturn.matcher = true;
+				toReturn.name = matcher;
+			}
+		}
+		return toReturn;
+	},
+
+	stripMetadata: combined => _.omit(combined, 'combineMetadata'),
+
 	// @param keyedDiscrete
 	// @return = keyedCombined
 	undiscrete: keyedDiscrete =>
-		_.mapValues(keyedDiscrete, (v, k) => combineUtil.getDiscreteItem(keyedDiscrete, k))
+		_.mapValues(keyedDiscrete, (v, k) => combineUtil.getDiscreteItem(keyedDiscrete, k)),
 };
 module.exports = combineUtil;
