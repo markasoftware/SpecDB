@@ -5,13 +5,11 @@ const units = require('../src/js/units');
 
 
 const util = {
-	merger: (a, b) => {
-		if (a instanceof Array) {
-			if (b instanceof Array) {
-				return b.concat(a);
-			} else {
-				throw new Error('util.merger: Only one side was an array');
-			}
+	merger: (a, b, key, object) => {
+		// the undefined checks make things work ok when merging, say, a large object with an empty one
+		// _.merge({}, { thing: [ 1, 2, 3 ]})
+		if ((a instanceof Array || b instanceof Array) && typeof a !== 'undefined' && typeof b !== 'undefined') {
+			return _.castArray(b).concat(_.castArray(a));
 		}
 	},
 	readJSON: c => require(`${process.cwd()}/${c}`),
@@ -91,7 +89,7 @@ const util = {
 					humanName: name,
 					sections: membersArr,
 					...page.base(Object.values(deepTree[name])),
-				}
+				};
 			}));
 			safeAssign(subsectionData, ownSubsectionData);
 			return [ Object.keys(ownSubsectionData), subsectionData ];
@@ -175,5 +173,171 @@ const util = {
 	// creates a matching regex
 	ezMatch: foreign =>
 		new RegEx(_.words(foreign.toLowercase()).map(c => `(?=.*${c})`).join(''), 'i'),
+
+	yamlVerify: yamlObject => {
+		class YamlVerifyError extends Error {
+			constructor(msg) {
+				super(msg);
+				this.msgStack = [msg];
+			}
+
+			push(msg) {
+				this.msgStack.push(msg);
+			}
+
+			toString() {
+				return this.msgStack.join('\n\t');
+			}
+		};
+
+		// shitty parser combinator time!
+		/**
+		 * @param a parser
+		 * @param b parser
+		 * @return parser which succeeds if either a or b does
+		 */
+		const or = (...a) => p => {
+			if (a.length === 0) {
+				return;
+			}
+			try {
+				a[0](p);
+			} catch (e) {
+				or(a.slice(1), p);
+			}
+		};
+
+		const and = (...a) => p => {
+			// l o w e f f o r t
+			a.forEach(c => c(p));
+		};
+
+		/**
+		 * Run t if c returns true, else run e
+		 * @param c takes p as argument, returns boolean
+		 * @param t run if c returns true
+		 * @param e run if c returns false (has default)
+		 */
+		const ifElse = (c, t, e = _.noop) => p => {
+			if (c(p)) {
+				t(p);
+			} else {
+				e(p);
+			}
+		};
+
+		/**
+		 * @param path where in the parsed object to run the inner parser
+		 * @param a inner parser
+		 * @return runs the inner parser on a certain path of parsed object
+		 */
+		const atPath = (path, a) => p => {
+			try {
+				a(_.get(p, path));
+			} catch (e) {
+				e.push(`in path "${path}"`);
+				throw e;
+			}
+		};
+
+		const parseArray = p => {
+			if (!(p instanceof Array)) {
+				// make this error message more different than parseType? But then the tests get messier
+				throw new YamlVerifyError(`Incorrect type. Found "${typeof p}", expected "Array". (object was not instance of array)`);
+			}
+		};
+
+		const forEach = a => p => {
+			parseArray(p);
+			try {
+				p.forEach(_.unary(a));
+			} catch (e) {
+				e.push('while iterating');
+				throw e;
+			}
+		};
+
+		/**
+		 * @param expected the expected type of the entire parsed object
+		 * @return parser
+		 */
+		const parseType = expected => p => {
+			if (typeof p !== expected) {
+				throw new YamlVerifyError(`Incorrect type. Found "${typeof p}", expected "${expected}".`);
+			}
+		};
+
+		const parseStringy = or(parseType('string'), parseType('number'));
+
+		const parseSections = forEach(and(
+			atPath('header', parseStringy),
+			atPath('members',
+						 forEach(parseStringy)
+						),
+		));
+
+		// @param p the whole yaml
+		// @return boolean
+		const isPart = p => {
+			atPath('isPart', parseType('boolean'))(p);
+			return p.isPart;
+		};
+
+		// @param p the whole yaml
+		const parseRequiredSubtextData = p => {
+			const typeRequiredProps = {
+				'Generic Container': [],
+				'CPU Architecture': [
+					atPath('data.Lithography', parseStringy),
+					// maybe should be some date parser? Maybe could hook into dates.js?
+					atPath('data.Release Date', parseStringy),
+					atPath('data.Sockets', or(forEach(parseStringy)), parseStringy),
+				],
+				'Graphics Architecture': [
+					atPath('data.Lithography', parseStringy),
+					atPath('data.Release Date', parseStringy),
+				],
+				'APU Architecture': [
+					atPath('data.Lithography', parseStringy),
+					atPath('data.Release Date', parseStringy),
+				],
+				CPU: [
+					atPath('data.Core Count', parseType('number')),
+					atPath('data.Thread Count', parseType('number')),
+					atPath('data.Base Frequency', parseStringy),
+					atPath('data.TDP', parseStringy),
+				],
+				'Graphics Card': [
+					atPath('data.VRAM Capacity', parseStringy),
+					atPath('data.Shader Processor Count', parseType('number')),
+					atPath('data.GPU Base Frequency', parseStringy),
+				],
+				'APU': [
+					atPath('data.Core Count', parseType('number')),
+					atPath('data.Thread Count', parseType('number')),
+					atPath('data.Base Frequency', parseStringy),
+					atPath('data.Shader Processor Count', parseStringy),
+				],
+			};
+
+			atPath('type', parseType('string'))(p);
+			const type = p.type;
+			typeRequiredProps[type].forEach(c => c(p));
+		};
+
+		return and(
+			atPath('name', parseStringy),
+			atPath('humanName', parseStringy),
+			parseRequiredSubtextData,
+			ifElse(isPart,
+						 // parts only need subtext data, so we're done! Free as the wind!
+						 _.noop,
+						 and(
+							 atPath('topHeader', parseStringy),
+							 atPath('sections', parseSections),
+						 )
+						),
+		)(yamlObject);
+	}
 };
 module.exports = util;
