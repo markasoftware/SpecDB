@@ -1,0 +1,10 @@
+name: 900(T)
+humanName: Athlon 900 Thunderbird
+isPart: true
+type: CPU
+inherits:
+  - Thunderbird
+data:
+  Base Frequency:  0.9 GHz
+  TDP: 50W
+  Release Date: '2000-06-05'

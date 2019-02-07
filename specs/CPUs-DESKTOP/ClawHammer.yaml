@@ -1,0 +1,31 @@
+name: ClawHammer
+humanName: ClawHammer
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2003-09-23'
+  Lithography: 130 nm
+  Sockets:
+  - 754
+  - 939
+  Foundry: AMD Foundries
+sections:
+  - header: Socket 754 SKUs
+    members:
+      - 2800+(C)
+      - 3000+(C)
+      - 3200+(C)
+      - 3200+(C-1MiB)
+      - 3400+(C)
+      - 3400+(C-1MiB)
+      - 3600+(C)
+      - 3700+(C)
+  - header: Socket 939 SKUs
+    members:
+      - 3500+(C-939)
+      - 3800+(C-939)
+      - 4000+(C-939)
+  - header: FX SKUs
+    members:
+      - FX-53(C)
+      - FX-55(C)

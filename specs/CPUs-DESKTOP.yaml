@@ -47,26 +47,25 @@ sections:
       - Toledo
       - Manchester
       - Lima
- #     - Orleans
- #     - Toledo
- #     - San-Diego
- #     - Venice
- #     - Winchester
- #     - Newcastle
- #     - ClawHammer
- #     - SledgeHammer
+      - Orleans
+      - San-Diego
+      - Venice
+      - Winchester
+      - Newcastle
+      - ClawHammer
+      - SledgeHammer
   - header: ATHLON XP FAMILIES
     members:
       - Palomino
       - Thoroughbred
       - Barton
       - Thorton
-#  - header: ATHLON FAMILIES
-#   members:
-#      - Thunderbird
-#      - Orion
-#      - Pluto
-#      - Argon
+  - header: ATHLON FAMILIES
+    members:
+      - Thunderbird
+      - Orion
+      - Pluto
+      - Argon
   - header: SEMPRON FAMILIES
     members:
       - Richland-Sempron
@@ -86,16 +85,16 @@ sections:
 #      - Applebred
 #      - Morgan
 #      - Spitfire
-#  - header: K6 FAMILIES
-#    members
-#      - Sharptooth
-#      - Chomper
-#      - Little Foot
-#      - Model 6
-#  - header: VINTAGE FAMILIES
-#    members:
-#      - 5k86
-#      - SSA/5
+  - header: K6 FAMILIES
+    members:
+     - Sharptooth
+     - Chomper
+     - Little-Foot
+     - Model-6
+  - header: VINTAGE FAMILIES
+    members:
+     - 5K86
+     - SSA5
 #      - Am5x86
 #      - Am486
 #      - Am386

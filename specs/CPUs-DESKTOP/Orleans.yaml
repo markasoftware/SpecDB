@@ -6,7 +6,7 @@ data:
   Release Date: '2007-02-20'
   Lithography: 65 nm
   Sockets:
-  - AM2
+    - AM2
   Foundry: AMD Foundries
 sections:
   - header: Standard SKUs
@@ -16,7 +16,7 @@ sections:
       - 3500+(O)
       - 3800+(O)
       - 4000+(O)
-  - header:
+  - header: Low Power SKUs
     members:
       - LE-1600(O)
       - LE-1620(O)

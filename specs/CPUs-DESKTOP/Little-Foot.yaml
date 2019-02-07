@@ -1,0 +1,16 @@
+name: Little-Foot
+humanName: Little Foot
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '1998-03-05'
+  Lithography: 250 nm
+  Sockets:
+  - 7
+  Foundry: AMD Foundries
+sections:
+    - header: Standard SKUs
+      members:
+      - K6-266(L)
+      - K6-300(L)
+      

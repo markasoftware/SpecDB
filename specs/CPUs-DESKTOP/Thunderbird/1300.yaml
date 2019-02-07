@@ -1,0 +1,11 @@
+name: 1300(T)
+humanName: Athlon 1300 Thunderbird
+isPart: true
+type: CPU
+inherits:
+  - Thunderbird
+data:
+  Base Frequency:  1.3 GHz
+  TDP: 68W
+  Socket: A
+  Release Date: '2001-03-21'

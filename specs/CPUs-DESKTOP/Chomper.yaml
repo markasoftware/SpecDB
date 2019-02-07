@@ -1,0 +1,29 @@
+name: Chomper
+humanName: Chomper
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '1998-06-04'
+  Lithography: 250 nm
+  Sockets:
+  - Super 7
+  Foundry: AMD Foundries
+sections:
+    - header: Standard SKUs
+      members:
+      - K6-2-200(C)
+      - K6-2-233(C)
+      - K6-2-266(C)
+      - K6-2-300(C)
+      - K6-2-333(C)
+      - K6-2-350(C)
+      - K6-2-366(C)
+      - K6-2-380(C)
+      - K6-2-400(C)
+      - K6-2-427(C)
+      - K6-2-450(C)
+      - K6-2-475(C)
+      - K6-2-500(C)
+      - K6-2-533(C)
+      - K6-2-550(C)
+      

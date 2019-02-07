@@ -1,0 +1,11 @@
+name: 1500+(V)
+humanName: 1500+ Venice
+isPart: true
+type: CPU
+inherits:
+  - Venice
+data:
+  Base Frequency:  1.0 GHz
+  Socket: '754'
+  TDP: 9W
+  Max Memory Channels: 1

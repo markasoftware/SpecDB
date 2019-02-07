@@ -1,0 +1,11 @@
+name: 1400C(T)
+humanName: Athlon 1400C Thunderbird
+isPart: true
+type: CPU
+inherits:
+  - Thunderbird
+data:
+  Base Frequency:  1.4 GHz
+  TDP: 72W
+  Socket: A
+  Release Date: '2001-06-06'

@@ -1,0 +1,12 @@
+name: K6-266(L)
+humanName: K6 266 Little Foot
+isPart: true
+type: CPU
+inherits:
+  - M6
+data:
+  Base Frequency:  0.266 GHz
+  TDP: 14.55W
+  Release Date: '1998-03-05'
+  Lithography: 250 nm
+  

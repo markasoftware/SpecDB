@@ -1,0 +1,8 @@
+name: 3000+(N-939)
+humanName: 3000+ Newcastle
+isPart: true
+type: CPU
+inherits:
+  - Newcastle
+data:
+  Base Frequency:  1.8 GHz

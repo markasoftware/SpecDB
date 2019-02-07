@@ -1,0 +1,35 @@
+name: Thunderbird
+humanName: Thunderbird
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2000-06-05'
+  Lithography: 180 nm
+  Sockets:
+  - A
+  - Slot A
+  Foundry: AMD Foundries
+sections:
+    - header: 200MHZ FSB SKUs
+      members:
+      - 600(T)
+      - 650(T)
+      - 700(T)
+      - 750(T)
+      - 800(T)
+      - 850(T)
+      - 900(T)
+      - 950(T)
+      - 1000B(T)
+      - 1100(T)
+      - 1200B(T)
+      - 1300(T)
+      - 1400B(T)
+    - header: 266MHZ FSB SKUs
+      members:
+      - 1000C(T)
+      - 1133(T)
+      - 1200C(T)
+      - 1266(T)
+      - 1333(T)
+      - 1400C(T)

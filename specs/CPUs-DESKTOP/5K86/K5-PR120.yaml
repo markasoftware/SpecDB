@@ -1,0 +1,12 @@
+name: K5-120
+humanName: K5 PR 120
+isPart: true
+type: CPU
+inherits:
+  - 5K86
+data:
+  Base Frequency:  0.090 GHz
+  TDP: 12.36W
+  Release Date: '1996-10-07'
+  
+  

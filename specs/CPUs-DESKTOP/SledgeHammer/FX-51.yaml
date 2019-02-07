@@ -1,0 +1,8 @@
+name: FX-51(S)
+humanName: FX-51 SlegeHammer
+isPart: true
+type: CPU
+inherits:
+  - SledgeHammer
+data:
+  Base Frequency:  2.2 GHz

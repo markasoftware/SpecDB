@@ -1,0 +1,9 @@
+name: 3500+(O)
+humanName: 3500+ Orleans
+isPart: true
+type: CPU
+inherits:
+  - Orleans
+data:
+  Base Frequency: 2.2 GHz
+  Release Date: '2006-05-23'

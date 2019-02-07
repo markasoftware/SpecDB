@@ -1,0 +1,9 @@
+name: 3200+(O)
+humanName: 3200+ Orleans
+isPart: true
+type: CPU
+inherits:
+  - Orleans
+data:
+  Base Frequency: 2.0 GHz
+  Release Date: '2006-05-23'

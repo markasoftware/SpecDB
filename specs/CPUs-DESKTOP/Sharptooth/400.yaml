@@ -1,0 +1,12 @@
+name: K6-3-400(S)
+humanName: K6-3 400 Sharptooth
+isPart: true
+type: CPU
+inherits:
+  - Sharptooth
+data:
+  Base Frequency:  0.400 GHz
+  TDP: 18.1W
+  Release Date: '1999-02-26'
+
+  

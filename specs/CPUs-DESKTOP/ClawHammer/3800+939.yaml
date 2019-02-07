@@ -1,0 +1,10 @@
+name: 3800+(C-939)
+humanName: 3800+ ClawHammer
+isPart: true
+type: CPU
+inherits:
+  - ClawHammer
+data:
+  Base Frequency:  2.4 GHz
+  Socket: '939'
+  Max Memory Channels: 2

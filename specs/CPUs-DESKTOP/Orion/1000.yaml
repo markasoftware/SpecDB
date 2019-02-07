@@ -1,0 +1,10 @@
+name: 1000(O)
+humanName: Athlon 1000 Orion
+isPart: true
+type: CPU
+inherits:
+  - Pluto
+data:
+  Base Frequency:  1.0 GHz
+  TDP: 65W
+  Release Date: '2000-03-06'

@@ -1,0 +1,12 @@
+name: K5-100
+humanName: K5 PR 100
+isPart: true
+type: CPU
+inherits:
+  - 5K86
+data:
+  Base Frequency:  0.100 GHz
+  TDP: 15.49W
+  Release Date: '1996-06-17'
+  
+  

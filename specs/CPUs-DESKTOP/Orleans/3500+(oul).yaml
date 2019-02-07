@@ -1,0 +1,10 @@
+name: 3500+(OUL)
+humanName: 3500+ Orleans Ultra Low Power
+isPart: true
+type: CPU
+inherits:
+  - Orleans
+data:
+  Base Frequency: 2.2 GHz
+  Release Date: '2006-05-23'
+  TDP: 35W

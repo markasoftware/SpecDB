@@ -1,0 +1,11 @@
+name: 1133(T)
+humanName: Athlon 1133 Thunderbird
+isPart: true
+type: CPU
+inherits:
+  - Thunderbird
+data:
+  Base Frequency:  1.133 GHz
+  TDP: 66W
+  Socket: A
+  Release Date: '2000-08-31'

@@ -1,0 +1,9 @@
+name: 3800+(O)
+humanName: 3800+ Orleans
+isPart: true
+type: CPU
+inherits:
+  - Orleans
+data:
+  Base Frequency: 2.4 GHz
+  Release Date: '2006-05-23'

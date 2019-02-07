@@ -1,0 +1,12 @@
+name: K6-2-533(C)
+humanName: K6-2 533 Chomper
+isPart: true
+type: CPU
+inherits:
+  - Chomper
+data:
+  Base Frequency:  0.533 GHz
+  TDP: 20.7W
+  Release Date: '1999-03-11'
+
+  

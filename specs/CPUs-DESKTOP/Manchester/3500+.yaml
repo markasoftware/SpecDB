@@ -1,0 +1,15 @@
+name: 3500+(M)
+humanName: 3500+ Manchester
+isPart: true
+type: CPU
+inherits:
+  - Manchester
+data:
+  Base Frequency:  2.2 GHz
+  Release Date: '2005-08-01'
+  L2 Cache (Total): 512 KiB
+  TDP: 67W
+  Core Count: 1
+  Thread Count: 1
+  L1 Cache (Data): 64 KiB
+  L1 Cache (Instruction): 64 KiB

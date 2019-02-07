@@ -1,0 +1,11 @@
+name: 3300+(N)
+humanName: 3300+ Newcastle
+isPart: true
+type: CPU
+inherits:
+  - Newcastle
+data:
+  Base Frequency:  2.2 GHz
+  L2 Cache (Total): 256 KiB
+  Socket: '754'
+  Max Memory Channels: 1

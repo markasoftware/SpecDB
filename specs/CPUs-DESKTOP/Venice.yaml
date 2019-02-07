@@ -1,0 +1,25 @@
+name: Venice
+humanName: Venice
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2005-04-04'
+  Lithography: 90 nm
+  Sockets:
+  - 754
+  - 939
+  Foundry: AMD Foundries
+sections:
+  - header: Socket 754 SKUs
+    members:
+      - 1500+(V)
+      - 3000+(V)
+      - 3200+(V)
+      - 3400+(V)
+  - header: Socket 939 SKUs
+    members:
+      - 3000+(V-939)
+      - 3200+(V-939)
+      - 3400+(V-939)
+      - 3500+(V-939)
+      - 3800+(V-939)

@@ -1,0 +1,11 @@
+name: 9850B
+humanName: X4 9850B
+isPart: true
+type: CPU
+inherits:
+  - Agena
+data:
+  Base Frequency: 2.5 GHz
+  TDP: 95 W
+  Release Date: '2008-08-15'
+

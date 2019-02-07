@@ -13,10 +13,12 @@ const parse = (tableEl, type) => {
 			return { name, score };
 		}).get();
 	const niceData = rawData.filter(c => c.score).map(c => ({
-		matcherInfo: {
-			name: c.name,
-			type: 'cpu',
-			source: 'geekbench',
+		combineMetadata: {
+			matcherInfo: {
+				name: c.name,
+				type: 'cpu',
+				source: 'geekbench',
+			},
 		},
 		data: {
 			[`Geekbench ${type} Score`]: c.score,
@@ -35,7 +37,7 @@ util.writeJSON(outPath, _.flatten($('#pc.table.processor-benchmark tbody').map((
 			return parse(el, 'Multi-Core');
 			break;
 		default:
-			console.log('WARNING: More than two geekbench tables! Their site must have changed!')
+			console.log('WARNING: More than two geekbench tables! Their site must have changed!');
 			return [];
 			// fuck it just put 'em everywhere
 			break;

@@ -1,0 +1,10 @@
+name: 550(P)
+humanName: Athlon 550 Pluto
+isPart: true
+type: CPU
+inherits:
+  - Pluto
+data:
+  Base Frequency:  0.55 GHz
+  TDP: 31W
+  Release Date: '1999-11-29'

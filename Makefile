@@ -80,13 +80,9 @@ ${sw_output} : ${sw_input}
 		${sw_output} 2>/dev/null
 
 ${spec_output} ${map_output} : ${athr_output} ${intc_parse} ${ubch_parse} ${3dmk_parse} \
-	${gbch_parse} build/authoritative-deserialize.js build/combine-specs.js
+	${gbch_parse} build/combine-specs.js build/combine-util.js build/util.js
 	${node} build/combine-specs.js ${spec_output} ${map_output} \
-		${athr_output}:build/authoritative-deserialize.js \
-		${ubch_parse}:build/userbenchmark-deserialize.js \
-		${3dmk_parse}:build/3dmark-deserialize.js \
-		${gbch_parse}:build/geekbench-deserialize.js \
-		${intc_parse}
+		${athr_output} ${ubch_parse} ${3dmk_parse} ${gbch_parse} ${intc_parse}
 
 ${athr_output} : ${athr_input} build/gen-specs.js
 	${node} build/gen-specs.js ${athr_folder} ${athr_output}

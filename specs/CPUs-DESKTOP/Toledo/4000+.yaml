@@ -1,0 +1,14 @@
+name: 4000+(T)
+humanName: 4000+ Toledo
+isPart: true
+type: CPU
+inherits:
+  - Toledo
+data:
+  Base Frequency:  2.4 GHz
+  Release Date: '2005-05-31'
+  Core Count: 1
+  Thread Count: 1
+  L1 Cache (Data): 64 KiB
+  L1 Cache (Instruction): 64 KiB
+

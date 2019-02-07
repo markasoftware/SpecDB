@@ -1,0 +1,10 @@
+name: 1266(T)
+humanName: Athlon 1266 Thunderbird
+isPart: true
+type: CPU
+inherits:
+  - Thunderbird
+data:
+  Base Frequency:  1.266 GHz
+  TDP: 66W
+  Socket: A

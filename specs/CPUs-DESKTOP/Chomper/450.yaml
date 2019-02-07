@@ -1,0 +1,12 @@
+name: K6-2-450(C)
+humanName: K6-2 450 Chomper
+isPart: true
+type: CPU
+inherits:
+  - Chomper
+data:
+  Base Frequency:  0.450 GHz
+  TDP: 28.40W
+  Release Date: '1999-03-11'
+
+  

@@ -1,0 +1,19 @@
+name: Argon
+humanName: Argon
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '1999-06-23'
+  Lithography: 250 nm
+  Sockets:
+  - Slot A
+  Foundry: AMD Foundries
+sections:
+    - header: Standard SKUs
+      members:
+      - 500(A)
+      - 550(A)
+      - 600(A)
+      - 650(A)
+      - 700(A)
+     

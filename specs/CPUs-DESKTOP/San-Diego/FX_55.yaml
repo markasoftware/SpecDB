@@ -1,0 +1,9 @@
+name: FX-55(S)
+humanName: FX-55 San-Diego
+isPart: true
+type: CPU
+inherits:
+  - San-Diego
+data:
+  Base Frequency:  2.6 GHz
+  TDP: 104W

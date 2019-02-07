@@ -1,0 +1,11 @@
+name: 1200C(T)
+humanName: Athlon 1200C Thunderbird
+isPart: true
+type: CPU
+inherits:
+  - Thunderbird
+data:
+  Base Frequency:  1.2 GHz
+  TDP: 54W
+  Socket: A
+  Release Date: '2000-10-31'

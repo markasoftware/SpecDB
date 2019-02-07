@@ -1,0 +1,8 @@
+name: 3400+(C)
+humanName: 3400+ ClawHammer
+isPart: true
+type: CPU
+inherits:
+  - ClawHammer
+data:
+  Base Frequency:  2.4 GHz

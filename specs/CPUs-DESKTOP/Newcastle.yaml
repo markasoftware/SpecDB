@@ -1,0 +1,26 @@
+name: Newcastle
+humanName: Newcastle
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2003-12-15'
+  Lithography: 130 nm
+  Sockets:
+  - 754
+  - 939
+  Foundry: AMD Foundries
+sections:
+  - header: Socket 754 SKUs
+    members:
+      - 2800+(N)
+      - 3000+(N)
+      - 3200+(N)
+      - 3300+(N)
+      - 3400+(N)
+  - header: Socket 939 SKUs
+    members:
+      - 3000+(N-939)
+      - 3200+(N-939)
+      - 3400+(N-939)
+      - 3500+(N-939)
+      - 3800+(N-939)

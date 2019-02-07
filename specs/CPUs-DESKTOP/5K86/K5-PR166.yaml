@@ -1,0 +1,12 @@
+name: K5-166
+humanName: K5 PR 166
+isPart: true
+type: CPU
+inherits:
+  - 5K86
+data:
+  Base Frequency:  0.116 GHz
+  TDP: 16.02W
+  Release Date: '1997-01-06'
+  
+  

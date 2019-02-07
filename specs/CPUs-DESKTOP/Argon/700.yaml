@@ -1,0 +1,10 @@
+name: 700(A)
+humanName: Athlon 700 Argon
+isPart: true
+type: CPU
+inherits:
+  - Argon
+data:
+  Base Frequency:  0.70 GHz
+  TDP: 50W
+  Release Date: '1999-10-04'

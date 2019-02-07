@@ -1,0 +1,12 @@
+name: K6-2-350(C)
+humanName: K6-2 350 Chomper
+isPart: true
+type: CPU
+inherits:
+  - Chomper
+data:
+  Base Frequency:  0.350 GHz
+  TDP: 19.95W
+  Release Date: '1998-10-15'
+
+  

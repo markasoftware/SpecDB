@@ -1,0 +1,17 @@
+name: SSA5
+humanName: SSA5
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '1996-03-27'
+  Lithography: 350 nm
+  Sockets:
+  - 5
+  - 7
+  Foundry: AMD Foundries
+sections:
+    - header: Standard SKUs
+      members:
+      - K5-PR75
+      - K5-PR90
+      - K5-PR100

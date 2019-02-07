@@ -1,0 +1,19 @@
+name: San-Diego
+humanName: San Diego
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2004-05-04'
+  Lithography: 90 nm
+  Sockets:
+  - '939'
+  Foundry: AMD Foundries
+sections:
+  - header: Standard SKUs
+    members:
+      - 3500+(S)
+      - 3700+(S)
+      - 4000+(S)
+      - FX-55(S)
+      - FX-57(S)
+  

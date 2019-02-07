@@ -1,0 +1,10 @@
+name: 750(P)
+humanName: Athlon 750 Pluto
+isPart: true
+type: CPU
+inherits:
+  - Pluto
+data:
+  Base Frequency:  0.75 GHz
+  TDP: 40W
+  Release Date: '1999-11-29'

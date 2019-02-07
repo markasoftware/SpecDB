@@ -1,0 +1,9 @@
+name: FX-57(S)
+humanName: FX-57 San-Diego
+isPart: true
+type: CPU
+inherits:
+  - San-Diego
+data:
+  Base Frequency:  2.8 GHz
+  TDP: 104W

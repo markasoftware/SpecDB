@@ -1,0 +1,26 @@
+hidden: true
+name: ClawHammer
+data:
+  Architecture: K8
+  Lithography: 130 nm
+  Stepping: C0
+  Core Count: 1
+  Thread Count: 1
+  L2 Cache (Total): 512 KiB
+  Socket: '754'
+  TDP: 89W
+  L1 Cache (Data): 64 KiB
+  L1 Cache (Instruction): 64 KiB
+  Max Memory Frequency: 133 MHz
+  Max Memory Channels: 1
+  AVX/SSE/MMX: SSE2
+  Unlocked: true
+  FMA4: false
+  FMA3: false
+  BMI: No
+  AES: false
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - E3D-Now!
+  Compatible Chipsets:

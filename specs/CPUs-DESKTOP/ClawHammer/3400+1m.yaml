@@ -1,0 +1,9 @@
+name: 3400+(C-1Mib)
+humanName: 3400+ ClawHammer 1Mib L2
+isPart: true
+type: CPU
+inherits:
+  - ClawHammer
+data:
+  Base Frequency:  2.2 GHz
+  L2 Cache (Total): 1024 KiB

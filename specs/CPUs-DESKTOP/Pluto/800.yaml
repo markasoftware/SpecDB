@@ -1,0 +1,10 @@
+name: 800(P)
+humanName: Athlon 800 Pluto
+isPart: true
+type: CPU
+inherits:
+  - Pluto
+data:
+  Base Frequency:  0.8 GHz
+  TDP: 48W
+  Release Date: '2000-01-06'

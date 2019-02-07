@@ -1,0 +1,17 @@
+name: Model-6
+humanName: Model 6
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '1997-04-02'
+  Lithography: 350 nm
+  Sockets:
+  - 7
+  Foundry: AMD Foundries
+sections:
+    - header: Standard SKUs
+      members:
+      - K6-166(M6)
+      - K6-200(M6)
+      - K6-233(M6)
+      

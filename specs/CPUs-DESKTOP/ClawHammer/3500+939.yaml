@@ -1,0 +1,10 @@
+name: 3500+(C-939)
+humanName: 3500+ ClawHammer
+isPart: true
+type: CPU
+inherits:
+  - ClawHammer
+data:
+  Base Frequency:  2.2 GHz
+  Socket: '939'
+  Max Memory Channels: 2

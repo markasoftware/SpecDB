@@ -1,0 +1,8 @@
+name: 3000+(V-939)
+humanName: 3000+ Venice
+isPart: true
+type: CPU
+inherits:
+  - Venice
+data:
+  Base Frequency:  1.8 GHz
