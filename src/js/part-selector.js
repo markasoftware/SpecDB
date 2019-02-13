@@ -2,6 +2,7 @@ const m = require('mithril');
 const naturalCompare = require('natural-compare');
 const specData = require('spec-data');
 const mainSelector = require('./components/main-selector');
+const svg = require('./components/svg');
 
 // by caching json representation of parts, it is actually quite a bit faster searching
 // shouldn't use more than a few megs of ram
@@ -100,8 +101,9 @@ module.exports = {
 		[
 			m(`#search-toggle-label${vnode.state.searching ? '.selected' : ''}`,
 				{ onclick: () => vnode.state.searching = !vnode.state.searching },
-				// TODO: replace with svg icon for better compatibility
-				m('#search-icon', '⚲') // u26b2
+				m(svg, {
+					d: 'M23.809 21.646l-6.205-6.205c1.167-1.605 1.857-3.579 1.857-5.711 0-5.365-4.365-9.73-9.731-9.73-5.365 0-9.73 4.365-9.73 9.73 0 5.366 4.365 9.73 9.73 9.73 2.034 0 3.923-.627 5.487-1.698l6.238 6.238 2.354-2.354zm-20.955-11.916c0-3.792 3.085-6.877 6.877-6.877s6.877 3.085 6.877 6.877-3.085 6.877-6.877 6.877c-3.793 0-6.877-3.085-6.877-6.877z',
+				}),
 			),
 			vnode.state.searching ? m(search) : m(browse),
 		],
