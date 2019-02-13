@@ -312,6 +312,51 @@ test('Winners', testOpts, t => {
 		}],
 	}, emptyAdvanced], 'Understands equality for non-primitives (dates)');
 
+	t.deepEqual(pure.getTableData([
+		{ data: {
+			'Boost Frequency': '999 GHz',
+		}},
+		{ data: {
+			'Base Frequency': '4.3 GHz',
+		}},
+		{ data: {
+			'Base Frequency': '4.0 GHz',
+			'Boost Frequency': '999.1 GHz',
+		}}
+	], sections, opts), [{
+		name: 'Basic Specs',
+		rows: [{
+			name: 'Base Frequency',
+			cells: [{
+				value: '',
+				winner: false,
+			}, {
+				value: '4.3 GHz',
+				winner: true,
+			}, {
+				value: '4.0 GHz',
+				winner: false,
+			}],
+		}]
+	}, {
+		name: 'Advanced Specs',
+		rows: [{
+			name: 'Boost Frequency',
+			cells: [{
+				value: '999 GHz',
+				winner: false,
+			}, {
+				value: '',
+				winner: false,
+			}, {
+				value: '999.1 GHz',
+				winner: true,
+			}],
+		}],
+	}], '(issue #65) Still wins when some are empty, but at least 2 are not');
+	// issue #65 actually seems to be that the empty string is winning, not that
+	// there are no winners, but this description will do.
+
 	t.end();
 });
 

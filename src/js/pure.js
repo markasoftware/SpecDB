@@ -124,7 +124,6 @@ module.exports.getTableData = (parts, sections, opts) =>
 			)
 			.map(curRow => {
 				curRow.processor = curRow.processor || {};
-				const canCompare = parts.length > 1 && curRow.processor.compare;
 				// get a list of cells with pre and post processed values
 				const fullDataCells = parts.map(curPart => {
 					const yamlValue = curPart.data[curRow.name];
@@ -144,21 +143,30 @@ module.exports.getTableData = (parts, sections, opts) =>
 								initial,
 					};
 				});
-				// find best value
-				const bestPreprocessedJSON = canCompare && JSON.stringify(fullDataCells.map(c => c.preprocessed).reduce((a, b) =>
-					(typeof b === 'undefined' || typeof a === 'undefined' || curRow.processor.compare(a, b)) ? a : b
-				));
+				// find best value/winner/red cell
+				const canCompare = !!(
+					typeof curRow.processor.compare !== 'undefined' &&
+					fullDataCells.filter(fdc => typeof fdc.preprocessed !== 'undefined').length > 1
+				);
+				const bestPreprocessedJSON = canCompare && JSON.stringify(
+					fullDataCells
+					.filter(c => typeof c.preprocessed !== 'undefined')
+					.map(c => c.preprocessed)
+					.reduce((a, b) =>
+						curRow.processor.compare(a, b) ? a : b
+					)
+				);
 				// check if all are winners. If this is the case, we don't want any winners
 				// some things may not be completely primitive, for ex lists
-				const highlightWinners = canCompare && fullDataCells.some(c => JSON.stringify(c.preprocessed) != bestPreprocessedJSON);
+				const highlightWinners = canCompare &&
+					fullDataCells.some(c => JSON.stringify(c.preprocessed) !== bestPreprocessedJSON);
 				// now, take the full data cells and the best value to create a slimmed down version
 				// containing only the displayed/postprocessed value and whether this cell is a winner
 				return {
 					name: curRow.name,
 					cells: fullDataCells.map((fullCell) => ({
 						value: fullCell.postprocessed,
-						// the !! is required, otherwise it can be undefined
-						winner: !!(highlightWinners && JSON.stringify(fullCell.preprocessed) === bestPreprocessedJSON),
+						winner: highlightWinners && JSON.stringify(fullCell.preprocessed) === bestPreprocessedJSON,
 					})),
 				};
 			}),
