@@ -9,6 +9,9 @@ const specDataJSONs = {};
 const search = {
 	searchTerm: '',
 	enableSearchLimit: true,
+	oncreate: vnode => {
+		vnode.dom.querySelector('#search-bar').focus();
+	},
 	view: vnode => {
 		const limit = 50;
 

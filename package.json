@@ -1,10 +1,10 @@
 {
-  "name": "amd-specs",
+  "name": "specdb",
   "version": "0.0.0",
-  "description": "An AMD equivalent for Intel's ARK",
+  "description": "An AMD-focused spec viewing and comparison site.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/markasoftware/amd-specs.git"
+    "url": "git+https://github.com/markasoftware/specdb.git"
   },
   "dependencies": {
     "babel-cli": "^6",
