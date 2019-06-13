@@ -91,8 +91,7 @@ const sitemapBody = allSitemapUrls.map(url => `
     <changefreq>monthly</changefreq>
   </url>
 `).join('');
-const sitemapFull = `
-<?xml version="1.0" encoding="UTF-8"?>
+const sitemapFull = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${sitemapBody}</urlset>
 `;
 
