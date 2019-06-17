@@ -1,6 +1,8 @@
 const m = require('mithril');
 const hash = require('./hash');
 
+hash.redirectHashBangs();
+
 m.route.prefix(location.protocol === 'file:' ? '#!' : '');
 m.route(document.getElementById('spec-viewer'), '/', {
 	'/about': require('./about'),

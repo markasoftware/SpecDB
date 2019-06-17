@@ -50,4 +50,10 @@ module.exports = {
 		m.route.set('/' + curList.concat(newName).join(','));
 	},
 	remove: oldName => m.route.set('/' + module.exports.getList().filter(c => c !== oldName).join(',')),
+
+	redirectHashBangs: () => { // turn old-style specdb.info/#!/R7-1700 -> specdb.info/R7-1700
+		if (location.protocol !== 'file:' && /^#!/.test(location.hash)) {
+			location.replace(`${location.origin}/${location.hash.replace(/^#!\/?/, '')}`);
+		}
+	},
 }
