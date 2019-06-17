@@ -14,16 +14,34 @@ const showError = msg => {
 	setTimeout(() => {
 		errorElt.style.transform = 'none';
 		setTimeout(() => showErrorLock = false, 500);
-	}, 2500);
+	}, 6000);
 }
 
 const specViewer = document.getElementById('spec-viewer');
 
-module.exports = {
-	// c => c does the work of geting rid of empty strings, which occurs when there is no parts (empty string input)
-	getList: () => m.route.get()
-		.replace(/^\//,'')
-		.split(',').filter(c => c),
+const hashMan = {
+	// gets the list of parts. Also removes non-existant parts from URL.
+	getList: () => {
+		let removed = [];
+		const toReturn = m.route.get()
+			.replace(/^\//,'')
+			.split(',').filter(c => {
+				if (!c) { // accounts for empty string
+					return false;
+				}
+				if (!(c in specData)) {
+					removed.push(c);
+					return false;
+				}
+				return true;
+			});
+		if (removed.length) {
+			showError(`Parts in URL did not exist: ${removed.join(', ')}`);
+			// recursion to infinity when synchronous -- re-render triggers getList before removing everything?
+			setTimeout(() => hashMan.remove(...removed), 1);
+		}
+		return toReturn;
+	},
 	add: newName => {
 		const curList = module.exports.getList();
 		if(curList.includes(newName)) {
@@ -49,7 +67,7 @@ module.exports = {
 		}
 		m.route.set('/' + curList.concat(newName).join(','));
 	},
-	remove: oldName => m.route.set('/' + module.exports.getList().filter(c => c !== oldName).join(',')),
+	remove: (...oldNames) => m.route.set('/' + module.exports.getList().filter(c => !oldNames.includes(c)).join(',')),
 
 	redirectHashBangs: () => { // turn old-style specdb.info/#!/R7-1700 -> specdb.info/R7-1700
 		if (location.protocol !== 'file:' && /^#!/.test(location.hash)) {
@@ -57,3 +75,4 @@ module.exports = {
 		}
 	},
 }
+module.exports = hashMan;
