@@ -15,6 +15,6 @@ module.exports = {
 			m('br'),
 			'(vanity address mined an a gtx 670)',
 		]),
-		m('a[href=#!/]', 'Back to SpecDB Home'),
+		m('a[href=/]', {oncreate: m.route.link}, 'Back to SpecDB Home'),
 	]),
 }
