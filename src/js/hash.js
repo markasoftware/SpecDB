@@ -21,7 +21,9 @@ const specViewer = document.getElementById('spec-viewer');
 
 module.exports = {
 	// c => c does the work of geting rid of empty strings, which occurs when there is no parts (empty string input)
-	getList: () => location.hash.slice(3).split(',').filter(c => c),
+	getList: () => m.route.get()
+		.replace(/^\//,'')
+		.split(',').filter(c => c),
 	add: newName => {
 		const curList = module.exports.getList();
 		if(curList.includes(newName)) {
