@@ -99,7 +99,6 @@ module.exports.types = types;
 module.exports.sections = [
 	{
 		name: 'Basic Specs',
-		display: true,
 		rows: [
 			{
 				name: 'Base Frequency',
@@ -149,7 +148,6 @@ module.exports.sections = [
 	},
 	{
 		name: 'Benchmarks',
-		display: true,
 		rows: [
 			{
 				name: 'UserBenchmark CPU Score',
@@ -179,7 +177,6 @@ module.exports.sections = [
 	},
 	{
 		name: 'Architectural Info',
-		display: false,
 		rows: [
 			{
 				name: 'Architecture',
@@ -212,7 +209,6 @@ module.exports.sections = [
 	},
 	{
 		name: 'Advanced Specs',
-		display: false,
 		rows: [
 			{
 				name: 'Module Count',
@@ -254,7 +250,6 @@ module.exports.sections = [
 	},
 	{
 		name: 'VRAM Specs',
-		display: false,
 		rows: [
 			{
 				name: 'VRAM Type',
@@ -280,7 +275,6 @@ module.exports.sections = [
 	},
 	{
 		name: 'Compatibility',
-		display: false,
 		rows: [
 			{
 				name: 'Max Memory Channels',
@@ -302,7 +296,6 @@ module.exports.sections = [
 	},
 	{
 		name: 'x86 Extensions',
-		display: false,
 		rows: [
 			{
 				name: 'AVX/SSE/MMX',
@@ -339,7 +332,6 @@ module.exports.sections = [
 	},
 	{
 		name: 'Features',
-		display: false,
 		rows: [
 			{
 				name: 'Unlocked',
