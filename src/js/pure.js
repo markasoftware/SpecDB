@@ -176,7 +176,7 @@ module.exports.seo = list => {
 	const tr = {};
 	const sortedList = list.slice().sort();
 	if(JSON.stringify(list) !== JSON.stringify(sortedList)) {
-		tr.canonical = `https://specdb.info/#!/${sortedList.join(',')}`;
+		tr.canonical = `https://specdb.info/${sortedList.join(',')}`;
 	}
 	switch(list.length) {
 		case 0:
