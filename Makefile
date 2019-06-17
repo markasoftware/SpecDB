@@ -31,7 +31,7 @@ athr_output:= ./tmp/authoritative-parse.json
 athr_input := ${shell find specs -name '*.yaml' -type f}
 athr_folder:= ./specs
 
-map_output := ./public/sitemap.xml
+map_output := ./public/sitemap.txt
 
 intc_procs := ./tmp/intel-scrape.json
 intc_codes := ./tmp/intel-scrape-codenames.json

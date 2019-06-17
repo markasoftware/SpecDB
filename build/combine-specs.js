@@ -85,14 +85,4 @@ const fixedSitemapUrls = [
 ];
 const dynamicSitemapUrls = Object.keys(_.pickBy(toReturn, v => v.isPart)).map(c => `https://specdb.info/#!/${c}`);
 const allSitemapUrls = fixedSitemapUrls.concat(dynamicSitemapUrls);
-const sitemapBody = allSitemapUrls.map(url => `
-  <url>
-    <loc>${url}</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-`).join('');
-const sitemapFull = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${sitemapBody}</urlset>
-`;
-
-fs.writeFileSync(sitemapFile, sitemapFull, 'utf8');
+fs.writeFileSync(sitemapFile, allSitemapUrls.join('\n'), 'utf8');
