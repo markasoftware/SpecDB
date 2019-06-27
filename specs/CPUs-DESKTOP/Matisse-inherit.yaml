@@ -1,0 +1,37 @@
+hidden: true
+name: Matisse
+data:
+  Architecture: Zen 2
+  Lithography: 7 nm
+  Socket: AM4
+  Release Date: '2019-07-07'
+  Unlocked: true
+  Memory Type: DDR4
+  Max Memory Frequency: 3200 MHz
+  Max Memory Channels: 2
+  L3 Cache (Total): 32 MiB
+  XFR Support: true
+  AVX/SSE/MMX: AVX2
+  FMA4: false
+  FMA3: true
+  BMI: BMI2
+  AES: true
+  SHA: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - F16C
+    - ABM
+    - CLMUL
+    - RDRAND
+    - ADX
+  Compatible Chipsets:
+    - X470
+    - B470
+    - A420
+    - X370
+    - B350
+    - A320
+    - X300
+    - A300
+  Steppings: B1
