@@ -1,0 +1,22 @@
+name: Matisse
+humanName: Matisse
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2019-07-07'
+  Lithography: 7 nm
+  Sockets:
+    - AM4
+sections:
+  - header: RYZEN 9
+    members:
+      - R9-3950X
+      - R9-3900X
+  - header: RYZEN 7
+    members:
+      - R7-3800X
+      - R7-3700X
+  - header: RYZEN 5
+    members:
+      - R5-3600X
+      - R5-3600

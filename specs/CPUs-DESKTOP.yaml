@@ -7,6 +7,7 @@ sections:
 # Comments mean it has not yet been finished
   - header: RYZEN FAMILIES
     members:
+      - Matisse
       - Colfax
       - Pinnacle-Ridge
       - Whitehaven
