@@ -21,7 +21,9 @@ sw_root    := ./public
 sw_basename:= ./sw.js
 sw_output  := ${sw_root}/${sw_basename}
 # files to cache
-sw_input   := ./public/**
+# m_input is make-friendly glob, s_input excludes _redirects too	
+sw_m_input := ./public/**
+sw_s_input := ./public/**/!(_redirects)
 
 # ./ so `browserify` understands it
 spec_output:= ./tmp/specs.js
@@ -73,9 +75,9 @@ ${js_output} : ${js_input} ${spec_output}
 	if ${prod}; then babel ${js_output} | \
 		uglifyjs -cmo ${js_output}; fi
 
-${sw_output} : ${sw_input}
+${sw_output} : ${sw_m_input}
 	sw-precache --root=${sw_root} --sw-file=sw.js \
-		--static-file-globs=${sw_input}
+		--static-file-globs='${sw_s_input}'
 	uglifyjs -cmo ${sw_output} \
 		${sw_output} 2>/dev/null
 
