@@ -104,6 +104,18 @@ const combineUtil = {
 					}
 				},
 			},
+			// Vega
+			{
+				nameTest: /^RX-Vega-\d\d/,
+				brand: 'amd',
+				type: 'gpu',
+				parser: () => {
+					const [, num, liquid] = hints.cleanName.match(/^RX-Vega-(\d\d)(?=(.*Liquid)?)/);
+					return liquid ?
+						`RX-Vega-${num}-Liquid` :
+						`RX-Vega-${num}`;
+				},
+			},
 			// HD
 			{
 				nameTest: /HD-.*\d{4}(-|$)/,
