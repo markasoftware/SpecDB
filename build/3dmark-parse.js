@@ -11,6 +11,8 @@ const parse = (path, partType, benchmarkType) => {
 			const score = +$(el).find('.performance .bar-score').text();
 			return { name, score };
 		}).get();
+	// c => c.score sometimes gets rid of new GPUs which are listed, but
+	// whose score is displayed as "0" (this is good)
 	const niceData = rawData.filter(c => c.score).map(c => ({
 		combineMetadata: {
 			matcherInfo: {

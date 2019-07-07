@@ -104,6 +104,14 @@ const combineUtil = {
 					}
 				},
 			},
+			// Radeon VII
+			{
+				nameTest: /radeon.vii\s*$/i,
+				rawNameTest: true,
+				brand: 'amd',
+				type: 'gpu',
+				parser: () => 'Radeon-VII',
+			},
 			// HD
 			{
 				nameTest: /HD-.*\d{4}(-|$)/,
