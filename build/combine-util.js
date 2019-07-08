@@ -88,7 +88,7 @@ const combineUtil = {
 		const series = [
 			// RX
 			{
-				nameTest: /^R[579X]-\d\d\d/,
+				nameTest: /^R[579X]-\d\d\d(?!.*[Ll]aptop)/,
 				brand: 'amd',
 				type: 'gpu',
 				parser: () => {
