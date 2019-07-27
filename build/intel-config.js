@@ -81,7 +81,7 @@ const intelConfig = {
 			'SSE4.1': 'SSE 4.1',
 			'SSE4.2': 'SSE 4.2',
 			'AVX2': 'AVX2',
-			'AVX512': 'AVX512',
+			'AVX-512': 'AVX-512',
 		}) },
 		GraphicsFreqMHz: { name: 'data.GPU Base Frequency', transformer: util.unitTransformer('MHz') },
 		GraphicsMaxFreqMHz:
