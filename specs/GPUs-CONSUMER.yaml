@@ -6,6 +6,7 @@ topHeader: 'SELECT SERIES:'
 sections:
   - header: RX Series
     members:
+      - Radeon-VII-Architecture
       - RX-Vega
       - RX-500
       - RX-400
