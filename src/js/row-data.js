@@ -292,6 +292,10 @@ module.exports.sections = [
 				name: 'Compatible Chipsets',
 				processor: types.list,
 			},
+			{
+				name: 'Max Displays',
+				processor: types.numberUp,
+			},
 		],
 	},
 	{

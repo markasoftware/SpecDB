@@ -1,0 +1,17 @@
+name: R7-PRO-3700
+humanName: R7 PRO 3700
+isPart: true
+type: CPU
+inherits:
+  - Matisse
+data:
+  Release Date: '2019-09-30'
+  Core Count: 8
+  Thread Count: 16
+  L2 Cache (Total): 4 MiB
+  Base Frequency: 3.6 GHz
+  Boost Frequency: 4.4 GHz
+#  XFR Frequency: 4.1 GHz
+  TDP: 65 W
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 256 KiB

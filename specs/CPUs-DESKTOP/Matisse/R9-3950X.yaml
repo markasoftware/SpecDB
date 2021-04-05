@@ -5,7 +5,7 @@ type: CPU
 inherits:
   - Matisse
 data:
-  Release Date: '2019-09'
+  Release Date: '2019-11-25'
   Core Count: 16
   Thread Count: 32
   L2 Cache (Total): 8 MiB
