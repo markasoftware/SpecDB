@@ -18,12 +18,12 @@ data:
   SHA: true
   Other Extensions:
     - X86-64
-   - AMD-V
-   - F16C
-   - ABM
-   - CLMUL
-   - RDRAND
-   - ADX
+    - AMD-V
+    - F16C
+    - ABM
+    - CLMUL
+    - RDRAND
+    - ADX
 # Compatible Chipsets:
 # Steppings: B1
   VRAM Type: DDR4

@@ -8,8 +8,8 @@ data:
   Release Date: '2020-01-06'
   Sockets:
     - AM4
-  #DirectX Support: '12.0'not sure
-  #Vulkan Support: '1.1'not sure
+  DirectX Support: '12.1'
+  Vulkan Support: '1.2'
 sections:
   - header: RYZEN 3
     members:
