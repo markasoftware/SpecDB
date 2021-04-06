@@ -1,0 +1,24 @@
+name: R9-4900H
+humanName: R9 4900H
+isPart: true
+type: APU
+inherits:
+  - Renoir
+data:
+  Release Date: '2020-03-16'
+  Core Count: 8
+  Thread Count: 16
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 8 MiB
+  Base Frequency: 3.3 GHz
+  Boost Frequency: 4.4 GHz
+  TDP: 45 W
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 256 KiB
+  GPU Model: RX Vega 8
+  Max Displays: 4
+  Shader Processor Count: 512
+  #Texture Mapping Unit Count: 12
+  #Render Output Unit Count: 4
+  GPU Base Frequency: 1750 MHz
+ 

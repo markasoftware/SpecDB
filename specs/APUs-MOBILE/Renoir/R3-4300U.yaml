@@ -1,0 +1,23 @@
+name: R3-4300U
+humanName: R3 4300U
+isPart: true
+type: APU
+inherits:
+  - Renoir
+data:
+  Core Count: 4
+  Thread Count: 4
+  L2 Cache (Total): 2 MiB
+  L3 Cache (Total): 4 MiB
+  Base Frequency: 2.7 GHz
+  Boost Frequency: 3.7 GHz
+  TDP: 15 W
+  L1 Cache (Data): 128 KiB
+  L1 Cache (Instruction): 128 KiB
+  GPU Model: RX Vega 5
+  Max Displays: 4
+  Shader Processor Count: 320
+  #Texture Mapping Unit Count: 12
+  #Render Output Unit Count: 4
+  GPU Base Frequency: 1400 MHz
+ 

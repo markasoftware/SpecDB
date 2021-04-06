@@ -12,11 +12,19 @@ sections:
     members:
       - R9-3950X
       - R9-3900X
+      - R9-PRO-3900
+      - R9-3900XT
+      - R9-3900
   - header: RYZEN 7
     members:
       - R7-3800X
       - R7-3700X
+      - R7-3800XT
+      - R7-PRO-3700
   - header: RYZEN 5
     members:
       - R5-3600X
       - R5-3600
+      - R5-3500
+      - R5-3500x
+      - R5-PRO-3600

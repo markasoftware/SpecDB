@@ -1,0 +1,23 @@
+name: R7-4800U
+humanName: R7 4800U
+isPart: true
+type: APU
+inherits:
+  - Renoir
+data:
+  Core Count: 8
+  Thread Count: 16
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 8 MiB
+  Base Frequency: 1.8 GHz
+  Boost Frequency: 4.2 GHz
+  TDP: 15 W
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 256 KiB
+  GPU Model: RX Vega 8
+  Max Displays: 4
+  Shader Processor Count: 512
+  #Texture Mapping Unit Count: 12
+  #Render Output Unit Count: 4
+  GPU Base Frequency: 1750 MHz
+ 
