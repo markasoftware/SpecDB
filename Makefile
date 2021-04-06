@@ -90,8 +90,8 @@ ${athr_output} : ${athr_input} build/gen-specs.js
 	${node} build/gen-specs.js ${athr_folder} ${athr_output}
 
 ${intc_scrape} :
-	${curl} ${intc_procs} 'https://odata.intel.com/API/v1_0/Products/Processors()?$$format=json'
-	${curl} ${intc_codes} 'https://odata.intel.com/API/v1_0/Products/CodeNames()?$$format=json'
+	${curl} ${intc_procs} 'https://markasoftware.com/specdb-intel/intel-scrape.json'
+	${curl} ${intc_codes} 'https://markasoftware.com/specdb-intel/intel-scrape-codenames.json'
 
 ${intc_parse} : build/intel-parse.js build/intel-config.js ${intc_scrape}
 	${node} build/intel-parse.js ${intc_scrape} ${intc_parse}
