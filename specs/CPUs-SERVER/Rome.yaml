@@ -1,0 +1,44 @@
+name: Rome
+humanName: Rome
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2019-08-07'
+  Lithography: 7 nm
+  Sockets:
+  - SP3
+  Foundry: Global Foundries
+sections:
+  - header: Epyc 2P
+    members:
+      - Epyc-7252
+      - Epyc-7262
+      - Epyc-7272
+      - Epyc-7282
+      - Epyc-7302
+      - Epyc-7352
+      - Epyc-7402
+      - Epyc-7452
+      - Epyc-7502
+      - Epyc-7532
+      - Epyc-7542
+      - Epyc-7552
+      - Epyc-7642
+      - Epyc-7662
+      - Epyc-7702
+      - Epyc-7742
+  - header: Epyc 1P
+    members:
+      - Epyc-7232P
+      - Epyc-7302P
+      - Epyc-7402P
+      - Epyc-7502P
+      - Epyc-7702P
+  - header: Epyc HPC-Optimized
+    members:
+      - Epyc-7H12
+  - header: Epyc Frequency-Optimized
+    members:
+      - Epyc-7F32
+      - Epyc-7F52
+      - Epyc-7F72

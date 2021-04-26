@@ -1,0 +1,16 @@
+name: 3970X
+humanName: 3970x
+isPart: true
+type: CPU
+inherits:
+  - Castle-Peak
+data:
+  Release Date: '2019-11-25'
+  Core Count: 32
+  Thread Count: 64
+  L2 Cache (Total): 16 MiB
+  L3 Cache (Total): 128 MiB
+  Base Frequency: 3.7 GHz
+  Boost Frequency: 4.5 GHz
+  L1 Cache (Data): 1024 KiB
+  L1 Cache (Instruction): 1024 KiB

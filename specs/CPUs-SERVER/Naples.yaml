@@ -20,6 +20,8 @@ sections:
       - Epyc-7301
       - Epyc-7281
       - Epyc-7251
+      - Epyc-7261
+      - Epyc-7371
   - header: Epyc 1P
     members:
       - Epyc-7551P

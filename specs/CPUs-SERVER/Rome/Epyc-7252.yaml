@@ -1,0 +1,16 @@
+name: Epyc-7252
+humanName: Epyc 7252
+isPart: true
+type: CPU
+inherits:
+  - Rome
+data:
+  Core Count: 8
+  Thread Count: 16
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 64 MiB
+  Base Frequency: 3.1 GHz
+  Boost Frequency: 3.2 GHz
+  TDP: 120 W
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 256 KiB

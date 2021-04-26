@@ -1,0 +1,16 @@
+name: Epyc-7702P
+humanName: Epyc 7702P
+isPart: true
+type: CPU
+inherits:
+  - Rome
+data:
+  Core Count: 64
+  Thread Count: 128
+  L2 Cache (Total): 32 MiB
+  L3 Cache (Total): 256 MiB
+  Base Frequency: 2 GHz
+  Boost Frequency: 3.35 GHz
+  TDP: 200 W
+  L1 Cache (Data): 2048 KiB
+  L1 Cache (Instruction): 2048 KiB

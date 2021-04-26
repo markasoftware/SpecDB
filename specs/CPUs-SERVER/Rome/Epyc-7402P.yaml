@@ -1,0 +1,16 @@
+name: Epyc-7402P
+humanName: Epyc 7402P
+isPart: true
+type: CPU
+inherits:
+  - Rome
+data:
+  Core Count: 24
+  Thread Count: 48
+  L2 Cache (Total): 12 MiB
+  L3 Cache (Total): 128 MiB
+  Base Frequency: 2.8 GHz
+  Boost Frequency: 3.35 GHz
+  TDP: 180 W
+  L1 Cache (Data): 768 KiB
+  L1 Cache (Instruction): 768 KiB

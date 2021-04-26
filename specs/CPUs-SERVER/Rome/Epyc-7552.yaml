@@ -1,0 +1,16 @@
+name: Epyc-7552
+humanName: Epyc 7552
+isPart: true
+type: CPU
+inherits:
+  - Rome
+data:
+  Core Count: 48
+  Thread Count: 96
+  L2 Cache (Total): 24 MiB
+  L3 Cache (Total): 192 MiB
+  Base Frequency: 2.2 GHz
+  Boost Frequency: 3.35 GHz
+  TDP: 200 W
+  L1 Cache (Data): 1536 KiB
+  L1 Cache (Instruction): 1536 KiB

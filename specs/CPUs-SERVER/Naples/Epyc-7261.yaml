@@ -1,15 +1,16 @@
-name: Epyc-7351
-humanName: Epyc 7351
+name: Epyc-7261
+humanName: Epyc 7261
 inherits:
   - Naples
 isPart: true
 type: CPU
 data:
-  Thread Count: 32
-  Core Count: 16
-  Base Frequency: 2.4 GHz
+  Release Date: '2018-07-14'
+  Thread Count: 16
+  Core Count: 8
+  Base Frequency: 2.5 GHz
   Boost Frequency: 2.9 GHz
-  L2 Cache (Total): 8 MiB
+  L2 Cache (Total): 4 MiB
   L3 Cache (Total): 64 MiB
   TDP: 155 W
   L1 Cache (Data): 256 KiB

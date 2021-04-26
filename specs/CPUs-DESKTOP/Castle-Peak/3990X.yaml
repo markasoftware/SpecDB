@@ -1,0 +1,16 @@
+name: 3990X
+humanName: 3990x
+isPart: true
+type: CPU
+inherits:
+  - Castle-Peak
+data:
+  Release Date: '2020-02-07'
+  Core Count: 64
+  Thread Count: 128
+  L2 Cache (Total): 32 MiB
+  L3 Cache (Total): 256 MiB
+  Base Frequency: 2.9 GHz
+  Boost Frequency: 4.3 GHz
+  L1 Cache (Data): 2048 KiB
+  L1 Cache (Instruction): 2048 KiB

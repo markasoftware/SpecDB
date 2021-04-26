@@ -1,7 +1,7 @@
 name: Epyc-7501
 humanName: Epyc 7501
 inherits:
-  - Epyc
+  - Naples
 isPart: true
 type: CPU
 data:

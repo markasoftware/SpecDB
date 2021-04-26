@@ -1,7 +1,7 @@
 name: Epyc-7451
 humanName: Epyc 7451
 inherits:
-  - Epyc
+  - Naples
 isPart: true
 type: CPU
 data:

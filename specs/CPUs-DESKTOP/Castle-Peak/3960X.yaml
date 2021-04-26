@@ -1,0 +1,16 @@
+name: 3960X
+humanName: 3960x
+isPart: true
+type: CPU
+inherits:
+  - Castle-Peak
+data:
+  Release Date: '2019-11-25'
+  Core Count: 24
+  Thread Count: 48
+  L2 Cache (Total): 12 MiB
+  L3 Cache (Total): 128 MiB
+  Base Frequency: 3.8 GHz
+  Boost Frequency: 4.5 GHz
+  L1 Cache (Data): 768 KiB
+  L1 Cache (Instruction): 768 KiB
