@@ -7,6 +7,7 @@ sections:
   - header: ZEN EPYC FAMILIES
     members:
       - Naples
+      - Rome
   - header: PILEDRIVER OPTERON FAMILIES
     members:
       - Warsaw

@@ -1,0 +1,16 @@
+name: Castle-Peak
+humanName: Castle Peak
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2019-11-25'
+  Lithography: 7 nm
+  Sockets:
+    - sTRX4
+sections:
+  - header: THREADRIPPER
+    members:
+      - 3960X
+      - 3970X
+      - 3990X
+

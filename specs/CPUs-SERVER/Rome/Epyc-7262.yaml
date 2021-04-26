@@ -1,0 +1,16 @@
+name: Epyc-7262
+humanName: Epyc 7262
+isPart: true
+type: CPU
+inherits:
+  - Rome
+data:
+  Core Count: 8
+  Thread Count: 16
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 128 MiB
+  Base Frequency: 3.2 GHz
+  Boost Frequency: 3.4 GHz
+  TDP: 155 W
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 256 KiB

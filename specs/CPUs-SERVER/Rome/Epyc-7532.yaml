@@ -1,0 +1,17 @@
+name: Epyc-7532
+humanName: Epyc 7532
+isPart: true
+type: CPU
+inherits:
+  - Rome
+data:
+  Release Date: '2020-02-19'
+  Core Count: 32
+  Thread Count: 64
+  L2 Cache (Total): 16 MiB
+  L3 Cache (Total): 256 MiB
+  Base Frequency: 2.4 GHz
+  Boost Frequency: 3.3 GHz
+  TDP: 200 W
+  L1 Cache (Data): 1024 KiB
+  L1 Cache (Instruction): 1024 KiB

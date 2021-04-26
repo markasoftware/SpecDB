@@ -1,0 +1,17 @@
+name: Epyc-7662
+humanName: Epyc 7662
+isPart: true
+type: CPU
+inherits:
+  - Rome
+data:
+  Release Date: '2020-02-19'
+  Core Count: 64
+  Thread Count: 128
+  L2 Cache (Total): 32 MiB
+  L3 Cache (Total): 256 MiB
+  Base Frequency: 2 GHz
+  Boost Frequency: 3.3 GHz
+  TDP: 225 W
+  L1 Cache (Data): 2048 KiB
+  L1 Cache (Instruction): 2048 KiB

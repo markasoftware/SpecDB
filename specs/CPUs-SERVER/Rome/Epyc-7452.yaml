@@ -1,0 +1,16 @@
+name: Epyc-7452
+humanName: Epyc 7452
+isPart: true
+type: CPU
+inherits:
+  - Rome
+data:
+  Core Count: 32
+  Thread Count: 64
+  L2 Cache (Total): 16 MiB
+  L3 Cache (Total): 128 MiB
+  Base Frequency: 2.35 GHz
+  Boost Frequency: 3.35 GHz
+  TDP: 155 W
+  L1 Cache (Data): 1024 KiB
+  L1 Cache (Instruction): 1024 KiB
