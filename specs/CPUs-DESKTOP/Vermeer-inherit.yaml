@@ -1,15 +1,14 @@
 hidden: true
-name: Matisse
+name: Vermeer
 data:
-  Architecture: Zen 2
+  Architecture: Zen 3
   Lithography: 7 nm
   Socket: AM4
-  Release Date: '2019-07-07'
+  Release Date: '2020-11-05'
   Unlocked: true
   Memory Type: DDR4
   Max Memory Frequency: 3200 MHz
   Max Memory Channels: 2
-  L3 Cache (Total): 32 MiB
   XFR Support: true
   AVX/SSE/MMX: AVX2
   FMA4: false
@@ -27,8 +26,7 @@ data:
     - ADX
   Compatible Chipsets:
     - X570
-    - B550
-    - A520
-    - X470
     - B450
+    - A520
+    - B550
 # Steppings: B1

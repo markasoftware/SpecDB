@@ -1,0 +1,16 @@
+name: R7-5800x
+humanName: R7 5800x
+isPart: true
+type: CPU
+inherits:
+  - Vermeer
+data:
+  Core Count: 8
+  Thread Count: 16
+  Base Frequency: 3.8 GHz
+  Boost Frequency: 4.7 GHz
+  TDP: 105 W
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 256 KiB
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 32 MiB

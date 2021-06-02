@@ -1,0 +1,22 @@
+name: Vermeer
+humanName: Vermeer
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Release Date: '2020-11-05'
+  Lithography: 7 nm
+  Sockets:
+    - AM4
+sections:
+  - header: RYZEN 9
+    members:
+      - R9-5950x
+      - R9-5900x
+      - R9-5900
+  - header: RYZEN 7
+    members:
+      - R7-5800x
+      - R7-5800
+  - header: RYZEN 5
+    members:
+      - R5-5600x
