@@ -6,8 +6,8 @@ topHeader: "SELECT ARCHITECTURE:"
 sections:
   - header: ZEN EPYC FAMILIES
     members:
-      - Naples
       - Rome
+      - Naples
   - header: PILEDRIVER OPTERON FAMILIES
     members:
       - Warsaw

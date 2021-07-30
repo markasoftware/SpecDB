@@ -7,13 +7,13 @@ sections:
 # Comments mean it has not yet been finished
   - header: RYZEN FAMILIES
     members:
+      - Vermeer
       - Castle-Peak
       - Matisse
       - Colfax
       - Pinnacle-Ridge
       - Whitehaven
       - Summit-Ridge
-      - Vermeer
   - header: AMD FX FAMILIES
     members:
       - Piledriver
