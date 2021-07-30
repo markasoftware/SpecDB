@@ -1,0 +1,16 @@
+name: R5-5600x
+humanName: R5 5600x
+isPart: true
+type: CPU
+inherits:
+  - Vermeer
+data:
+  Core Count: 6
+  Thread Count: 12
+  Base Frequency: 3.7 GHz
+  Boost Frequency: 4.6 GHz
+  TDP: 65 W
+  L1 Cache (Data): 192 KiB
+  L1 Cache (Instruction): 192 KiB
+  L2 Cache (Total): 3 MiB
+  L3 Cache (Total): 32 MiB

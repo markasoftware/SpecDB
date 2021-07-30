@@ -1,0 +1,17 @@
+name: R9-5900
+humanName: R9 5900
+isPart: true
+type: CPU
+inherits:
+  - Vermeer
+data:
+  Release Date: '2021-01-12'
+  Core Count: 12
+  Thread Count: 24
+  Base Frequency: 3 GHz
+  Boost Frequency: 4.7 GHz
+  TDP: 65 W
+  L1 Cache (Data): 384 KiB
+  L1 Cache (Instruction): 384 KiB
+  L2 Cache (Total): 6 MiB
+  L3 Cache (Total): 64 MiB

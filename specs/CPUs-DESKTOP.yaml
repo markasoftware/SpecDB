@@ -13,6 +13,7 @@ sections:
       - Pinnacle-Ridge
       - Whitehaven
       - Summit-Ridge
+      - Vermeer
   - header: AMD FX FAMILIES
     members:
       - Piledriver

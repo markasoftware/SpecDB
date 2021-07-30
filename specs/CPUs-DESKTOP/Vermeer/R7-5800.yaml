@@ -1,0 +1,17 @@
+name: R7-5800
+humanName: R7 5800
+isPart: true
+type: CPU
+inherits:
+  - Vermeer
+data:
+  Release Date: '2021-01-12'
+  Core Count: 8
+  Thread Count: 16
+  Base Frequency: 3.4 GHz
+  Boost Frequency: 4.6 GHz
+  TDP: 65 W
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 256 KiB
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 32 MiB

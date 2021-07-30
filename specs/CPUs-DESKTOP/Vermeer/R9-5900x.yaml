@@ -1,0 +1,16 @@
+name: R9-5900x
+humanName: R9 5900x
+isPart: true
+type: CPU
+inherits:
+  - Vermeer
+data:
+  Core Count: 12
+  Thread Count: 24
+  Base Frequency: 3.7 GHz
+  Boost Frequency: 4.8 GHz
+  TDP: 105 W
+  L1 Cache (Data): 384 KiB
+  L1 Cache (Instruction): 384 KiB
+  L2 Cache (Total): 6 MiB
+  L3 Cache (Total): 64 MiB
