@@ -1,0 +1,22 @@
+name: Snowy-Owl
+humanName: Snowy Owl
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data: 
+  Release Date: '2018-02-21'
+  Lithography: 14nm
+  Sockets:
+  - SP4
+  - SP4r2
+  Foundry: Global Foundries
+sections:
+- header: EPYC Embedded
+  members:
+  - EPYC-Embedded-3101
+  - EPYC-Embedded-3151
+  - EPYC-Embedded-3201
+  - EPYC-Embedded-3251
+  - EPYC-Embedded-3301
+  - EPYC-Embedded-3351
+  - EPYC-Embedded-3401
+  - EPYC-Embedded-3451

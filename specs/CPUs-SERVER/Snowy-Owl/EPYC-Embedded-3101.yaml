@@ -1,0 +1,24 @@
+name: EPYC-Embedded-3101
+humanName: EPYC Embedded 3101
+isPart: true
+type: CPU
+inherits:
+- Snowy-Owl
+data:
+  Release Date: '2018-02-21'
+  L1 Cache (Data): 128 KiB
+  L1 Cache (Instruction): 256 KiB
+  L2 Cache (Total): 2 MiB
+  L3 Cache (Total): 8 MiB
+  TDP: 35 W
+  Core Count: 4
+  Thread Count: 4
+  Base Frequency: 2.1 GHz
+  Boost Frequency: 2.9 GHz
+  Lithography: 14 nm
+  Unlocked: false
+  Architecture: Zen
+  Memory Type: DDR4
+  Max Memory Frequency: 2666 MHz
+  Max Memory Channels: 2
+  Stepping: B2

@@ -8,6 +8,9 @@ sections:
     members:
       - Rome
       - Naples
+  - header: ZEN EPYC EMBEDDED FAMILIES
+    members:
+      - Snowy-Owl
   - header: PILEDRIVER OPTERON FAMILIES
     members:
       - Warsaw
