@@ -1,0 +1,19 @@
+name: Ryzen-7-5800U
+humanName: Ryzen 7 5800U
+isPart: true
+type: CPU
+inherits:
+- Cezanne
+data:
+  Release Date: '2021-01-12'
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 256 KiB
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 16 MiB
+  TDP: 15 W
+  Core Count: 8
+  Thread Count: 16
+  Base Frequency: 1.9 GHz
+  Boost Frequency: 4.4 GHz
+  Memory Type: DDR4
+  Max Memory Frequency: 3200  + and LPDDR4 MHz
