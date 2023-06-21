@@ -3,7 +3,7 @@ name: Vermeer
 data:
   Release Date: '2020-11-05'
   Lithography: 7 nm
-  Socket: Socket AM4
+  Socket: AM4
   Unlocked: true
   Architecture: Zen 3
   Memory Type: DDR4
