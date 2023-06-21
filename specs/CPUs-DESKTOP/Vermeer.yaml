@@ -8,15 +8,16 @@ data:
   Sockets:
     - AM4
 sections:
-  - header: RYZEN 9
-    members:
-      - R9-5950x
-      - R9-5900x
-      - R9-5900
-  - header: RYZEN 7
-    members:
-      - R7-5800x
-      - R7-5800
-  - header: RYZEN 5
-    members:
-      - R5-5600x
+- header: Ryzen 9
+  members:
+  - Ryzen-9-5900
+  - Ryzen-9-5900X
+  - Ryzen-9-5950X
+- header: Ryzen 7
+  members:
+  - Ryzen-7-5800
+  - Ryzen-7-5800X
+  - Ryzen-7-5800X3D
+- header: Ryzen 5
+  members:
+  - Ryzen-5-5600X

@@ -1,0 +1,18 @@
+name: Ryzen-7-5800X3D
+humanName: Ryzen 7 5800X3D
+isPart: true
+type: CPU
+inherits:
+- Vermeer
+data:
+  Release Date: '2022-04-20'
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 256 KiB
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 96 MiB
+  TDP: 105 W
+  Core Count: 8
+  Thread Count: 16
+  Base Frequency: 3.4 GHz
+  Boost Frequency: 4.5 GHz
+  Unlocked: false
