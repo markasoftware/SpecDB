@@ -1,0 +1,21 @@
+hidden: true
+name: Snowy-Owl
+data:
+  FMA4: false
+  FMA3: false
+  AES: true
+  SHA: true
+  BMI: BMI2
+  AVX/SSE/MMX: AVX2
+  Other Extensions:
+  - MOVBE
+  - POPCNT
+  - PCLMUL
+  - RDRND
+  - F16C
+  - RDSEED
+  - ADCX
+  - PREFETCHW
+  - CLFLUSHOPT
+  - XSAVE
+  - CLZERO
