@@ -7,7 +7,7 @@ sections:
   - header: RYZEN APUs
     members:
       - Cezanne
-#      - Renoir
+      - Renoir
       - Raven-Ridge-APUs
   - header: A-SERIES APUs
     members:

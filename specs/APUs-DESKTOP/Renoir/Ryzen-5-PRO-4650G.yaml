@@ -1,0 +1,22 @@
+name: Ryzen-5-PRO-4650G
+humanName: Ryzen 5 PRO 4650G
+isPart: true
+type: CPU
+inherits:
+- Renoir
+data:
+  Release Date: '2020-07-21'
+  L1 Cache (Data): 192 KiB
+  L1 Cache (Instruction): 192 KiB
+  L2 Cache (Total): 3 MiB
+  L3 Cache (Total): 8 MiB
+  TDP: 65 W
+  Core Count: 6
+  Thread Count: 12
+  Base Frequency: 3.7 GHz
+  Boost Frequency: 4.2 GHz
+  Socket: AM4
+  Unlocked: false
+  Memory Type: DDR4
+  Max Memory Frequency: 3200 MHz
+  Max Memory Channels: 2

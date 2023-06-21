@@ -1,0 +1,22 @@
+name: Ryzen-3-4300G
+humanName: Ryzen 3 4300G
+isPart: true
+type: CPU
+inherits:
+- Renoir
+data:
+  Release Date: '2020-07-21'
+  L1 Cache (Data): 128 KiB
+  L1 Cache (Instruction): 128 KiB
+  L2 Cache (Total): 2 MiB
+  L3 Cache (Total): 4 MiB
+  TDP: 65 W
+  Core Count: 4
+  Thread Count: 8
+  Base Frequency: 3.8 GHz
+  Boost Frequency: 4.0 GHz
+  Socket: AM4
+  Unlocked: false
+  Memory Type: DDR4
+  Max Memory Frequency: 3200 MHz
+  Max Memory Channels: 2

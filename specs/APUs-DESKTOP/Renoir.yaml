@@ -1,0 +1,29 @@
+name: Renoir
+humanName: Renoir
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data:
+  Lithography: 7nm
+  Release Date: '2020-01-06'
+  Sockets:
+    - AM4
+sections:
+- header: Ryzen 7
+  members:
+  - Ryzen-7-4700G
+  - Ryzen-7-4700GE
+  - Ryzen-7-PRO-4750G
+  - Ryzen-7-PRO-4750GE
+- header: Ryzen 5
+  members:
+  - Ryzen-5-4600G
+  - Ryzen-5-4600GE
+  - Ryzen-5-PRO-4650G
+  - Ryzen-5-PRO-4650GE
+- header: Ryzen 3
+  members:
+  - Ryzen-3-4300G
+  - Ryzen-3-4300GE
+  - Ryzen-3-PRO-4350G
+  - Ryzen-3-PRO-4350GE
+

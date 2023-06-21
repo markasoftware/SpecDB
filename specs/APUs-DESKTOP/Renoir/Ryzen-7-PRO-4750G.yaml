@@ -1,0 +1,22 @@
+name: Ryzen-7-PRO-4750G
+humanName: Ryzen 7 PRO 4750G
+isPart: true
+type: CPU
+inherits:
+- Renoir
+data:
+  Release Date: '2020-07-21'
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 256 KiB
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 8 MiB
+  TDP: 65 W
+  Core Count: 8
+  Thread Count: 16
+  Base Frequency: 3.6 GHz
+  Boost Frequency: 4.4 GHz
+  Socket: AM4
+  Unlocked: false
+  Memory Type: DDR4
+  Max Memory Frequency: 3200 MHz
+  Max Memory Channels: 2

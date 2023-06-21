@@ -1,0 +1,27 @@
+hidden: true
+name: Renoir
+data:
+  Lithography: 7 nm
+  Architecture: Zen 2
+  Stepping: A1
+  FMA4: false
+  FMA3: true
+  AES: true
+  SHA: true
+  BMI: BMI2
+  AVX/SSE/MMX: AVX2
+  Other Extensions:
+  - MOVBE
+  - SSE4A
+  - POPCNT
+  - PCLMUL
+  - FSGSBASE
+  - RDRND
+  - F16C
+  - RDSEED
+  - ADCX
+  - PREFETCHW
+  - CLFLUSHOPT
+  - XSAVE
+  - UMIP
+  - CLZERO
