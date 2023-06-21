@@ -1,6 +1,12 @@
 hidden: true
 name: Snowy-Owl
 data:
+  Release Date: '2018-02-21'
+  Lithography: 14 nm
+  Unlocked: false
+  Architecture: Zen
+  Memory Type: DDR4
+  Stepping: B2
   FMA4: false
   FMA3: false
   AES: true
