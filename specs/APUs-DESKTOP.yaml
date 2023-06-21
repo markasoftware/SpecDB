@@ -6,6 +6,8 @@ topHeader: 'SELECT ARCHITECTURE:'
 sections:
   - header: RYZEN APUs
     members:
+      - Cezanne
+#      - Renoir
       - Raven-Ridge-APUs
   - header: A-SERIES APUs
     members:

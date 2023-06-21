@@ -1,5 +1,5 @@
-name: Renoir
-humanName: Renoir
+name: Renoir-M
+humanName: Renoir Mobile
 type: APU Architecture
 isPart: false
 topHeader: 'SELECT APU:'

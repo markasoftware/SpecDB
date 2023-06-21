@@ -1,0 +1,22 @@
+name: Ryzen-3-5300G
+humanName: Ryzen 3 5300G
+isPart: true
+type: CPU
+inherits:
+- Cezanne
+data:
+  Release Date: '2021-04-13'
+  L1 Cache (Data): 128 KiB
+  L1 Cache (Instruction): 128 KiB
+  L2 Cache (Total): 2 MiB
+  L3 Cache (Total): 8 MiB
+  TDP: 65 W
+  Core Count: 4
+  Thread Count: 8
+  Base Frequency: 4.0 GHz
+  Boost Frequency: 4.2 GHz
+  Socket: AM4
+  Unlocked: false
+  Memory Type: DDR4
+  Max Memory Frequency: 3200 MHz
+  Max Memory Channels: 2
