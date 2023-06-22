@@ -1,0 +1,16 @@
+name: Ryzen-7-5800X
+humanName: Ryzen 7 5800X
+isPart: true
+type: CPU
+inherits:
+- Vermeer
+data:
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 256 KiB
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 32 MiB
+  TDP: 105 W
+  Core Count: 8
+  Thread Count: 16
+  Base Frequency: 3.8 GHz
+  Boost Frequency: 4.7 GHz

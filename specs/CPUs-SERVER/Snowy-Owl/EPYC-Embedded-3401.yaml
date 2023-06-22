@@ -5,7 +5,6 @@ type: CPU
 inherits:
 - Snowy-Owl
 data:
-  Release Date: '2018-02-21'
   L1 Cache (Data): 512 KiB
   L1 Cache (Instruction): 1,024 KiB
   L2 Cache (Total): 8 MiB
@@ -15,10 +14,5 @@ data:
   Thread Count: 16
   Base Frequency: 1.85 GHz
   Boost Frequency: 3 GHz
-  Lithography: 14 nm
-  Unlocked: false
-  Architecture: Zen
-  Memory Type: DDR4
   Max Memory Frequency: 2666 MHz
   Max Memory Channels: 4
-  Stepping: B2

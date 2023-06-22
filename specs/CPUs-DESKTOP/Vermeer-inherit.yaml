@@ -1,32 +1,44 @@
 hidden: true
 name: Vermeer
 data:
-  Architecture: Zen 3
+  Release Date: '2020-11-05'
   Lithography: 7 nm
   Socket: AM4
-  Release Date: '2020-11-05'
   Unlocked: true
+  Architecture: Zen 3
   Memory Type: DDR4
   Max Memory Frequency: 3200 MHz
   Max Memory Channels: 2
+#  Stepping: B2, Vermeer changed from B0 to B2 at some point during 2022
   XFR Support: true
-  AVX/SSE/MMX: AVX2
   FMA4: false
   FMA3: true
-  BMI: BMI2
   AES: true
   SHA: true
+  BMI: BMI2
+  AVX/SSE/MMX: AVX2
   Other Extensions:
-    - X86-64
-    - AMD-V
-    - F16C
-    - ABM
-    - CLMUL
-    - RDRAND
-    - ADX
+  - X86-64
+  - AMD-V
+  - MOVBE
+  - SSE4A
+  - POPCNT
+  - PCLMUL
+  - FSGSBASE
+  - RDRAND
+  - F16C
+  - RDSEED
+  - ADCX
+  - PREFETCHW
+  - CLFLUSHOPT
+  - XSAVE
+  - UMIP
+  - CLZERO
+  - VAES
+  - VPCLMUL
   Compatible Chipsets:
-    - X570
-    - B450
-    - A520
-    - B550
-# Steppings: B1
+  - X470
+  - X570
+  - B450
+  - A520
+  - B550
