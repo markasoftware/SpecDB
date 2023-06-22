@@ -1,5 +1,5 @@
-name: Renoir
-humanName: Renoir
+name: Renoir-M
+humanName: Renoir Mobile
 type: APU Architecture
 isPart: false
 topHeader: 'SELECT APU:'
@@ -7,7 +7,7 @@ data:
   Lithography: 7nm
   Release Date: '2020-01-06'
   Sockets:
-    - AM4
+    - FP6
   DirectX Support: '12.1'
   Vulkan Support: '1.2'
 sections:
@@ -33,4 +33,3 @@ sections:
     members:
       - R9-4900H
       - R9-4900HS
-     

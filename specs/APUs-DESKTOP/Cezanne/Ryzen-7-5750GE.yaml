@@ -1,0 +1,22 @@
+name: Ryzen-7-5750GE
+humanName: Ryzen 7 5750GE
+isPart: true
+type: CPU
+inherits:
+- Cezanne
+data:
+  Release Date: '2021-06-01'
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 256 KiB
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 16 MiB
+  TDP: 35 W
+  Core Count: 8
+  Thread Count: 16
+  Base Frequency: 3.2 GHz
+  Boost Frequency: 4.6 GHz
+  Socket: AM4
+  Unlocked: false
+  Memory Type: DDR4
+  Max Memory Frequency: 3200 MHz
+  Max Memory Channels: 2

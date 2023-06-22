@@ -1,0 +1,30 @@
+name: Cezanne
+humanName: Cezanne
+type: CPU Architecture
+topHeader: 'SELECT CPU:'
+data: 
+  Lithography: 7nm
+  Release Date: '2021-01-12'
+  Sockets:
+    - AM4
+sections:
+- header: Ryzen 7
+  members:
+  - Ryzen-7-5700G
+  - Ryzen-7-5700GE
+  - Ryzen-7-PRO-5750G
+  - Ryzen-7-5750GE
+- header: Ryzen 5
+  members:
+  - Ryzen-5-5600G
+  - Ryzen-5-5600GE
+  - Ryzen-5-PRO-5650G
+  - Ryzen-5-PRO-5650GE
+- header: Ryzen 3
+  members:
+  - Ryzen-3-5300G
+  - Ryzen-3-5300GE
+  - Ryzen-3-PRO-5350G
+  - Ryzen-3-PRO-5350GE
+
+

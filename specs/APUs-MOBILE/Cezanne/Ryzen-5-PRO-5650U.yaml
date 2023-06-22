@@ -1,0 +1,20 @@
+name: Ryzen-5-PRO-5650U
+humanName: Ryzen 5 PRO 5650U
+isPart: true
+type: CPU
+inherits:
+- Cezanne
+data:
+  Release Date: '2021-03-16'
+  L1 Cache (Data): 192 KiB
+  L1 Cache (Instruction): 192 KiB
+  L2 Cache (Total): 3 MiB
+  L3 Cache (Total): 16 MiB
+  TDP: 15 W
+  Core Count: 6
+  Thread Count: 12
+  Base Frequency: 2.3 GHz
+  Boost Frequency: 4.2 GHz
+  Unlocked: false
+  Memory Type: DDR4
+  Max Memory Frequency: 3200  + and LPDDR4 MHz
