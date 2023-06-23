@@ -16,7 +16,10 @@ data:
   Base Frequency: 4.0 GHz
   Boost Frequency: 4.2 GHz
   Socket: AM4
-  Unlocked: false
-  Memory Type: DDR4
-  Max Memory Frequency: 3200 MHz
-  Max Memory Channels: 2
+  Unlocked: true
+  GPU Model: RX Vega 6
+  GPU Base Frequency: 1700 MHz
+  Max Displays: 4
+#  Shader Processor Count: 320
+#  Texture Mapping Unit Count: 12
+#  Render Output Unit Count: 6

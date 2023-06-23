@@ -16,7 +16,10 @@ data:
   Base Frequency: 3.9 GHz
   Boost Frequency: 4.4 GHz
   Socket: AM4
-  Unlocked: false
-  Memory Type: DDR4
-  Max Memory Frequency: 3200 MHz
-  Max Memory Channels: 2
+  Unlocked: true
+  GPU Model: RX Vega 7
+  GPU Base Frequency: 1900 MHz
+  Max Displays: 4
+#  Shader Processor Count: 320
+#  Texture Mapping Unit Count: 12
+#  Render Output Unit Count: 7
