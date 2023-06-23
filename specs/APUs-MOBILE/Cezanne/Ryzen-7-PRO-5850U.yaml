@@ -16,5 +16,9 @@ data:
   Base Frequency: 1.9 GHz
   Boost Frequency: 4.4 GHz
   Unlocked: false
-  Memory Type: DDR4
-  Max Memory Frequency: 3200  + and LPDDR4 MHz
+  GPU Model: RX Vega 8
+  GPU Base Frequency: 2000 MHz
+#  Max Displays: 4
+#  Shader Processor Count: 320
+#  Texture Mapping Unit Count: 12
+#  Render Output Unit Count: 6

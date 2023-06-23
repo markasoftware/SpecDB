@@ -15,5 +15,9 @@ data:
   Thread Count: 8
   Base Frequency: 2.6 GHz
   Boost Frequency: 4.0 GHz
-  Memory Type: DDR4
-  Max Memory Frequency: 3200  + and LPDDR4 MHz
+  GPU Model: RX Vega 6
+  GPU Base Frequency: 1600 MHz
+#  Max Displays: 4
+#  Shader Processor Count: 320
+#  Texture Mapping Unit Count: 12
+#  Render Output Unit Count: 6

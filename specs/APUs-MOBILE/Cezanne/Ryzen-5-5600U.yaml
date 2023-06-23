@@ -15,5 +15,9 @@ data:
   Thread Count: 12
   Base Frequency: 2.3 GHz
   Boost Frequency: 4.2 GHz
-  Memory Type: DDR4
-  Max Memory Frequency: 3200  + and LPDDR4 MHz
+  GPU Model: RX Vega 7
+  GPU Base Frequency: 1800 MHz
+#  Max Displays: 4
+#  Shader Processor Count: 320
+#  Texture Mapping Unit Count: 12
+#  Render Output Unit Count: 6
