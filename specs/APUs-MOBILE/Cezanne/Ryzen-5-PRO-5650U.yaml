@@ -3,7 +3,7 @@ humanName: Ryzen 5 PRO 5650U
 isPart: true
 type: CPU
 inherits:
-- Cezanne
+- Cezanne-M
 data:
   Release Date: '2021-03-16'
   L1 Cache (Data): 192 KiB

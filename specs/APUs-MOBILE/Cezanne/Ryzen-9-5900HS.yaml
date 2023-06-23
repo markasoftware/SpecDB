@@ -3,7 +3,7 @@ humanName: Ryzen 9 5900HS
 isPart: true
 type: CPU
 inherits:
-- Cezanne
+- Cezanne-M
 data:
   Release Date: '2021-01-12'
   L1 Cache (Data): 256 KiB

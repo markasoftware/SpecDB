@@ -1,10 +1,13 @@
 hidden: true
-name: Cezanne
+name: Cezanne-M
 data:
   Lithography: 7 nm
   Architecture: Zen 3
-  Memory Type: DDR4 and LPDDR4
+  Memory Type: DDR4 or LPDDR4
   Max Memory Frequency: DDR4-3200 or LPDDR4-4266 MHz
+  VRAM Type: DDR4 or LPDDR4
+  Crossfire Support: No
+  Socket: FP6
   FMA4: false
   FMA3: true
   AES: true
@@ -28,5 +31,3 @@ data:
   - CLZERO
   - VAES
   - VPCLMUL
-  VRAM Type: DDR4 or LPDDR4
-  Crossfire Support: No

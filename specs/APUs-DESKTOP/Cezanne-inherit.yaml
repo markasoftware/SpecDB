@@ -12,6 +12,8 @@ data:
   SHA: true
   BMI: BMI2
   AVX/SSE/MMX: AVX2
+  VRAM Type: DDR4
+  Crossfire Support: No
   Other Extensions:
   - MOVBE
   - SSE4A
@@ -36,5 +38,3 @@ Compatible Chipsets:
   #Below are only with bios update
   - X470
   - B450
-  VRAM Type: DDR4
-  Crossfire Support: No

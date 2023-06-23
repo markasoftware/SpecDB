@@ -3,7 +3,7 @@ humanName: Ryzen 5 5600U
 isPart: true
 type: CPU
 inherits:
-- Cezanne
+- Cezanne-M
 data:
   Release Date: '2021-01-12'
   L1 Cache (Data): 192 KiB
