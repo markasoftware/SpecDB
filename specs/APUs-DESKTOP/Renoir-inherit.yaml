@@ -1,8 +1,15 @@
 hidden: true
 name: Renoir
 data:
+  Release Date: '2020-07-21'
   Lithography: 7 nm
   Architecture: Zen 2
+  Socket: AM4
+  Memory Type: DDR4
+  Max Memory Frequency: 3200 MHz
+  Max Memory Channels: 2
+  VRAM Type: DDR4
+  Crossfire Support: No
   Stepping: A1
   FMA4: false
   FMA3: true
@@ -25,3 +32,10 @@ data:
   - XSAVE
   - UMIP
   - CLZERO
+  Compatible Chipsets:
+  - A520
+  - B450
+  - B550
+  - X570
+  - X470
+  - B450

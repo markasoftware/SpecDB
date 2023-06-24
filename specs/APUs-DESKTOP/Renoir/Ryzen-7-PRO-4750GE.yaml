@@ -3,9 +3,9 @@ humanName: Ryzen 7 PRO 4750GE
 isPart: true
 type: CPU
 inherits:
+- GCN 5.1
 - Renoir
 data:
-  Release Date: '2020-07-21'
   L1 Cache (Data): 256 KiB
   L1 Cache (Instruction): 256 KiB
   L2 Cache (Total): 4 MiB
@@ -15,8 +15,13 @@ data:
   Thread Count: 16
   Base Frequency: 3.1 GHz
   Boost Frequency: 4.3 GHz
-  Socket: AM4
   Unlocked: false
-  Memory Type: DDR4
-  Max Memory Frequency: 3200 MHz
-  Max Memory Channels: 2
+  GPU Model: RX Vega 8
+  GPU Base Frequency: 400 MHz
+  GPU Boost Frequency: 2100 MHz
+  Max Displays: 4
+  Shader Processor Count: 512
+  Texture Mapping Unit Count: 32
+  Render Output Unit Count: 8
+  FP32 Compute: 2.15 TFLOPS
+  FP64 Compute: 134.4 GFLOPS

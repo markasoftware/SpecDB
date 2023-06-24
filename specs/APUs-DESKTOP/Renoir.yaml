@@ -4,7 +4,7 @@ type: CPU Architecture
 topHeader: 'SELECT CPU:'
 data:
   Lithography: 7nm
-  Release Date: '2020-01-06'
+  Release Date: '2020-07-21'
   Sockets:
     - AM4
 sections:
