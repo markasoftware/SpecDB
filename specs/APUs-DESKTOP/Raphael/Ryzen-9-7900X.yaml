@@ -1,0 +1,16 @@
+name: Ryzen-9-7900X
+humanName: Ryzen 9 7900X
+isPart: true
+type: CPU
+inherits:
+- Raphael
+data:
+  L1 Cache (Data): 384 KiB
+  L1 Cache (Instruction): 384 KiB
+  L2 Cache (Total): 12 MiB
+  L3 Cache (Total): 64 MiB
+  TDP: 170 W
+  Core Count: 12
+  Thread Count: 24
+  Base Frequency: 4.7 GHz
+  Boost Frequency: 5.6 GHz

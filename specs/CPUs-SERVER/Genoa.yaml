@@ -26,6 +26,7 @@ sections:
   - EPYC-9634
   - EPYC-9654
 - header: Epyc Frequency Optimised
+  members:
   - EPYC-9174F
   - EPYC-9274F
   - EPYC-9374F

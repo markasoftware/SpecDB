@@ -1,0 +1,27 @@
+hidden: true
+name: Raphael
+data:
+  Lithography: 5 nm
+  Socket: AM5
+  Unlocked: true
+  Architecture: Zen 4
+  Memory Type: DDR5 and DDR4
+  Stepping: B1
+  FMA4: false
+  FMA3: true
+  AES: true
+  SHA: true
+  BMI: BMI2
+  AVX/SSE/MMX: AVX-512
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - RDAND
+    - F16C
+    - CLMUL
+    - ADX
+    - AMD-Vi
+    - SME
+    - TSME
+    - SEV
+    - SenseMI
