@@ -5,8 +5,8 @@ type: CPU
 inherits:
 - Genoa
 data:
-  L1 Cache (Data): 3,072 KiB
-  L1 Cache (Instruction): 3,072 KiB
+  L1 Cache (Data): 3072 KiB
+  L1 Cache (Instruction): 3072 KiB
   L2 Cache (Total): 96 MiB
   L3 Cache (Total): 384 MiB
   TDP: 360 W
