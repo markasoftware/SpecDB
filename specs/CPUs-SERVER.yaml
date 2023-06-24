@@ -6,6 +6,7 @@ topHeader: "SELECT ARCHITECTURE:"
 sections:
   - header: ZEN EPYC FAMILIES
     members:
+      - Genoa
       - Rome
       - Naples
   - header: ZEN EPYC EMBEDDED FAMILIES

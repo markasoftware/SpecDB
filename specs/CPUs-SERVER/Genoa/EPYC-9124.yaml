@@ -1,0 +1,16 @@
+name: EPYC-9124
+humanName: EPYC 9124
+isPart: true
+type: CPU
+inherits:
+- Genoa
+data:
+  L1 Cache (Data): 512 KiB
+  L1 Cache (Instruction): 512 KiB
+  L2 Cache (Total): 16 MiB
+  L3 Cache (Total): 64 MiB
+  TDP: 200 W
+  Core Count: 16
+  Thread Count: 32
+  Base Frequency: 3.0 GHz
+  Boost Frequency: 3.6 GHz

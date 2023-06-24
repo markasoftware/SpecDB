@@ -1,0 +1,15 @@
+name: EPYC-9554
+humanName: EPYC 9554
+isPart: true
+type: CPU
+inherits:
+- Genoa
+data:
+  L1 Cache (Data): 2,048 KiB
+  L1 Cache (Instruction): 2,048 KiB
+  L2 Cache (Total): 64 MiB
+  TDP: 360 W
+  Core Count: 64
+  Thread Count: 128
+  Base Frequency: 3.1 GHz
+  Boost Frequency: 3.75 GHz

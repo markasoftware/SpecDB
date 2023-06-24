@@ -1,0 +1,15 @@
+name: EPYC-9474F
+humanName: EPYC 9474F
+isPart: true
+type: CPU
+inherits:
+- Genoa
+data:
+  L1 Cache (Data): 1,536 KiB
+  L1 Cache (Instruction): 1,536 KiB
+  L2 Cache (Total): 48 MiB
+  TDP: 360 W
+  Core Count: 48
+  Thread Count: 96
+  Base Frequency: 3.6 GHz
+  Boost Frequency: 3.95 GHz

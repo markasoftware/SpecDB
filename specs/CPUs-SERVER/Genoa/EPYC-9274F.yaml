@@ -1,0 +1,15 @@
+name: EPYC-9274F
+humanName: EPYC 9274F
+isPart: true
+type: CPU
+inherits:
+- Genoa
+data:
+  L1 Cache (Data): 768 KiB
+  L1 Cache (Instruction): 768 KiB
+  L2 Cache (Total): 24 MiB
+  TDP: 320 W
+  Core Count: 24
+  Thread Count: 48
+  Base Frequency: 4.05 GHz
+  Boost Frequency: 4.1 GHz

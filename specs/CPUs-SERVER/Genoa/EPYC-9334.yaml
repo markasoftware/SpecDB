@@ -1,0 +1,16 @@
+name: EPYC-9334
+humanName: EPYC 9334
+isPart: true
+type: CPU
+inherits:
+- Genoa
+data:
+  L1 Cache (Data): 1,024 KiB
+  L1 Cache (Instruction): 1,024 KiB
+  L2 Cache (Total): 32 MiB
+  L3 Cache (Total): 128 MiB
+  TDP: 210 W
+  Core Count: 32
+  Thread Count: 64
+  Base Frequency: 2.7 GHz
+  Boost Frequency: 3.85 GHz

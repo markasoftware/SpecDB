@@ -1,0 +1,31 @@
+hidden: true
+name: Genoa
+data:
+  Release Date: '2022-11-10'
+  L3 Cache (Total): 256 MiB
+  Lithography: 5 nm
+  Socket: SP5
+  Unlocked: false
+  Architecture: Zen 4
+  Memory Type: DDR5
+  Max Memory Frequency: 4800 MHz
+  Max Memory Channels: 12
+  Stepping: B1
+  FMA4: false
+  FMA3: true
+  AES: true
+  SHA: true
+  BMI: BMI2
+  AVX/SSE/MMX: AVX-512
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - RDAND
+    - F16C
+    - CLMUL
+    - ADX
+    - AMD-Vi
+    - SME
+    - TSME
+    - SEV
+    - SenseMI
