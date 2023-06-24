@@ -3,6 +3,7 @@ humanName: Ryzen 3 PRO 5350G
 isPart: true
 type: CPU
 inherits:
+- GCN 5.1
 - Cezanne
 data:
   Release Date: '2021-06-01'
@@ -18,8 +19,11 @@ data:
   Socket: AM4
   Unlocked: false
   GPU Model: RX Vega 6
-  GPU Base Frequency: 1700 MHz
+  GPU Base Frequency: 300 MHz
+  GPU Boost Frequency: 1700 MHz
   Max Displays: 4
-#  Shader Processor Count: 320
-#  Texture Mapping Unit Count: 12
-#  Render Output Unit Count: 6
+  Shader Processor Count: 384
+  Texture Mapping Unit Count: 24
+  Render Output Unit Count: 8
+  FP32 Compute: 1.306 TFLOPS
+  FP64 Compute: 81.6 GFLOPS

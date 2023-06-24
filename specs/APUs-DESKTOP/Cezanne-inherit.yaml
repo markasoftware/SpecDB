@@ -6,14 +6,14 @@ data:
   Memory Type: DDR4
   Max Memory Frequency: 3200 MHz
   Max Memory Channels: 2
+  VRAM Type: DDR4
+  Crossfire Support: No
   FMA4: false
   FMA3: true
   AES: true
   SHA: true
   BMI: BMI2
   AVX/SSE/MMX: AVX2
-  VRAM Type: DDR4
-  Crossfire Support: No
   Other Extensions:
   - MOVBE
   - SSE4A
@@ -31,7 +31,7 @@ data:
   - CLZERO
   - VAES
   - VPCLMUL
-Compatible Chipsets:
+  Compatible Chipsets:
   - A520
   - B550
   - X570

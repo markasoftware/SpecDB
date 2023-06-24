@@ -3,6 +3,7 @@ humanName: Ryzen 3 5400U
 isPart: true
 type: CPU
 inherits:
+- GCN 5.1
 - Cezanne-M
 data:
   Release Date: '2021-01-12'
@@ -16,8 +17,11 @@ data:
   Base Frequency: 2.6 GHz
   Boost Frequency: 4.0 GHz
   GPU Model: RX Vega 6
-  GPU Base Frequency: 1600 MHz
-#  Max Displays: 4
-#  Shader Processor Count: 320
-#  Texture Mapping Unit Count: 12
-#  Render Output Unit Count: 6
+  GPU Base Frequency: 300 MHz
+  GPU Boost Frequency: 1600 MHz
+  Max Displays: 4
+  Shader Processor Count: 384
+  Texture Mapping Unit Count: 24
+  Render Output Unit Count: 8
+  FP32 Compute: 1.229 TFLOPS
+  FP64 Compute: 76.8 GFLOPS
