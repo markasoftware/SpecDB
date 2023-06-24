@@ -1,5 +1,5 @@
 hidden: true
-name: Renoir
+name: Renoir-M
 data:
   Architecture: Zen 2
   Lithography: 7 nm
@@ -25,6 +25,6 @@ data:
     - RDRAND
     - ADX
 # Compatible Chipsets:
-# Steppings: B1
+  Steppings: A1
   VRAM Type: DDR4
   Crossfire Support: No

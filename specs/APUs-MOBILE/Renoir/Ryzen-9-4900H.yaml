@@ -1,9 +1,10 @@
-name: R9-4900H
-humanName: R9 4900H
+name: Ryzen-9-4900H
+humanName: Ryzen 9 4900H
 isPart: true
 type: APU
 inherits:
-  - Renoir
+  - GCN 5.1
+  - Renoir-M
 data:
   Release Date: '2020-03-16'
   Core Count: 8
@@ -18,7 +19,10 @@ data:
   GPU Model: RX Vega 8
   Max Displays: 4
   Shader Processor Count: 512
-  #Texture Mapping Unit Count: 12
-  #Render Output Unit Count: 4
-  GPU Base Frequency: 1750 MHz
+  Texture Mapping Unit Count: 32
+  Render Output Unit Count: 8
+  GPU Boost Frequency: 1750 MHz
+  GPU Base Frequency: 400 MHz
+  FP32 Compute: 1.792 TFLOPS
+  FP64 Compute: 112 GFLOPS
  

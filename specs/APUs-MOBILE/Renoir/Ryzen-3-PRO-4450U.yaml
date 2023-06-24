@@ -1,9 +1,10 @@
-name: R3-PRO-4450U
-humanName: R3 PRO 4450U
+name: Ryzen-3-PRO-4450U
+humanName: Ryzen 3 PRO 4450U
 isPart: true
 type: APU
 inherits:
-  - Renoir
+  - GCN 5.1
+  - Renoir-M
 data:
   Release Date: '2020-05-07'
   Core Count: 4
@@ -18,7 +19,10 @@ data:
   GPU Model: RX Vega 5
   Max Displays: 4
   Shader Processor Count: 320
-  #Texture Mapping Unit Count: 12
-  #Render Output Unit Count: 4
-  GPU Base Frequency: 1400 MHz
+  Texture Mapping Unit Count: 20
+  Render Output Unit Count: 8
+  GPU Base Frequency: 400 MHz
+  GPU Boost Frequency: 1400 MHz
+  FP32 Compute: 0.896 TFLOPS
+  FP64 Compute: 56 GFLOPS
  

@@ -1,9 +1,10 @@
-name: R7-4700U
-humanName: R7 4700U
+name: Ryzen-7-4700U
+humanName: Ryzen 7 4700U
 isPart: true
 type: APU
 inherits:
-  - Renoir
+  - GCN 5.1
+  - Renoir-M
 data:
   Core Count: 8
   Thread Count: 8
@@ -17,7 +18,10 @@ data:
   GPU Model: RX Vega 7
   Max Displays: 4
   Shader Processor Count: 448
-  #Texture Mapping Unit Count: 12
-  #Render Output Unit Count: 4
-  GPU Base Frequency: 1600 MHz
+  Texture Mapping Unit Count: 28
+  Render Output Unit Count: 8
+  GPU Boost Frequency: 1600 MHz
+  GPU Base Frequency: 400 MHz
+  FP32 Compute: 1.434 TFLOPS
+  FP64 Compute: 89.6 GFLOPS
  

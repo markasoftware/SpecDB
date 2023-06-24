@@ -1,24 +1,27 @@
-name: R7-4800HS
-humanName: R7 4800HS
+name: Ryzen-7-4800H
+humanName: Ryzen 7 4800H
 isPart: true
 type: APU
 inherits:
-  - Renoir
+  - GCN 5.1
+  - Renoir-M
 data:
-  Release Date: '2020-03-16'
   Core Count: 8
   Thread Count: 16
   L2 Cache (Total): 4 MiB
   L3 Cache (Total): 8 MiB
   Base Frequency: 2.9 GHz
   Boost Frequency: 4.2 GHz
-  TDP: 35 W
+  TDP: 45 W
   L1 Cache (Data): 256 KiB
   L1 Cache (Instruction): 256 KiB
   GPU Model: RX Vega 7
   Max Displays: 4
   Shader Processor Count: 448
-  #Texture Mapping Unit Count: 12
-  #Render Output Unit Count: 4
-  GPU Base Frequency: 1600 MHz
+  Texture Mapping Unit Count: 28
+  Render Output Unit Count: 8
+  GPU Boost Frequency: 1600 MHz
+  GPU Base Frequency: 400 MHz
+  FP32 Compute: 1.434 TFLOPS
+  FP64 Compute: 89.6 GFLOPS
  
