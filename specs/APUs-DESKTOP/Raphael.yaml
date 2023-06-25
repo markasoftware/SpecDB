@@ -20,7 +20,7 @@ sections:
   members:
   - Ryzen-7-7800X3D
   - Ryzen-7-7700X
-  - Ryzen-7-7800
+  - Ryzen-7-7700
 - header: Ryzen 5
   members:
   - Ryzen-5-7600X
