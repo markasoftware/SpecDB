@@ -1,0 +1,16 @@
+name: Ryzen-9-7950X
+humanName: Ryzen 9 7950X
+isPart: true
+type: CPU
+inherits:
+- Raphael
+data:
+  L1 Cache (Data): 512 KiB
+  L1 Cache (Instruction): 512 KiB
+  L2 Cache (Total): 16 MiB
+  L3 Cache (Total): 64 MiB
+  TDP: 170 W
+  Core Count: 16
+  Thread Count: 32
+  Base Frequency: 4.5 GHz
+  Boost Frequency: 5.7 GHz

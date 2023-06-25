@@ -1,0 +1,15 @@
+name: EPYC-9354
+humanName: EPYC 9354
+isPart: true
+type: CPU
+inherits:
+- Genoa
+data:
+  L1 Cache (Data): 1024 KiB
+  L1 Cache (Instruction): 1024 KiB
+  L2 Cache (Total): 32 MiB
+  TDP: 280 W
+  Core Count: 32
+  Thread Count: 64
+  Base Frequency: 3.25 GHz
+  Boost Frequency: 3.75 GHz

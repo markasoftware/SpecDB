@@ -1,0 +1,16 @@
+name: EPYC-9224
+humanName: EPYC 9224
+isPart: true
+type: CPU
+inherits:
+- Genoa
+data:
+  L1 Cache (Data): 768 KiB
+  L1 Cache (Instruction): 768 KiB
+  L2 Cache (Total): 24 MiB
+  L3 Cache (Total): 64 MiB
+  TDP: 200 W
+  Core Count: 24
+  Thread Count: 48
+  Base Frequency: 2.5 GHz
+  Boost Frequency: 3.65 GHz

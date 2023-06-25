@@ -1,0 +1,17 @@
+name: Ryzen-7-7700X
+humanName: Ryzen 7 7700X
+isPart: true
+type: CPU
+inherits:
+- Raphael
+data:
+  Release Date: '2022-09-27'
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 256 KiB
+  L2 Cache (Total): 8 MiB
+  L3 Cache (Total): 32 MiB
+  TDP: 105 W
+  Core Count: 8
+  Thread Count: 16
+  Base Frequency: 4.5 GHz
+  Boost Frequency: 5.4 GHz

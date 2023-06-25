@@ -1,0 +1,15 @@
+name: EPYC-9534
+humanName: EPYC 9534
+isPart: true
+type: CPU
+inherits:
+- Genoa
+data:
+  L1 Cache (Data): 2048 KiB
+  L1 Cache (Instruction): 2048 KiB
+  L2 Cache (Total): 64 MiB
+  TDP: 280 W
+  Core Count: 64
+  Thread Count: 128
+  Base Frequency: 2.45 GHz
+  Boost Frequency: 3.55 GHz

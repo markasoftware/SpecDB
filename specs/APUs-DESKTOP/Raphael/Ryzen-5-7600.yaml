@@ -1,0 +1,16 @@
+name: Ryzen-5-7600
+humanName: Ryzen 5 7600
+isPart: true
+type: CPU
+inherits:
+- Raphael
+data:
+  L1 Cache (Data): 192 KiB
+  L1 Cache (Instruction): 192 KiB
+  L2 Cache (Total): 6 MiB
+  L3 Cache (Total): 32 MiB
+  TDP: 65 W
+  Core Count: 6
+  Thread Count: 12
+  Base Frequency: 3.8 GHz
+  Boost Frequency: 5.1 GHz

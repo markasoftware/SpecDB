@@ -1,0 +1,16 @@
+name: Ryzen-7-7800X3D
+humanName: Ryzen 7 7800X3D
+isPart: true
+type: CPU
+inherits:
+- Raphael
+data:
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 256 KiB
+  L2 Cache (Total): 8 MiB
+  L3 Cache (Total): 96 MiB
+  TDP: 120 W
+  Core Count: 8
+  Thread Count: 16
+  Base Frequency: 4.2 GHz
+  Boost Frequency: 5.0 GHz

@@ -1,0 +1,27 @@
+name: Raphael
+humanName: Raphael
+type: CPU Architecture
+isPart: false
+topHeader: 'SELECT CPU:'
+data: 
+  Release Date: '2022-09-27'
+  Lithography: 5 nm
+  Sockets:
+    - AM5
+sections:
+- header: Ryzen 9
+  members:
+  - Ryzen-9-7950X3D
+  - Ryzen-9-7950X
+  - Ryzen-9-7900X3D
+  - Ryzen-9-7900X
+  - Ryzen-9-7900
+- header: Ryzen 7
+  members:
+  - Ryzen-7-7800X3D
+  - Ryzen-7-7700X
+  - Ryzen-7-7700
+- header: Ryzen 5
+  members:
+  - Ryzen-5-7600X
+  - Ryzen-5-7600
