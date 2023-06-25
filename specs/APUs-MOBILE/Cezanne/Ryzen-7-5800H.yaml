@@ -3,7 +3,8 @@ humanName: Ryzen 7 5800H
 isPart: true
 type: CPU
 inherits:
-- Cezanne
+- GCN 5.1
+- Cezanne-M
 data:
   Release Date: '2021-01-12'
   L1 Cache (Data): 256 KiB
@@ -15,5 +16,12 @@ data:
   Thread Count: 16
   Base Frequency: 3.2 GHz
   Boost Frequency: 4.4 GHz
-  Memory Type: DDR4
-  Max Memory Frequency: 3200  + and LPDDR4 MHz
+  GPU Model: RX Vega 8
+  GPU Base Frequency: 300 MHz
+  GPU Boost Frequency: 2000 MHz
+  Max Displays: 4
+  Shader Processor Count: 512
+  Texture Mapping Unit Count: 32
+  Render Output Unit Count: 8
+  FP32 Compute: 2.048 TFLOPS
+  FP64 Compute: 128 GFLOPS

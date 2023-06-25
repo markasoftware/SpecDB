@@ -1,9 +1,10 @@
-name: R5-4500U
-humanName: R5 4500U
+name: Ryzen-5-4500U
+humanName: Ryzen 5 4500U
 isPart: true
 type: APU
 inherits:
-  - Renoir
+  - GCN 5.1
+  - Renoir-M
 data:
   Core Count: 6
   Thread Count: 6
@@ -17,7 +18,10 @@ data:
   GPU Model: RX Vega 6
   Max Displays: 4
   Shader Processor Count: 384
-  #Texture Mapping Unit Count: 12
-  #Render Output Unit Count: 4
-  GPU Base Frequency: 1500 MHz
+  Texture Mapping Unit Count: 24
+  Render Output Unit Count: 8
+  GPU Base Frequency: 400 MHz
+  GPU Boost Frequency: 1500 MHz
+  FP32 Compute: 1.152 TFLOPS
+  FP64 Compute: 72 GFLOPS
  

@@ -1,12 +1,15 @@
 name: Renoir
 humanName: Renoir
 type: CPU Architecture
-topHeader: 'SELECT CPU:'
+isPart: false
+topHeader: 'SELECT APU:'
 data:
   Lithography: 7nm
-  Release Date: '2020-01-06'
+  Release Date: '2020-07-21'
   Sockets:
     - AM4
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
 sections:
 - header: Ryzen 7
   members:

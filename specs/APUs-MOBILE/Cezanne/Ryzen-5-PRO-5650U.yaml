@@ -3,7 +3,8 @@ humanName: Ryzen 5 PRO 5650U
 isPart: true
 type: CPU
 inherits:
-- Cezanne
+- GCN 5.1
+- Cezanne-M
 data:
   Release Date: '2021-03-16'
   L1 Cache (Data): 192 KiB
@@ -16,5 +17,12 @@ data:
   Base Frequency: 2.3 GHz
   Boost Frequency: 4.2 GHz
   Unlocked: false
-  Memory Type: DDR4
-  Max Memory Frequency: 3200  + and LPDDR4 MHz
+  GPU Model: RX Vega 7
+  GPU Base Frequency: 300 MHz
+  GPU Boost Frequency: 1800 MHz
+  Max Displays: 4
+  Shader Processor Count: 448
+  Texture Mapping Unit Count: 28
+  Render Output Unit Count: 8
+  FP32 Compute: 1.613 TFLOPS
+  FP64 Compute: 100.8 GFLOPS

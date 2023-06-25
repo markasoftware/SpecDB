@@ -1,9 +1,10 @@
-name: R3-4300U
-humanName: R3 4300U
+name: Ryzen-3-4300U
+humanName: Ryzen 3 4300U
 isPart: true
 type: APU
 inherits:
-  - Renoir
+  - GCN 5.1
+  - Renoir-M
 data:
   Core Count: 4
   Thread Count: 4
@@ -17,7 +18,10 @@ data:
   GPU Model: RX Vega 5
   Max Displays: 4
   Shader Processor Count: 320
-  #Texture Mapping Unit Count: 12
-  #Render Output Unit Count: 4
-  GPU Base Frequency: 1400 MHz
+  Texture Mapping Unit Count: 20
+  Render Output Unit Count: 8
+  GPU Base Frequency: 400 MHz
+  GPU Boost Frequency: 1400 MHz
+  FP32 Compute: 0.896 TFLOPS
+  FP64 Compute: 56 GFLOPS
  

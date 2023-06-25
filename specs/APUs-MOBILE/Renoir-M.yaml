@@ -9,27 +9,28 @@ data:
   Sockets:
     - FP6
   DirectX Support: '12.1'
-  Vulkan Support: '1.2'
+  Vulkan Support: '1.3'
 sections:
-  - header: RYZEN 3
-    members:
-      - R3-4300U
-      - R3-PRO-4450U
-  - header: RYZEN 5
-    members:
-      - R5-4500U
-      - R5-4600H
-      - R5-4600HS
-      - R5-4600U
-      - R5-PRO-4650U
-  - header: RYZEN 7
-    members:
-      - R7-4700U
-      - R7-4800H
-      - R7-4800HS
-      - R7-4800U
-      - R7-PRO-4750U
   - header: RYZEN 9
     members:
-      - R9-4900H
-      - R9-4900HS
+      - Ryzen-9-4900H
+      - Ryzen-9-4900HS
+  - header: RYZEN 7
+    members:
+      - Ryzen-7-4700U
+      - Ryzen-7-4800H
+      - Ryzen-7-4800HS
+      - Ryzen-7-4800U
+      - Ryzen-7-PRO-4750U
+  - header: RYZEN 5
+    members:
+      - Ryzen-5-4500U
+      - Ryzen-5-4600H
+      - Ryzen-5-4600HS
+      - Ryzen-5-4600U
+      - Ryzen-5-PRO-4650U
+  - header: RYZEN 3
+    members:
+      - Ryzen-3-4300U
+      - Ryzen-3-PRO-4450U
+

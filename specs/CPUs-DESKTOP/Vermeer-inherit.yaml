@@ -36,9 +36,9 @@ data:
   - CLZERO
   - VAES
   - VPCLMUL
-  Compatible Chipsets:
-  - X470
-  - X570
-  - B450
-  - A520
-  - B550
+Compatible Chipsets:
+- X470
+- X570
+- B450
+- A520
+- B550

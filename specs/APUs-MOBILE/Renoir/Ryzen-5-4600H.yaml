@@ -1,24 +1,27 @@
-name: R5-4600HS
-humanName: R5 4600HS
+name: Ryzen-5-4600H
+humanName: Ryzen 5 4600H
 isPart: true
 type: APU
 inherits:
-  - Renoir
+  - GCN 5.1
+  - Renoir-M
 data:
-  Release Date: '2020-03-16'
   Core Count: 6
   Thread Count: 12
   L2 Cache (Total): 3 MiB
   L3 Cache (Total): 8 MiB
   Base Frequency: 3 GHz
   Boost Frequency: 4 GHz
-  TDP: 35 W
+  TDP: 45 W
   L1 Cache (Data): 192 KiB
   L1 Cache (Instruction): 192 KiB
   GPU Model: RX Vega 6
   Max Displays: 4
   Shader Processor Count: 384
-  #Texture Mapping Unit Count: 12
-  #Render Output Unit Count: 4
-  GPU Base Frequency: 1600 MHz
+  Texture Mapping Unit Count: 24
+  Render Output Unit Count: 8
+  GPU Base Frequency: 400 MHz
+  GPU Boost Frequency: 1500 MHz
+  FP32 Compute: 1.152 TFLOPS
+  FP64 Compute: 72 GFLOPS
  

@@ -3,6 +3,11 @@ name: Cezanne
 data:
   Lithography: 7 nm
   Architecture: Zen 3
+  Memory Type: DDR4
+  Max Memory Frequency: 3200 MHz
+  Max Memory Channels: 2
+  VRAM Type: DDR4
+  Crossfire Support: No
   FMA4: false
   FMA3: true
   AES: true
@@ -26,3 +31,10 @@ data:
   - CLZERO
   - VAES
   - VPCLMUL
+  Compatible Chipsets:
+  - A520
+  - B550
+  - X570
+  #Below are only with bios update
+  - X470
+  - B450

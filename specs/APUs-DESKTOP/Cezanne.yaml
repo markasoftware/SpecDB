@@ -13,7 +13,7 @@ sections:
   - Ryzen-7-5700G
   - Ryzen-7-5700GE
   - Ryzen-7-PRO-5750G
-  - Ryzen-7-5750GE
+  - Ryzen-7-PRO-5750GE
 - header: Ryzen 5
   members:
   - Ryzen-5-5600G

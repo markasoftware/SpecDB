@@ -1,8 +1,9 @@
-name: Ryzen-7-5750GE
-humanName: Ryzen 7 5750GE
+name: Ryzen-7-PRO-5750GE
+humanName: Ryzen 7 PRO 5750GE
 isPart: true
 type: CPU
 inherits:
+- GCN 5.1
 - Cezanne
 data:
   Release Date: '2021-06-01'
@@ -17,6 +18,12 @@ data:
   Boost Frequency: 4.6 GHz
   Socket: AM4
   Unlocked: false
-  Memory Type: DDR4
-  Max Memory Frequency: 3200 MHz
-  Max Memory Channels: 2
+  GPU Model: RX Vega 8
+  GPU Base Frequency: 300 MHz
+  GPU Boost Frequency: 2000 MHz
+  Max Displays: 4
+  Shader Processor Count: 512
+  Texture Mapping Unit Count: 32
+  Render Output Unit Count: 8
+  FP32 Compute: 2.048 TFLOPS
+  FP64 Compute: 128 GFLOPS
