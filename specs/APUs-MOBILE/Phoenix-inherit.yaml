@@ -1,17 +1,14 @@
 hidden: true
-name: Genoa
+name: Phoenix
 data:
-  Release Date: '2022-11-10'
-  L3 Cache (Total): 256 MiB
+  Release Date: '2023-05-01' #Date month and year correct. Exact date unsure though.
   Lithography: 5 nm
-  Socket: SP5
-  Unlocked: false
   Architecture: Zen 4
-  Memory Type: DDR5
-  Max Memory Frequency: 4800 MHz
-  Max Memory Channels: 12
-  PCIe 5.0 Lanes: 128
-  Stepping: B1
+  Memory Type: DDR5 or LPDDR5X
+  Max Memory Frequency: DDR5-5600 or LPDDR5X-7500 MHz
+  VRAM Type: DDR5 or LPDDR5X
+  Crossfire Support: No
+  PCIe 4.0 Lanes: 20
   FMA4: false
   FMA3: true
   AES: true

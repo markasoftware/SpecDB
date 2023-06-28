@@ -1,0 +1,17 @@
+name: Ryzen-9-7940HS
+humanName: Ryzen 9 7940HS
+isPart: true
+type: CPU
+inherits:
+- Phoenix
+data:
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 256 KiB
+  L2 Cache (Total): 8 MiB
+  L3 Cache (Total): 16 MiB
+  TDP: 35-54 W
+  Core Count: 8
+  Thread Count: 16
+  Base Frequency: 4 GHz
+  Boost Frequency: 5.2 GHz
+  GPU Base Frequency: 2800 MHz

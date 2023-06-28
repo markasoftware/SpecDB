@@ -5,7 +5,8 @@ data:
   Socket: AM5
   Unlocked: true
   Architecture: Zen 4
-  Memory Type: DDR5 and DDR4
+  Memory Type: DDR5 or DDR4
+  PCIe 5.0 Lanes: 28 # 4 lanes taken up as a link to chipset
   Stepping: B1
   FMA4: false
   FMA3: true

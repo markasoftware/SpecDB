@@ -296,6 +296,26 @@ module.exports.sections = [
 				name: 'Max Displays',
 				processor: types.numberUp,
 			},
+			{
+				name: 'PCIe 5.0 Lanes',
+				processor: types.numberUp,
+			},
+			{
+				name: 'PCIe 4.0 Lanes',
+				processor: types.numberUp,
+			},
+			{
+				name: 'PCIe 3.0 Lanes',
+				processor: types.numberUp,
+			},
+			{
+				name: 'PCIe 2.0 Lanes',
+				processor: types.numberUp,
+			},
+			{
+				name: 'PCIe 1.0 Lanes',
+				processor: types.numberUp,
+			},
 		],
 	},
 	{

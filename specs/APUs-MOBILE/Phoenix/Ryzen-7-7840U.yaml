@@ -1,0 +1,17 @@
+name: Ryzen-7-7840U
+humanName: Ryzen 7 7840U
+isPart: true
+type: CPU
+inherits:
+- Phoenix
+data:
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 256 KiB
+  L2 Cache (Total): 8 MiB
+  L3 Cache (Total): 16 MiB
+  TDP: 15-30 W
+  Core Count: 8
+  Thread Count: 16
+  Base Frequency: 3.3 GHz
+  Boost Frequency: 5.1 GHz
+  GPU Base Frequency: 2700 MHz
