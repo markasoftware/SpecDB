@@ -3,8 +3,8 @@ humanName: Phoenix
 type: APU Architecture
 topHeader: 'SELECT CPU:'
 data: 
-  Lithography: 5nm
-  Release Date: ''
+  Lithography: 4nm
+  Release Date: '2023-05'
   Sockets:
     - FP7
     - FP7r2

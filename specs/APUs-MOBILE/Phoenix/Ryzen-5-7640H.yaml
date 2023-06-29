@@ -14,5 +14,6 @@ data:
   Thread Count: 12
   Base Frequency: 4.3 GHz
   Boost Frequency: 5 GHz
+  GPU Model: Radeon 760M
   GPU Base Frequency: 2600 MHz
   FreeSync Support: false

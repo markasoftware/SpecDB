@@ -14,5 +14,6 @@ data:
   Thread Count: 16
   Base Frequency: 3.8 GHz
   Boost Frequency: 5.1 GHz
+  GPU Model: Radeon 780M
   GPU Base Frequency: 2700 MHz
   FreeSync Support: false
