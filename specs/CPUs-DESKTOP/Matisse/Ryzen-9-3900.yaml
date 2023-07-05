@@ -1,11 +1,11 @@
-name: R9-PRO-3900
-humanName: R9 PRO 3900
+name: Ryzen-9-3900
+humanName: Ryzen 9 3900
 isPart: true
 type: CPU
 inherits:
   - Matisse
 data:
-  Release Date: '2019-09-30'
+  Release Date: '2019-10-08'
   Core Count: 12
   Thread Count: 24
   L2 Cache (Total): 6 MiB

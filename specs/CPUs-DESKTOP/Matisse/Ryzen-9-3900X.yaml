@@ -1,17 +1,18 @@
-name: R9-3900
-humanName: R9 3900
+name: Ryzen-9-3900X
+humanName: Ryzen 9 3900X
 isPart: true
 type: CPU
 inherits:
   - Matisse
 data:
-  Release Date: '2019-10-08'
+  Release Date: '2019-07-07'
   Core Count: 12
   Thread Count: 24
   L2 Cache (Total): 6 MiB
   L3 Cache (Total): 64 MiB
-  Base Frequency: 3.1 GHz
-  Boost Frequency: 4.3 GHz
-  TDP: 65 W
+  Base Frequency: 3.8 GHz
+  Boost Frequency: 4.6 GHz
+#  XFR Frequency: 4.1 GHz
+  TDP: 105 W
   L1 Cache (Data): 384 KiB
   L1 Cache (Instruction): 384 KiB

@@ -1,5 +1,5 @@
-name: R5-3600
-humanName: R5 3600
+name: Ryzen-5-3500x
+humanName: Ryzen 5 3500x
 isPart: true
 type: CPU
 inherits:

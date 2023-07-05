@@ -1,11 +1,11 @@
-name: R7-PRO-3700
-humanName: R7 PRO 3700
+name: Ryzen-7-3700X
+humanName: Ryzen 7 3700X
 isPart: true
 type: CPU
 inherits:
   - Matisse
 data:
-  Release Date: '2019-09-30'
+  Release Date: '2019-07-07'
   Core Count: 8
   Thread Count: 16
   L2 Cache (Total): 4 MiB

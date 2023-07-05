@@ -1,16 +1,15 @@
-name: R9-3900XT
-humanName: R9 3900XT
+name: Ryzen-7-3800XT
+humanName: Ryzen 7 3800XT
 isPart: true
 type: CPU
 inherits:
   - Matisse
 data:
   Release Date: '2020-07-07'
-  Core Count: 12
-  Thread Count: 24
-  L2 Cache (Total): 6 MiB
-  L3 Cache (Total): 64 MiB
-  Base Frequency: 3.8 GHz
+  Core Count: 8
+  Thread Count: 16
+  L2 Cache (Total): 4 MiB
+  Base Frequency: 3.9 GHz
   Boost Frequency: 4.7 GHz
 #  XFR Frequency: 4.1 GHz
   TDP: 105 W

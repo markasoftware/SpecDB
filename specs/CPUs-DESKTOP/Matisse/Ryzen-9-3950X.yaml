@@ -1,5 +1,5 @@
-name: R9-3950X
-humanName: R9 3950X
+name: Ryzen-9-3950X
+humanName: Ryzen 9 3950X
 isPart: true
 type: CPU
 inherits:
