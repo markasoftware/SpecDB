@@ -1,5 +1,5 @@
-name: R7-1700X
-humanName: R7 1700X
+name: Ryzen-7-1700X
+humanName: Ryzen 7 1700X
 isPart: true
 type: CPU
 inherits:

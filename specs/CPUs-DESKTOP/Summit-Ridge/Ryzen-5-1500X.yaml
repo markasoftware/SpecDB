@@ -1,5 +1,5 @@
-name: R5-1400
-humanName: R5 1400
+name: Ryzen-5-1500X
+humanName: Ryzen 5 1500X
 isPart: true
 type: CPU
 inherits:
@@ -8,10 +8,10 @@ data:
   Core Count: 4
   Thread Count: 8
   L2 Cache (Total): 2 MiB
-  L3 Cache (Total): 8 MiB
-  Base Frequency: 3.2 GHz
-  Boost Frequency: 3.4 GHz
-  XFR Frequency: 3.45 GHz
+  L3 Cache (Total): 16 MiB
+  Base Frequency: 3.5 GHz
+  Boost Frequency: 3.7 GHz
+  XFR Frequency: 3.9 GHz
   TDP: 65 W
   L1 Cache (Data): 128 KiB
   L1 Cache (Instruction): 256 KiB
