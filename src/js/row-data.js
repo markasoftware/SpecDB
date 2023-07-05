@@ -143,6 +143,10 @@ module.exports.sections = [
 			{
 				name: 'TDP',
 				processor: types.numberDown,
+			},
+			{
+				name: 'cTDP Support',
+				processor: types.boolTrue,
 			}
 		],
 	},

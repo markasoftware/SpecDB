@@ -9,6 +9,7 @@ data:
   VRAM Type: DDR5 or LPDDR5X
   Crossfire Support: No
   PCIe 4.0 Lanes: 20
+  cTDP Support: true
   FMA4: false
   FMA3: true
   AES: true
