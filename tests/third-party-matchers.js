@@ -16,12 +16,12 @@ const confirmMatches = (hints, matches, notMatches, t, msg) => {
 test('3PM: Ryzen', t => {
 	t.equal(threepm({
 		name: 'Ryzen 7 1800X',
-	}), 'R7-1800X');
+	}), 'Ryzen-7-1800X');
 	t.equal(threepm({
 		brand: 'amd',
 		type: 'cpu',
 		name: 'Ryzen 5 1600',
-	}), 'R5-1600');
+	}), 'Ryzen-5-1600');
 
 	t.end();
 });
