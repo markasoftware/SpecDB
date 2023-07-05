@@ -1,5 +1,5 @@
-name: R3-2300X
-humanName: R3 2300X
+name: Ryzen-5-2500X
+humanName: Ryzen 5 2500X
 isPart: true
 type: CPU
 inherits:
@@ -7,10 +7,10 @@ inherits:
 data:
   Release Date: '2018-09-10'
   Core Count: 4
-  Thread Count: 4
+  Thread Count: 8
   L2 Cache (Total): 2 MiB
   L3 Cache (Total): 8 MiB
-  Base Frequency: 3.5 GHz
+  Base Frequency: 3.6 GHz
   Boost Frequency: 4.0 GHz
 #  XFR Frequency: 4.1 GHz
   TDP: 65 W

@@ -1,5 +1,5 @@
-name: R7-PRO-2700X
-humanName: R7 PRO 2700X
+name: Ryzen-7-PRO-2700X
+humanName: Ryzen 7 PRO 2700X
 isPart: true
 type: CPU
 inherits:

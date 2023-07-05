@@ -1,5 +1,5 @@
-name: R5-2600X
-humanName: R5 2600X
+name: Ryzen-5-2600X
+humanName: Ryzen 5 2600X
 isPart: true
 type: CPU
 inherits:

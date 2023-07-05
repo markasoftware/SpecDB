@@ -10,18 +10,18 @@ data:
 sections:
   - header: RYZEN 7
     members:
-      - R7-PRO-2700X
-      - R7-2700X
-      - R7-PRO-2700
-      - R7-2700
-      - R7-2700E
+      - Ryzen-7-PRO-2700X
+      - Ryzen-7-2700X
+      - Ryzen-7-PRO-2700
+      - Ryzen-7-2700
+      - Ryzen-7-2700E
   - header: RYZEN 5
     members:
-      - R5-2600X
-      - R5-PRO-2600
-      - R5-2600
-      - R5-2600E
-      - R5-2500X
+      - Ryzen-5-2600X
+      - Ryzen-5-PRO-2600
+      - Ryzen-5-2600
+      - Ryzen-5-2600E
+      - Ryzen-5-2500X
   - header: RYZEN 3
     members:
-      - R3-2300X
+      - Ryzen-3-2300X

@@ -1,17 +1,17 @@
-name: R7-2700
-humanName: R7 2700
+name: Ryzen-7-2700E
+humanName: Ryzen 7 2700E
 isPart: true
 type: CPU
 inherits:
   - Pinnacle-Ridge
 data:
-  Release Date: '2018-04-19'
+  Release Date: '2018-09-10'
   Core Count: 8
   Thread Count: 16
   L2 Cache (Total): 4 MiB
-  Base Frequency: 3.2 GHz
-  Boost Frequency: 4.1 GHz
+  Base Frequency: 2.8 GHz
+  Boost Frequency: 4.0 GHz
 #  XFR Frequency: 4.1 GHz
-  TDP: 65 W
+  TDP: 45 W
   L1 Cache (Data): 256 KiB
   L1 Cache (Instruction): 512 KiB
