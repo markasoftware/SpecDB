@@ -13,6 +13,6 @@ data:
 sections:
   - header: Standard SKUs
     members:
-      - R3-2200G
-      - R5-2400G
+      - Ryzen-3-2200G
+      - Ryzen-5-2400G
      

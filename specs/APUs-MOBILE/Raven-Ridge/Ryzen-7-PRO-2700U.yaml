@@ -1,6 +1,6 @@
 isPart: true
-name: R7-2700U
-humanName: R7-2700U
+name: Ryzen-7-PRO-2700U
+humanName: Ryzen 7 PRO 2700U
 type: APU
 inherits:
   - GCN 5

@@ -12,12 +12,12 @@ data:
 sections:
  - header: Standard SKUs
    members:
-     - R3-2200U
-     - R3-2300U
-     - R5-2500U
-     - R7-2700U
+     - Ryzen-3-2200U
+     - Ryzen-3-2300U
+     - Ryzen-5-2500U
+     - Ryzen-7-2700U
  - header: Pro SKUs
    members:
-     - R3-PRO-2300U
-     - R5-PRO-2500U
-     - R7-PRO-2700U
+     - Ryzen-3-PRO-2300U
+     - Ryzen-5-PRO-2500U
+     - Ryzen-7-PRO-2700U

@@ -1,6 +1,6 @@
 isPart: true
-name: R3-PRO-2300U
-humanName: R3-PRO-2300U
+name: Ryzen-3-2300U
+humanName: Ryzen 3 2300U
 type: APU
 inherits:
   - GCN 5

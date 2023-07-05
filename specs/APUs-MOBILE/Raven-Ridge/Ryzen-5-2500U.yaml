@@ -1,6 +1,6 @@
 isPart: true
-name: R5-PRO-2500U
-humanName: R5-PRO-2500U
+name: Ryzen-5-2500U
+humanName: Ryzen 5 2500U
 type: APU
 inherits:
   - GCN 5

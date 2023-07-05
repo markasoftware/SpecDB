@@ -1,6 +1,6 @@
 isPart: true
-name: R5-2400G
-humanName: R5-2400G
+name: Ryzen-3-2200G
+humanName: Ryzen 3 2200G
 type: APU
 inherits:
   - GCN 5
@@ -10,9 +10,9 @@ data:
   Socket: AM4
   Release Date: '2018-02-12'
   Core Count: 4
-  Thread Count: 8
-  Base Frequency: 3.6 GHz
-  Boost Frequency: 3.9 GHz
+  Thread Count: 4
+  Base Frequency: 3.5 GHz
+  Boost Frequency: 3.7 GHz
   L3 Cache (Total): 4 MiB
   L2 Cache (Total): 2 MiB
   L1 Cache (Instruction): 256 KiB
@@ -41,12 +41,12 @@ data:
     - A320
     - X300
     - A300
-  GPU Model: RX Vega 11
+  GPU Model: RX Vega 8
   # Module Count: 1 
   # I dont know about this at the moments as this only applies to family 15h CPUs
-  Shader Processor Count: 704
-  Texture Mapping Unit Count: 44
+  Shader Processor Count: 512
+  Texture Mapping Unit Count: 32
   Render Output Unit Count: 16
-  GPU Base Frequency: 1250 MHz
+  GPU Base Frequency: 1100 MHz
   VRAM Type: DDR4
   Crossfire Support: No
