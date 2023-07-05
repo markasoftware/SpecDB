@@ -151,7 +151,7 @@ const combineUtil = {
 				brand: 'amd',
 				type: 'cpu',
 				parser: () => {
-					return hints.cleanName.replace('Ryzen-', 'R');
+					return hints.cleanName.replace('Ryzen-', 'Ryzen-');
 				},
 			},
 			// Threadripper
