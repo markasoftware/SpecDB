@@ -10,6 +10,7 @@ data:
   Max Memory Frequency: 3200 MHz
   Max Memory Channels: 2
 #  Stepping: B2, Vermeer changed from B0 to B2 at some point during 2022
+  PCIe 4.0 Lanes: 24 # 4 lanes taken up as a link to chipset
   XFR Support: true
   FMA4: false
   FMA3: true
