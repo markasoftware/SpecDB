@@ -28,7 +28,7 @@ const parse = (tableEl, type) => {
 }
 
 const $ = cheerio.load(fs.readFileSync(inPath, 'utf8'));
-util.writeJSON(outPath, _.flatten($('#pc.table.processor-benchmark tbody').map((i, el) => {
+util.writeJSON(outPath, _.flatten($('#pc.table.benchmark-chart-table tbody').map((i, el) => {
 	switch (i) {
 		case 0:
 			return parse(el, 'Single-Core');
