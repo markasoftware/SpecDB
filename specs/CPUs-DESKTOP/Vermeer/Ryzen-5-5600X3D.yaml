@@ -1,0 +1,20 @@
+#Was released as they had 5800x3d left over that wasnt good enough to make the cut.(binning)
+#sold exclusively through microcenter(US Only)
+name: Ryzen-5-5600X3D
+humanName: Ryzen 5 5600X3D
+isPart: true
+type: CPU
+inherits:
+- Vermeer
+data:
+  Release Date: '2023-07-07'
+  L1 Cache (Data): 192 KiB
+  L1 Cache (Instruction): 192 KiB
+  L2 Cache (Total): 3 MiB
+  L3 Cache (Total): 96 MiB
+  TDP: 105 W
+  Core Count: 6
+  Thread Count: 12
+  Base Frequency: 3.3 GHz
+  Boost Frequency: 4.4 GHz
+  cTDP Support: false
