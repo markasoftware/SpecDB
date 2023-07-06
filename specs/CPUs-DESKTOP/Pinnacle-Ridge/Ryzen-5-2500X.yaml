@@ -1,0 +1,18 @@
+name: Ryzen-5-2500X
+humanName: Ryzen 5 2500X
+isPart: true
+type: CPU
+inherits:
+  - Pinnacle-Ridge
+data:
+  Release Date: '2018-09-10'
+  Core Count: 4
+  Thread Count: 8
+  L2 Cache (Total): 2 MiB
+  L3 Cache (Total): 8 MiB
+  Base Frequency: 3.6 GHz
+  Boost Frequency: 4.0 GHz
+#  XFR Frequency: 4.1 GHz
+  TDP: 65 W
+  L1 Cache (Data): 128 KiB
+  L1 Cache (Instruction): 256 KiB

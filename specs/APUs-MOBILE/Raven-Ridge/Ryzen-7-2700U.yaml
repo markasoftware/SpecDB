@@ -1,0 +1,22 @@
+isPart: true
+name: Ryzen-7-2700U
+humanName: Ryzen 7 2700U
+type: APU
+inherits:
+  - GCN 5
+  - Raven-Ridge
+data:
+ 
+  Core Count: 4
+  Thread Count: 8
+  Base Frequency: 2.2 GHz
+  Boost Frequency: 3.8 GHz
+  L3 Cache (Total): 4 MiB
+  L2 Cache (Total): 2 MiB
+  L1 Cache (Instruction): 256 KiB
+  L1 Cache (Data): 128 KiB
+  GPU Model: RX Vega 10
+  Shader Processor Count: 640
+  Texture Mapping Unit Count: 40
+  Render Output Unit Count: 16
+  GPU Base Frequency: 1300 MHz

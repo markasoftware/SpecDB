@@ -1,0 +1,52 @@
+isPart: true
+name: Ryzen-5-2400G
+humanName: Ryzen 5 2400G
+type: APU
+inherits:
+  - GCN 5
+data:
+  Architecture: Zen
+  Lithography: 14 nm
+  Socket: AM4
+  Release Date: '2018-02-12'
+  Core Count: 4
+  Thread Count: 8
+  Base Frequency: 3.6 GHz
+  Boost Frequency: 3.9 GHz
+  L3 Cache (Total): 4 MiB
+  L2 Cache (Total): 2 MiB
+  L1 Cache (Instruction): 256 KiB
+  L1 Cache (Data): 128 KiB
+  TDP: 65 W
+  Max Memory Frequency: 2933 MHz
+  Max Memory Channels: 2
+  Unlocked: true
+  AVX/SSE/MMX: AVX2
+  FMA4: false
+  FMA3: true
+  BMI: BMI2
+  AES: true
+  SHA: true
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - F16C
+    - ABM
+    - CLMUL
+    - RDRAND
+    - ADX
+  Compatible Chipsets:
+    - X370
+    - B350
+    - A320
+    - X300
+    - A300
+  GPU Model: RX Vega 11
+  # Module Count: 1 
+  # I dont know about this at the moments as this only applies to family 15h CPUs
+  Shader Processor Count: 704
+  Texture Mapping Unit Count: 44
+  Render Output Unit Count: 16
+  GPU Base Frequency: 1250 MHz
+  VRAM Type: DDR4
+  Crossfire Support: No

@@ -1,0 +1,17 @@
+name: Ryzen-5-1600
+humanName: Ryzen 5 1600
+isPart: true
+type: CPU
+inherits:
+  - Ryzen R5 Base
+data:
+  Core Count: 6
+  Thread Count: 12
+  L2 Cache (Total): 3 MiB
+  L3 Cache (Total): 16 MiB
+  Base Frequency: 3.2 GHz
+  Boost Frequency: 3.6 GHz
+  XFR Frequency: 3.7 GHz
+  TDP: 65 W
+  L1 Cache (Data): 192 KiB
+  L1 Cache (Instruction): 384 KiB

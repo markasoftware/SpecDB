@@ -1,0 +1,16 @@
+name: Ryzen-5-3600
+humanName: Ryzen 5 3600
+isPart: true
+type: CPU
+inherits:
+  - Matisse
+data:
+#  Release Date: never released. oem only
+  Core Count: 6
+  Thread Count: 6
+  L2 Cache (Total): 3 MiB
+  Base Frequency: 3.6 GHz
+  Boost Frequency: 4.1 GHz
+  TDP: 65 W
+  L1 Cache (Data): 192 KiB
+  L1 Cache (Instruction): 192 KiB

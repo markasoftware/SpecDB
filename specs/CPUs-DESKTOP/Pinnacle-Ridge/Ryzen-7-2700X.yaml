@@ -1,0 +1,17 @@
+name: Ryzen-7-2700X
+humanName: Ryzen 7 2700X
+isPart: true
+type: CPU
+inherits:
+  - Pinnacle-Ridge
+data:
+  Release Date: '2018-04-19'
+  Core Count: 8
+  Thread Count: 16
+  L2 Cache (Total): 4 MiB
+  Base Frequency: 3.7 GHz
+  Boost Frequency: 4.3 GHz
+#  XFR Frequency: 4.1 GHz
+  TDP: 105 W
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 512 KiB
