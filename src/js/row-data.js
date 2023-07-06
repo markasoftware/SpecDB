@@ -88,7 +88,7 @@ const types = {
 // for thing that rely on other functions in there
 objectAssign(types, {
 	memory: types.enum(
-		['HBM2', 'GDDR6', 'GDDR5X', 'HBM', 'GDDR5', 'GDDR4', 'GDDR3', 'DDR4', 'DDR3', 'DDR2', 'DDR', ''],
+		['HBM2', 'GDDR6', 'GDDR5X', 'HBM', 'GDDR5', 'GDDR4', 'GDDR3', 'DDR5', 'DDR4', 'DDR3', 'DDR2', 'DDR', ''],
 		{ allowPartialMatch: true },
 	),
 });
@@ -143,6 +143,10 @@ module.exports.sections = [
 			{
 				name: 'TDP',
 				processor: types.numberDown,
+			},
+			{
+				name: 'cTDP Support',
+				processor: types.boolTrue,
 			}
 		],
 	},
@@ -294,6 +298,26 @@ module.exports.sections = [
 			},
 			{
 				name: 'Max Displays',
+				processor: types.numberUp,
+			},
+			{
+				name: 'PCIe 5.0 Lanes',
+				processor: types.numberUp,
+			},
+			{
+				name: 'PCIe 4.0 Lanes',
+				processor: types.numberUp,
+			},
+			{
+				name: 'PCIe 3.0 Lanes',
+				processor: types.numberUp,
+			},
+			{
+				name: 'PCIe 2.0 Lanes',
+				processor: types.numberUp,
+			},
+			{
+				name: 'PCIe 1.0 Lanes',
 				processor: types.numberUp,
 			},
 		],

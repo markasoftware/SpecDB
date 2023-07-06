@@ -1,0 +1,30 @@
+hidden: true
+name: Phoenix
+data:
+  Release Date: '2023-05' #Date month and year correct. Exact date unsure though.
+  Lithography: 4 nm
+  Architecture: Zen 4
+  Memory Type: DDR5 or LPDDR5X
+  Max Memory Frequency: DDR5-5600 or LPDDR5X-7500 MHz
+  VRAM Type: DDR5 or LPDDR5X
+  Crossfire Support: No
+  PCIe 4.0 Lanes: 20
+  cTDP Support: true
+  FMA4: false
+  FMA3: true
+  AES: true
+  SHA: true
+  BMI: BMI2
+  AVX/SSE/MMX: AVX-512
+  Other Extensions:
+    - X86-64
+    - AMD-V
+    - RDAND
+    - F16C
+    - CLMUL
+    - ADX
+    - AMD-Vi
+    - SME
+    - TSME
+    - SEV
+    - SenseMI

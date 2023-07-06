@@ -1,0 +1,19 @@
+name: Ryzen-5-7640H
+humanName: Ryzen 7 7640H
+isPart: true
+type: CPU
+inherits:
+- Phoenix
+data:
+  L1 Cache (Data): 192 KiB
+  L1 Cache (Instruction): 192 KiB
+  L2 Cache (Total): 6 MiB
+  L3 Cache (Total): 16 MiB
+  TDP: 35-54 W
+  Core Count: 6
+  Thread Count: 12
+  Base Frequency: 4.3 GHz
+  Boost Frequency: 5 GHz
+  GPU Model: Radeon 760M
+  GPU Base Frequency: 2600 MHz
+  FreeSync Support: false

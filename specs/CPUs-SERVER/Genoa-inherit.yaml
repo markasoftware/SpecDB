@@ -10,6 +10,7 @@ data:
   Memory Type: DDR5
   Max Memory Frequency: 4800 MHz
   Max Memory Channels: 12
+  PCIe 5.0 Lanes: 128
   Stepping: B1
   FMA4: false
   FMA3: true

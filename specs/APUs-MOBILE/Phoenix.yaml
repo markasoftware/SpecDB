@@ -1,0 +1,32 @@
+name: Phoenix
+humanName: Phoenix
+type: APU Architecture
+topHeader: 'SELECT CPU:'
+data: 
+  Lithography: 4nm
+  Release Date: '2023-05'
+  Sockets:
+    - FP7
+    - FP7r2
+    - FP8
+sections:
+- header: Ryzen 9
+  members:
+  - Ryzen-9-7940HS
+  - Ryzen-9-7940H
+- header: Ryzen 7
+  members:
+  - Ryzen-7-7840HS
+  - Ryzen-7-7840H
+  - Ryzen-7-7840U
+- header: Ryzen 5
+  members:
+  - Ryzen-5-7640HS
+  - Ryzen-5-7640H
+  - Ryzen-5-7640U
+  - Ryzen-5-7540U
+- header: Ryzen 3
+  members:
+  - Ryzen-3-7440U
+
+
