@@ -50,20 +50,64 @@ def create_yaml_files(missingcpus):
   # Generate the file path
   file_path1 = os.path.join(specs_path, f'MISSINGCPUS.yaml')
 
+  data = {'name': 'MISSINGCPUS',
+          'humanName' : 'MISSINGCPUS',
+          'type' : 'Generic Container',
+          'isPart' : False,
+          'topHeader' : "",
+          'sections' : [
+            {
+              'header' : 'MISSINGCPUS',
+              'members' : ['MISSINGCPUSAGAIN']
+            }
+          ]}
   # Write the YAML data to the file
   with open(file_path1, 'w') as file:
-    yaml.dump(missingcpus, file)
+    yaml.dump(data, file,default_flow_style=False, sort_keys=False)
+
+  # Generate the file path
+  file_path1 = os.path.join(specs_path,'MISSINGCPUS', f'MISSINGCPUSAGAIN.yaml')
+
+  data = {'name': 'MISSINGCPUSAGAIN',
+          'humanName' : 'MISSINGCPUSAGAIN',
+          'type' : 'CPU Architecture',
+          'topHeader' : "",
+          'data' : {
+            'Lithography' : '30nm',
+            'Sockets' : ['idk lol'],
+            'Release Date' : '0000-00-00'
+          },
+          'sections' : [
+            {
+              'header' : 'MISSINGCPUS',
+              'members' : missingcpus
+            }
+          ]}
+  # Write the YAML data to the file
+  with open(file_path1, 'w') as file:
+    yaml.dump(data, file,default_flow_style=False, sort_keys=False)
 
   # Create a YAML file for each string in the list
   for cpu_name in missingcpus:
-    data = {'name': cpu_name,'humanName':cpu_name.replace("-"," ")}
+    data = {'name': cpu_name,
+            'humanName':cpu_name.replace("-"," "),
+            'isPart' : True,
+            'type' : 'CPU',
+            'data' : {
+              'Manufacturer' : 'Intel',
+              'Core Count' : 0,
+              'Thread Count' : 0,
+              'Base Frequency' : 'not complete',
+              'TDP' : 'not complete'
+            }
+            }
 
     # Generate the file path
     file_path = os.path.join(folder_path, f'{cpu_name}.yaml')
     
     # Write the YAML data to the file
     with open(file_path, 'w') as file:
-      yaml.dump(data, file)
+      yaml.dump(data, file,default_flow_style=False, sort_keys=False)
 
 
 create_yaml_files(missingcpus)

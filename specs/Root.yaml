@@ -6,6 +6,7 @@ topHeader: "SELECT CATEGORY:"
 sections:
   - header: AMD
     members:
+    - MISSINGCPUS
     - CPUs-DESKTOP
     - CPUs-SERVER
     - GPUs-CONSUMER
