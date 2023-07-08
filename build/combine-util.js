@@ -165,7 +165,7 @@ const combineUtil = {
 			},
 			// simple Intel
 			{
-				nameTest: /^(Pentium|Core|Xeon|Celeron|Atom)/,
+				nameTest: /^(Pentium|Core|Xeon|Celeron|Atom|core)/,
 				brand: 'intel',
 				type: 'cpu',
 				parser: () => {

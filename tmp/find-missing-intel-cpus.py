@@ -40,7 +40,8 @@ missingcpus = []
 # Print the CPU names
 for cpu_name in cpu_names:
   if(cpu_name not in listOfCPUs):
-    missingcpus.append(cpu_name)
+    missingcpus.append(cpu_name.replace('core','Core').replace('0ks','0KS').replace('0kf','0KF').replace('0k','0K').replace('0f','0F').replace('0t','0T').replace('0h','0H'))
+#print(cpu_names)
 
 def create_yaml_files(missingcpus):
   # Create the folder if it doesn't exist
