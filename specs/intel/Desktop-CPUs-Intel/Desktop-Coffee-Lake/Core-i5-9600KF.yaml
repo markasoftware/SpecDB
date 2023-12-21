@@ -1,0 +1,28 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Coffee Lake'
+  Market: Desktop
+  Lithography: '14 nm'
+  TDP: '95 W'
+  'Core Count': 6
+  'Thread Count': 6
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '2666 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '3.7 GHz'
+  'Boost Frequency': '4.6 GHz'
+  'L2 Cache (Total)': '9 MiB'
+  'Release Date': '2019-01-07'
+  Socket: FCLGA1151
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+  'Geekbench Single-Core Score': 1559
+  'Geekbench Multi-Core Score': 5731
+  '3DMark Fire Strike Physics Score': 4345
+  'UserBenchmark CPU Score': '93.2'
+isPart: true
+type: CPU
+humanName: 'Core i5-9600KF'
+name: Core-i5-9600KF

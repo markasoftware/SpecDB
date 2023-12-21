@@ -1,0 +1,22 @@
+humanName: 'Tunnel Creek'
+sections:
+  -
+    header: '2 Threads'
+    members:
+      - Atom-E680T
+      - Atom-E680
+      - Atom-E660T
+      - Atom-E660
+      - Atom-E640T
+      - Atom-E640
+      - Atom-E620T
+      - Atom-E620
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': 'Q3 2010'
+  Sockets:
+    - BGA676
+name: Embedded-Tunnel-Creek

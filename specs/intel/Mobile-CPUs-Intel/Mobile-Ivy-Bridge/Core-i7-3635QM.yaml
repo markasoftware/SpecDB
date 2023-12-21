@@ -1,0 +1,28 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Ivy Bridge'
+  Market: Mobile
+  Lithography: '22 nm'
+  TDP: '45 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': DDR3/L/
+  'Base Frequency': '2.4 GHz'
+  'Boost Frequency': '3.4 GHz'
+  'L2 Cache (Total)': '6 MiB'
+  'Release Date': '2012-09-30'
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: false
+  'GPU Base Frequency': '650 MHz'
+  'GPU Boost Frequency': '1.2 GHz'
+  'Geekbench Single-Core Score': 528
+  'Geekbench Multi-Core Score': 1826
+  'UserBenchmark CPU Score': '62.1'
+isPart: true
+type: CPU
+humanName: 'Core i7-3635QM'
+name: Core-i7-3635QM

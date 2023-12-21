@@ -1,0 +1,20 @@
+humanName: 'Crystal Well'
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-4770R
+  -
+    header: '4 Threads'
+    members:
+      - Core-i5-4670R
+      - Core-i5-4570R
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2013-06-03'
+  Sockets:
+    - BGA1364
+name: Desktop-Crystal-Well

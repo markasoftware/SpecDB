@@ -1,0 +1,29 @@
+data:
+  Manufacturer: Intel
+  Architecture: Arrandale
+  Market: Mobile
+  Lithography: '32 nm'
+  TDP: '35 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1066 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2.53 GHz'
+  'Boost Frequency': '2.8 GHz'
+  'L2 Cache (Total)': '3 MiB'
+  'Die Size': '81 mm'
+  'Release Date': 'Q3 2010'
+  Socket: 'BGA1288, PGA988'
+  AES: false
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+  'GPU Base Frequency': '500 MHz'
+  'GPU Boost Frequency': '766 MHz'
+  'Geekbench Single-Core Score': 349
+  'Geekbench Multi-Core Score': 678
+isPart: true
+type: CPU
+humanName: 'Core i5-460M'
+name: Core-i5-460M

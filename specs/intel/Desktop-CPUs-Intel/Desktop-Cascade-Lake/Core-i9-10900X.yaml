@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Cascade Lake'
+  Market: Desktop
+  Lithography: '14 nm'
+  TDP: '165 W'
+  'Core Count': 10
+  'Thread Count': 20
+  'Max Memory Channels': 4
+  'Max Memory Frequency': '2933 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '3.7 GHz'
+  'Boost Frequency': '4.5 GHz'
+  'L2 Cache (Total)': '19.25 MiB'
+  'Release Date': '2019-10-07'
+  AES: true
+  AVX/SSE/MMX: AVX-512
+  'Geekbench Single-Core Score': 1564
+  'Geekbench Multi-Core Score': 9243
+  'UserBenchmark CPU Score': '85.1'
+isPart: true
+type: CPU
+humanName: 'Core i9-10900X'
+name: Core-i9-10900X

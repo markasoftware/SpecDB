@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Cascade Lake'
+  Market: Desktop
+  Lithography: '14 nm'
+  TDP: '165 W'
+  'Core Count': 12
+  'Thread Count': 24
+  'Max Memory Channels': 4
+  'Max Memory Frequency': '2933 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '3.5 GHz'
+  'Boost Frequency': '4.6 GHz'
+  'L2 Cache (Total)': '19.25 MiB'
+  'Release Date': '2019-10-07'
+  AES: true
+  AVX/SSE/MMX: AVX-512
+  'Geekbench Single-Core Score': 1559
+  'Geekbench Multi-Core Score': 10474
+  'UserBenchmark CPU Score': '87.2'
+isPart: true
+type: CPU
+humanName: 'Core i9-10920X'
+name: Core-i9-10920X

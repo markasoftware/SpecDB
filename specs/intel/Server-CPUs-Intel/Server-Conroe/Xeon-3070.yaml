@@ -1,0 +1,18 @@
+data:
+  Manufacturer: Intel
+  Architecture: Conroe
+  Market: Server
+  Lithography: '65 nm'
+  TDP: '65 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Base Frequency': '2.66 GHz'
+  'L2 Cache (Total)': '4 MiB'
+  'Die Size': '143 mm'
+  Socket: PLGA775
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Xeon 3070'
+name: Xeon-3070

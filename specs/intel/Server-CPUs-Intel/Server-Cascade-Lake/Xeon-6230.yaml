@@ -1,0 +1,22 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Cascade Lake'
+  Market: Server
+  Lithography: '14 nm'
+  TDP: '125 W'
+  'Core Count': 20
+  'Thread Count': 40
+  'Max Memory Channels': 6
+  'Max Memory Frequency': '2933 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '2.1 GHz'
+  'Boost Frequency': '3.9 GHz'
+  'L2 Cache (Total)': '27.5 MiB'
+  'Release Date': '2019-04-02'
+  Socket: FCLGA3647
+  AES: true
+  AVX/SSE/MMX: AVX-512
+isPart: true
+type: CPU
+humanName: 'Xeon 6230'
+name: Xeon-6230

@@ -1,0 +1,34 @@
+data:
+  Manufacturer: Intel
+  Architecture: "Devil's Canyon"
+  Market: Desktop
+  Lithography: '22 nm'
+  TDP: '88 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': 'DDR3, DDR3L'
+  'Base Frequency': '4 GHz'
+  'Boost Frequency': '4.4 GHz'
+  'L2 Cache (Total)': '8 MiB'
+  'Release Date': '2014-06-02'
+  Socket: FCLGA1150
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+  'GPU Base Frequency': '350 MHz'
+  'GPU Boost Frequency': '1.25 GHz'
+  'VRAM Type': 'DDR3, DDR3L'
+  'Maximum VRAM Capacity': '2 GiB'
+  'DirectX Support': '12'
+  'OpenGL Support': '4.3'
+  'Geekbench Single-Core Score': 1359
+  'Geekbench Multi-Core Score': 4395
+  '3DMark Fire Strike Physics Score': 2844
+  'UserBenchmark CPU Score': '78.9'
+isPart: true
+type: CPU
+humanName: 'Core i7-4790K'
+name: Core-i7-4790K

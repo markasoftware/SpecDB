@@ -1,0 +1,56 @@
+humanName: Broadwell
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-5950HQ
+      - Core-i7-5850HQ
+      - Core-i7-5750HQ
+      - Core-i7-5700HQ
+  -
+    header: '4 Threads'
+    members:
+      - Pentium-3825U
+      - Core-i7-5650U
+      - Core-i7-5600U
+      - Core-i7-5557U
+      - Core-i7-5550U
+      - Core-i7-5500U
+      - Core-i5-5350U
+      - Core-i5-5350H
+      - Core-i5-5300U
+      - Core-i5-5287U
+      - Core-i5-5257U
+      - Core-i5-5250U
+      - Core-i5-5200U
+      - Core-i3-5157U
+      - Core-i3-5020U
+      - Core-i3-5015U
+      - Core-i3-5010U
+      - Core-i3-5005U
+      - Core-5Y71
+      - Core-5Y70
+      - Core-5Y51
+      - Core-5Y31
+      - Core-5Y10c
+      - Core-5Y10a
+      - Core-5Y10
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-3805U
+      - Pentium-3765U
+      - Pentium-3755U
+      - Pentium-3215U
+      - Pentium-3205U
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2014-09-05'
+  Sockets:
+    - BGA1234
+    - BGA1168
+    - BGA1364
+name: Mobile-Broadwell

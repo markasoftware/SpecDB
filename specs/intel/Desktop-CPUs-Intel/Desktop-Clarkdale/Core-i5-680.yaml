@@ -1,0 +1,27 @@
+data:
+  Manufacturer: Intel
+  Architecture: Clarkdale
+  Market: Desktop
+  Lithography: '32 nm'
+  TDP: '73 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1333 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '3.6 GHz'
+  'Boost Frequency': '3.86 GHz'
+  'L2 Cache (Total)': '4 MiB'
+  'Die Size': '81 mm'
+  'Release Date': 'Q2 2010'
+  Socket: FCLGA1156
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+  'GPU Base Frequency': '733 MHz'
+  'UserBenchmark CPU Score': '51.8'
+isPart: true
+type: CPU
+humanName: 'Core i5-680'
+name: Core-i5-680

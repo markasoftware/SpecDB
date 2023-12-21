@@ -1,0 +1,17 @@
+data:
+  Manufacturer: Intel
+  Architecture: Yonah
+  Market: Mobile
+  Lithography: '65 nm'
+  TDP: '27 W'
+  'Core Count': 1
+  'Thread Count': 1
+  'Base Frequency': '1.46 GHz'
+  'L2 Cache (Total)': '1024 KiB'
+  'Die Size': '90 mm'
+  Socket: PPGA478
+  'Other Extensions': {  }
+isPart: true
+type: CPU
+humanName: 'Pentium 410'
+name: Pentium-410

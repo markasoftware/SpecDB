@@ -1,0 +1,19 @@
+data:
+  Manufacturer: Intel
+  Architecture: Penryn
+  Market: Mobile
+  Lithography: '45 nm'
+  TDP: '17 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Base Frequency': '1.6 GHz'
+  'L2 Cache (Total)': '6 MiB'
+  'Die Size': '107 mm'
+  'Release Date': '2008-08-19'
+  Socket: BGA956
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Core SL9300'
+name: Core-SL9300

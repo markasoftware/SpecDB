@@ -1,0 +1,23 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Westmere EX'
+  Market: Server
+  Lithography: '32 nm'
+  TDP: '95 W'
+  'Core Count': 6
+  'Thread Count': 12
+  'Max Memory Channels': 4
+  'Max Memory Frequency': '1333 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '1.86 GHz'
+  'L2 Cache (Total)': '18 MiB'
+  'Release Date': '2011-04-05'
+  Socket: LGA1567
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+isPart: true
+type: CPU
+humanName: 'Xeon E7-4807'
+name: Xeon-E7-4807

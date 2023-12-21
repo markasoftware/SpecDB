@@ -1,0 +1,20 @@
+humanName: Clarksfield
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-940XM
+      - Core-i7-920XM
+      - Core-i7-840QM
+      - Core-i7-820QM
+      - Core-i7-740QM
+      - Core-i7-720QM
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': '2009-09-23'
+  Sockets:
+    - PGA988
+name: Mobile-Clarksfield

@@ -1,0 +1,17 @@
+data:
+  Manufacturer: Intel
+  Architecture: Dothan
+  Market: Mobile
+  Lithography: '90 nm'
+  TDP: '21 W'
+  'Core Count': 1
+  'Thread Count': 1
+  'Base Frequency': '1.8 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Die Size': '87 mm'
+  'Release Date': '2004-06-25'
+  'Other Extensions': {  }
+isPart: true
+type: CPU
+humanName: 'Pentium 745A'
+name: Pentium-745A

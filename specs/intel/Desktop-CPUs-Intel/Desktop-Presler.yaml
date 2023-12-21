@@ -1,0 +1,27 @@
+humanName: Presler
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Pentium-965
+      - Pentium-955
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-960
+      - Pentium-950
+      - Pentium-945
+      - Pentium-940
+      - Pentium-935
+      - Pentium-930
+      - Pentium-920
+      - Pentium-915
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '65 nm'
+  'Release Date': 'Q1 2006'
+  Sockets:
+    - PLGA775
+name: Desktop-Presler

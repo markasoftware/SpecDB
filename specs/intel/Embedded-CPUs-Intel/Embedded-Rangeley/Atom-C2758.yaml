@@ -1,0 +1,22 @@
+data:
+  Manufacturer: Intel
+  Architecture: Rangeley
+  Market: Embedded
+  Lithography: '22 nm'
+  TDP: '20 W'
+  'Core Count': 8
+  'Thread Count': 8
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': DDR3/DDR3L
+  'Base Frequency': '2.4 GHz'
+  'L2 Cache (Total)': '4 MiB'
+  'Release Date': '2013-09-04'
+  Socket: FCBGA1283
+  AES: true
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Atom C2758'
+name: Atom-C2758

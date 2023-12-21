@@ -1,0 +1,21 @@
+data:
+  Manufacturer: Intel
+  Architecture: Wolfdale
+  Market: Desktop
+  Lithography: '45 nm'
+  TDP: '65 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Base Frequency': '2.6 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Die Size': '82 mm'
+  'Release Date': '2008-12-01'
+  Socket: LGA775
+  AES: false
+  'Other Extensions':
+    - x86-64
+  'UserBenchmark CPU Score': '35.9'
+isPart: true
+type: CPU
+humanName: 'Pentium E5300'
+name: Pentium-E5300

@@ -1,0 +1,28 @@
+data:
+  Manufacturer: Intel
+  Architecture: Lynnfield
+  Market: Server
+  Lithography: '45 nm'
+  TDP: '95 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1333 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2.53 GHz'
+  'Boost Frequency': '2.93 GHz'
+  'L2 Cache (Total)': '8 MiB'
+  'Die Size': '296 mm'
+  'Release Date': '2009-09-08'
+  Socket: LGA1156
+  AES: false
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+  'Geekbench Single-Core Score': 402
+  'Geekbench Multi-Core Score': 1398
+  'UserBenchmark CPU Score': '65.2'
+isPart: true
+type: CPU
+humanName: 'Xeon X3440'
+name: Xeon-X3440

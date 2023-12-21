@@ -1,0 +1,27 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Sandy Bridge'
+  Market: Mobile
+  Lithography: '32 nm'
+  TDP: '35 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1333 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2.3 GHz'
+  'L2 Cache (Total)': '3 MiB'
+  'Release Date': '2013-01-01'
+  AES: false
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: false
+  'GPU Base Frequency': '650 MHz'
+  'GPU Boost Frequency': '1.15 GHz'
+  'Geekbench Single-Core Score': 345
+  'Geekbench Multi-Core Score': 660
+  'UserBenchmark CPU Score': '48.8'
+isPart: true
+type: CPU
+humanName: 'Core i3-2348M'
+name: Core-i3-2348M

@@ -1,0 +1,32 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Coffee Lake'
+  Market: Mobile
+  Lithography: 14nm
+  TDP: '45 W'
+  'Core Count': 6
+  'Thread Count': 12
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '2666 MHz'
+  'Memory Type': 'DDR4, LPDDR3'
+  'Base Frequency': '2.7 GHz'
+  'Boost Frequency': '4.4 GHz'
+  'L2 Cache (Total)': '12 MiB'
+  'Release Date': '2018-04-03'
+  Socket: FCBGA1440
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+  'GPU Base Frequency': '350 MHz'
+  'GPU Boost Frequency': '1.2 GHz'
+  'VRAM Type': 'DDR4, LPDDR3'
+  'Maximum VRAM Capacity': '64 GiB'
+  'DirectX Support': '12'
+  'OpenGL Support': '4.5'
+  'Geekbench Single-Core Score': 1400
+  'Geekbench Multi-Core Score': 5032
+isPart: true
+type: CPU
+humanName: 'Xeon E-2176M'
+name: Xeon-E-2176M

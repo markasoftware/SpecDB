@@ -1,0 +1,34 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Coffee Lake'
+  Market: Desktop
+  Lithography: '14 nm'
+  TDP: '65 W'
+  'Core Count': 8
+  'Thread Count': 8
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '2666 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '3 GHz'
+  'Boost Frequency': '4.7 GHz'
+  'L2 Cache (Total)': '12 MiB'
+  'Release Date': '2019-04-23'
+  Socket: FCLGA1151
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+  'GPU Base Frequency': '350 MHz'
+  'GPU Boost Frequency': '1.2 GHz'
+  'VRAM Type': DDR4
+  'Maximum VRAM Capacity': '64 GiB'
+  'DirectX Support': '12'
+  'OpenGL Support': '4.5'
+  'Geekbench Single-Core Score': 1528
+  'Geekbench Multi-Core Score': 6164
+  '3DMark Fire Strike Physics Score': 5414
+  'UserBenchmark CPU Score': '92'
+isPart: true
+type: CPU
+humanName: 'Core i7-9700'
+name: Core-i7-9700

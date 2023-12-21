@@ -1,0 +1,22 @@
+data:
+  Manufacturer: Intel
+  Architecture: Briarwood
+  Market: Server
+  Lithography: '32 nm'
+  TDP: '13.1 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 1
+  'Max Memory Frequency': '1333 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '1.6 GHz'
+  'L2 Cache (Total)': '1024 KiB'
+  'Release Date': '2013-04-10'
+  Socket: FCBGA1283
+  AES: false
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Atom S1279'
+name: Atom-S1279

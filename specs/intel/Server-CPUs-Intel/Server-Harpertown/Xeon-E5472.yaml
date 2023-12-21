@@ -1,0 +1,20 @@
+data:
+  Manufacturer: Intel
+  Architecture: Harpertown
+  Market: Server
+  Lithography: '45 nm'
+  TDP: '80 W'
+  'Core Count': 4
+  'Thread Count': 4
+  'Base Frequency': '3 GHz'
+  'L2 Cache (Total)': '12 MiB'
+  'Die Size': '214 mm'
+  'Release Date': '2007-11-12'
+  Socket: LGA771
+  'Other Extensions':
+    - x86-64
+  'UserBenchmark CPU Score': '50.7'
+isPart: true
+type: CPU
+humanName: 'Xeon E5472'
+name: Xeon-E5472

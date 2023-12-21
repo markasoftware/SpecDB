@@ -1,0 +1,25 @@
+data:
+  Manufacturer: Intel
+  Architecture: Skylake
+  Market: Server
+  Lithography: '14 nm'
+  TDP: '105 W'
+  'Core Count': 14
+  'Thread Count': 28
+  'Base Frequency': '2.2 GHz'
+  'L2 Cache (Total)': '19.25 MiB'
+  'Die Size': '143 mm'
+  Socket: FCLGA3647
+  'Other Extensions':
+    - x86-64
+  'Max Memory Channels': 6
+  'Max Memory Frequency': '2400 MHz'
+  'Memory Type': DDR4
+  'Boost Frequency': '3.2 GHz'
+  'Release Date': '2017-07-11'
+  AES: true
+  AVX/SSE/MMX: AVX-512
+isPart: true
+type: CPU
+humanName: 'Xeon 5120'
+name: Xeon-5120

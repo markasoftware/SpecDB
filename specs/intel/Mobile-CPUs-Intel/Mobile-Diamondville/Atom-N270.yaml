@@ -1,0 +1,20 @@
+data:
+  Manufacturer: Intel
+  Architecture: Diamondville
+  Market: Mobile
+  Lithography: '45 nm'
+  TDP: '2.5 W'
+  'Core Count': 1
+  'Thread Count': 2
+  'Base Frequency': '1.6 GHz'
+  'L2 Cache (Total)': '512 KiB'
+  'Die Size': '26 mm'
+  'Release Date': '2008-06-03'
+  Socket: PBGA437
+  'Other Extensions': {  }
+  AVX/SSE/MMX: false
+  'UserBenchmark CPU Score': '20.1'
+isPart: true
+type: CPU
+humanName: 'Atom N270'
+name: Atom-N270

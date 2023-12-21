@@ -1,0 +1,21 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Jasper Forest'
+  Market: Embedded
+  Lithography: '45 nm'
+  TDP: '30 W'
+  'Core Count': 1
+  'Thread Count': 2
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '800 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '1.33 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Release Date': 'Q1 2010'
+  Socket: FCLGA1366
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Pentium P1053'
+name: Pentium-P1053

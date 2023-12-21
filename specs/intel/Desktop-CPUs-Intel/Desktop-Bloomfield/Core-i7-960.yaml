@@ -1,0 +1,28 @@
+data:
+  Manufacturer: Intel
+  Architecture: Bloomfield
+  Market: Desktop
+  Lithography: '45 nm'
+  TDP: '130 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 3
+  'Max Memory Frequency': '1066 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '3.2 GHz'
+  'Boost Frequency': '3.46 GHz'
+  'L2 Cache (Total)': '8 MiB'
+  'Die Size': '263 mm'
+  'Release Date': '2009-10-19'
+  Socket: FCLGA1366
+  AES: false
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+  'Geekbench Single-Core Score': 492
+  'Geekbench Multi-Core Score': 1673
+  'UserBenchmark CPU Score': '67.6'
+isPart: true
+type: CPU
+humanName: 'Core i7-960'
+name: Core-i7-960

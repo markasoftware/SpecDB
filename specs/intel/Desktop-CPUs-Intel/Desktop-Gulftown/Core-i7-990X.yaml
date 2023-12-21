@@ -1,0 +1,27 @@
+data:
+  Manufacturer: Intel
+  Architecture: Gulftown
+  Market: Desktop
+  Lithography: '32 nm'
+  TDP: '130 W'
+  'Core Count': 6
+  'Thread Count': 12
+  'Max Memory Channels': 3
+  'Max Memory Frequency': '1066 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '3.46 GHz'
+  'Boost Frequency': '3.73 GHz'
+  'L2 Cache (Total)': '12 MiB'
+  'Die Size': '239 mm'
+  'Release Date': '2011-02-13'
+  Socket: FCLGA1366
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+  'Geekbench Single-Core Score': 563
+  'Geekbench Multi-Core Score': 2629
+isPart: true
+type: CPU
+humanName: 'Core i7-990X'
+name: Core-i7-990X

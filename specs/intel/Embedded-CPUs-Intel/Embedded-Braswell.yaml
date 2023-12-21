@@ -1,0 +1,15 @@
+humanName: Braswell
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Atom-E8000
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2016-01-17'
+  Sockets:
+    - BGA1170
+name: Embedded-Braswell

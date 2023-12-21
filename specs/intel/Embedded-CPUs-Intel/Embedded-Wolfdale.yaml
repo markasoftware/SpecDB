@@ -1,0 +1,20 @@
+humanName: Wolfdale
+sections:
+  -
+    header: '2 Threads'
+    members:
+      - Xeon-L5238
+      - Xeon-E5240
+  -
+    header: '1 Threads'
+    members:
+      - Xeon-L3014
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': 'Q1 2008'
+  Sockets:
+    - LGA771
+name: Embedded-Wolfdale

@@ -1,0 +1,23 @@
+data:
+  Manufacturer: Intel
+  Architecture: Broadwell
+  Market: Server
+  Lithography: '14 nm'
+  TDP: '135 W'
+  'Core Count': 18
+  'Thread Count': 36
+  'Max Memory Channels': 4
+  'Memory Type': DDR4
+  'Base Frequency': '2.2 GHz'
+  'Boost Frequency': '3 GHz'
+  'L2 Cache (Total)': '45 MiB'
+  'Release Date': '2016-06-20'
+  Socket: FCLGA2011-3
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+isPart: true
+type: CPU
+humanName: 'Xeon E5-4667V4'
+name: Xeon-E5-4667V4

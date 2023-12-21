@@ -1,0 +1,17 @@
+data:
+  Manufacturer: Intel
+  Architecture: Yonah
+  Market: Mobile
+  Lithography: '65 nm'
+  TDP: '31 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Base Frequency': '2 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Die Size': '90 mm'
+  Socket: PPGA478
+  'Other Extensions': {  }
+isPart: true
+type: CPU
+humanName: 'Core T2450'
+name: Core-T2450

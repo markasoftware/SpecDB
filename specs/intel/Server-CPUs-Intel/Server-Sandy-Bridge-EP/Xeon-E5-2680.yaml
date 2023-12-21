@@ -1,0 +1,26 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Sandy Bridge EP'
+  Market: Server
+  Lithography: '32 nm'
+  TDP: '130 W'
+  'Core Count': 8
+  'Thread Count': 16
+  'Max Memory Channels': 4
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2.7 GHz'
+  'Boost Frequency': '3.5 GHz'
+  'L2 Cache (Total)': '20 MiB'
+  'Release Date': '2012-03-06'
+  Socket: FCLGA2011
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: false
+  'Geekbench Single-Core Score': 550
+  'Geekbench Multi-Core Score': 3238
+isPart: true
+type: CPU
+humanName: 'Xeon E5-2680'
+name: Xeon-E5-2680

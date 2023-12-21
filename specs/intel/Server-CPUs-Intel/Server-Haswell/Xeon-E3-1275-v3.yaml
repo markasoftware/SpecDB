@@ -1,0 +1,29 @@
+data:
+  Manufacturer: Intel
+  Architecture: Haswell
+  Market: Server
+  Lithography: '22 nm'
+  TDP: '84 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': 'DDR3, DDR3L'
+  'Base Frequency': '3.5 GHz'
+  'Boost Frequency': '3.9 GHz'
+  'L2 Cache (Total)': '8 MiB'
+  'Release Date': '2013-06-01'
+  Socket: FCLGA1150
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+  'GPU Base Frequency': '350 MHz'
+  'GPU Boost Frequency': '1.25 GHz'
+  'Geekbench Single-Core Score': 1163
+  'Geekbench Multi-Core Score': 3645
+  'UserBenchmark CPU Score': '77.2'
+isPart: true
+type: CPU
+humanName: 'Xeon E3-1275 v3'
+name: Xeon-E3-1275-v3

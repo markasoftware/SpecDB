@@ -1,0 +1,31 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Coffee Lake'
+  Market: Mobile
+  Lithography: '14 nm'
+  TDP: '65 W'
+  'Core Count': 4
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '2666 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '3.6 GHz'
+  'L2 Cache (Total)': '6 MiB'
+  'Release Date': '2018-09-03'
+  Socket: FCBGA1440
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+  'GPU Base Frequency': '350 MHz'
+  'GPU Boost Frequency': '1.05 GHz'
+  'VRAM Type': DDR4
+  'Maximum VRAM Capacity': '64 GiB'
+  'DirectX Support': '12'
+  'OpenGL Support': '4.5'
+  'Geekbench Single-Core Score': 1218
+  'Geekbench Multi-Core Score': 3624
+isPart: true
+type: CPU
+humanName: 'Core i3-8100B'
+name: Core-i3-8100B

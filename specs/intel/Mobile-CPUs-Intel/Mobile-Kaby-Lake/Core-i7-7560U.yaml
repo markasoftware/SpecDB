@@ -1,0 +1,33 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Kaby Lake'
+  Market: Mobile
+  Lithography: '14 nm'
+  TDP: '15 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '2133 MHz'
+  'Memory Type': 'DDR4, LPDDR3, DDR3L'
+  'Base Frequency': '2.4 GHz'
+  'Boost Frequency': '3.8 GHz'
+  'L2 Cache (Total)': '4 MiB'
+  'Release Date': '2017-01-03'
+  Socket: FCBGA1356
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+  'GPU Base Frequency': '300 MHz'
+  'GPU Boost Frequency': '1.05 GHz'
+  'VRAM Type': 'DDR4, LPDDR3, DDR3L'
+  'Maximum VRAM Capacity': '32 GiB'
+  'DirectX Support': '12'
+  'OpenGL Support': '4.5'
+  'Geekbench Single-Core Score': 1137
+  'Geekbench Multi-Core Score': 2209
+  'UserBenchmark CPU Score': '54.9'
+isPart: true
+type: CPU
+humanName: 'Core i7-7560U'
+name: Core-i7-7560U

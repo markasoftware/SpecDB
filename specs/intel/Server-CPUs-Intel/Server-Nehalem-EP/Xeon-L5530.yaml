@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Nehalem EP'
+  Market: Server
+  Lithography: '45 nm'
+  TDP: '60 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 3
+  'Max Memory Frequency': '1066 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2.4 GHz'
+  'Boost Frequency': '2.66 GHz'
+  'L2 Cache (Total)': '8 MiB'
+  'Die Size': '263 mm'
+  'Release Date': '2009-08-04'
+  Socket: FCLGA1366
+  AES: false
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Xeon L5530'
+name: Xeon-L5530

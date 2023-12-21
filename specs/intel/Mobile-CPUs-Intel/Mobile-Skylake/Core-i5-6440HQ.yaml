@@ -1,0 +1,32 @@
+data:
+  Manufacturer: Intel
+  Architecture: Skylake
+  Market: Mobile
+  Lithography: '14 nm'
+  TDP: '45 W'
+  'Core Count': 4
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '2133 MHz'
+  'Memory Type': 'DDR4, LPDDR3, DDR3L'
+  'Base Frequency': '2.6 GHz'
+  'Boost Frequency': '3.5 GHz'
+  'L2 Cache (Total)': '6 MiB'
+  'Release Date': '2015-09-01'
+  Socket: FCBGA1440
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+  'GPU Base Frequency': '350 MHz'
+  'GPU Boost Frequency': '950 MHz'
+  'VRAM Type': 'DDR4, LPDDR3, DDR3L'
+  'Maximum VRAM Capacity': '64 GiB'
+  'DirectX Support': '12'
+  'OpenGL Support': '4.5'
+  'Geekbench Single-Core Score': 1039
+  'Geekbench Multi-Core Score': 2690
+isPart: true
+type: CPU
+humanName: 'Core i5-6440HQ'
+name: Core-i5-6440HQ

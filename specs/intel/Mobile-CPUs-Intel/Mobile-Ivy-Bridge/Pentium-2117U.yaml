@@ -1,0 +1,28 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Ivy Bridge'
+  Market: Mobile
+  Lithography: '22 nm'
+  TDP: '17 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': DDR3/L/
+  'Base Frequency': '1.8 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Release Date': '2012-09-30'
+  Socket: FCBGA1023
+  AES: false
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+  'GPU Base Frequency': '350 MHz'
+  'GPU Boost Frequency': '1000 MHz'
+  'Geekbench Single-Core Score': 302
+  'Geekbench Multi-Core Score': 515
+  'UserBenchmark CPU Score': '43.2'
+isPart: true
+type: CPU
+humanName: 'Pentium 2117U'
+name: Pentium-2117U

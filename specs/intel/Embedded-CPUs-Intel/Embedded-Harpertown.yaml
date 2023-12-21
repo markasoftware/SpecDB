@@ -1,0 +1,15 @@
+humanName: Harpertown
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-L5408
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': '2008-03-31'
+  Sockets:
+    - LGA771
+name: Embedded-Harpertown

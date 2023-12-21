@@ -1,0 +1,27 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Apollo Lake'
+  Market: Desktop
+  Lithography: 14nm
+  TDP: '10 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '2400 MHz'
+  'Memory Type': 'DDR3L/LPDDR3, LPDDR4'
+  'Base Frequency': '2 GHz'
+  'Boost Frequency': '2.5 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Release Date': '2019-07-29'
+  AES: true
+  'Other Extensions':
+    - x86-64
+  'GPU Base Frequency': '250 MHz'
+  'VRAM Type': 'DDR3L/LPDDR3, LPDDR4'
+  'Maximum VRAM Capacity': '8 GiB'
+  'DirectX Support': '0'
+  'OpenGL Support': 'Yes'
+isPart: true
+type: CPU
+humanName: 'Pentium J3355E'
+name: Pentium-J3355E

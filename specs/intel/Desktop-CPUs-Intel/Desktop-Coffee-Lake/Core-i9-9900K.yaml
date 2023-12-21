@@ -1,0 +1,34 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Coffee Lake'
+  Market: Desktop
+  Lithography: '14 nm'
+  TDP: '95 W'
+  'Core Count': 8
+  'Thread Count': 16
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '2666 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '3.6 GHz'
+  'Boost Frequency': '5 GHz'
+  'L2 Cache (Total)': '16 MiB'
+  'Release Date': '2018-10-08'
+  Socket: FCLGA1151
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+  'GPU Base Frequency': '350 MHz'
+  'GPU Boost Frequency': '1.2 GHz'
+  'VRAM Type': DDR4
+  'Maximum VRAM Capacity': '64 GiB'
+  'DirectX Support': '12'
+  'OpenGL Support': '4.5'
+  'Geekbench Single-Core Score': 1635
+  'Geekbench Multi-Core Score': 7941
+  '3DMark Fire Strike Physics Score': 7084
+  'UserBenchmark CPU Score': '97.9'
+isPart: true
+type: CPU
+humanName: 'Core i9-9900K'
+name: Core-i9-9900K

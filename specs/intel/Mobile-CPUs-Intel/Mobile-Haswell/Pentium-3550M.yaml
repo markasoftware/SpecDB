@@ -1,0 +1,26 @@
+data:
+  Manufacturer: Intel
+  Architecture: Haswell
+  Market: Mobile
+  Lithography: '22 nm'
+  TDP: '37 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': DDR3L
+  'Base Frequency': '2.3 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Release Date': '2013-09-01'
+  Socket: FCPGA946
+  AES: false
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+  'GPU Base Frequency': '400 MHz'
+  'GPU Boost Frequency': '1.1 GHz'
+  'UserBenchmark CPU Score': '49.1'
+isPart: true
+type: CPU
+humanName: 'Pentium 3550M'
+name: Pentium-3550M

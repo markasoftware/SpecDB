@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Sandy Bridge'
+  Market: Mobile
+  Lithography: '32 nm'
+  TDP: '17 W'
+  'Core Count': 1
+  'Thread Count': 1
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1333 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '1.4 GHz'
+  'L2 Cache (Total)': '1.5 MiB'
+  'Release Date': '2012-01-15'
+  AES: false
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+  'GPU Base Frequency': '350 MHz'
+  'GPU Boost Frequency': '950 MHz'
+isPart: true
+type: CPU
+humanName: 'Pentium 797'
+name: Pentium-797

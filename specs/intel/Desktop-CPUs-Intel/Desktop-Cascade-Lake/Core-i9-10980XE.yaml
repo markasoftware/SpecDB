@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Cascade Lake'
+  Market: Desktop
+  Lithography: '14 nm'
+  TDP: '165 W'
+  'Core Count': 18
+  'Thread Count': 36
+  'Max Memory Channels': 4
+  'Max Memory Frequency': '2933 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '3 GHz'
+  'Boost Frequency': '4.6 GHz'
+  'L2 Cache (Total)': '24.75 MiB'
+  'Release Date': '2019-10-07'
+  AES: true
+  AVX/SSE/MMX: AVX-512
+  'Geekbench Single-Core Score': 1555
+  'Geekbench Multi-Core Score': 11957
+  'UserBenchmark CPU Score': '84.2'
+isPart: true
+type: CPU
+humanName: 'Core i9-10980XE'
+name: Core-i9-10980XE

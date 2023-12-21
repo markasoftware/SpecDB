@@ -1,0 +1,52 @@
+humanName: 'Ivy Bridge EP'
+sections:
+  -
+    header: '17 - 64 Threads'
+    members:
+      - Xeon-E5-4657LV2
+      - Xeon-E5-4650V2
+      - Xeon-E5-4640V2
+      - Xeon-E5-2697V2
+      - Xeon-E5-2695V2
+      - Xeon-E5-2690V2
+      - Xeon-E5-2680V2
+      - Xeon-E5-2670V2
+      - Xeon-E5-2660V2
+      - Xeon-E5-2650LV2
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Xeon-E5-4620V2
+      - Xeon-E5-4610V2
+      - Xeon-E5-4607V2
+      - Xeon-E5-2687WV2
+      - Xeon-E5-2667V2
+      - Xeon-E5-2650V2
+      - Xeon-E5-2643V2
+      - Xeon-E5-2640V2
+      - Xeon-E5-2630V2
+      - Xeon-E5-2630LV2
+      - Xeon-E5-2620V2
+      - Xeon-E5-1660V2
+      - Xeon-E5-1650V2
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-E5-4627V2
+      - Xeon-E5-4603V2
+      - Xeon-E5-2637V2
+      - Xeon-E5-1620V2
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-E5-2609V2
+      - Xeon-E5-2603V2
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2013-09-10'
+  Sockets:
+    - LGA2011
+name: Server-Ivy-Bridge-EP

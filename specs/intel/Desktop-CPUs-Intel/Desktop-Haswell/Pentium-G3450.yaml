@@ -1,0 +1,30 @@
+data:
+  Manufacturer: Intel
+  Architecture: Haswell
+  Market: Desktop
+  Lithography: '22 nm'
+  TDP: '53 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': 'DDR3, DDR3L'
+  'Base Frequency': '3.4 GHz'
+  'L2 Cache (Total)': '3 MiB'
+  'Release Date': '2014-05-11'
+  Socket: FCLGA1150
+  AES: false
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+  'GPU Base Frequency': '350 MHz'
+  'GPU Boost Frequency': '1.1 GHz'
+  'VRAM Type': 'DDR3, DDR3L'
+  'Maximum VRAM Capacity': '1.69921875 GiB'
+  'DirectX Support': '12'
+  'OpenGL Support': '4.3'
+  'UserBenchmark CPU Score': '56'
+isPart: true
+type: CPU
+humanName: 'Pentium G3450'
+name: Pentium-G3450

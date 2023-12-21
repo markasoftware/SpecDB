@@ -1,0 +1,23 @@
+data:
+  Manufacturer: Intel
+  Architecture: Cedarview
+  Market: Mobile
+  Lithography: '32 nm'
+  TDP: '6.5 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 1
+  'Memory Type': DDR3
+  'Base Frequency': '1.86 GHz'
+  'L2 Cache (Total)': '1024 KiB'
+  'Release Date': '2011-12-28'
+  Socket: FCBGA559
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: false
+  'GPU Base Frequency': '640 MHz'
+  'UserBenchmark CPU Score': '26'
+isPart: true
+type: CPU
+humanName: 'Atom N2800'
+name: Atom-N2800

@@ -1,0 +1,28 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Ivy Bridge'
+  Market: Mobile
+  Lithography: '22 nm'
+  TDP: '35 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': DDR3/L/
+  'Base Frequency': '2.5 GHz'
+  'L2 Cache (Total)': '3 MiB'
+  'Release Date': '2012-09-30'
+  Socket: FCPGA988
+  AES: false
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: false
+  'GPU Base Frequency': '650 MHz'
+  'GPU Boost Frequency': '1.1 GHz'
+  'Geekbench Single-Core Score': 384
+  'Geekbench Multi-Core Score': 844
+  'UserBenchmark CPU Score': '50.1'
+isPart: true
+type: CPU
+humanName: 'Core i3-3120M'
+name: Core-i3-3120M

@@ -1,0 +1,19 @@
+data:
+  Manufacturer: Intel
+  Architecture: Merom
+  Market: Mobile
+  Lithography: '65 nm'
+  TDP: '31 W'
+  'Core Count': 1
+  'Thread Count': 1
+  'Base Frequency': '2.16 GHz'
+  'L2 Cache (Total)': '1024 KiB'
+  'Die Size': '143 mm'
+  'Release Date': '2008-08-19'
+  Socket: PPGA478
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Pentium 585'
+name: Pentium-585

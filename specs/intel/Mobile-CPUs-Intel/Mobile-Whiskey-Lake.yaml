@@ -1,0 +1,28 @@
+humanName: 'Whiskey Lake'
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-8665U
+      - Core-i7-8565U
+      - Core-i5-8365U
+      - Core-i5-8265U
+  -
+    header: '4 Threads'
+    members:
+      - Pentium-5405U
+      - Core-i3-8145U
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-4305U
+      - Pentium-4205U
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2018-08-28'
+  Sockets:
+    - BGA1528
+name: Mobile-Whiskey-Lake

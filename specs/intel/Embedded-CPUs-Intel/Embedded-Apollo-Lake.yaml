@@ -1,0 +1,20 @@
+humanName: 'Apollo Lake'
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Atom-E3950
+      - Atom-E3940
+  -
+    header: '2 Threads'
+    members:
+      - Atom-E3930
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2016-10-25'
+  Sockets:
+    - BGA1296
+name: Embedded-Apollo-Lake

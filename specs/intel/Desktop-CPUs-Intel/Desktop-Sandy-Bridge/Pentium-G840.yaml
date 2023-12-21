@@ -1,0 +1,28 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Sandy Bridge'
+  Market: Desktop
+  Lithography: '32 nm'
+  TDP: '65 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1333 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2.8 GHz'
+  'L2 Cache (Total)': '3 MiB'
+  'Release Date': 'Q2 2011'
+  Socket: FCLGA1155
+  AES: false
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+  'GPU Base Frequency': '850 MHz'
+  'GPU Boost Frequency': '1.1 GHz'
+  'Geekbench Single-Core Score': 444
+  'Geekbench Multi-Core Score': 736
+  'UserBenchmark CPU Score': '51.3'
+isPart: true
+type: CPU
+humanName: 'Pentium G840'
+name: Pentium-G840

@@ -1,0 +1,16 @@
+humanName: 'Sandy Bridge EP'
+sections:
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Xeon-E5-2658
+      - Xeon-E5-2648L
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '32 nm'
+  'Release Date': '2012-03-06'
+  Sockets:
+    - LGA2011
+name: Embedded-Sandy-Bridge-EP

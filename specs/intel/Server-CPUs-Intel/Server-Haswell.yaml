@@ -1,0 +1,100 @@
+humanName: Haswell
+sections:
+  -
+    header: '17 - 64 Threads'
+    members:
+      - Xeon-E7-8891V3
+      - Xeon-E7-8890V3
+      - Xeon-E7-8880V3
+      - Xeon-E7-8880LV3
+      - Xeon-E7-8870V3
+      - Xeon-E7-8867V3
+      - Xeon-E7-8860V3
+      - Xeon-E7-4850V3
+      - Xeon-E7-4830V3
+      - Xeon-E7-4820V3
+      - Xeon-E5-4669V3
+      - Xeon-E5-4667V3
+      - Xeon-E5-4660V3
+      - Xeon-E5-4650V3
+      - Xeon-E5-4640V3
+      - Xeon-E5-4620V3
+      - Xeon-E5-4610V3
+      - Xeon-E5-2699V3
+      - Xeon-E5-2698V3
+      - Xeon-E5-2697V3
+      - Xeon-E5-2695V3
+      - Xeon-E5-2690V3
+      - Xeon-E5-2687WV3
+      - Xeon-E5-2683V3
+      - Xeon-E5-2680V3
+      - Xeon-E5-2670V3
+      - Xeon-E5-2660V3
+      - Xeon-E5-2650V3
+      - Xeon-E5-2650LV3
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Xeon-E7-4809V3
+      - Xeon-E5-4655V3
+      - Xeon-E5-4627V3
+      - Xeon-E5-2667V3
+      - Xeon-E5-2643V3
+      - Xeon-E5-2640V3
+      - Xeon-E5-2630V3
+      - Xeon-E5-2630LV3
+      - Xeon-E5-2620V3
+      - Xeon-E5-1680V3
+      - Xeon-E5-1660V3
+      - Xeon-E5-1650V3
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-E7-8893V3
+      - Xeon-E5-2637V3
+      - Xeon-E5-2623V3
+      - Xeon-E5-1630V3
+      - Xeon-E5-1620V3
+      - Xeon-E3-1286V3
+      - Xeon-E3-1286LV3
+      - Xeon-E3-1285Lv3
+      - Xeon-E3-1285-v3
+      - Xeon-E3-1281V3
+      - Xeon-E3-1280-v3
+      - Xeon-E3-1276V3
+      - Xeon-E3-1275LV3
+      - Xeon-E3-1275-v3
+      - Xeon-E3-1271V3
+      - Xeon-E3-1270-v3
+      - Xeon-E3-1265Lv3
+      - Xeon-E3-1246V3
+      - Xeon-E3-1245-v3
+      - Xeon-E3-1241V3
+      - Xeon-E3-1240LV3
+      - Xeon-E3-1240-v3
+      - Xeon-E3-1231V3
+      - Xeon-E3-1230Lv3
+      - Xeon-E3-1230-v3
+  -
+    header: '6 Threads'
+    members:
+      - Xeon-E5-2609V3
+      - Xeon-E5-2603V3
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-E3-1226V3
+      - Xeon-E3-1225V3
+      - Xeon-E3-1220LV3
+      - Xeon-E3-1220-v3
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2013-06-01'
+  Sockets:
+    - LGA1150
+    - LGA20113
+    - LGA2011
+name: Server-Haswell

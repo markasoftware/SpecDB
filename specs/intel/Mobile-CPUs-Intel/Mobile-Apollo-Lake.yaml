@@ -1,0 +1,22 @@
+humanName: 'Apollo Lake'
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Pentium-N4200E
+      - Pentium-N4200
+      - Pentium-N3450
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-N3350E
+      - Pentium-N3350
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2016-08-30'
+  Sockets:
+    - BGA1296
+name: Mobile-Apollo-Lake

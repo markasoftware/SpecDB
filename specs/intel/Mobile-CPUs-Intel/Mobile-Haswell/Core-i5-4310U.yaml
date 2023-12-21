@@ -1,0 +1,33 @@
+data:
+  Manufacturer: Intel
+  Architecture: Haswell
+  Market: Mobile
+  Lithography: '22 nm'
+  TDP: '15 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': 'DDR3L, LPDDR3'
+  'Base Frequency': '2 GHz'
+  'Boost Frequency': '3 GHz'
+  'L2 Cache (Total)': '3 MiB'
+  'Release Date': '2014-01-19'
+  Socket: FCBGA1168
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+  'GPU Base Frequency': '200 MHz'
+  'GPU Boost Frequency': '1.1 GHz'
+  'VRAM Type': 'DDR3L, LPDDR3'
+  'Maximum VRAM Capacity': '2 GiB'
+  'DirectX Support': '12'
+  'OpenGL Support': '4.3'
+  'Geekbench Single-Core Score': 780
+  'Geekbench Multi-Core Score': 1475
+  'UserBenchmark CPU Score': '49.4'
+isPart: true
+type: CPU
+humanName: 'Core i5-4310U'
+name: Core-i5-4310U

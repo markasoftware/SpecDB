@@ -1,0 +1,28 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Ivy Bridge'
+  Market: Mobile
+  Lithography: '22 nm'
+  TDP: '17 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': DDR3/L/
+  'Base Frequency': '1.9 GHz'
+  'L2 Cache (Total)': '3 MiB'
+  'Release Date': '2013-01-20'
+  Socket: FCBGA1023
+  AES: false
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: false
+  'GPU Base Frequency': '350 MHz'
+  'GPU Boost Frequency': '1.1 GHz'
+  'Geekbench Single-Core Score': 294
+  'Geekbench Multi-Core Score': 632
+  'UserBenchmark CPU Score': '45.4'
+isPart: true
+type: CPU
+humanName: 'Core i3-3227U'
+name: Core-i3-3227U

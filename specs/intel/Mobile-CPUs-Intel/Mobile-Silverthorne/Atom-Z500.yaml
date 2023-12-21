@@ -1,0 +1,19 @@
+data:
+  Manufacturer: Intel
+  Architecture: Silverthorne
+  Market: Mobile
+  Lithography: '45 nm'
+  TDP: '0.65 W'
+  'Core Count': 1
+  'Thread Count': 2
+  'Base Frequency': '800 MHz'
+  'L2 Cache (Total)': '512 KiB'
+  'Die Size': '26 mm'
+  'Release Date': '2008-04-02'
+  Socket: PBGA441
+  'Other Extensions': {  }
+  AVX/SSE/MMX: false
+isPart: true
+type: CPU
+humanName: 'Atom Z500'
+name: Atom-Z500

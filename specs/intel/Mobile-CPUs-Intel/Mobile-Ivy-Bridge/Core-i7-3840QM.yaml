@@ -1,0 +1,29 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Ivy Bridge'
+  Market: Mobile
+  Lithography: '22 nm'
+  TDP: '45 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': DDR3/L/
+  'Base Frequency': '2.8 GHz'
+  'Boost Frequency': '3.8 GHz'
+  'L2 Cache (Total)': '8 MiB'
+  'Release Date': '2012-09-30'
+  Socket: FCPGA988
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: false
+  'GPU Base Frequency': '650 MHz'
+  'GPU Boost Frequency': '1.3 GHz'
+  'Geekbench Single-Core Score': 635
+  'Geekbench Multi-Core Score': 2150
+  'UserBenchmark CPU Score': '66.1'
+isPart: true
+type: CPU
+humanName: 'Core i7-3840QM'
+name: Core-i7-3840QM

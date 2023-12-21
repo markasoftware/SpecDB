@@ -1,0 +1,29 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Sandy Bridge'
+  Market: Mobile
+  Lithography: '32 nm'
+  TDP: '35 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1333 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2.6 GHz'
+  'Boost Frequency': '3.3 GHz'
+  'L2 Cache (Total)': '3 MiB'
+  'Release Date': '2011-02-20'
+  Socket: 'FCBGA1023, PPGA988'
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: false
+  'GPU Base Frequency': '650 MHz'
+  'GPU Boost Frequency': '1.3 GHz'
+  'Geekbench Single-Core Score': 492
+  'Geekbench Multi-Core Score': 985
+  'UserBenchmark CPU Score': '51.5'
+isPart: true
+type: CPU
+humanName: 'Core i5-2540M'
+name: Core-i5-2540M

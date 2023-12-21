@@ -1,0 +1,34 @@
+data:
+  Manufacturer: Intel
+  Architecture: Skylake
+  Market: Desktop
+  Lithography: '14 nm'
+  TDP: '91 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '2133 MHz'
+  'Memory Type': 'DDR4, DDR3L'
+  'Base Frequency': '4 GHz'
+  'Boost Frequency': '4.2 GHz'
+  'L2 Cache (Total)': '8 MiB'
+  'Release Date': '2015-08-05'
+  Socket: FCLGA1151
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+  'GPU Base Frequency': '350 MHz'
+  'GPU Boost Frequency': '1.15 GHz'
+  'VRAM Type': 'DDR4, DDR3L'
+  'Maximum VRAM Capacity': '64 GiB'
+  'DirectX Support': '12'
+  'OpenGL Support': '4.5'
+  'Geekbench Single-Core Score': 1443
+  'Geekbench Multi-Core Score': 4815
+  '3DMark Fire Strike Physics Score': 3252
+  'UserBenchmark CPU Score': '80.8'
+isPart: true
+type: CPU
+humanName: 'Core i7-6700K'
+name: Core-i7-6700K

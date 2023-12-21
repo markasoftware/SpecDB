@@ -1,0 +1,29 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Ivy Bridge'
+  Market: Mobile
+  Lithography: '22 nm'
+  TDP: '17 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': DDR3/L/
+  'Base Frequency': '2 GHz'
+  'Boost Frequency': '3.1 GHz'
+  'L2 Cache (Total)': '4 MiB'
+  'Release Date': '2013-01-20'
+  Socket: FCBGA1023
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: false
+  'GPU Base Frequency': '350 MHz'
+  'GPU Boost Frequency': '1.2 GHz'
+  'Geekbench Single-Core Score': 450
+  'Geekbench Multi-Core Score': 896
+  'UserBenchmark CPU Score': '51.5'
+isPart: true
+type: CPU
+humanName: 'Core i7-3537U'
+name: Core-i7-3537U

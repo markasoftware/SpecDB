@@ -1,0 +1,28 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Ivy Bridge'
+  Market: Desktop
+  Lithography: '22 nm'
+  TDP: '35 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2.8 GHz'
+  'L2 Cache (Total)': '3 MiB'
+  'Release Date': '2012-09-02'
+  Socket: FCLGA1155
+  AES: false
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+  'GPU Base Frequency': '650 MHz'
+  'GPU Boost Frequency': '1.05 GHz'
+  'Geekbench Single-Core Score': 446
+  'Geekbench Multi-Core Score': 956
+  'UserBenchmark CPU Score': '54.6'
+isPart: true
+type: CPU
+humanName: 'Core i3-3220T'
+name: Core-i3-3220T

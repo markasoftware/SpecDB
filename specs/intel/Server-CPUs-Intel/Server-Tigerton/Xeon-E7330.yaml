@@ -1,0 +1,19 @@
+data:
+  Manufacturer: Intel
+  Architecture: Tigerton
+  Market: Server
+  Lithography: '65 nm'
+  TDP: '80 W'
+  'Core Count': 4
+  'Thread Count': 4
+  'Base Frequency': '2.4 GHz'
+  'L2 Cache (Total)': '6 MiB'
+  'Die Size': '286 mm'
+  'Release Date': 'Q3 2007'
+  Socket: 'PGA604, PPGA604'
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Xeon E7330'
+name: Xeon-E7330

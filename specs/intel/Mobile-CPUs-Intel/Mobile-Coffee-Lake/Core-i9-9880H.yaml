@@ -1,0 +1,33 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Coffee Lake'
+  Market: Mobile
+  Lithography: '14 nm'
+  TDP: '45 W'
+  'Core Count': 8
+  'Thread Count': 16
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '2666 MHz'
+  'Memory Type': 'DDR4, LPDDR3'
+  'Base Frequency': '2.3 GHz'
+  'Boost Frequency': '4.8 GHz'
+  'L2 Cache (Total)': '16 MiB'
+  'Release Date': '2019-04-23'
+  Socket: FCBGA1440
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+  'GPU Base Frequency': '350 MHz'
+  'GPU Boost Frequency': '1.2 GHz'
+  'VRAM Type': 'DDR4, LPDDR3'
+  'Maximum VRAM Capacity': '64 GiB'
+  'DirectX Support': '12'
+  'OpenGL Support': '4.5'
+  'Geekbench Single-Core Score': 1328
+  'Geekbench Multi-Core Score': 6018
+  'UserBenchmark CPU Score': '78.9'
+isPart: true
+type: CPU
+humanName: 'Core i9-9880H'
+name: Core-i9-9880H
