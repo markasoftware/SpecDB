@@ -19,9 +19,6 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '850 MHz'
   'GPU Boost Frequency': '1.1 GHz'
-  'Geekbench Single-Core Score': 395
-  'Geekbench Multi-Core Score': 689
-  'UserBenchmark CPU Score': '47.3'
 isPart: true
 type: CPU
 humanName: 'Pentium G630'

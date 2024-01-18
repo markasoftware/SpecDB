@@ -23,9 +23,6 @@ data:
   'Maximum VRAM Capacity': '32 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1274
-  'Geekbench Multi-Core Score': 2581
-  'UserBenchmark CPU Score': '63.9'
 isPart: true
 type: CPU
 humanName: 'Core i7-7567U'

@@ -20,9 +20,6 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '850 MHz'
   'GPU Boost Frequency': '1.35 GHz'
-  'Geekbench Single-Core Score': 664
-  'Geekbench Multi-Core Score': 2303
-  'UserBenchmark CPU Score': '73'
 isPart: true
 type: CPU
 humanName: 'Core i7-2700K'

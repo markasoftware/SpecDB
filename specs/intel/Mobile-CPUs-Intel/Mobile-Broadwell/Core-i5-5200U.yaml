@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '16 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 769
-  'Geekbench Multi-Core Score': 1482
-  'UserBenchmark CPU Score': '41.7'
 isPart: true
 type: CPU
 humanName: 'Core i5-5200U'

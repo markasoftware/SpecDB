@@ -23,10 +23,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1655
-  'Geekbench Multi-Core Score': 7094
-  '3DMark Fire Strike Physics Score': 5163
-  'UserBenchmark CPU Score': '90.8'
 isPart: true
 type: CPU
 humanName: 'Core i7-8086K'

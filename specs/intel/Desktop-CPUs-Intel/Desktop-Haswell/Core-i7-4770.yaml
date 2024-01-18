@@ -24,10 +24,6 @@ data:
   'Maximum VRAM Capacity': '2 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 1149
-  'Geekbench Multi-Core Score': 3680
-  '3DMark Fire Strike Physics Score': 2360
-  'UserBenchmark CPU Score': '70.5'
 isPart: true
 type: CPU
 humanName: 'Core i7-4770'

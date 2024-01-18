@@ -15,9 +15,6 @@ data:
   Socket: FCLGA2066
   AES: true
   AVX/SSE/MMX: AVX-512
-  'Geekbench Single-Core Score': 1339
-  'Geekbench Multi-Core Score': 9675
-  'UserBenchmark CPU Score': '83.3'
 isPart: true
 type: CPU
 humanName: 'Core i9-7940X'

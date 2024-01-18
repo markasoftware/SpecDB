@@ -19,7 +19,6 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '350 MHz'
   'GPU Boost Frequency': '1000 MHz'
-  'UserBenchmark CPU Score': '39.9'
 isPart: true
 type: CPU
 humanName: 'Pentium 987'

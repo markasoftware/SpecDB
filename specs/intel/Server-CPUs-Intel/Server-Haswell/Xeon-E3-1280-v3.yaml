@@ -18,8 +18,6 @@ data:
   'Other Extensions':
     - x86-64
   AVX/SSE/MMX: AVX2
-  'Geekbench Single-Core Score': 1131
-  'Geekbench Multi-Core Score': 3702
 isPart: true
 type: CPU
 humanName: 'Xeon E3-1280 v3'

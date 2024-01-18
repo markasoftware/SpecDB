@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1089
-  'Geekbench Multi-Core Score': 2980
-  'UserBenchmark CPU Score': '60.8'
 isPart: true
 type: CPU
 humanName: 'Core i5-6400'

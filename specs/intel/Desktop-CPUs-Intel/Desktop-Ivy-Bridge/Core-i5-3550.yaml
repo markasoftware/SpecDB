@@ -20,9 +20,6 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '1.15 GHz'
-  'Geekbench Single-Core Score': 643
-  'Geekbench Multi-Core Score': 1916
-  'UserBenchmark CPU Score': '68.6'
 isPart: true
 type: CPU
 humanName: 'Core i5-3550'

@@ -16,9 +16,6 @@ data:
   Socket: FCLGA2066
   AES: true
   AVX/SSE/MMX: AVX-512
-  'Geekbench Single-Core Score': 1430
-  'Geekbench Multi-Core Score': 9029
-  'UserBenchmark CPU Score': '83.7'
 isPart: true
 type: CPU
 humanName: 'Core i9-9900X'

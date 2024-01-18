@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '32 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 1076
-  'Geekbench Multi-Core Score': 3205
-  'UserBenchmark CPU Score': '68.8'
 isPart: true
 type: CPU
 humanName: 'Core i7-5700HQ'

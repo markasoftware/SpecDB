@@ -20,7 +20,6 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '350 MHz'
   'GPU Boost Frequency': '850 MHz'
-  'UserBenchmark CPU Score': '44.4'
 isPart: true
 type: CPU
 humanName: 'Core i5-3339Y'

@@ -18,8 +18,6 @@ data:
   'Other Extensions':
     - x86-64
   AVX/SSE/MMX: false
-  'Geekbench Single-Core Score': 550
-  'Geekbench Multi-Core Score': 3238
 isPart: true
 type: CPU
 humanName: 'Xeon E5-2680'

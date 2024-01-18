@@ -19,9 +19,6 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '850 MHz'
   'GPU Boost Frequency': '1.1 GHz'
-  'Geekbench Single-Core Score': 453
-  'Geekbench Multi-Core Score': 789
-  'UserBenchmark CPU Score': '49.9'
 isPart: true
 type: CPU
 humanName: 'Pentium G645'

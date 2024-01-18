@@ -22,7 +22,6 @@ data:
   'GPU Boost Frequency': '1.1 GHz'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'UserBenchmark CPU Score': '53.2'
 isPart: true
 type: CPU
 humanName: 'Core i7-1065G7'

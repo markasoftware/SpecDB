@@ -20,7 +20,6 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '1.25 GHz'
-  'UserBenchmark CPU Score': '66.3'
 isPart: true
 type: CPU
 humanName: 'Core i7-3820QM'

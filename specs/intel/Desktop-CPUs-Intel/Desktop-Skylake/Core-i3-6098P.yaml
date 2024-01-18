@@ -23,9 +23,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1122
-  'Geekbench Multi-Core Score': 2224
-  'UserBenchmark CPU Score': '62'
 isPart: true
 type: CPU
 humanName: 'Core i3-6098P'

@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '16 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 900
-  'Geekbench Multi-Core Score': 1728
-  'UserBenchmark CPU Score': '49.6'
 isPart: true
 type: CPU
 humanName: 'Core i7-5600U'

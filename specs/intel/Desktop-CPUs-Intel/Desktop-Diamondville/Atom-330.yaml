@@ -14,7 +14,6 @@ data:
   'Other Extensions':
     - x86-64
   AVX/SSE/MMX: false
-  'UserBenchmark CPU Score': '20.6'
 isPart: true
 type: CPU
 humanName: 'Atom 330'

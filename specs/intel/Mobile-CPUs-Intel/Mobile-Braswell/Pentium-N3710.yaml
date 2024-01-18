@@ -21,7 +21,6 @@ data:
   'Maximum VRAM Capacity': '8 GiB'
   'DirectX Support': '0'
   'OpenGL Support': 'Yes'
-  'UserBenchmark CPU Score': '25.1'
 isPart: true
 type: CPU
 humanName: 'Pentium N3710'

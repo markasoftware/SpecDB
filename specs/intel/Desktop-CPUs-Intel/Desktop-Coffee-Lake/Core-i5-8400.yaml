@@ -25,10 +25,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1323
-  'Geekbench Multi-Core Score': 4719
-  '3DMark Fire Strike Physics Score': 3665
-  'UserBenchmark CPU Score': '81.8'
 isPart: true
 type: CPU
 humanName: 'Core i5-8400'

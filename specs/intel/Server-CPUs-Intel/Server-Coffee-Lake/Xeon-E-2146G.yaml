@@ -24,8 +24,6 @@ data:
   'Maximum VRAM Capacity': '128 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1438
-  'Geekbench Multi-Core Score': 5557
 isPart: true
 type: CPU
 humanName: 'Xeon E-2146G'

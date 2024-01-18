@@ -23,9 +23,6 @@ data:
   'Maximum VRAM Capacity': '16 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 661
-  'Geekbench Multi-Core Score': 1334
-  'UserBenchmark CPU Score': '47.7'
 isPart: true
 type: CPU
 humanName: 'Core i3-5010U'

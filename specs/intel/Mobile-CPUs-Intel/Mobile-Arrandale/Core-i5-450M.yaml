@@ -21,8 +21,6 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '500 MHz'
   'GPU Boost Frequency': '766 MHz'
-  'Geekbench Single-Core Score': 348
-  'Geekbench Multi-Core Score': 676
 isPart: true
 type: CPU
 humanName: 'Core i5-450M'

@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1383
-  'Geekbench Multi-Core Score': 4890
-  'UserBenchmark CPU Score': '88.2'
 isPart: true
 type: CPU
 humanName: 'Core i5-8600'

@@ -19,7 +19,6 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '1.05 GHz'
-  'UserBenchmark CPU Score': '50.6'
 isPart: true
 type: CPU
 humanName: 'Pentium G2010'

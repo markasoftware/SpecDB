@@ -22,7 +22,6 @@ data:
   'GPU Boost Frequency': '1.05 GHz'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'UserBenchmark CPU Score': '55.5'
 isPart: true
 type: CPU
 humanName: 'Core i5-1035G4'

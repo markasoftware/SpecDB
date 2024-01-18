@@ -13,7 +13,6 @@ data:
   Socket: PBGA441
   'Other Extensions': {  }
   AVX/SSE/MMX: false
-  'UserBenchmark CPU Score': '17.3'
 isPart: true
 type: CPU
 humanName: 'Atom Z520'

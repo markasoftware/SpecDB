@@ -18,9 +18,6 @@ data:
   'Other Extensions':
     - x86-64
   AVX/SSE/MMX: AVX-512
-  'Geekbench Single-Core Score': 1310
-  'Geekbench Multi-Core Score': 6066
-  'UserBenchmark CPU Score': '77.9'
 isPart: true
 type: CPU
 humanName: 'Core i7-7800X'

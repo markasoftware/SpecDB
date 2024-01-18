@@ -21,8 +21,6 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '500 MHz'
   'GPU Boost Frequency': '766 MHz'
-  'Geekbench Single-Core Score': 436
-  'Geekbench Multi-Core Score': 771
 isPart: true
 type: CPU
 humanName: 'Core i5-580M'

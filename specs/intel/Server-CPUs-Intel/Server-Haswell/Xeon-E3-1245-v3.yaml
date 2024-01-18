@@ -20,9 +20,6 @@ data:
   AVX/SSE/MMX: AVX2
   'GPU Base Frequency': '350 MHz'
   'GPU Boost Frequency': '1.2 GHz'
-  'Geekbench Single-Core Score': 1153
-  'Geekbench Multi-Core Score': 3765
-  'UserBenchmark CPU Score': '71.5'
 isPart: true
 type: CPU
 humanName: 'Xeon E3-1245 v3'

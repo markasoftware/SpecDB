@@ -23,9 +23,6 @@ data:
   'Maximum VRAM Capacity': '1.69921875 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 570
-  'Geekbench Multi-Core Score': 978
-  'UserBenchmark CPU Score': '51.2'
 isPart: true
 type: CPU
 humanName: 'Pentium G3250'

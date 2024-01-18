@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '32 GiB'
   'DirectX Support': '11.2'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 1349
-  'Geekbench Multi-Core Score': 4618
-  'UserBenchmark CPU Score': '84.9'
 isPart: true
 type: CPU
 humanName: 'Core i7-5775C'

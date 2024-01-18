@@ -16,8 +16,6 @@ data:
   'Other Extensions':
     - x86-64
   AVX/SSE/MMX: AVX-512
-  'Geekbench Single-Core Score': 1469
-  'Geekbench Multi-Core Score': 10431
 isPart: true
 type: CPU
 humanName: 'Xeon W-2295'

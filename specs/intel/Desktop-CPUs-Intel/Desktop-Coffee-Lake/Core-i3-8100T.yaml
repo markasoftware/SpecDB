@@ -23,9 +23,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1055
-  'Geekbench Multi-Core Score': 2968
-  'UserBenchmark CPU Score': '71.1'
 isPart: true
 type: CPU
 humanName: 'Core i3-8100T'

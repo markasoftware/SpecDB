@@ -20,9 +20,6 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '350 MHz'
   'GPU Boost Frequency': '1.2 GHz'
-  'Geekbench Single-Core Score': 465
-  'Geekbench Multi-Core Score': 977
-  'UserBenchmark CPU Score': '52.6'
 isPart: true
 type: CPU
 humanName: 'Core i7-3687U'

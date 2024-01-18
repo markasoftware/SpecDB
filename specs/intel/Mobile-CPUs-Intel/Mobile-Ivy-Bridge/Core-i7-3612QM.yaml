@@ -21,9 +21,6 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '1.1 GHz'
-  'Geekbench Single-Core Score': 514
-  'Geekbench Multi-Core Score': 1684
-  'UserBenchmark CPU Score': '60.5'
 isPart: true
 type: CPU
 humanName: 'Core i7-3612QM'

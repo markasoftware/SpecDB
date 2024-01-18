@@ -19,9 +19,6 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '850 MHz'
   'GPU Boost Frequency': '1.1 GHz'
-  'Geekbench Single-Core Score': 477
-  'Geekbench Multi-Core Score': 977
-  'UserBenchmark CPU Score': '50.9'
 isPart: true
 type: CPU
 humanName: 'Core i3-2100'

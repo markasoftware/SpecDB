@@ -20,9 +20,6 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '350 MHz'
   'GPU Boost Frequency': '900 MHz'
-  'Geekbench Single-Core Score': 310
-  'Geekbench Multi-Core Score': 622
-  'UserBenchmark CPU Score': '44'
 isPart: true
 type: CPU
 humanName: 'Core i5-2537M'

@@ -18,8 +18,6 @@ data:
   'Other Extensions':
     - x86-64
   AVX/SSE/MMX: AVX-512
-  'Geekbench Single-Core Score': 1174
-  'Geekbench Multi-Core Score': 4239
 isPart: true
 type: CPU
 humanName: 'Xeon W-2123'

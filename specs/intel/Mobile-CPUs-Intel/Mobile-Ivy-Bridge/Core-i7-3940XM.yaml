@@ -20,7 +20,6 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '1.35 GHz'
-  'UserBenchmark CPU Score': '69.6'
 isPart: true
 type: CPU
 humanName: 'Core i7-3940XM'

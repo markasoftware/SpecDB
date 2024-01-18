@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1149
-  'Geekbench Multi-Core Score': 3998
-  'UserBenchmark CPU Score': '73'
 isPart: true
 type: CPU
 humanName: 'Core i5-8500T'

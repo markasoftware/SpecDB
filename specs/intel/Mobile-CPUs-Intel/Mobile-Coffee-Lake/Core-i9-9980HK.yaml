@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1396
-  'Geekbench Multi-Core Score': 6228
-  'UserBenchmark CPU Score': '81.8'
 isPart: true
 type: CPU
 humanName: 'Core i9-9980HK'

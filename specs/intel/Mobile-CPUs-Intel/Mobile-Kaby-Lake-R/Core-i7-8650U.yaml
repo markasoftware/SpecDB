@@ -24,7 +24,6 @@ data:
   'Maximum VRAM Capacity': '32 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.4'
-  'UserBenchmark CPU Score': '52.3'
 isPart: true
 type: CPU
 humanName: 'Core i7-8650U'

@@ -19,7 +19,6 @@ data:
     - x86-64
   'GPU Base Frequency': '500 MHz'
   'GPU Boost Frequency': '667 MHz'
-  'UserBenchmark CPU Score': '35.2'
 isPart: true
 type: CPU
 humanName: 'Pentium P6100'

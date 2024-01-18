@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '2 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 1119
-  'Geekbench Multi-Core Score': 3296
-  'UserBenchmark CPU Score': '70.9'
 isPart: true
 type: CPU
 humanName: 'Core i7-4790T'

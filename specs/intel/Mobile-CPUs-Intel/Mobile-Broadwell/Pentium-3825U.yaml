@@ -20,8 +20,6 @@ data:
   'GPU Base Frequency': '300 MHz'
   'GPU Boost Frequency': '850 MHz'
   'DirectX Support': '12'
-  'Geekbench Single-Core Score': 274
-  'Geekbench Multi-Core Score': 555
 isPart: true
 type: CPU
 humanName: 'Pentium 3825U'

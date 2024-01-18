@@ -16,8 +16,6 @@ data:
   Socket: FCLGA3647
   AES: true
   AVX/SSE/MMX: AVX-512
-  'Geekbench Single-Core Score': 1417
-  'Geekbench Multi-Core Score': 12107
 isPart: true
 type: CPU
 humanName: 'Xeon W-3175X'

@@ -23,7 +23,6 @@ data:
   'Maximum VRAM Capacity': '1.7001953125 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'UserBenchmark CPU Score': '59.1'
 isPart: true
 type: CPU
 humanName: 'Pentium G3470'

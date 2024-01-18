@@ -24,8 +24,6 @@ data:
   'Maximum VRAM Capacity': '32 GiB'
   'DirectX Support': '11.2'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 1088
-  'Geekbench Multi-Core Score': 3319
 isPart: true
 type: CPU
 humanName: 'Core i5-5575R'

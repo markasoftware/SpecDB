@@ -14,9 +14,6 @@ data:
   AES: false
   'Other Extensions':
     - x86-64
-  'Geekbench Single-Core Score': 343
-  'Geekbench Multi-Core Score': 553
-  'UserBenchmark CPU Score': '36.5'
 isPart: true
 type: CPU
 humanName: 'Pentium E5700'

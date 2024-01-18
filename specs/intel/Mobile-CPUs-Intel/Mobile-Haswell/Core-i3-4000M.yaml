@@ -23,9 +23,6 @@ data:
   'Maximum VRAM Capacity': '2 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 688
-  'Geekbench Multi-Core Score': 1386
-  'UserBenchmark CPU Score': '51'
 isPart: true
 type: CPU
 humanName: 'Core i3-4000M'

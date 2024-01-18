@@ -19,9 +19,6 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '1.05 GHz'
-  'Geekbench Single-Core Score': 431
-  'Geekbench Multi-Core Score': 937
-  'UserBenchmark CPU Score': '58.7'
 isPart: true
 type: CPU
 humanName: 'Core i3-3250'

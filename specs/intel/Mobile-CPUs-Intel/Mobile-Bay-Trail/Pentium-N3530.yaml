@@ -18,9 +18,6 @@ data:
     - x86-64
   'GPU Base Frequency': '313 MHz'
   'GPU Boost Frequency': '896 MHz'
-  'Geekbench Single-Core Score': 184
-  'Geekbench Multi-Core Score': 532
-  'UserBenchmark CPU Score': '34.7'
 isPart: true
 type: CPU
 humanName: 'Pentium N3530'

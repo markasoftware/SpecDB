@@ -15,9 +15,6 @@ data:
   'Release Date': '2019-10-07'
   AES: true
   AVX/SSE/MMX: AVX-512
-  'Geekbench Single-Core Score': 1555
-  'Geekbench Multi-Core Score': 10752
-  'UserBenchmark CPU Score': '85.7'
 isPart: true
 type: CPU
 humanName: 'Core i9-10940X'

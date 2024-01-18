@@ -20,10 +20,6 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '1.15 GHz'
-  'Geekbench Single-Core Score': 686
-  'Geekbench Multi-Core Score': 2071
-  '3DMark Fire Strike Physics Score': 1695
-  'UserBenchmark CPU Score': '67.6'
 isPart: true
 type: CPU
 humanName: 'Core i5-3570K'

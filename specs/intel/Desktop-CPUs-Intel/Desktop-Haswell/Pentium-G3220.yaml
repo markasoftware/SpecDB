@@ -23,9 +23,6 @@ data:
   'Maximum VRAM Capacity': '1.69921875 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 531
-  'Geekbench Multi-Core Score': 905
-  'UserBenchmark CPU Score': '48.3'
 isPart: true
 type: CPU
 humanName: 'Pentium G3220'

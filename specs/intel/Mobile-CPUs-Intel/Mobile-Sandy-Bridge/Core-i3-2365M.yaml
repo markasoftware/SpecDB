@@ -19,9 +19,6 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '350 MHz'
   'GPU Boost Frequency': '1000 MHz'
-  'Geekbench Single-Core Score': 188
-  'Geekbench Multi-Core Score': 405
-  'UserBenchmark CPU Score': '41.2'
 isPart: true
 type: CPU
 humanName: 'Core i3-2365M'

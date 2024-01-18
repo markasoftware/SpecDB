@@ -22,9 +22,6 @@ data:
   'GPU Boost Frequency': '1.35 GHz'
   'VRAM Type': DDR3L
   'Maximum VRAM Capacity': '1.69921875 GiB'
-  'Geekbench Single-Core Score': 1105
-  'Geekbench Multi-Core Score': 3430
-  'UserBenchmark CPU Score': '69.1'
 isPart: true
 type: CPU
 humanName: 'Core i7-4930MX'

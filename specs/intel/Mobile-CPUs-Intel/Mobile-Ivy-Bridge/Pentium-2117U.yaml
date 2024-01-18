@@ -19,9 +19,6 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '350 MHz'
   'GPU Boost Frequency': '1000 MHz'
-  'Geekbench Single-Core Score': 302
-  'Geekbench Multi-Core Score': 515
-  'UserBenchmark CPU Score': '43.2'
 isPart: true
 type: CPU
 humanName: 'Pentium 2117U'

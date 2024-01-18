@@ -19,9 +19,6 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '1.05 GHz'
-  'Geekbench Single-Core Score': 489
-  'Geekbench Multi-Core Score': 836
-  'UserBenchmark CPU Score': '48.9'
 isPart: true
 type: CPU
 humanName: 'Pentium G2020'

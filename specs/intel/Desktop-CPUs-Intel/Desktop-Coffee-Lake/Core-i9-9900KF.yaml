@@ -18,10 +18,6 @@ data:
   'Other Extensions':
     - x86-64
   AVX/SSE/MMX: AVX2
-  'Geekbench Single-Core Score': 1652
-  'Geekbench Multi-Core Score': 7964
-  '3DMark Fire Strike Physics Score': 7105
-  'UserBenchmark CPU Score': '97.8'
 isPart: true
 type: CPU
 humanName: 'Core i9-9900KF'

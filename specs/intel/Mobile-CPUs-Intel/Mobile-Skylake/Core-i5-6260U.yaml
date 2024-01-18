@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '32 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 933
-  'Geekbench Multi-Core Score': 1927
-  'UserBenchmark CPU Score': '55.9'
 isPart: true
 type: CPU
 humanName: 'Core i5-6260U'

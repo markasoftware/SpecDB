@@ -18,9 +18,6 @@ data:
   'Other Extensions':
     - x86-64
   AVX/SSE/MMX: 'SSE 4.2'
-  'Geekbench Single-Core Score': 381
-  'Geekbench Multi-Core Score': 1440
-  'UserBenchmark CPU Score': '59.4'
 isPart: true
 type: CPU
 humanName: 'Xeon E5620'

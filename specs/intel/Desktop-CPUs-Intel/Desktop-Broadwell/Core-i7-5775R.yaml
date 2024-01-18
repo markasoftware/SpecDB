@@ -24,7 +24,6 @@ data:
   'Maximum VRAM Capacity': '32 GiB'
   'DirectX Support': '11.2'
   'OpenGL Support': '4.3'
-  'UserBenchmark CPU Score': '80.5'
 isPart: true
 type: CPU
 humanName: 'Core i7-5775R'

@@ -25,10 +25,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1500
-  'Geekbench Multi-Core Score': 5922
-  '3DMark Fire Strike Physics Score': 4908
-  'UserBenchmark CPU Score': '87'
 isPart: true
 type: CPU
 humanName: 'Core i7-8700'

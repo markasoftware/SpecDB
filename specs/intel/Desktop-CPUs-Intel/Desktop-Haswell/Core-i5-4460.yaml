@@ -24,10 +24,6 @@ data:
   'Maximum VRAM Capacity': '2 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 1029
-  'Geekbench Multi-Core Score': 2893
-  '3DMark Fire Strike Physics Score': 1741
-  'UserBenchmark CPU Score': '62.1'
 isPart: true
 type: CPU
 humanName: 'Core i5-4460'

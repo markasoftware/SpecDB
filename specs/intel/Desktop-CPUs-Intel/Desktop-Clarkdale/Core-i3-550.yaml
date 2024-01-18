@@ -19,9 +19,6 @@ data:
     - x86-64
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '733 MHz'
-  'Geekbench Single-Core Score': 419
-  'Geekbench Multi-Core Score': 883
-  'UserBenchmark CPU Score': '47'
 isPart: true
 type: CPU
 humanName: 'Core i3-550'

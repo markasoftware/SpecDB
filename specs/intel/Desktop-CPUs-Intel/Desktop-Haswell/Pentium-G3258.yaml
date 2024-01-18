@@ -23,9 +23,6 @@ data:
   'Maximum VRAM Capacity': '1.69921875 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 617
-  'Geekbench Multi-Core Score': 1086
-  'UserBenchmark CPU Score': '52.6'
   Unlocked: 'yes'
 isPart: true
 type: CPU

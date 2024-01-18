@@ -23,9 +23,6 @@ data:
   'Maximum VRAM Capacity': '32 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 765
-  'Geekbench Multi-Core Score': 1568
-  'UserBenchmark CPU Score': '43.4'
 isPart: true
 type: CPU
 humanName: 'Core i3-7100U'

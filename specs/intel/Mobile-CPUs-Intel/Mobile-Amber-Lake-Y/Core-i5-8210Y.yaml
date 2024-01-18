@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '16 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 943
-  'Geekbench Multi-Core Score': 1684
-  'UserBenchmark CPU Score': '48.5'
 isPart: true
 type: CPU
 humanName: 'Core i5-8210Y'

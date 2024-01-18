@@ -17,9 +17,6 @@ data:
   AES: true
   'Other Extensions':
     - x86-64
-  'Geekbench Single-Core Score': 1236
-  'Geekbench Multi-Core Score': 7227
-  'UserBenchmark CPU Score': '85.9'
 isPart: true
 type: CPU
 humanName: 'Core i7-6900K'

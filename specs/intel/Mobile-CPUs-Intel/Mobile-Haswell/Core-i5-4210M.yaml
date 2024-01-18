@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '2 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 883
-  'Geekbench Multi-Core Score': 1751
-  'UserBenchmark CPU Score': '51.3'
 isPart: true
 type: CPU
 humanName: 'Core i5-4210M'

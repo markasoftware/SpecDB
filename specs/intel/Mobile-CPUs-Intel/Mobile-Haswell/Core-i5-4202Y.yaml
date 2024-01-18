@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '2 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 564
-  'Geekbench Multi-Core Score': 946
-  'UserBenchmark CPU Score': '42.9'
 isPart: true
 type: CPU
 humanName: 'Core i5-4202Y'

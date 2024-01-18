@@ -24,8 +24,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1546
-  'Geekbench Multi-Core Score': 5924
 isPart: true
 type: CPU
 humanName: 'Core i7-8700B'

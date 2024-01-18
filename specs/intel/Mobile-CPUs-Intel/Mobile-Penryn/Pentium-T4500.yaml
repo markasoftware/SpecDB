@@ -12,7 +12,6 @@ data:
   'Release Date': 'Q1 2010'
   'Other Extensions':
     - x86-64
-  'UserBenchmark CPU Score': '33.9'
 isPart: true
 type: CPU
 humanName: 'Pentium T4500'

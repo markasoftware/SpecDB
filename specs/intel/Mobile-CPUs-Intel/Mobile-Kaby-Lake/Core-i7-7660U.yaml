@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '32 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1151
-  'Geekbench Multi-Core Score': 2267
-  'UserBenchmark CPU Score': '54.2'
 isPart: true
 type: CPU
 humanName: 'Core i7-7660U'

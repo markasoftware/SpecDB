@@ -24,7 +24,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.4'
-  'UserBenchmark CPU Score': '77.7'
   TDP: '65 W'
 isPart: true
 type: CPU

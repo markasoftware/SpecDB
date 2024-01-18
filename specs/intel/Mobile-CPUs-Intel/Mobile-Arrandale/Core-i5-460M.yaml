@@ -21,8 +21,6 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '500 MHz'
   'GPU Boost Frequency': '766 MHz'
-  'Geekbench Single-Core Score': 349
-  'Geekbench Multi-Core Score': 678
 isPart: true
 type: CPU
 humanName: 'Core i5-460M'

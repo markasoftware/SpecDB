@@ -20,9 +20,6 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '1.3 GHz'
-  'Geekbench Single-Core Score': 635
-  'Geekbench Multi-Core Score': 2150
-  'UserBenchmark CPU Score': '66.1'
 isPart: true
 type: CPU
 humanName: 'Core i7-3840QM'

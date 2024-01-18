@@ -17,10 +17,6 @@ data:
   AES: true
   'Other Extensions':
     - x86-64
-  'Geekbench Single-Core Score': 1197
-  'Geekbench Multi-Core Score': 5565
-  '3DMark Fire Strike Physics Score': 3688
-  'UserBenchmark CPU Score': '80.6'
 isPart: true
 type: CPU
 humanName: 'Core i7-6800K'

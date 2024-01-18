@@ -23,8 +23,6 @@ data:
   'Maximum VRAM Capacity': '32 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 705
-  'Geekbench Multi-Core Score': 1331
 isPart: true
 type: CPU
 humanName: 'Core i5-7267U'

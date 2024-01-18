@@ -19,7 +19,6 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '850 MHz'
   'GPU Boost Frequency': '1.1 GHz'
-  'UserBenchmark CPU Score': '52.4'
 isPart: true
 type: CPU
 humanName: 'Pentium G870'

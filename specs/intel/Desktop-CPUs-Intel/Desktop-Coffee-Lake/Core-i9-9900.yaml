@@ -24,10 +24,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1598
-  'Geekbench Multi-Core Score': 7187
-  '3DMark Fire Strike Physics Score': 6750
-  'UserBenchmark CPU Score': '91.4'
 isPart: true
 type: CPU
 humanName: 'Core i9-9900'

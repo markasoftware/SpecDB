@@ -24,8 +24,6 @@ data:
   'Maximum VRAM Capacity': '32 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1133
-  'Geekbench Multi-Core Score': 2316
 isPart: true
 type: CPU
 humanName: 'Core i5-7360U'

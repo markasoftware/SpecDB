@@ -13,9 +13,6 @@ data:
   Socket: LGA771
   'Other Extensions':
     - x86-64
-  'Geekbench Single-Core Score': 381
-  'Geekbench Multi-Core Score': 1102
-  'UserBenchmark CPU Score': '50.5'
 isPart: true
 type: CPU
 humanName: 'Xeon E5450'

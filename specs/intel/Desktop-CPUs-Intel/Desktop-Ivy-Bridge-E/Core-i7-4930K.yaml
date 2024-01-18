@@ -18,9 +18,6 @@ data:
   'Other Extensions':
     - x86-64
   AVX/SSE/MMX: 'SSE 4.2'
-  'Geekbench Single-Core Score': 657
-  'Geekbench Multi-Core Score': 3301
-  'UserBenchmark CPU Score': '76.9'
 isPart: true
 type: CPU
 humanName: 'Core i7-4930K'

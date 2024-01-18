@@ -23,9 +23,6 @@ data:
   'Maximum VRAM Capacity': '2 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 494
-  'Geekbench Multi-Core Score': 1021
-  'UserBenchmark CPU Score': '38.5'
 isPart: true
 type: CPU
 humanName: 'Core i3-4005U'

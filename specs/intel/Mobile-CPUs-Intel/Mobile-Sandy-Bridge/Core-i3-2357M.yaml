@@ -18,7 +18,6 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '350 MHz'
   'GPU Boost Frequency': '950 MHz'
-  'UserBenchmark CPU Score': '39.8'
 isPart: true
 type: CPU
 humanName: 'Core i3-2357M'

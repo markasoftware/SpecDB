@@ -17,7 +17,6 @@ data:
   Socket: FCLGA1366
   'Other Extensions':
     - x86-64
-  'UserBenchmark CPU Score': '59.5'
 isPart: true
 type: CPU
 humanName: 'Xeon L5520'

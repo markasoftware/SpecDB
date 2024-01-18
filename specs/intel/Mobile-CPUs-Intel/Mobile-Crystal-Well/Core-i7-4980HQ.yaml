@@ -24,8 +24,6 @@ data:
   'Maximum VRAM Capacity': '2 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 1156
-  'Geekbench Multi-Core Score': 3589
 isPart: true
 type: CPU
 humanName: 'Core i7-4980HQ'

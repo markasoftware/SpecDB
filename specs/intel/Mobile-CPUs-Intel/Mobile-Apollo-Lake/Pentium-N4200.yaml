@@ -20,9 +20,6 @@ data:
   'Maximum VRAM Capacity': '8 GiB'
   'DirectX Support': '0'
   'OpenGL Support': 'Yes'
-  'Geekbench Single-Core Score': 267
-  'Geekbench Multi-Core Score': 686
-  'UserBenchmark CPU Score': '29.8'
 isPart: true
 type: CPU
 humanName: 'Pentium N4200'

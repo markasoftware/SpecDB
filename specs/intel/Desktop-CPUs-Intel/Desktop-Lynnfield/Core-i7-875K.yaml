@@ -19,8 +19,6 @@ data:
   'Other Extensions':
     - x86-64
   AVX/SSE/MMX: 'SSE 4.2'
-  'Geekbench Single-Core Score': 505
-  'Geekbench Multi-Core Score': 1760
 isPart: true
 type: CPU
 humanName: 'Core i7-875K'

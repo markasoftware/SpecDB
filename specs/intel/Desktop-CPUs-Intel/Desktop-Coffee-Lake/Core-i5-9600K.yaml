@@ -24,10 +24,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1561
-  'Geekbench Multi-Core Score': 5704
-  '3DMark Fire Strike Physics Score': 4277
-  'UserBenchmark CPU Score': '93.2'
 isPart: true
 type: CPU
 humanName: 'Core i5-9600K'

@@ -18,7 +18,6 @@ data:
   'Other Extensions':
     - x86-64
   AVX/SSE/MMX: 'SSE 4.2'
-  'UserBenchmark CPU Score': '70.9'
 isPart: true
 type: CPU
 humanName: 'Core i5-2450P'

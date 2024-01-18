@@ -23,9 +23,6 @@ data:
   'Maximum VRAM Capacity': '2 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 1051
-  'Geekbench Multi-Core Score': 2091
-  'UserBenchmark CPU Score': '61.9'
 isPart: true
 type: CPU
 humanName: 'Core i3-4330'

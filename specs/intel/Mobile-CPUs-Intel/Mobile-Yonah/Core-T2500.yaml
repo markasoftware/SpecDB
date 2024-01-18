@@ -12,7 +12,6 @@ data:
   'Release Date': '2006-02-14'
   Socket: 'PBGA479, PPGA478'
   'Other Extensions': {  }
-  'UserBenchmark CPU Score': '32.2'
 isPart: true
 type: CPU
 humanName: 'Core T2500'

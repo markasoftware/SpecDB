@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '2 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 988
-  'Geekbench Multi-Core Score': 2989
-  'UserBenchmark CPU Score': '67.6'
 isPart: true
 type: CPU
 humanName: 'Core i7-4900MQ'

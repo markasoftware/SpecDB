@@ -20,9 +20,6 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '350 MHz'
   'GPU Boost Frequency': '1.05 GHz'
-  'Geekbench Single-Core Score': 402
-  'Geekbench Multi-Core Score': 819
-  'UserBenchmark CPU Score': '47.2'
 isPart: true
 type: CPU
 humanName: 'Core i5-3317U'

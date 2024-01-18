@@ -20,9 +20,6 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '1.2 GHz'
-  'Geekbench Single-Core Score': 439
-  'Geekbench Multi-Core Score': 860
-  'UserBenchmark CPU Score': '47.9'
 isPart: true
 type: CPU
 humanName: 'Core i5-2410M'

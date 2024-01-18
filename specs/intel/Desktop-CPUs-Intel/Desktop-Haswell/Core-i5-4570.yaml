@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '2 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 1051
-  'Geekbench Multi-Core Score': 2991
-  'UserBenchmark CPU Score': '62.4'
 isPart: true
 type: CPU
 humanName: 'Core i5-4570'

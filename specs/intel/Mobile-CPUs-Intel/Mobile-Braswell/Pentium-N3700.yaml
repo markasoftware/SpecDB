@@ -21,9 +21,6 @@ data:
   'Maximum VRAM Capacity': '8 GiB'
   'DirectX Support': '0'
   'OpenGL Support': 'Yes'
-  'Geekbench Single-Core Score': 178
-  'Geekbench Multi-Core Score': 501
-  'UserBenchmark CPU Score': '26.2'
 isPart: true
 type: CPU
 humanName: 'Pentium N3700'

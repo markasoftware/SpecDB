@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '2 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 693
-  'Geekbench Multi-Core Score': 1359
-  'UserBenchmark CPU Score': '42.6'
 isPart: true
 type: CPU
 humanName: 'Core i5-4200U'

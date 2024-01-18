@@ -19,9 +19,6 @@ data:
   'Other Extensions':
     - x86-64
   AVX/SSE/MMX: 'SSE 4.2'
-  'Geekbench Single-Core Score': 432
-  'Geekbench Multi-Core Score': 1495
-  'UserBenchmark CPU Score': '64.6'
 isPart: true
 type: CPU
 humanName: 'Xeon W3530'

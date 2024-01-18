@@ -16,9 +16,6 @@ data:
   Socket: FCLGA2066
   AES: true
   AVX/SSE/MMX: AVX-512
-  'Geekbench Single-Core Score': 1381
-  'Geekbench Multi-Core Score': 7592
-  'UserBenchmark CPU Score': '82.9'
 isPart: true
 type: CPU
 humanName: 'Core i7-9800X'

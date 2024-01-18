@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '2 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 798
-  'Geekbench Multi-Core Score': 2537
-  'UserBenchmark CPU Score': '60.7'
 isPart: true
 type: CPU
 humanName: 'Core i7-4712HQ'

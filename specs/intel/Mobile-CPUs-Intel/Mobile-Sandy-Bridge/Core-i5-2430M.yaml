@@ -20,9 +20,6 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '1.2 GHz'
-  'Geekbench Single-Core Score': 464
-  'Geekbench Multi-Core Score': 930
-  'UserBenchmark CPU Score': '49.5'
 isPart: true
 type: CPU
 humanName: 'Core i5-2430M'

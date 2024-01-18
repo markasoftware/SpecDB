@@ -23,8 +23,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.4'
-  'Geekbench Single-Core Score': 615
-  'Geekbench Multi-Core Score': 1069
 isPart: true
 type: CPU
 humanName: 'Pentium G4400T'

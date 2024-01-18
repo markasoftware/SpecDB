@@ -24,10 +24,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1469
-  'Geekbench Multi-Core Score': 4124
-  '3DMark Fire Strike Physics Score': 2740
-  'UserBenchmark CPU Score': '75.8'
 isPart: true
 type: CPU
 humanName: 'Core i5-7600K'

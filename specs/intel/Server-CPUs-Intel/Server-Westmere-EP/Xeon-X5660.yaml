@@ -18,9 +18,6 @@ data:
   'Other Extensions':
     - x86-64
   AVX/SSE/MMX: 'SSE 4.2'
-  'Geekbench Single-Core Score': 468
-  'Geekbench Multi-Core Score': 2261
-  'UserBenchmark CPU Score': '71.3'
 isPart: true
 type: CPU
 humanName: 'Xeon X5660'

@@ -15,8 +15,6 @@ data:
   Socket: FCLGA3647
   AES: true
   AVX/SSE/MMX: AVX-512
-  'Geekbench Single-Core Score': 1418
-  'Geekbench Multi-Core Score': 10041
 isPart: true
 type: CPU
 humanName: 'Xeon W-3235'

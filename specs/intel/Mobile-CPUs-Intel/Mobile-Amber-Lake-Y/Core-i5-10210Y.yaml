@@ -24,7 +24,6 @@ data:
   'Maximum VRAM Capacity': '16 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'UserBenchmark CPU Score': '57.7'
 isPart: true
 type: CPU
 humanName: 'Core i5-10210Y'

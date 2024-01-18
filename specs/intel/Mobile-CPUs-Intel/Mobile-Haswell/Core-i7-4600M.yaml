@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '2 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 998
-  'Geekbench Multi-Core Score': 1884
-  'UserBenchmark CPU Score': '56'
 isPart: true
 type: CPU
 humanName: 'Core i7-4600M'

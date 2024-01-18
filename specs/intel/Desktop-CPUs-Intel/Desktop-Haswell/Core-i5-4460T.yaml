@@ -24,8 +24,6 @@ data:
   'Maximum VRAM Capacity': '2 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 749
-  'Geekbench Multi-Core Score': 2096
 isPart: true
 type: CPU
 humanName: 'Core i5-4460T'

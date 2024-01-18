@@ -16,7 +16,6 @@ data:
     - x86-64
   AVX/SSE/MMX: false
   'GPU Base Frequency': '400 MHz'
-  'UserBenchmark CPU Score': '21.9'
 isPart: true
 type: CPU
 humanName: 'Atom N2600'

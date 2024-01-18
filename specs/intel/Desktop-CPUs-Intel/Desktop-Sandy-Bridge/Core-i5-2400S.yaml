@@ -20,9 +20,6 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '850 MHz'
   'GPU Boost Frequency': '1.1 GHz'
-  'Geekbench Single-Core Score': 500
-  'Geekbench Multi-Core Score': 1365
-  'UserBenchmark CPU Score': '60.4'
 isPart: true
 type: CPU
 humanName: 'Core i5-2400S'

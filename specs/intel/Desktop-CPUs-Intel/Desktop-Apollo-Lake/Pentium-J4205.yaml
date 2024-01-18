@@ -21,9 +21,6 @@ data:
   'Maximum VRAM Capacity': '8 GiB'
   'DirectX Support': '0'
   'OpenGL Support': 'Yes'
-  'Geekbench Single-Core Score': 242
-  'Geekbench Multi-Core Score': 613
-  'UserBenchmark CPU Score': '32.9'
 isPart: true
 type: CPU
 humanName: 'Pentium J4205'

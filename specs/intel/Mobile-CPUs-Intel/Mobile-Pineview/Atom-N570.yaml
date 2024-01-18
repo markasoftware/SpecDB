@@ -16,7 +16,6 @@ data:
     - x86-64
   AVX/SSE/MMX: false
   'GPU Base Frequency': '200 MHz'
-  'UserBenchmark CPU Score': '21.5'
 isPart: true
 type: CPU
 humanName: 'Atom N570'

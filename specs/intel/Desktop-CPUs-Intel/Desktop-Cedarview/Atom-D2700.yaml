@@ -17,7 +17,6 @@ data:
     - x86-64
   AVX/SSE/MMX: false
   'GPU Base Frequency': '640 MHz'
-  'UserBenchmark CPU Score': '26.4'
 isPart: true
 type: CPU
 humanName: 'Atom D2700'

@@ -20,10 +20,6 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '850 MHz'
   'GPU Boost Frequency': '1.35 GHz'
-  'Geekbench Single-Core Score': 662
-  'Geekbench Multi-Core Score': 2310
-  '3DMark Fire Strike Physics Score': 1870
-  'UserBenchmark CPU Score': '70.6'
 isPart: true
 type: CPU
 humanName: 'Core i7-2600K'

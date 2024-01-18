@@ -16,7 +16,6 @@ data:
   Socket: FCLGA2066
   AES: true
   AVX/SSE/MMX: AVX-512
-  'UserBenchmark CPU Score': '81.9'
 isPart: true
 type: CPU
 humanName: 'Core i9-9820X'

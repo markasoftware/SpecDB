@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '32 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.4'
-  'Geekbench Single-Core Score': 974
-  'Geekbench Multi-Core Score': 1820
-  'UserBenchmark CPU Score': '47.6'
 isPart: true
 type: CPU
 humanName: 'Core i3-8130U'

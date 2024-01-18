@@ -23,8 +23,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1218
-  'Geekbench Multi-Core Score': 3624
 isPart: true
 type: CPU
 humanName: 'Core i3-8100B'

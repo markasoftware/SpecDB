@@ -19,9 +19,6 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '1.1 GHz'
-  'Geekbench Single-Core Score': 327
-  'Geekbench Multi-Core Score': 669
-  'UserBenchmark CPU Score': '46.5'
 isPart: true
 type: CPU
 humanName: 'Core i3-2310M'

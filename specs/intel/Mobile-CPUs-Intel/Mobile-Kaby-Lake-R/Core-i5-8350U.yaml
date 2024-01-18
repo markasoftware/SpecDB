@@ -24,7 +24,6 @@ data:
   'Maximum VRAM Capacity': '32 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.4'
-  'UserBenchmark CPU Score': '51.6'
 isPart: true
 type: CPU
 humanName: 'Core i5-8350U'

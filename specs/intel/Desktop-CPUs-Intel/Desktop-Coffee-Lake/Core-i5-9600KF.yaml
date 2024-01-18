@@ -18,10 +18,6 @@ data:
   'Other Extensions':
     - x86-64
   AVX/SSE/MMX: AVX2
-  'Geekbench Single-Core Score': 1559
-  'Geekbench Multi-Core Score': 5731
-  '3DMark Fire Strike Physics Score': 4345
-  'UserBenchmark CPU Score': '93.2'
 isPart: true
 type: CPU
 humanName: 'Core i5-9600KF'

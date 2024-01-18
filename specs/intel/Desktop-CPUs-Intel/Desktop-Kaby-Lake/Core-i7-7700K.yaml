@@ -24,10 +24,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1536
-  'Geekbench Multi-Core Score': 5055
-  '3DMark Fire Strike Physics Score': 3498
-  'UserBenchmark CPU Score': '84'
 isPart: true
 type: CPU
 humanName: 'Core i7-7700K'

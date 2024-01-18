@@ -23,9 +23,6 @@ data:
   'Maximum VRAM Capacity': '2 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 1014
-  'Geekbench Multi-Core Score': 2022
-  'UserBenchmark CPU Score': '55.2'
 isPart: true
 type: CPU
 humanName: 'Core i3-4150'

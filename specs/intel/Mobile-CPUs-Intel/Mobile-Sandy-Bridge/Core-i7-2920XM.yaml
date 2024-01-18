@@ -20,7 +20,6 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '1.3 GHz'
-  'UserBenchmark CPU Score': '62.2'
 isPart: true
 type: CPU
 humanName: 'Core i7-2920XM'

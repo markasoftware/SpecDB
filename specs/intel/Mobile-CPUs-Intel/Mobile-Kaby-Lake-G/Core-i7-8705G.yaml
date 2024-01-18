@@ -23,9 +23,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.4'
-  'Geekbench Single-Core Score': 1204
-  'Geekbench Multi-Core Score': 3974
-  'UserBenchmark CPU Score': '72.5'
   TDP: '65 W'
 isPart: true
 type: CPU

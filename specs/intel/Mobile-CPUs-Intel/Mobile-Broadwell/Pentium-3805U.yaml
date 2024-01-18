@@ -20,9 +20,6 @@ data:
   'GPU Base Frequency': '100 MHz'
   'GPU Boost Frequency': '800 MHz'
   'DirectX Support': '12'
-  'Geekbench Single-Core Score': 313
-  'Geekbench Multi-Core Score': 555
-  'UserBenchmark CPU Score': '44.1'
 isPart: true
 type: CPU
 humanName: 'Pentium 3805U'

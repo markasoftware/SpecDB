@@ -23,9 +23,6 @@ data:
   'Maximum VRAM Capacity': '32 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.4'
-  'Geekbench Single-Core Score': 420
-  'Geekbench Multi-Core Score': 891
-  'UserBenchmark CPU Score': '48.7'
 isPart: true
 type: CPU
 humanName: 'Pentium 4415U'

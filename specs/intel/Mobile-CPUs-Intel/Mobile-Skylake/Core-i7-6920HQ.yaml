@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1115
-  'Geekbench Multi-Core Score': 3656
-  'UserBenchmark CPU Score': '69.5'
 isPart: true
 type: CPU
 humanName: 'Core i7-6920HQ'

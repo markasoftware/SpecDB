@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '32 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1092
-  'Geekbench Multi-Core Score': 2282
-  'UserBenchmark CPU Score': '61.5'
 isPart: true
 type: CPU
 humanName: 'Core i5-7260U'

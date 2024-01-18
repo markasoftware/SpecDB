@@ -19,9 +19,6 @@ data:
     - x86-64
   'GPU Base Frequency': '500 MHz'
   'GPU Boost Frequency': '667 MHz'
-  'Geekbench Single-Core Score': 274
-  'Geekbench Multi-Core Score': 461
-  'UserBenchmark CPU Score': '36.2'
 isPart: true
 type: CPU
 humanName: 'Pentium P6200'

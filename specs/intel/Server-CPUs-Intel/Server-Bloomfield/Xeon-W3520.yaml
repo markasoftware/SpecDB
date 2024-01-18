@@ -19,7 +19,6 @@ data:
   'Other Extensions':
     - x86-64
   AVX/SSE/MMX: 'SSE 4.2'
-  'UserBenchmark CPU Score': '63.1'
 isPart: true
 type: CPU
 humanName: 'Xeon W3520'

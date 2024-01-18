@@ -23,9 +23,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.4'
-  'Geekbench Single-Core Score': 722
-  'Geekbench Multi-Core Score': 1512
-  'UserBenchmark CPU Score': '62.9'
 isPart: true
 type: CPU
 humanName: 'Pentium G4600'

@@ -24,8 +24,6 @@ data:
   'Maximum VRAM Capacity': '32 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 923
-  'Geekbench Multi-Core Score': 1906
 isPart: true
 type: CPU
 humanName: 'Core i5-6360U'

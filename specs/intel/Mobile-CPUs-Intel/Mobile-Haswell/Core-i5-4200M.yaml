@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '2 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 856
-  'Geekbench Multi-Core Score': 1675
-  'UserBenchmark CPU Score': '49.6'
 isPart: true
 type: CPU
 humanName: 'Core i5-4200M'

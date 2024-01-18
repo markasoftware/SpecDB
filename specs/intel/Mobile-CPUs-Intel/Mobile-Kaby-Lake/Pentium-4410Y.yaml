@@ -23,7 +23,6 @@ data:
   'Maximum VRAM Capacity': '16 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.4'
-  'UserBenchmark CPU Score': '38.9'
 isPart: true
 type: CPU
 humanName: 'Pentium 4410Y'

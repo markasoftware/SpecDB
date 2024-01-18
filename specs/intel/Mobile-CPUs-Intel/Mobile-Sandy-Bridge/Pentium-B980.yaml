@@ -19,9 +19,6 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '1.15 GHz'
-  'Geekbench Single-Core Score': 355
-  'Geekbench Multi-Core Score': 575
-  'UserBenchmark CPU Score': '46.1'
 isPart: true
 type: CPU
 humanName: 'Pentium B980'

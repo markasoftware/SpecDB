@@ -24,10 +24,6 @@ data:
   'Maximum VRAM Capacity': '2 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'Geekbench Single-Core Score': 1237
-  'Geekbench Multi-Core Score': 3484
-  '3DMark Fire Strike Physics Score': 2144
-  'UserBenchmark CPU Score': '68'
 isPart: true
 type: CPU
 humanName: 'Core i5-4670K'

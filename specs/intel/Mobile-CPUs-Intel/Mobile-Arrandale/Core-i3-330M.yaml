@@ -20,8 +20,6 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '500 MHz'
   'GPU Boost Frequency': '667 MHz'
-  'Geekbench Single-Core Score': 275
-  'Geekbench Multi-Core Score': 594
 isPart: true
 type: CPU
 humanName: 'Core i3-330M'

@@ -21,9 +21,6 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '1.1 GHz'
-  'Geekbench Single-Core Score': 487
-  'Geekbench Multi-Core Score': 983
-  'UserBenchmark CPU Score': '47.8'
 isPart: true
 type: CPU
 humanName: 'Core i5-3210M'

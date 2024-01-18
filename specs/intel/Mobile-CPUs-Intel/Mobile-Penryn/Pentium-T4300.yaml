@@ -12,9 +12,6 @@ data:
   Socket: PGA478
   'Other Extensions':
     - x86-64
-  'Geekbench Single-Core Score': 202
-  'Geekbench Multi-Core Score': 342
-  'UserBenchmark CPU Score': '33.7'
 isPart: true
 type: CPU
 humanName: 'Pentium T4300'

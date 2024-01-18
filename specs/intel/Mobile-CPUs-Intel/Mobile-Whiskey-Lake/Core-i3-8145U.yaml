@@ -24,7 +24,6 @@ data:
   'Maximum VRAM Capacity': '32 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'UserBenchmark CPU Score': '52.8'
 isPart: true
 type: CPU
 humanName: 'Core i3-8145U'

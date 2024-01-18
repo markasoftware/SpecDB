@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '32 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 994
-  'Geekbench Multi-Core Score': 2023
-  'UserBenchmark CPU Score': '53.1'
 isPart: true
 type: CPU
 humanName: 'Core i7-6650U'

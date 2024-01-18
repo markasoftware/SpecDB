@@ -23,7 +23,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'UserBenchmark CPU Score': '63.5'
 isPart: true
 type: CPU
 humanName: 'Pentium G5400T'

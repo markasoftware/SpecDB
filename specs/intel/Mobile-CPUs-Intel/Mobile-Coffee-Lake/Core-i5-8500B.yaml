@@ -24,8 +24,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1347
-  'Geekbench Multi-Core Score': 4939
 isPart: true
 type: CPU
 humanName: 'Core i5-8500B'

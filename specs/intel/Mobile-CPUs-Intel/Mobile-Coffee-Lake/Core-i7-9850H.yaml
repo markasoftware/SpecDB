@@ -24,9 +24,6 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-  'Geekbench Single-Core Score': 1376
-  'Geekbench Multi-Core Score': 5019
-  'UserBenchmark CPU Score': '77.1'
 isPart: true
 type: CPU
 humanName: 'Core i7-9850H'

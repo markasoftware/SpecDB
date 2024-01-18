@@ -13,7 +13,6 @@ data:
   Socket: PBGA437
   'Other Extensions': {  }
   AVX/SSE/MMX: false
-  'UserBenchmark CPU Score': '20.3'
 isPart: true
 type: CPU
 humanName: 'Atom N280'

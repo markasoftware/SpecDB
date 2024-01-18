@@ -23,7 +23,6 @@ data:
   'Maximum VRAM Capacity': '2 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-  'UserBenchmark CPU Score': '65.9'
 isPart: true
 type: CPU
 humanName: 'Core i3-4350'

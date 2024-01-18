@@ -19,9 +19,6 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '850 MHz'
   'GPU Boost Frequency': '1.1 GHz'
-  'Geekbench Single-Core Score': 484
-  'Geekbench Multi-Core Score': 771
-  'UserBenchmark CPU Score': '51.4'
 isPart: true
 type: CPU
 humanName: 'Pentium G860'
