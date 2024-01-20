@@ -1,7 +1,7 @@
 name: Ryzen-5-7540U
 humanName: Ryzen 7 7540U
 isPart: true
-type: CPU
+type: APU
 inherits:
 - Phoenix
 data:

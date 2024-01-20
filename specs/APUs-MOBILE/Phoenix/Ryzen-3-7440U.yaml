@@ -1,7 +1,7 @@
 name: Ryzen-3-7440U
 humanName: Ryzen 3 7440U
 isPart: true
-type: CPU
+type: APU
 inherits:
 - Phoenix
 data:
