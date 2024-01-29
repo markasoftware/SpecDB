@@ -3,7 +3,7 @@ humanName: Ryzen 7 7840HS
 isPart: true
 type: APU
 inherits:
-- Phoenix
+- Phoenix-M
 data:
   L1 Cache (Data): 256 KiB
   L1 Cache (Instruction): 256 KiB

@@ -1,0 +1,22 @@
+name: Ryzen-7-8500G
+humanName: Ryzen 7 8500G
+isPart: true
+type: CPU
+inherits:
+- Phoenix
+data:
+  #Architecture: Zen 4 and Zen 4c
+  L1 Cache (Data): 192 KiB
+  L1 Cache (Instruction): 192 KiB
+  L2 Cache (Total): 6 MiB
+  Core Count: Zen 4= 2 Zen 4C= 4
+  Thread Count: 12
+  Base Frequency: Zen 4= 4.1 GHz Zen 4C= 3.2Ghz  
+  Boost Frequency: Zen 4= 5 GHz Zen 4C= 3.7Ghz
+  #Unlocked: false
+  PCIe 4.0 Lanes: 14
+  Render Output Unit Count: 4
+  GPU Base Frequency: 2600 MHz
+  VRAM Type: DDR5
+  #Shader Processor Count: 512
+  GPU Model: 740M

@@ -3,7 +3,7 @@ humanName: Ryzen 7 7640H
 isPart: true
 type: APU
 inherits:
-- Phoenix
+- Phoenix-M
 data:
   L1 Cache (Data): 192 KiB
   L1 Cache (Instruction): 192 KiB

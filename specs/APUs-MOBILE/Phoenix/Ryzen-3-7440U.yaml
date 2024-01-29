@@ -3,7 +3,7 @@ humanName: Ryzen 3 7440U
 isPart: true
 type: APU
 inherits:
-- Phoenix
+- Phoenix-M
 data:
   L1 Cache (Data): 128 KiB
   L1 Cache (Instruction): 128 KiB
