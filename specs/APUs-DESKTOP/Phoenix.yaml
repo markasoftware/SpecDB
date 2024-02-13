@@ -16,9 +16,9 @@ sections:
 - header: Ryzen 5
   members:
   - Ryzen-5-8600G
-#   - Ryzen-5-8500G
-# - header: Ryzen 3
-#   members:
-#   - Ryzen-3-8300G
+  - Ryzen-5-8500G
+- header: Ryzen 3
+  members:
+  - Ryzen-3-8300G
 
 

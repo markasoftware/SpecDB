@@ -15,4 +15,7 @@ data:
   Base Frequency: 3 GHz
   Boost Frequency: 4.7 GHz
   GPU Model: Radeon 740M
-  GPU Base Frequency: 2500 MHz
+  GPU Base Frequency: 800 MHz
+  GPU Boost Frequency: 2500 MHz
+  Shader Processor Count: 256
+  Render Output Unit Count: 4

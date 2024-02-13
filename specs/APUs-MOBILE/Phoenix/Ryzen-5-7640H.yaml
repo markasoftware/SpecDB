@@ -17,3 +17,5 @@ data:
   GPU Model: Radeon 760M
   GPU Base Frequency: 2600 MHz
   FreeSync Support: false
+  Shader Processor Count: 512
+  Render Output Unit Count: 8

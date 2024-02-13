@@ -1,19 +1,29 @@
-name: Ryzen-7-8500G
-humanName: Ryzen 7 8500G
+name: Ryzen-3-8300G
+humanName: Ryzen 3 8300G
 isPart: true
 type: CPU
 inherits:
 - Phoenix
 data:
-  #Architecture: Zen 4 and Zen 4c
+  cTDP Support: true
+  Architecture: Zen 4
+  Efficient-Core Architecture: Zen 4C
   L1 Cache (Data): 128 KiB
   L1 Cache (Instruction): 128 KiB
   L2 Cache (Total): 4 MiB
   L3 Cache (Total): 8 MiB
-  Core Count: Zen 4= 1 Zen 4C= 3
+  Core Count: 4
+  Performance-Core Count: 1
+  Efficient-Core Count: 3
   Thread Count: 8
-  Base Frequency: Zen 4= 4 GHz Zen 4C= 3.2Ghz  
-  Boost Frequency: Zen 4= 4.9 GHz Zen 4C= 3.7Ghz
+  Performance-Thread Count: 2
+  Efficient-Thread Count: 6
+  Base Frequency: 3.4 GHz
+  Performance-Core Base Frequency: 4 GHz
+  Efficient-Core Base Frequency: 3.2 GHz
+  Boost Frequency: 4.9 GHz
+  Performance-Core Boost Frequency: 4.9 GHz
+  Efficient-Core Boost Frequency: 3.7 GHz
   Release Date: '2024-01'
   #Unlocked: false
   PCIe 4.0 Lanes: 14
@@ -22,3 +32,5 @@ data:
   VRAM Type: DDR5
   #Shader Processor Count: 512
   GPU Model: 740M
+
+  Note: 

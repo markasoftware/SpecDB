@@ -16,3 +16,5 @@ data:
   Boost Frequency: 4.9 GHz
   GPU Model: Radeon 760M
   GPU Base Frequency: 2600 MHz
+  Shader Processor Count: 512
+  Render Output Unit Count: 8

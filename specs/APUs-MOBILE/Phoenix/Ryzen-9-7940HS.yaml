@@ -14,5 +14,9 @@ data:
   Thread Count: 16
   Base Frequency: 4 GHz
   Boost Frequency: 5.2 GHz
+  PCIe 4.0 Lanes: 20
   GPU Model: Radeon 780M
-  GPU Base Frequency: 2800 MHz
+  GPU Base Frequency: 800 MHz
+  GPU Boost Frequency: 2800 MHz
+  Shader Processor Count: 768
+  Render Output Unit Count: 12

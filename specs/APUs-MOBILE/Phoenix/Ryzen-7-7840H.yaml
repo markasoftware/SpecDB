@@ -15,5 +15,8 @@ data:
   Base Frequency: 3.8 GHz
   Boost Frequency: 5.1 GHz
   GPU Model: Radeon 780M
-  GPU Base Frequency: 2700 MHz
+  GPU Base Frequency: 800 MHz
+  GPU Boost Frequency: 2700 MHz
+  Shader Processor Count: 768
   FreeSync Support: false
+  Render Output Unit Count: 12

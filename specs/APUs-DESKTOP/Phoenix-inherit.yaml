@@ -10,6 +10,7 @@ data:
   Crossfire Support: No
   cTDP Support: true
   L3 Cache (Total): 16 MiB
+  Ecc Support: true
   TDP: 65w
   Socket: AM5
   FMA4: false
@@ -30,3 +31,9 @@ data:
     - TSME
     - SEV
     - SenseMI
+  Compatible Chipsets:
+    - X670E
+    - X670
+    - B650E
+    - B650
+    - A620
