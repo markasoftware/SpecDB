@@ -1,0 +1,22 @@
+name: Ryzen-7-8700G
+humanName: Ryzen 7 8700G
+isPart: true
+type: CPU
+inherits:
+- Phoenix
+data:
+  Architecture: Zen 4
+  L1 Cache (Data): 256 KiB
+  L1 Cache (Instruction): 256 KiB
+  L2 Cache (Total): 8 MiB
+  Core Count: 8
+  Thread Count: 16
+  Base Frequency: 4.2 GHz
+  Boost Frequency: 5.1 GHz
+  #Unlocked: false
+  PCIe 4.0 Lanes: 20
+  Render Output Unit Count: 12
+  GPU Base Frequency: 2900 MHz
+  VRAM Type: DDR5
+  Shader Processor Count: 768
+  GPU Model: 780M

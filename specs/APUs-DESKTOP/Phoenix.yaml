@@ -1,0 +1,24 @@
+name: Phoenix
+humanName: Phoenix
+type: APU Architecture
+topHeader: 'SELECT CPU:'
+data: 
+  Lithography: 4nm
+  Release Date: '2023-05'
+  Sockets:
+    - FP7
+    - FP7r2
+    - FP8
+sections:
+- header: Ryzen 7
+  members:
+  - Ryzen-7-8700G
+- header: Ryzen 5
+  members:
+  - Ryzen-5-8600G
+  - Ryzen-5-8500G
+- header: Ryzen 3
+  members:
+  - Ryzen-3-8300G
+
+
