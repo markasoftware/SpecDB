@@ -1,0 +1,27 @@
+name: QID-LP-PCIe
+humanName: QID LP PCIe
+isPart: true
+type: Graphics Card
+data:
+  Architecture: MP
+  Lithography: 0 nm
+  DirectX Support: '8.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-12-17'
+  VRAM Frequency: 300 MHz
+  VRAM Bandwidth: 9.600 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 2
+  Texture Mapping Unit Count: 8
+  Die Size: unknown
+  GPU: MP-A4
+  GPU Variant: MP-A4L
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 1x DVI
+  Power Connectors: None
+  Length: 168 mm

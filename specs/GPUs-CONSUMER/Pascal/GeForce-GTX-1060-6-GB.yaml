@@ -1,0 +1,36 @@
+name: GeForce-GTX-1060-6-GB
+humanName: GeForce GTX 1060 6 GB
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Pascal
+  Lithography: 16 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2016-07-19'
+  GPU Base Frequency: 1506 MHz
+  GPU Boost Frequency: 1709 MHz
+  VRAM Frequency: 2002 MHz
+  VRAM Bandwidth: 192.2 GB/s
+  VRAM Capacity: 6 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 192 bit
+  Render Output Unit Count: 48
+  Texture Mapping Unit Count: 80
+  Shader Processor Count: 1280 
+  Die Size: 200 mm²
+  GPU: GP106
+  GPU Variant: GP106-400-A1
+  TDP: 120 W
+  FP32 Compute: 4.375 TFLOPS
+  FP64 Compute: 136.7 GFLOPS (1:32)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 2.0
+    - 3x DisplayPort 1.4a
+  Power Connectors: 1x 6-pin
+  Length: 250 mm
+  Width: 111 mm

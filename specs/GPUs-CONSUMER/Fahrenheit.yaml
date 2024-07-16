@@ -1,0 +1,21 @@
+name: Fahrenheit 
+humanName: Fahrenheit
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '5.0'
+  Vulkan Support: 'N/A'
+  Release Date: '1998-03-23'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Riva-TNT
+    - Riva-TNT2
+    - Riva-TNT2-M64
+    - Riva-TNT2-M64-Vanta
+    - Riva-TNT2-M64-Vanta-16
+    - Riva-TNT2-PRO
+    - Riva-TNT2-Ultra
+    - Vanta-LT

@@ -1,0 +1,24 @@
+name: Mobility-Radeon-X800
+humanName: Mobility Radeon X800
+isPart: true
+type: Graphics Card
+data:
+  Architecture: R400
+  Lithography: 130 nm
+  DirectX Support: '9.2'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-11-01'
+  VRAM Frequency: 400 MHz
+  VRAM Bandwidth: 25.60 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 12
+  Texture Mapping Unit Count: 12
+  Die Size: 289 mm²
+  GPU: M28
+  GPU Variant: M28 X800
+  TDP: unknown
+  Outputs: Portable Device Dependent

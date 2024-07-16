@@ -1,0 +1,31 @@
+name: GeForce-GT-330-OEM
+humanName: GeForce GT 330 OEM
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla 2.0
+  Lithography: 40 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2010-02-02'
+  VRAM Frequency: 790 MHz
+  VRAM Bandwidth: 25.28 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 96 
+  Die Size: 144 mm²
+  GPU: GT215
+  GPU Variant: GT215-301-A3
+  TDP: 75 W
+  FP32 Compute: 250.4 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI1x VGA
+  Power Connectors: None
+  Length: 175 mm

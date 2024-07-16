@@ -1,0 +1,27 @@
+name: GeForce-PCX-5900
+humanName: GeForce PCX 5900
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Rankine
+  Lithography: 130 nm
+  DirectX Support: '9.0a'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2003-03-17'
+  VRAM Frequency: 275 MHz
+  VRAM Bandwidth: 17.60 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Die Size: 207 mm²
+  GPU: NV35
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None

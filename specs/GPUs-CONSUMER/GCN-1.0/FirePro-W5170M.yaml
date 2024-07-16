@@ -1,0 +1,31 @@
+name: FirePro-W5170M
+humanName: FirePro W5170M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2014-08-25'
+  GPU Base Frequency: 900 MHz
+  GPU Boost Frequency: 925 MHz
+  VRAM Frequency: 1125 MHz
+  VRAM Bandwidth: 72.00 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 40
+  Shader Processor Count: 640 
+  Die Size: 123 mm²
+  GPU: Tropo
+  GPU Variant: Tropo XT
+  TDP: unknown
+  FP32 Compute: 1,184 GFLOPS
+  FP64 Compute: 74.00 GFLOPS (1:16)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

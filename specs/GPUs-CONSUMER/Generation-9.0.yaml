@@ -1,0 +1,28 @@
+name: Generation-9.0 
+humanName: Generation 9.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  Release Date: '2015-09-01'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - HD-Graphics-500-Mobile
+    - HD-Graphics-505-Mobile
+    - HD-Graphics-510
+    - HD-Graphics-510-Mobile
+    - HD-Graphics-515-Mobile
+    - HD-Graphics-520-Mobile
+    - HD-Graphics-530
+    - HD-Graphics-530-Mobile
+    - HD-Graphics-P530
+    - Iris-Graphics-540-Mobile
+    - Iris-Graphics-550-Mobile
+    - Iris-Pro-Graphics-580-Mobile
+    - Iris-Pro-Graphics-P555
+    - Iris-Pro-Graphics-P580
+    - Iris-Pro-Graphics-P580-Mobile

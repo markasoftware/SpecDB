@@ -1,0 +1,37 @@
+name: Radeon-RX-6600-XT
+humanName: Radeon RX 6600 XT
+isPart: true
+type: Graphics Card
+data:
+  Architecture: RDNA 2.0
+  Lithography: 7 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2021-07-30'
+  GPU Base Frequency: 1968 MHz
+  GPU Boost Frequency: 2589 MHz
+  VRAM Frequency: 2000 MHz
+  VRAM Bandwidth: 256.0 GB/s
+  VRAM Capacity: 8 GB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 128
+  Shader Processor Count: 2048 
+  Die Size: 237 mm²
+  GPU: Navi 23
+  GPU Variant: Navi 23 XT
+  TDP: 160 W
+  FP32 Compute: 10.60 TFLOPS
+  FP64 Compute: 662.8 GFLOPS (1:16)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x HDMI 2.1
+    - 3x DisplayPort 1.4a
+  Power Connectors: 1x 8-pin
+  Length: 190 mm
+  Width: 110 mm
+  Height: 40 mm
+  Ray Tracing Cores: 32

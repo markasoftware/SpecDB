@@ -1,0 +1,28 @@
+name: Radeon-HD-6970M
+humanName: Radeon HD 6970M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2011-01-04'
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 115.2 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 48
+  Shader Processor Count: 960 
+  Die Size: 212 mm²
+  GPU: Blackcomb
+  GPU Variant: Blackcomb XT
+  TDP: 75 W
+  FP32 Compute: 1,306 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

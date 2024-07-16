@@ -1,0 +1,31 @@
+name: Radeon-HD-4670
+humanName: Radeon HD 4670
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2008-09-10'
+  VRAM Frequency: 1000 MHz
+  VRAM Bandwidth: 32.00 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 320 
+  Die Size: 146 mm²
+  GPU: RV730
+  GPU Variant: RV730 XT
+  TDP: 59 W
+  FP32 Compute: 480.0 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: None
+  Length: 193 mm

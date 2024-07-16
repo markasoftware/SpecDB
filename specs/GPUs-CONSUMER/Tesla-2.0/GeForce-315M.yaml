@@ -1,0 +1,28 @@
+name: GeForce-315M
+humanName: GeForce 315M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla 2.0
+  Lithography: 40 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2011-01-05'
+  VRAM Frequency: 790 MHz
+  VRAM Bandwidth: 12.64 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 16 
+  Die Size: 57 mm²
+  GPU: GT218
+  GPU Variant: N11M-GE
+  TDP: 14 W
+  FP32 Compute: 38.78 GFLOPS
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None

@@ -1,0 +1,19 @@
+name: Generation-1.0 
+humanName: Generation 1.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '7.0'
+  Vulkan Support: 'N/A'
+  Release Date: '1998'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - i752
+    - i752-Graphics
+    - i810-Graphics
+    - i815-Graphics
+    - i830MG-Graphics
+    - i830M-Graphics

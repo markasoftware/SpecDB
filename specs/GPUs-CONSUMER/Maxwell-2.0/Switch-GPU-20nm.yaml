@@ -1,0 +1,32 @@
+name: Switch-GPU-20nm
+humanName: Switch GPU 20nm
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Maxwell 2.0
+  Lithography: 20 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.1'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.2'
+  Release Date: '2017-03-17'
+  GPU Base Frequency: 384 MHz
+  GPU Boost Frequency: 768 MHz
+  VRAM Frequency: 1600 MHz
+  VRAM Bandwidth: 25.60 GB/s
+  VRAM Capacity: 4 GB
+  VRAM Type: DDR4
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 256 
+  Die Size: 118 mm²
+  GPU: GM20B
+  GPU Variant: ODNX02-A2
+  TDP: 15 W
+  FP32 Compute: 393.2 GFLOPS
+  FP64 Compute: 12.29 GFLOPS (1:32)
+  Outputs: 1x USB Type-C
+  Length: 239 mm
+  Width: 101 mm
+  Height: 28 mm

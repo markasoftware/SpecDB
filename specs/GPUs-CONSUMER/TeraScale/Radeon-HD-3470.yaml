@@ -1,0 +1,31 @@
+name: Radeon-HD-3470
+humanName: Radeon HD 3470
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: 'N/A'
+  Release Date: '2008-01-23'
+  VRAM Frequency: 950 MHz
+  VRAM Bandwidth: 15.20 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 40 
+  Die Size: 67 mm²
+  GPU: RV620
+  GPU Variant: RV620 PRO
+  TDP: 30 W
+  FP32 Compute: 64.00 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None
+  Length: 168 mm

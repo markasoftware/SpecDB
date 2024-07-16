@@ -1,0 +1,34 @@
+name: Radeon-RX-5700
+humanName: Radeon RX 5700
+isPart: true
+type: Graphics Card
+data:
+  Architecture: RDNA 1.0
+  Lithography: 7 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2019-07-07'
+  GPU Base Frequency: 1465 MHz
+  GPU Boost Frequency: 1725 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 448.0 GB/s
+  VRAM Capacity: 8 GB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 144
+  Shader Processor Count: 2304 
+  Die Size: 251 mm²
+  GPU: Navi 10
+  GPU Variant: Navi 10 XL
+  TDP: 180 W
+  FP32 Compute: 7.949 TFLOPS
+  FP64 Compute: 496.8 GFLOPS (1:16)
+  Slot Width: Dual-slot
+  Outputs: 1x HDMI 2.0b3x DisplayPort 1.4a
+  Power Connectors: 1x 6-pin + 1x 8-pin
+  Length: 268 mm
+  Width: 111 mm
+  Height: 36 mm

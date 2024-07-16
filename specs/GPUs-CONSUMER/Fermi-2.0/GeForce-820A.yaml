@@ -1,0 +1,29 @@
+name: GeForce-820A
+humanName: GeForce 820A
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Fermi 2.0
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2014-03-17'
+  VRAM Frequency: 1001 MHz
+  VRAM Bandwidth: 16.02 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: DDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 96 
+  Die Size: 116 mm²
+  GPU: GF117
+  GPU Variant: N15V-GM
+  TDP: 15 W
+  FP32 Compute: 240.0 GFLOPS
+  FP64 Compute: 20.00 GFLOPS (1:12)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None

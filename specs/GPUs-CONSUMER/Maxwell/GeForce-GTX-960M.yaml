@@ -1,0 +1,31 @@
+name: GeForce-GTX-960M
+humanName: GeForce GTX 960M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Maxwell
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2015-03-13'
+  GPU Base Frequency: 1097 MHz
+  GPU Boost Frequency: 1176 MHz
+  VRAM Frequency: 1253 MHz
+  VRAM Bandwidth: 80.19 GB/s
+  VRAM Capacity: 4 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 40
+  Shader Processor Count: 640 
+  Die Size: 148 mm²
+  GPU: GM107
+  GPU Variant: N16P-GX-A1
+  TDP: 75 W
+  FP32 Compute: 1.505 TFLOPS
+  FP64 Compute: 47.04 GFLOPS (1:32)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

@@ -1,0 +1,19 @@
+name: Generation-4.0 
+humanName: Generation 4.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '9.0c'
+  Vulkan Support: 'N/A'
+  Release Date: '2006-06-01'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - GMA-3000
+    - GMA-3100
+    - GMA-3150
+    - GMA-X3000
+    - GMA-X3100
+    - GMA-X3500

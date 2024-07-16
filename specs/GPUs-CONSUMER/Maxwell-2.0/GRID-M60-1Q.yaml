@@ -1,0 +1,31 @@
+name: GRID-M60-1Q
+humanName: GRID M60-1Q
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Maxwell 2.0
+  Lithography: 28 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2015-08-30'
+  GPU Base Frequency: 557 MHz
+  GPU Boost Frequency: 1178 MHz
+  VRAM Frequency: 1253 MHz
+  VRAM Bandwidth: 160.4 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 128
+  Shader Processor Count: 2048 
+  Die Size: 398 mm²
+  GPU: GM204
+  TDP: 225 W
+  FP32 Compute: 4.825 TFLOPS
+  FP64 Compute: 150.8 GFLOPS (1:32)
+  Slot Width: Dual-slot
+  Outputs: No outputs
+  Power Connectors: 1x 8-pin
+  Length: 267 mm

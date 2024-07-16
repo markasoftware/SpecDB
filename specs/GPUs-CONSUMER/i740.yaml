@@ -1,0 +1,16 @@
+name: i740 
+humanName: i740
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '5.0'
+  Vulkan Support: 'N/A'
+  Release Date: '1998'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - i740
+    - i740-8-MB
+    - i740-Graphics

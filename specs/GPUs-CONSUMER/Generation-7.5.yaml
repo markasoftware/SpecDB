@@ -1,0 +1,26 @@
+name: Generation-7.5 
+humanName: Generation 7.5
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.0'
+  Release Date: '2013-04-29'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - HD-Graphics-10EU-Mobile
+    - HD-Graphics-4200-Mobile
+    - HD-Graphics-4400
+    - HD-Graphics-4400-Mobile
+    - HD-Graphics-4600
+    - HD-Graphics-4600-Mobile
+    - HD-Graphics-5000-Mobile
+    - HD-Graphics-P4600
+    - HD-Graphics-P4700
+    - HD-Graphics-10EU
+    - Iris-Graphics-5100-Mobile
+    - Iris-Pro-Graphics-5200
+    - Iris-Pro-Graphics-5200-Mobile

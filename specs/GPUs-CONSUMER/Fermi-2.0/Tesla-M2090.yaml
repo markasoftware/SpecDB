@@ -1,0 +1,29 @@
+name: Tesla-M2090
+humanName: Tesla M2090
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Fermi 2.0
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2011-07-25'
+  VRAM Frequency: 924 MHz
+  VRAM Bandwidth: 177.4 GB/s
+  VRAM Capacity: 6 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 48
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 512 
+  Die Size: 520 mm²
+  GPU: GF110
+  TDP: 250 W
+  FP32 Compute: 1,332 GFLOPS
+  FP64 Compute: 666.1 GFLOPS (1:2)
+  Slot Width: Dual-slot
+  Outputs: No outputs
+  Power Connectors: 1x 6-pin + 1x 8-pin
+  Length: 248 mm

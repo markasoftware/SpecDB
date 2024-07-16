@@ -1,0 +1,26 @@
+name: Volari-V8-Ultra
+humanName: Volari V8 Ultra
+isPart: true
+type: Graphics Card
+data:
+  Architecture: XG4
+  Lithography: 130 nm
+  DirectX Support: '9.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5'
+  OpenCL Support: 'N/A'
+  Release Date: '2003-09-15'
+  VRAM Frequency: 500 MHz
+  VRAM Bandwidth: 16.00 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Die Size: unknown
+  GPU: XG40
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video

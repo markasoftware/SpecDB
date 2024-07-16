@@ -1,0 +1,86 @@
+name: Tesla-2.0 
+humanName: Tesla 2.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  Release Date: '2007-04-17'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - GeForce-205-OEM
+    - GeForce-210
+    - GeForce-210-OEM
+    - GeForce-210-PCI
+    - GeForce-210-Rev.-2
+    - GeForce-305M
+    - GeForce-310-OEM
+    - GeForce-310M
+    - GeForce-315-OEM
+    - GeForce-315M
+    - GeForce-320M-Mac-Edition
+    - GeForce-405-OEM
+    - GeForce-405M
+    - GeForce-505-OEM
+    - GeForce-8400-GS-PCI-Rev.-2
+    - GeForce-8400-GS-Rev.-3
+    - GeForce-9300-GS-Rev.-2
+    - GeForce-9400-GT-Rev.-3
+    - GeForce-G105M
+    - GeForce-G210-OEM-Rev.-2
+    - GeForce-G210M
+    - GeForce-GT-220
+    - GeForce-GT-230M
+    - GeForce-GT-240
+    - GeForce-GT-240M
+    - GeForce-GT-320-OEM
+    - GeForce-GT-330-OEM
+    - GeForce-GT-330M
+    - GeForce-GT-335M
+    - GeForce-GT-340-OEM
+    - GeForce-GT-415-OEM
+    - GeForce-GT-220-OEM
+    - GeForce-GT-325M
+    - GeForce-GTS-260M
+    - GeForce-GTS-350M
+    - GeForce-GTS-360M
+    - GeForce-GTX-260
+    - GeForce-GTX-260-Core-216
+    - GeForce-GTX-260-Core-216-Rev.-2
+    - GeForce-GTX-260-OEM
+    - GeForce-GTX-260-Rev.-2
+    - GeForce-GTX-275
+    - GeForce-GTX-280
+    - GeForce-GTX-285
+    - GeForce-GTX-285-Mac-Edition
+    - GeForce-GTX-285-X2
+    - GeForce-GTX-295
+    - GeForce-GTX-295-Single-PCB
+    - GeForce-GT-330M-Mac-Edition
+    - GeForce-GTS-250M
+    - GeForce-GTX-470-PhysX-Edition
+    - ION-2
+    - NVS-300
+    - NVS-2100M
+    - NVS-3100M
+    - NVS-5100M
+    - Quadro-400
+    - Quadro-CX
+    - Quadro-FX-380-LP
+    - Quadro-FX-380M
+    - Quadro-FX-880M
+    - Quadro-FX-1800M
+    - Quadro-FX-3800
+    - Quadro-FX-4800
+    - Quadro-FX-4800-Mac-Edition
+    - Quadro-FX-5800
+    - Quadro-Plex-2200-D2
+    - Quadro-Plex-2200-S4
+    - Tesla-C1060
+    - Tesla-C1080
+    - Tesla-M1060
+    - Tesla-S1070
+    - Tesla-S1075

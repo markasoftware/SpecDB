@@ -1,0 +1,30 @@
+name: Radeon-HD-4250
+humanName: Radeon HD 4250
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: 'N/A'
+  Release Date: '2009-02-25'
+  VRAM Frequency: 396 MHz
+  VRAM Bandwidth: 6.336 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 40 
+  Die Size: 67 mm²
+  GPU: RV620
+  GPU Variant: RV620 LE
+  TDP: 25 W
+  FP32 Compute: 47.52 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None

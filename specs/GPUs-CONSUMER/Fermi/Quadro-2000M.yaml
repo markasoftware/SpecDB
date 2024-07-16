@@ -1,0 +1,29 @@
+name: Quadro-2000M
+humanName: Quadro 2000M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Fermi
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2011-01-13'
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 28.80 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: DDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 192 
+  Die Size: 238 mm²
+  GPU: GF106
+  GPU Variant: N12P-Q3
+  TDP: 55 W
+  FP32 Compute: 422.4 GFLOPS
+  FP64 Compute: 35.20 GFLOPS (1:12)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

@@ -1,0 +1,38 @@
+name: GeForce-RTX-4080-12-GB
+humanName: GeForce RTX 4080 12 GB
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Ada Lovelace
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '240'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: 'Never Released'
+  GPU Base Frequency: 2310 MHz
+  GPU Boost Frequency: 2610 MHz
+  VRAM Frequency: 1313 MHz
+  VRAM Bandwidth: 504.2 GB/s
+  VRAM Capacity: 12 GB
+  VRAM Type: GDDR6X
+  VRAM Bus Width: 192 bit
+  Render Output Unit Count: 80
+  Texture Mapping Unit Count: 240
+  Shader Processor Count: 7680 
+  Die Size: 294 mm²
+  GPU: AD104
+  GPU Variant: AD104-400-A1
+  TDP: 285 W
+  FP32 Compute: 40.09 TFLOPS
+  FP64 Compute: 626.4 GFLOPS (1:64)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x HDMI 2.1
+    - 3x DisplayPort 1.4a
+  Power Connectors: 1x 16-pin
+  Length: 267 mm
+  Width: 112 mm
+  Ray Tracing Cores: 60
+  Tensor Cores: 240

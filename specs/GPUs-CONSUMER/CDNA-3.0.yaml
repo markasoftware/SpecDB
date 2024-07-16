@@ -1,0 +1,15 @@
+name: CDNA-3.0 
+humanName: CDNA 3.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: ''
+  Vulkan Support: 'N/A'
+  Release Date: '2023-01-04'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Radeon-Instinct-MI300
+    - Radeon-Instinct-MI300X

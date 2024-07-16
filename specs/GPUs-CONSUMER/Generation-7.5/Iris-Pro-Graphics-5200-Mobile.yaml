@@ -1,0 +1,29 @@
+name: Iris-Pro-Graphics-5200-Mobile
+humanName: Iris Pro Graphics 5200 Mobile
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Generation 7.5
+  Lithography: 22 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.0'
+  OpenGL Support: '4.3'
+  OpenCL Support: '1.2'
+  Release Date: '2013-05-27'
+  GPU Base Frequency: 200 MHz
+  GPU Boost Frequency: 1200 MHz
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 40
+  Shader Processor Count: 320 
+  Die Size: unknown
+  GPU: Haswell GT3e
+  TDP: 30 W
+  FP32 Compute: 768.0 GFLOPS
+  FP64 Compute: 192.0 GFLOPS (1:4)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent

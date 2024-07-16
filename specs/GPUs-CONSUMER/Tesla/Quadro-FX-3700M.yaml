@@ -1,0 +1,28 @@
+name: Quadro-FX-3700M
+humanName: Quadro FX 3700M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2008-08-14'
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 51.20 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 128 
+  Die Size: 324 mm²
+  GPU: G92
+  GPU Variant: G92-985-A2
+  TDP: 75 W
+  FP32 Compute: 352.0 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

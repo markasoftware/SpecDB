@@ -1,0 +1,56 @@
+name: Maxwell 
+humanName: Maxwell
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.3'
+  Release Date: '2014-01-13'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - GeForce-830A
+    - GeForce-830M
+    - GeForce-840A
+    - GeForce-840M
+    - GeForce-845M
+    - GeForce-920MX
+    - GeForce-930A
+    - GeForce-930M
+    - GeForce-940A
+    - GeForce-940M
+    - GeForce-940MX
+    - GeForce-945A
+    - GeForce-945M
+    - GeForce-GTX-745-OEM
+    - GeForce-GTX-750
+    - GeForce-GTX-750-Ti
+    - GeForce-GTX-850A
+    - GeForce-GTX-850M
+    - GeForce-GTX-860M
+    - GeForce-GTX-950A
+    - GeForce-GTX-950M
+    - GeForce-GTX-950M-Mac-Edition
+    - GeForce-GTX-960M
+    - GeForce-GTX-860M-OEM
+    - GeForce-MX110
+    - GeForce-MX130
+    - GRID-M3-3020
+    - GRID-M10-8Q
+    - GRID-M40
+    - NVS-810
+    - Quadro-K620
+    - Quadro-K620M
+    - Quadro-K1200
+    - Quadro-K2200
+    - Quadro-K2200M
+    - Quadro-M500M
+    - Quadro-M520-Mobile
+    - Quadro-M600M
+    - Quadro-M620-Mobile
+    - Quadro-M1000M
+    - Quadro-M1200-Mobile
+    - Quadro-M2000M
+    - Tesla-M10

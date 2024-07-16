@@ -1,0 +1,32 @@
+name: Arc-Pro-A60M
+humanName: Arc Pro A60M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Generation 12.7
+  Lithography: 6 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '256'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2023-06-06'
+  GPU Base Frequency: 900 MHz
+  GPU Boost Frequency: 1300 MHz
+  VRAM Frequency: 2000 MHz
+  VRAM Bandwidth: 256.0 GB/s
+  VRAM Capacity: 8 GB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 128
+  Shader Processor Count: 2048 
+  Die Size: 269 mm²
+  GPU: DG2-256
+  GPU Variant: ACM-G12
+  TDP: 95 W
+  FP32 Compute: 5.325 TFLOPS
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Ray Tracing Cores: 16
+  Tensor Cores: 256

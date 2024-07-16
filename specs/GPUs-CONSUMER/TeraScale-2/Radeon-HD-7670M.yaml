@@ -1,0 +1,26 @@
+name: Radeon-HD-7670M
+humanName: Radeon HD 7670M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2012-02-17'
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 28.80 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: DDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 480 
+  Die Size: 118 mm²
+  GPU: Thames
+  GPU Variant: Thames M2 XT
+  TDP: 20 W
+  FP32 Compute: 576.0 GFLOPS
+  Outputs: Portable Device Dependent

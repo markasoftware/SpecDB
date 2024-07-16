@@ -1,0 +1,30 @@
+name: Radeon-R7-M260DX
+humanName: Radeon R7 M260DX
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2014-01-07'
+  GPU Base Frequency: 955 MHz
+  GPU Boost Frequency: 1030 MHz
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 20
+  Shader Processor Count: 320 
+  Die Size: 56 mm²
+  GPU: Jet
+  GPU Variant: Jet PRO
+  TDP: unknown
+  FP32 Compute: 659.2 GFLOPS
+  FP64 Compute: 41.20 GFLOPS (1:16)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent

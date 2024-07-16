@@ -1,0 +1,28 @@
+name: Mobility-Radeon-HD-4270-IGP
+humanName: Mobility Radeon HD 4270 IGP
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.0'
+  Release Date: '2010-05-01'
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 40 
+  Die Size: 67 mm²
+  GPU: RS880
+  GPU Variant: RS880M
+  TDP: unknown
+  FP32 Compute: 47.20 GFLOPS
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None

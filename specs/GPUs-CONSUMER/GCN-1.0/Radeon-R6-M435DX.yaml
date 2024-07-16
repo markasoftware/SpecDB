@@ -1,0 +1,30 @@
+name: Radeon-R6-M435DX
+humanName: Radeon R6 M435DX
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2016-12-12'
+  GPU Base Frequency: 955 MHz
+  GPU Boost Frequency: 1030 MHz
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 384 
+  Die Size: 56 mm²
+  GPU: Jet
+  GPU Variant: Jet XT
+  TDP: unknown
+  FP32 Compute: 791.0 GFLOPS
+  FP64 Compute: 49.44 GFLOPS (1:16)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent

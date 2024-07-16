@@ -1,0 +1,25 @@
+name: GeForce-Go-6150-+-nForce-Go-430
+humanName: GeForce Go 6150 + nForce Go 430
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Curie
+  Lithography: 90 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2006-02-01'
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 1
+  Texture Mapping Unit Count: 2
+  Die Size: unknown
+  GPU: C51
+  GPU Variant: NF-G6150-N-A2
+  TDP: unknown
+  Slot Width: IGP
+  Outputs: Portable Device Dependent

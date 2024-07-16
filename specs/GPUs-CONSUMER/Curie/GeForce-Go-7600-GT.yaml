@@ -1,0 +1,25 @@
+name: GeForce-Go-7600-GT
+humanName: GeForce Go 7600 GT
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Curie
+  Lithography: 80 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2006-08-01'
+  VRAM Frequency: 600 MHz
+  VRAM Bandwidth: 19.20 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 12
+  Die Size: 100 mm²
+  GPU: G73B
+  GPU Variant: GF-GO7600-SE-N-B1
+  TDP: unknown
+  Outputs: Portable Device Dependent
+  Power Connectors: None

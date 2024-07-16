@@ -1,0 +1,29 @@
+name: Iris-Pro-Graphics-P555
+humanName: Iris Pro Graphics P555
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Generation 9.0
+  Lithography: 14 nm+
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2015-09-01'
+  GPU Base Frequency: 350 MHz
+  GPU Boost Frequency: 1000 MHz
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 6
+  Texture Mapping Unit Count: 48
+  Shader Processor Count: 384 
+  Die Size: unknown
+  GPU: Skylake GT3e
+  TDP: 15 W
+  FP32 Compute: 768.0 GFLOPS
+  FP64 Compute: 192.0 GFLOPS (1:4)
+  Slot Width: IGP
+  Outputs: Motherboard Dependent

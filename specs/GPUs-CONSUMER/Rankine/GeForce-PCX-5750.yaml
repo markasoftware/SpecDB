@@ -1,0 +1,29 @@
+name: GeForce-PCX-5750
+humanName: GeForce PCX 5750
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Rankine
+  Lithography: 130 nm
+  DirectX Support: '9.0a'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-02-17'
+  VRAM Frequency: 275 MHz
+  VRAM Bandwidth: 8.800 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Die Size: 125 mm²
+  GPU: NV39
+  GPU Variant: FX 5700
+  TDP: 50 W
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None
+  Length: 168 mm

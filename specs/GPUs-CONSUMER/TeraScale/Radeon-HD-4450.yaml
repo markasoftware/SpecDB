@@ -1,0 +1,31 @@
+name: Radeon-HD-4450
+humanName: Radeon HD 4450
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2011-11-18'
+  VRAM Frequency: 400 MHz
+  VRAM Bandwidth: 6.400 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 80 
+  Die Size: 73 mm²
+  GPU: RV710
+  GPU Variant: RV710
+  TDP: 25 W
+  FP32 Compute: 96.00 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 1.3a1x DisplayPort 1.0
+  Power Connectors: None
+  Length: 168 mm

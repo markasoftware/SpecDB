@@ -1,0 +1,33 @@
+name: PG506-207
+humanName: PG506-207
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Ampere
+  Lithography: 7 nm
+  HLSL Shader Model: '224'
+  Vulkan Support: 'N/A'
+  OpenGL Support: 'N/A'
+  OpenCL Support: '3.0'
+  Release Date: '2021-04-12'
+  GPU Base Frequency: 930 MHz
+  GPU Boost Frequency: 1440 MHz
+  VRAM Frequency: 1215 MHz
+  VRAM Bandwidth: 933.1 GB/s
+  VRAM Capacity: 24 GB
+  VRAM Type: HBM2
+  VRAM Bus Width: 3072 bit
+  Render Output Unit Count: 96
+  Texture Mapping Unit Count: 224
+  Shader Processor Count: 3584 
+  Die Size: 826 mm²
+  GPU: GA100
+  TDP: 165 W
+  FP32 Compute: 10.32 TFLOPS
+  FP64 Compute: 5.161 TFLOPS (1:2)
+  Slot Width: Dual-slot
+  Outputs: No outputs
+  Power Connectors: 8-pin EPS
+  Length: 267 mm
+  Width: 112 mm
+  Tensor Cores: 224

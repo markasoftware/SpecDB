@@ -1,0 +1,25 @@
+name: Radeon-DDR-VIVO
+humanName: Radeon DDR VIVO
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Rage 6
+  Lithography: 180 nm
+  DirectX Support: '7.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.3'
+  OpenCL Support: 'N/A'
+  Release Date: '2001-08-14'
+  VRAM Frequency: 183 MHz
+  VRAM Bandwidth: 5.856 GB/s
+  VRAM Capacity: 64 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 2
+  Texture Mapping Unit Count: 6
+  Die Size: 115 mm²
+  GPU: Rage 6
+  GPU Variant: 215R6EBGA13
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 1x VGA2x S-Video

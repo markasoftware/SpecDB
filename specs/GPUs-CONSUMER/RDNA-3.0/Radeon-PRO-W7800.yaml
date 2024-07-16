@@ -1,0 +1,38 @@
+name: Radeon-PRO-W7800
+humanName: Radeon PRO W7800
+isPart: true
+type: Graphics Card
+data:
+  Architecture: RDNA 3.0
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.2'
+  Release Date: '2023-04-13'
+  GPU Base Frequency: 1855 MHz
+  GPU Boost Frequency: 2499 MHz
+  VRAM Frequency: 2250 MHz
+  VRAM Bandwidth: 576.0 GB/s
+  VRAM Capacity: 32 GB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 128
+  Texture Mapping Unit Count: 280
+  Shader Processor Count: 4480 
+  Die Size: 529 mm²
+  GPU: Navi 31
+  GPU Variant: Navi 31
+  Codename: Plum Bonito
+  TDP: 260 W
+  FP32 Compute: 44.78 TFLOPS
+  FP64 Compute: 1,399 GFLOPS (1:32)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 3x DisplayPort 2.1
+    - 1x mini-DisplayPort 2.1
+  Power Connectors: 2x 8-pin
+  Length: 280 mm
+  Width: 110 mm
+  Height: 40 mm
+  Ray Tracing Cores: 70

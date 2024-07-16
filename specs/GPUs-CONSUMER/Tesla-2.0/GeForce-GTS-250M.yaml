@@ -1,0 +1,26 @@
+name: GeForce-GTS-250M
+humanName: GeForce GTS 250M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla 2.0
+  Lithography: 40 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-06-15'
+  VRAM Frequency: 790 MHz
+  VRAM Bandwidth: 50.56 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 96 
+  Die Size: 144 mm²
+  GPU: GT215
+  GPU Variant: N10E-GE-A2
+  TDP: 28 W
+  FP32 Compute: 207.4 GFLOPS
+  Outputs: Portable Device Dependent

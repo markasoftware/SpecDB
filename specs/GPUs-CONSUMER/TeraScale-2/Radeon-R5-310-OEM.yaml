@@ -1,0 +1,31 @@
+name: Radeon-R5-310-OEM
+humanName: Radeon R5 310 OEM
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2015-05-05'
+  VRAM Frequency: 805 MHz
+  VRAM Bandwidth: 12.88 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: DDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 160 
+  Die Size: 67 mm²
+  GPU: Caicos
+  GPU Variant: Caicos XT
+  TDP: 35 W
+  FP32 Compute: 248.0 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 1.3a
+  Power Connectors: None
+  Length: 168 mm

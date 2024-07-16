@@ -1,0 +1,16 @@
+name: Generation-2.0 
+humanName: Generation 2.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '7.0'
+  Vulkan Support: 'N/A'
+  Release Date: '2002'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Extreme-Graphics
+    - Extreme-Graphics-2
+    - i852GM-Graphics

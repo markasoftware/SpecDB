@@ -1,0 +1,32 @@
+name: GeForce-GTX-480
+humanName: GeForce GTX 480
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Fermi
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2010-03-26'
+  VRAM Frequency: 924 MHz
+  VRAM Bandwidth: 177.4 GB/s
+  VRAM Capacity: 1536 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 48
+  Texture Mapping Unit Count: 60
+  Shader Processor Count: 480 
+  Die Size: 529 mm²
+  GPU: GF100
+  GPU Variant: GF100-375-A3
+  TDP: 250 W
+  FP32 Compute: 1,345 GFLOPS
+  FP64 Compute: 168.1 GFLOPS (1:8)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x mini-HDMI 1.3a
+  Power Connectors: 1x 6-pin + 1x 8-pin
+  Length: 267 mm

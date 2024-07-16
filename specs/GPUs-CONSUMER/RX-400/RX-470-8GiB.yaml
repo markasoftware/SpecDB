@@ -1,8 +1,0 @@
-name: RX-470-8GiB
-humanName: RX 470 (8 GiB)
-isPart: true
-type: Graphics Card
-inherits:
-  - RX 470 Base
-data:
-  VRAM Capacity: 8 GiB

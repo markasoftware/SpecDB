@@ -1,0 +1,29 @@
+name: GeForce-FX-5200-PCI
+humanName: GeForce FX 5200 PCI
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Rankine
+  Lithography: 150 nm
+  DirectX Support: '9.0a'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2003-03-06'
+  VRAM Frequency: 200 MHz
+  VRAM Bandwidth: 6.400 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Die Size: 91 mm²
+  GPU: NV34B
+  GPU Variant: FX 5200 NPB
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None
+  Length: 152 mm

@@ -1,0 +1,29 @@
+name: GeForce-GTX-560M
+humanName: GeForce GTX 560M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Fermi 2.0
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2011-05-30'
+  VRAM Frequency: 625 MHz
+  VRAM Bandwidth: 60.00 GB/s
+  VRAM Capacity: 1536 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 192 bit
+  Render Output Unit Count: 24
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 192 
+  Die Size: 238 mm²
+  GPU: GF116
+  GPU Variant: N12E-GS-A1
+  TDP: 75 W
+  FP32 Compute: 595.2 GFLOPS
+  FP64 Compute: 49.60 GFLOPS (1:12)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

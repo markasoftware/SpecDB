@@ -1,0 +1,17 @@
+name: MP 
+humanName: MP
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '8.1'
+  Vulkan Support: 'N/A'
+  Release Date: '2004-12-17'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - QID
+    - QID-LP-PCI
+    - QID-LP-PCIe
+    - QID-PRO

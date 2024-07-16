@@ -1,0 +1,28 @@
+name: Radeon-X1650-XT-AGP
+humanName: Radeon X1650 XT AGP
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Ultra-Threaded SE
+  Lithography: 80 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2006-10-30'
+  VRAM Frequency: 680 MHz
+  VRAM Bandwidth: 21.76 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 8
+  Die Size: 230 mm²
+  GPU: RV560
+  GPU Variant: RV560 XT
+  TDP: 55 W
+  Slot Width: Single-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: None

@@ -1,0 +1,39 @@
+name: GeForce-RTX-4070-Ti-SUPER
+humanName: GeForce RTX 4070 Ti SUPER
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Ada Lovelace
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '264'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2024-01-08'
+  GPU Base Frequency: 2340 MHz
+  GPU Boost Frequency: 2610 MHz
+  VRAM Frequency: 1313 MHz
+  VRAM Bandwidth: 672.3 GB/s
+  VRAM Capacity: 16 GB
+  VRAM Type: GDDR6X
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 96
+  Texture Mapping Unit Count: 264
+  Shader Processor Count: 8448 
+  Die Size: 379 mm²
+  GPU: AD103
+  GPU Variant: AD103-275-A1
+  TDP: 285 W
+  FP32 Compute: 44.10 TFLOPS
+  FP64 Compute: 689.0 GFLOPS (1:64)
+  Slot Width: Triple-slot
+  Outputs: 
+    - 1x HDMI 2.1
+    - 3x DisplayPort 1.4a
+  Power Connectors: 1x 16-pin
+  Length: 310 mm
+  Width: 140 mm
+  Height: 61 mm
+  Ray Tracing Cores: 66
+  Tensor Cores: 264

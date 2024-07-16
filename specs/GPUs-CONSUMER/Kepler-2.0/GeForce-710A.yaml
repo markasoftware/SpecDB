@@ -1,0 +1,28 @@
+name: GeForce-710A
+humanName: GeForce 710A
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Kepler 2.0
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.2.175'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2014-03-17'
+  GPU Base Frequency: 719 MHz
+  GPU Boost Frequency: 758 MHz
+  VRAM Frequency: 1001 MHz
+  VRAM Bandwidth: 16.02 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: DDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 192 
+  Die Size: 87 mm²
+  GPU: GK208
+  TDP: 15 W
+  FP32 Compute: 291.1 GFLOPS
+  FP64 Compute: 12.13 GFLOPS (1:24)
+  Outputs: Portable Device Dependent

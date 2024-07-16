@@ -1,0 +1,32 @@
+name: GeForce-GTS-450-Rev.-3
+humanName: GeForce GTS 450 Rev. 3
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Fermi 2.0
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2012-07-11'
+  VRAM Frequency: 700 MHz
+  VRAM Bandwidth: 22.40 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: DDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 144 
+  Die Size: 238 mm²
+  GPU: GF116
+  GPU Variant: GF116-200-KA-A1
+  TDP: 106 W
+  FP32 Compute: 451.0 GFLOPS
+  FP64 Compute: 37.58 GFLOPS (1:12)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x mini-HDMI 1.3a
+  Power Connectors: 2x 6-pin
+  Length: 210 mm

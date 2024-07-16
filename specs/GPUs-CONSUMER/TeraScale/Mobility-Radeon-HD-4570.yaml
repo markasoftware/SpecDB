@@ -1,0 +1,27 @@
+name: Mobility-Radeon-HD-4570
+humanName: Mobility Radeon HD 4570
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-01-09'
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 12.80 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 80 
+  Die Size: 73 mm²
+  GPU: M92
+  GPU Variant: M92-M2 XT A11
+  TDP: unknown
+  FP32 Compute: 108.8 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent

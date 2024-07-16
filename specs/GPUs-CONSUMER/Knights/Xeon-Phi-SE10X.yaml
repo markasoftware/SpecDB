@@ -1,0 +1,26 @@
+name: Xeon-Phi-SE10X
+humanName: Xeon Phi SE10X
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Knights
+  Lithography: 22 nm
+  Vulkan Support: 'N/A'
+  OpenGL Support: 'N/A'
+  OpenCL Support: '1.2'
+  Release Date: '2012-11-12'
+  VRAM Frequency: 1375 MHz
+  VRAM Bandwidth: 352.0 GB/s
+  VRAM Capacity: 8 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 512 bit
+  Render Output Unit Count: 0
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 976 
+  Die Size: 720 mm²
+  GPU: Knights Corner
+  TDP: 300 W
+  FP32 Compute: 2.147 TFLOPS
+  Slot Width: Dual-slot
+  Outputs: No outputs
+  Length: 248 mm

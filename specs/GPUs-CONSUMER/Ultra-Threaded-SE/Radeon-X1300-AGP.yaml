@@ -1,0 +1,28 @@
+name: Radeon-X1300-AGP
+humanName: Radeon X1300 AGP
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Ultra-Threaded SE
+  Lithography: 90 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2005-12-01'
+  VRAM Frequency: 250 MHz
+  VRAM Bandwidth: 8.000 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Die Size: 100 mm²
+  GPU: RV515
+  GPU Variant: RV515 LE
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None

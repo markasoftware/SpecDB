@@ -1,0 +1,27 @@
+name: Radeon-E6460
+humanName: Radeon E6460
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2011-04-07'
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 25.60 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 160 
+  Die Size: 67 mm²
+  GPU: Caicos
+  GPU Variant: E6460
+  TDP: 25 W
+  FP32 Compute: 192.0 GFLOPS
+  Slot Width: IGP
+  Outputs: Portable Device Dependent

@@ -1,0 +1,25 @@
+name: All-In-Wonder-Radeon-7500
+humanName: All-In-Wonder Radeon 7500
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Rage 7
+  Lithography: 150 nm
+  DirectX Support: '7.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.3'
+  OpenCL Support: 'N/A'
+  Release Date: '2002-04-16'
+  VRAM Frequency: 180 MHz
+  VRAM Bandwidth: 5.760 GB/s
+  VRAM Capacity: 64 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 2
+  Texture Mapping Unit Count: 6
+  Die Size: 83 mm²
+  GPU: RV200
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 1x VGA2x S-Video
+  Power Connectors: None

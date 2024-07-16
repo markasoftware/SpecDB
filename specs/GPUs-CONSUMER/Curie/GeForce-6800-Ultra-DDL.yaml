@@ -1,0 +1,27 @@
+name: GeForce-6800-Ultra-DDL
+humanName: GeForce 6800 Ultra DDL
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Curie
+  Lithography: 130 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-04-14'
+  VRAM Frequency: 550 MHz
+  VRAM Bandwidth: 35.20 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 16
+  Die Size: 287 mm²
+  GPU: NV40
+  GPU Variant: 6800 Ultra
+  TDP: 100 W
+  Slot Width: Dual-slot
+  Outputs: 2x DVI
+  Power Connectors: None
+  Length: 305 mm

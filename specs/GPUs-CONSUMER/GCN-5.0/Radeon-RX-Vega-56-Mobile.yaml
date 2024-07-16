@@ -1,0 +1,32 @@
+name: Radeon-RX-Vega-56-Mobile
+humanName: Radeon RX Vega 56 Mobile
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 5.0
+  Lithography: 14 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2018-06-01'
+  GPU Base Frequency: 1138 MHz
+  GPU Boost Frequency: 1301 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 409.6 GB/s
+  VRAM Capacity: 8 GB
+  VRAM Type: HBM2
+  VRAM Bus Width: 2048 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 224
+  Shader Processor Count: 3584 
+  Die Size: 495 mm²
+  GPU: Vega 10
+  GPU Variant: Vega 10 XLM
+  TDP: 120 W
+  FP32 Compute: 9.326 TFLOPS
+  FP64 Compute: 582.8 GFLOPS (1:16)
+  Slot Width: MXM Module
+  Outputs: 1x HDMI 2.0b3x DisplayPort 1.4a
+  Power Connectors: None
+  Length: 105 mm

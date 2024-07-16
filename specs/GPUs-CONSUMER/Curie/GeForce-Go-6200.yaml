@@ -1,0 +1,25 @@
+name: GeForce-Go-6200
+humanName: GeForce Go 6200
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Curie
+  Lithography: 110 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2006-02-01'
+  VRAM Frequency: 300 MHz
+  VRAM Bandwidth: 4.800 GB/s
+  VRAM Capacity: 32 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 2
+  Texture Mapping Unit Count: 4
+  Die Size: 110 mm²
+  GPU: NV44B
+  GPU Variant: GF-GO6200-N-A2
+  TDP: 16 W
+  Outputs: Portable Device Dependent
+  Power Connectors: None

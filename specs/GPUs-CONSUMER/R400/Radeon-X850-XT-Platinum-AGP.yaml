@@ -1,0 +1,31 @@
+name: Radeon-X850-XT-Platinum-AGP
+humanName: Radeon X850 XT Platinum AGP
+isPart: true
+type: Graphics Card
+data:
+  Architecture: R400
+  Lithography: 130 nm
+  DirectX Support: '9.2'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2005-02-28'
+  VRAM Frequency: 590 MHz
+  VRAM Bandwidth: 37.76 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 16
+  Die Size: 297 mm²
+  GPU: R481
+  GPU Variant: R481 XTP
+  TDP: 67 W
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: 1x Molex
+  Length: 186 mm
+  Width: 111 mm
+  Height: 41 mm

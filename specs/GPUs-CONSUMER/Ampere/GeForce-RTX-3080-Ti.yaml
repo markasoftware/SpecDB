@@ -1,0 +1,39 @@
+name: GeForce-RTX-3080-Ti
+humanName: GeForce RTX 3080 Ti
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Ampere
+  Lithography: 8 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '320'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2021-05-31'
+  GPU Base Frequency: 1365 MHz
+  GPU Boost Frequency: 1665 MHz
+  VRAM Frequency: 1188 MHz
+  VRAM Bandwidth: 912.4 GB/s
+  VRAM Capacity: 12 GB
+  VRAM Type: GDDR6X
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 112
+  Texture Mapping Unit Count: 320
+  Shader Processor Count: 10240 
+  Die Size: 628 mm²
+  GPU: GA102
+  GPU Variant: GA102-225-A1
+  TDP: 350 W
+  FP32 Compute: 34.10 TFLOPS
+  FP64 Compute: 532.8 GFLOPS (1:64)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x HDMI 2.1
+    - 3x DisplayPort 1.4a
+  Power Connectors: 1x 12-pin
+  Length: 285 mm
+  Width: 112 mm
+  Height: 40 mm
+  Ray Tracing Cores: 80
+  Tensor Cores: 320

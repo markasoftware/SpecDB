@@ -1,0 +1,26 @@
+name: FirePro-M5800
+humanName: FirePro M5800
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2010-03-01'
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 51.20 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 20
+  Shader Processor Count: 400 
+  Die Size: 104 mm²
+  GPU: Madison
+  GPU Variant: Madison XT GL
+  TDP: 26 W
+  FP32 Compute: 520.0 GFLOPS
+  Outputs: Portable Device Dependent

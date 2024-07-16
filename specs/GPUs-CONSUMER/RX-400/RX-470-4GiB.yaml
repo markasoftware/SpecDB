@@ -1,8 +1,0 @@
-name: RX-470-4GiB
-humanName: RX 470 (4 GiB)
-isPart: true
-type: Graphics Card
-inherits:
-  - RX 470 Base
-data:
-  VRAM Capacity: 4 GiB

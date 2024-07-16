@@ -1,0 +1,31 @@
+name: Radeon-R5-220-OEM
+humanName: Radeon R5 220 OEM
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2013-12-21'
+  VRAM Frequency: 533 MHz
+  VRAM Bandwidth: 8.528 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: DDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 80 
+  Die Size: 59 mm²
+  GPU: Cedar
+  GPU Variant: Cedar PRO
+  TDP: 19 W
+  FP32 Compute: 104.0 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 1.3a1x VGA
+  Power Connectors: None
+  Length: 168 mm

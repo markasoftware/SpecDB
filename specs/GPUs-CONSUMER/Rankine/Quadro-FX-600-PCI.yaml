@@ -1,0 +1,29 @@
+name: Quadro-FX-600-PCI
+humanName: Quadro FX 600 PCI
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Rankine
+  Lithography: 150 nm
+  DirectX Support: '9.0a'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-03-17'
+  VRAM Frequency: 240 MHz
+  VRAM Bandwidth: 7.680 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Die Size: 124 mm²
+  GPU: NV34
+  GPU Variant: NV34 GL
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Length: 165 mm
+  Width: 111 mm

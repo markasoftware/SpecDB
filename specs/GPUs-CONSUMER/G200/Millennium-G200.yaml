@@ -1,0 +1,29 @@
+name: Millennium-G200
+humanName: Millennium G200
+isPart: true
+type: Graphics Card
+data:
+  Architecture: G200
+  Lithography: 350 nm
+  DirectX Support: '5.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: 'None'
+  OpenCL Support: 'None'
+  Release Date: '1998'
+  VRAM Frequency: 143 MHz
+  VRAM Bandwidth: 1.144 GB/s
+  VRAM Capacity: 8 MB
+  VRAM Type: SGR
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 1
+  Texture Mapping Unit Count: 1
+  Die Size: unknown
+  GPU: Eclipse
+  GPU Variant: MGA-G200A-B
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA
+  Power Connectors: None
+  Length: 150 mm

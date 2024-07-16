@@ -1,0 +1,30 @@
+name: GeForce-FX-5950-Ultra
+humanName: GeForce FX 5950 Ultra
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Rankine
+  Lithography: 130 nm
+  DirectX Support: '9.0a'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2003-10-23'
+  VRAM Frequency: 475 MHz
+  VRAM Bandwidth: 30.40 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Die Size: 207 mm²
+  GPU: NV38
+  GPU Variant: FX 5950 Ultra
+  TDP: 74 W
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: 1x Molex
+  Length: 229 mm
+  Width: 111 mm

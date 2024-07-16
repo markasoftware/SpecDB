@@ -1,0 +1,32 @@
+name: Quadro-K5000
+humanName: Quadro K5000
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Kepler
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.2.175'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2012-08-17'
+  VRAM Frequency: 1350 MHz
+  VRAM Bandwidth: 172.8 GB/s
+  VRAM Capacity: 4 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 128
+  Shader Processor Count: 1536 
+  Die Size: 294 mm²
+  GPU: GK104
+  TDP: 122 W
+  FP32 Compute: 2.169 TFLOPS
+  FP64 Compute: 90.37 GFLOPS (1:24)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 2x DisplayPort 1.2
+  Power Connectors: 1x 6-pin
+  Length: 267 mm
+  Width: 111 mm

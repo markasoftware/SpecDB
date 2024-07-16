@@ -1,0 +1,71 @@
+name: GCN-3.0 
+humanName: GCN 3.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.2.170'
+  Release Date: '2014'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - FirePro-S7100X
+    - FirePro-S7150
+    - FirePro-S7150-x2
+    - FirePro-S9300-X2
+    - FirePro-W7100
+    - FirePro-W7170M
+    - Radeon-530-Mobile-DDR3
+    - Radeon-530-Mobile-GDDR5
+    - Radeon-530X-Mobile
+    - Radeon-535-Mobile
+    - Radeon-625-Mobile
+    - Radeon-625-OEM
+    - Radeon-620-Mobile
+    - Radeon-E8950
+    - Radeon-Instinct-MI8
+    - Radeon-Pro-Duo
+    - Radeon-Pro-SSG
+    - Radeon-R4-Mobile-Graphics
+    - Radeon-R5-Graphics
+    - Radeon-R5-A255
+    - Radeon-R5-M255
+    - Radeon-R5-M315
+    - Radeon-R5-M445
+    - Radeon-R5-M465
+    - Radeon-R5-Mobile-Graphics
+    - Radeon-R5E-Mobile-Graphics
+    - Radeon-R6-M255DX
+    - Radeon-R6-Mobile-Graphics
+    - Radeon-R7-A260
+    - Radeon-R7-A360
+    - Radeon-R7-M260
+    - Radeon-R7-M265
+    - Radeon-R7-M350
+    - Radeon-R7-M360
+    - Radeon-R7-M440
+    - Radeon-R7-M445
+    - Radeon-R7-M460
+    - Radeon-R8-M365DX
+    - Radeon-R8-M445DX
+    - Radeon-R8-M535DX
+    - Radeon-R9-285
+    - Radeon-R9-285X
+    - Radeon-R9-380
+    - Radeon-R9-380-OEM
+    - Radeon-R9-380X
+    - Radeon-R9-FURY
+    - Radeon-R9-FURY-X
+    - Radeon-R9-FURY-X2
+    - Radeon-R6E-Mobile-Graphics
+    - Radeon-R7E-Mobile-Graphics
+    - Radeon-R9-M295X
+    - Radeon-R9-M295X-Mac-Edition
+    - Radeon-R9-M390X
+    - Radeon-R9-M395-Mac-Edition
+    - Radeon-R9-M395X
+    - Radeon-R9-M395X-Mac-Edition
+    - Radeon-R9-M485X
+    - Radeon-R9-Nano

@@ -1,0 +1,33 @@
+name: RTX-3000-Mobile-Ada-Generation
+humanName: RTX 3000 Mobile Ada Generation
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Ada Lovelace
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '144'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2023-03-21'
+  GPU Base Frequency: 1395 MHz
+  GPU Boost Frequency: 1695 MHz
+  VRAM Frequency: 2000 MHz
+  VRAM Bandwidth: 256.0 GB/s
+  VRAM Capacity: 8 GB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 48
+  Texture Mapping Unit Count: 144
+  Shader Processor Count: 4608 
+  Die Size: 188 mm²
+  GPU: AD106
+  TDP: 115 W
+  FP32 Compute: 15.62 TFLOPS
+  FP64 Compute: 244.1 GFLOPS (1:64)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Ray Tracing Cores: 36
+  Tensor Cores: 144

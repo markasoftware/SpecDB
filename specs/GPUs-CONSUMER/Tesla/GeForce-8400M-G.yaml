@@ -1,0 +1,28 @@
+name: GeForce-8400M-G
+humanName: GeForce 8400M G
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla
+  Lithography: 80 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2007-05-09'
+  VRAM Frequency: 400 MHz
+  VRAM Bandwidth: 6.400 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 8 
+  Die Size: 127 mm²
+  GPU: G86
+  GPU Variant: G86-703-A2
+  TDP: 10 W
+  FP32 Compute: 12.80 GFLOPS
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None

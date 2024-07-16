@@ -1,0 +1,28 @@
+name: Radeon-R7-A260
+humanName: Radeon R7 A260
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 3.0
+  Lithography: 28 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2014'
+  GPU Base Frequency: 900 MHz
+  GPU Boost Frequency: 980 MHz
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 57.60 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 384 
+  Die Size: 125 mm²
+  GPU: Topaz
+  GPU Variant: Topaz XT
+  TDP: unknown
+  FP32 Compute: 752.6 GFLOPS
+  Outputs: Portable Device Dependent

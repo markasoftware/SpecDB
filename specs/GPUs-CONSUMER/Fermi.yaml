@@ -1,0 +1,75 @@
+name: Fermi 
+humanName: Fermi
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  Release Date: '2010-03-26'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - GeForce-615-OEM
+    - GeForce-GT-415M
+    - GeForce-GT-420-OEM
+    - GeForce-GT-420M
+    - GeForce-GT-425M
+    - GeForce-GT-430
+    - GeForce-GT-430-OEM
+    - GeForce-GT-430-PCI
+    - GeForce-GT-435M
+    - GeForce-GT-440-Mac-Edition
+    - GeForce-GT-440-OEM
+    - GeForce-GT-445M
+    - GeForce-GT-440
+    - GeForce-GT-520M
+    - GeForce-GT-525M
+    - GeForce-GT-540M
+    - GeForce-GT-555M
+    - GeForce-GT-620
+    - GeForce-GT-620M
+    - GeForce-GT-630
+    - GeForce-GT-630M
+    - GeForce-GT-640M-LE
+    - GeForce-GT-730
+    - GeForce-GTS-450
+    - GeForce-GTS-450-OEM
+    - GeForce-GTX-460
+    - GeForce-GTX-460-SE
+    - GeForce-GTX-460-X2
+    - GeForce-GTX-460M
+    - GeForce-GTX-465
+    - GeForce-GTX-470
+    - GeForce-GTX-470-X2
+    - GeForce-GTX-470M
+    - GeForce-GTX-480
+    - GeForce-GTX-480-Core-512
+    - GeForce-GTX-480M
+    - GeForce-GTX-485M
+    - GeForce-GTX-490
+    - Quadro-500M
+    - Quadro-600
+    - Quadro-1000M
+    - Quadro-2000
+    - Quadro-2000D
+    - Quadro-2000M
+    - Quadro-3000M
+    - Quadro-3000M-X2
+    - Quadro-4000
+    - Quadro-4000-Mac-Edition
+    - Quadro-4000M
+    - Quadro-5000
+    - Quadro-5000-SDI
+    - Quadro-5000M
+    - Quadro-6000
+    - Quadro-6000-SDI
+    - NVS-5400M
+    - Tesla-C2050
+    - Tesla-C2070
+    - Tesla-M2050
+    - Tesla-M2070
+    - Tesla-M2070-Q
+    - Tesla-S2050
+    - Tesla-X2070

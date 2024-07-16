@@ -1,0 +1,32 @@
+name: FirePro-V7750
+humanName: FirePro V7750
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-03-27'
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 28.80 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 320 
+  Die Size: 146 mm²
+  GPU: RV730
+  GPU Variant: RV730 GL V7750
+  TDP: 76 W
+  FP32 Compute: 512.0 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 2x DisplayPort 1.0
+  Power Connectors: 1x 6-pin
+  Length: 234 mm
+  Width: 111 mm

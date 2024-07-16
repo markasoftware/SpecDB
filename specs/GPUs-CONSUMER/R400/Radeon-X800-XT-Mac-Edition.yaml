@@ -1,0 +1,26 @@
+name: Radeon-X800-XT-Mac-Edition
+humanName: Radeon X800 XT Mac Edition
+isPart: true
+type: Graphics Card
+data:
+  Architecture: R400
+  Lithography: 130 nm
+  DirectX Support: '9.2'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-12-01'
+  VRAM Frequency: 500 MHz
+  VRAM Bandwidth: 32.00 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 16
+  Die Size: 289 mm²
+  GPU: R423
+  GPU Variant: R423 XT
+  TDP: 54 W
+  Slot Width: Single-slot
+  Outputs: 2x DVI
+  Power Connectors: None

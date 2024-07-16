@@ -1,0 +1,31 @@
+name: Radeon-HD-3690
+humanName: Radeon HD 3690
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2008-03-30'
+  VRAM Frequency: 830 MHz
+  VRAM Bandwidth: 26.56 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 320 
+  Die Size: 192 mm²
+  GPU: RV670
+  GPU Variant: RV670 PRO
+  TDP: 75 W
+  FP32 Compute: 428.8 GFLOPS
+  FP64 Compute: 85.76 GFLOPS (1:5)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x 6-pin

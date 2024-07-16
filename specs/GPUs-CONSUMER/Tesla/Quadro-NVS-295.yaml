@@ -1,0 +1,28 @@
+name: Quadro-NVS-295
+humanName: Quadro NVS 295
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-05-07'
+  VRAM Frequency: 695 MHz
+  VRAM Bandwidth: 11.12 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 8 
+  Die Size: 86 mm²
+  GPU: G98S
+  TDP: 23 W
+  FP32 Compute: 20.80 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 2x DisplayPort
+  Power Connectors: None
+  Length: 168 mm

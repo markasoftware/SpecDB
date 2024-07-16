@@ -1,0 +1,31 @@
+name: GeForce-GTX-770M
+humanName: GeForce GTX 770M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Kepler
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.2.175'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2013-05-30'
+  GPU Base Frequency: 706 MHz
+  GPU Boost Frequency: 797 MHz
+  VRAM Frequency: 1002 MHz
+  VRAM Bandwidth: 96.19 GB/s
+  VRAM Capacity: 3 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 192 bit
+  Render Output Unit Count: 24
+  Texture Mapping Unit Count: 80
+  Shader Processor Count: 960 
+  Die Size: 221 mm²
+  GPU: GK106
+  GPU Variant: N14E-GS-A1
+  TDP: 75 W
+  FP32 Compute: 1.530 TFLOPS
+  FP64 Compute: 63.76 GFLOPS (1:24)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

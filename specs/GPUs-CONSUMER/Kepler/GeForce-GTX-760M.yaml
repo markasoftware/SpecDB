@@ -1,0 +1,31 @@
+name: GeForce-GTX-760M
+humanName: GeForce GTX 760M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Kepler
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.2.175'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2013-05-30'
+  GPU Base Frequency: 628 MHz
+  GPU Boost Frequency: 719 MHz
+  VRAM Frequency: 1002 MHz
+  VRAM Bandwidth: 64.13 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 768 
+  Die Size: 221 mm²
+  GPU: GK106S
+  GPU Variant: N14E-GL-A1
+  TDP: 55 W
+  FP32 Compute: 1,104 GFLOPS
+  FP64 Compute: 46.02 GFLOPS (1:24)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

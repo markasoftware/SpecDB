@@ -1,0 +1,33 @@
+name: H800-PCIe-80-GB
+humanName: H800 PCIe 80 GB
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Hopper
+  Lithography: 4 nm
+  HLSL Shader Model: '456'
+  Vulkan Support: 'N/A'
+  OpenGL Support: 'N/A'
+  OpenCL Support: '3.0'
+  Release Date: '2023-03-21'
+  GPU Base Frequency: 1095 MHz
+  GPU Boost Frequency: 1755 MHz
+  VRAM Frequency: 1593 MHz
+  VRAM Bandwidth: 2,039 GB/s
+  VRAM Capacity: 80 GB
+  VRAM Type: HBM2e
+  VRAM Bus Width: 5120 bit
+  Render Output Unit Count: 24
+  Texture Mapping Unit Count: 456
+  Shader Processor Count: 14592 
+  Die Size: 814 mm²
+  GPU: GH100
+  TDP: 350 W
+  FP32 Compute: 51.22 TFLOPS
+  FP64 Compute: 25.61 TFLOPS (1:2)
+  Slot Width: Dual-slot
+  Outputs: No outputs
+  Power Connectors: 1x 16-pin
+  Length: 268 mm
+  Width: 111 mm
+  Tensor Cores: 456

@@ -1,0 +1,28 @@
+name: GeForce-GTX-280M
+humanName: GeForce GTX 280M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-03-03'
+  VRAM Frequency: 950 MHz
+  VRAM Bandwidth: 60.80 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 128 
+  Die Size: 324 mm²
+  GPU: G92
+  GPU Variant: N10E-GTX
+  TDP: 75 W
+  FP32 Compute: 374.5 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

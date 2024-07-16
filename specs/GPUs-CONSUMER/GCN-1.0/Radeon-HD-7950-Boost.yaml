@@ -1,0 +1,36 @@
+name: Radeon-HD-7950-Boost
+humanName: Radeon HD 7950 Boost
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2012-06-22'
+  GPU Base Frequency: 850 MHz
+  GPU Boost Frequency: 925 MHz
+  VRAM Frequency: 1250 MHz
+  VRAM Bandwidth: 240.0 GB/s
+  VRAM Capacity: 3 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 112
+  Shader Processor Count: 1792 
+  Die Size: 352 mm²
+  GPU: Tahiti
+  GPU Variant: Tahiti PRO2
+  TDP: 200 W
+  FP32 Compute: 3.315 TFLOPS
+  FP64 Compute: 828.8 GFLOPS (1:4)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 1.4a2x mini-DisplayPort 1.2
+  Power Connectors: 2x 6-pin
+  Length: 275 mm
+  Width: 111 mm
+  Height: 38 mm

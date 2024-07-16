@@ -1,0 +1,32 @@
+name: GeForce-GT-720
+humanName: GeForce GT 720
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Kepler 2.0
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.2.175'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2014-03-27'
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 14.40 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: DDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 384 
+  Die Size: 87 mm²
+  GPU: GK208
+  GPU Variant: GK208-320-A1
+  TDP: 19 W
+  FP32 Compute: 742.7 GFLOPS
+  FP64 Compute: 30.94 GFLOPS (1:24)
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 1.4a1x VGA
+  Power Connectors: None
+  Length: 145 mm

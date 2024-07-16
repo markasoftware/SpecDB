@@ -1,0 +1,17 @@
+name: Xe-LPG 
+humanName: Xe-LPG
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  Release Date: '2023-12-14'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Arc-Graphics-48EU-Mobile
+    - Arc-Graphics-64EU-Mobile
+    - Arc-Graphics-112EU-Mobile
+    - Arc-Graphics-128EU-Mobile

@@ -1,0 +1,35 @@
+name: GeForce-GTX-780-Ti-6-GB
+humanName: GeForce GTX 780 Ti 6 GB
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Kepler
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.175'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: 'Never Released'
+  GPU Base Frequency: 875 MHz
+  GPU Boost Frequency: 928 MHz
+  VRAM Frequency: 1753 MHz
+  VRAM Bandwidth: 336.6 GB/s
+  VRAM Capacity: 6 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 48
+  Texture Mapping Unit Count: 240
+  Shader Processor Count: 2880 
+  Die Size: 561 mm²
+  GPU: GK110B
+  TDP: 250 W
+  FP32 Compute: 5.345 TFLOPS
+  FP64 Compute: 222.7 GFLOPS (1:24)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x HDMI 1.4a1x DisplayPort 1.2
+  Power Connectors: 1x 6-pin + 1x 8-pin
+  Length: 267 mm
+  Width: 111 mm
+  Height: 38 mm

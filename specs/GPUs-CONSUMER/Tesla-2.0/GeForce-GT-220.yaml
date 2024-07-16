@@ -1,0 +1,31 @@
+name: GeForce-GT-220
+humanName: GeForce GT 220
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla 2.0
+  Lithography: 40 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-10-12'
+  VRAM Frequency: 1000 MHz
+  VRAM Bandwidth: 32.00 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 48 
+  Die Size: 100 mm²
+  GPU: GT216
+  GPU Variant: GT216-300-A2
+  TDP: 58 W
+  FP32 Compute: 127.7 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI1x VGA
+  Power Connectors: None
+  Length: 168 mm

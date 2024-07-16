@@ -1,0 +1,25 @@
+name: Quadro4-700-Go-GL
+humanName: Quadro4 700 Go GL
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Kelvin
+  Lithography: 150 nm
+  DirectX Support: '8.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5'
+  OpenCL Support: 'N/A'
+  Release Date: '2003-06-05'
+  VRAM Frequency: 223 MHz
+  VRAM Bandwidth: 7.136 GB/s
+  VRAM Capacity: 64 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Die Size: 142 mm²
+  GPU: NV28
+  GPU Variant: Go GL 700
+  TDP: unknown
+  Outputs: Portable Device Dependent
+  Power Connectors: None

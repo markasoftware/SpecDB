@@ -1,0 +1,33 @@
+name: RTX-5000-Mobile-Ada-Generation
+humanName: RTX 5000 Mobile Ada Generation
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Ada Lovelace
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '304'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2023-03-21'
+  GPU Base Frequency: 1425 MHz
+  GPU Boost Frequency: 2115 MHz
+  VRAM Frequency: 2250 MHz
+  VRAM Bandwidth: 576.0 GB/s
+  VRAM Capacity: 16 GB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 112
+  Texture Mapping Unit Count: 304
+  Shader Processor Count: 9728 
+  Die Size: 379 mm²
+  GPU: AD103
+  TDP: 120 W
+  FP32 Compute: 41.15 TFLOPS
+  FP64 Compute: 643.0 GFLOPS (1:64)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Ray Tracing Cores: 76
+  Tensor Cores: 304

@@ -1,0 +1,22 @@
+name: Generation-12.2 
+humanName: Generation 12.2
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  Release Date: '2022-01-04'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Iris-Xe-Graphics-80EU-Mobile
+    - Iris-Xe-Graphics-96EU-Mobile
+    - UHD-Graphics-64EU-Mobile
+    - UHD-Graphics-710
+    - UHD-Graphics-710-Mobile
+    - UHD-Graphics-730
+    - UHD-Graphics-770
+    - UHD-Graphics-770-Mobile
+    - UHD-Graphics-48EU-Mobile

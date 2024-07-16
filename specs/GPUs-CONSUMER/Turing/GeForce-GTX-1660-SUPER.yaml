@@ -1,0 +1,37 @@
+name: GeForce-GTX-1660-SUPER
+humanName: GeForce GTX 1660 SUPER
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Turing
+  Lithography: 12 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2019-10-29'
+  GPU Base Frequency: 1530 MHz
+  GPU Boost Frequency: 1785 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 336.0 GB/s
+  VRAM Capacity: 6 GB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 192 bit
+  Render Output Unit Count: 48
+  Texture Mapping Unit Count: 88
+  Shader Processor Count: 1408 
+  Die Size: 284 mm²
+  GPU: TU116
+  GPU Variant: TU116-300-A1
+  TDP: 125 W
+  FP32 Compute: 5.027 TFLOPS
+  FP64 Compute: 157.1 GFLOPS (1:32)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 2.0
+    - 1x DisplayPort 1.4a
+  Power Connectors: 1x 8-pin
+  Length: 229 mm
+  Width: 111 mm
+  Height: 35 mm

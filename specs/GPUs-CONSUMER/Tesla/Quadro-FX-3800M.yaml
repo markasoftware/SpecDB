@@ -1,0 +1,28 @@
+name: Quadro-FX-3800M
+humanName: Quadro FX 3800M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla
+  Lithography: 55 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2008-08-14'
+  VRAM Frequency: 1000 MHz
+  VRAM Bandwidth: 64.00 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 128 
+  Die Size: 260 mm²
+  GPU: G92B
+  GPU Variant: N10E-GLM3-B2
+  TDP: 100 W
+  FP32 Compute: 422.4 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

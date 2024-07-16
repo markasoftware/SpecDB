@@ -1,0 +1,53 @@
+name: Rage-7 
+humanName: Rage 7
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '8.1'
+  Vulkan Support: 'N/A'
+  Release Date: '2001-08-14'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - All-In-Wonder-9000-PRO
+    - All-In-Wonder-9200
+    - All-In-Wonder-9200-SE
+    - All-In-Wonder-Radeon-7500
+    - All-In-Wonder-Radeon-7500-VE
+    - All-In-Wonder-Radeon-8500
+    - All-In-Wonder-Radeon-8500DV
+    - FireGL-8700
+    - FireGL-8800
+    - FireMV-2200-PCI
+    - Mobility-FireGL-7800
+    - Mobility-FireGL-9000
+    - Mobility-Radeon-7500
+    - Mobility-Radeon-9000
+    - Mobility-Radeon-9000-IGP
+    - Mobility-Radeon-9100-IGP
+    - Mobility-Radeon-9100-PRO-IGP
+    - Mobility-Radeon-9200
+    - Mobility-Radeon-7500C
+    - Radeon-7500
+    - Radeon-7500-LE
+    - Radeon-7500-Mac-Edition
+    - Radeon-8500
+    - Radeon-8500-LE
+    - Radeon-8500-X4
+    - Radeon-8500-XT
+    - Radeon-9000
+    - Radeon-9000-LE
+    - Radeon-9000-PRO
+    - Radeon-9000-PRO-Mac-Edition
+    - Radeon-9100
+    - Radeon-9100-PCI
+    - Radeon-9200
+    - Radeon-9200-LE
+    - Radeon-9200-PCI
+    - Radeon-9200-PRO
+    - Radeon-9200-SE
+    - Radeon-9200-SE-PCI
+    - Radeon-9250
+    - Radeon-9250-PCI

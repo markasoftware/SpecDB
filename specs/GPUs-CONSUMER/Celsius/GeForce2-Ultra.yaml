@@ -1,0 +1,29 @@
+name: GeForce2-Ultra
+humanName: GeForce2 Ultra
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Celsius
+  Lithography: 180 nm
+  DirectX Support: '7.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5'
+  OpenCL Support: 'N/A'
+  Release Date: '2000-08-14'
+  VRAM Frequency: 230 MHz
+  VRAM Bandwidth: 7.360 GB/s
+  VRAM Capacity: 64 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Die Size: 88 mm²
+  GPU: NV15
+  GPU Variant: GeForce2 Ultra
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA
+  Power Connectors: None
+  Length: 183 mm

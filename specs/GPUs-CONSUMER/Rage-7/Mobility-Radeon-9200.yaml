@@ -1,0 +1,24 @@
+name: Mobility-Radeon-9200
+humanName: Mobility Radeon 9200
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Rage 7
+  Lithography: 150 nm
+  DirectX Support: '8.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.4'
+  OpenCL Support: 'N/A'
+  Release Date: '2003-03-01'
+  VRAM Frequency: 200 MHz
+  VRAM Bandwidth: 3.200 GB/s
+  VRAM Capacity: 32 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Die Size: 81 mm²
+  GPU: M9
+  GPU Variant: M9 9200
+  TDP: unknown
+  Outputs: Portable Device Dependent

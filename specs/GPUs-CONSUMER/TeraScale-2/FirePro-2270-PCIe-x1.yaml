@@ -1,0 +1,30 @@
+name: FirePro-2270-PCIe-x1
+humanName: FirePro 2270 PCIe x1
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2011-01-31'
+  VRAM Frequency: 600 MHz
+  VRAM Bandwidth: 9.600 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 80 
+  Die Size: 59 mm²
+  GPU: Cedar
+  GPU Variant: Cedar WS
+  TDP: 15 W
+  FP32 Compute: 96.00 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 1x DMS-59
+  Power Connectors: None
+  Length: 170 mm
+  Width: 69 mm

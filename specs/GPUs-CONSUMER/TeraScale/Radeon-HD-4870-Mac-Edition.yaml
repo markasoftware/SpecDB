@@ -1,0 +1,32 @@
+name: Radeon-HD-4870-Mac-Edition
+humanName: Radeon HD 4870 Mac Edition
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-01-06'
+  VRAM Frequency: 850 MHz
+  VRAM Bandwidth: 108.8 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 40
+  Shader Processor Count: 800 
+  Die Size: 256 mm²
+  GPU: RV770
+  GPU Variant: RV770 XT Mac
+  TDP: 150 W
+  FP32 Compute: 1,200 GFLOPS
+  FP64 Compute: 240.0 GFLOPS (1:5)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 1x mini-DisplayPort 1.0
+  Power Connectors: 2x 6-pin
+  Length: 250 mm

@@ -1,0 +1,31 @@
+name: Radeon-RX-5600M
+humanName: Radeon RX 5600M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: RDNA 1.0
+  Lithography: 7 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2020-07-07'
+  GPU Base Frequency: 1035 MHz
+  GPU Boost Frequency: 1265 MHz
+  VRAM Frequency: 1500 MHz
+  VRAM Bandwidth: 288.0 GB/s
+  VRAM Capacity: 6 GB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 192 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 144
+  Shader Processor Count: 2304 
+  Die Size: 251 mm²
+  GPU: Navi 10
+  GPU Variant: Navi 10 XME
+  TDP: 150 W
+  FP32 Compute: 5.829 TFLOPS
+  FP64 Compute: 364.3 GFLOPS (1:16)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None

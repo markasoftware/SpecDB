@@ -1,0 +1,31 @@
+name: Playstation-5-GPU
+humanName: Playstation 5 GPU
+isPart: true
+type: Graphics Card
+data:
+  Architecture: RDNA 2.0
+  Lithography: 7 nm
+  Vulkan Support: '1.2'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.2'
+  Release Date: '2020-11-12'
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 448.0 GB/s
+  VRAM Capacity: 16 GB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 144
+  Shader Processor Count: 2304 
+  Die Size: 308 mm²
+  GPU: Oberon
+  GPU Variant: CXD90044GB
+  TDP: 180 W
+  FP32 Compute: 10.29 TFLOPS
+  FP64 Compute: 643.1 GFLOPS (1:16)
+  Outputs: 
+    - 1x HDMI 2.1
+    - 1x USB Type-C
+  Length: 390 mm
+  Width: 260 mm
+  Height: 104 mm

@@ -1,0 +1,28 @@
+name: GeForce-9700M-GT
+humanName: GeForce 9700M GT
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2008-07-29'
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 25.60 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 32 
+  Die Size: 144 mm²
+  GPU: G96
+  GPU Variant: NB9E-GE
+  TDP: 45 W
+  FP32 Compute: 99.20 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

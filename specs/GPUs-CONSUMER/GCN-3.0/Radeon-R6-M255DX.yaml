@@ -1,0 +1,30 @@
+name: Radeon-R6-M255DX
+humanName: Radeon R6 M255DX
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 3.0
+  Lithography: 28 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2014-10-12'
+  GPU Base Frequency: 925 MHz
+  GPU Boost Frequency: 940 MHz
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 384 
+  Die Size: 125 mm²
+  GPU: Topaz
+  GPU Variant: Topaz PRO
+  TDP: unknown
+  FP32 Compute: 721.9 GFLOPS
+  FP64 Compute: 45.12 GFLOPS (1:16)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent

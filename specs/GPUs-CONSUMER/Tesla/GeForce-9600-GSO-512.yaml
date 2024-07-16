@@ -1,0 +1,31 @@
+name: GeForce-9600-GSO-512
+humanName: GeForce 9600 GSO 512
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2008-10-23'
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 57.60 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 48 
+  Die Size: 240 mm²
+  GPU: G94
+  GPU Variant: G94-300-A1
+  TDP: 90 W
+  FP32 Compute: 156.0 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x 6-pin
+  Length: 229 mm

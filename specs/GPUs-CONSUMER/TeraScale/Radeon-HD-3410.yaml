@@ -1,0 +1,29 @@
+name: Radeon-HD-3410
+humanName: Radeon HD 3410
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: 'N/A'
+  Release Date: '2009-05-07'
+  VRAM Frequency: 396 MHz
+  VRAM Bandwidth: 6.336 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 40 
+  Die Size: 85 mm²
+  GPU: RV610
+  TDP: 20 W
+  FP32 Compute: 41.52 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x S-Video
+  Power Connectors: None

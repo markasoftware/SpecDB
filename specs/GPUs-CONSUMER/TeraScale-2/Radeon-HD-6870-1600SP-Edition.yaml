@@ -1,0 +1,32 @@
+name: Radeon-HD-6870-1600SP-Edition
+humanName: Radeon HD 6870 1600SP Edition
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2013-01-14'
+  VRAM Frequency: 1050 MHz
+  VRAM Bandwidth: 134.4 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 80
+  Shader Processor Count: 1600 
+  Die Size: 334 mm²
+  GPU: Cypress
+  GPU Variant: Cypress XT
+  TDP: 175 W
+  FP32 Compute: 2.720 TFLOPS
+  FP64 Compute: 544.0 GFLOPS (1:5)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x HDMI 1.3a2x mini-DisplayPort 1.1
+  Power Connectors: 2x 6-pin
+  Length: 282 mm

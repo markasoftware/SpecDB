@@ -1,0 +1,29 @@
+name: Radeon-HD-8770M
+humanName: Radeon HD 8770M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2013-04-01'
+  GPU Base Frequency: 775 MHz
+  GPU Boost Frequency: 825 MHz
+  VRAM Frequency: 1125 MHz
+  VRAM Bandwidth: 72.00 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 384 
+  Die Size: 77 mm²
+  GPU: Mars
+  GPU Variant: Mars S3 XT
+  TDP: unknown
+  FP32 Compute: 633.6 GFLOPS
+  FP64 Compute: 39.60 GFLOPS (1:16)
+  Outputs: Portable Device Dependent

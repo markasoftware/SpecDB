@@ -1,0 +1,27 @@
+name: Radeon-HD-7950M
+humanName: Radeon HD 7950M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2012-04-24'
+  VRAM Frequency: 1000 MHz
+  VRAM Bandwidth: 128.0 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 80
+  Shader Processor Count: 1280 
+  Die Size: 212 mm²
+  GPU: Wimbledon
+  GPU Variant: Wimbledon PRO
+  TDP: 75 W
+  FP32 Compute: 1.792 TFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent

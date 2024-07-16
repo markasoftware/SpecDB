@@ -1,0 +1,26 @@
+name: Mobility-Radeon-HD-5165
+humanName: Mobility Radeon HD 5165
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2010-01-07'
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 25.60 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 320 
+  Die Size: 146 mm²
+  GPU: M96
+  TDP: 35 W
+  FP32 Compute: 384.0 GFLOPS
+  Outputs: Portable Device Dependent
+  Power Connectors: None

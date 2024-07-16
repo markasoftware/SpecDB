@@ -1,0 +1,34 @@
+name: Radeon-550X
+humanName: Radeon 550X
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 4.0
+  Lithography: 14 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2019-03-27'
+  GPU Base Frequency: 1082 MHz
+  GPU Boost Frequency: 1218 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 112.0 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 512 
+  Die Size: 103 mm²
+  GPU: Lexa
+  GPU Variant: Lexa PRO
+  TDP: 50 W
+  FP32 Compute: 1,247 GFLOPS
+  FP64 Compute: 77.95 GFLOPS (1:16)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 2.0b1x DisplayPort 1.4a
+  Power Connectors: None
+  Length: 145 mm

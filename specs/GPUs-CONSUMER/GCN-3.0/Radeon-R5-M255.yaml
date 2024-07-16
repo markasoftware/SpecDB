@@ -1,0 +1,29 @@
+name: Radeon-R5-M255
+humanName: Radeon R5 M255
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 3.0
+  Lithography: 28 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2014-10-12'
+  GPU Base Frequency: 925 MHz
+  GPU Boost Frequency: 940 MHz
+  VRAM Frequency: 1000 MHz
+  VRAM Bandwidth: 32.00 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: DDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 384 
+  Die Size: 125 mm²
+  GPU: Topaz
+  GPU Variant: Topaz PRO
+  TDP: unknown
+  FP32 Compute: 721.9 GFLOPS
+  FP64 Compute: 45.12 GFLOPS (1:16)
+  Outputs: Portable Device Dependent

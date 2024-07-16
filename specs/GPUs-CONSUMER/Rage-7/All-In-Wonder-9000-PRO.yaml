@@ -1,0 +1,27 @@
+name: All-In-Wonder-9000-PRO
+humanName: All-In-Wonder 9000 PRO
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Rage 7
+  Lithography: 150 nm
+  DirectX Support: '8.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.4'
+  OpenCL Support: 'N/A'
+  Release Date: '2003-03-31'
+  VRAM Frequency: 270 MHz
+  VRAM Bandwidth: 8.640 GB/s
+  VRAM Capacity: 64 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Die Size: 97 mm²
+  GPU: RV250
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 2x S-Video
+  Power Connectors: None

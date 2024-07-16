@@ -1,0 +1,31 @@
+name: GeForce-8800-GS
+humanName: GeForce 8800 GS
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2008-01-31'
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 38.40 GB/s
+  VRAM Capacity: 384 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 192 bit
+  Render Output Unit Count: 12
+  Texture Mapping Unit Count: 48
+  Shader Processor Count: 96 
+  Die Size: 324 mm²
+  GPU: G92
+  GPU Variant: G92-150-A2
+  TDP: 105 W
+  FP32 Compute: 264.0 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x 6-pin
+  Length: 229 mm

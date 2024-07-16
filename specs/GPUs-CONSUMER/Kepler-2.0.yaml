@@ -1,0 +1,34 @@
+name: Kepler-2.0 
+humanName: Kepler 2.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.2.175'
+  Release Date: '2013-04-01'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - GeForce-710A
+    - GeForce-805A
+    - GeForce-810A
+    - GeForce-825M
+    - GeForce-910M
+    - GeForce-920A
+    - GeForce-920M
+    - GeForce-GT-630-Rev.-2
+    - GeForce-GT-630-Rev.-2-PCIe-x8
+    - GeForce-GT-635-OEM
+    - GeForce-GT-640-Rev.-2
+    - GeForce-GT-710
+    - GeForce-GT-710-OEM
+    - GeForce-GT-710-PCIe-x1
+    - GeForce-GT-720
+    - GeForce-GT-730A
+    - GeForce-GT-735M
+    - Jetson-TK1
+    - Quadro-K510M
+    - Quadro-K610M
+    - Tesla-K80

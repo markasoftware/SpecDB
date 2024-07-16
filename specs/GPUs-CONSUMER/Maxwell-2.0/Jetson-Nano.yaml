@@ -1,0 +1,32 @@
+name: Jetson-Nano
+humanName: Jetson Nano
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Maxwell 2.0
+  Lithography: 20 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.1'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.2'
+  Release Date: 'Mar 2019'
+  GPU Base Frequency: 640 MHz
+  GPU Boost Frequency: 921 MHz
+  VRAM Frequency: 1600 MHz
+  VRAM Bandwidth: 25.60 GB/s
+  VRAM Capacity: 4 GB
+  VRAM Type: LPDDR4
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 128 
+  Die Size: 118 mm²
+  GPU: GM20B
+  GPU Variant: TM660M-A2
+  TDP: 10 W
+  FP32 Compute: 235.8 GFLOPS
+  FP64 Compute: 7.368 GFLOPS (1:32)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Length: 70 mm
+  Width: 45 mm

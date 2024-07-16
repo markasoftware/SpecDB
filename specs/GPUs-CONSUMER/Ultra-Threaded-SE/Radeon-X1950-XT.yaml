@@ -1,0 +1,28 @@
+name: Radeon-X1950-XT
+humanName: Radeon X1950 XT
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Ultra-Threaded SE
+  Lithography: 90 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2006-10-17'
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 57.60 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 16
+  Die Size: 352 mm²
+  GPU: R580+
+  GPU Variant: R580+ XT
+  TDP: 96 W
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x 6-pin

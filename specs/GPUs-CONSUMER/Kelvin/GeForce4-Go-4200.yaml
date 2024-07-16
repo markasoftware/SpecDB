@@ -1,0 +1,25 @@
+name: GeForce4-Go-4200
+humanName: GeForce4 Go 4200
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Kelvin
+  Lithography: 150 nm
+  DirectX Support: '8.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5'
+  OpenCL Support: 'N/A'
+  Release Date: '2002-11-14'
+  VRAM Frequency: 200 MHz
+  VRAM Bandwidth: 3.200 GB/s
+  VRAM Capacity: 64 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Die Size: 142 mm²
+  GPU: NV28
+  GPU Variant: 4200 Go
+  TDP: unknown
+  Outputs: Portable Device Dependent
+  Power Connectors: None

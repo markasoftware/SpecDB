@@ -1,0 +1,31 @@
+name: Radeon-HD-4750
+humanName: Radeon HD 4750
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale
+  Lithography: 40 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-09-09'
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 51.20 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 640 
+  Die Size: 137 mm²
+  GPU: RV740
+  GPU Variant: RV740 PRO
+  TDP: 100 W
+  FP32 Compute: 934.4 GFLOPS
+  FP64 Compute: 186.9 GFLOPS (1:5)
+  Slot Width: Single-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x 6-pin

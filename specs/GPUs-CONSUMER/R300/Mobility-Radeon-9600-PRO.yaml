@@ -1,0 +1,23 @@
+name: Mobility-Radeon-9600-PRO
+humanName: Mobility Radeon 9600 PRO
+isPart: true
+type: Graphics Card
+data:
+  Architecture: R300
+  Lithography: 130 nm
+  DirectX Support: '9.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-06-01'
+  VRAM Frequency: 200 MHz
+  VRAM Bandwidth: 6.400 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Die Size: 92 mm²
+  GPU: M10
+  TDP: unknown
+  Outputs: Portable Device Dependent

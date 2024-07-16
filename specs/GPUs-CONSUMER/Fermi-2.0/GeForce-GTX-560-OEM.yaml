@@ -1,0 +1,34 @@
+name: GeForce-GTX-560-OEM
+humanName: GeForce GTX 560 OEM
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Fermi 2.0
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2011-11-29'
+  VRAM Frequency: 802 MHz
+  VRAM Bandwidth: 128.3 GB/s
+  VRAM Capacity: 1280 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 320 bit
+  Render Output Unit Count: 40
+  Texture Mapping Unit Count: 48
+  Shader Processor Count: 384 
+  Die Size: 520 mm²
+  GPU: GF110
+  GPU Variant: GF110-040-A1
+  TDP: 150 W
+  FP32 Compute: 847.9 GFLOPS
+  FP64 Compute: 106.0 GFLOPS (1:8)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 1.3a
+  Power Connectors: 1x 6-pin
+  Length: 229 mm
+  Width: 99 mm
+  Height: 34 mm

@@ -1,0 +1,31 @@
+name: GeForce-GTX-750-GM206
+humanName: GeForce GTX 750 GM206
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Maxwell 2.0
+  Lithography: 28 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2015-11-17'
+  GPU Base Frequency: 1087 MHz
+  GPU Boost Frequency: 1239 MHz
+  VRAM Frequency: 1253 MHz
+  VRAM Bandwidth: 80.19 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 512 
+  Die Size: 228 mm²
+  GPU: GM206
+  TDP: 60 W
+  FP32 Compute: 1,269 GFLOPS
+  FP64 Compute: 39.65 GFLOPS (1:32)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x mini-HDMI 2.0

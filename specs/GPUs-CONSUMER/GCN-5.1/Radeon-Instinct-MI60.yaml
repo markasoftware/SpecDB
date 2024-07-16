@@ -1,0 +1,33 @@
+name: Radeon-Instinct-MI60
+humanName: Radeon Instinct MI60
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 5.1
+  Lithography: 7 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2018-11-18'
+  GPU Base Frequency: 1200 MHz
+  GPU Boost Frequency: 1800 MHz
+  VRAM Frequency: 1000 MHz
+  VRAM Bandwidth: 1,024 GB/s
+  VRAM Capacity: 32 GB
+  VRAM Type: HBM2
+  VRAM Bus Width: 4096 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 256
+  Shader Processor Count: 4096 
+  Die Size: 331 mm²
+  GPU: Vega 20
+  GPU Variant: Vega 20 GL
+  TDP: 300 W
+  FP32 Compute: 14.75 TFLOPS
+  FP64 Compute: 7.373 TFLOPS (1:2)
+  Slot Width: Dual-slot
+  Outputs: 1x mini-DisplayPort 1.4a
+  Power Connectors: 1x 6-pin + 1x 8-pin
+  Length: 267 mm
+  Width: 111 mm

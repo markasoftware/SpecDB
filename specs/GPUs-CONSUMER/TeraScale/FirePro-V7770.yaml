@@ -1,0 +1,30 @@
+name: FirePro-V7770
+humanName: FirePro V7770
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2012'
+  VRAM Frequency: 1050 MHz
+  VRAM Bandwidth: 33.60 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR4
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 40
+  Shader Processor Count: 800 
+  Die Size: 256 mm²
+  GPU: RV770
+  GPU Variant: RV770 XT
+  TDP: 76 W
+  FP32 Compute: 1,000 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 1x DVI
+  Power Connectors: 1x 6-pin
+  Length: 234 mm
+  Width: 111 mm

@@ -1,0 +1,30 @@
+name: Radeon-HD-4700
+humanName: Radeon HD 4700
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2010-02-11'
+  VRAM Frequency: 400 MHz
+  VRAM Bandwidth: 12.80 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 320 
+  Die Size: 146 mm²
+  GPU: RV730
+  GPU Variant: RV730 CE
+  TDP: 50 W
+  FP32 Compute: 384.0 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Length: 193 mm

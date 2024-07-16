@@ -1,0 +1,26 @@
+name: Radeon-Xpress-1250-Mobile-IGP
+humanName: Radeon Xpress 1250 Mobile IGP
+isPart: true
+type: Graphics Card
+data:
+  Architecture: R400
+  Lithography: 80 nm
+  DirectX Support: '9.2'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2007-02-28'
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Die Size: 73 mm²
+  GPU: RS690
+  GPU Variant: RS690M
+  TDP: unknown
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None

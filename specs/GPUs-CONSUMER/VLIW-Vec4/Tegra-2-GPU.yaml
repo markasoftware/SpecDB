@@ -1,0 +1,26 @@
+name: Tegra-2-GPU
+humanName: Tegra 2 GPU
+isPart: true
+type: Graphics Card
+data:
+  Architecture: VLIW Vec4
+  Lithography: 40 nm
+  Vulkan Support: 'N/A'
+  OpenGL Support: 'ES 2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2010-06-03'
+  GPU Base Frequency: 300 MHz
+  GPU Boost Frequency: 400 MHz
+  VRAM Frequency: 333 MHz
+  VRAM Bandwidth: 2.664 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 32 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Die Size: unknown
+  GPU: Tegra 2
+  GPU Variant: T20MGS-SHP-A3
+  TDP: 20 W
+  Slot Width: IGP
+  Outputs: Portable Device Dependent

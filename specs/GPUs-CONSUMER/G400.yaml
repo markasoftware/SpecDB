@@ -1,0 +1,20 @@
+name: G400 
+humanName: G400
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '6.0'
+  Vulkan Support: 'N/A'
+  Release Date: '1999-05-20'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Marvel-G400-TV
+    - Millennium-G400
+    - Millennium-G400-MAX
+    - Millennium-G450
+    - Millennium-G450-LP
+    - Millennium-G450-x2-MMS
+    - Millennium-G450-x4-MMS

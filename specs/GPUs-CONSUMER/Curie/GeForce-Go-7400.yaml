@@ -1,0 +1,25 @@
+name: GeForce-Go-7400
+humanName: GeForce Go 7400
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Curie
+  Lithography: 90 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2006-02-01'
+  VRAM Frequency: 450 MHz
+  VRAM Bandwidth: 3.600 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 32 bit
+  Render Output Unit Count: 2
+  Texture Mapping Unit Count: 4
+  Die Size: 81 mm²
+  GPU: G72B
+  GPU Variant: GF-GO7400-B-N-A3
+  TDP: unknown
+  Outputs: Portable Device Dependent
+  Power Connectors: None

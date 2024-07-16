@@ -1,0 +1,15 @@
+name: PowerVR-SGX535 
+humanName: PowerVR SGX535
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  Release Date: '2008-03-02'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - GMA-500
+    - GMA-600

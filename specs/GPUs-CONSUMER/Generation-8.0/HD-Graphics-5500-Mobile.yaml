@@ -1,0 +1,29 @@
+name: HD-Graphics-5500-Mobile
+humanName: HD Graphics 5500 Mobile
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Generation 8.0
+  Lithography: 14 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.0'
+  OpenGL Support: '4.4'
+  OpenCL Support: '3.0'
+  Release Date: '2014-09-05'
+  GPU Base Frequency: 300 MHz
+  GPU Boost Frequency: 850 MHz
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 3
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 192 
+  Die Size: unknown
+  GPU: Broadwell GT2
+  TDP: 15 W
+  FP32 Compute: 326.4 GFLOPS
+  FP64 Compute: 81.60 GFLOPS (1:4)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent

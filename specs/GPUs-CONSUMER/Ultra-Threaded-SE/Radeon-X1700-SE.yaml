@@ -1,0 +1,28 @@
+name: Radeon-X1700-SE
+humanName: Radeon X1700 SE
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Ultra-Threaded SE
+  Lithography: 80 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2007-11-30'
+  VRAM Frequency: 500 MHz
+  VRAM Bandwidth: 16.00 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 8
+  Die Size: 230 mm²
+  GPU: RV560
+  GPU Variant: RV560 SE
+  TDP: 50 W
+  Slot Width: Single-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: None

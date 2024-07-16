@@ -1,0 +1,28 @@
+name: Quadro-FX-880M
+humanName: Quadro FX 880M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla 2.0
+  Lithography: 40 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2010-01-07'
+  VRAM Frequency: 790 MHz
+  VRAM Bandwidth: 25.28 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 48 
+  Die Size: 100 mm²
+  GPU: GT216
+  GPU Variant: N10P-GLM
+  TDP: 35 W
+  FP32 Compute: 116.2 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

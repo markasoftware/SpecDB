@@ -1,0 +1,32 @@
+name: GeForce-GTX-745-OEM
+humanName: GeForce GTX 745 OEM
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Maxwell
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2014-02-18'
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 28.80 GB/s
+  VRAM Capacity: 4 GB
+  VRAM Type: DDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 384 
+  Die Size: 148 mm²
+  GPU: GM107
+  GPU Variant: GM107-220-A2
+  TDP: 55 W
+  FP32 Compute: 793.3 GFLOPS
+  FP64 Compute: 24.79 GFLOPS (1:32)
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 1.4a1x VGA
+  Power Connectors: None
+  Length: 145 mm

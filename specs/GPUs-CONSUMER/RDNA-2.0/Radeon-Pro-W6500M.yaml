@@ -1,0 +1,32 @@
+name: Radeon-Pro-W6500M
+humanName: Radeon Pro W6500M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: RDNA 2.0
+  Lithography: 6 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.2'
+  Release Date: 'Never Released'
+  GPU Base Frequency: 1512 MHz
+  GPU Boost Frequency: 2040 MHz
+  VRAM Frequency: 2000 MHz
+  VRAM Bandwidth: 128.0 GB/s
+  VRAM Capacity: 4 GB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 1024 
+  Die Size: 107 mm²
+  GPU: Navi 24
+  GPU Variant: Navi 24
+  TDP: 25 W
+  FP32 Compute: 4.178 TFLOPS
+  FP64 Compute: 261.1 GFLOPS (1:16)
+  Slot Width: Single-slot
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Ray Tracing Cores: 16

@@ -1,0 +1,90 @@
+name: R300 
+humanName: R300
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '9.0'
+  Vulkan Support: 'N/A'
+  Release Date: '2002-07-01'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - All-In-Wonder-2006-AGP-Edition
+    - All-In-Wonder-9500
+    - All-In-Wonder-9600
+    - All-In-Wonder-9600-PRO
+    - All-In-Wonder-9600-XT
+    - All-In-Wonder-9700-PRO
+    - All-In-Wonder-9800-PRO
+    - All-In-Wonder-9800-SE
+    - All-In-Wonder-X600-PRO
+    - FireGL-9500-Z1-128
+    - FireGL-9600-T2-64S
+    - FireGL-9600-T2-128
+    - FireGL-9700-X1-128
+    - FireGL-9700-X1-256
+    - FireGL-9700-X1-256p
+    - FireGL-9800-X2-256
+    - FireGL-9800-X2-256T
+    - FireGL-V3100
+    - FireGL-V3200
+    - FireMV-2200
+    - FireMV-2400-PCI
+    - FireMV-2400-PCIe-x1
+    - Mobility-FireGL-T2
+    - Mobility-FireGL-T2e
+    - Mobility-FireGL-V3100
+    - Mobility-FireGL-V3200
+    - Mobility-Radeon-9550
+    - Mobility-Radeon-9600
+    - Mobility-Radeon-9600-PRO
+    - Mobility-Radeon-9600-PRO-Turbo
+    - Mobility-Radeon-9700
+    - Mobility-Radeon-9700-SE
+    - Mobility-Radeon-9500
+    - Mobility-Radeon-X300
+    - Mobility-Radeon-X300-IGP
+    - Mobility-Radeon-X600
+    - Mobility-Radeon-X600-SE
+    - Radeon-9500
+    - Radeon-9500-PRO
+    - Radeon-9550
+    - Radeon-9550-SE
+    - Radeon-9550-XT
+    - Radeon-9600
+    - Radeon-9600-PRO
+    - Radeon-9600-SE
+    - Radeon-9600-TX
+    - Radeon-9600-XT
+    - Radeon-9700
+    - Radeon-9700-PRO
+    - Radeon-9700-PRO-X4
+    - Radeon-9800
+    - Radeon-9800-PRO
+    - Radeon-9800-PRO-MAXX
+    - Radeon-9800-SE
+    - Radeon-9800-XT-Mac-Edition
+    - Radeon-9800-XXL
+    - Radeon-9800-PRO-Mac-Edition
+    - Radeon-9800-XT
+    - Radeon-X300
+    - Radeon-X300-LE
+    - Radeon-X300-SE
+    - Radeon-X300-SE-HyperMemory
+    - Radeon-X550
+    - Radeon-X550-HyperMemory
+    - Radeon-X600
+    - Radeon-X600-PRO
+    - Radeon-X600-XT
+    - Radeon-X600-SE
+    - Radeon-X1050
+    - Radeon-X1050-AGP
+    - Radeon-Xpress-200-IGP
+    - Radeon-Xpress-200M-IGP
+    - Radeon-Xpress-1100-Mobile-IGP
+    - Radeon-Xpress-1150-IGP
+    - Radeon-Xpress-1150-Mobile-IGP
+    - Radeon-Xpress--200M-IGP
+    - Radeon-Xpress-1100-IGP

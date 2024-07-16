@@ -1,0 +1,33 @@
+name: Radeon-RX-7700S
+humanName: Radeon RX 7700S
+isPart: true
+type: Graphics Card
+data:
+  Architecture: RDNA 3.0
+  Lithography: 6 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.2'
+  Release Date: '2023-01-04'
+  GPU Base Frequency: 1500 MHz
+  GPU Boost Frequency: 2500 MHz
+  VRAM Frequency: 2250 MHz
+  VRAM Bandwidth: 288.0 GB/s
+  VRAM Capacity: 8 GB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 128
+  Shader Processor Count: 2048 
+  Die Size: 204 mm²
+  GPU: Navi 33
+  GPU Variant: Navi 33 XT
+  Codename: Hotpink Bonefish
+  TDP: 100 W
+  FP32 Compute: 20.48 TFLOPS
+  FP64 Compute: 640.0 GFLOPS (1:32)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Ray Tracing Cores: 32

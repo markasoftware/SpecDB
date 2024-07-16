@@ -1,0 +1,24 @@
+name: GeForce4-488-Go
+humanName: GeForce4 488 Go
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Celsius
+  Lithography: 150 nm
+  DirectX Support: '7.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5'
+  OpenCL Support: 'N/A'
+  Release Date: '2002-03-01'
+  VRAM Frequency: 275 MHz
+  VRAM Bandwidth: 8.800 GB/s
+  VRAM Capacity: 64 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 2
+  Texture Mapping Unit Count: 4
+  Die Size: 65 mm²
+  GPU: NV18
+  TDP: unknown
+  Outputs: Portable Device Dependent
+  Power Connectors: None

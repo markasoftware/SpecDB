@@ -1,0 +1,32 @@
+name: Radeon-R7-340-OEM
+humanName: Radeon R7 340 OEM
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2015-05-05'
+  GPU Base Frequency: 730 MHz
+  GPU Boost Frequency: 780 MHz
+  VRAM Frequency: 1000 MHz
+  VRAM Bandwidth: 64.00 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 384 
+  Die Size: 77 mm²
+  GPU: Oland
+  TDP: 50 W
+  FP32 Compute: 599.0 GFLOPS
+  FP64 Compute: 37.44 GFLOPS (1:16)
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 1.4a1x VGA
+  Power Connectors: None

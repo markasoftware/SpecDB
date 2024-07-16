@@ -1,0 +1,28 @@
+name: GeForce-8600M-GS
+humanName: GeForce 8600M GS
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla
+  Lithography: 80 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2007-05-01'
+  VRAM Frequency: 400 MHz
+  VRAM Bandwidth: 12.80 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 16 
+  Die Size: 127 mm²
+  GPU: G86
+  GPU Variant: G86-770-A2
+  TDP: 20 W
+  FP32 Compute: 28.80 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

@@ -1,0 +1,93 @@
+name: Ultra-Threaded-SE 
+humanName: Ultra-Threaded SE
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  Release Date: '2005-10-01'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - All-In-Wonder-2006-PCIe-Edition
+    - All-In-Wonder-X1800-XL
+    - All-In-Wonder-X1900
+    - FireGL-V3300
+    - FireGL-V3350
+    - FireGL-V3400
+    - FireGL-V5200
+    - FireGL-V7200
+    - FireGL-V7300
+    - FireGL-V7350
+    - FireMV-2250
+    - FireMV-2250-PCIe-x1
+    - Mobility-FireGL-V5200
+    - Mobility-FireGL-V5250
+    - Mobility-Radeon-HD-2300
+    - Mobility-Radeon-X1300
+    - Mobility-Radeon-X1350
+    - Mobility-Radeon-X1450
+    - Mobility-Radeon-X1600
+    - Mobility-Radeon-X1600-Mac-Edition
+    - Mobility-Radeon-X1700
+    - Mobility-Radeon-X1800
+    - Mobility-Radeon-X1800-XT
+    - Mobility-Radeon-X1900
+    - Mobility-Radeon-X2300
+    - Mobility-Radeon-X2500
+    - Mobility-Radeon-X1400
+    - Mobility-Radeon-X2300-HD
+    - Radeon-X1300
+    - Radeon-X1300-CE
+    - Radeon-X1300-LE
+    - Radeon-X1300-PCI
+    - Radeon-X1300-PRO
+    - Radeon-X1300-PRO-AGP
+    - Radeon-X1300-XT
+    - Radeon-X1300-XT-AGP
+    - Radeon-X1550
+    - Radeon-X1550-AGP
+    - Radeon-X1550-PCI
+    - Radeon-X1600
+    - Radeon-X1600-PRO
+    - Radeon-X1600-PRO-AGP
+    - Radeon-X1600-SE
+    - Radeon-X1600-XT
+    - Radeon-X1600-XT-Dual
+    - Radeon-X1650
+    - Radeon-X1650-GT
+    - Radeon-X1650-GTO
+    - Radeon-X1650-PRO
+    - Radeon-X1650-SE
+    - Radeon-X1650-XT-AGP
+    - Radeon-X1650-XT-Dual
+    - Radeon-X1700-FSC
+    - Radeon-X1700-SE
+    - Radeon-X1800-CrossFire-Edition
+    - Radeon-X1800-GTO
+    - Radeon-X1800-GTO2
+    - Radeon-X1800-XL
+    - Radeon-X1800-XT
+    - Radeon-X1900-CrossFire-Edition
+    - Radeon-X1900-G5-Mac-Edition
+    - Radeon-X1900-GT
+    - Radeon-X1900-XT
+    - Radeon-X1900-XTX
+    - Radeon-X1950-CrossFire-Edition
+    - Radeon-X1950-GT
+    - Radeon-X1950-GT-AGP
+    - Radeon-X1950-PRO
+    - Radeon-X1950-PRO-AGP
+    - Radeon-X1950-PRO-DUAL
+    - Radeon-X1950-XT
+    - Radeon-X1950-XT-AGP
+    - Radeon-X1950-XTX
+    - Radeon-X1950-XTX-Uber-Edition
+    - Radeon-X1300-AGP
+    - Radeon-X1650-AGP
+    - Radeon-X1650-PRO-AGP
+    - Radeon-X1650-XT
+    - Stream-Processor
+    - Wii-GPU

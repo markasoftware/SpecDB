@@ -1,0 +1,24 @@
+name: Generation-12.1 
+humanName: Generation 12.1
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  Release Date: '2020'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - H3C-XG310
+    - Iris-Xe-Graphics-G4-48EU-Mobile
+    - Iris-Xe-Graphics-G7-80EU-Mobile
+    - Iris-Xe-Graphics-G7-96EU-Mobile
+    - Iris-Xe-MAX-Graphics
+    - UHD-Graphics-16EU
+    - UHD-Graphics-16EU-Mobile
+    - UHD-Graphics-P750
+    - Xe-DG1
+    - Xe-DG1-SDV
+    - UHD-Graphics-750

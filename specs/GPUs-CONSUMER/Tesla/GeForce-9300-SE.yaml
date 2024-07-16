@@ -1,0 +1,29 @@
+name: GeForce-9300-SE
+humanName: GeForce 9300 SE
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2008-06-01'
+  VRAM Frequency: 400 MHz
+  VRAM Bandwidth: 6.400 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 8 
+  Die Size: 86 mm²
+  GPU: G98S
+  TDP: unknown
+  FP32 Compute: 20.80 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI1x VGA
+  Power Connectors: None

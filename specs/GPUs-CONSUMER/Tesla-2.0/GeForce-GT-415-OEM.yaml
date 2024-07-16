@@ -1,0 +1,31 @@
+name: GeForce-GT-415-OEM
+humanName: GeForce GT 415 OEM
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla 2.0
+  Lithography: 40 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2010-09-03'
+  VRAM Frequency: 333 MHz
+  VRAM Bandwidth: 10.66 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: DDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 48 
+  Die Size: 100 mm²
+  GPU: GT216
+  GPU Variant: GT216-305-A3
+  TDP: 32 W
+  FP32 Compute: 130.6 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI1x VGA
+  Power Connectors: None
+  Length: 168 mm

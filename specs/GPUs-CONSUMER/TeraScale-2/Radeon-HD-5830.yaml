@@ -1,0 +1,34 @@
+name: Radeon-HD-5830
+humanName: Radeon HD 5830
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2010-02-25'
+  VRAM Frequency: 1000 MHz
+  VRAM Bandwidth: 128.0 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 56
+  Shader Processor Count: 1120 
+  Die Size: 334 mm²
+  GPU: Cypress
+  GPU Variant: Cypress LE
+  TDP: 175 W
+  FP32 Compute: 1.792 TFLOPS
+  FP64 Compute: 358.4 GFLOPS (1:5)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x HDMI 1.3a1x DisplayPort 1.1
+  Power Connectors: 2x 6-pin
+  Length: 280 mm
+  Width: 111 mm
+  Height: 37 mm

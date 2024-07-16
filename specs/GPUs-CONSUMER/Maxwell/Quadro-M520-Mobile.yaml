@@ -1,0 +1,30 @@
+name: Quadro-M520-Mobile
+humanName: Quadro M520 Mobile
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Maxwell
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2017-01-11'
+  GPU Base Frequency: 965 MHz
+  GPU Boost Frequency: 1176 MHz
+  VRAM Frequency: 1253 MHz
+  VRAM Bandwidth: 40.10 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 384 
+  Die Size: 77 mm²
+  GPU: GM108
+  TDP: 25 W
+  FP32 Compute: 903.2 GFLOPS
+  FP64 Compute: 28.22 GFLOPS (1:32)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

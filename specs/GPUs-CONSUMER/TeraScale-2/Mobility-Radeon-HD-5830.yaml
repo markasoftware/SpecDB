@@ -1,0 +1,26 @@
+name: Mobility-Radeon-HD-5830
+humanName: Mobility Radeon HD 5830
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2010-01-07'
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 25.60 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 40
+  Shader Processor Count: 800 
+  Die Size: 166 mm²
+  GPU: Broadway
+  GPU Variant: Broadway LP
+  TDP: 24 W
+  FP32 Compute: 800.0 GFLOPS
+  Outputs: Portable Device Dependent

@@ -1,0 +1,32 @@
+name: Radeon-RX-590
+humanName: Radeon RX 590
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 4.0
+  Lithography: 12 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2018-11-15'
+  GPU Base Frequency: 1469 MHz
+  GPU Boost Frequency: 1545 MHz
+  VRAM Frequency: 2000 MHz
+  VRAM Bandwidth: 256.0 GB/s
+  VRAM Capacity: 8 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 144
+  Shader Processor Count: 2304 
+  Die Size: 232 mm²
+  GPU: Polaris 30
+  GPU Variant: Polaris 30 XT
+  TDP: 175 W
+  FP32 Compute: 7.119 TFLOPS
+  FP64 Compute: 445.0 GFLOPS (1:16)
+  Slot Width: Dual-slot
+  Outputs: 1x HDMI 2.0b3x DisplayPort 1.4a
+  Power Connectors: 1x 8-pin
+  Length: 241 mm

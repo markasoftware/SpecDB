@@ -1,0 +1,27 @@
+name: GeForce-6800
+humanName: GeForce 6800
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Curie
+  Lithography: 110 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-04-14'
+  VRAM Frequency: 350 MHz
+  VRAM Bandwidth: 22.40 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 12
+  Texture Mapping Unit Count: 12
+  Die Size: 287 mm²
+  GPU: NV48
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: 1x Molex

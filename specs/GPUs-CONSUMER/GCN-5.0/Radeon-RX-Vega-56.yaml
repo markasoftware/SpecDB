@@ -1,0 +1,34 @@
+name: Radeon-RX-Vega-56
+humanName: Radeon RX Vega 56
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 5.0
+  Lithography: 14 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2017-08-14'
+  GPU Base Frequency: 1156 MHz
+  GPU Boost Frequency: 1471 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 409.6 GB/s
+  VRAM Capacity: 8 GB
+  VRAM Type: HBM2
+  VRAM Bus Width: 2048 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 224
+  Shader Processor Count: 3584 
+  Die Size: 495 mm²
+  GPU: Vega 10
+  GPU Variant: Vega 10 XL
+  TDP: 210 W
+  FP32 Compute: 10.54 TFLOPS
+  FP64 Compute: 659.0 GFLOPS (1:16)
+  Slot Width: Dual-slot
+  Outputs: 1x HDMI 2.0b3x DisplayPort 1.4a
+  Power Connectors: 2x 8-pin
+  Length: 280 mm
+  Width: 111 mm
+  Height: 40 mm

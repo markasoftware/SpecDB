@@ -1,0 +1,26 @@
+name: Quadro-FX-Go540
+humanName: Quadro FX Go540
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Curie
+  Lithography: 110 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-08-09'
+  VRAM Frequency: 225 MHz
+  VRAM Bandwidth: 7.200 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 8
+  Die Size: 154 mm²
+  GPU: NV43
+  GPU Variant: QDFX-GO540-N-A4
+  TDP: 25 W
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

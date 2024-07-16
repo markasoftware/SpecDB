@@ -1,0 +1,30 @@
+name: Radeon-R7-350-Fake-Card
+humanName: Radeon R7 350 Fake Card
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2015'
+  VRAM Frequency: 1150 MHz
+  VRAM Bandwidth: 36.80 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 384 
+  Die Size: 77 mm²
+  GPU: Opal
+  GPU Variant: Opal XT
+  TDP: 35 W
+  FP32 Compute: 806.4 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x HDMI 1.4a1x DisplayPort 1.2
+    - 1x VGA
+  Power Connectors: None

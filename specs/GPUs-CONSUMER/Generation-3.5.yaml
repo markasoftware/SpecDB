@@ -1,0 +1,14 @@
+name: Generation-3.5 
+humanName: Generation 3.5
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '9.0'
+  Vulkan Support: 'N/A'
+  Release Date: '2005-06-01'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - GMA-950

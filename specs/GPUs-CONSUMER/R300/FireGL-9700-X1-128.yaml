@@ -1,0 +1,26 @@
+name: FireGL-9700-X1-128
+humanName: FireGL 9700 X1-128
+isPart: true
+type: Graphics Card
+data:
+  Architecture: R300
+  Lithography: 150 nm
+  DirectX Support: '9.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2002-07-23'
+  VRAM Frequency: 310 MHz
+  VRAM Bandwidth: 19.84 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 8
+  Die Size: 215 mm²
+  GPU: R300
+  GPU Variant: R300 GL
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 2x DVI
+  Power Connectors: None

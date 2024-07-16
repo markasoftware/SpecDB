@@ -1,0 +1,25 @@
+name: Generation-8.0 
+humanName: Generation 8.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.0'
+  Release Date: '2014-09-05'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - HD-Graphics-12EU-Mobile
+    - HD-Graphics-400-Mobile
+    - HD-Graphics-405-Mobile
+    - HD-Graphics-5300-Mobile
+    - HD-Graphics-5500-Mobile
+    - HD-Graphics-5600-Mobile
+    - HD-Graphics-6000-Mobile
+    - HD-Graphics-P5700
+    - Iris-Graphics-6100-Mobile
+    - Iris-Pro-Graphics-6200
+    - Iris-Pro-Graphics-6200-Mobile
+    - Iris-Pro-Graphics-P6300

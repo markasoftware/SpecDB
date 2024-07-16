@@ -1,0 +1,26 @@
+name: Millenium-P650-LP-MDD-PCIe
+humanName: Millenium P650 LP MDD PCIe
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Parhelia
+  Lithography: 150 nm
+  DirectX Support: '8.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.3'
+  OpenCL Support: 'N/A'
+  Release Date: '2003-05-10'
+  VRAM Frequency: 270 MHz
+  VRAM Bandwidth: 8.640 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 2
+  Texture Mapping Unit Count: 8
+  Die Size: 130 mm²
+  GPU: Parhelia-LX
+  GPU Variant: MP-A4L
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 1x LFH60
+  Power Connectors: None

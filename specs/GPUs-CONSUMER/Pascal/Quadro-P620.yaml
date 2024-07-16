@@ -1,0 +1,32 @@
+name: Quadro-P620
+humanName: Quadro P620
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Pascal
+  Lithography: 14 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2018-02-01'
+  GPU Base Frequency: 1266 MHz
+  GPU Boost Frequency: 1354 MHz
+  VRAM Frequency: 1252 MHz
+  VRAM Bandwidth: 80.13 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 512 
+  Die Size: 132 mm²
+  GPU: GP107
+  TDP: 40 W
+  FP32 Compute: 1,386 GFLOPS
+  FP64 Compute: 43.33 GFLOPS (1:32)
+  Slot Width: Single-slot
+  Outputs: 4x mini-DisplayPort 1.4a
+  Power Connectors: None
+  Length: 145 mm
+  Width: 69 mm

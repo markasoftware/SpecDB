@@ -1,0 +1,28 @@
+name: Radeon-9600-XT
+humanName: Radeon 9600 XT
+isPart: true
+type: Graphics Card
+data:
+  Architecture: R300
+  Lithography: 130 nm
+  DirectX Support: '9.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2003-10-01'
+  VRAM Frequency: 300 MHz
+  VRAM Bandwidth: 9.600 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Die Size: 76 mm²
+  GPU: RV360
+  GPU Variant: RV360
+  TDP: 22 W
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None

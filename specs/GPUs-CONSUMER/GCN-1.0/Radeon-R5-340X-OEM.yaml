@@ -1,0 +1,32 @@
+name: Radeon-R5-340X-OEM
+humanName: Radeon R5 340X OEM
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2015-05-05'
+  VRAM Frequency: 1000 MHz
+  VRAM Bandwidth: 16.00 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: DDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 384 
+  Die Size: 77 mm²
+  GPU: Oland
+  GPU Variant: Oland XT
+  TDP: 65 W
+  FP32 Compute: 691.2 GFLOPS
+  FP64 Compute: 43.20 GFLOPS (1:16)
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x DisplayPort 1.2
+  Power Connectors: None
+  Length: 145 mm

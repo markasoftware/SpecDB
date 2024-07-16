@@ -1,0 +1,30 @@
+name: Radeon-Pro-580X
+humanName: Radeon Pro 580X
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 4.0
+  Lithography: 14 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2019-03-18'
+  GPU Base Frequency: 1100 MHz
+  GPU Boost Frequency: 1200 MHz
+  VRAM Frequency: 1710 MHz
+  VRAM Bandwidth: 218.9 GB/s
+  VRAM Capacity: 8 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 144
+  Shader Processor Count: 2304 
+  Die Size: 232 mm²
+  GPU: Ellesmere
+  GPU Variant: Ellesmere XTA
+  TDP: 185 W
+  FP32 Compute: 5.530 TFLOPS
+  FP64 Compute: 345.6 GFLOPS (1:16)
+  Slot Width: IGP
+  Outputs: 2x HDMI 2.0b

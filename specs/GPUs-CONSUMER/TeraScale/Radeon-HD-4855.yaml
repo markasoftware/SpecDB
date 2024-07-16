@@ -1,0 +1,32 @@
+name: Radeon-HD-4855
+humanName: Radeon HD 4855
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2010-01-03'
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 115.2 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 640 
+  Die Size: 256 mm²
+  GPU: RV770
+  GPU Variant: RV770 PRO
+  TDP: 110 W
+  FP32 Compute: 736.0 GFLOPS
+  FP64 Compute: 147.2 GFLOPS (1:5)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 1.3a1x VGA
+  Power Connectors: 1x 6-pin
+  Length: 220 mm

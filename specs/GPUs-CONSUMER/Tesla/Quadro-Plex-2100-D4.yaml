@@ -1,0 +1,26 @@
+name: Quadro-Plex-2100-D4
+humanName: Quadro Plex 2100 D4
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2008-07-25'
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 51.20 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 128 
+  Die Size: 324 mm²
+  GPU: G92
+  TDP: 640 W
+  FP32 Compute: 320.0 GFLOPS
+  Outputs: No outputs
+  Length: 522 mm

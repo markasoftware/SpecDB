@@ -1,0 +1,27 @@
+name: Radeon-X550-XTX
+humanName: Radeon X550 XTX
+isPart: true
+type: Graphics Card
+data:
+  Architecture: R400
+  Lithography: 110 nm
+  DirectX Support: '9.2'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2007-01-24'
+  VRAM Frequency: 300 MHz
+  VRAM Bandwidth: 4.800 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 8
+  Die Size: 156 mm²
+  GPU: RV410
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None

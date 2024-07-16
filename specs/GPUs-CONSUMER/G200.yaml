@@ -1,0 +1,19 @@
+name: G200 
+humanName: G200
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '5.0'
+  Vulkan Support: 'N/A'
+  Release Date: '1998'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Marvel-G200
+    - Millennium-G200
+    - Millennium-G200-SD
+    - Millennium-G200A
+    - Millennium-G250
+    - Mystique-G200

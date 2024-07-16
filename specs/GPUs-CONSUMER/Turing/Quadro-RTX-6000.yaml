@@ -1,0 +1,36 @@
+name: Quadro-RTX-6000
+humanName: Quadro RTX 6000
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Turing
+  Lithography: 12 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '576'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2018-08-13'
+  GPU Base Frequency: 1440 MHz
+  GPU Boost Frequency: 1770 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 672.0 GB/s
+  VRAM Capacity: 24 GB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 96
+  Texture Mapping Unit Count: 288
+  Shader Processor Count: 4608 
+  Die Size: 754 mm²
+  GPU: TU102
+  GPU Variant: TU102-875-A1
+  TDP: 260 W
+  FP32 Compute: 16.31 TFLOPS
+  FP64 Compute: 509.8 GFLOPS (1:32)
+  Slot Width: Dual-slot
+  Outputs: 4x DisplayPort 1.4a1x USB Type-C
+  Power Connectors: 1x 6-pin + 1x 8-pin
+  Length: 267 mm
+  Width: 111 mm
+  Ray Tracing Cores: 72
+  Tensor Cores: 576

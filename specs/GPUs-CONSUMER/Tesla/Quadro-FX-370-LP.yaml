@@ -1,0 +1,29 @@
+name: Quadro-FX-370-LP
+humanName: Quadro FX 370 LP
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2008-11-06'
+  VRAM Frequency: 500 MHz
+  VRAM Bandwidth: 8.000 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 8 
+  Die Size: 86 mm²
+  GPU: G98S
+  TDP: 25 W
+  FP32 Compute: 17.28 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 1x DMS-59
+  Power Connectors: None
+  Length: 198 mm
+  Width: 69 mm

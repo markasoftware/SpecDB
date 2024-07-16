@@ -1,0 +1,27 @@
+name: GeForce-PCX-5300
+humanName: GeForce PCX 5300
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Rankine
+  Lithography: 150 nm
+  DirectX Support: '9.0a'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-02-17'
+  VRAM Frequency: 200 MHz
+  VRAM Bandwidth: 6.400 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Die Size: 91 mm²
+  GPU: NV37
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None

@@ -1,0 +1,35 @@
+name: Radeon-R9-370X
+humanName: Radeon R9 370X
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2015-08-27'
+  GPU Base Frequency: 980 MHz
+  GPU Boost Frequency: 1030 MHz
+  VRAM Frequency: 1400 MHz
+  VRAM Bandwidth: 179.2 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 80
+  Shader Processor Count: 1280 
+  Die Size: 212 mm²
+  GPU: Trinidad
+  GPU Variant: Trinidad XT
+  TDP: 180 W
+  FP32 Compute: 2.637 TFLOPS
+  FP64 Compute: 164.8 GFLOPS (1:16)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x HDMI 1.4a1x DisplayPort 1.2
+  Power Connectors: 2x 6-pin
+  Length: 221 mm
+  Width: 111 mm

@@ -1,0 +1,31 @@
+name: A100-SXM4-40-GB
+humanName: A100 SXM4 40 GB
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Ampere
+  Lithography: 7 nm
+  HLSL Shader Model: '432'
+  Vulkan Support: 'N/A'
+  OpenGL Support: 'N/A'
+  OpenCL Support: '3.0'
+  Release Date: '2020-05-14'
+  GPU Base Frequency: 1095 MHz
+  GPU Boost Frequency: 1410 MHz
+  VRAM Frequency: 1215 MHz
+  VRAM Bandwidth: 1,555 GB/s
+  VRAM Capacity: 40 GB
+  VRAM Type: HBM2e
+  VRAM Bus Width: 5120 bit
+  Render Output Unit Count: 160
+  Texture Mapping Unit Count: 432
+  Shader Processor Count: 6912 
+  Die Size: 826 mm²
+  GPU: GA100
+  TDP: 400 W
+  FP32 Compute: 19.49 TFLOPS
+  FP64 Compute: 9.746 TFLOPS (1:2)
+  Slot Width: SXM Module
+  Outputs: No outputs
+  Power Connectors: None
+  Tensor Cores: 432

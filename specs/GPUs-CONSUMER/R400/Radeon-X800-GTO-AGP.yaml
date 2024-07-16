@@ -1,0 +1,28 @@
+name: Radeon-X800-GTO-AGP
+humanName: Radeon X800 GTO AGP
+isPart: true
+type: Graphics Card
+data:
+  Architecture: R400
+  Lithography: 130 nm
+  DirectX Support: '9.2'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2005-10-01'
+  VRAM Frequency: 490 MHz
+  VRAM Bandwidth: 31.36 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 12
+  Texture Mapping Unit Count: 12
+  Die Size: 297 mm²
+  GPU: R481
+  GPU Variant: R481 PRO
+  TDP: 49 W
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: 1x Molex

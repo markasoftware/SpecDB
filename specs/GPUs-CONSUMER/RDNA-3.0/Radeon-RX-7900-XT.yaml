@@ -1,0 +1,38 @@
+name: Radeon-RX-7900-XT
+humanName: Radeon RX 7900 XT
+isPart: true
+type: Graphics Card
+data:
+  Architecture: RDNA 3.0
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.2'
+  Release Date: '2022-11-03'
+  GPU Base Frequency: 1387 MHz
+  GPU Boost Frequency: 2394 MHz
+  VRAM Frequency: 2500 MHz
+  VRAM Bandwidth: 800.0 GB/s
+  VRAM Capacity: 20 GB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 320 bit
+  Render Output Unit Count: 192
+  Texture Mapping Unit Count: 336
+  Shader Processor Count: 5376 
+  Die Size: 529 mm²
+  GPU: Navi 31
+  GPU Variant: Navi 31 XT
+  Codename: Plum Bonito
+  TDP: 300 W
+  FP32 Compute: 51.48 TFLOPS
+  FP64 Compute: 1.609 TFLOPS (1:32)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x HDMI 2.1a2x DisplayPort 2.1
+    - 1x USB Type-C
+  Power Connectors: 2x 8-pin
+  Length: 276 mm
+  Width: 110 mm
+  Height: 51 mm
+  Ray Tracing Cores: 84

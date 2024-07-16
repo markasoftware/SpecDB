@@ -1,0 +1,27 @@
+name: FireMV-2250-PCIe-x1
+humanName: FireMV 2250 PCIe x1
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Ultra-Threaded SE
+  Lithography: 90 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2007'
+  VRAM Frequency: 400 MHz
+  VRAM Bandwidth: 12.80 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Die Size: 100 mm²
+  GPU: RV516
+  TDP: 32 W
+  Slot Width: Single-slot
+  Outputs: 1x S-Video1x DMS-59
+  Power Connectors: None
+  Length: 170 mm
+  Width: 69 mm

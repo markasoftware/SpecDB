@@ -1,0 +1,35 @@
+name: RTX-4000-SFF-Ada-Generation
+humanName: RTX 4000 SFF Ada Generation
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Ada Lovelace
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '192'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2023-03-21'
+  GPU Base Frequency: 720 MHz
+  GPU Boost Frequency: 1560 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 280.0 GB/s
+  VRAM Capacity: 20 GB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 160 bit
+  Render Output Unit Count: 80
+  Texture Mapping Unit Count: 192
+  Shader Processor Count: 6144 
+  Die Size: 294 mm²
+  GPU: AD104
+  TDP: 70 W
+  FP32 Compute: 19.17 TFLOPS
+  FP64 Compute: 299.5 GFLOPS (1:64)
+  Slot Width: Dual-slot
+  Outputs: 4x mini-DisplayPort 1.4a
+  Power Connectors: None
+  Length: 168 mm
+  Width: 69 mm
+  Ray Tracing Cores: 48
+  Tensor Cores: 192

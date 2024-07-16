@@ -1,0 +1,31 @@
+name: Radeon-HD-5750
+humanName: Radeon HD 5750
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2009-10-13'
+  VRAM Frequency: 1150 MHz
+  VRAM Bandwidth: 73.60 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 36
+  Shader Processor Count: 720 
+  Die Size: 166 mm²
+  GPU: Juniper
+  GPU Variant: Juniper LE
+  TDP: 86 W
+  FP32 Compute: 1,008 GFLOPS
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x HDMI 1.3a1x DisplayPort 1.1
+  Power Connectors: 1x 6-pin
+  Length: 178 mm

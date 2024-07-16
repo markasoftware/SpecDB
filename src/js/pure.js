@@ -40,10 +40,10 @@ module.exports.genSubtext = (data, passedSpecData) => {
 			}
 			if (part.isPart) {
 				t++;
-			} else {
-				part.sections.forEach(sec =>
-					sec.members.forEach(m => tallyChildren(specData[m]))
-				);
+			//} else {
+				//part.sections.forEach(//sec =>
+					//sec.members.forEach(m => tallyChildren(specData[m]))
+				//);
 			}
 		}
 		tallyChildren(d);

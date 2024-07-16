@@ -1,0 +1,14 @@
+name: Generation-3.0 
+humanName: Generation 3.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '9.0c'
+  Vulkan Support: 'N/A'
+  Release Date: '2004-06-01'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - GMA-900

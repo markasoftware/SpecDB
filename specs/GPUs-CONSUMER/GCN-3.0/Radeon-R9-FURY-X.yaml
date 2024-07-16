@@ -1,0 +1,32 @@
+name: Radeon-R9-FURY-X
+humanName: Radeon R9 FURY X
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 3.0
+  Lithography: 28 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2015-06-24'
+  VRAM Frequency: 500 MHz
+  VRAM Bandwidth: 512.0 GB/s
+  VRAM Capacity: 4 GB
+  VRAM Type: HBM
+  VRAM Bus Width: 4096 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 256
+  Shader Processor Count: 4096 
+  Die Size: 596 mm²
+  GPU: Fiji
+  GPU Variant: Fiji XT C8
+  TDP: 275 W
+  FP32 Compute: 8.602 TFLOPS
+  FP64 Compute: 537.6 GFLOPS (1:16)
+  Slot Width: Dual-slot
+  Outputs: 1x HDMI 1.4a3x DisplayPort 1.2
+  Power Connectors: 2x 8-pin
+  Length: 195 mm
+  Width: 115 mm
+  Height: 39 mm

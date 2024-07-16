@@ -1,0 +1,28 @@
+name: Radeon-HD-8950M
+humanName: Radeon HD 8950M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 2.0
+  Lithography: 28 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2013-05-14'
+  VRAM Frequency: 1375 MHz
+  VRAM Bandwidth: 88.00 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 48
+  Shader Processor Count: 768 
+  Die Size: 160 mm²
+  GPU: Saturn
+  GPU Variant: Saturn XT
+  TDP: 100 W
+  FP32 Compute: 1.651 TFLOPS
+  FP64 Compute: 103.2 GFLOPS (1:16)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent

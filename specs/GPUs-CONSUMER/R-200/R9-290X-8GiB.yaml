@@ -1,8 +1,0 @@
-name: R9-290X-8GiB
-humanName: R9 290X (8GiB)
-isPart: true
-type: Graphics Card
-inherits:
-  - R9 290X Base
-data:
-  VRAM Capacity: 8 GiB

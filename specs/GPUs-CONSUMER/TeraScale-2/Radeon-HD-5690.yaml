@@ -1,0 +1,30 @@
+name: Radeon-HD-5690
+humanName: Radeon HD 5690
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2011-02-01'
+  VRAM Frequency: 1000 MHz
+  VRAM Bandwidth: 32.00 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 20
+  Shader Processor Count: 400 
+  Die Size: 104 mm²
+  GPU: Redwood
+  GPU Variant: Redwood XT
+  TDP: 64 W
+  FP32 Compute: 620.0 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 1.3a1x VGA
+  Length: 168 mm

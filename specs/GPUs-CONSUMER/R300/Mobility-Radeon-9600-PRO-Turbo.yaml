@@ -1,0 +1,23 @@
+name: Mobility-Radeon-9600-PRO-Turbo
+humanName: Mobility Radeon 9600 PRO Turbo
+isPart: true
+type: Graphics Card
+data:
+  Architecture: R300
+  Lithography: 130 nm
+  DirectX Support: '9.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-02-13'
+  VRAM Frequency: 243 MHz
+  VRAM Bandwidth: 7.776 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Die Size: 92 mm²
+  GPU: M10
+  TDP: unknown
+  Outputs: Portable Device Dependent

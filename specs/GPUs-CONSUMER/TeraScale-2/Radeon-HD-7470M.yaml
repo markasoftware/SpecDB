@@ -1,0 +1,28 @@
+name: Radeon-HD-7470M
+humanName: Radeon HD 7470M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2012-01-07'
+  GPU Base Frequency: 750 MHz
+  GPU Boost Frequency: 800 MHz
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 14.40 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: DDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 160 
+  Die Size: 67 mm²
+  GPU: Seymour
+  GPU Variant: Seymour XTX M2
+  TDP: 25 W
+  FP32 Compute: 256.0 GFLOPS
+  Outputs: Portable Device Dependent

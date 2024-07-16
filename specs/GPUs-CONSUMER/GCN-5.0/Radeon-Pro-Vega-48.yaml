@@ -1,0 +1,29 @@
+name: Radeon-Pro-Vega-48
+humanName: Radeon Pro Vega 48
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 5.0
+  Lithography: 14 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2019-03-19'
+  VRAM Frequency: 786 MHz
+  VRAM Bandwidth: 402.4 GB/s
+  VRAM Capacity: 8 GB
+  VRAM Type: HBM2
+  VRAM Bus Width: 2048 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 192
+  Shader Processor Count: 3072 
+  Die Size: 495 mm²
+  GPU: Vega 10
+  GPU Variant: Vega 10 PRO
+  TDP: unknown
+  FP32 Compute: 7.373 TFLOPS
+  FP64 Compute: 460.8 GFLOPS (1:16)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None

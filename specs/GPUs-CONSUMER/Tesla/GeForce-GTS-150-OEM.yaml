@@ -1,0 +1,30 @@
+name: GeForce-GTS-150-OEM
+humanName: GeForce GTS 150 OEM
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-03-10'
+  VRAM Frequency: 1000 MHz
+  VRAM Bandwidth: 64.00 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 128 
+  Die Size: 324 mm²
+  GPU: G92
+  TDP: 141 W
+  FP32 Compute: 470.0 GFLOPS
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 2x 6-pin
+  Length: 267 mm

@@ -1,0 +1,29 @@
+name: NVS-5400M
+humanName: NVS 5400M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Fermi
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2012-06-01'
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 28.80 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 96 
+  Die Size: 116 mm²
+  GPU: GF108
+  GPU Variant: N13P-NS1
+  TDP: 35 W
+  FP32 Compute: 253.4 GFLOPS
+  FP64 Compute: 21.12 GFLOPS (1:12)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

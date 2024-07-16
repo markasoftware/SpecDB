@@ -1,0 +1,33 @@
+name: Radeon-Pro-WX-8100
+humanName: Radeon Pro WX 8100
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 5.0
+  Lithography: 14 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2017-12-03'
+  GPU Base Frequency: 1200 MHz
+  GPU Boost Frequency: 1500 MHz
+  VRAM Frequency: 1000 MHz
+  VRAM Bandwidth: 512.0 GB/s
+  VRAM Capacity: 8 GB
+  VRAM Type: HBM2
+  VRAM Bus Width: 2048 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 224
+  Shader Processor Count: 3584 
+  Die Size: 495 mm²
+  GPU: Vega 10
+  GPU Variant: Vega 10 XL
+  TDP: 230 W
+  FP32 Compute: 10.75 TFLOPS
+  FP64 Compute: 672.0 GFLOPS (1:16)
+  Slot Width: Dual-slot
+  Outputs: 6x mini-DisplayPort 1.4a
+  Power Connectors: 1x 6-pin + 1x 8-pin
+  Length: 267 mm
+  Width: 111 mm

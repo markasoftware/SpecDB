@@ -1,0 +1,27 @@
+name: Quadro-FX-380M
+humanName: Quadro FX 380M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla 2.0
+  Lithography: 40 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2010-01-07'
+  VRAM Frequency: 790 MHz
+  VRAM Bandwidth: 12.64 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 16 
+  Die Size: 57 mm²
+  GPU: GT218S
+  GPU Variant: N10M-GLM
+  TDP: 25 W
+  FP32 Compute: 46.98 GFLOPS
+  Outputs: Portable Device Dependent
+  Power Connectors: None

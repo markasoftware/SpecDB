@@ -1,0 +1,24 @@
+name: GeForce-Go-7800
+humanName: GeForce Go 7800
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Curie
+  Lithography: 110 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2006-03-03'
+  VRAM Frequency: 550 MHz
+  VRAM Bandwidth: 35.20 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 16
+  Die Size: 333 mm²
+  GPU: G70
+  TDP: 35 W
+  Outputs: Portable Device Dependent
+  Power Connectors: None

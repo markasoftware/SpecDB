@@ -1,0 +1,31 @@
+name: GeForce-GT-440-OEM
+humanName: GeForce GT 440 OEM
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Fermi
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2010-10-11'
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 43.20 GB/s
+  VRAM Capacity: 1536 MB
+  VRAM Type: DDR3
+  VRAM Bus Width: 192 bit
+  Render Output Unit Count: 24
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 144 
+  Die Size: 238 mm²
+  GPU: GF106
+  TDP: 65 W
+  FP32 Compute: 466.6 GFLOPS
+  FP64 Compute: 38.88 GFLOPS (1:12)
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 1.3a1x VGA
+  Power Connectors: None
+  Length: 145 mm

@@ -1,0 +1,32 @@
+name: Data-Center-GPU-Max-1550
+humanName: Data Center GPU Max 1550
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Generation 12.5
+  Lithography: 10 nm
+  DirectX Support: '12.1'
+  HLSL Shader Model: '1024'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2023-01-10'
+  GPU Base Frequency: 900 MHz
+  GPU Boost Frequency: 1600 MHz
+  VRAM Frequency: 1600 MHz
+  VRAM Bandwidth: 3,277 GB/s
+  VRAM Capacity: 128 GB
+  VRAM Type: HBM2e
+  VRAM Bus Width: 8192 bit
+  Render Output Unit Count: 0
+  Texture Mapping Unit Count: 1024
+  Shader Processor Count: 16384 
+  Die Size: 1280 mm²
+  GPU: Ponte Vecchio
+  TDP: 600 W
+  FP32 Compute: 52.43 TFLOPS
+  FP64 Compute: 52.43 TFLOPS (1:1)
+  Slot Width: OAM Module
+  Outputs: No outputs
+  Ray Tracing Cores: 128
+  Tensor Cores: 1024

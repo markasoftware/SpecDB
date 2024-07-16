@@ -1,0 +1,17 @@
+name: VLIW-Vec4 
+humanName: VLIW Vec4
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: ''
+  Vulkan Support: 'N/A'
+  Release Date: '2010-06-03'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Tegra-2-GPU
+    - Tegra-3-GPU
+    - Tegra-4-GPU
+    - Tegra-4i-GPU

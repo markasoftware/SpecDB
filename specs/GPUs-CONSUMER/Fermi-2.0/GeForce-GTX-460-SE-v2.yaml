@@ -1,0 +1,32 @@
+name: GeForce-GTX-460-SE-v2
+humanName: GeForce GTX 460 SE v2
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Fermi 2.0
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2010-11-15'
+  VRAM Frequency: 850 MHz
+  VRAM Bandwidth: 81.60 GB/s
+  VRAM Capacity: 768 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 192 bit
+  Render Output Unit Count: 24
+  Texture Mapping Unit Count: 48
+  Shader Processor Count: 288 
+  Die Size: 332 mm²
+  GPU: GF114
+  GPU Variant: GF114-400-A1
+  TDP: 150 W
+  FP32 Compute: 748.8 GFLOPS
+  FP64 Compute: 62.40 GFLOPS (1:12)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x mini-HDMI 1.3a
+  Power Connectors: 2x 6-pin
+  Length: 210 mm

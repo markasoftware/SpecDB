@@ -1,0 +1,30 @@
+name: GeForce-GTX-1650-Ti-Max-Q
+humanName: GeForce GTX 1650 Ti Max-Q
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Turing
+  Lithography: 12 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2020-04-02'
+  GPU Base Frequency: 1035 MHz
+  GPU Boost Frequency: 1200 MHz
+  VRAM Frequency: 1250 MHz
+  VRAM Bandwidth: 160.0 GB/s
+  VRAM Capacity: 4 GB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 1024 
+  Die Size: 200 mm²
+  GPU: TU117
+  GPU Variant: N18P-G62
+  TDP: 50 W
+  FP32 Compute: 2.458 TFLOPS
+  FP64 Compute: 76.80 GFLOPS (1:32)
+  Outputs: Portable Device Dependent
+  Power Connectors: None

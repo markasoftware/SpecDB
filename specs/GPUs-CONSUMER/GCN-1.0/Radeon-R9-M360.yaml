@@ -1,0 +1,29 @@
+name: Radeon-R9-M360
+humanName: Radeon R9 M360
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2015-05-05'
+  GPU Base Frequency: 900 MHz
+  GPU Boost Frequency: 925 MHz
+  VRAM Frequency: 1125 MHz
+  VRAM Bandwidth: 72.00 GB/s
+  VRAM Capacity: 4 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 512 
+  Die Size: 123 mm²
+  GPU: Tropo
+  GPU Variant: Tropo LE
+  TDP: unknown
+  FP32 Compute: 947.2 GFLOPS
+  FP64 Compute: 59.20 GFLOPS (1:16)
+  Outputs: Portable Device Dependent

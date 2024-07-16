@@ -1,0 +1,24 @@
+name: GMA-900
+humanName: GMA 900
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Generation 3.0
+  Lithography: 130 nm
+  DirectX Support: '9.0c'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.4'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-06-01'
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Die Size: unknown
+  GPU: Grantsdale
+  TDP: unknown
+  Slot Width: IGP
+  Outputs: Portable Device Dependent

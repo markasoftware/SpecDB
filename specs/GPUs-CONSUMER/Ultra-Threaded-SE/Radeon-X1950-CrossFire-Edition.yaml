@@ -1,0 +1,28 @@
+name: Radeon-X1950-CrossFire-Edition
+humanName: Radeon X1950 CrossFire Edition
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Ultra-Threaded SE
+  Lithography: 90 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2006-09-10'
+  VRAM Frequency: 1000 MHz
+  VRAM Bandwidth: 64.00 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR4
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 16
+  Die Size: 352 mm²
+  GPU: R580+
+  GPU Variant: R580+ XT
+  TDP: unknown
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VHDCI
+  Power Connectors: 1x 6-pin

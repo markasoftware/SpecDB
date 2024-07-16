@@ -1,0 +1,32 @@
+name: FirePro-W2100
+humanName: FirePro W2100
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2014-08-12'
+  GPU Base Frequency: 630 MHz
+  GPU Boost Frequency: 680 MHz
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 28.80 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: DDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 20
+  Shader Processor Count: 320 
+  Die Size: 77 mm²
+  GPU: Oland
+  TDP: 26 W
+  FP32 Compute: 435.2 GFLOPS
+  FP64 Compute: 27.20 GFLOPS (1:16)
+  Slot Width: Single-slot
+  Outputs: 2x DisplayPort 1.2
+  Power Connectors: None
+  Length: 168 mm
+  Width: 69 mm

@@ -1,0 +1,31 @@
+name: Quadro-M4000M
+humanName: Quadro M4000M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Maxwell 2.0
+  Lithography: 28 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2015-08-18'
+  GPU Base Frequency: 975 MHz
+  GPU Boost Frequency: 1013 MHz
+  VRAM Frequency: 1253 MHz
+  VRAM Bandwidth: 160.4 GB/s
+  VRAM Capacity: 4 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 80
+  Shader Processor Count: 1280 
+  Die Size: 398 mm²
+  GPU: GM204
+  GPU Variant: N16E-Q3-A1
+  TDP: 100 W
+  FP32 Compute: 2.593 TFLOPS
+  FP64 Compute: 81.04 GFLOPS (1:32)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

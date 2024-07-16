@@ -1,0 +1,31 @@
+name: Radeon-9800-PRO
+humanName: Radeon 9800 PRO
+isPart: true
+type: Graphics Card
+data:
+  Architecture: R300
+  Lithography: 150 nm
+  DirectX Support: '9.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2003-10-01'
+  VRAM Frequency: 340 MHz
+  VRAM Bandwidth: 21.76 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 8
+  Die Size: 218 mm²
+  GPU: R360
+  GPU Variant: R360
+  TDP: 47 W
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: 1x Molex
+  Length: 215 mm
+  Width: 108 mm
+  Height: 16 mm

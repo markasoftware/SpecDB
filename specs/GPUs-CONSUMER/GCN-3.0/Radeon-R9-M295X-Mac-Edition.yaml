@@ -1,0 +1,28 @@
+name: Radeon-R9-M295X-Mac-Edition
+humanName: Radeon R9 M295X Mac Edition
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 3.0
+  Lithography: 28 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2014-11-23'
+  VRAM Frequency: 1362 MHz
+  VRAM Bandwidth: 174.3 GB/s
+  VRAM Capacity: 4 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 128
+  Shader Processor Count: 2048 
+  Die Size: 366 mm²
+  GPU: Amethyst
+  GPU Variant: Amethyst XT
+  TDP: 250 W
+  FP32 Compute: 3.482 TFLOPS
+  FP64 Compute: 217.6 GFLOPS (1:16)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent

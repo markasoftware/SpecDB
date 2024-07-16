@@ -1,0 +1,28 @@
+name: GeForce-6200-LE-AGP-512-MB
+humanName: GeForce 6200 LE AGP 512 MB
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Curie
+  Lithography: 110 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-10-11'
+  VRAM Frequency: 275 MHz
+  VRAM Bandwidth: 8.800 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 2
+  Texture Mapping Unit Count: 4
+  Die Size: 110 mm²
+  GPU: NV44
+  GPU Variant: NV44 A1
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None

@@ -1,0 +1,30 @@
+name: Radeon-HD-4730-OEM
+humanName: Radeon HD 4730 OEM
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2008-12-26'
+  VRAM Frequency: 396 MHz
+  VRAM Bandwidth: 25.34 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 320 
+  Die Size: 192 mm²
+  GPU: RV670
+  TDP: 110 W
+  FP32 Compute: 428.2 GFLOPS
+  FP64 Compute: 85.63 GFLOPS (1:5)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Length: 241 mm

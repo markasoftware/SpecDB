@@ -1,0 +1,38 @@
+name: GeForce-RTX-2050-Max-Q
+humanName: GeForce RTX 2050 Max-Q
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Ampere
+  Lithography: 8 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '64'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2021-12-17'
+  GPU Base Frequency: 832 MHz
+  GPU Boost Frequency: 1155 MHz
+  VRAM Frequency: 1475 MHz
+  VRAM Bandwidth: 94.40 GB/s
+  VRAM Capacity: 4 GB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 2048 
+  Die Size: 200 mm²
+  GPU: GA107
+  TDP: 30 W
+  FP32 Compute: 4.731 TFLOPS
+  FP64 Compute: 147.8 GFLOPS (1:32)
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 2.1
+    - 2x DisplayPort 1.4a
+  Power Connectors: None
+  Length: 229 mm
+  Width: 113 mm
+  Height: 35 mm
+  Ray Tracing Cores: 32
+  Tensor Cores: 64

@@ -1,0 +1,32 @@
+name: Radeon-Instinct-MI100
+humanName: Radeon Instinct MI100
+isPart: true
+type: Graphics Card
+data:
+  Architecture: CDNA 1.0
+  Lithography: 7 nm
+  Vulkan Support: 'N/A'
+  OpenGL Support: 'N/A'
+  OpenCL Support: '2.1'
+  Release Date: '2020-11-16'
+  GPU Base Frequency: 1000 MHz
+  GPU Boost Frequency: 1502 MHz
+  VRAM Frequency: 1200 MHz
+  VRAM Bandwidth: 1,229 GB/s
+  VRAM Capacity: 32 GB
+  VRAM Type: HBM2
+  VRAM Bus Width: 4096 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 480
+  Shader Processor Count: 7680 
+  Die Size: 750 mm²
+  GPU: Arcturus
+  GPU Variant: Arcturus XL
+  TDP: 300 W
+  FP32 Compute: 23.07 TFLOPS
+  FP64 Compute: 11.54 TFLOPS (1:2)
+  Slot Width: Dual-slot
+  Outputs: No outputs
+  Power Connectors: 2x 8-pin
+  Length: 267 mm
+  Width: 111 mm

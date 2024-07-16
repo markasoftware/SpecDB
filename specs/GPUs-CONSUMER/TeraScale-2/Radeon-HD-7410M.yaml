@@ -1,0 +1,26 @@
+name: Radeon-HD-7410M
+humanName: Radeon HD 7410M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2011-01-04'
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 12.80 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: DDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 160 
+  Die Size: 67 mm²
+  GPU: Seymour
+  GPU Variant: Seymour LP S3
+  TDP: unknown
+  FP32 Compute: 153.6 GFLOPS
+  Outputs: Portable Device Dependent

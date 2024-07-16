@@ -1,0 +1,30 @@
+name: Quadro-K510M
+humanName: Quadro K510M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Kepler 2.0
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.2.175'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2013-07-23'
+  GPU Base Frequency: 889 MHz
+  GPU Boost Frequency: 889 MHz
+  VRAM Frequency: 600 MHz
+  VRAM Bandwidth: 19.20 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 192 
+  Die Size: 87 mm²
+  GPU: GK208
+  TDP: 30 W
+  FP32 Compute: 341.4 GFLOPS
+  FP64 Compute: 14.22 GFLOPS (1:24)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

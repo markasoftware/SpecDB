@@ -1,0 +1,35 @@
+name: Mach 
+humanName: Mach
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: ''
+  Vulkan Support: 'N/A'
+  Release Date: '1992'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - 3D-Rage
+    - 3D-Rage-II
+    - 3D-Rage-II+-DVD
+    - 8514-Ultra
+    - All-In-Wonder-3D-Rage-II+-DVD
+    - Graphics-Pro-Turbo
+    - Graphics-Ultra
+    - Graphics-Ultra-Pro-ISA
+    - Graphics-Ultra-Pro-VLB
+    - Graphics-Ultra-XLR-VLB
+    - Graphics-Vantage
+    - Graphics-Wonder-PCI
+    - Graphics-Wonder-VLB
+    - Graphics-Xpression
+    - Graphics-Xpression-ISA
+    - Graphics-Ultra-Pro-PCI
+    - Rage-LT-PRO-AGP
+    - Video-Xpression
+    - WinBoost
+    - WinCharger
+    - WinTurbo
+    - Video-Xpression+

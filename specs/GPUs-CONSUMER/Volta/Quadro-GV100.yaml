@@ -1,0 +1,35 @@
+name: Quadro-GV100
+humanName: Quadro GV100
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Volta
+  Lithography: 12 nm
+  DirectX Support: '12.1'
+  HLSL Shader Model: '640'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2018-03-27'
+  GPU Base Frequency: 1132 MHz
+  GPU Boost Frequency: 1627 MHz
+  VRAM Frequency: 848 MHz
+  VRAM Bandwidth: 868.4 GB/s
+  VRAM Capacity: 32 GB
+  VRAM Type: HBM2
+  VRAM Bus Width: 4096 bit
+  Render Output Unit Count: 128
+  Texture Mapping Unit Count: 320
+  Shader Processor Count: 5120 
+  Die Size: 815 mm²
+  GPU: GV100
+  GPU Variant: GV100-875-A1
+  TDP: 250 W
+  FP32 Compute: 16.66 TFLOPS
+  FP64 Compute: 8.330 TFLOPS (1:2)
+  Slot Width: Dual-slot
+  Outputs: 4x DisplayPort 1.4a
+  Power Connectors: 1x 8-pin
+  Length: 267 mm
+  Width: 111 mm
+  Tensor Cores: 640

@@ -1,0 +1,26 @@
+name: Quadro2-MXR-Low-Profile
+humanName: Quadro2 MXR Low Profile
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Celsius
+  Lithography: 180 nm
+  DirectX Support: '7.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.2'
+  OpenCL Support: 'N/A'
+  Release Date: '2000-07-25'
+  VRAM Frequency: 183 MHz
+  VRAM Bandwidth: 2.928 GB/s
+  VRAM Capacity: 32 MB
+  VRAM Type: SDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Die Size: 64 mm²
+  GPU: NV11B
+  GPU Variant: NV11L B2
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 1x VGA
+  Power Connectors: None

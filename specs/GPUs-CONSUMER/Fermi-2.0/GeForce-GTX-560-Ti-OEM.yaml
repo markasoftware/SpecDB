@@ -1,0 +1,31 @@
+name: GeForce-GTX-560-Ti-OEM
+humanName: GeForce GTX 560 Ti OEM
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Fermi 2.0
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2011-03-30'
+  VRAM Frequency: 950 MHz
+  VRAM Bandwidth: 121.6 GB/s
+  VRAM Capacity: 1280 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 40
+  Texture Mapping Unit Count: 44
+  Shader Processor Count: 352 
+  Die Size: 520 mm²
+  GPU: GF110
+  TDP: 210 W
+  FP32 Compute: 1,031 GFLOPS
+  FP64 Compute: 128.8 GFLOPS (1:8)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x HDMI 1.3a1x DisplayPort
+  Power Connectors: 2x 6-pin
+  Length: 229 mm

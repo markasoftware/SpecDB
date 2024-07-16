@@ -1,0 +1,25 @@
+name: Fire-GL1
+humanName: Fire GL1
+isPart: true
+type: Graphics Card
+data:
+  Architecture: IBM
+  Lithography: 250 nm
+  DirectX Support: '6.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.2'
+  OpenCL Support: 'N/A'
+  Release Date: '1999-03-01'
+  VRAM Frequency: 100 MHz
+  VRAM Bandwidth: 3.200 GB/s
+  VRAM Capacity: 32 MB
+  VRAM Type: SDR
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 1
+  Texture Mapping Unit Count: 1
+  Die Size: unknown
+  GPU: IBM
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 1x VGA
+  Power Connectors: None

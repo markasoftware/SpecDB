@@ -1,0 +1,30 @@
+name: GeForce-GT-130-Mac-Edition
+humanName: GeForce GT 130 Mac Edition
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla
+  Lithography: 55 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2008-12-12'
+  VRAM Frequency: 792 MHz
+  VRAM Bandwidth: 38.02 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 192 bit
+  Render Output Unit Count: 12
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 48 
+  Die Size: 196 mm²
+  GPU: G94B
+  TDP: 75 W
+  FP32 Compute: 144.0 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x 6-pin
+  Length: 229 mm

@@ -1,0 +1,32 @@
+name: Quadro-FX-5600
+humanName: Quadro FX 5600
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla
+  Lithography: 90 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1 (1.0)'
+  Release Date: '2007-03-05'
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 76.80 GB/s
+  VRAM Capacity: 1536 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 24
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 128 
+  Die Size: 484 mm²
+  GPU: G80
+  GPU Variant: G80-875-A2
+  TDP: 171 W
+  FP32 Compute: 345.6 GFLOPS
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 2x 6-pin
+  Length: 254 mm
+  Width: 111 mm

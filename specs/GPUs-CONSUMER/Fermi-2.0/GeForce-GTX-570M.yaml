@@ -1,0 +1,29 @@
+name: GeForce-GTX-570M
+humanName: GeForce GTX 570M
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Fermi 2.0
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2011-06-28'
+  VRAM Frequency: 750 MHz
+  VRAM Bandwidth: 72.00 GB/s
+  VRAM Capacity: 1536 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 192 bit
+  Render Output Unit Count: 24
+  Texture Mapping Unit Count: 56
+  Shader Processor Count: 336 
+  Die Size: 332 mm²
+  GPU: GF114
+  GPU Variant: N12E-GT-A1
+  TDP: 75 W
+  FP32 Compute: 772.8 GFLOPS
+  FP64 Compute: 64.40 GFLOPS (1:12)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

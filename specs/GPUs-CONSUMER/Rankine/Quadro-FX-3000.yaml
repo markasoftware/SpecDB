@@ -1,0 +1,30 @@
+name: Quadro-FX-3000
+humanName: Quadro FX 3000
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Rankine
+  Lithography: 130 nm
+  DirectX Support: '9.0a'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2003-07-22'
+  VRAM Frequency: 425 MHz
+  VRAM Bandwidth: 27.20 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Die Size: 207 mm²
+  GPU: NV35
+  GPU Variant: NV35 GL
+  TDP: unknown
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x Molex
+  Length: 229 mm
+  Width: 111 mm

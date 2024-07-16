@@ -1,0 +1,31 @@
+name: GeForce-MX230
+humanName: GeForce MX230
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Pascal
+  Lithography: 14 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2019-02-21'
+  GPU Base Frequency: 1519 MHz
+  GPU Boost Frequency: 1531 MHz
+  VRAM Frequency: 1502 MHz
+  VRAM Bandwidth: 48.06 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 256 
+  Die Size: 74 mm²
+  GPU: GP108
+  GPU Variant: N17S-G0-A1
+  TDP: 10 W
+  FP32 Compute: 783.9 GFLOPS
+  FP64 Compute: 24.50 GFLOPS (1:32)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None

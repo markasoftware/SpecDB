@@ -1,0 +1,31 @@
+name: H100-SXM5-64-GB
+humanName: H100 SXM5 64 GB
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Hopper
+  Lithography: 4 nm
+  HLSL Shader Model: '528'
+  Vulkan Support: 'N/A'
+  OpenGL Support: 'N/A'
+  OpenCL Support: '3.0'
+  Release Date: '2023-03-21'
+  GPU Base Frequency: 1665 MHz
+  GPU Boost Frequency: 1980 MHz
+  VRAM Frequency: 1313 MHz
+  VRAM Bandwidth: 1,008 GB/s
+  VRAM Capacity: 64 GB
+  VRAM Type: HBM3
+  VRAM Bus Width: 3072 bit
+  Render Output Unit Count: 24
+  Texture Mapping Unit Count: 528
+  Shader Processor Count: 16896 
+  Die Size: 814 mm²
+  GPU: GH100
+  TDP: 700 W
+  FP32 Compute: 66.91 TFLOPS
+  FP64 Compute: 33.45 TFLOPS (1:2)
+  Slot Width: SXM Module
+  Outputs: No outputs
+  Power Connectors: 8-pin EPS
+  Tensor Cores: 528

@@ -1,0 +1,26 @@
+name: Radeon-9800-PRO-Mac-Edition
+humanName: Radeon 9800 PRO Mac Edition
+isPart: true
+type: Graphics Card
+data:
+  Architecture: R300
+  Lithography: 150 nm
+  DirectX Support: '9.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-03-04'
+  VRAM Frequency: 338 MHz
+  VRAM Bandwidth: 21.63 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 8
+  Die Size: 218 mm²
+  GPU: R360
+  GPU Variant: R360
+  TDP: 60 W
+  Slot Width: Single-slot
+  Outputs: 2x DVI
+  Power Connectors: None

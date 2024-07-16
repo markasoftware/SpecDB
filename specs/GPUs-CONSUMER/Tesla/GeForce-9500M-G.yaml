@@ -1,0 +1,27 @@
+name: GeForce-9500M-G
+humanName: GeForce 9500M G
+isPart: true
+type: Graphics Card
+data:
+  Architecture: Tesla
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2008-06-03'
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 25.60 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 16 
+  Die Size: 144 mm²
+  GPU: G96
+  GPU Variant: NB9P-GE
+  TDP: 20 W
+  FP32 Compute: 40.00 GFLOPS
+  Outputs: Portable Device Dependent
+  Power Connectors: None

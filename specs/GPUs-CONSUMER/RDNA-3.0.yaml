@@ -1,0 +1,40 @@
+name: RDNA-3.0 
+humanName: RDNA 3.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.3'
+  Release Date: '2022-11-03'
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Radeon-740M
+    - Radeon-760M
+    - Radeon-780M
+    - Radeon-PRO-W7500
+    - Radeon-PRO-W7600
+    - Radeon-PRO-W7700
+    - Radeon-PRO-W7800
+    - Radeon-PRO-W7900
+    - Radeon-RX-7500-XT
+    - Radeon-RX-7600
+    - Radeon-RX-7600-XT
+    - Radeon-RX-7600M
+    - Radeon-RX-7600M-XT
+    - Radeon-RX-7600S
+    - Radeon-RX-7700
+    - Radeon-RX-7700-XT
+    - Radeon-RX-7700S
+    - Radeon-RX-7800-XT
+    - Radeon-RX-7900-GRE
+    - Radeon-RX-7900-XT
+    - Radeon-RX-7900-XTX
+    - Radeon-RX-7900M
+    - Radeon-RX-7950-XT
+    - Radeon-RX-7950-XTX
+    - Radeon-RX-7990-XTX
+    - ROG-Ally-Extreme-GPU
+    - ROG-Ally-GPU

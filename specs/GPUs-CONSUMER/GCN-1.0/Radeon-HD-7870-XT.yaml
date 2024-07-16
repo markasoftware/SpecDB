@@ -1,0 +1,34 @@
+name: Radeon-HD-7870-XT
+humanName: Radeon HD 7870 XT
+isPart: true
+type: Graphics Card
+data:
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2012-11-19'
+  GPU Base Frequency: 925 MHz
+  GPU Boost Frequency: 975 MHz
+  VRAM Frequency: 1500 MHz
+  VRAM Bandwidth: 192.0 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 96
+  Shader Processor Count: 1536 
+  Die Size: 352 mm²
+  GPU: Tahiti
+  GPU Variant: Tahiti LE
+  TDP: 185 W
+  FP32 Compute: 2.995 TFLOPS
+  FP64 Compute: 748.8 GFLOPS (1:4)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 1.4a2x mini-DisplayPort 1.2
+  Power Connectors: 2x 6-pin
+  Length: 267 mm
