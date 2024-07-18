@@ -3,6 +3,8 @@ humanName: Productiva G100
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Matrox
+  Vendor: Matrox
   Architecture: G100
   Lithography: 350 nm
   DirectX Support: '3.0'

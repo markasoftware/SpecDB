@@ -3,6 +3,8 @@ humanName: Tesla T40 24 GB
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Turing
   Lithography: 12 nm
   DirectX Support: '12.2'

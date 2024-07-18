@@ -3,6 +3,8 @@ humanName: Radeon Xpress 1200 Mobile IGP
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: ATI
+  Vendor: ATI
   Architecture: R400
   Lithography: 80 nm
   DirectX Support: '9.2'

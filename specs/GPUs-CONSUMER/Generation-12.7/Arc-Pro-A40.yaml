@@ -3,6 +3,8 @@ humanName: Arc Pro A40
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Intel
+  Vendor: Intel
   Architecture: Generation 12.7
   Lithography: 6 nm
   DirectX Support: '12.2'

@@ -3,6 +3,8 @@ humanName: Tesla V100 SXM2 16 GB
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Volta
   Lithography: 12 nm
   DirectX Support: '12.1'

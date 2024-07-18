@@ -3,6 +3,8 @@ humanName: All-In-Wonder 9000 PRO
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: ATI
+  Vendor: ATI
   Architecture: Rage 7
   Lithography: 150 nm
   DirectX Support: '8.1'

@@ -3,6 +3,8 @@ humanName: GeForce 920A
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Kepler 2.0
   Lithography: 28 nm
   DirectX Support: '11.0'

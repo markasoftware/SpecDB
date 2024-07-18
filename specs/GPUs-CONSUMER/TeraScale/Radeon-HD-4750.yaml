@@ -3,6 +3,8 @@ humanName: Radeon HD 4750
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: TeraScale
   Lithography: 40 nm
   DirectX Support: '10.1'

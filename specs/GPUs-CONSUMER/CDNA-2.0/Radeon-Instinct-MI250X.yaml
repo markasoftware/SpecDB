@@ -3,6 +3,8 @@ humanName: Radeon Instinct MI250X
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: CDNA 2.0
   Lithography: 6 nm
   Vulkan Support: 'N/A'

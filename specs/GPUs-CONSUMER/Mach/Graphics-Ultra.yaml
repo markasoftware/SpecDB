@@ -3,6 +3,8 @@ humanName: Graphics Ultra
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: Mach
   Lithography: 800 nm
   Vulkan Support: 'N/A'

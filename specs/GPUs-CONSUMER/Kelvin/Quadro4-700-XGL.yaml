@@ -3,6 +3,8 @@ humanName: Quadro4 700 XGL
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Kelvin
   Lithography: 150 nm
   DirectX Support: '8.1'

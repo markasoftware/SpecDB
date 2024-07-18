@@ -3,6 +3,8 @@ humanName: Rage PRO Turbo PCI
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: ATI
+  Vendor: ATI
   Architecture: Rage 3
   Lithography: 350 nm
   DirectX Support: '6.0'

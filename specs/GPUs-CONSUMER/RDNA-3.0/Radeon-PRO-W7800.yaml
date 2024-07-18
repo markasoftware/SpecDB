@@ -3,6 +3,8 @@ humanName: Radeon PRO W7800
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: RDNA 3.0
   Lithography: 5 nm
   DirectX Support: '12.2'

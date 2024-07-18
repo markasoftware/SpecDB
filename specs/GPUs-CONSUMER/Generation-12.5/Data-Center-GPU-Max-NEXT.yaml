@@ -3,6 +3,8 @@ humanName: Data Center GPU Max NEXT
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Intel
+  Vendor: Intel
   Architecture: Generation 12.5
   Lithography: 7 nm
   DirectX Support: '12.1'

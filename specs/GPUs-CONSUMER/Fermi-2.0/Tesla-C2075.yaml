@@ -3,6 +3,8 @@ humanName: Tesla C2075
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Fermi 2.0
   Lithography: 40 nm
   DirectX Support: '11.0'

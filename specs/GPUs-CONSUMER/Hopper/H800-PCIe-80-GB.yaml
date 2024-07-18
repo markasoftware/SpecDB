@@ -3,6 +3,8 @@ humanName: H800 PCIe 80 GB
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Hopper
   Lithography: 4 nm
   HLSL Shader Model: '456'

@@ -3,6 +3,8 @@ humanName: Mobility Radeon HD 4850 Mac Edition
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: TeraScale
   Lithography: 55 nm
   DirectX Support: '10.1'

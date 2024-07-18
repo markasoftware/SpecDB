@@ -3,6 +3,8 @@ humanName: Parhelia 256 MB
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Matrox
+  Vendor: Matrox
   Architecture: Parhelia
   Lithography: 150 nm
   DirectX Support: '8.1'

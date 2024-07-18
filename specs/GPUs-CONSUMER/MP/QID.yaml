@@ -3,6 +3,8 @@ humanName: QID
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Matrox
+  Vendor: Matrox
   Architecture: MP
   Lithography: 0 nm
   DirectX Support: '8.1'

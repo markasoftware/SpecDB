@@ -3,6 +3,8 @@ humanName: All-In-Wonder 3D Rage II+ DVD
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: Mach
   Lithography: 500 nm
   DirectX Support: '5.0'

@@ -3,6 +3,8 @@ humanName: Aubrey Isle
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Intel
+  Vendor: Intel
   Architecture: Knights
   Lithography: 45 nm
   Vulkan Support: 'N/A'

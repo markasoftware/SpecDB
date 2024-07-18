@@ -8,6 +8,7 @@ data:
   DirectX Support: '11.0'
   Vulkan Support: '1.2.175'
   Release Date: '2013-04-01'
+  Manufacturer: Nvidia
 sections:
   - header: WHOLE RANGE
     members:

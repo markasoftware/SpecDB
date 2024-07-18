@@ -8,6 +8,7 @@ data:
   DirectX Support: '10.1'
   Vulkan Support: 'N/A'
   Release Date: '2007-04-17'
+  Manufacturer: Nvidia
 sections:
   - header: WHOLE RANGE
     members:

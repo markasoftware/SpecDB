@@ -3,6 +3,8 @@ humanName: Radeon R9 M270X
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: GCN 2.0
   Lithography: 28 nm
   DirectX Support: '12.0'

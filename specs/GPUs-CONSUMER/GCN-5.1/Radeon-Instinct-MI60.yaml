@@ -3,6 +3,8 @@ humanName: Radeon Instinct MI60
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: GCN 5.1
   Lithography: 7 nm
   DirectX Support: '12.1'

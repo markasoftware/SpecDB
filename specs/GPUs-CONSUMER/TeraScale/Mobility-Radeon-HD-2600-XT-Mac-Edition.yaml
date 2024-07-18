@@ -3,6 +3,8 @@ humanName: Mobility Radeon HD 2600 XT Mac Edition
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: TeraScale
   Lithography: 65 nm
   DirectX Support: '10.0'

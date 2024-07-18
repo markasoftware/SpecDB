@@ -3,6 +3,8 @@ humanName: GRID RTX T10-16
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Turing
   Lithography: 12 nm
   DirectX Support: '12.2'

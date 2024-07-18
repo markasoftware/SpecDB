@@ -3,6 +3,8 @@ humanName: GeForce 9500 GT Rev. 2
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Tesla
   Lithography: 55 nm
   DirectX Support: '10.0'

@@ -3,6 +3,8 @@ humanName: Radeon HD 2600 PRO
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: TeraScale
   Lithography: 65 nm
   DirectX Support: '10.0'

@@ -3,6 +3,8 @@ humanName: Millennium G550
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Matrox
+  Vendor: Matrox
   Architecture: G500
   Lithography: 180 nm
   DirectX Support: '8.0'

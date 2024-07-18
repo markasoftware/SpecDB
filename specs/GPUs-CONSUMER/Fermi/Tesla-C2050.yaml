@@ -3,6 +3,8 @@ humanName: Tesla C2050
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Fermi
   Lithography: 40 nm
   DirectX Support: '11.0'

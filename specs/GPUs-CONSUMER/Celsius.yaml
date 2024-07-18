@@ -8,6 +8,7 @@ data:
   DirectX Support: '7.0'
   Vulkan Support: 'N/A'
   Release Date: '1999'
+  Manufacturer: Nvidia
 sections:
   - header: WHOLE RANGE
     members:

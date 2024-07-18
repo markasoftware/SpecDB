@@ -1,4 +1,4 @@
-name: i740 
+name: i740-part
 humanName: i740
 type: Graphics Architecture
 isPart: false
@@ -8,6 +8,7 @@ data:
   DirectX Support: '5.0'
   Vulkan Support: 'N/A'
   Release Date: '1998'
+  Manufacturer: Intel
 sections:
   - header: WHOLE RANGE
     members:

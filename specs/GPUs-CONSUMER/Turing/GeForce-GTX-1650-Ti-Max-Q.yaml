@@ -3,6 +3,8 @@ humanName: GeForce GTX 1650 Ti Max-Q
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Turing
   Lithography: 12 nm
   DirectX Support: '12.1'

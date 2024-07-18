@@ -3,6 +3,8 @@ humanName: GeForce GTS 150 OEM
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Tesla
   Lithography: 65 nm
   DirectX Support: '10.0'

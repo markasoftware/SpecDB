@@ -3,6 +3,8 @@ humanName: Radeon HD 2900 XT
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: TeraScale
   Lithography: 80 nm
   DirectX Support: '10.0'

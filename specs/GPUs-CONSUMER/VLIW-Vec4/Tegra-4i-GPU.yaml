@@ -3,6 +3,8 @@ humanName: Tegra 4i GPU
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: VLIW Vec4
   Lithography: 28 nm
   Vulkan Support: 'N/A'

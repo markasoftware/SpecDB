@@ -3,6 +3,8 @@ humanName: Voodoo4-2 4200 AGP
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: 3dfx
+  Vendor: 3dfx
   Architecture: Voodoo Scalable
   Lithography: 180 nm
   DirectX Support: '6.0'

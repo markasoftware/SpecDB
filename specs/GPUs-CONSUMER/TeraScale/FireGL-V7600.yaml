@@ -3,6 +3,8 @@ humanName: FireGL V7600
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: TeraScale
   Lithography: 80 nm
   DirectX Support: '10.0'

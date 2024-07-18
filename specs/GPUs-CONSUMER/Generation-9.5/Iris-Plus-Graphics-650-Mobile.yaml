@@ -3,6 +3,8 @@ humanName: Iris Plus Graphics 650 Mobile
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Intel
+  Vendor: Intel
   Architecture: Generation 9.5
   Lithography: 14 nm++
   DirectX Support: '12.1'

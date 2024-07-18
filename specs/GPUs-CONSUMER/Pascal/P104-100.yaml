@@ -3,6 +3,8 @@ humanName: P104-100
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Pascal
   Lithography: 16 nm
   DirectX Support: '12.1'

@@ -3,6 +3,8 @@ humanName: Radeon X1950 XTX Uber Edition
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: ATI
+  Vendor: ATI
   Architecture: Ultra-Threaded SE
   Lithography: 90 nm
   DirectX Support: '9.3'

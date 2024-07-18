@@ -8,6 +8,7 @@ data:
   DirectX Support: '6.0'
   Vulkan Support: 'N/A'
   Release Date: '2000-06-22'
+  Manufacturer: 3dfx
 sections:
   - header: WHOLE RANGE
     members:

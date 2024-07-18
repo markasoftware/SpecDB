@@ -8,6 +8,7 @@ data:
   DirectX Support: ''
   Vulkan Support: 'N/A'
   Release Date: '2023-01-04'
+  Manufacturer: AMD
 sections:
   - header: WHOLE RANGE
     members:

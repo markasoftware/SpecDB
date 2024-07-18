@@ -3,6 +3,8 @@ humanName: Xbox 360 GPU 80nm
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: TeraScale
   Lithography: 80 nm
   DirectX Support: '9.3'

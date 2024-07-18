@@ -3,6 +3,8 @@ humanName: Voodoo5 6000
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: 3dfx
+  Vendor: 3dfx
   Architecture: Voodoo Scalable
   Lithography: 250 nm
   DirectX Support: '6.0'

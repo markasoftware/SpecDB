@@ -3,6 +3,8 @@ humanName: GeForce Go 6800 Ultra
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Curie
   Lithography: 130 nm
   DirectX Support: '9.3'

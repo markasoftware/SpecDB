@@ -8,6 +8,7 @@ data:
   DirectX Support: '11.0'
   Vulkan Support: 'N/A'
   Release Date: '2010-12-14'
+  Manufacturer: AMD
 sections:
   - header: WHOLE RANGE
     members:

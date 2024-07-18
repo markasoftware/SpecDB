@@ -3,6 +3,8 @@ humanName: Wii U GPU
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: TeraScale 2
   Lithography: 40 nm
   Vulkan Support: 'N/A'

@@ -3,6 +3,8 @@ humanName: Tesla PG503-216
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Volta
   Lithography: 12 nm
   DirectX Support: '12.1'

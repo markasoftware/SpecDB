@@ -3,6 +3,8 @@ humanName: GMA 3100
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Intel
+  Vendor: Intel
   Architecture: Generation 4.0
   Lithography: 90 nm
   DirectX Support: '9.0c'

@@ -3,6 +3,8 @@ humanName: H100 SXM5 64 GB
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Hopper
   Lithography: 4 nm
   HLSL Shader Model: '528'

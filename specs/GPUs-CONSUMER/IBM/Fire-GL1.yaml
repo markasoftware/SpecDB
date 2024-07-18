@@ -3,6 +3,8 @@ humanName: Fire GL1
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: ATI
+  Vendor: ATI
   Architecture: IBM
   Lithography: 250 nm
   DirectX Support: '6.0'

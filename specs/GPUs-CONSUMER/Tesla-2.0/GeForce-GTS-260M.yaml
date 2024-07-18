@@ -3,6 +3,8 @@ humanName: GeForce GTS 260M
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Tesla 2.0
   Lithography: 40 nm
   DirectX Support: '10.1'

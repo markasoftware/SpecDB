@@ -3,6 +3,8 @@ humanName: Mobility Radeon X800 XT
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: ATI
+  Vendor: ATI
   Architecture: R400
   Lithography: 130 nm
   DirectX Support: '9.2'

@@ -3,6 +3,8 @@ humanName: GeForce 7050 PV + nForce 630a
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Curie
   Lithography: 90 nm
   DirectX Support: '9.3'

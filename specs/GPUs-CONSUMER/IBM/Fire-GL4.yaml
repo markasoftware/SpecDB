@@ -3,6 +3,8 @@ humanName: Fire GL4
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: ATI
+  Vendor: ATI
   Architecture: IBM
   Lithography: 180 nm
   DirectX Support: '6.0'

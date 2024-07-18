@@ -3,6 +3,8 @@ humanName: UHD Graphics 770 Mobile
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Intel
+  Vendor: Intel
   Architecture: Generation 12.2
   Lithography: 10 nm
   DirectX Support: '12.1'

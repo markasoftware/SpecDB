@@ -3,6 +3,8 @@ humanName: Radeon Pro WX 9100
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: GCN 5.0
   Lithography: 14 nm
   DirectX Support: '12.1'

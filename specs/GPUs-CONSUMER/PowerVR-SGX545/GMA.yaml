@@ -3,6 +3,8 @@ humanName: GMA
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Intel
+  Vendor: Intel
   Architecture: PowerVR SGX545
   Lithography: 32 nm
   DirectX Support: '9.0c'

@@ -3,6 +3,8 @@ humanName: GeForce GTX 950A
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Maxwell
   Lithography: 28 nm
   DirectX Support: '11.0'

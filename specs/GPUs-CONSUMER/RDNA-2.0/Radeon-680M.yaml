@@ -3,6 +3,8 @@ humanName: Radeon 680M
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: RDNA 2.0
   Lithography: 6 nm
   DirectX Support: '12.2'

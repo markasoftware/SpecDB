@@ -3,6 +3,8 @@ humanName: i852GM Graphics
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Intel
+  Vendor: Intel
   Architecture: Generation 2.0
   Lithography: 130 nm
   DirectX Support: '7.0'

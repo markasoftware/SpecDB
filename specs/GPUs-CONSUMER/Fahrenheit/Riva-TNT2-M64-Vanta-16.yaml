@@ -3,6 +3,8 @@ humanName: Riva TNT2 M64 Vanta-16
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Fahrenheit
   Lithography: 250 nm
   DirectX Support: '6.0'

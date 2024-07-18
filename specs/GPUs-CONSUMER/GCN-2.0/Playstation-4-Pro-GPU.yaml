@@ -3,6 +3,8 @@ humanName: Playstation 4 Pro GPU
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: GCN 2.0
   Lithography: 16 nm
   Vulkan Support: '1.1'

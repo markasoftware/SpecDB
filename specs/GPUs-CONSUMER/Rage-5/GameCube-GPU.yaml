@@ -3,6 +3,8 @@ humanName: GameCube GPU
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: ATI
+  Vendor: ATI
   Architecture: Rage 5
   Lithography: 180 nm
   DirectX Support: '6.0+'

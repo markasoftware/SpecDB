@@ -3,6 +3,8 @@ humanName: Quadro FX 4600 SDI
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Tesla
   Lithography: 90 nm
   DirectX Support: '10.0'

@@ -3,6 +3,8 @@ humanName: GeForce 8800 GTX
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Tesla
   Lithography: 90 nm
   DirectX Support: '10.0'

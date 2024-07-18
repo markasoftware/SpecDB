@@ -3,6 +3,8 @@ humanName: A30X
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Ampere
   Lithography: 7 nm
   HLSL Shader Model: '224'

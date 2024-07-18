@@ -3,6 +3,8 @@ humanName: Millennium G200A
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Matrox
+  Vendor: Matrox
   Architecture: G200
   Lithography: 250 nm
   DirectX Support: '5.0'

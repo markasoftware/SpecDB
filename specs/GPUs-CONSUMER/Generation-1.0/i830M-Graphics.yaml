@@ -3,6 +3,8 @@ humanName: i830M Graphics
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Intel
+  Vendor: Intel
   Architecture: Generation 1.0
   Lithography: 150 nm
   DirectX Support: '7.0'

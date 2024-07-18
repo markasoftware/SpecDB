@@ -3,6 +3,8 @@ humanName: 3D Rage IIC AGP
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: ATI
+  Vendor: ATI
   Architecture: Rage 2
   Lithography: 500 nm
   DirectX Support: '5.0'

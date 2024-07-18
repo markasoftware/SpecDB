@@ -3,6 +3,8 @@ humanName: GeForce4 Ti 4800
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Kelvin
   Lithography: 150 nm
   DirectX Support: '8.1'

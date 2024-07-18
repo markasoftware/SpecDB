@@ -8,6 +8,7 @@ data:
   DirectX Support: '8.1'
   Vulkan Support: 'N/A'
   Release Date: '2004-12-17'
+  Manufacturer: Matrox
 sections:
   - header: WHOLE RANGE
     members:

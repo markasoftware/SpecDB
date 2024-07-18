@@ -3,6 +3,8 @@ humanName: Graphics Wonder VLB
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: Mach
   Lithography: 700 nm
   Vulkan Support: 'N/A'

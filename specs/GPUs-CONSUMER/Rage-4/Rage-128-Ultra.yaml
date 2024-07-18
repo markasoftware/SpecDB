@@ -3,6 +3,8 @@ humanName: Rage 128 Ultra
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: ATI
+  Vendor: ATI
   Architecture: Rage 4
   Lithography: 250 nm
   DirectX Support: '6.0'

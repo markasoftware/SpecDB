@@ -3,6 +3,8 @@ humanName: FireGL 9600 T2-64S
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: ATI
+  Vendor: ATI
   Architecture: R300
   Lithography: 130 nm
   DirectX Support: '9.0'

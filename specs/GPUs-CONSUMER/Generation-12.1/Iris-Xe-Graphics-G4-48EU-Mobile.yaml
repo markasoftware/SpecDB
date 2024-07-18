@@ -3,6 +3,8 @@ humanName: Iris Xe Graphics G4 48EU Mobile
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Intel
+  Vendor: Intel
   Architecture: Generation 12.1
   Lithography: 10 nm
   DirectX Support: '12.1'

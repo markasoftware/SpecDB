@@ -3,6 +3,8 @@ humanName: Marvel G400-TV
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Matrox
+  Vendor: Matrox
   Architecture: G400
   Lithography: 250 nm
   DirectX Support: '6.0'

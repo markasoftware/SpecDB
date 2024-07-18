@@ -3,6 +3,8 @@ humanName: All-In-Wonder Radeon 7200
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: ATI
+  Vendor: ATI
   Architecture: Rage 6
   Lithography: 180 nm
   DirectX Support: '7.0'

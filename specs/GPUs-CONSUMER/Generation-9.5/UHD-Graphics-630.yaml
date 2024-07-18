@@ -3,6 +3,8 @@ humanName: UHD Graphics 630
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Intel
+  Vendor: Intel
   Architecture: Generation 9.5
   Lithography: 14 nm+++
   DirectX Support: '12.1'

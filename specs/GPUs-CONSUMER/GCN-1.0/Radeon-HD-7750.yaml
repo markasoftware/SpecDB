@@ -3,6 +3,8 @@ humanName: Radeon HD 7750
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: GCN 1.0
   Lithography: 28 nm
   DirectX Support: '11.1'

@@ -3,6 +3,8 @@ humanName: GeForce GTX 650 Ti OEM
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Kepler
   Lithography: 28 nm
   DirectX Support: '11.0'

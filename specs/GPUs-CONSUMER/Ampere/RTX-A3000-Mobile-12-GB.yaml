@@ -3,6 +3,8 @@ humanName: RTX A3000 Mobile 12 GB
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Ampere
   Lithography: 8 nm
   DirectX Support: '12.2'

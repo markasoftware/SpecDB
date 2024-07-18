@@ -3,6 +3,8 @@ humanName: Radeon 9700
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: ATI
+  Vendor: ATI
   Architecture: R300
   Lithography: 150 nm
   DirectX Support: '9.0'

@@ -3,6 +3,8 @@ humanName: Radeon Xpress 2100 IGP
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: TeraScale
   Lithography: 65 nm
   DirectX Support: '10.0'

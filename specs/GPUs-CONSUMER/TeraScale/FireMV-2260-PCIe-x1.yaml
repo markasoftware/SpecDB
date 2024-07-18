@@ -3,6 +3,8 @@ humanName: FireMV 2260 PCIe x1
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: TeraScale
   Lithography: 55 nm
   DirectX Support: '10.1'

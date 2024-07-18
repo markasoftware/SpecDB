@@ -3,6 +3,8 @@ humanName: Radeon 740M
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: RDNA 3.0
   Lithography: 4 nm
   DirectX Support: '12.2'

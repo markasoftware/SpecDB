@@ -3,6 +3,8 @@ humanName: Playstation Vita GPU
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: PowerVR
+  Vendor: PowerVR
   Architecture: PowerVR Series5XT
   Lithography: 32 nm
   DirectX Support: '10.1'

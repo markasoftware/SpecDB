@@ -3,6 +3,8 @@ humanName: EGA Wonder 800
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: ATI
+  Vendor: ATI
   Architecture: Wonder
   Lithography: 800 nm
   Vulkan Support: 'N/A'

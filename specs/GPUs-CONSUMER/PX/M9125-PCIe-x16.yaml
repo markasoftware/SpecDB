@@ -3,6 +3,8 @@ humanName: M9125 PCIe x16
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Matrox
+  Vendor: Matrox
   Architecture: PX
   Lithography: 90 nm
   DirectX Support: '8.1'

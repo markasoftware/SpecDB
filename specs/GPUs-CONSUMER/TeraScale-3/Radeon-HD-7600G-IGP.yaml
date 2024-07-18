@@ -3,6 +3,8 @@ humanName: Radeon HD 7600G IGP
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: TeraScale 3
   Lithography: 32 nm
   DirectX Support: '11.0'

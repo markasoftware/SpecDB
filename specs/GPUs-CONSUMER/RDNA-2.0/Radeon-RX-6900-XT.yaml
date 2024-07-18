@@ -3,6 +3,8 @@ humanName: Radeon RX 6900 XT
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: RDNA 2.0
   Lithography: 7 nm
   DirectX Support: '12.2'

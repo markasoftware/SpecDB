@@ -8,6 +8,7 @@ data:
   DirectX Support: '9.2'
   Vulkan Support: 'N/A'
   Release Date: '2004-03-01'
+  Manufacturer: ATI
 sections:
   - header: WHOLE RANGE
     members:

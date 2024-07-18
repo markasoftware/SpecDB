@@ -3,6 +3,8 @@ humanName: Millennium G450 x2 MMS
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Matrox
+  Vendor: Matrox
   Architecture: G400
   Lithography: 180 nm
   DirectX Support: '6.0'

@@ -3,6 +3,8 @@ humanName: i740 8 MB
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Intel
+  Vendor: Intel
   Architecture: i740
   Lithography: 150 nm
   DirectX Support: '5.0'

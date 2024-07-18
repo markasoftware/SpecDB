@@ -8,6 +8,7 @@ data:
   DirectX Support: '10.1'
   Vulkan Support: 'N/A'
   Release Date: '2008-03-02'
+  Manufacturer: Intel
 sections:
   - header: WHOLE RANGE
     members:

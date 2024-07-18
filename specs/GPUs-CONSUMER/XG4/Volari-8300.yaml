@@ -3,6 +3,8 @@ humanName: Volari 8300
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: XGI
+  Vendor: XGI
   Architecture: XG4
   Lithography: 130 nm
   DirectX Support: '9.0c'

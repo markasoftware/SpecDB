@@ -3,6 +3,8 @@ humanName: GeForce PCX 5900
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Rankine
   Lithography: 130 nm
   DirectX Support: '9.0a'

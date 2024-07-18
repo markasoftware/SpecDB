@@ -3,6 +3,8 @@ humanName: Radeon E6760 PCIe
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: TeraScale 2
   Lithography: 40 nm
   DirectX Support: '11.0'

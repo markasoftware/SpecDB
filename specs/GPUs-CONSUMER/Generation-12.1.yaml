@@ -8,6 +8,7 @@ data:
   DirectX Support: '12.1'
   Vulkan Support: '1.3'
   Release Date: '2020'
+  Manufacturer: Intel
 sections:
   - header: WHOLE RANGE
     members:

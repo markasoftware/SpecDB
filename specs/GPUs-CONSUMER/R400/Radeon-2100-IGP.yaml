@@ -3,6 +3,8 @@ humanName: Radeon 2100 IGP
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: ATI
+  Vendor: ATI
   Architecture: R400
   Lithography: 55 nm
   DirectX Support: '9.2'

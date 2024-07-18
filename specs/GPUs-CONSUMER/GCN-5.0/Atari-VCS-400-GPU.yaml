@@ -3,6 +3,8 @@ humanName: Atari VCS 400 GPU
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: GCN 5.0
   Lithography: 14 nm
   DirectX Support: '12.1'

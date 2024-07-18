@@ -3,6 +3,8 @@ humanName: Graphics Xpression ISA
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: Mach
   Lithography: 600 nm
   Vulkan Support: 'N/A'

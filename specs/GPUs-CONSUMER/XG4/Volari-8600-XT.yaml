@@ -3,6 +3,8 @@ humanName: Volari 8600 XT
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: XGI
+  Vendor: XGI
   Architecture: XG4
   Lithography: 110 nm
   DirectX Support: '9.0c'

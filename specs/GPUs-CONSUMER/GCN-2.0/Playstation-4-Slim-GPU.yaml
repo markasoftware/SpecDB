@@ -3,6 +3,8 @@ humanName: Playstation 4 Slim GPU
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: GCN 2.0
   Lithography: 16 nm
   DirectX Support: '11.1*'

@@ -3,6 +3,8 @@ humanName: Playstation 3 GPU 90nm
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Curie
   Lithography: 90 nm
   Vulkan Support: 'N/A'

@@ -3,6 +3,8 @@ humanName: i752
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Intel
+  Vendor: Intel
   Architecture: Generation 1.0
   Lithography: 150 nm
   DirectX Support: '7.0'

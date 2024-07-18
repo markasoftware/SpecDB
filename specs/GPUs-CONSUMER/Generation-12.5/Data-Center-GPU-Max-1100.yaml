@@ -3,6 +3,8 @@ humanName: Data Center GPU Max 1100
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Intel
+  Vendor: Intel
   Architecture: Generation 12.5
   Lithography: 10 nm
   DirectX Support: '12.1'

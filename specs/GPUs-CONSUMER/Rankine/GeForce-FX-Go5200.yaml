@@ -3,6 +3,8 @@ humanName: GeForce FX Go5200
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Rankine
   Lithography: 150 nm
   DirectX Support: '9.0a'

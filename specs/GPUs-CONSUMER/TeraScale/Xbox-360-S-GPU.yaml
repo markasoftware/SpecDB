@@ -3,6 +3,8 @@ humanName: Xbox 360 S GPU
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: TeraScale
   Lithography: 45 nm
   DirectX Support: '9.3'

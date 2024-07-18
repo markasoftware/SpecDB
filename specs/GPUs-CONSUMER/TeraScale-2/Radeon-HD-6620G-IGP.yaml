@@ -3,6 +3,8 @@ humanName: Radeon HD 6620G IGP
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: TeraScale 2
   Lithography: 32 nm
   DirectX Support: '11.0'

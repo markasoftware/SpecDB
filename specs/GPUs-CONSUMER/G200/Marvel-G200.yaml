@@ -3,6 +3,8 @@ humanName: Marvel G200
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Matrox
+  Vendor: Matrox
   Architecture: G200
   Lithography: 350 nm
   DirectX Support: '5.0'

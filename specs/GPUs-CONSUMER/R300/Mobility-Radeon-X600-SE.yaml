@@ -3,6 +3,8 @@ humanName: Mobility Radeon X600 SE
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: ATI
+  Vendor: ATI
   Architecture: R300
   Lithography: 130 nm
   DirectX Support: '9.0b'

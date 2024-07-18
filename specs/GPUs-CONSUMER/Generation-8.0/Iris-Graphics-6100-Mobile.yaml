@@ -3,6 +3,8 @@ humanName: Iris Graphics 6100 Mobile
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Intel
+  Vendor: Intel
   Architecture: Generation 8.0
   Lithography: 14 nm
   DirectX Support: '11.1'

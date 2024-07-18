@@ -3,6 +3,8 @@ humanName: Mobility FireGL 7800
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: ATI
+  Vendor: ATI
   Architecture: Rage 7
   Lithography: 150 nm
   DirectX Support: '7.0'

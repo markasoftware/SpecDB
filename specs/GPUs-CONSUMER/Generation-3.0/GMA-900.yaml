@@ -3,6 +3,8 @@ humanName: GMA 900
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Intel
+  Vendor: Intel
   Architecture: Generation 3.0
   Lithography: 130 nm
   DirectX Support: '9.0c'

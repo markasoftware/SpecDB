@@ -3,6 +3,8 @@ humanName: A800 SXM4 80 GB
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Ampere
   Lithography: 7 nm
   HLSL Shader Model: '432'

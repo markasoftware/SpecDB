@@ -3,6 +3,8 @@ humanName: Wii GPU
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: ATI
+  Vendor: ATI
   Architecture: Ultra-Threaded SE
   Lithography: 90 nm
   Vulkan Support: 'N/A'

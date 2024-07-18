@@ -3,6 +3,8 @@ humanName: GeForce GTX 260 Core 216 Rev. 2
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Tesla 2.0
   Lithography: 55 nm
   DirectX Support: '10.0'

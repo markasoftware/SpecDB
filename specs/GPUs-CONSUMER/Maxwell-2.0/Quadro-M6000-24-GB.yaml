@@ -3,6 +3,8 @@ humanName: Quadro M6000 24 GB
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Maxwell 2.0
   Lithography: 28 nm
   DirectX Support: '12.1'

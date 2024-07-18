@@ -3,6 +3,8 @@ humanName: Quadro P5000 Mobile
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
   Architecture: Pascal
   Lithography: 16 nm
   DirectX Support: '12.1'

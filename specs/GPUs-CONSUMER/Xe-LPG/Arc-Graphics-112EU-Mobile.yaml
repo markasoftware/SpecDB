@@ -3,6 +3,8 @@ humanName: Arc Graphics 112EU Mobile
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Intel
+  Vendor: Intel
   Architecture: Xe-LPG
   Lithography: 10 nm
   DirectX Support: '12.1'

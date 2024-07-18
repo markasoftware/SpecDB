@@ -3,6 +3,8 @@ humanName: Radeon Instinct MI300X
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: CDNA 3.0
   Lithography: 5 nm
   HLSL Shader Model: '1216'

@@ -3,6 +3,8 @@ humanName: Radeon Vega 3 Embedded
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: GCN 5.0
   Lithography: 12 nm
   DirectX Support: '12.1'

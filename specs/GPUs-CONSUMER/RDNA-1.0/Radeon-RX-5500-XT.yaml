@@ -3,6 +3,8 @@ humanName: Radeon RX 5500 XT
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: AMD
+  Vendor: AMD
   Architecture: RDNA 1.0
   Lithography: 7 nm
   DirectX Support: '12.1'

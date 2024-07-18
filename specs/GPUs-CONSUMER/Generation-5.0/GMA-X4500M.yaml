@@ -3,6 +3,8 @@ humanName: GMA X4500M
 isPart: true
 type: Graphics Card
 data:
+  Manufacturer: Intel
+  Vendor: Intel
   Architecture: Generation 5.0
   Lithography: 65 nm
   DirectX Support: '10.0'
