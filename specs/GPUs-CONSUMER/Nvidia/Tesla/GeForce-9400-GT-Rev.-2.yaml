@@ -1,0 +1,33 @@
+name: GeForce-9400-GT-Rev.-2
+humanName: GeForce 9400 GT Rev. 2
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 55 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2008-08-27'
+  GPU Base Frequency: 550 MHz
+  VRAM Frequency: 400 MHz
+  VRAM Bandwidth: 12.80 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 16 
+  Die Size: 121 mm²
+  GPU: G96C
+  TDP: 50 W
+  FP32 Compute: 44.80 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None
+  Length: 168 mm

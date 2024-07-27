@@ -1,0 +1,35 @@
+name: GeForce-GT-440
+humanName: GeForce GT 440
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2011-02-01'
+  GPU Base Frequency: 810 MHz
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 28.80 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: DDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 96 
+  Die Size: 116 mm²
+  GPU: GF108
+  GPU Variant: GF108-400-A1
+  TDP: 65 W
+  FP32 Compute: 311.0 GFLOPS
+  FP64 Compute: 25.92 GFLOPS (1:12)
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 1.3a1x VGA
+  Power Connectors: None
+  Length: 145 mm

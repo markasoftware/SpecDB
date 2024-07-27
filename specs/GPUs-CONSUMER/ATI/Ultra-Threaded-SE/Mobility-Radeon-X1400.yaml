@@ -1,0 +1,27 @@
+name: Mobility-Radeon-X1400
+humanName: Mobility Radeon X1400
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: Ultra-Threaded SE
+  Lithography: 90 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2006-01-19'
+  GPU Base Frequency: 445 MHz
+  VRAM Frequency: 250 MHz
+  VRAM Bandwidth: 8.000 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 100 mm²
+  GPU: M54
+  TDP: unknown
+  Outputs: Portable Device Dependent

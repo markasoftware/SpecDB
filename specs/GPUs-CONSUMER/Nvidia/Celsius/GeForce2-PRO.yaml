@@ -1,0 +1,31 @@
+name: GeForce2-PRO
+humanName: GeForce2 PRO
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Celsius
+  Lithography: 180 nm
+  DirectX Support: '7.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5'
+  OpenCL Support: 'N/A'
+  Release Date: '2000-12-05'
+  GPU Base Frequency: 200 MHz
+  VRAM Frequency: 200 MHz
+  VRAM Bandwidth: 6.400 GB/s
+  VRAM Capacity: 64 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 0 
+  Die Size: 88 mm²
+  GPU: NV15
+  GPU Variant: GeForce2 PRO
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 1x VGA
+  Power Connectors: None
+  Length: 183 mm

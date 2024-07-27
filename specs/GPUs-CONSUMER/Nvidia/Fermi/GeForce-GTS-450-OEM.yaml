@@ -1,0 +1,35 @@
+name: GeForce-GTS-450-OEM
+humanName: GeForce GTS 450 OEM
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2010-10-11'
+  GPU Base Frequency: 790 MHz
+  VRAM Frequency: 1000 MHz
+  VRAM Bandwidth: 96.00 GB/s
+  VRAM Capacity: 1536 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 192 bit
+  Render Output Unit Count: 24
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 144 
+  Die Size: 238 mm²
+  GPU: GF106
+  GPU Variant: GF106-250-KB-A1
+  TDP: 106 W
+  FP32 Compute: 455.0 GFLOPS
+  FP64 Compute: 37.92 GFLOPS (1:12)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x mini-HDMI 1.3a
+  Power Connectors: 1x 6-pin
+  Length: 210 mm

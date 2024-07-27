@@ -1,0 +1,29 @@
+name: Mobility-Radeon-7000
+humanName: Mobility Radeon 7000
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: Rage 6
+  Lithography: 180 nm
+  DirectX Support: '7.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.3'
+  OpenCL Support: 'N/A'
+  Release Date: '2004'
+  GPU Base Frequency: 144 MHz
+  VRAM Frequency: 139 MHz
+  VRAM Bandwidth: 1.112 GB/s
+  VRAM Capacity: 16 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 32 bit
+  Render Output Unit Count: 1
+  Texture Mapping Unit Count: 3
+  Shader Processor Count: 0 
+  Die Size: 115 mm²
+  GPU: M6
+  GPU Variant: M6 7000
+  TDP: unknown
+  Slot Width: IGP
+  Outputs: Portable Device Dependent

@@ -1,0 +1,33 @@
+name: GeForce-405-OEM
+humanName: GeForce 405 OEM
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla 2.0
+  Lithography: 40 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2010-09-03'
+  GPU Base Frequency: 475 MHz
+  VRAM Frequency: 400 MHz
+  VRAM Bandwidth: 12.80 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 12
+  Shader Processor Count: 24 
+  Die Size: 100 mm²
+  GPU: GT216
+  TDP: 25 W
+  FP32 Compute: 52.80 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI1x VGA
+  Power Connectors: None
+  Length: 168 mm

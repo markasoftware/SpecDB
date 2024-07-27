@@ -1,0 +1,33 @@
+name: Quadro-FX-4500-SDI
+humanName: Quadro FX 4500 SDI
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Curie
+  Lithography: 110 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2006-01-30'
+  GPU Base Frequency: 430 MHz
+  VRAM Frequency: 525 MHz
+  VRAM Bandwidth: 33.60 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 0 
+  Die Size: 333 mm²
+  GPU: G70
+  TDP: 116 W
+  Slot Width: Triple-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x 6-pin
+  Length: 267 mm
+  Width: 111 mm

@@ -1,0 +1,32 @@
+name: GeForce-GT-555M-2-GB
+humanName: GeForce GT 555M 2 GB
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi 2.0
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2012-03-26'
+  GPU Base Frequency: 675 MHz
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 28.80 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: DDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 144 
+  Die Size: 238 mm²
+  GPU: GF116S
+  GPU Variant: N12E-GE2-A1
+  TDP: 35 W
+  FP32 Compute: 388.8 GFLOPS
+  FP64 Compute: 32.40 GFLOPS (1:12)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None

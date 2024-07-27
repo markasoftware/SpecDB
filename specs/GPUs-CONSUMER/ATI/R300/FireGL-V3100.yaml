@@ -1,0 +1,32 @@
+name: FireGL-V3100
+humanName: FireGL V3100
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: R300
+  Lithography: 110 nm
+  DirectX Support: '9.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-09-01'
+  GPU Base Frequency: 391 MHz
+  VRAM Frequency: 196 MHz
+  VRAM Bandwidth: 3.136 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 74 mm²
+  GPU: RV370
+  GPU Variant: RV370 GL
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA
+  Power Connectors: None

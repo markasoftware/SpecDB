@@ -1,0 +1,35 @@
+name: Quadro-400
+humanName: Quadro 400
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla 2.0
+  Lithography: 40 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2011-04-05'
+  GPU Base Frequency: 450 MHz
+  VRAM Frequency: 770 MHz
+  VRAM Bandwidth: 12.32 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: DDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 48 
+  Die Size: 100 mm²
+  GPU: GT216
+  GPU Variant: GT216 GL
+  TDP: 32 W
+  FP32 Compute: 108.0 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x DisplayPort
+  Power Connectors: None
+  Length: 163 mm
+  Width: 69 mm

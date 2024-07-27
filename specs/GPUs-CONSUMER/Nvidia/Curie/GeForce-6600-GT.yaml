@@ -1,0 +1,31 @@
+name: GeForce-6600-GT
+humanName: GeForce 6600 GT
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Curie
+  Lithography: 110 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-08-12'
+  GPU Base Frequency: 500 MHz
+  VRAM Frequency: 500 MHz
+  VRAM Bandwidth: 16.00 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 0 
+  Die Size: 154 mm²
+  GPU: NV43
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None

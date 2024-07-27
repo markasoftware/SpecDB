@@ -1,0 +1,32 @@
+name: GeForce-GT-520MX
+humanName: GeForce GT 520MX
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi 2.0
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2011-05-30'
+  GPU Base Frequency: 900 MHz
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 14.40 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: DDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 48 
+  Die Size: 79 mm²
+  GPU: GF119
+  GPU Variant: N12P-GVR-B-A1
+  TDP: 20 W
+  FP32 Compute: 172.8 GFLOPS
+  FP64 Compute: 14.40 GFLOPS (1:12)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None

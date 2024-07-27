@@ -1,0 +1,32 @@
+name: Radeon-VE-PCI
+humanName: Radeon VE PCI
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: Rage 6
+  Lithography: 180 nm
+  DirectX Support: '7.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.3'
+  OpenCL Support: 'N/A'
+  Release Date: '2001-02-19'
+  GPU Base Frequency: 183 MHz
+  VRAM Frequency: 183 MHz
+  VRAM Bandwidth: 2.928 GB/s
+  VRAM Capacity: 32 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 1
+  Texture Mapping Unit Count: 3
+  Shader Processor Count: 0 
+  Die Size: 115 mm²
+  GPU: Rage 6
+  GPU Variant: Radeon VE
+  TDP: 23 W
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None

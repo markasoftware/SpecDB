@@ -1,0 +1,32 @@
+name: Radeon-X850-CrossFire-Edition
+humanName: Radeon X850 CrossFire Edition
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: R400
+  Lithography: 130 nm
+  DirectX Support: '9.2'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2006-09-10'
+  GPU Base Frequency: 520 MHz
+  VRAM Frequency: 540 MHz
+  VRAM Bandwidth: 34.56 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 0 
+  Die Size: 297 mm²
+  GPU: R480
+  GPU Variant: R480 XT
+  TDP: 69 W
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 1x DMS-59
+  Power Connectors: 1x 6-pin

@@ -1,0 +1,29 @@
+name: GeForce-GT-640M-LE
+humanName: GeForce GT 640M LE
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2012-05-04'
+  GPU Base Frequency: 753 MHz
+  VRAM Frequency: 785 MHz
+  VRAM Bandwidth: 50.24 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 96 
+  Die Size: 116 mm²
+  GPU: GF108
+  TDP: 32 W
+  FP32 Compute: 289.0 GFLOPS
+  FP64 Compute: 24.08 GFLOPS (1:12)
+  Outputs: Portable Device Dependent

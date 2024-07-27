@@ -1,0 +1,33 @@
+name: GeForce-GT-645-OEM
+humanName: GeForce GT 645 OEM
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi 2.0
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2012-04-24'
+  GPU Base Frequency: 776 MHz
+  VRAM Frequency: 957 MHz
+  VRAM Bandwidth: 91.87 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 192 bit
+  Render Output Unit Count: 24
+  Texture Mapping Unit Count: 48
+  Shader Processor Count: 288 
+  Die Size: 332 mm²
+  GPU: GF114
+  TDP: 102 W
+  FP32 Compute: 894.0 GFLOPS
+  FP64 Compute: 74.50 GFLOPS (1:12)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x mini-HDMI 1.3a
+  Length: 210 mm

@@ -1,0 +1,32 @@
+name: FirePro-D300
+humanName: FirePro D300
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2014-01-18'
+  GPU Base Frequency: 850 MHz
+  VRAM Frequency: 1270 MHz
+  VRAM Bandwidth: 162.6 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 80
+  Shader Processor Count: 1280 
+  Die Size: 212 mm²
+  GPU: Pitcairn
+  GPU Variant: Pitcairn XT GL
+  TDP: 150 W
+  FP32 Compute: 2.176 TFLOPS
+  FP64 Compute: 136.0 GFLOPS (1:16)
+  Slot Width: Single-slot
+  Outputs: 4x DisplayPort 1.2
+  Length: 242 mm

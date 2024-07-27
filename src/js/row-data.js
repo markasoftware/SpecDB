@@ -250,6 +250,14 @@ module.exports.sections = [
 				name: 'Texture Mapping Unit Count',
 				processor: types.numberUp,
 			},
+			{
+				name: 'Ray Tracing Cores',
+				processor: types.numberUp,
+			},
+			{
+				name: 'Tensor Cores',
+				processor: types.numberUp
+			}
 		],
 	},
 	{
@@ -320,6 +328,30 @@ module.exports.sections = [
 				name: 'PCIe 1.0 Lanes',
 				processor: types.numberUp,
 			},
+			{
+				name: 'Outputs',
+				processor: types.list
+			},
+			{
+				name: 'Power Connectors',
+				processor: types.numberDown
+			},
+			{
+				name: 'Slot Width',
+				processor: types.numberDown
+			},
+			{
+				name: 'Length',
+				processor: types.numberDown
+			},
+			{
+				name: 'Width',
+				processor: types.numberDown
+			},
+			{
+				name: 'Height',
+				processor: types.numberDown
+			}
 		],
 	},
 	{

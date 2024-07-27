@@ -1,0 +1,32 @@
+name: Radeon-E9260-MXM
+humanName: Radeon E9260 MXM
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 4.0
+  Lithography: 14 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2016-09-27'
+  GPU Base Frequency: 1053 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 112.0 GB/s
+  VRAM Capacity: 4 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 48
+  Shader Processor Count: 896 
+  Die Size: 123 mm²
+  GPU: Baffin
+  GPU Variant: Baffin E9260
+  TDP: 50 W
+  FP32 Compute: 1.887 TFLOPS
+  FP64 Compute: 117.9 GFLOPS (1:16)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

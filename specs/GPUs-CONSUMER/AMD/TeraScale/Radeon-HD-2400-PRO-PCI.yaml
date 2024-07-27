@@ -1,0 +1,31 @@
+name: Radeon-HD-2400-PRO-PCI
+humanName: Radeon HD 2400 PRO PCI
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: 'N/A'
+  Release Date: '2007-06-28'
+  GPU Base Frequency: 525 MHz
+  VRAM Frequency: 400 MHz
+  VRAM Bandwidth: 6.400 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 40 
+  Die Size: 85 mm²
+  GPU: RV610
+  GPU Variant: RV610 LE
+  TDP: 20 W
+  FP32 Compute: 42.00 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 1x DVI
+  Power Connectors: None

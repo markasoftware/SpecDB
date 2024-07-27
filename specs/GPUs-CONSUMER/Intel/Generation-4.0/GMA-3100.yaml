@@ -1,0 +1,28 @@
+name: GMA-3100
+humanName: GMA 3100
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Intel
+  Vendor: Intel
+  Architecture: Generation 4.0
+  Lithography: 90 nm
+  DirectX Support: '9.0c'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2007-05-09'
+  GPU Base Frequency: 400 MHz
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: unknown
+  GPU: Bearlake
+  TDP: 13 W
+  Slot Width: IGP
+  Outputs: Portable Device Dependent

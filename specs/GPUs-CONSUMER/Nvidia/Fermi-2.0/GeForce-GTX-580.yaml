@@ -1,0 +1,36 @@
+name: GeForce-GTX-580
+humanName: GeForce GTX 580
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi 2.0
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2010-11-09'
+  GPU Base Frequency: 772 MHz
+  VRAM Frequency: 1002 MHz
+  VRAM Bandwidth: 192.4 GB/s
+  VRAM Capacity: 1536 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 48
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 512 
+  Die Size: 520 mm²
+  GPU: GF110
+  GPU Variant: GF110-375-A1
+  TDP: 244 W
+  FP32 Compute: 1.581 TFLOPS
+  FP64 Compute: 197.6 GFLOPS (1:8)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x mini-HDMI 1.3a
+  Power Connectors: 1x 6-pin + 1x 8-pin
+  Length: 267 mm
+  Width: 111 mm

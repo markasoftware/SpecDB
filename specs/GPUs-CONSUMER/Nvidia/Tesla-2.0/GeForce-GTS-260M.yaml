@@ -1,0 +1,29 @@
+name: GeForce-GTS-260M
+humanName: GeForce GTS 260M
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla 2.0
+  Lithography: 40 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-06-15'
+  GPU Base Frequency: 550 MHz
+  VRAM Frequency: 850 MHz
+  VRAM Bandwidth: 54.40 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 96 
+  Die Size: 144 mm²
+  GPU: GT215
+  GPU Variant: N10E-GS
+  TDP: 38 W
+  FP32 Compute: 257.3 GFLOPS
+  Outputs: Portable Device Dependent

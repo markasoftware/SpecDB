@@ -1,0 +1,31 @@
+name: Radeon-X550-XT
+humanName: Radeon X550 XT
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: R400
+  Lithography: 110 nm
+  DirectX Support: '9.2'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2007-01-24'
+  GPU Base Frequency: 400 MHz
+  VRAM Frequency: 300 MHz
+  VRAM Bandwidth: 9.600 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 156 mm²
+  GPU: RV410
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None

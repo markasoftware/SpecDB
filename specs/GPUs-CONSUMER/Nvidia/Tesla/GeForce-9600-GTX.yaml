@@ -1,0 +1,33 @@
+name: GeForce-9600-GTX
+humanName: GeForce 9600 GTX
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-05-27'
+  GPU Base Frequency: 580 MHz
+  VRAM Frequency: 700 MHz
+  VRAM Bandwidth: 44.80 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 48
+  Shader Processor Count: 96 
+  Die Size: 324 mm²
+  GPU: G92
+  TDP: 140 W
+  FP32 Compute: 278.4 GFLOPS
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x 6-pin
+  Length: 267 mm

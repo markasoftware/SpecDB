@@ -1,0 +1,30 @@
+name: Radeon-9000-LE
+humanName: Radeon 9000 LE
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: Rage 7
+  Lithography: 150 nm
+  DirectX Support: '8.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.4'
+  OpenCL Support: 'N/A'
+  Release Date: '2002-07-01'
+  GPU Base Frequency: 250 MHz
+  VRAM Frequency: 200 MHz
+  VRAM Bandwidth: 6.400 GB/s
+  VRAM Capacity: 64 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 97 mm²
+  GPU: RV250
+  GPU Variant: RV250 LE
+  TDP: 28 W
+  Slot Width: Single-slot
+  Outputs: 1x VGA1x S-Video
+  Power Connectors: None

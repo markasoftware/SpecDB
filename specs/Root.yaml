@@ -9,12 +9,31 @@ sections:
     - MISSINGCPUS
     - CPUs-DESKTOP
     - CPUs-SERVER
-    - GPUs-CONSUMER
+    - GPUs-CONSUMER-AMD
     - APUs-DESKTOP
     - APUs-MOBILE
   - header: Intel
     members:
+    - GPUs-CONSUMER-INTEL
     - Desktop-CPUs-Intel
     - Mobile-CPUs-Intel
     - Embedded-CPUs-Intel
     - Server-CPUs-Intel
+  - header: ATI
+    members:
+    - GPUs-CONSUMER-ATI
+  - header: Nvidia
+    members:
+    - GPUs-CONSUMER-NVIDIA
+  - header: 3dfx
+    members:
+    - GPUs-CONSUMER-3dfx
+  - header: Matrox
+    members:
+    - GPUs-CONSUMER-MATROX
+  - header: PowerVR
+    members:
+    - GPUs-CONSUMER-POWERVR
+  - header: XGI
+    members:
+    - GPUs-CONSUMER-XGI

@@ -1,0 +1,31 @@
+name: GeForce-305M
+humanName: GeForce 305M
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla 2.0
+  Lithography: 40 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2010-01-10'
+  GPU Base Frequency: 525 MHz
+  VRAM Frequency: 700 MHz
+  VRAM Bandwidth: 11.20 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 16 
+  Die Size: 57 mm²
+  GPU: GT218
+  GPU Variant: N11M-LP1
+  TDP: 14 W
+  FP32 Compute: 36.80 GFLOPS
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None

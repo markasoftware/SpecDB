@@ -1,0 +1,32 @@
+name: Quadro-FX-380
+humanName: Quadro FX 380
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-03-30'
+  GPU Base Frequency: 450 MHz
+  VRAM Frequency: 700 MHz
+  VRAM Bandwidth: 22.40 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 16 
+  Die Size: 144 mm²
+  GPU: G96
+  TDP: 34 W
+  FP32 Compute: 35.20 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 2x DVI
+  Power Connectors: None
+  Length: 198 mm
+  Width: 111 mm

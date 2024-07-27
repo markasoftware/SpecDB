@@ -1,0 +1,31 @@
+name: Radeon-HD-4350
+humanName: Radeon HD 4350
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2008-09-30'
+  GPU Base Frequency: 600 MHz
+  VRAM Frequency: 400 MHz
+  VRAM Bandwidth: 6.400 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: DDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 80 
+  Die Size: 73 mm²
+  GPU: RV710
+  GPU Variant: RV710
+  TDP: 20 W
+  FP32 Compute: 96.00 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 2x DisplayPort 1.0
+  Power Connectors: None

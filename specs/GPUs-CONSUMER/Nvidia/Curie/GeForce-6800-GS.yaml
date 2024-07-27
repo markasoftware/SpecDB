@@ -1,0 +1,31 @@
+name: GeForce-6800-GS
+humanName: GeForce 6800 GS
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Curie
+  Lithography: 130 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2005-12-08'
+  GPU Base Frequency: 350 MHz
+  VRAM Frequency: 500 MHz
+  VRAM Bandwidth: 32.00 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 12
+  Texture Mapping Unit Count: 12
+  Shader Processor Count: 0 
+  Die Size: 287 mm²
+  GPU: NV40
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: 1x Molex

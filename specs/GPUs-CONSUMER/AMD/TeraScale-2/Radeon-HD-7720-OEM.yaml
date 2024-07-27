@@ -1,0 +1,33 @@
+name: Radeon-HD-7720-OEM
+humanName: Radeon HD 7720 OEM
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2013-03-15'
+  GPU Base Frequency: 840 MHz
+  VRAM Frequency: 1050 MHz
+  VRAM Bandwidth: 134.4 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 40
+  Shader Processor Count: 800 
+  Die Size: 255 mm²
+  GPU: Barts
+  GPU Variant: Barts LE
+  TDP: 150 W
+  FP32 Compute: 1,344 GFLOPS
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x HDMI 1.3a1x DisplayPort 1.1
+  Length: 198 mm

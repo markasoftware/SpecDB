@@ -1,0 +1,31 @@
+name: GeForce-GTX-260M
+humanName: GeForce GTX 260M
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-03-03'
+  GPU Base Frequency: 550 MHz
+  VRAM Frequency: 950 MHz
+  VRAM Bandwidth: 60.80 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 56
+  Shader Processor Count: 112 
+  Die Size: 324 mm²
+  GPU: G92
+  GPU Variant: N10E-GT
+  TDP: 65 W
+  FP32 Compute: 308.0 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

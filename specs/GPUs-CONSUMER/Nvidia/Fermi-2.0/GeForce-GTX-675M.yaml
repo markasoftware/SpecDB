@@ -1,0 +1,32 @@
+name: GeForce-GTX-675M
+humanName: GeForce GTX 675M
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi 2.0
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2012-03-22'
+  GPU Base Frequency: 620 MHz
+  VRAM Frequency: 750 MHz
+  VRAM Bandwidth: 96.00 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 384 
+  Die Size: 332 mm²
+  GPU: GF114
+  GPU Variant: N13E-GS1-A1
+  TDP: 100 W
+  FP32 Compute: 952.3 GFLOPS
+  FP64 Compute: 79.36 GFLOPS (1:12)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

@@ -1,0 +1,32 @@
+name: Quadro-500M
+humanName: Quadro 500M
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2011-02-22'
+  GPU Base Frequency: 560 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 25.60 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: DDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 96 
+  Die Size: 116 mm²
+  GPU: GF108
+  GPU Variant: N12M-Q3
+  TDP: 35 W
+  FP32 Compute: 215.0 GFLOPS
+  FP64 Compute: 17.92 GFLOPS (1:12)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

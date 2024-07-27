@@ -1,0 +1,35 @@
+name: Quadro-FX-3700
+humanName: Quadro FX 3700
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2008-01-08'
+  GPU Base Frequency: 500 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 51.20 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 56
+  Shader Processor Count: 112 
+  Die Size: 324 mm²
+  GPU: G92
+  GPU Variant: G92-875-A2
+  TDP: 78 W
+  FP32 Compute: 280.0 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x 6-pin
+  Length: 267 mm
+  Width: 111 mm

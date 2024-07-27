@@ -1,0 +1,28 @@
+name: i740-8-MB
+humanName: i740 8 MB
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Intel
+  Vendor: Intel
+  Architecture: i740
+  Lithography: 150 nm
+  DirectX Support: '5.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.1'
+  OpenCL Support: 'N/A'
+  Release Date: '1998-02-12'
+  GPU Base Frequency: 66 MHz
+  VRAM Frequency: 100 MHz
+  VRAM Bandwidth: 800.0 MB/s
+  VRAM Capacity: 8 MB
+  VRAM Type: SDR
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 1
+  Texture Mapping Unit Count: 1
+  Shader Processor Count: 0 
+  Die Size: unknown
+  GPU: Auburn
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 1x VGA

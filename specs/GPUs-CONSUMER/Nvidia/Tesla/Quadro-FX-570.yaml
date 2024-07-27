@@ -1,0 +1,32 @@
+name: Quadro-FX-570
+humanName: Quadro FX 570
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 80 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2007-09-12'
+  GPU Base Frequency: 460 MHz
+  VRAM Frequency: 400 MHz
+  VRAM Bandwidth: 12.80 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 16 
+  Die Size: 169 mm²
+  GPU: G84
+  TDP: 38 W
+  FP32 Compute: 29.44 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 2x DVI
+  Power Connectors: None
+  Length: 198 mm
+  Width: 111 mm

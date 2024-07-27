@@ -1,0 +1,28 @@
+name: Mobility-Radeon-X700-XL
+humanName: Mobility Radeon X700 XL
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: R400
+  Lithography: 110 nm
+  DirectX Support: '9.2'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2005-03-01'
+  GPU Base Frequency: 350 MHz
+  VRAM Frequency: 330 MHz
+  VRAM Bandwidth: 10.56 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 0 
+  Die Size: 156 mm²
+  GPU: M26
+  GPU Variant: M26-CSP128
+  TDP: unknown
+  Outputs: Portable Device Dependent

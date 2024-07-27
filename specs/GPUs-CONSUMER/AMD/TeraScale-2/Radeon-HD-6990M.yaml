@@ -1,0 +1,31 @@
+name: Radeon-HD-6990M
+humanName: Radeon HD 6990M
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2011-07-12'
+  GPU Base Frequency: 715 MHz
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 115.2 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 56
+  Shader Processor Count: 1120 
+  Die Size: 212 mm²
+  GPU: Blackcomb
+  GPU Variant: Blackcomb XTX
+  TDP: 100 W
+  FP32 Compute: 1.602 TFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

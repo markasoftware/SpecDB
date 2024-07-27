@@ -1,0 +1,32 @@
+name: Mobility-Radeon-HD-4870-X2
+humanName: Mobility Radeon HD 4870 X2
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-01-09'
+  GPU Base Frequency: 550 MHz
+  VRAM Frequency: 700 MHz
+  VRAM Bandwidth: 89.60 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 40
+  Shader Processor Count: 800 
+  Die Size: 256 mm²
+  GPU: M98
+  GPU Variant: M98 XT L2
+  TDP: unknown
+  FP32 Compute: 880.0 GFLOPS
+  FP64 Compute: 176.0 GFLOPS (1:5)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

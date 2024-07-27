@@ -1,0 +1,31 @@
+name: GeForce-800A
+humanName: GeForce 800A
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi 2.0
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2014-03-17'
+  GPU Base Frequency: 475 MHz
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 14.40 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: DDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 48 
+  Die Size: 79 mm²
+  GPU: GF119S
+  TDP: 15 W
+  FP32 Compute: 91.20 GFLOPS
+  FP64 Compute: 7.600 GFLOPS (1:12)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None

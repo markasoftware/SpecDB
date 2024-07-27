@@ -1,0 +1,33 @@
+name: Radeon-HD-2600-PRO
+humanName: Radeon HD 2600 PRO
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: 'N/A'
+  Release Date: '2007-06-28'
+  GPU Base Frequency: 600 MHz
+  VRAM Frequency: 500 MHz
+  VRAM Bandwidth: 16.00 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 120 
+  Die Size: 153 mm²
+  GPU: RV630
+  GPU Variant: RV630 PRO
+  TDP: 35 W
+  FP32 Compute: 144.0 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: None

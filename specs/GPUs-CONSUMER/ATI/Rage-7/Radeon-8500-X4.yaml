@@ -1,0 +1,29 @@
+name: Radeon-8500-X4
+humanName: Radeon 8500 X4
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: Rage 7
+  Lithography: 150 nm
+  DirectX Support: '8.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.3'
+  OpenCL Support: 'N/A'
+  Release Date: 'Never Released'
+  GPU Base Frequency: 250 MHz
+  VRAM Frequency: 250 MHz
+  VRAM Bandwidth: 4.000 GB/s
+  VRAM Capacity: 64 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 0 
+  Die Size: 120 mm²
+  GPU: R200
+  TDP: 92 W
+  Slot Width: Single-slot
+  Outputs: 2x DVI
+  Length: 330 mm

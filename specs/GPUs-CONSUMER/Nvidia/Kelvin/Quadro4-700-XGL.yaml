@@ -1,0 +1,32 @@
+name: Quadro4-700-XGL
+humanName: Quadro4 700 XGL
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Kelvin
+  Lithography: 150 nm
+  DirectX Support: '8.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5'
+  OpenCL Support: 'N/A'
+  Release Date: '2002-02-19'
+  GPU Base Frequency: 275 MHz
+  VRAM Frequency: 225 MHz
+  VRAM Bandwidth: 7.200 GB/s
+  VRAM Capacity: 64 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 0 
+  Die Size: 142 mm²
+  GPU: NV25
+  GPU Variant: NV25 GL
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: None

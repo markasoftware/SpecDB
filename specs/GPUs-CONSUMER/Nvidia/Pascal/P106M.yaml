@@ -1,0 +1,32 @@
+name: P106M
+humanName: P106M
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Pascal
+  Lithography: 16 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2019-01-23'
+  GPU Base Frequency: 1291 MHz
+  VRAM Frequency: 1502 MHz
+  VRAM Bandwidth: 96.13 GB/s
+  VRAM Capacity: 4 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 72
+  Shader Processor Count: 1152 
+  Die Size: 200 mm²
+  GPU: GP106
+  GPU Variant: GP106-505-KC-A1
+  TDP: 75 W
+  FP32 Compute: 2.974 TFLOPS
+  FP64 Compute: 92.95 GFLOPS (1:32)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

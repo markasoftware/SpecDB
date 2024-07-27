@@ -1,0 +1,30 @@
+name: Quadro-NVS-130M
+humanName: Quadro NVS 130M
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 80 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2007-05-09'
+  GPU Base Frequency: 400 MHz
+  VRAM Frequency: 700 MHz
+  VRAM Bandwidth: 11.20 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 8 
+  Die Size: 127 mm²
+  GPU: G86S
+  GPU Variant: G86-613-A2
+  TDP: 10 W
+  FP32 Compute: 12.80 GFLOPS
+  Outputs: Portable Device Dependent
+  Power Connectors: None

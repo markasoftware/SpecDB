@@ -1,0 +1,31 @@
+name: FireMV-2200-PCI
+humanName: FireMV 2200 PCI
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: Rage 7
+  Lithography: 150 nm
+  DirectX Support: '8.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.4'
+  OpenCL Support: 'N/A'
+  Release Date: '2006'
+  GPU Base Frequency: 240 MHz
+  VRAM Frequency: 200 MHz
+  VRAM Bandwidth: 3.200 GB/s
+  VRAM Capacity: 64 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 98 mm²
+  GPU: RV280
+  GPU Variant: RV280 GL
+  TDP: 15 W
+  Slot Width: Single-slot
+  Outputs: 1x DMS-59
+  Power Connectors: None
+  Length: 170 mm

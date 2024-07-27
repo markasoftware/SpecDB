@@ -1,0 +1,37 @@
+name: GeForce-GTX-490
+humanName: GeForce GTX 490
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: 'Never Released'
+  GPU Base Frequency: 608 MHz
+  VRAM Frequency: 854 MHz
+  VRAM Bandwidth: 164.0 GB/s
+  VRAM Capacity: 1536 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 48
+  Texture Mapping Unit Count: 60
+  Shader Processor Count: 480 
+  Die Size: 529 mm²
+  GPU: GF100
+  GPU Variant: GF100-375-A3
+  TDP: 365 W
+  FP32 Compute: 1,166 GFLOPS
+  FP64 Compute: 145.8 GFLOPS (1:8)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 3x DVI
+    - 1x mini-DisplayPort
+  Power Connectors: 2x 8-pin
+  Length: 279 mm
+  Width: 111 mm
+  Height: 38 mm

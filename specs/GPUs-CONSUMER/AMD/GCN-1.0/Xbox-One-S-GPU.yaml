@@ -1,0 +1,32 @@
+name: Xbox-One-S-GPU
+humanName: Xbox One S GPU
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 1.0
+  Lithography: 16 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.1'
+  OpenGL Support: 'N/A'
+  OpenCL Support: '1.2'
+  Release Date: '2016-08-02'
+  GPU Base Frequency: 914 MHz
+  VRAM Frequency: 1066 MHz
+  VRAM Bandwidth: 68.22 GB/s
+  VRAM Capacity: 8 GB
+  VRAM Type: DDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 48
+  Shader Processor Count: 768 
+  Die Size: 240 mm²
+  GPU: Durango 2
+  GPU Variant: M1004145-001
+  TDP: 95 W
+  FP32 Compute: 1,404 GFLOPS
+  Outputs: 1x HDMI 2.0a
+  Length: 295 mm
+  Width: 230 mm
+  Height: 64 mm

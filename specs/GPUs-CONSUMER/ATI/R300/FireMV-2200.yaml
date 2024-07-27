@@ -1,0 +1,31 @@
+name: FireMV-2200
+humanName: FireMV 2200
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: R300
+  Lithography: 110 nm
+  DirectX Support: '9.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2006'
+  GPU Base Frequency: 324 MHz
+  VRAM Frequency: 196 MHz
+  VRAM Bandwidth: 3.136 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 74 mm²
+  GPU: RV370
+  TDP: 15 W
+  Slot Width: Single-slot
+  Outputs: 1x DMS-59
+  Power Connectors: None
+  Length: 170 mm
+  Width: 69 mm

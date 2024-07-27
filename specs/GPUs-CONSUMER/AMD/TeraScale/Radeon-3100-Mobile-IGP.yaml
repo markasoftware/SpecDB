@@ -1,0 +1,31 @@
+name: Radeon-3100-Mobile-IGP
+humanName: Radeon 3100 Mobile IGP
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.0'
+  Release Date: '2008-08-15'
+  GPU Base Frequency: 350 MHz
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 40 
+  Die Size: 85 mm²
+  GPU: RS780
+  GPU Variant: RS780M
+  TDP: unknown
+  FP32 Compute: 28.00 GFLOPS
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None

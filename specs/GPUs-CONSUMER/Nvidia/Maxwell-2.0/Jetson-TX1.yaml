@@ -1,0 +1,31 @@
+name: Jetson-TX1
+humanName: Jetson TX1
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Maxwell 2.0
+  Lithography: 20 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.1'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.2'
+  Release Date: '2015-01-04'
+  GPU Base Frequency: 998 MHz
+  VRAM Frequency: 600 MHz
+  VRAM Bandwidth: 9.600 GB/s
+  VRAM Capacity: 4 GB
+  VRAM Type: LPDDR4
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 256 
+  Die Size: 118 mm²
+  GPU: GM20B
+  GPU Variant: TM670D-A1
+  TDP: 6 W
+  FP32 Compute: 511.0 GFLOPS
+  FP64 Compute: 15.97 GFLOPS (1:32)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent

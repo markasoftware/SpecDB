@@ -1,0 +1,37 @@
+name: GeForce-GTX-285-X2
+humanName: GeForce GTX 285 X2
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla 2.0
+  Lithography: 55 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-06-17'
+  GPU Base Frequency: 648 MHz
+  VRAM Frequency: 1152 MHz
+  VRAM Bandwidth: 147.5 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 512 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 80
+  Shader Processor Count: 240 
+  Die Size: 470 mm²
+  GPU: GT200B
+  GPU Variant: G200-350-B3
+  TDP: 315 W
+  FP32 Compute: 708.5 GFLOPS
+  FP64 Compute: 88.56 GFLOPS (1:8)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x HDMI
+  Power Connectors: 2x 8-pin
+  Length: 275 mm
+  Width: 115 mm
+  Height: 48 mm

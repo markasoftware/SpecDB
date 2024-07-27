@@ -1,0 +1,33 @@
+name: GeForce3-Ti500
+humanName: GeForce3 Ti500
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Kelvin
+  Lithography: 150 nm
+  DirectX Support: '8.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5'
+  OpenCL Support: 'N/A'
+  Release Date: '2001-10-01'
+  GPU Base Frequency: 240 MHz
+  VRAM Frequency: 250 MHz
+  VRAM Bandwidth: 8.000 GB/s
+  VRAM Capacity: 64 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 0 
+  Die Size: 128 mm²
+  GPU: NV20
+  GPU Variant: NV20 Ti500
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None
+  Length: 183 mm

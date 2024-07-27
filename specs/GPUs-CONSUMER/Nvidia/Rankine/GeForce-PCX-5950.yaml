@@ -1,0 +1,31 @@
+name: GeForce-PCX-5950
+humanName: GeForce PCX 5950
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Rankine
+  Lithography: 130 nm
+  DirectX Support: '9.0a'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-02-17'
+  GPU Base Frequency: 475 MHz
+  VRAM Frequency: 425 MHz
+  VRAM Bandwidth: 27.20 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 0 
+  Die Size: 207 mm²
+  GPU: NV38
+  TDP: 57 W
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None

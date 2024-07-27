@@ -1,0 +1,32 @@
+name: Radeon-HD-3450-X2
+humanName: Radeon HD 3450 X2
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: 'N/A'
+  Release Date: '2007-12-10'
+  GPU Base Frequency: 600 MHz
+  VRAM Frequency: 500 MHz
+  VRAM Bandwidth: 8.000 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 40 
+  Die Size: 67 mm²
+  GPU: RV620
+  GPU Variant: RV620 LE
+  TDP: 50 W
+  FP32 Compute: 48.00 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 2x DMS-59
+  Power Connectors: None
+  Length: 168 mm

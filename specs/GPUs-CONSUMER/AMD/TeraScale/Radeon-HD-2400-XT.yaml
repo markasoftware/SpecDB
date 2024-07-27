@@ -1,0 +1,33 @@
+name: Radeon-HD-2400-XT
+humanName: Radeon HD 2400 XT
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: 'N/A'
+  Release Date: '2007-06-28'
+  GPU Base Frequency: 650 MHz
+  VRAM Frequency: 500 MHz
+  VRAM Bandwidth: 8.000 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 40 
+  Die Size: 85 mm²
+  GPU: RV610
+  GPU Variant: RV610 PRO
+  TDP: 25 W
+  FP32 Compute: 52.00 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None

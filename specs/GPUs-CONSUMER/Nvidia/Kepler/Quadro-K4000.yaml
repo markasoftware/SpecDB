@@ -1,0 +1,36 @@
+name: Quadro-K4000
+humanName: Quadro K4000
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Kepler
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.2.175'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2013-03-01'
+  GPU Base Frequency: 810 MHz
+  VRAM Frequency: 1404 MHz
+  VRAM Bandwidth: 134.8 GB/s
+  VRAM Capacity: 3 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 192 bit
+  Render Output Unit Count: 24
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 768 
+  Die Size: 221 mm²
+  GPU: GK106
+  GPU Variant: GK106-875-A1
+  TDP: 80 W
+  FP32 Compute: 1,244 GFLOPS
+  FP64 Compute: 51.84 GFLOPS (1:24)
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 2x DisplayPort 1.2
+  Power Connectors: 1x 6-pin
+  Length: 241 mm
+  Width: 111 mm

@@ -1,0 +1,29 @@
+name: Xeon-Phi-5120D
+humanName: Xeon Phi 5120D
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Intel
+  Vendor: Intel
+  Architecture: Knights
+  Lithography: 22 nm
+  Vulkan Support: 'N/A'
+  OpenGL Support: 'N/A'
+  OpenCL Support: '1.2'
+  Release Date: '2013-06-17'
+  GPU Base Frequency: 1053 MHz
+  VRAM Frequency: 1250 MHz
+  VRAM Bandwidth: 320.0 GB/s
+  VRAM Capacity: 8 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 512 bit
+  Render Output Unit Count: 0
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 960 
+  Die Size: 720 mm²
+  GPU: Knights Corner
+  TDP: 245 W
+  FP32 Compute: 2.022 TFLOPS
+  Slot Width: Dual-slot
+  Outputs: No outputs
+  Length: 248 mm

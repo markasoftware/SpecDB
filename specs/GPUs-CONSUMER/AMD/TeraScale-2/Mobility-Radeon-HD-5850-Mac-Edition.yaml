@@ -1,0 +1,30 @@
+name: Mobility-Radeon-HD-5850-Mac-Edition
+humanName: Mobility Radeon HD 5850 Mac Edition
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2010-01-07'
+  GPU Base Frequency: 628 MHz
+  VRAM Frequency: 1000 MHz
+  VRAM Bandwidth: 64.00 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 40
+  Shader Processor Count: 800 
+  Die Size: 166 mm²
+  GPU: Broadway
+  GPU Variant: Broadway PRO
+  TDP: 30 W
+  FP32 Compute: 1,005 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent

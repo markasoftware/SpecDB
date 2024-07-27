@@ -1,0 +1,30 @@
+name: GeForce-9200M-GS-GDDR3
+humanName: GeForce 9200M GS GDDR3
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 55 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2008-06-03'
+  GPU Base Frequency: 529 MHz
+  VRAM Frequency: 702 MHz
+  VRAM Bandwidth: 11.23 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 8 
+  Die Size: 80 mm²
+  GPU: G98
+  GPU Variant: G98-700-U2
+  TDP: 13 W
+  FP32 Compute: 20.80 GFLOPS
+  Outputs: Portable Device Dependent
+  Power Connectors: None

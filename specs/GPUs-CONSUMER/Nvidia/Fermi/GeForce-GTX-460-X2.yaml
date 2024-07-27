@@ -1,0 +1,35 @@
+name: GeForce-GTX-460-X2
+humanName: GeForce GTX 460 X2
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2011-03-11'
+  GPU Base Frequency: 701 MHz
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 115.2 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 56
+  Shader Processor Count: 336 
+  Die Size: 332 mm²
+  GPU: GF104
+  GPU Variant: GF104-300-KB-A1
+  TDP: 160 W
+  FP32 Compute: 941.5 GFLOPS
+  FP64 Compute: 78.46 GFLOPS (1:12)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 3x DVI
+    - 1x mini-HDMI 1.3a
+  Power Connectors: 2x 8-pin
+  Length: 292 mm

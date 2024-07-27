@@ -1,0 +1,36 @@
+name: Quadro-FX-3800
+humanName: Quadro FX 3800
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla 2.0
+  Lithography: 55 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-03-30'
+  GPU Base Frequency: 600 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 51.20 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 192 
+  Die Size: 470 mm²
+  GPU: GT200B
+  GPU Variant: G200-835-B2
+  TDP: 108 W
+  FP32 Compute: 462.3 GFLOPS
+  FP64 Compute: 57.79 GFLOPS (1:8)
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 2x DisplayPort
+  Power Connectors: 1x 6-pin
+  Length: 198 mm
+  Width: 111 mm

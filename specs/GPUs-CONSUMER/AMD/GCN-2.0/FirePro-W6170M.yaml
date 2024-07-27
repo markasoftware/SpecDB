@@ -1,0 +1,32 @@
+name: FirePro-W6170M
+humanName: FirePro W6170M
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 2.0
+  Lithography: 28 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2014-08-25'
+  GPU Base Frequency: 1100 MHz
+  VRAM Frequency: 1500 MHz
+  VRAM Bandwidth: 96.00 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 56
+  Shader Processor Count: 896 
+  Die Size: 160 mm²
+  GPU: Emerald
+  GPU Variant: Emerald XT GL
+  TDP: unknown
+  FP32 Compute: 1.971 TFLOPS
+  FP64 Compute: 123.2 GFLOPS (1:16)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

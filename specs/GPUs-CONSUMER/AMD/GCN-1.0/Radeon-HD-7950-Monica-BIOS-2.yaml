@@ -1,0 +1,35 @@
+name: Radeon-HD-7950-Monica-BIOS-2
+humanName: Radeon HD 7950 Monica BIOS 2
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2012-01-31'
+  GPU Base Frequency: 800 MHz
+  VRAM Frequency: 1250 MHz
+  VRAM Bandwidth: 240.0 GB/s
+  VRAM Capacity: 3 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 48
+  Shader Processor Count: 768 
+  Die Size: 352 mm²
+  GPU: Tahiti
+  GPU Variant: Tahiti PRO
+  TDP: 85 W
+  FP32 Compute: 1,229 GFLOPS
+  FP64 Compute: 307.2 GFLOPS (1:4)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 1.4a2x mini-DisplayPort 1.2
+  Power Connectors: 1x 6-pin + 1x 8-pin
+  Length: 267 mm

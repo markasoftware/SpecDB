@@ -1,0 +1,34 @@
+name: GeForce-8800-Ultra
+humanName: GeForce 8800 Ultra
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 90 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1 (1.0)'
+  Release Date: '2007-05-02'
+  GPU Base Frequency: 612 MHz
+  VRAM Frequency: 1080 MHz
+  VRAM Bandwidth: 103.7 GB/s
+  VRAM Capacity: 768 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 24
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 128 
+  Die Size: 484 mm²
+  GPU: G80
+  GPU Variant: G80-450-A3
+  TDP: 171 W
+  FP32 Compute: 387.1 GFLOPS
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 2x 6-pin
+  Length: 270 mm

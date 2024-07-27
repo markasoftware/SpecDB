@@ -1,0 +1,32 @@
+name: GeForce-7950-GT-AGP
+humanName: GeForce 7950 GT AGP
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Curie
+  Lithography: 90 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2007-04-02'
+  GPU Base Frequency: 500 MHz
+  VRAM Frequency: 600 MHz
+  VRAM Bandwidth: 38.40 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 0 
+  Die Size: 196 mm²
+  GPU: G71
+  GPU Variant: G71-GT2-H-N-A2
+  TDP: 65 W
+  Slot Width: Single-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x Molex

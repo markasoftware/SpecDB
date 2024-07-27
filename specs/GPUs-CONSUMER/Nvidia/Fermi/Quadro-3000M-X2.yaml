@@ -1,0 +1,31 @@
+name: Quadro-3000M-X2
+humanName: Quadro 3000M X2
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2011-02-22'
+  GPU Base Frequency: 450 MHz
+  VRAM Frequency: 625 MHz
+  VRAM Bandwidth: 80.00 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 40
+  Shader Processor Count: 240 
+  Die Size: 332 mm²
+  GPU: EXMF104
+  TDP: 150 W
+  FP32 Compute: 432.0 GFLOPS
+  FP64 Compute: 36.00 GFLOPS (1:12)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

@@ -52,6 +52,12 @@ body {
 .part.nvidia {
 	border-left: 5px solid #76B900;
 }
+.part.ati{
+	border-left: 5px solid #F60000;
+}
+.part.matrox{
+	border-left: 5px solid #171B61;
+}
 .part-padding {
 	padding: 10px;
 	overflow: none;

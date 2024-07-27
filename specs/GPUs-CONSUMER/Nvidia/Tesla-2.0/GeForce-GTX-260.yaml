@@ -1,0 +1,35 @@
+name: GeForce-GTX-260
+humanName: GeForce GTX 260
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla 2.0
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2008-06-16'
+  GPU Base Frequency: 576 MHz
+  VRAM Frequency: 999 MHz
+  VRAM Bandwidth: 111.9 GB/s
+  VRAM Capacity: 896 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 448 bit
+  Render Output Unit Count: 28
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 192 
+  Die Size: 576 mm²
+  GPU: GT200
+  GPU Variant: G200-100-A2
+  TDP: 182 W
+  FP32 Compute: 476.9 GFLOPS
+  FP64 Compute: 59.62 GFLOPS (1:8)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 2x 6-pin
+  Length: 267 mm

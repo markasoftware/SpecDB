@@ -1,0 +1,30 @@
+name: Radeon-E4690-MXM
+humanName: Radeon E4690 MXM
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-06-01'
+  GPU Base Frequency: 600 MHz
+  VRAM Frequency: 700 MHz
+  VRAM Bandwidth: 22.40 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 320 
+  Die Size: 146 mm²
+  GPU: M96
+  GPU Variant: M96 E4690
+  TDP: 30 W
+  FP32 Compute: 384.0 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent

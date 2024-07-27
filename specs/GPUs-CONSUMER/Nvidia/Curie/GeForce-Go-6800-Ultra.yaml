@@ -1,0 +1,29 @@
+name: GeForce-Go-6800-Ultra
+humanName: GeForce Go 6800 Ultra
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Curie
+  Lithography: 130 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2005-02-24'
+  GPU Base Frequency: 450 MHz
+  VRAM Frequency: 600 MHz
+  VRAM Bandwidth: 38.40 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 12
+  Texture Mapping Unit Count: 12
+  Shader Processor Count: 0 
+  Die Size: 225 mm²
+  GPU: NV41
+  GPU Variant: GO6800 U
+  TDP: 89 W
+  Outputs: Portable Device Dependent
+  Power Connectors: None

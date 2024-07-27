@@ -1,0 +1,30 @@
+name: Mobility-Radeon-HD-3670
+humanName: Mobility Radeon HD 3670
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: 'N/A'
+  Release Date: '2008-01-07'
+  GPU Base Frequency: 680 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 25.60 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 120 
+  Die Size: 135 mm²
+  GPU: M86
+  GPU Variant: M86-ME XT
+  TDP: 30 W
+  FP32 Compute: 163.2 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent

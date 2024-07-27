@@ -1,0 +1,32 @@
+name: Radeon-X700-LE
+humanName: Radeon X700 LE
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: R400
+  Lithography: 110 nm
+  DirectX Support: '9.2'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-12-21'
+  GPU Base Frequency: 400 MHz
+  VRAM Frequency: 350 MHz
+  VRAM Bandwidth: 11.20 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 0 
+  Die Size: 156 mm²
+  GPU: RV410
+  GPU Variant: RV410 LE
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None

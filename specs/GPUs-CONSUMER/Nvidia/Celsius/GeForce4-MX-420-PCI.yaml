@@ -1,0 +1,30 @@
+name: GeForce4-MX-420-PCI
+humanName: GeForce4 MX 420 PCI
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Celsius
+  Lithography: 150 nm
+  DirectX Support: '7.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5'
+  OpenCL Support: 'N/A'
+  Release Date: '2002-02-06'
+  GPU Base Frequency: 250 MHz
+  VRAM Frequency: 166 MHz
+  VRAM Bandwidth: 1.328 GB/s
+  VRAM Capacity: 64 MB
+  VRAM Type: SDR
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 2
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 65 mm²
+  GPU: NV17
+  GPU Variant: MX420
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 1x VGA1x S-Video
+  Power Connectors: None

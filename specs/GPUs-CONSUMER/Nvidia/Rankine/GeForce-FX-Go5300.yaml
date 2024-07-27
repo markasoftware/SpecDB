@@ -1,0 +1,28 @@
+name: GeForce-FX-Go5300
+humanName: GeForce FX Go5300
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Rankine
+  Lithography: 150 nm
+  DirectX Support: '9.0a'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2003-03-01'
+  GPU Base Frequency: 275 MHz
+  VRAM Frequency: 250 MHz
+  VRAM Bandwidth: 8.000 GB/s
+  VRAM Capacity: 64 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 124 mm²
+  GPU: NV34
+  TDP: unknown
+  Outputs: Portable Device Dependent
+  Power Connectors: None

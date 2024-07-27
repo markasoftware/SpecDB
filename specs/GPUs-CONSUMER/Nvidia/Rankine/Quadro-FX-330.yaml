@@ -1,0 +1,32 @@
+name: Quadro-FX-330
+humanName: Quadro FX 330
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Rankine
+  Lithography: 150 nm
+  DirectX Support: '9.0a'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-06-28'
+  GPU Base Frequency: 250 MHz
+  VRAM Frequency: 200 MHz
+  VRAM Bandwidth: 3.200 GB/s
+  VRAM Capacity: 64 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 91 mm²
+  GPU: NV37
+  GPU Variant: NV37 GL
+  TDP: 21 W
+  Slot Width: Single-slot
+  Outputs: 1x DVI
+  Power Connectors: None
+  Length: 168 mm
+  Width: 69 mm

@@ -1,0 +1,32 @@
+name: GeForce-7800-GT-Dual
+humanName: GeForce 7800 GT Dual
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Curie
+  Lithography: 110 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2005-08-11'
+  GPU Base Frequency: 400 MHz
+  VRAM Frequency: 500 MHz
+  VRAM Bandwidth: 32.00 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 20
+  Shader Processor Count: 0 
+  Die Size: 333 mm²
+  GPU: G70
+  GPU Variant: GF-7800-GT-A2
+  TDP: 120 W
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 2x VGA1x S-Video
+  Power Connectors: 1x 6-pin

@@ -1,0 +1,36 @@
+name: GeForce-GT-710-PCIe-x1
+humanName: GeForce GT 710 PCIe x1
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Kepler 2.0
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.2.175'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2014-03-27'
+  GPU Base Frequency: 954 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 12.80 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: DDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 192 
+  Die Size: 87 mm²
+  GPU: GK208B
+  GPU Variant: GK208-203-B1
+  TDP: 19 W
+  FP32 Compute: 366.3 GFLOPS
+  FP64 Compute: 15.26 GFLOPS (1:24)
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 1.4a1x VGA
+  Power Connectors: None
+  Length: 146 mm
+  Width: 112 mm

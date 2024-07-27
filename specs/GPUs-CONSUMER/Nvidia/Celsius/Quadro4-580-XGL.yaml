@@ -1,0 +1,29 @@
+name: Quadro4-580-XGL
+humanName: Quadro4 580 XGL
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Celsius
+  Lithography: 150 nm
+  DirectX Support: '7.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5'
+  OpenCL Support: 'N/A'
+  Release Date: '2002-11-12'
+  GPU Base Frequency: 300 MHz
+  VRAM Frequency: 200 MHz
+  VRAM Bandwidth: 6.400 GB/s
+  VRAM Capacity: 64 MB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 65 mm²
+  GPU: NV18
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 1x LFH60
+  Power Connectors: None

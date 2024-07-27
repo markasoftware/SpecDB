@@ -1,0 +1,31 @@
+name: Mobility-Radeon-HD-540v
+humanName: Mobility Radeon HD 540v
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2010-05-05'
+  GPU Base Frequency: 550 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 12.80 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 80 
+  Die Size: 73 mm²
+  GPU: M93
+  GPU Variant: M93-S3
+  TDP: 15 W
+  FP32 Compute: 88.00 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

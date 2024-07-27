@@ -1,0 +1,35 @@
+name: Radeon-R9-Nano
+humanName: Radeon R9 Nano
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 3.0
+  Lithography: 28 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2015-08-27'
+  GPU Base Frequency: 1000 MHz
+  VRAM Frequency: 500 MHz
+  VRAM Bandwidth: 512.0 GB/s
+  VRAM Capacity: 4 GB
+  VRAM Type: HBM
+  VRAM Bus Width: 4096 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 256
+  Shader Processor Count: 4096 
+  Die Size: 596 mm²
+  GPU: Fiji
+  GPU Variant: Fiji XT CA
+  TDP: 175 W
+  FP32 Compute: 8.192 TFLOPS
+  FP64 Compute: 512.0 GFLOPS (1:16)
+  Slot Width: Dual-slot
+  Outputs: 1x HDMI 1.4a3x DisplayPort 1.2
+  Power Connectors: 1x 8-pin
+  Length: 154 mm
+  Width: 112 mm
+  Height: 40 mm

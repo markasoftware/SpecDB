@@ -1,0 +1,30 @@
+name: Radeon-HD-6570M-Mac-Edition
+humanName: Radeon HD 6570M Mac Edition
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2009-10-28'
+  GPU Base Frequency: 600 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 25.60 GB/s
+  VRAM Capacity: 1024 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 20
+  Shader Processor Count: 400 
+  Die Size: 104 mm²
+  GPU: Capilano
+  GPU Variant: Capilano XT
+  TDP: 30 W
+  FP32 Compute: 480.0 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent

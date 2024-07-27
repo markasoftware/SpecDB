@@ -1,0 +1,29 @@
+name: Mobility-Radeon-HD-2400-XT
+humanName: Mobility Radeon HD 2400 XT
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: 'N/A'
+  Release Date: '2007-05-14'
+  GPU Base Frequency: 600 MHz
+  VRAM Frequency: 400 MHz
+  VRAM Bandwidth: 6.400 GB/s
+  VRAM Capacity: 256 MB
+  VRAM Type: DDR2
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 40 
+  Die Size: 85 mm²
+  GPU: M74
+  GPU Variant: M74-M
+  TDP: unknown
+  FP32 Compute: 48.00 GFLOPS
+  Outputs: Portable Device Dependent

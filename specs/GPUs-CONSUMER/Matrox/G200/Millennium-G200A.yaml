@@ -1,0 +1,33 @@
+name: Millennium-G200A
+humanName: Millennium G200A
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Matrox
+  Vendor: Matrox
+  Architecture: G200
+  Lithography: 250 nm
+  DirectX Support: '5.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: 'None'
+  OpenCL Support: 'None'
+  Release Date: '1999'
+  GPU Base Frequency: 84 MHz
+  VRAM Frequency: 112 MHz
+  VRAM Bandwidth: 896.0 MB/s
+  VRAM Capacity: 8 MB
+  VRAM Type: SDR
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 1
+  Texture Mapping Unit Count: 1
+  Shader Processor Count: 0 
+  Die Size: unknown
+  GPU: Calao
+  GPU Variant: MGA-G200A-D2
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA
+  Power Connectors: None
+  Length: 150 mm

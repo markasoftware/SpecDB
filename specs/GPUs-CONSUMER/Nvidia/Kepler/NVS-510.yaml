@@ -1,0 +1,33 @@
+name: NVS-510
+humanName: NVS 510
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Kepler
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.2.175'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2012-10-23'
+  GPU Base Frequency: 797 MHz
+  VRAM Frequency: 891 MHz
+  VRAM Bandwidth: 28.51 GB/s
+  VRAM Capacity: 2 GB
+  VRAM Type: DDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 192 
+  Die Size: 118 mm²
+  GPU: GK107
+  GPU Variant: GK107-301-A2
+  TDP: 35 W
+  FP32 Compute: 306.0 GFLOPS
+  FP64 Compute: 12.75 GFLOPS (1:24)
+  Slot Width: Single-slot
+  Outputs: 4x mini-DisplayPort 1.2
+  Power Connectors: None
+  Length: 160 mm

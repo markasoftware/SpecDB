@@ -1,0 +1,37 @@
+name: Radeon-R9-390
+humanName: Radeon R9 390
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 2.0
+  Lithography: 28 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2015-06-18'
+  GPU Base Frequency: 1000 MHz
+  VRAM Frequency: 1500 MHz
+  VRAM Bandwidth: 384.0 GB/s
+  VRAM Capacity: 8 GB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 512 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 160
+  Shader Processor Count: 2560 
+  Die Size: 438 mm²
+  GPU: Grenada
+  GPU Variant: Grenada PRO
+  TDP: 275 W
+  FP32 Compute: 5.120 TFLOPS
+  FP64 Compute: 640.0 GFLOPS (1:8)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x HDMI 1.4a1x DisplayPort 1.2
+  Power Connectors: 1x 6-pin + 1x 8-pin
+  Length: 275 mm
+  Width: 109 mm
+  Height: 36 mm

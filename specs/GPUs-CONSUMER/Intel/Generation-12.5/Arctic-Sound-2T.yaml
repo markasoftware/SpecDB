@@ -1,0 +1,32 @@
+name: Arctic-Sound-2T
+humanName: Arctic Sound 2T
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Intel
+  Vendor: Intel
+  Architecture: Generation 12.5
+  Lithography: 10 nm
+  DirectX Support: '12.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2021'
+  GPU Base Frequency: 900 MHz
+  VRAM Frequency: 1200 MHz
+  VRAM Bandwidth: 1,229 GB/s
+  VRAM Capacity: 16 GB
+  VRAM Type: HBM2e
+  VRAM Bus Width: 4096 bit
+  Render Output Unit Count: 120
+  Texture Mapping Unit Count: 240
+  Shader Processor Count: 7680 
+  Die Size: 190 mm²
+  GPU: Arctic Sound
+  TDP: 500 W
+  FP32 Compute: 13.82 TFLOPS
+  FP64 Compute: 3.456 TFLOPS (1:4)
+  Slot Width: Dual-slot
+  Outputs: No outputs
+  Power Connectors: None
+  Length: 267 mm

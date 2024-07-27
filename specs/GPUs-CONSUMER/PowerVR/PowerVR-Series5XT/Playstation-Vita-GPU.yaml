@@ -1,0 +1,31 @@
+name: Playstation-Vita-GPU
+humanName: Playstation Vita GPU
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: PowerVR
+  Vendor: PowerVR
+  Architecture: PowerVR Series5XT
+  Lithography: 32 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: 'ES 2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2011-12-11'
+  GPU Base Frequency: 200 MHz
+  VRAM Frequency: 400 MHz
+  VRAM Bandwidth: 3.200 GB/s
+  VRAM Capacity: 128 MB
+  VRAM Type: CDRAM
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 0 
+  Die Size: 6 mm²
+  GPU: SGX543 MP4+
+  GPU Variant: CXD5315GG
+  TDP: 4 W
+  Outputs: No outputs
+  Length: 182 mm
+  Width: 19 mm
+  Height: 84 mm

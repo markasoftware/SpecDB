@@ -1,0 +1,31 @@
+name: GeForce-8600-GTS-Mac-Edition
+humanName: GeForce 8600 GTS Mac Edition
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 80 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2007-09-21'
+  GPU Base Frequency: 675 MHz
+  VRAM Frequency: 1008 MHz
+  VRAM Bandwidth: 32.26 GB/s
+  VRAM Capacity: 512 MB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 32 
+  Die Size: 169 mm²
+  GPU: G84
+  GPU Variant: G84-400-A2
+  TDP: 75 W
+  FP32 Compute: 92.80 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 2x DVI
+  Power Connectors: 1x 6-pin
