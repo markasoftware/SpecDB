@@ -16,7 +16,7 @@ data:
   GPU Boost Frequency: 1493 MHz
   VRAM Frequency: 1808 MHz
   VRAM Bandwidth: 694.3 GB/s
-  VRAM Capacity: 24 GB
+  VRAM Capacity: 24 GiB
   VRAM Type: GDDR5X
   VRAM Bus Width: 384 bit
   Render Output Unit Count: 96

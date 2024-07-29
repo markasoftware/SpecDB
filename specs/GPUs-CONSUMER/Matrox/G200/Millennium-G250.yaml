@@ -15,7 +15,7 @@ data:
   GPU Base Frequency: 96 MHz
   VRAM Frequency: 128 MHz
   VRAM Bandwidth: 1.024 GB/s
-  VRAM Capacity: 8 MB
+  VRAM Capacity: 8 MiB
   VRAM Type: SDR
   VRAM Bus Width: 64 bit
   Render Output Unit Count: 1

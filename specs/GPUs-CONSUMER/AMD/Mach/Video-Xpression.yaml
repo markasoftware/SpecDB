@@ -14,7 +14,7 @@ data:
   GPU Base Frequency: 62 MHz
   VRAM Frequency: 62 MHz
   VRAM Bandwidth: 496.0 MB/s
-  VRAM Capacity: 1 MB
+  VRAM Capacity: 1 MiB
   VRAM Type: EDO
   VRAM Bus Width: 64 bit
   Render Output Unit Count: 1

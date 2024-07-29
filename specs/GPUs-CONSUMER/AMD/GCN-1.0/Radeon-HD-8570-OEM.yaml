@@ -16,7 +16,7 @@ data:
   GPU Boost Frequency: 780 MHz
   VRAM Frequency: 900 MHz
   VRAM Bandwidth: 28.80 GB/s
-  VRAM Capacity: 2 GB
+  VRAM Capacity: 2 GiB
   VRAM Type: GDDR3
   VRAM Bus Width: 128 bit
   Render Output Unit Count: 8

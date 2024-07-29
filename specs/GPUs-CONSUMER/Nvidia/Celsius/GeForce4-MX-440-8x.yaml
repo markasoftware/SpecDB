@@ -15,7 +15,7 @@ data:
   GPU Base Frequency: 275 MHz
   VRAM Frequency: 250 MHz
   VRAM Bandwidth: 2.000 GB/s
-  VRAM Capacity: 32 MB
+  VRAM Capacity: 32 MiB
   VRAM Type: DDR
   VRAM Bus Width: 32 bit
   Render Output Unit Count: 2

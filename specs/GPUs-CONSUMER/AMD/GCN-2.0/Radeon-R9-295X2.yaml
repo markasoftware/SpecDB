@@ -15,7 +15,7 @@ data:
   GPU Base Frequency: 1018 MHz
   VRAM Frequency: 1250 MHz
   VRAM Bandwidth: 320.0 GB/s
-  VRAM Capacity: 4 GB
+  VRAM Capacity: 4 GiB
   VRAM Type: GDDR5
   VRAM Bus Width: 512 bit
   Render Output Unit Count: 64

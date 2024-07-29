@@ -17,7 +17,7 @@ data:
   GPU Boost Frequency: 1550 MHz
   VRAM Frequency: 600 MHz
   VRAM Bandwidth: 1,229 GB/s
-  VRAM Capacity: 48 GB
+  VRAM Capacity: 48 GiB
   VRAM Type: HBM2e
   VRAM Bus Width: 8192 bit
   Render Output Unit Count: 0
