@@ -3,6 +3,7 @@ humanName: FirePro V7900 SDI
 isPart: true
 type: Graphics Card
 data:
+  Market: Workstation
   Manufacturer: AMD
   Vendor: AMD
   Architecture: TeraScale 3

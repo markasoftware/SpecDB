@@ -3,6 +3,7 @@ humanName: Quadro FX 600 PCI
 isPart: true
 type: Graphics Card
 data:
+  Market: Workstation
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Rankine

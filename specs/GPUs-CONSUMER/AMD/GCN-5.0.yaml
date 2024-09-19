@@ -12,8 +12,6 @@ data:
 sections:
   - header: WHOLE RANGE
     members:
-    - Atari-VCS-400-GPU
-    - Atari-VCS-800-GPU
     - Radeon-Instinct-MI25
     - Radeon-Pro-V340-8-GB
     - Radeon-Pro-V340-16-GB
@@ -50,4 +48,3 @@ sections:
     - Radeon-Vega-11-Embedded
     - Radeon-Vega-Frontier-Edition
     - Radeon-Vega-Frontier-Edition-Watercooled
-    - Zhongshan-Subor-Z+-GPU

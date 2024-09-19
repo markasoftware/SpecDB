@@ -22,9 +22,6 @@ sections:
     - FirePro-W8100
     - FirePro-W9100
     - FirePro-W5100
-    - Playstation-4-GPU
-    - Playstation-4-Pro-GPU
-    - Playstation-4-Slim-GPU
     - Radeon-E8870-MXM
     - Radeon-E8870-PCIe
     - Radeon-HD-7790
@@ -74,4 +71,3 @@ sections:
     - Radeon-R9-M470
     - Radeon-R9-M470X
     - Radeon-RX-455-OEM
-    - Xbox-One-X-GPU

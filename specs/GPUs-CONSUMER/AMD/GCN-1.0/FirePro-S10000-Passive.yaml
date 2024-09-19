@@ -3,6 +3,7 @@ humanName: FirePro S10000 Passive
 isPart: true
 type: Graphics Card
 data:
+  Market: Workstation
   Manufacturer: AMD
   Vendor: AMD
   Architecture: GCN 1.0

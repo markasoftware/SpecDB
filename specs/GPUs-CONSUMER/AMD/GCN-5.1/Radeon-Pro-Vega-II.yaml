@@ -3,6 +3,7 @@ humanName: Radeon Pro Vega II
 isPart: true
 type: Graphics Card
 data:
+  Market: Workstation
   Manufacturer: AMD
   Vendor: AMD
   Architecture: GCN 5.1

@@ -6,22 +6,30 @@ topHeader: 'SELECT SERIES:'
 data:
   Manufacturer: AMD
 sections:
-  - header: uncategorised Graphics Cards
+  - header: RDNA
     members:
-      - Mach
-      - GCN-1.0
-      - GCN-5.0
-      - TeraScale
-      - TeraScale-2
-      - TeraScale-3
-      - GCN-2.0
-      - GCN-3.0
-      - GCN-4.0
+      - RDNA-1.0
       - RDNA-2.0
       - RDNA-3.0
-      - GCN-5.1
+  - header: CDNA
+    members:
       - CDNA-1.0
       - CDNA-2.0
       - CDNA-3.0
-      - RDNA-1.0
+  - header: GCN
+    members:
+      - GCN-1.0
+      - GCN-2.0
+      - GCN-3.0
+      - GCN-4.0
+      - GCN-5.0
+      - GCN-5.1
+  - header: TeraScale
+    members:
+      - TeraScale
+      - TeraScale-2
+      - TeraScale-3
+  - header: Mach
+    members:
+      - Mach
 

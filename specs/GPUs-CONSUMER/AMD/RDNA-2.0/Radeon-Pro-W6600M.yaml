@@ -3,6 +3,7 @@ humanName: Radeon Pro W6600M
 isPart: true
 type: Graphics Card
 data:
+  Market: Workstation
   Manufacturer: AMD
   Vendor: AMD
   Architecture: RDNA 2.0

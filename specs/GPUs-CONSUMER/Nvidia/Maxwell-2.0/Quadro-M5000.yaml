@@ -3,6 +3,7 @@ humanName: Quadro M5000
 isPart: true
 type: Graphics Card
 data:
+  Market: Workstation
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Maxwell 2.0

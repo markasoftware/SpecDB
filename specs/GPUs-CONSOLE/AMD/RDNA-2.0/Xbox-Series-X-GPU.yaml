@@ -1,0 +1,33 @@
+name: Xbox-Series-X-GPU
+humanName: Xbox Series X GPU
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: RDNA 2.0
+  Lithography: 7 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.2'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.2'
+  Release Date: '2020-11-10'
+  GPU Base Frequency: 1825 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 560.0 GB/s
+  VRAM Capacity: 10 GiB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 320 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 208
+  Shader Processor Count: 3328 
+  Die Size: 360 mm²
+  GPU: Scarlett
+  TDP: 200 W
+  FP32 Compute: 12.15 TFLOPS
+  FP64 Compute: 759.2 GFLOPS (1:16)
+  Outputs: 1x HDMI 2.1
+  Length: 301 mm
+  Width: 151 mm
+  Height: 151 mm
+  Market: Console

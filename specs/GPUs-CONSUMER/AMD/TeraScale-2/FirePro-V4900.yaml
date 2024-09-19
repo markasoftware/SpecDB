@@ -3,6 +3,7 @@ humanName: FirePro V4900
 isPart: true
 type: Graphics Card
 data:
+  Market: Workstation
   Manufacturer: AMD
   Vendor: AMD
   Architecture: TeraScale 2

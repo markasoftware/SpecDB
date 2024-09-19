@@ -1,0 +1,24 @@
+name: Turing-server
+humanName: Turing
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.3'
+  Release Date: '2018-08-13'
+  Manufacturer: Nvidia
+sections:
+  - header: GRID
+    members:
+    - GRID-RTX-T10-2
+    - GRID-RTX-T10-4
+    - GRID-RTX-T10-8
+    - GRID-RTX-T10-16
+  - header: Tesla
+    members:
+      - Tesla-T4
+      - Tesla-T4G
+      - Tesla-T10-16-GB
+      - Tesla-T40-24-GB

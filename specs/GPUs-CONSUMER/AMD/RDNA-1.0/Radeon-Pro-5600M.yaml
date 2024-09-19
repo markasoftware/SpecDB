@@ -3,6 +3,7 @@ humanName: Radeon Pro 5600M
 isPart: true
 type: Graphics Card
 data:
+  Market: Workstation
   Manufacturer: AMD
   Vendor: AMD
   Architecture: RDNA 1.0

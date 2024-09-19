@@ -3,6 +3,7 @@ humanName: Quadro K1100M
 isPart: true
 type: Graphics Card
 data:
+  Market: Workstation
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Kepler

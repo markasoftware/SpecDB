@@ -79,8 +79,6 @@ sections:
     - GeForce-RTX-3080-Ti-Mobile
     - GeForce-RTX-3090
     - GeForce-RTX-3090-Ti
-    - GRID-A100A
-    - GRID-A100B
     - Jetson-AGX-Orin-32-GB
     - Jetson-AGX-Orin-64-GB
     - Jetson-Orin-Nano-4-GB

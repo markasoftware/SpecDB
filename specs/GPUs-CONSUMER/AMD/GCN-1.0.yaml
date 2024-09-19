@@ -12,7 +12,6 @@ data:
 sections:
   - header: WHOLE RANGE
     members:
-    - AeroBox-GPU
     - FirePro-D300
     - FirePro-D500
     - FirePro-D700
@@ -181,5 +180,3 @@ sections:
     - Radeon-Sky-700
     - Radeon-Sky-900
     - Radeon-R9-M290X
-    - Xbox-One-GPU
-    - Xbox-One-S-GPU

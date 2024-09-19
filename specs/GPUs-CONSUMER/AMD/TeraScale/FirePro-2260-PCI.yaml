@@ -3,6 +3,7 @@ humanName: FirePro 2260 PCI
 isPart: true
 type: Graphics Card
 data:
+  Market: Workstation
   Manufacturer: AMD
   Vendor: AMD
   Architecture: TeraScale

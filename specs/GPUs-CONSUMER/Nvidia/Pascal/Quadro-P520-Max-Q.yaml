@@ -3,6 +3,7 @@ humanName: Quadro P520 Max-Q
 isPart: true
 type: Graphics Card
 data:
+  Market: Workstation
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Pascal

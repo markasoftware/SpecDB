@@ -12,7 +12,6 @@ data:
 sections:
   - header: WHOLE RANGE
     members:
-    - Playstation-5-GPU
     - Radeon-610M
     - Radeon-660M
     - Radeon-680M
@@ -59,7 +58,3 @@ sections:
     - Radeon-RX-6900-XTX
     - Radeon-RX-6950-XT
     - Radeon-RX-6700S
-    - Steam-Deck-GPU
-    - Steam-Deck-OLED-GPU
-    - Xbox-Series-S-GPU
-    - Xbox-Series-X-GPU

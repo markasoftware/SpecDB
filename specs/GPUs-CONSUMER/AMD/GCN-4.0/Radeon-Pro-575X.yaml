@@ -3,6 +3,7 @@ humanName: Radeon Pro 575X
 isPart: true
 type: Graphics Card
 data:
+  Market: Workstation
   Manufacturer: AMD
   Vendor: AMD
   Architecture: GCN 4.0

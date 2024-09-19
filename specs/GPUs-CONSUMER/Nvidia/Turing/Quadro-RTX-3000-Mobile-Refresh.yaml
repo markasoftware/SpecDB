@@ -3,6 +3,7 @@ humanName: Quadro RTX 3000 Mobile Refresh
 isPart: true
 type: Graphics Card
 data:
+  Market: Workstation
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Turing

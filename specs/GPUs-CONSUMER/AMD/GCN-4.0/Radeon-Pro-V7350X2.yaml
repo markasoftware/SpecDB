@@ -3,6 +3,7 @@ humanName: Radeon Pro V7350X2
 isPart: true
 type: Graphics Card
 data:
+  Market: Workstation
   Manufacturer: AMD
   Vendor: AMD
   Architecture: GCN 4.0

@@ -1,0 +1,15 @@
+name: Kepler-2.0-server
+humanName: Kepler 2.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.2.175'
+  Release Date: '2013-04-01'
+  Manufacturer: Nvidia
+sections:
+  - header: Tesla
+    members:
+    - Tesla-K80

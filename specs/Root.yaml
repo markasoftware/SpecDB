@@ -10,6 +10,7 @@ sections:
     - CPUs-DESKTOP
     - CPUs-SERVER
     - GPUs-CONSUMER-AMD
+    - GPUs-CONSOLE-AMD
     - APUs-DESKTOP
     - APUs-MOBILE
   - header: Intel
@@ -22,9 +23,12 @@ sections:
   - header: ATI
     members:
     - GPUs-CONSUMER-ATI
+    - GPUs-CONSOLE-ATI
   - header: Nvidia
     members:
     - GPUs-CONSUMER-NVIDIA
+    - GPUs-CONSOLE-Nvidia
+    - GPUs-SERVER-Nvidia
   - header: 3dfx
     members:
     - GPUs-CONSUMER-3dfx

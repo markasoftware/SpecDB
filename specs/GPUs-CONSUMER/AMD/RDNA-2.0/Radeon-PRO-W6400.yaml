@@ -3,6 +3,7 @@ humanName: Radeon PRO W6400
 isPart: true
 type: Graphics Card
 data:
+  Market: Workstation
   Manufacturer: AMD
   Vendor: AMD
   Architecture: RDNA 2.0

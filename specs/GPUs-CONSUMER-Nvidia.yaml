@@ -6,10 +6,13 @@ topHeader: 'SELECT SERIES:'
 data:
   Manufacturer: Nvidia
 sections:
-  - header: uncategorised Graphics Cards
+  - header: RTX
     members:
       - Ada-Lovelace
       - Ampere
+      - Turing
+  - header: uncategorised Graphics Cards
+    members:
       - Celsius
       - Curie
       - Fahrenheit
@@ -25,7 +28,6 @@ sections:
       - Rankine
       - Tesla
       - Tesla-2.0
-      - Turing
       - VLIW-Vec4
       - Volta
 

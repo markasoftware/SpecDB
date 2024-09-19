@@ -38,9 +38,6 @@ sections:
     - GeForce-GTX-860M-OEM
     - GeForce-MX110
     - GeForce-MX130
-    - GRID-M3-3020
-    - GRID-M10-8Q
-    - GRID-M40
     - NVS-810
     - Quadro-K620
     - Quadro-K620M
@@ -54,4 +51,3 @@ sections:
     - Quadro-M1000M
     - Quadro-M1200-Mobile
     - Quadro-M2000M
-    - Tesla-M10

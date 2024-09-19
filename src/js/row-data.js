@@ -101,6 +101,9 @@ module.exports.sections = [
 		name: 'Basic Specs',
 		rows: [
 			{
+				name: 'Market'
+			},
+			{
 				name: 'Base Frequency',
 				processor: types.unitUp,
 			},
@@ -153,6 +156,7 @@ module.exports.sections = [
 	{
 		name: 'Benchmarks',
 		rows: [
+			// CPU
 			{
 				name: 'UserBenchmark CPU Score',
 				processor: types.numberUp,
@@ -175,6 +179,19 @@ module.exports.sections = [
 			},
 			{
 				name: 'Geekbench Multi-Core Score',
+				processor: types.numberUp,
+			},
+			// GPU
+			{
+				name: '3DMark Score',
+				processor: types.numberUp,
+			},
+			{
+				name: 'Geekbench GPU score',
+				processor: types.numberUp,
+			},
+			{
+				name: 'PassMark Score',
 				processor: types.numberUp,
 			},
 		],

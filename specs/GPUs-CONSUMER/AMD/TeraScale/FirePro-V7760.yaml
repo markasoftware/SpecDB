@@ -3,6 +3,7 @@ humanName: FirePro V7760
 isPart: true
 type: Graphics Card
 data:
+  Market: Workstation
   Manufacturer: AMD
   Vendor: AMD
   Architecture: TeraScale

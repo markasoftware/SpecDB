@@ -1,0 +1,19 @@
+name: Tesla-2.0-server
+humanName: Tesla 2.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  Release Date: '2007-04-17'
+  Manufacturer: Nvidia
+sections:
+  - header: Tesla
+    members:
+    - Tesla-C1060
+    - Tesla-C1080
+    - Tesla-M1060
+    - Tesla-S1070
+    - Tesla-S1075

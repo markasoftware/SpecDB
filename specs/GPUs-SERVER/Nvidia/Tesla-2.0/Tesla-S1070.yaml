@@ -1,0 +1,31 @@
+name: Tesla-S1070
+humanName: Tesla S1070
+isPart: true
+type: Graphics Card
+data:
+  Market: Data center
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla 2.0
+  Lithography: 55 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2008-06-01'
+  GPU Base Frequency: 610 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 102.4 GB/s
+  VRAM Capacity: 4 GiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 512 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 80
+  Shader Processor Count: 240 
+  Die Size: 470 mm²
+  GPU: GT200B
+  TDP: 800 W
+  FP32 Compute: 622.1 GFLOPS
+  FP64 Compute: 77.76 GFLOPS (1:8)
+  Slot Width: Dual-slot
+  Outputs: No outputs

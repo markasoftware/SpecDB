@@ -3,6 +3,7 @@ humanName: Quadro M500M
 isPart: true
 type: Graphics Card
 data:
+  Market: Workstation
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Maxwell

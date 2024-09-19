@@ -1,0 +1,35 @@
+name: GPUs-SERVER-Nvidia
+humanName: Server GPUs
+type: Generic Container
+isPart: false
+topHeader: 'SELECT SERIES:'
+data:
+  Manufacturer: Nvidia
+sections:
+  - header: Ampere
+    members:
+      - Ampere-server
+  - header: Turing
+    members:
+      - Turing-server
+  - header: Kepler
+    members:
+      - Kepler-server
+  - header: Maxwell
+    members:
+      - Maxwell-server
+      - Maxwell-2.0-server
+  - header: Pascal
+    members:
+      - Pascal
+  - header: Tesla
+    members:
+      - Tesla-server
+      - Tesla-2.0-server
+  - header: Fermi
+    members:
+      - Fermi-server
+      - Fermi-2.0-server
+  - header: Volta
+    members:
+      - Volta-server
