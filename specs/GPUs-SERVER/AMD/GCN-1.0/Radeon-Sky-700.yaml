@@ -3,6 +3,7 @@ humanName: Radeon Sky 700
 isPart: true
 type: Graphics Card
 data:
+  Market: Cloud Gaming
   Manufacturer: AMD
   Vendor: AMD
   Architecture: GCN 1.0

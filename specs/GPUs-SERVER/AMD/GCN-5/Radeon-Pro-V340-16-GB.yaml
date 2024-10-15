@@ -1,9 +1,9 @@
-name: Radeon-Pro-V340-8-GB
-humanName: Radeon Pro V340 8 GB
+name: Radeon-Pro-V340-16-GB
+humanName: Radeon Pro V340 16 GB
 isPart: true
 type: Graphics Card
 data:
-  Market: Workstation
+  Market: Data center
   Manufacturer: AMD
   Vendor: AMD
   Architecture: GCN 5.0
@@ -17,7 +17,7 @@ data:
   GPU Boost Frequency: 1500 MHz
   VRAM Frequency: 945 MHz
   VRAM Bandwidth: 483.8 GB/s
-  VRAM Capacity: 8 GiB
+  VRAM Capacity: 16 GiB
   VRAM Type: HBM2
   VRAM Bus Width: 2048 bit
   Render Output Unit Count: 64

@@ -3,7 +3,7 @@ humanName: Radeon PRO V620
 isPart: true
 type: Graphics Card
 data:
-  Market: Workstation
+  Market: Data center
   Manufacturer: AMD
   Vendor: AMD
   Architecture: RDNA 2.0
