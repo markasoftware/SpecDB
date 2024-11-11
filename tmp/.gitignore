@@ -1,3 +1,4 @@
 *
 !.gitignore
 !find-missing-intel-cpus.py
+!/scrape/.gitignore

@@ -88,20 +88,20 @@ const combineUtil = {
 		const series = [
 			// RX
 			{
-				nameTest: /^R[579X]-\d\d\d(?!.*[Ll]aptop)/,
+				nameTest: /^(Radeon)?.R[579X].\d{3,4}(?!.*[Ll]aptop)(XT)?(XTX)?$/i,
 				brand: 'amd',
 				type: 'gpu',
 				parser: () => {
-					// TODO: how do we give data with GB specified higher priority than data w/o?
-					const regexMatch = hints.cleanName.match(/(R[579X]-\d\d\dX?)(-(\d+)GB)?/);
-					if (regexMatch) {
-						const [ , rxXxx, , memorySize ] = regexMatch;
-						return combineUtil.toMatcher(
-							memorySize ?
-								`${rxXxx}-${memorySize}GiB` :
-								new RegExp(`^${rxXxx}(-\\d+GiB)?$`)
-						);
-					}
+					return hints.cleanName;
+				},
+			},
+			// RTX / GTX
+			{
+				nameTest: /^Geforce.[RG]TX.[0-9]{4}(.Ti)?\s*$/i,
+				brand: 'nvidia',
+				type: 'gpu',
+				parser: () => {
+					return hints.cleanName;
 				},
 			},
 			// Vega

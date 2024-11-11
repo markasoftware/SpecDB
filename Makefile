@@ -40,18 +40,25 @@ intc_codes := ./tmp/intel-scrape-codenames.json
 intc_scrape:= ${intc_procs} ${intc_codes}
 intc_parse := ./tmp/intel-parse.json
 
-ubch_cpus  := ./tmp/userbenchmark-scrape-cpus.csv
-ubch_gpus  := ./tmp/userbenchmark-scrape-gpus.csv
+ubch_cpus  := ./tmp/scrape/userbenchmark-scrape-cpus.csv
+ubch_gpus  := ./tmp/scrape/userbenchmark-scrape-gpus.csv
 ubch_scrape:= ${ubch_cpus} ${ubch_gpus}
 ubch_parse := ./tmp/userbenchmark-parse.json
 
-3dmk_cpus  := ./tmp/3dmark-scrape-cpus.html
-3dmk_gpus  := ./tmp/3dmark-scrape-gpus.html
+3dmk_cpus  := ./tmp/scrape/3dmark-scrape-cpus.html
+3dmk_gpus  := ./tmp/scrape/3dmark-scrape-gpus.html
 3dmk_scrape:= ${3dmk_cpus} ${3dmk_gpus}
 3dmk_parse := ./tmp/3dmark-parse.json
 
-gbch_scrape:= ./tmp/geekbench-scrape.html
+gbch_cpus := ./tmp/scrape/geekmench-scrape-cpus.csv
+gbch_gpus_opencl := ./tmp/scrape/geekmench-scrape-gpus-opencl.csv
+gbch_gpus_vulkan := ./tmp/scrape/geekbench-scrape-gpus-vulkan.csv
+gbch_scrape:= ${gbch_cpus} ${gbch_gpus_opencl} ${gbch_gpus_vulkan}
 gbch_parse := ./tmp/geekbench-parse.json
+
+psmk_gpus := ./tmp/scrape/pass-mark-scrape-gpus.html
+psmk_scrape := ${psmk_gpus}
+psmk_parse := ./tmp/pass-mark-parse.json
 
 prod       := false
 
@@ -111,11 +118,19 @@ ${3dmk_parse} : ${3dmk_scrape} build/3dmark-parse.js
 	${node} build/3dmark-parse.js ${3dmk_scrape} ${3dmk_parse}
 
 ${gbch_scrape} :
-	${curl} ${gbch_scrape} 'https://browser.geekbench.com/processor-benchmarks'
+	${curl} ${gbch_cpus} 'https://browser.geekbench.com/processor-benchmarks'
+	${curl} ${gbch_gpus_opencl} 'https://browser.geekbench.com/opencl-benchmarks'
+	${curl} ${gbch_gpus_vulkan} 'https://browser.geekbench.com/vulkan-benchmarks'
 
 # MAYBE: an implicit rule for -parse.json
 ${gbch_parse} : ${gbch_scrape} build/geekbench-parse.js
 	${node} build/geekbench-parse.js ${gbch_scrape} ${gbch_parse}
+
+${psmk_scrape} :
+	${curl} ${psmk_gpus} 'https://www.videocardbenchmark.net/high_end_gpus.html'
+
+${psmk_parse} : ${psmk_scrape} build/passmark-parse.js
+	${node} build/passmark-parse.js ${psmk_scrape} ${psmk_parse}
 
 ${n_sentinel} : package.json
 	npm install
@@ -124,7 +139,7 @@ ${n_sentinel} : package.json
 # clean everything
 clean:
 	${MAKE} clean-nonet
-	rm -f ${n_sentinel} ${intc_scrape} ${3dmk_scrape} ${ubch_scrape} ${gbch_scrape}
+	rm -f ${n_sentinel} ${intc_scrape} ${3dmk_scrape} ${ubch_scrape} ${gbch_scrape} ${psmk_scrape}
 
 # only clean things that can be regenerated without a network connection
 clean-nonet:

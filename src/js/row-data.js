@@ -183,7 +183,7 @@ module.exports.sections = [
 			},
 			// GPU
 			{
-				name: '3DMark Score',
+				name: '3DMark Graphics Score',
 				processor: types.numberUp,
 			},
 			{
