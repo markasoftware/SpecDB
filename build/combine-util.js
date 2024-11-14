@@ -88,10 +88,12 @@ const combineUtil = {
 		const series = [
 			// RX
 			{
-				nameTest: /^(Radeon)?.R[579X].\d{3,4}(?!.*[Ll]aptop)(XT)?(XTX)?$/i,
+				nameTest: /^(Pro.)?R[579X]-\d{3,4}(?!.*[Ll]aptop).(XT)?(XTX)?$/i,
 				brand: 'amd',
 				type: 'gpu',
 				parser: () => {
+					// console.log(hints.cleanName)
+					return `Radeon-${hints.cleanName}`;
 					return hints.cleanName;
 				},
 			},

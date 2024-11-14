@@ -4,8 +4,8 @@ const _ = require('lodash');
 const util = require('./util');
 
 const [cpuPath, gpuPath, gpuPath2, outPath] = process.argv.slice(2);
-console.log("FIND MEEEEEEEEEEEEEEE!!!!!!!")
-console.log(cpuPath, gpuPath, outPath);
+// console.log("FIND MEEEEEEEEEEEEEEE!!!!!!!")
+// console.log(cpuPath, gpuPath, outPath);
 
 const parse = (tableEl, type, partType) => {
 	const $ = cheerio.load(tableEl);

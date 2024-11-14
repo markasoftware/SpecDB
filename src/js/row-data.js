@@ -187,7 +187,11 @@ module.exports.sections = [
 				processor: types.numberUp,
 			},
 			{
-				name: 'Geekbench GPU score',
+				name: 'Geekbench Vulkan Score',
+				processor: types.numberUp,
+			},
+			{
+				name: 'Geekbench OpenCl Score',
 				processor: types.numberUp,
 			},
 			{
