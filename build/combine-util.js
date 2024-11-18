@@ -86,6 +86,18 @@ const combineUtil = {
 		}
 
 		const series = [
+			// Intel Arc
+			{
+				nameTest: /^(\(R\).)?Arc(\(TM\))?.A[0-9]{3}(.Graphics)?$/i,
+				brand: 'intel',
+				type: 'gpu',
+				parser: () => {
+					console.log(hints.cleanName);
+					console.log(hints.cleanName.replace('(R)-','').replace('(TM)','').replace('-Graphics',''));
+					return hints.cleanName.replace('(r)','').replace('(tm)','');
+				},
+				// Intel(R) Arc(TM) A770 Graphics
+			},
 			// RX
 			{
 				nameTest: /^(Pro.)?R[579X]-\d{3,4}(?!.*[Ll]aptop).(XT)?(XTX)?$/i,
@@ -99,10 +111,11 @@ const combineUtil = {
 			},
 			// RTX / GTX
 			{
-				nameTest: /^Geforce.[RG]TX.[0-9]{4}(.Ti)?\s*$/i,
+				nameTest: /^Geforce.[RG]TX.[0-9]{4}(.Ti)?(.SUPER)?(.D)?(.Max.Q)?\s*$/i,
 				brand: 'nvidia',
 				type: 'gpu',
 				parser: () => {
+					//3d mark has max-q like `with Max-Q Design`
 					return hints.cleanName;
 				},
 			},
