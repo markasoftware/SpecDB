@@ -70,9 +70,27 @@ const gpuParse = (inPath) => {
 	}).get())
 }
 
+const gpuParse2 = (inPath) => {
+	const $ = cheerio.load(fs.readFileSync(inPath, 'utf8'));
+	return _.flatten($('.table.benchmark-chart-table tbody').map((i, el) => {
+		switch (i) {
+			case 0:
+				return parse(el, 'OpenCl', 'gpu');
+				break;
+			default:
+				console.log('WARNING: More than one geekbench tables! Their site must have changed!');
+				return [];
+				// fuck it just put 'em everywhere
+				break;
+		}
+	}).get())
+}
+
 
 util.writeJSON(outPath,
 	cpuParse(cpuPath).concat(
-		gpuParse(gpuPath)
+		gpuParse(gpuPath).concat(
+			gpuParse2(gpuPath2)
+		)
 	)
 );
