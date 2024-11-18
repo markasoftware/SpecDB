@@ -195,7 +195,7 @@ module.exports.sections = [
 				processor: types.numberUp,
 			},
 			{
-				name: 'PassMark Score',
+				name: 'PassMark Graphics Score',
 				processor: types.numberUp,
 			},
 		],

@@ -89,9 +89,9 @@ ${sw_output} : ${sw_m_input}
 		${sw_output} 2>/dev/null
 
 ${spec_output} ${map_output} : ${athr_output} ${intc_parse} ${ubch_parse} ${3dmk_parse} \
-	${gbch_parse} build/combine-specs.js build/combine-util.js build/util.js
+	${gbch_parse} ${psmk_parse} build/combine-specs.js build/combine-util.js build/util.js
 	${node} build/combine-specs.js ${spec_output} ${map_output} \
-		${athr_output} ${ubch_parse} ${3dmk_parse} ${gbch_parse} ${intc_parse}
+		${athr_output} ${ubch_parse} ${3dmk_parse} ${gbch_parse} ${psmk_parse} ${intc_parse}
 
 ${athr_output} : ${athr_input} build/gen-specs.js
 	${node} build/gen-specs.js ${athr_folder} ${athr_output}
@@ -118,16 +118,20 @@ ${3dmk_parse} : ${3dmk_scrape} build/3dmark-parse.js
 	${node} build/3dmark-parse.js ${3dmk_scrape} ${3dmk_parse}
 
 ${gbch_scrape} :
+	@echo "Downloading Geekbench data..."
 	${curl} ${gbch_cpus} 'https://browser.geekbench.com/processor-benchmarks'
 	${curl} ${gbch_gpus_opencl} 'https://browser.geekbench.com/opencl-benchmarks'
 	${curl} ${gbch_gpus_vulkan} 'https://browser.geekbench.com/vulkan-benchmarks'
+	@echo "Geekbench data downloaded."
 
 # MAYBE: an implicit rule for -parse.json
 ${gbch_parse} : ${gbch_scrape} build/geekbench-parse.js
 	${node} build/geekbench-parse.js ${gbch_scrape} ${gbch_parse}
 
 ${psmk_scrape} :
+	@echo "Downloading PassMark GPU data..."
 	${curl} ${psmk_gpus} 'https://www.videocardbenchmark.net/high_end_gpus.html'
+	@echo "PassMark GPU data download complete."
 
 ${psmk_parse} : ${psmk_scrape} build/passmark-parse.js
 	${node} build/passmark-parse.js ${psmk_scrape} ${psmk_parse}
@@ -146,6 +150,6 @@ clean-nonet:
 	rm -f ${css_output} ${js_output} ${sw_output} \
 		${spec_output} ${map_output} ${intc_parse} \
 		${ubch_parse} ${3dmk_parse} ${gbch_parse} \
-		${athr_output}
+		${psmk_parse} ${athr_output}
 
 .PHONY: development production test clean clean-nonet watch
