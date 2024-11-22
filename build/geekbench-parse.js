@@ -59,7 +59,7 @@ const gpuParse = (inPath) => {
 	return _.flatten($('.table.benchmark-chart-table tbody').map((i, el) => {
 		switch (i) {
 			case 0:
-				return parse(el, 'Vulkan', 'gpu');
+				return parse(el, 'OpenCl', 'gpu');
 				break;
 			default:
 				console.log('WARNING: More than one geekbench tables! Their site must have changed!');
@@ -75,7 +75,7 @@ const gpuParse2 = (inPath) => {
 	return _.flatten($('.table.benchmark-chart-table tbody').map((i, el) => {
 		switch (i) {
 			case 0:
-				return parse(el, 'OpenCl', 'gpu');
+				return parse(el, 'Vulkan', 'gpu');
 				break;
 			default:
 				console.log('WARNING: More than one geekbench tables! Their site must have changed!');

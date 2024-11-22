@@ -85,6 +85,8 @@ const combineUtil = {
 			hints.type = hints.type.toLowerCase();
 		}
 
+		
+
 		const series = [
 			// Intel Arc
 			{
@@ -92,31 +94,71 @@ const combineUtil = {
 				brand: 'intel',
 				type: 'gpu',
 				parser: () => {
-					console.log(hints.cleanName);
-					console.log(hints.cleanName.replace('(R)-','').replace('(TM)','').replace('-Graphics',''));
-					return hints.cleanName.replace('(r)','').replace('(tm)','');
+					return hints.cleanName.replace('(R)-','').replace('(TM)','').replace('-Graphics','');
 				},
 				// Intel(R) Arc(TM) A770 Graphics
 			},
 			// RX
 			{
-				nameTest: /^(Pro.)?R[579X]-\d{3,4}(?!.*[Ll]aptop).(XT)?(XTX)?$/i,
+				nameTest: /^(Pro.)?RX-(\(TM\)-)?\d{3,4}(?!.*[Ll]aptop)(.XT)?(.XTX)?$/i,
 				brand: 'amd',
 				type: 'gpu',
 				parser: () => {
-					// console.log(hints.cleanName)
+					if(hints.cleanName.includes("Radeon")){
+						return hints.cleanName;
+					}
 					return `Radeon-${hints.cleanName}`;
-					return hints.cleanName;
 				},
 			},
 			// RTX / GTX
 			{
-				nameTest: /^Geforce.[RG]TX.[0-9]{4}(.Ti)?(.SUPER)?(.D)?(.Max.Q)?\s*$/i,
+				nameTest: /^(GeForce.)?[RG]TX.([a-z])?[0-9]{3,4}(M)?(.Ti)?(.SUPER)?(.D)?(.Max.Q)?(.(\()?Mobile(\))?)?(.(\()?Laptop.GPU(\))?)?(.Ada.Generation)?\s*$/i,
 				brand: 'nvidia',
 				type: 'gpu',
 				parser: () => {
-					//3d mark has max-q like `with Max-Q Design`
-					return hints.cleanName;
+					return hints.cleanName.replace("(Mobile)","Mobile").replace("Laptop-GPU","Mobile");
+				},
+			},
+			// passmark max-q- geekbench sometimes too
+			{
+				nameTest: /^(GeForce.)?[RG]TX.[0-9]{3,4}(M)?(.Ti)?(.Super)?(.D)?(.with.Max.Q.Design)\s*$/i,
+				brand: 'nvidia',
+				type: 'gpu',
+				parser: () => {
+					//passmark has max-q like `with Max-Q Design`
+					return hints.cleanName.replace('with-Max-Q-Design',"Max-Q");
+				},
+			},
+			// Titans
+			{
+				nameTest: /^(NVIDIA)?(GeForce)?(.[RG]TX)?TITAN(.[a-z]*)?/i,
+				brand: 'nvidia',
+				type: 'gpu',
+				parser: () => {
+					if(hints.cleanName.includes("Xp")){
+						console.log(hints);
+						console.log(hints.cleanName.replace(/titan/i,"TITAN"))
+					}
+					return hints.cleanName.replace(/titan/i,"TITAN");
+				}
+			},
+			// 3DMark special GTX
+			{
+				nameTest: /^Geforce.[0-9]{3,4}(M)?(.Ti)?(.SUPER)?(.D)?(.Max.Q)?\s*$/i,
+				brand: 'nvidia',
+				type: 'gpu',
+				parser: () => {
+					return hints.cleanName.replace('GeForce-', 'GeForce-GTX-');
+				},
+			},
+			// Quadro
+			{
+				nameTest: /^Quadro/i,
+				brand: 'nvidia',
+				type: 'gpu',
+				parser: () => {
+					//passmark has max-q like `with Max-Q Design`
+					return hints.cleanName.replace('with-Max-Q-Design',"Max-Q");
 				},
 			},
 			// Vega
@@ -131,6 +173,19 @@ const combineUtil = {
 						`RX-Vega-${num}`;
 				},
 			},
+			// Radeon R9/7/5
+			{
+				nameTest: /^(Radeon.)?R(5|7|8|9)/i,
+				brand: 'amd',
+				type: 'gpu',
+				parser: () => {
+					
+					if(hints.cleanName.includes("Radeon")){
+						return hints.cleanName.replace("Fury", "FURY");
+					}
+					return `Radeon-${hints.cleanName.replace("Fury", "FURY")}`;
+				},
+			},
 			// Radeon VII
 			{
 				nameTest: /radeon.vii\s*$/i,
@@ -141,7 +196,7 @@ const combineUtil = {
 			},
 			// HD
 			{
-				nameTest: /HD-.*\d{4}(-|$)/,
+				nameTest: /^(Radeon.)?HD-.*\d{4}(-|$)/,
 				brand: 'amd',
 				type: 'gpu',
 				parser: () => {
@@ -176,6 +231,15 @@ const combineUtil = {
 				type: 'cpu',
 				parser: () => {
 					return hints.cleanName.replace('Ryzen-TR-', '');
+				}
+			},
+			// Epyc
+			{
+				nameTest: /^Epyc/i,
+				brand: 'amd',
+				type: 'cpu',
+				parser: () => {
+					return hints.cleanName.replace('EPYC-', 'Epyc-');
 				}
 			},
 			// simple Intel
@@ -234,8 +298,14 @@ const combineUtil = {
 
 		switch (compatibleSeries.length) {
 			case 0:
+				// if(hints.cleanName.includes("Titan-Xp")){
+				// console.log(hints);
+				// }
 				return false;
 			case 1:
+				// if(hints.cleanName.includes("Epyc")){
+				// 	console.log(hints);
+				// }
 				return compatibleSeries[0].parser();
 			default:
 				console.error(`Multiple series matched third party ${hints.name}: ${compatibleSeries.map(c => c.nameTest)}`);
