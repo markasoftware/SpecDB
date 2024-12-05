@@ -1,4 +1,4 @@
-*
-!.gitignore
-!find-missing-intel-cpus.py
-!/scrape/.gitignore
+*.csv
+*.html
+*.js
+*.json
