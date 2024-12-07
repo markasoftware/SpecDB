@@ -1,6 +1,6 @@
 PATH       := ./node_modules/.bin:${PATH}
 # to dl, this followed by output file followed by url
-curl       := curl --retry 5 --retry-delay 5 --connect-timeout 30 -fo
+curl       := curl -A "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" --retry 5 --retry-delay 5 --connect-timeout 30 -fo
 node       := node ${NODE_OPTS}
 
 tests      := ./tests/*.js
