@@ -135,10 +135,6 @@ const combineUtil = {
 				brand: 'nvidia',
 				type: 'gpu',
 				parser: () => {
-					if(hints.cleanName.includes("Xp")){
-						console.log(hints);
-						console.log(hints.cleanName.replace(/titan/i,"TITAN"))
-					}
 					return hints.cleanName.replace(/titan/i,"TITAN");
 				}
 			},
@@ -298,14 +294,8 @@ const combineUtil = {
 
 		switch (compatibleSeries.length) {
 			case 0:
-				// if(hints.cleanName.includes("Titan-Xp")){
-				// console.log(hints);
-				// }
 				return false;
 			case 1:
-				// if(hints.cleanName.includes("Epyc")){
-				// 	console.log(hints);
-				// }
 				return compatibleSeries[0].parser();
 			default:
 				console.error(`Multiple series matched third party ${hints.name}: ${compatibleSeries.map(c => c.nameTest)}`);

@@ -1,5 +1,3 @@
-console.log('   find meeeeee');
-
 const fs = require('fs');
 const cheerio = require('cheerio');
 const _ = require('lodash');
@@ -12,8 +10,6 @@ const parse = (path, partType, benchmarkType) => {
 		.map((i, el) => {
 			const name = $(el).find('span.prdname').text();
 			const score = +(_.trim($(el).find('span.count').text()).replace(',',''));
-            console.log(name);
-            console.log(score);
 			return { name, score };
 		}).get();
 	// c => c.score sometimes gets rid of new GPUs which are listed, but
@@ -50,7 +46,6 @@ const parse = (path, partType, benchmarkType) => {
 }
 
 const [gpuPath, outPath] = process.argv.slice(2);
-console.log(process.argv.slice(2));
 util.writeJSON(outPath,
 	(
 		parse(gpuPath, 'gpu', 'Graphics')
