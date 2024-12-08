@@ -31,7 +31,8 @@ data:
   FP64 Compute: 1,099 GFLOPS (1:32)
   Slot Width: Dual-slot
   Outputs: 
-    - 1x HDMI 2.1a2x DisplayPort 2.1
+    - 1x HDMI 2.1a
+    - 2x DisplayPort 2.1
     - 1x USB Type-C
   Power Connectors: 2x 8-pin
   Length: 267 mm
