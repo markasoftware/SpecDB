@@ -4,12 +4,44 @@ type: Graphics Architecture
 isPart: false
 topHeader: 'SELECT CARD:'
 data:
-  Lithography: 14 nm
+  Lithography: 7 nm
   DirectX Support: '12.2'
   Vulkan Support: '1.3'
   Release Date: '2020-10-28'
   Manufacturer: AMD
 sections:
+  - header: Consumer RX
+    members:
+    - Radeon-RX-6950-XT
+    - Radeon-RX-6900-XTX
+    - Radeon-RX-6900-XT
+    - Radeon-RX-6850M-XT
+    - Radeon-RX-6800S
+    - Radeon-RX-6800M
+    - Radeon-RX-6800-XT
+    - Radeon-RX-6800
+    - Radeon-RX-6750-XT
+    - Radeon-RX-6750-GRE-12-GB
+    - Radeon-RX-6750-GRE-10-GB
+    - Radeon-RX-6700M
+    - Radeon-RX-6700-XT
+    - Radeon-RX-6700S
+    - Radeon-RX-6700
+    - Radeon-RX-6650M-XT
+    - Radeon-RX-6650M
+    - Radeon-RX-6650-XT
+    - Radeon-RX-6600S
+    - Radeon-RX-6600M
+    - Radeon-RX-6600-XT
+    - Radeon-RX-6600
+    - Radeon-RX-6550S
+    - Radeon-RX-6550M
+    - Radeon-RX-6500M
+    - Radeon-RX-6500-XT
+    - Radeon-RX-6450M
+    - Radeon-RX-6400
+    - Radeon-RX-6300M
+    - Radeon-RX-6300
   - header: WHOLE RANGE
     members:
     - Radeon-610M
@@ -28,33 +60,3 @@ sections:
     - Radeon-Pro-W6800X
     - Radeon-Pro-W6800X-Duo
     - Radeon-Pro-W6900X
-    - Radeon-RX-6300
-    - Radeon-RX-6300M
-    - Radeon-RX-6400
-    - Radeon-RX-6450M
-    - Radeon-RX-6500-XT
-    - Radeon-RX-6500M
-    - Radeon-RX-6550M
-    - Radeon-RX-6550S
-    - Radeon-RX-6600
-    - Radeon-RX-6600-XT
-    - Radeon-RX-6600M
-    - Radeon-RX-6600S
-    - Radeon-RX-6650-XT
-    - Radeon-RX-6650M
-    - Radeon-RX-6650M-XT
-    - Radeon-RX-6700
-    - Radeon-RX-6700-XT
-    - Radeon-RX-6700M
-    - Radeon-RX-6750-GRE-10-GB
-    - Radeon-RX-6750-GRE-12-GB
-    - Radeon-RX-6750-XT
-    - Radeon-RX-6800
-    - Radeon-RX-6800-XT
-    - Radeon-RX-6800M
-    - Radeon-RX-6800S
-    - Radeon-RX-6850M-XT
-    - Radeon-RX-6900-XT
-    - Radeon-RX-6900-XTX
-    - Radeon-RX-6950-XT
-    - Radeon-RX-6700S

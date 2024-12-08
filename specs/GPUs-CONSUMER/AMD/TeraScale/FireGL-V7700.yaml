@@ -30,7 +30,8 @@ data:
   Slot Width: Dual-slot
   Outputs: 
     - 1x DVI
-    - 1x DisplayPort1x S-Video
+    - 1x DisplayPort
+    - 1x S-Video
   Power Connectors: 1x 6-pin
   Length: 254 mm
   Width: 111 mm
