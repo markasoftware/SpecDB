@@ -1,9 +1,9 @@
 name: Ryzen-5-7540U
 humanName: Ryzen 7 7540U
 isPart: true
-type: CPU
+type: APU
 inherits:
-- Phoenix
+- Phoenix-M
 data:
   L1 Cache (Data): 192 KiB
   L1 Cache (Instruction): 192 KiB
@@ -14,5 +14,8 @@ data:
   Thread Count: 12
   Base Frequency: 3.2 GHz
   Boost Frequency: 4.9 GHz
-  GPU Model: Radeon 760M
-  GPU Base Frequency: 2500 MHz
+  GPU Model: Radeon 740M
+  GPU Base Frequency: 800 MHz
+  GPU Boost Frequency: 2500 MHz
+  Shader Processor Count: 256
+  Render Output Unit Count: 4

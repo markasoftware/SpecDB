@@ -112,6 +112,22 @@ module.exports.sections = [
 				processor: types.unitUp,
 			},
 			{
+				name: 'Performance-Core Base Frequency',
+				processor: types.unitUp,
+			},
+			{
+				name: 'Efficient-Core Base Frequency',
+				processor: types.unitUp,
+			},
+			{
+				name: 'Performance-Core Boost Frequency',
+				processor: types.unitUp,
+			},
+			{
+				name: 'Efficient-Core Boost Frequency',
+				processor: types.unitUp,
+			},
+			{
 				name: 'GPU Base Frequency',
 				processor: types.unitUp,
 			},
@@ -124,7 +140,23 @@ module.exports.sections = [
 				processor: types.numberUp,
 			},
 			{
+				name: 'Performance-Core Count',
+				processor: types.numberUp,
+			},
+			{
+				name: 'Efficient-Core Count',
+				processor: types.numberUp,
+			},
+			{
 				name: 'Thread Count',
+				processor: types.numberUp,
+			},
+			{
+				name: 'Performance-Thread Count',
+				processor: types.numberUp,
+			},
+			{
+				name: 'Efficient-Thread Count',
 				processor: types.numberUp,
 			},
 			{
@@ -205,6 +237,9 @@ module.exports.sections = [
 		rows: [
 			{
 				name: 'Architecture',
+			},
+			{
+				name: 'Efficient-Core Architecture',
 			},
 			{
 				name: 'GPU',

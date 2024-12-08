@@ -1,0 +1,36 @@
+name: Ryzen-3-8300G
+humanName: Ryzen 3 8300G
+isPart: true
+type: CPU
+inherits:
+- Phoenix
+data:
+  cTDP Support: true
+  Architecture: Zen 4
+  Efficient-Core Architecture: Zen 4C
+  L1 Cache (Data): 128 KiB
+  L1 Cache (Instruction): 128 KiB
+  L2 Cache (Total): 4 MiB
+  L3 Cache (Total): 8 MiB
+  Core Count: 4
+  Performance-Core Count: 1
+  Efficient-Core Count: 3
+  Thread Count: 8
+  Performance-Thread Count: 2
+  Efficient-Thread Count: 6
+  Base Frequency: 3.4 GHz
+  Performance-Core Base Frequency: 4 GHz
+  Efficient-Core Base Frequency: 3.2 GHz
+  Boost Frequency: 4.9 GHz
+  Performance-Core Boost Frequency: 4.9 GHz
+  Efficient-Core Boost Frequency: 3.7 GHz
+  Release Date: '2024-01'
+  #Unlocked: false
+  PCIe 4.0 Lanes: 14
+  Render Output Unit Count: 4
+  GPU Base Frequency: 2600 MHz
+  VRAM Type: DDR5
+  #Shader Processor Count: 512
+  GPU Model: 740M
+
+  Note: 

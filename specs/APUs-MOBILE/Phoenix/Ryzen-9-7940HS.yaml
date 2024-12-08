@@ -1,9 +1,9 @@
 name: Ryzen-9-7940HS
 humanName: Ryzen 9 7940HS
 isPart: true
-type: CPU
+type: APU
 inherits:
-- Phoenix
+- Phoenix-M
 data:
   L1 Cache (Data): 256 KiB
   L1 Cache (Instruction): 256 KiB
@@ -14,5 +14,9 @@ data:
   Thread Count: 16
   Base Frequency: 4 GHz
   Boost Frequency: 5.2 GHz
+  PCIe 4.0 Lanes: 20
   GPU Model: Radeon 780M
-  GPU Base Frequency: 2800 MHz
+  GPU Base Frequency: 800 MHz
+  GPU Boost Frequency: 2800 MHz
+  Shader Processor Count: 768
+  Render Output Unit Count: 12
