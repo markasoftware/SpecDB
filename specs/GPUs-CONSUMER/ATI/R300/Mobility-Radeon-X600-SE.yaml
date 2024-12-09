@@ -26,3 +26,4 @@ data:
   GPU Variant: M24C
   TDP: unknown
   Outputs: Portable Device Dependent
+  Pixel Shaders: 4

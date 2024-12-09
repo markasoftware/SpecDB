@@ -26,3 +26,4 @@ data:
   GPU Variant: M64-CSP128
   TDP: unknown
   Outputs: Portable Device Dependent
+  Pixel Shaders: 4

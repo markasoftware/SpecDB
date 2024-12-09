@@ -26,3 +26,4 @@ data:
   GPU Variant: M7-16CL
   TDP: 27 W
   Outputs: Portable Device Dependent
+  Pixel Shaders: 2

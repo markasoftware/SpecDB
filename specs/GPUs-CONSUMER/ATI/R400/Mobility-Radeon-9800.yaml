@@ -26,3 +26,4 @@ data:
   GPU Variant: M18 9800
   TDP: unknown
   Outputs: Portable Device Dependent
+  Pixel Shaders: 8

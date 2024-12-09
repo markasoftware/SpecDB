@@ -25,3 +25,4 @@ data:
   GPU: M10
   TDP: unknown
   Outputs: Portable Device Dependent
+  Pixel Shaders: 4

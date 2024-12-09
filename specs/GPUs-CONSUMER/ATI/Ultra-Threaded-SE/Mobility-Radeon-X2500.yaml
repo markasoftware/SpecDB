@@ -25,3 +25,4 @@ data:
   GPU: M66
   TDP: unknown
   Outputs: Portable Device Dependent
+  Pixel Shaders: 12

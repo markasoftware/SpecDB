@@ -313,6 +313,10 @@ module.exports.sections = [
 			{
 				name: 'Tensor Cores',
 				processor: types.numberUp
+			},
+			{
+				name: 'Pixel Shaders',
+				processor: types.numberUp
 			}
 		],
 	},

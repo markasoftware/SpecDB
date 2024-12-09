@@ -26,3 +26,4 @@ data:
   GPU Variant: M71-S
   TDP: unknown
   Outputs: Portable Device Dependent
+  Pixel Shaders: 4
