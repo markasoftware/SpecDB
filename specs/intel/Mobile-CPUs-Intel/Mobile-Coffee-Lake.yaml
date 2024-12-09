@@ -1,0 +1,54 @@
+humanName: 'Coffee Lake'
+sections:
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Xeon-E-2286M
+      - Xeon-E-2276M
+      - Xeon-E-2186M
+      - Xeon-E-2176M
+      - Core-i9-9980HK
+      - Core-i9-9880H
+      - Core-i9-8950HK
+      - Core-i7-9850H
+      - Core-i7-9750HF
+      - Core-i7-9750H
+      - Core-i7-8850H
+      - Core-i7-8750H
+      - Core-i7-8700B
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-8569U
+      - Core-i7-8559U
+      - Core-i7-8557U
+      - Core-i5-9400H
+      - Core-i5-9300HF
+      - Core-i5-9300H
+      - Core-i5-8400H
+      - Core-i5-8300H
+      - Core-i5-8279U
+      - Core-i5-8269U
+      - Core-i5-8259U
+      - Core-i5-8257U
+  -
+    header: '6 Threads'
+    members:
+      - Core-i5-8500B
+      - Core-i5-8400B
+  -
+    header: '4 Threads'
+    members:
+      - Core-i3-8109U
+      - Core-i3-8100H
+      - Core-i3-8100B
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2018-04-03'
+  Sockets:
+    - BGA1440
+    - BGA1528
+name: Mobile-Coffee-Lake

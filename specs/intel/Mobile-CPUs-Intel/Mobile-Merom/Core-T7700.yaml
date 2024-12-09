@@ -1,0 +1,19 @@
+data:
+  Manufacturer: Intel
+  Architecture: Merom
+  Market: Mobile
+  Lithography: '65 nm'
+  TDP: '35 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Base Frequency': '2.4 GHz'
+  'L2 Cache (Total)': '4 MiB'
+  'Die Size': '143 mm'
+  'Release Date': '2007-05-09'
+  Socket: 'PBGA479, PPGA478'
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Core T7700'
+name: Core-T7700

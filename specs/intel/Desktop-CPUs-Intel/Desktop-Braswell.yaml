@@ -1,0 +1,20 @@
+humanName: Braswell
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Pentium-J3710
+      - Pentium-J3160
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-J3060
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2016-01-10'
+  Sockets:
+    - BGA1170
+name: Desktop-Braswell

@@ -1,0 +1,14 @@
+name: GPUs-CONSOLE-ATI
+humanName: Console GPUs
+type: Generic Container
+isPart: false
+topHeader: 'SELECT SERIES:'
+data:
+  Manufacturer: ATI
+sections:
+  - header: Ultra Threaded SE
+    members:
+      - Wii-GPU
+  - header: Rage 5
+    members:
+      - GameCube-GPU

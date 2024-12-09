@@ -1,0 +1,18 @@
+data:
+  Manufacturer: Intel
+  Architecture: Prescott
+  Market: Desktop
+  Lithography: '90 nm'
+  TDP: '73 W'
+  'Core Count': 1
+  'Thread Count': 1
+  'Base Frequency': '3.2 GHz'
+  'L2 Cache (Total)': '256 KiB'
+  'Die Size': '112 mm'
+  'Release Date': 'Q3 2005'
+  Socket: 'PLGA478, PPGA478'
+  'Other Extensions': {  }
+isPart: true
+type: CPU
+humanName: 'Pentium 350J'
+name: Pentium-350J

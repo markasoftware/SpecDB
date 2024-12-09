@@ -1,0 +1,23 @@
+data:
+  Manufacturer: Intel
+  Architecture: Avoton
+  Market: Server
+  Lithography: '22 nm'
+  TDP: '6 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Max Memory Channels': 1
+  'Max Memory Frequency': '1333 MHz'
+  'Memory Type': DDR3/DDR3L
+  'Base Frequency': '1.7 GHz'
+  'Boost Frequency': '2 GHz'
+  'L2 Cache (Total)': '1024 KiB'
+  'Release Date': '2013-09-04'
+  Socket: FCBGA1283
+  AES: true
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Atom C2350'
+name: Atom-C2350

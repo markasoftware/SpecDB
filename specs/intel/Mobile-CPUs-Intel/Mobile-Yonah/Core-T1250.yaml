@@ -1,0 +1,16 @@
+data:
+  Manufacturer: Intel
+  Architecture: Yonah
+  Market: Mobile
+  Lithography: '65 nm'
+  TDP: '31 W'
+  'Core Count': 1
+  'Thread Count': 1
+  'Base Frequency': '1.73 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Die Size': '90 mm'
+  'Other Extensions': {  }
+isPart: true
+type: CPU
+humanName: 'Core T1250'
+name: Core-T1250

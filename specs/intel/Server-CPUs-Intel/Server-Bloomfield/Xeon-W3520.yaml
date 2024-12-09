@@ -1,0 +1,25 @@
+data:
+  Manufacturer: Intel
+  Architecture: Bloomfield
+  Market: Server
+  Lithography: '45 nm'
+  TDP: '130 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 3
+  'Max Memory Frequency': '1066 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2.66 GHz'
+  'Boost Frequency': '2.93 GHz'
+  'L2 Cache (Total)': '8 MiB'
+  'Die Size': '263 mm'
+  'Release Date': '2009-03-30'
+  Socket: FCLGA1366
+  AES: false
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+isPart: true
+type: CPU
+humanName: 'Xeon W3520'
+name: Xeon-W3520

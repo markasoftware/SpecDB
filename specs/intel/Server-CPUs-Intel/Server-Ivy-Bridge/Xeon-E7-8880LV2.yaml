@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Ivy Bridge'
+  Market: Server
+  Lithography: '22 nm'
+  TDP: '105 W'
+  'Core Count': 15
+  'Thread Count': 30
+  'Max Memory Channels': 4
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2.2 GHz'
+  'Boost Frequency': '2.8 GHz'
+  'L2 Cache (Total)': '37.5 MiB'
+  'Release Date': '2014-02-18'
+  Socket: FCLGA2011
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: false
+isPart: true
+type: CPU
+humanName: 'Xeon E7-8880LV2'
+name: Xeon-E7-8880LV2

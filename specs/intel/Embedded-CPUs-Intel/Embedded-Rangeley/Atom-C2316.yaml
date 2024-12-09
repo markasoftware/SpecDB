@@ -1,0 +1,20 @@
+data:
+  Manufacturer: Intel
+  Architecture: Rangeley
+  Market: Embedded
+  Lithography: '22 nm'
+  TDP: '7 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Max Memory Channels': 1
+  'Max Memory Frequency': '1333 MHz'
+  'Memory Type': DDR
+  'Base Frequency': '1.5 GHz'
+  'L2 Cache (Total)': '1024 KiB'
+  'Release Date': '2017-07-10'
+  Socket: FCBGA1283
+  AES: true
+isPart: true
+type: CPU
+humanName: 'Atom C2316'
+name: Atom-C2316

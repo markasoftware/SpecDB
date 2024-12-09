@@ -1,0 +1,19 @@
+data:
+  Manufacturer: Intel
+  Architecture: Yorkfield
+  Market: Server
+  Lithography: '45 nm'
+  TDP: '65 W'
+  'Core Count': 4
+  'Thread Count': 4
+  'Base Frequency': '2.83 GHz'
+  'L2 Cache (Total)': '12 MiB'
+  'Die Size': '214 mm'
+  'Release Date': '2009-02-23'
+  Socket: LGA775
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Xeon L3360'
+name: Xeon-L3360

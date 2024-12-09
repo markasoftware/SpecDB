@@ -1,0 +1,47 @@
+humanName: Yonah
+sections:
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-T2130
+      - Pentium-T2080
+      - Pentium-T2060
+      - Core-U2500
+      - Core-U2400
+      - Core-T2700
+      - Core-T2600
+      - Core-T2500
+      - Core-T2450
+      - Core-T2400
+      - Core-T2350
+      - Core-T2300E
+      - Core-T2300
+      - Core-T2250
+      - Core-T2050
+      - Core-L2500
+      - Core-L2400
+      - Core-L2300
+  -
+    header: '1 Threads'
+    members:
+      - Pentium-443
+      - Pentium-423
+      - Pentium-410
+      - Pentium-215
+      - Core-U1500
+      - Core-U1400
+      - Core-U1300
+      - Core-T1400
+      - Core-T1350
+      - Core-T1300
+      - Core-T1250
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '65 nm'
+  'Release Date': '2006-02-14'
+  Sockets:
+    - PPGA478
+    - PBGA479
+name: Mobile-Yonah

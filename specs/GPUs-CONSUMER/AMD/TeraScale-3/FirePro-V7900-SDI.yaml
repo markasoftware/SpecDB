@@ -1,0 +1,37 @@
+name: FirePro-V7900-SDI
+humanName: FirePro V7900 SDI
+isPart: true
+type: Graphics Card
+data:
+  Market: Workstation
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale 3
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2011-05-24'
+  GPU Base Frequency: 725 MHz
+  VRAM Frequency: 1250 MHz
+  VRAM Bandwidth: 160.0 GB/s
+  VRAM Capacity: 2 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 80
+  Shader Processor Count: 1280 
+  Die Size: 389 mm²
+  GPU: Cayman
+  GPU Variant: Cayman PRO GL
+  TDP: 150 W
+  FP32 Compute: 1.856 TFLOPS
+  FP64 Compute: 464.0 GFLOPS (1:4)
+  Slot Width: Single-slot
+  Outputs: 
+    - 4x DisplayPort 1.2
+    - 1x SDI
+  Power Connectors: 1x 6-pin
+  Length: 279 mm
+  Width: 111 mm

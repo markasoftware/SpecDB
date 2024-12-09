@@ -1,0 +1,21 @@
+humanName: Yorkfield
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-X3380
+      - Xeon-X3370
+      - Xeon-X3360
+      - Xeon-X3350
+      - Xeon-X3330
+      - Xeon-X3320
+      - Xeon-L3360
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': '2008-03-24'
+  Sockets:
+    - LGA775
+name: Server-Yorkfield

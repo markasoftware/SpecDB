@@ -1,0 +1,56 @@
+humanName: 'Server CPUs (Intel)'
+sections:
+  -
+    header: '2015 - 2019'
+    members:
+      - Server-Cascade-Lake
+      - Server-Hewitt-Lake
+      - Server-Coffee-Lake
+      - Server-Kaby-Lake
+      - Server-Denverton
+      - Server-Skylake
+      - Server-Broadwell
+  -
+    header: '2010 - 2014'
+    members:
+      - Server-Ivy-Bridge-EN
+      - Server-Ivy-Bridge-EP
+      - Server-Avoton
+      - Server-Haswell
+      - Server-Briarwood
+      - Server-Centerton
+      - Server-Sandy-Bridge-EN
+      - Server-Ivy-Bridge
+      - Server-Sandy-Bridge-EP
+      - Server-Sandy-Bridge
+      - Server-Westmere-EX
+      - Server-Gulftown
+      - Server-Clarkdale
+      - Server-Westmere-EP
+      - Server-Nehalem-EX
+  -
+    header: '2005 - 2009'
+    members:
+      - Server-Lynnfield
+      - Server-Nehalem-EP
+      - Server-Bloomfield
+      - Server-Dunnington
+      - Server-Yorkfield
+      - Server-Conroe
+      - Server-Wolfdale
+      - Server-Harpertown
+      - Server-Tigerton
+      - Server-Kentsfield
+      - Server-Clovertown
+      - Server-Woodcrest
+  -
+    header: '1970 - 1974'
+    members:
+      - Server-Dempsey
+      - Server-Paxville
+      - Server-Tulsa
+type: 'Generic Container'
+topHeader: 'SELECT ARCHITECTURE:'
+data:
+  Manufacturer: Intel
+name: Server-CPUs-Intel

@@ -1,0 +1,34 @@
+name: Radeon-HD-8730-OEM
+humanName: Radeon HD 8730 OEM
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2013-09-05'
+  GPU Base Frequency: 800 MHz
+  VRAM Frequency: 1125 MHz
+  VRAM Bandwidth: 72.00 GB/s
+  VRAM Capacity: 1024 MiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 384 
+  Die Size: 123 mm²
+  GPU: Cape Verde
+  GPU Variant: Cape Verde LE
+  TDP: 47 W
+  FP32 Compute: 614.4 GFLOPS
+  FP64 Compute: 38.40 GFLOPS (1:16)
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 1.4a1x DisplayPort 1.2
+  Power Connectors: None

@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: Haswell
+  Market: Server
+  Lithography: '22 nm'
+  TDP: '105 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 4
+  'Max Memory Frequency': '1866 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '3 GHz'
+  'Boost Frequency': '3.5 GHz'
+  'L2 Cache (Total)': '10 MiB'
+  'Release Date': '2014-09-08'
+  Socket: FCLGA2011-3
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+isPart: true
+type: CPU
+humanName: 'Xeon E5-2623V3'
+name: Xeon-E5-2623V3

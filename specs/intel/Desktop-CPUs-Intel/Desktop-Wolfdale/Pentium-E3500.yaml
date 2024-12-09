@@ -1,0 +1,20 @@
+data:
+  Manufacturer: Intel
+  Architecture: Wolfdale
+  Market: Desktop
+  Lithography: '45 nm'
+  TDP: '65 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Base Frequency': '2.7 GHz'
+  'L2 Cache (Total)': '1024 KiB'
+  'Release Date': 'Q3 2010'
+  Socket: LGA775
+  AES: false
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: false
+isPart: true
+type: CPU
+humanName: 'Pentium E3500'
+name: Pentium-E3500

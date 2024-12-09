@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: Lincroft
+  Market: Mobile
+  Lithography: '45 nm'
+  TDP: '1.3 W'
+  'Core Count': 1
+  'Thread Count': 2
+  'Max Memory Channels': 1
+  'Max Memory Frequency': '400 MHz'
+  'Memory Type': LPDDR1
+  'Base Frequency': '1.2 GHz'
+  'L2 Cache (Total)': '512 KiB'
+  'Release Date': '2011-05-02'
+  AES: false
+  'Other Extensions': {  }
+  AVX/SSE/MMX: false
+  'GPU Base Frequency': '200 MHz'
+  'VRAM Type': LPDDR1
+  'Maximum VRAM Capacity': '256 MiB'
+isPart: true
+type: CPU
+humanName: 'Atom Z600'
+name: Atom-Z600

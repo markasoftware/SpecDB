@@ -1,0 +1,17 @@
+humanName: Centerton
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Atom-S1260
+      - Atom-S1240
+      - Atom-S1220
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '32 nm'
+  'Release Date': '2012-12-11'
+  Sockets:
+    - BGA1283
+name: Server-Centerton

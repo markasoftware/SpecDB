@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: Pineview
+  Market: Desktop
+  Lithography: '45 nm'
+  TDP: '10 W'
+  'Core Count': 1
+  'Thread Count': 2
+  'Max Memory Channels': 1
+  'Max Memory Frequency': '800 MHz'
+  'Memory Type': DDR2
+  'Base Frequency': '1.66 GHz'
+  'L2 Cache (Total)': '512 KiB'
+  'Die Size': '66 mm'
+  'Release Date': 'Q1 2010'
+  Socket: FCBGA559
+  AES: false
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: false
+isPart: true
+type: CPU
+humanName: 'Atom D410'
+name: Atom-D410

@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: Haswell
+  Market: Mobile
+  Lithography: '22 nm'
+  TDP: '15 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': 'DDR3L, LPDDR3'
+  'Base Frequency': '1.6 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Release Date': '2013-12-01'
+  AES: false
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+  'GPU Base Frequency': '200 MHz'
+  'GPU Boost Frequency': '1000 MHz'
+isPart: true
+type: CPU
+humanName: 'Pentium 2981U'
+name: Pentium-2981U

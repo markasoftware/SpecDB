@@ -1,0 +1,30 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Amber Lake Y'
+  Market: Mobile
+  Lithography: '14 nm'
+  TDP: '5 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1866 MHz'
+  'Memory Type': 'LPDDR3, DDR3L'
+  'Base Frequency': '1.1 GHz'
+  'Boost Frequency': '3.4 GHz'
+  'L2 Cache (Total)': '4 MiB'
+  'Release Date': '2018-08-28'
+  Socket: FCBGA1515
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+  'GPU Base Frequency': '300 MHz'
+  'GPU Boost Frequency': '900 MHz'
+  'VRAM Type': 'LPDDR3, DDR3L'
+  'Maximum VRAM Capacity': '16 GiB'
+  'DirectX Support': '12'
+  'OpenGL Support': '4.5'
+isPart: true
+type: CPU
+humanName: 'Core m3-8100Y'
+name: Core-m3-8100Y

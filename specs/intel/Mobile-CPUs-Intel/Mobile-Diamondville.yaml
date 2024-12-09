@@ -1,0 +1,16 @@
+humanName: Diamondville
+sections:
+  -
+    header: '2 Threads'
+    members:
+      - Atom-N280
+      - Atom-N270
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': '2008-06-03'
+  Sockets:
+    - PBGA437
+name: Mobile-Diamondville

@@ -1,0 +1,45 @@
+humanName: 'Coffee Lake'
+sections:
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Xeon-E-2288G
+      - Xeon-E-2286G
+      - Xeon-E-2278G
+      - Xeon-E-2276G
+      - Xeon-E-2246G
+      - Xeon-E-2236
+      - Xeon-E-2186G
+      - Xeon-E-2176G
+      - Xeon-E-2146G
+      - Xeon-E-2136
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-E-2274G
+      - Xeon-E-2244G
+      - Xeon-E-2234
+      - Xeon-E-2174G
+      - Xeon-E-2144G
+      - Xeon-E-2134
+  -
+    header: '6 Threads'
+    members:
+      - Xeon-E-2226G
+      - Xeon-E-2126G
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-E-2224G
+      - Xeon-E-2224
+      - Xeon-E-2124G
+      - Xeon-E-2124
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: 14nm
+  'Release Date': '2018-07-12'
+  Sockets:
+    - LGA1151
+name: Server-Coffee-Lake

@@ -1,0 +1,35 @@
+name: GeForce-GT-420-OEM
+humanName: GeForce GT 420 OEM
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2010-09-03'
+  GPU Base Frequency: 700 MHz
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 28.80 GB/s
+  VRAM Capacity: 1024 MiB
+  VRAM Type: DDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 48 
+  Die Size: 116 mm²
+  GPU: GF108
+  GPU Variant: GF108-200-A1
+  TDP: 50 W
+  FP32 Compute: 134.4 GFLOPS
+  FP64 Compute: 11.20 GFLOPS (1:12)
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 1.3a1x VGA
+  Power Connectors: None
+  Length: 145 mm

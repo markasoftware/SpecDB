@@ -1,0 +1,21 @@
+humanName: 'Broadwell E'
+sections:
+  -
+    header: '17 - 64 Threads'
+    members:
+      - Core-i7-6950X
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Core-i7-6900K
+      - Core-i7-6850K
+      - Core-i7-6800K
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2016-05-30'
+  Sockets:
+    - LGA20113
+name: Desktop-Broadwell-E

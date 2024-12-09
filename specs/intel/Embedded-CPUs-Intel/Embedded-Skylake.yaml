@@ -1,0 +1,38 @@
+humanName: Skylake
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-E3-1578LV5
+      - Xeon-E3-1558LV5
+      - Xeon-E3-1505LV5
+      - Xeon-E3-1268LV5
+      - Core-i7-6822EQ
+      - Core-i7-6820EQ
+      - Core-i7-6700TE
+  -
+    header: '4 Threads'
+    members:
+      - Core-i5-6500TE
+      - Core-i5-6442EQ
+      - Core-i5-6440EQ
+      - Core-i3-6102E
+      - Core-i3-6100TE
+      - Core-i3-6100E
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-G4400TE
+      - Pentium-G3902E
+      - Pentium-G3900TE
+      - Pentium-G3900E
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2015-10-11'
+  Sockets:
+    - LGA1151
+    - BGA1440
+name: Embedded-Skylake

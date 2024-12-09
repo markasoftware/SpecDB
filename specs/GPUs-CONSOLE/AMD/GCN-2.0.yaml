@@ -1,0 +1,20 @@
+name: GCN-2.0-Console
+humanName: GCN 2.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.2.170'
+  Release Date: '2013-03-22'
+  Manufacturer: AMD
+sections:
+  - header: Playstation
+    members:
+    - Playstation-4-GPU
+    - Playstation-4-Pro-GPU
+    - Playstation-4-Slim-GPU
+  - header: Xbox
+    members:
+    - Xbox-One-X-GPU

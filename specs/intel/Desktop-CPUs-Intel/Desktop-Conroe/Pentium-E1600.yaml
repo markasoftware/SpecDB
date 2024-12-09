@@ -1,0 +1,20 @@
+data:
+  Manufacturer: Intel
+  Architecture: Conroe
+  Market: Desktop
+  Lithography: '65 nm'
+  TDP: '65 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Base Frequency': '2.4 GHz'
+  'L2 Cache (Total)': '512 KiB'
+  'Die Size': '77 mm'
+  'Release Date': '2009-06-03'
+  Socket: LGA775
+  AES: false
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Pentium E1600'
+name: Pentium-E1600

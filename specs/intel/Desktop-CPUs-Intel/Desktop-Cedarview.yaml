@@ -1,0 +1,20 @@
+humanName: Cedarview
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Atom-D2700
+      - Atom-D2550
+  -
+    header: '2 Threads'
+    members:
+      - Atom-D2500
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '32 nm'
+  'Release Date': '2011-09-26'
+  Sockets:
+    - BGA559
+name: Desktop-Cedarview

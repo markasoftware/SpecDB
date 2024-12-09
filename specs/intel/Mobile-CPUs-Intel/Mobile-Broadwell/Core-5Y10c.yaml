@@ -1,0 +1,30 @@
+data:
+  Manufacturer: Intel
+  Architecture: Broadwell
+  Market: Mobile
+  Lithography: '14 nm'
+  TDP: '4.5 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': 'LPDDR3, DDR3L/DDR3L'
+  'Base Frequency': '800 MHz'
+  'Boost Frequency': '2 GHz'
+  'L2 Cache (Total)': '4 MiB'
+  'Release Date': '2014-10-26'
+  Socket: FCBGA1234
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+  'GPU Base Frequency': '300 MHz'
+  'GPU Boost Frequency': '800 MHz'
+  'VRAM Type': 'LPDDR3, DDR3L/DDR3L'
+  'Maximum VRAM Capacity': '16 GiB'
+  'DirectX Support': '12'
+  'OpenGL Support': '4.3'
+isPart: true
+type: CPU
+humanName: 'Core 5Y10c'
+name: Core-5Y10c

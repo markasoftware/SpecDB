@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Westmere EP'
+  Market: Server
+  Lithography: '32 nm'
+  TDP: '80 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 3
+  'Max Memory Frequency': '1066 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2.53 GHz'
+  'Boost Frequency': '2.8 GHz'
+  'L2 Cache (Total)': '12 MiB'
+  'Release Date': '2010-03-16'
+  Socket: FCLGA1366
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+isPart: true
+type: CPU
+humanName: 'Xeon E5630'
+name: Xeon-E5630

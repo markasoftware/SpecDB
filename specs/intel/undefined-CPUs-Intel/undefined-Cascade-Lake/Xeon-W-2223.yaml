@@ -1,0 +1,22 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Cascade Lake'
+  Lithography: '14 nm'
+  TDP: '120 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 4
+  'Max Memory Frequency': '2666 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '3.6 GHz'
+  'Boost Frequency': '3.9 GHz'
+  'L2 Cache (Total)': '8.25 MiB'
+  'Release Date': '2019-10-07'
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX-512
+isPart: true
+type: CPU
+humanName: 'Xeon W-2223'
+name: Xeon-W-2223

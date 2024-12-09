@@ -1,0 +1,49 @@
+humanName: Conroe
+sections:
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-E2220
+      - Pentium-E2200
+      - Pentium-E2180
+      - Pentium-E2160
+      - Pentium-E2140
+      - Pentium-E1600
+      - Pentium-E1500
+      - Pentium-E1400
+      - Pentium-E1200
+      - Core-X6800
+      - Core-E6850
+      - Core-E6750
+      - Core-E6700
+      - Core-E6600
+      - Core-E6550
+      - Core-E6540
+      - Core-E6420
+      - Core-E6400
+      - Core-E6320
+      - Core-E6300
+      - Core-E4700
+      - Core-E4600
+      - Core-E4500
+      - Core-E4400
+      - Core-E4300
+  -
+    header: '1 Threads'
+    members:
+      - Pentium-450
+      - Pentium-440
+      - Pentium-430
+      - Pentium-420
+      - Pentium-220
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '65 nm'
+  'Release Date': 'Q3 2006'
+  Sockets:
+    - LGA775
+    - PLGA775
+    - PBGA479
+name: Desktop-Conroe

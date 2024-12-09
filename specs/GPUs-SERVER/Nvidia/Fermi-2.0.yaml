@@ -1,0 +1,19 @@
+name: Fermi-2.0-console
+humanName: Fermi 2.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  Release Date: '2010-11-09'
+  Manufacturer: Nvidia
+sections:
+  - header: Tesla
+    members:
+    - Tesla-C2075
+    - Tesla-C2090
+    - Tesla-M2075
+    - Tesla-M2090
+    - Tesla-X2090

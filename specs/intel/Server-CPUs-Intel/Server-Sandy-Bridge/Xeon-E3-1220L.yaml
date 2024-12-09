@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Sandy Bridge'
+  Market: Server
+  Lithography: '32 nm'
+  TDP: '20 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1333 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2.2 GHz'
+  'Boost Frequency': '3.4 GHz'
+  'L2 Cache (Total)': '3 MiB'
+  'Release Date': '2011-04-05'
+  Socket: FCLGA1155
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+isPart: true
+type: CPU
+humanName: 'Xeon E3-1220L'
+name: Xeon-E3-1220L

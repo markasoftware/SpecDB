@@ -1,8 +1,0 @@
-isPart: true
-type: Graphics Card
-data:
-  VRAM Capacity: 2 GiB
-inherits:
-  - R9 370X Base
-name: R9-370X-2GiB
-humanName: R9 370X (2GiB)

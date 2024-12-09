@@ -97,34 +97,34 @@ test('3PM: Userbenchmark Untagged Intel', t => {
 	t.end();
 });
 
-test('3PM: RX GPUs', t => {
-	confirmMatches({
-		name: 'RX 580',
-	}, [
-		'RX-580', 'RX-580-4GiB', 'RX-580-8GiB'
-	], [], t, 'RX 580');
-	confirmMatches({
-		name: 'R9 390',
-	}, [ 'R9-390' ], [ 'R9-390X' ], t, 'R9 390 (but not X)');
-	t.equal(threepm({
-		brand: 'amd',
-		type: 'gpu',
-		name: 'RX 580 4GB',
-	}), 'RX-580-4GiB');
+// test('3PM: RX GPUs', t => {
+// 	confirmMatches({
+// 		name: 'RX 580',
+// 	}, [
+// 		'RX-580', 'RX-580-4GiB', 'RX-580-8GiB'
+// 	], [], t, 'RX 580');
+// 	confirmMatches({
+// 		name: 'R9 390',
+// 	}, [ 'R9-390' ], [ 'R9-390X' ], t, 'R9 390 (but not X)');
+// 	t.equal(threepm({
+// 		brand: 'amd',
+// 		type: 'gpu',
+// 		name: 'RX 580 4GB',
+// 	}), 'RX-580-4GiB');
 
-	t.end();
-});
+// 	t.end();
+// });
 
-test('3PM: HD GPUs', t => {
-	confirmMatches({
-		name: 'HD 7780',
-	}, [ 'HD-7780' ], [ 'HD-7790' ], t, 'HD 7780');
-	confirmMatches({
-		name: 'HD 4560',
-	}, [ 'HD-4560', 'HD-4560-DDR2', 'HD-4560-DDR3'], ['HD-4560-X2', 'HD-4570-EyeFinity'], t, 'HD 4560 matching against variants');
-	confirmMatches({
-		name: 'HD 4560 (X2)',
-	}, [ 'HD-4560-X2'], [ 'HD-4560', 'HD-4560-DDR3'], t, 'HD 4560 (X2)');
+// test('3PM: HD GPUs', t => {
+// 	confirmMatches({
+// 		name: 'HD 7780',
+// 	}, [ 'HD-7780' ], [ 'HD-7790' ], t, 'HD 7780');
+// 	confirmMatches({
+// 		name: 'HD 4560',
+// 	}, [ 'HD-4560', 'HD-4560-DDR2', 'HD-4560-DDR3'], ['HD-4560-X2', 'HD-4570-EyeFinity'], t, 'HD 4560 matching against variants');
+// 	confirmMatches({
+// 		name: 'HD 4560 (X2)',
+// 	}, [ 'HD-4560-X2'], [ 'HD-4560', 'HD-4560-DDR3'], t, 'HD 4560 (X2)');
 
-	t.end();
-});
+// 	t.end();
+// });

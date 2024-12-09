@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Coffee Lake'
+  Market: Server
+  Lithography: '14 nm'
+  TDP: '71 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '2666 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '3.5 GHz'
+  'Boost Frequency': '4.5 GHz'
+  'L2 Cache (Total)': '8 MiB'
+  'Release Date': '2018-07-12'
+  Socket: FCLGA1151
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+isPart: true
+type: CPU
+humanName: 'Xeon E-2134'
+name: Xeon-E-2134

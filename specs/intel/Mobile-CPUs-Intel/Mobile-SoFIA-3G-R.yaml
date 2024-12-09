@@ -1,0 +1,20 @@
+humanName: 'SoFIA 3G R'
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Atom-x3-C3295RK
+      - Atom-x3-C3265RK
+      - Atom-x3-C3235RK
+      - Atom-x3-C3230RK
+      - Atom-x3-C3200RK
+      - Atom-x3-3205RK
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '28 nm'
+  'Release Date': '2015-03-02'
+  Sockets:
+    - VF2BGA361
+name: Mobile-SoFIA-3G-R

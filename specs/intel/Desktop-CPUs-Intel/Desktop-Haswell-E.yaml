@@ -1,0 +1,17 @@
+humanName: 'Haswell E'
+sections:
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Core-i7-5960X
+      - Core-i7-5930K
+      - Core-i7-5820K
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2014-08-29'
+  Sockets:
+    - LGA20113
+name: Desktop-Haswell-E

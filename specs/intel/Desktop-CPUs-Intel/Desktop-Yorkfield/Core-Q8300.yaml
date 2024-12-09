@@ -1,0 +1,20 @@
+data:
+  Manufacturer: Intel
+  Architecture: Yorkfield
+  Market: Desktop
+  Lithography: '45 nm'
+  TDP: '95 W'
+  'Core Count': 4
+  'Thread Count': 4
+  'Base Frequency': '2.5 GHz'
+  'L2 Cache (Total)': '4 MiB'
+  'Die Size': '164 mm'
+  'Release Date': '2008-12-01'
+  Socket: LGA775
+  AES: false
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Core Q8300'
+name: Core-Q8300

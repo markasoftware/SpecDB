@@ -1,0 +1,18 @@
+humanName: Cloverview
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Atom-Z2760
+      - Atom-Z2580
+      - Atom-Z2560
+      - Atom-Z2520
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '32 nm'
+  'Release Date': '2012-09-27'
+  Sockets:
+    - MB4760
+name: Mobile-Cloverview

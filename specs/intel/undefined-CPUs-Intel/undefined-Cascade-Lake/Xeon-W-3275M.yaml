@@ -1,0 +1,21 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Cascade Lake'
+  Lithography: '14 nm'
+  TDP: '205 W'
+  'Core Count': 28
+  'Thread Count': 56
+  'Max Memory Channels': 6
+  'Max Memory Frequency': '2933 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '2.5 GHz'
+  'Boost Frequency': '4.4 GHz'
+  'L2 Cache (Total)': '38.5 MiB'
+  'Release Date': '2019-06-03'
+  Socket: FCLGA3647
+  AES: true
+  AVX/SSE/MMX: AVX-512
+isPart: true
+type: CPU
+humanName: 'Xeon W-3275M'
+name: Xeon-W-3275M

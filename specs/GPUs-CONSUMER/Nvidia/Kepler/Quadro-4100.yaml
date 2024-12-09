@@ -1,0 +1,32 @@
+name: Quadro-4100
+humanName: Quadro 4100
+isPart: true
+type: Graphics Card
+data:
+  Market: Workstation
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Kepler
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.2.175'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: 'Unknown'
+  GPU Base Frequency: 797 MHz
+  VRAM Frequency: 891 MHz
+  VRAM Bandwidth: 57.02 GB/s
+  VRAM Capacity: 2 GiB
+  VRAM Type: DDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 112
+  Shader Processor Count: 1344 
+  Die Size: 294 mm²
+  GPU: GK104
+  TDP: 35 W
+  FP32 Compute: 2.142 TFLOPS
+  FP64 Compute: 89.26 GFLOPS (1:24)
+  Slot Width: Single-slot
+  Outputs: 4x mini-DisplayPort 1.2
+  Length: 160 mm

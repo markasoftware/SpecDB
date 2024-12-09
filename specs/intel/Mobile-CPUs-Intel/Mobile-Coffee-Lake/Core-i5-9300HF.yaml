@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Coffee Lake'
+  Market: Mobile
+  Lithography: '14 nm'
+  TDP: '45 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '2666 MHz'
+  'Memory Type': 'DDR4, LPDDR3'
+  'Base Frequency': '2.4 GHz'
+  'Boost Frequency': '4.1 GHz'
+  'L2 Cache (Total)': '8 MiB'
+  'Release Date': 'Q2 2019'
+  Socket: FCBGA1440
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+isPart: true
+type: CPU
+humanName: 'Core i5-9300HF'
+name: Core-i5-9300HF
