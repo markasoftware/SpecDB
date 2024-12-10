@@ -1,9 +1,9 @@
-name: FirePro-S9170
-humanName: FirePro S9170
+name: FirePro-S9150
+humanName: FirePro S9150
 isPart: true
 type: Graphics Card
 data:
-  Market: Workstation
+  Market: Data center
   Manufacturer: AMD
   Vendor: AMD
   Architecture: GCN 2.0
@@ -12,11 +12,11 @@ data:
   Vulkan Support: '1.2.170'
   OpenGL Support: '4.6'
   OpenCL Support: '2.1'
-  Release Date: '2015-07-08'
-  GPU Base Frequency: 930 MHz
+  Release Date: '2014-08-07'
+  GPU Base Frequency: 900 MHz
   VRAM Frequency: 1250 MHz
   VRAM Bandwidth: 320.0 GB/s
-  VRAM Capacity: 32 GiB
+  VRAM Capacity: 16 GiB
   VRAM Type: GDDR5
   VRAM Bus Width: 512 bit
   Render Output Unit Count: 64
@@ -24,10 +24,10 @@ data:
   Shader Processor Count: 2816 
   Die Size: 438 mm²
   GPU: Hawaii
-  GPU Variant: Hawaii XT GL
-  TDP: 275 W
-  FP32 Compute: 5.238 TFLOPS
-  FP64 Compute: 2.619 TFLOPS (1:2)
+  GPU Variant: Hawaii GL44
+  TDP: 235 W
+  FP32 Compute: 5.069 TFLOPS
+  FP64 Compute: 2.534 TFLOPS (1:2)
   Slot Width: Dual-slot
   Outputs: No outputs
   Power Connectors: 1x 6-pin + 1x 8-pin

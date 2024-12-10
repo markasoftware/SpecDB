@@ -1,9 +1,9 @@
-name: FirePro-S7000
-humanName: FirePro S7000
+name: FirePro-R5000
+humanName: FirePro R5000
 isPart: true
 type: Graphics Card
 data:
-  Market: Workstation
+  Market: Data center
   Manufacturer: AMD
   Vendor: AMD
   Architecture: GCN 1.0
@@ -12,24 +12,24 @@ data:
   Vulkan Support: '1.2.170'
   OpenGL Support: '4.6'
   OpenCL Support: '2.1 (1.2)'
-  Release Date: '2012-08-27'
-  GPU Base Frequency: 950 MHz
-  VRAM Frequency: 1200 MHz
-  VRAM Bandwidth: 153.6 GB/s
-  VRAM Capacity: 4 GiB
+  Release Date: '2013-02-25'
+  GPU Base Frequency: 825 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 102.4 GB/s
+  VRAM Capacity: 2 GiB
   VRAM Type: GDDR5
   VRAM Bus Width: 256 bit
   Render Output Unit Count: 32
-  Texture Mapping Unit Count: 80
-  Shader Processor Count: 1280 
+  Texture Mapping Unit Count: 48
+  Shader Processor Count: 768 
   Die Size: 212 mm²
   GPU: Pitcairn
-  GPU Variant: Pitcairn XT GL
+  GPU Variant: Pitcairn LE GL
   TDP: 150 W
-  FP32 Compute: 2.432 TFLOPS
-  FP64 Compute: 152.0 GFLOPS (1:16)
+  FP32 Compute: 1,267 GFLOPS
+  FP64 Compute: 79.20 GFLOPS (1:16)
   Slot Width: Single-slot
-  Outputs: 1x DisplayPort 1.2
+  Outputs: 2x mini-DisplayPort 1.2
   Power Connectors: 1x 6-pin
-  Length: 292 mm
+  Length: 279 mm
   Width: 111 mm

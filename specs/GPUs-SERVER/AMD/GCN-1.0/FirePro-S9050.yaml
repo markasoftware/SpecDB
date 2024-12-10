@@ -1,9 +1,9 @@
-name: FirePro-S9010
-humanName: FirePro S9010
+name: FirePro-S9050
+humanName: FirePro S9050
 isPart: true
 type: Graphics Card
 data:
-  Market: Workstation
+  Market: Data center
   Manufacturer: AMD
   Vendor: AMD
   Architecture: GCN 1.0
@@ -12,11 +12,11 @@ data:
   Vulkan Support: '1.2.170'
   OpenGL Support: '4.6'
   OpenCL Support: '2.1 (1.2)'
-  Release Date: '2012-08-24'
-  GPU Base Frequency: 800 MHz
-  VRAM Frequency: 1250 MHz
-  VRAM Bandwidth: 240.0 GB/s
-  VRAM Capacity: 3 GiB
+  Release Date: '2014-08-07'
+  GPU Base Frequency: 900 MHz
+  VRAM Frequency: 1375 MHz
+  VRAM Bandwidth: 264.0 GB/s
+  VRAM Capacity: 12 GiB
   VRAM Type: GDDR5
   VRAM Bus Width: 384 bit
   Render Output Unit Count: 32
@@ -24,14 +24,12 @@ data:
   Shader Processor Count: 1792 
   Die Size: 352 mm²
   GPU: Tahiti
-  GPU Variant: Tahiti PRO
-  TDP: 200 W
-  FP32 Compute: 2.867 TFLOPS
-  FP64 Compute: 716.8 GFLOPS (1:4)
+  GPU Variant: Tahiti PRO GL
+  TDP: 225 W
+  FP32 Compute: 3.226 TFLOPS
+  FP64 Compute: 806.4 GFLOPS (1:4)
   Slot Width: Dual-slot
-  Outputs: 
-    - 1x DVI
-    - 1x HDMI 1.4a2x mini-DisplayPort 1.2
-  Power Connectors: 2x 6-pin
-  Length: 267 mm
+  Outputs: 1x DisplayPort 1.2
+  Power Connectors: 1x 8-pin
+  Length: 254 mm
   Width: 111 mm

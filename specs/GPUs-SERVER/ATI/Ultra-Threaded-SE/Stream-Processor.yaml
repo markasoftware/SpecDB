@@ -3,6 +3,7 @@ humanName: Stream Processor
 isPart: true
 type: Graphics Card
 data:
+  Market: Data center
   Manufacturer: ATI
   Vendor: ATI
   Architecture: Ultra-Threaded SE
