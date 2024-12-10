@@ -35,11 +35,6 @@ athr_folder:= ./specs
 
 map_output := ./public/sitemap.txt
 
-intc_procs := ./tmp/intel-scrape.json
-intc_codes := ./tmp/intel-scrape-codenames.json
-intc_scrape:= ${intc_procs} ${intc_codes}
-intc_parse := ./tmp/intel-parse.json
-
 ubch_cpus  := ./tmp/scrape/userbenchmark-scrape-cpus.csv
 ubch_gpus  := ./tmp/scrape/userbenchmark-scrape-gpus.csv
 ubch_scrape:= ${ubch_cpus} ${ubch_gpus}
@@ -95,13 +90,6 @@ ${spec_output} ${map_output} : ${athr_output} ${intc_parse} ${ubch_parse} ${3dmk
 
 ${athr_output} : ${athr_input} build/gen-specs.js
 	${node} build/gen-specs.js ${athr_folder} ${athr_output}
-
-${intc_scrape} :
-	${curl} ${intc_procs} 'https://markasoftware.com/specdb-intel/intel-scrape.json'
-	${curl} ${intc_codes} 'https://markasoftware.com/specdb-intel/intel-scrape-codenames.json'
-
-${intc_parse} : build/intel-parse.js build/intel-config.js ${intc_scrape}
-	${node} build/intel-parse.js ${intc_scrape} ${intc_parse}
 
 ${ubch_scrape} :
 	${curl} ${ubch_cpus} 'http://www.userbenchmark.com/resources/download/csv/CPU_UserBenchmarks.csv'
