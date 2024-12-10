@@ -3,6 +3,7 @@ humanName: GeForce FX 5100
 isPart: true
 type: Graphics Card
 data:
+  Market: Consumer
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Rankine
@@ -23,8 +24,11 @@ data:
   Shader Processor Count: 0 
   Die Size: 124 mm²
   GPU: NV34
+  FP32 Compute: 12 GFLOPS
   TDP: unknown
   Slot Width: Single-slot
-  Outputs: 1x VGA1x S-Video
+  Outputs: 
+    - 1x VGA
+    - 1x S-Video
   Power Connectors: None
   Pixel Shaders: 4

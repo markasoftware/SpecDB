@@ -3,6 +3,7 @@ humanName: GeForce FX 5600 XT PCI
 isPart: true
 type: Graphics Card
 data:
+  Market: Consumer
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Rankine

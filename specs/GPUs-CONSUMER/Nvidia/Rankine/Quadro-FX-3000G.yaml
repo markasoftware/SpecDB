@@ -29,7 +29,8 @@ data:
   Slot Width: Dual-slot
   Outputs: 
     - 2x DVI
-    - 1x S-Video1x SDI
+    - 1x S-Video
+    - 1x SDI
   Power Connectors: 1x Molex
   Length: 229 mm
   Width: 111 mm

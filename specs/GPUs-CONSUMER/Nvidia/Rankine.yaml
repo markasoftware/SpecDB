@@ -4,13 +4,13 @@ type: Graphics Architecture
 isPart: false
 topHeader: 'SELECT CARD:'
 data:
-  Lithography: 14 nm
+  Lithography: 150 - 130 nm
   DirectX Support: '9.0a'
   Vulkan Support: 'N/A'
   Release Date: '2003-01-21'
   Manufacturer: Nvidia
 sections:
-  - header: WHOLE RANGE
+  - header: Main FX Range (Consumer)
     members:
     - GeForce-FX-5100
     - GeForce-FX-5200
@@ -37,8 +37,18 @@ sections:
     - GeForce-FX-5900-XT
     - GeForce-FX-5900-ZT
     - GeForce-FX-5950-Ultra
+    - GeForce-FX-5600-Ultra
+  - header: PCIe Refresh
+    members:
+    - GeForce-PCX-5300
+    - GeForce-PCX-5750
+    - GeForce-PCX-5900
+    - GeForce-PCX-5950
+  - header: FX Go (Mobile)
+    members:
     - GeForce-FX-Go5100
     - GeForce-FX-Go5200
+    - GeForce-FX-Go5200-32M
     - GeForce-FX-Go5200-64M
     - GeForce-FX-Go5200-NPB-32M
     - GeForce-FX-Go5200-NPB-64M
@@ -48,12 +58,8 @@ sections:
     - GeForce-FX-Go5600
     - GeForce-FX-Go5650
     - GeForce-FX-Go5700
-    - GeForce-FX-5600-Ultra
-    - GeForce-FX-Go5200-32M
-    - GeForce-PCX-5300
-    - GeForce-PCX-5750
-    - GeForce-PCX-5900
-    - GeForce-PCX-5950
+  - header: Quadro FX (Workstation)
+    members:
     - Quadro-FX-330
     - Quadro-FX-500
     - Quadro-FX-600-PCI
@@ -64,9 +70,11 @@ sections:
     - Quadro-FX-2000
     - Quadro-FX-3000
     - Quadro-FX-3000G
-    - Quadro-FX-Go700
-    - Quadro-FX-Go1000
     - Quadro-NVS-55-PCI
     - Quadro-NVS-280-AGP
     - Quadro-NVS-280-PCI
     - Quadro-NVS-280-PCIe
+  - header: Quadro FX (Workstation Mobile)
+    members:
+    - Quadro-FX-Go700
+    - Quadro-FX-Go1000

@@ -3,6 +3,7 @@ humanName: GeForce FX 5200 Ultra Mac Edition
 isPart: true
 type: Graphics Card
 data:
+  Market: Consumer
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Rankine

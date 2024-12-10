@@ -3,6 +3,7 @@ humanName: GeForce FX 5600 Ultra
 isPart: true
 type: Graphics Card
 data:
+  Market: Consumer
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Rankine
@@ -23,12 +24,14 @@ data:
   Shader Processor Count: 0 
   Die Size: 121 mm²
   GPU: NV31
+  FP32 Compute: 21 GFLOPS
   GPU Variant: GF-FX-5600-U-A1
-  TDP: unknown
+  TDP: 27 W
   Slot Width: Single-slot
   Outputs: 
     - 1x DVI
-    - 1x VGA1x S-Video
+    - 1x VGA
+    - 1x S-Video
   Power Connectors: 1x Molex
   Length: 190 mm
   Pixel Shaders: 4

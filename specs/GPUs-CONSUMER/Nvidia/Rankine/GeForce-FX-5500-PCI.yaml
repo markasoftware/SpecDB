@@ -3,6 +3,7 @@ humanName: GeForce FX 5500 PCI
 isPart: true
 type: Graphics Card
 data:
+  Market: Consumer
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Rankine
@@ -28,7 +29,8 @@ data:
   Slot Width: Single-slot
   Outputs: 
     - 1x DVI
-    - 1x VGA1x S-Video
+    - 1x VGA
+    - 1x S-Video
   Power Connectors: None
   Length: 165 mm
   Pixel Shaders: 4

@@ -22,12 +22,14 @@ data:
   Texture Mapping Unit Count: 4
   Shader Processor Count: 0 
   Die Size: 121 mm²
+  FP32 Compute: 14.1 GFLOPS
   GPU: NV31
   GPU Variant: NV31 5600
   TDP: 37 W
   Slot Width: Single-slot
   Outputs: 
     - 1x DVI
-    - 1x VGA1x S-Video
+    - 1x VGA
+    - 1x S-Video
   Power Connectors: None
   Pixel Shaders: 4

@@ -3,6 +3,7 @@ humanName: GeForce PCX 5300
 isPart: true
 type: Graphics Card
 data:
+  Market: Consumer
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Rankine
@@ -23,10 +24,12 @@ data:
   Shader Processor Count: 0 
   Die Size: 91 mm²
   GPU: NV37
-  TDP: unknown
+  FP32 Compute: 15 GFLOPS
+  TDP: 21 W
   Slot Width: Single-slot
   Outputs: 
     - 1x DVI
-    - 1x VGA1x S-Video
+    - 1x VGA
+    - 1x S-Video
   Power Connectors: None
   Pixel Shaders: 4

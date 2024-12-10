@@ -3,6 +3,7 @@ humanName: GeForce FX 5900 XT
 isPart: true
 type: Graphics Card
 data:
+  Market: Consumer
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Rankine
@@ -22,11 +23,13 @@ data:
   Texture Mapping Unit Count: 8
   Shader Processor Count: 0 
   Die Size: 207 mm²
+  FP32 Compute: 27.3 GFLOPS
   GPU: NV35
   TDP: 35 W
   Slot Width: Single-slot
   Outputs: 
     - 1x DVI
-    - 1x VGA1x S-Video
+    - 1x VGA
+    - 1x S-Video
   Power Connectors: 1x Molex
   Pixel Shaders: 4

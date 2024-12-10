@@ -3,6 +3,7 @@ humanName: GeForce FX 5600 XT
 isPart: true
 type: Graphics Card
 data:
+  Market: Consumer
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Rankine
@@ -22,12 +23,14 @@ data:
   Texture Mapping Unit Count: 4
   Shader Processor Count: 0 
   Die Size: 121 mm²
+  FP32 Compute: 14.1 GFLOPS
   GPU: NV31
   GPU Variant: NV31 5600 XT
   TDP: unknown
   Slot Width: Single-slot
   Outputs: 
     - 1x DVI
-    - 1x VGA1x S-Video
+    - 1x VGA
+    - 1x S-Video
   Power Connectors: None
   Pixel Shaders: 4

@@ -3,6 +3,7 @@ humanName: GeForce FX 5200 Rev. 2
 isPart: true
 type: Graphics Card
 data:
+  Market: Consumer
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Rankine
@@ -28,6 +29,7 @@ data:
   Slot Width: Single-slot
   Outputs: 
     - 1x DVI
-    - 1x VGA1x S-Video
+    - 1x VGA
+    - 1x S-Video
   Power Connectors: None
   Pixel Shaders: 4

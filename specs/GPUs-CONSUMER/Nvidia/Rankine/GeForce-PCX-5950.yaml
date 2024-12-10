@@ -3,6 +3,7 @@ humanName: GeForce PCX 5950
 isPart: true
 type: Graphics Card
 data:
+  Market: Consumer
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Rankine
@@ -22,6 +23,7 @@ data:
   Texture Mapping Unit Count: 8
   Shader Processor Count: 0 
   Die Size: 207 mm²
+  FP32 Compute: 33.2 GFLOPS
   GPU: NV38
   TDP: 57 W
   Slot Width: Dual-slot
