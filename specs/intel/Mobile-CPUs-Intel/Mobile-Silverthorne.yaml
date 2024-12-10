@@ -1,0 +1,30 @@
+humanName: Silverthorne
+sections:
+  -
+    header: '2 Threads'
+    members:
+      - Atom-Z560
+      - Atom-Z550
+      - Atom-Z540
+      - Atom-Z530P
+      - Atom-Z530
+      - Atom-Z520PT
+      - Atom-Z520
+      - Atom-Z515
+      - Atom-Z510PT
+      - Atom-Z510P
+      - Atom-Z500
+  -
+    header: '1 Threads'
+    members:
+      - Atom-Z510
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': '2008-04-02'
+  Sockets:
+    - PBGA441
+    - BGA437
+name: Mobile-Silverthorne

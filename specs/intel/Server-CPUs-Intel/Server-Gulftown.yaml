@@ -1,0 +1,15 @@
+humanName: Gulftown
+sections:
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Xeon-W3690
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '32 nm'
+  'Release Date': '2011-02-14'
+  Sockets:
+    - LGA1366
+name: Server-Gulftown

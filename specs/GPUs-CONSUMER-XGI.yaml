@@ -1,0 +1,12 @@
+name: GPUs-CONSUMER-XGI
+humanName: Consumer GPUs
+type: Generic Container
+isPart: false
+topHeader: 'SELECT SERIES:'
+data:
+  Manufacturer: XGI
+sections:
+  - header: uncategorised Graphics Cards
+    members:
+      - XG4
+

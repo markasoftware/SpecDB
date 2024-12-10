@@ -1,0 +1,21 @@
+humanName: Bloomfield
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-W3580
+      - Xeon-W3570
+      - Xeon-W3565
+      - Xeon-W3550
+      - Xeon-W3540
+      - Xeon-W3530
+      - Xeon-W3520
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': '2009-03-30'
+  Sockets:
+    - LGA1366
+name: Server-Bloomfield

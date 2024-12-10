@@ -1,0 +1,33 @@
+name: Radeon-Instinct-MI200
+humanName: Radeon Instinct MI200
+isPart: true
+type: Graphics Card
+data:
+  Market: Data center
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: CDNA 2.0
+  Lithography: 6 nm
+  Vulkan Support: 'N/A'
+  OpenGL Support: 'N/A'
+  OpenCL Support: '3.0'
+  Release Date: 'Dec 2021'
+  GPU Base Frequency: 1000 MHz
+  GPU Boost Frequency: 1700 MHz
+  VRAM Frequency: 1600 MHz
+  VRAM Bandwidth: 1,638 GB/s
+  VRAM Capacity: 64 GiB
+  VRAM Type: HBM2e
+  VRAM Bus Width: 4096 bit
+  Render Output Unit Count: 0
+  Texture Mapping Unit Count: 416
+  Shader Processor Count: 6656 
+  Die Size: 724 mm²
+  GPU: Aldebaran
+  GPU Variant: Aldebaran
+  TDP: 300 W
+  FP32 Compute: 22.63 TFLOPS
+  FP64 Compute: 22.63 TFLOPS (1:1)
+  Slot Width: OAM Module
+  Outputs: No outputs
+  Power Connectors: 1x 8-pin

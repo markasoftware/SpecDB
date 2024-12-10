@@ -1,0 +1,28 @@
+data:
+  Manufacturer: Intel
+  Architecture: Broadwell
+  Market: Server
+  Lithography: '14 nm'
+  TDP: '65 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1866 MHz'
+  'Memory Type': 'DDR3, DDR3L'
+  'Base Frequency': '3.4 GHz'
+  'Boost Frequency': '3.8 GHz'
+  'L2 Cache (Total)': '6 MiB'
+  'Release Date': '2015-06-02'
+  Socket: FCLGA1150
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+  'GPU Base Frequency': '300 MHz'
+  'GPU Boost Frequency': '1.15 GHz'
+  'VRAM Type': 'DDR3, DDR3L'
+  'Maximum VRAM Capacity': '32 GiB'
+isPart: true
+type: CPU
+humanName: 'Xeon E3-1285LV4'
+name: Xeon-E3-1285LV4

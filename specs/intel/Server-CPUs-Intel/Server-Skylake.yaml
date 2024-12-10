@@ -1,0 +1,117 @@
+humanName: Skylake
+sections:
+  -
+    header: '17 - 64 Threads'
+    members:
+      - Xeon-W-2195
+      - Xeon-W-2175
+      - Xeon-W-2155
+      - Xeon-D-2187NT
+      - Xeon-D-2183IT
+      - Xeon-D-2177NT
+      - Xeon-D-2173IT
+      - Xeon-D-2166NT
+      - Xeon-D-2163IT
+      - Xeon-D-2161I
+      - Xeon-8180
+      - Xeon-8176F
+      - Xeon-8176
+      - Xeon-8170
+      - Xeon-8168
+      - Xeon-8164
+      - Xeon-8160T
+      - Xeon-8160F
+      - Xeon-8160
+      - Xeon-8158
+      - Xeon-8153
+      - Xeon-6154
+      - Xeon-6152
+      - Xeon-6150
+      - Xeon-6148F
+      - Xeon-6148
+      - Xeon-6146
+      - Xeon-6142F
+      - Xeon-6142
+      - Xeon-6140
+      - Xeon-6138T
+      - Xeon-6138P
+      - Xeon-6138F
+      - Xeon-6138
+      - Xeon-6136
+      - Xeon-6132
+      - Xeon-6130T
+      - Xeon-6130F
+      - Xeon-6130
+      - Xeon-6126T
+      - Xeon-6126F
+      - Xeon-6126
+      - Xeon-5120T
+      - Xeon-5120
+      - Xeon-5119T
+      - Xeon-5118
+      - Xeon-5115
+      - Xeon-4116T
+      - Xeon-4116
+      - Xeon-4114T
+      - Xeon-4114
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Xeon-W-2145
+      - Xeon-W-2135
+      - Xeon-W-2133
+      - Xeon-D-2146NT
+      - Xeon-D-2145NT
+      - Xeon-D-2143IT
+      - Xeon-D-2142IT
+      - Xeon-D-2141I
+      - Xeon-6144
+      - Xeon-6134
+      - Xeon-6128
+      - Xeon-4110
+      - Xeon-4109T
+      - Xeon-4108
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-W-2125
+      - Xeon-W-2123
+      - Xeon-E3-1585V5
+      - Xeon-E3-1585LV5
+      - Xeon-E3-1565LV5
+      - Xeon-E3-1280V5
+      - Xeon-E3-1275V5
+      - Xeon-E3-1270V5
+      - Xeon-E3-1260LV5
+      - Xeon-E3-1245V5
+      - Xeon-E3-1240V5
+      - Xeon-E3-1240LV5
+      - Xeon-E3-1230V5
+      - Xeon-D-2123IT
+      - Xeon-8156
+      - Xeon-5122
+      - Xeon-4112
+      - Xeon-3106
+  -
+    header: '6 Threads'
+    members:
+      - Xeon-3104
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-E3-1235LV5
+      - Xeon-E3-1225V5
+      - Xeon-E3-1220V5
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2015-10-19'
+  Sockets:
+    - LGA3647
+    - LGA1151
+    - BGA1440
+    - LGA2066
+    - BGA2518
+name: Server-Skylake

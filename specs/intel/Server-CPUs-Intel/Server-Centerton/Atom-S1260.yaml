@@ -1,0 +1,21 @@
+data:
+  Manufacturer: Intel
+  Architecture: Centerton
+  Market: Server
+  Lithography: '32 nm'
+  TDP: '8.5 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 1
+  'Max Memory Frequency': '1333 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2 GHz'
+  'L2 Cache (Total)': '1024 KiB'
+  'Release Date': '2012-12-11'
+  Socket: FCBGA1283
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Atom S1260'
+name: Atom-S1260

@@ -1,0 +1,19 @@
+name: GCN-1.0-Console
+humanName: GCN 1.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  Release Date: '2011-12-22'
+  Manufacturer: AMD
+sections:
+  - header: Xbox
+    members:
+    - Xbox-One-GPU
+    - Xbox-One-S-GPU
+  - header: AeroBox
+    members:
+    - AeroBox-GPU

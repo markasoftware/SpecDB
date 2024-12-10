@@ -13,19 +13,35 @@ const parse = (path, partType, benchmarkType) => {
 		}).get();
 	// c => c.score sometimes gets rid of new GPUs which are listed, but
 	// whose score is displayed as "0" (this is good)
-	const niceData = rawData.filter(c => c.score).map(c => ({
-		combineMetadata: {
-			matcherInfo: {
-				name: c.name,
-				type: partType,
-				source: '3dmark',
+	if(partType == "gpu"){
+		const niceData = rawData.filter(c => c.score).map(c => ({
+			combineMetadata: {
+				matcherInfo: {
+					name: c.name,
+					type: partType,
+					source: '3dmark',
+				},
 			},
-		},
-		data: {
-			[`3DMark Fire Strike ${benchmarkType} Score`]: c.score,
-		},
-	}));
-	return niceData;
+			data: {
+				[`3DMark ${benchmarkType} Score`]: c.score,
+			},
+		}));
+		return niceData;
+	}else {
+		const niceData = rawData.filter(c => c.score).map(c => ({
+			combineMetadata: {
+				matcherInfo: {
+					name: c.name,
+					type: partType,
+					source: '3dmark',
+				},
+			},
+			data: {
+				[`3DMark Fire Strike ${benchmarkType} Score`]: c.score,
+			},
+		}));
+		return niceData;
+	}
 }
 
 const [cpuPath, gpuPath, outPath] = process.argv.slice(2);

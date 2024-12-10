@@ -1,0 +1,36 @@
+humanName: 'Nehalem EP'
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-X5570
+      - Xeon-X5560
+      - Xeon-X5550
+      - Xeon-W5590
+      - Xeon-W5580
+      - Xeon-L5530
+      - Xeon-L5520
+      - Xeon-E5540
+      - Xeon-E5530
+      - Xeon-E5520
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-L5506
+      - Xeon-E5507
+      - Xeon-E5506
+      - Xeon-E5504
+  -
+    header: '2 Threads'
+    members:
+      - Xeon-E5503
+      - Xeon-E5502
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': '2009-03-30'
+  Sockets:
+    - LGA1366
+name: Server-Nehalem-EP

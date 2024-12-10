@@ -1,0 +1,20 @@
+humanName: 'Gemini Lake Refresh'
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Pentium-N5030
+      - Pentium-N4120
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-N4020
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: 14nm
+  'Release Date': '2019-11-04'
+  Sockets:
+    - BGA1090
+name: Mobile-Gemini-Lake-Refresh

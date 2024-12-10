@@ -1,0 +1,23 @@
+humanName: Pineview
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Atom-N570
+      - Atom-N550
+  -
+    header: '2 Threads'
+    members:
+      - Atom-N475
+      - Atom-N470
+      - Atom-N455
+      - Atom-N450
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': 'Q1 2010'
+  Sockets:
+    - BGA559
+name: Mobile-Pineview

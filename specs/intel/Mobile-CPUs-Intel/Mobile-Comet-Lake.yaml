@@ -1,0 +1,29 @@
+humanName: 'Comet Lake'
+sections:
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Core-i7-10710U
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-10510U
+      - Core-i5-10210U
+  -
+    header: '4 Threads'
+    members:
+      - Pentium-6405U
+      - Core-i3-10110U
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-5205U
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: 14nm
+  'Release Date': '2019-08-21'
+  Sockets:
+    - BGA1528
+name: Mobile-Comet-Lake

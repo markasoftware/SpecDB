@@ -1,0 +1,20 @@
+data:
+  Manufacturer: Intel
+  Architecture: Yorkfield
+  Market: Desktop
+  Lithography: '45 nm'
+  TDP: '136 W'
+  'Core Count': 4
+  'Thread Count': 4
+  'Base Frequency': '3.2 GHz'
+  'L2 Cache (Total)': '12 MiB'
+  'Die Size': '214 mm'
+  'Release Date': '2008-03-24'
+  Socket: LGA775
+  AES: false
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Core QX9770'
+name: Core-QX9770

@@ -1,0 +1,37 @@
+name: FirePro-W8100
+humanName: FirePro W8100
+isPart: true
+type: Graphics Card
+data:
+  Market: Workstation
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 2.0
+  Lithography: 28 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2014-06-23'
+  GPU Base Frequency: 824 MHz
+  VRAM Frequency: 1250 MHz
+  VRAM Bandwidth: 320.0 GB/s
+  VRAM Capacity: 8 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 512 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 160
+  Shader Processor Count: 2560 
+  Die Size: 438 mm²
+  GPU: Hawaii
+  GPU Variant: Hawaii GL40
+  TDP: 220 W
+  FP32 Compute: 4.219 TFLOPS
+  FP64 Compute: 2.109 TFLOPS (1:2)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 4x DisplayPort 1.2
+    - 1x SDI
+  Power Connectors: 2x 6-pin
+  Length: 279 mm
+  Width: 111 mm

@@ -1,0 +1,19 @@
+data:
+  Manufacturer: Intel
+  Architecture: Cedarmill
+  Market: Desktop
+  Lithography: '65 nm'
+  TDP: '86 W'
+  'Core Count': 1
+  'Thread Count': 2
+  'Base Frequency': '3.6 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Die Size': '81 mm'
+  'Release Date': 'Q1 2006'
+  Socket: PLGA775
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Pentium 661'
+name: Pentium-661

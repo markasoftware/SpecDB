@@ -1,0 +1,30 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Coffee Lake'
+  Market: Embedded
+  Lithography: 14nm
+  TDP: '35 W'
+  'Core Count': 6
+  'Thread Count': 6
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '2666 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '2.2 GHz'
+  'Boost Frequency': '3.6 GHz'
+  'L2 Cache (Total)': '9 MiB'
+  'Release Date': '2019-06-10'
+  Socket: FCLGA1151
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+  'GPU Base Frequency': '350 MHz'
+  'GPU Boost Frequency': '1.1 GHz'
+  'VRAM Type': DDR4
+  'Maximum VRAM Capacity': '128 GiB'
+  'DirectX Support': '12'
+  'OpenGL Support': '4.5'
+isPart: true
+type: CPU
+humanName: 'Core i5-9500TE'
+name: Core-i5-9500TE

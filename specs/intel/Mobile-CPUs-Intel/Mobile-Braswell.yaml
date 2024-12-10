@@ -1,0 +1,25 @@
+humanName: Braswell
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Pentium-N3710
+      - Pentium-N3700
+      - Pentium-N3160
+      - Pentium-N3150
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-N3060
+      - Pentium-N3050
+      - Pentium-N3010
+      - Pentium-N3000
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2015-03-30'
+  Sockets:
+    - BGA1170
+name: Mobile-Braswell

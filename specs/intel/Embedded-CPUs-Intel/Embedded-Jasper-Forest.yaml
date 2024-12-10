@@ -1,0 +1,32 @@
+humanName: 'Jasper Forest'
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-LC5528
+      - Xeon-LC5518
+      - Xeon-EC5549
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-LC3528
+      - Xeon-EC5509
+      - Xeon-EC3539
+  -
+    header: '2 Threads'
+    members:
+      - Xeon-EC5539
+      - Pentium-P1053
+  -
+    header: '1 Threads'
+    members:
+      - Xeon-LC3518
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': 'Q1 2010'
+  Sockets:
+    - LGA1366
+name: Embedded-Jasper-Forest

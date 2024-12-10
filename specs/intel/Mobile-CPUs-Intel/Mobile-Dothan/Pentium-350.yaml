@@ -1,0 +1,19 @@
+data:
+  Manufacturer: Intel
+  Architecture: Dothan
+  Market: Mobile
+  Lithography: '90 nm'
+  TDP: '21 W'
+  'Core Count': 1
+  'Thread Count': 1
+  'Base Frequency': '1.3 GHz'
+  'L2 Cache (Total)': '1024 KiB'
+  'Die Size': '87 mm'
+  'Release Date': 'Q3 2005'
+  Socket: 'H-PBGA478, H-PBGA479, PPGA478, PPGA479'
+  AES: false
+  'Other Extensions': {  }
+isPart: true
+type: CPU
+humanName: 'Pentium 350'
+name: Pentium-350

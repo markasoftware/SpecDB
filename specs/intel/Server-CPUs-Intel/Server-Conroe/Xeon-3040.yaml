@@ -1,0 +1,18 @@
+data:
+  Manufacturer: Intel
+  Architecture: Conroe
+  Market: Server
+  Lithography: '65 nm'
+  TDP: '65 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Base Frequency': '1.86 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Die Size': '111 mm'
+  Socket: 'LGA775, PLGA775'
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Xeon 3040'
+name: Xeon-3040

@@ -1,0 +1,23 @@
+data:
+  Manufacturer: Intel
+  Architecture: Broadwell
+  Market: Server
+  Lithography: '14 nm'
+  TDP: '45 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 2
+  'Memory Type': DDR4
+  'Base Frequency': '2.2 GHz'
+  'Boost Frequency': '2.6 GHz'
+  'L2 Cache (Total)': '6 MiB'
+  'Release Date': '2015-03-09'
+  Socket: FCBGA1667
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+isPart: true
+type: CPU
+humanName: 'Xeon D-1520'
+name: Xeon-D-1520

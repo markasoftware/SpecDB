@@ -1,0 +1,25 @@
+data:
+  Manufacturer: Intel
+  Architecture: Haswell
+  Market: Embedded
+  Lithography: '22 nm'
+  TDP: '37 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': DDR3L
+  'Base Frequency': '2.6 GHz'
+  'L2 Cache (Total)': '3 MiB'
+  'Release Date': '2014-04-14'
+  Socket: FCBGA1364
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+  'GPU Base Frequency': '400 MHz'
+  'GPU Boost Frequency': '900 MHz'
+isPart: true
+type: CPU
+humanName: 'Core i3-4110E'
+name: Core-i3-4110E

@@ -1,0 +1,24 @@
+name: Pascal-server
+humanName: Pascal
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.2'
+  Release Date: '2016'
+  Manufacturer: Nvidia
+sections:
+  - header: Tesla
+    members:
+    - Tesla-P4
+    - Tesla-P6-Mobile
+    - Tesla-P10
+    - Tesla-P40
+    - Tesla-P100-DGXS
+    - Tesla-P100-PCIe-12-GB
+    - Tesla-P100-PCIe-16-GB
+    - Tesla-P100-SXM2
+    - TITAN-Xp
+    - TITAN-X-Pascal

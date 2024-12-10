@@ -1,0 +1,18 @@
+data:
+  Manufacturer: Intel
+  Architecture: Yonah
+  Market: Mobile
+  Lithography: '65 nm'
+  TDP: '31 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Base Frequency': '1.73 GHz'
+  'L2 Cache (Total)': '1024 KiB'
+  'Die Size': '90 mm'
+  'Release Date': 'Q2 2007'
+  Socket: PPGA478
+  'Other Extensions': {  }
+isPart: true
+type: CPU
+humanName: 'Pentium T2080'
+name: Pentium-T2080

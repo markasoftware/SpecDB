@@ -1,0 +1,19 @@
+humanName: Moorefield
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Atom-Z3590
+      - Atom-Z3580
+      - Atom-Z3570
+      - Atom-Z3560
+      - Atom-Z3530
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2014-05-23'
+  Sockets:
+    - MB5T1064
+name: Mobile-Moorefield

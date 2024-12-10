@@ -1,0 +1,27 @@
+data:
+  Manufacturer: Intel
+  Architecture: Braswell
+  Market: Desktop
+  Lithography: '14 nm'
+  TDP: '6.5 W'
+  'Core Count': 4
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': DDR3L
+  'Base Frequency': '1.6 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Release Date': '2016-01-11'
+  Socket: FCBGA1170
+  AES: true
+  'Other Extensions':
+    - x86-64
+  'GPU Base Frequency': '400 MHz'
+  'VRAM Type': DDR3L
+  'Maximum VRAM Capacity': '8 GiB'
+  'DirectX Support': '0'
+  'OpenGL Support': 'Yes'
+isPart: true
+type: CPU
+humanName: 'Pentium J3710'
+name: Pentium-J3710

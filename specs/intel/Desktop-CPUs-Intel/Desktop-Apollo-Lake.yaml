@@ -1,0 +1,22 @@
+humanName: 'Apollo Lake'
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Pentium-J4205
+      - Pentium-J3455E
+      - Pentium-J3455
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-J3355E
+      - Pentium-J3355
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2016-08-30'
+  Sockets:
+    - BGA1296
+name: Desktop-Apollo-Lake

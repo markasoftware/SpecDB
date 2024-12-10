@@ -1,0 +1,62 @@
+humanName: Haswell
+sections:
+  -
+    header: '17 - 64 Threads'
+    members:
+      - Xeon-E5-4648V3
+      - Xeon-E5-2658V3
+      - Xeon-E5-2658AV3
+      - Xeon-E5-2648LV3
+      - Xeon-E5-2628LV3
+      - Xeon-E5-2438LV3
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Xeon-E5-2618LV3
+      - Xeon-E5-2608LV3
+      - Xeon-E5-2428LV3
+      - Xeon-E5-2418LV3
+      - Xeon-E5-1428LV3
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-E5-2408LV3
+      - Xeon-E3-1268LV3
+      - Core-i7-4770TE
+      - Core-i7-4702EC
+      - Core-i7-4700EQ
+      - Core-i7-4700EC
+  -
+    header: '4 Threads'
+    members:
+      - Core-i5-4570TE
+      - Core-i5-4422E
+      - Core-i5-4410E
+      - Core-i5-4402EC
+      - Core-i5-4402E
+      - Core-i5-4400E
+      - Core-i3-4340TE
+      - Core-i3-4330TE
+      - Core-i3-4112E
+      - Core-i3-4110E
+      - Core-i3-4102E
+      - Core-i3-4100E
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-G3320TE
+      - Pentium-G1820TE
+      - Pentium-2002E
+      - Pentium-2000E
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2013-06-01'
+  Sockets:
+    - LGA1150
+    - BGA1364
+    - LGA20113
+    - LGA1356
+name: Embedded-Haswell

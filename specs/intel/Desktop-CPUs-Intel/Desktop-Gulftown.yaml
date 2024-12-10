@@ -1,0 +1,18 @@
+humanName: Gulftown
+sections:
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Core-i7-990X
+      - Core-i7-980X
+      - Core-i7-980
+      - Core-i7-970
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '32 nm'
+  'Release Date': '2010-03-16'
+  Sockets:
+    - LGA1366
+name: Desktop-Gulftown

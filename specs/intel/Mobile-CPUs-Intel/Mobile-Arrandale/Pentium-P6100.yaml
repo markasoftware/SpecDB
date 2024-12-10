@@ -1,0 +1,25 @@
+data:
+  Manufacturer: Intel
+  Architecture: Arrandale
+  Market: Mobile
+  Lithography: '32 nm'
+  TDP: '35 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1066 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2 GHz'
+  'L2 Cache (Total)': '3 MiB'
+  'Die Size': '81 mm'
+  'Release Date': 'Q3 2010'
+  Socket: PGA988
+  AES: false
+  'Other Extensions':
+    - x86-64
+  'GPU Base Frequency': '500 MHz'
+  'GPU Boost Frequency': '667 MHz'
+isPart: true
+type: CPU
+humanName: 'Pentium P6100'
+name: Pentium-P6100

@@ -1,0 +1,19 @@
+humanName: Diamondville
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Atom-330
+  -
+    header: '2 Threads'
+    members:
+      - Atom-230
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': '2008-06-03'
+  Sockets:
+    - PBGA437
+name: Desktop-Diamondville

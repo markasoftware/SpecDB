@@ -1,0 +1,33 @@
+humanName: 'Sandy Bridge'
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-2715QE
+  -
+    header: '4 Threads'
+    members:
+      - Core-i7-2655LE
+      - Core-i7-2610UE
+      - Core-i5-2515E
+      - Core-i3-2340UE
+      - Core-i3-2310E
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-B810E
+      - Pentium-847E
+  -
+    header: '1 Threads'
+    members:
+      - Pentium-827E
+      - Pentium-807UE
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '32 nm'
+  'Release Date': 'Q1 2011'
+  Sockets:
+    - BGA1023
+name: Embedded-Sandy-Bridge

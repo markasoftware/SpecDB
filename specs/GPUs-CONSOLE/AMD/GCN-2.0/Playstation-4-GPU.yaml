@@ -1,0 +1,33 @@
+name: Playstation-4-GPU
+humanName: Playstation 4 GPU
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 2.0
+  Lithography: 28 nm
+  DirectX Support: '11.1*'
+  Vulkan Support: '1.1'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.2'
+  Release Date: '2013-11-24'
+  GPU Base Frequency: 800 MHz
+  VRAM Frequency: 1375 MHz
+  VRAM Bandwidth: 176.0 GB/s
+  VRAM Capacity: 8 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 72
+  Shader Processor Count: 1152 
+  Die Size: 348 mm²
+  GPU: Liverpool
+  GPU Variant: CXD90026BG
+  TDP: 75 W
+  FP32 Compute: 1.843 TFLOPS
+  Outputs: 1x HDMI 1.4a
+  Length: 305 mm
+  Width: 275 mm
+  Height: 53 mm
+  Market: Console

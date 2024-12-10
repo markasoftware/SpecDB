@@ -1,0 +1,19 @@
+data:
+  Manufacturer: Intel
+  Architecture: Wolfdale
+  Market: Server
+  Lithography: '45 nm'
+  TDP: '80 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Base Frequency': '3.5 GHz'
+  'L2 Cache (Total)': '6 MiB'
+  'Die Size': '107 mm'
+  'Release Date': '2008-10-01'
+  Socket: LGA771
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Xeon X5270'
+name: Xeon-X5270

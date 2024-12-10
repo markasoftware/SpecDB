@@ -1,0 +1,26 @@
+humanName: 'Bay Trail'
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Atom-E3845
+  -
+    header: '2 Threads'
+    members:
+      - Atom-E3827
+      - Atom-E3826
+      - Atom-E3825
+      - Atom-E3805
+  -
+    header: '1 Threads'
+    members:
+      - Atom-E3815
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2013-10-08'
+  Sockets:
+    - BGA1170
+name: Embedded-Bay-Trail

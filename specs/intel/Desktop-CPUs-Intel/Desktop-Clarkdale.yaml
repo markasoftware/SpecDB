@@ -1,0 +1,30 @@
+humanName: Clarkdale
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Core-i5-680
+      - Core-i5-670
+      - Core-i5-661
+      - Core-i5-660
+      - Core-i5-655K
+      - Core-i5-650
+      - Core-i3-560
+      - Core-i3-550
+      - Core-i3-540
+      - Core-i3-530
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-G6960
+      - Pentium-G6951
+      - Pentium-G6950
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '32 nm'
+  'Release Date': '2010-01-07'
+  Sockets:
+    - LGA1156
+name: Desktop-Clarkdale

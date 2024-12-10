@@ -1,0 +1,36 @@
+name: Radeon-Pro-V420
+humanName: Radeon Pro V420
+isPart: true
+type: Graphics Card
+data:
+  Market: Workstation
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 5.1
+  Lithography: 7 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: 'Never Released'
+  GPU Base Frequency: 800 MHz
+  GPU Boost Frequency: 1700 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 819.2 GB/s
+  VRAM Capacity: 32 GiB
+  VRAM Type: HBM2
+  VRAM Bus Width: 4096 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 256
+  Shader Processor Count: 4096 
+  Die Size: 331 mm²
+  GPU: Vega 20
+  GPU Variant: Vega 20 GLXT WS
+  TDP: 300 W
+  FP32 Compute: 13.93 TFLOPS
+  FP64 Compute: 6.963 TFLOPS (1:2)
+  Slot Width: Dual-slot
+  Outputs: 6x mini-DisplayPort 1.4a
+  Power Connectors: 1x 6-pin + 1x 8-pin
+  Length: 267 mm
+  Width: 111 mm

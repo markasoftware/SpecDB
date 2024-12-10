@@ -1,0 +1,36 @@
+name: GeForce-FX-5600-XT
+humanName: GeForce FX 5600 XT
+isPart: true
+type: Graphics Card
+data:
+  Market: Consumer
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Rankine
+  Lithography: 130 nm
+  DirectX Support: '9.0a'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2003-03-17'
+  GPU Base Frequency: 235 MHz
+  VRAM Frequency: 200 MHz
+  VRAM Bandwidth: 6.400 GB/s
+  VRAM Capacity: 128 MiB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 121 mm²
+  FP32 Compute: 14.1 GFLOPS
+  GPU: NV31
+  GPU Variant: NV31 5600 XT
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA
+    - 1x S-Video
+  Power Connectors: None
+  Pixel Shaders: 4

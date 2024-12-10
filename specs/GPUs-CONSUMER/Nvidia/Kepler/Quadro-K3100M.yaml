@@ -1,0 +1,34 @@
+name: Quadro-K3100M
+humanName: Quadro K3100M
+isPart: true
+type: Graphics Card
+data:
+  Market: Workstation
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Kepler
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.2.175'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2013-07-23'
+  GPU Base Frequency: 706 MHz
+  GPU Boost Frequency: 706 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 102.4 GB/s
+  VRAM Capacity: 4 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 768 
+  Die Size: 294 mm²
+  GPU: GK104
+  GPU Variant: N15E-Q1-A2
+  TDP: 75 W
+  FP32 Compute: 1,084 GFLOPS
+  FP64 Compute: 45.18 GFLOPS (1:24)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

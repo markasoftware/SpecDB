@@ -1,0 +1,20 @@
+data:
+  Manufacturer: Intel
+  Architecture: Wolfdale
+  Market: Desktop
+  Lithography: '45 nm'
+  TDP: '65 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Base Frequency': '3.2 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Die Size': '82 mm'
+  'Release Date': '2010-06-01'
+  Socket: LGA775
+  AES: false
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Pentium E6700'
+name: Pentium-E6700

@@ -1,0 +1,62 @@
+humanName: Arrandale
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Core-i7-680UM
+      - Core-i7-660UM
+      - Core-i7-660UE
+      - Core-i7-660LM
+      - Core-i7-640UM
+      - Core-i7-640M
+      - Core-i7-640LM
+      - Core-i7-620UM
+      - Core-i7-620M
+      - Core-i7-620LM
+      - Core-i7-610E
+      - Core-i5-580M
+      - Core-i5-560UM
+      - Core-i5-560M
+      - Core-i5-540UM
+      - Core-i5-540M
+      - Core-i5-520UM
+      - Core-i5-520M
+      - Core-i5-480M
+      - Core-i5-470UM
+      - Core-i5-460M
+      - Core-i5-450M
+      - Core-i5-430UM
+      - Core-i5-430M
+      - Core-i3-390M
+      - Core-i3-380UM
+      - Core-i3-380M
+      - Core-i3-370M
+      - Core-i3-350M
+      - Core-i3-330UM
+      - Core-i3-330M
+      - Core-i3-330E
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-U5600
+      - Pentium-U5400
+      - Pentium-U3600
+      - Pentium-U3405
+      - Pentium-U3400
+      - Pentium-P6300
+      - Pentium-P6200
+      - Pentium-P6100
+      - Pentium-P6000
+      - Pentium-P4600
+      - Pentium-P4505
+      - Pentium-P4500
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '32 nm'
+  'Release Date': 'Q1 2010'
+  Sockets:
+    - BGA1288
+    - PGA988
+name: Mobile-Arrandale

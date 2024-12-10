@@ -1,0 +1,33 @@
+humanName: Yorkfield
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Core-QX9775
+      - Core-QX9770
+      - Core-QX9650
+      - Core-Q9650
+      - Core-Q9550S
+      - Core-Q9550
+      - Core-Q9505S
+      - Core-Q9505
+      - Core-Q9500
+      - Core-Q9450
+      - Core-Q9400S
+      - Core-Q9400
+      - Core-Q9300
+      - Core-Q8400S
+      - Core-Q8400
+      - Core-Q8300
+      - Core-Q8200S
+      - Core-Q8200
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': '2007-11-12'
+  Sockets:
+    - LGA775
+    - LGA771
+name: Desktop-Yorkfield

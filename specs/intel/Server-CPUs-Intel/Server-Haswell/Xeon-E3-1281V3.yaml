@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: Haswell
+  Market: Server
+  Lithography: '22 nm'
+  TDP: '82 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': 'DDR3, DDR3L'
+  'Base Frequency': '3.7 GHz'
+  'Boost Frequency': '4.1 GHz'
+  'L2 Cache (Total)': '8 MiB'
+  'Release Date': '2014-05-11'
+  Socket: FCLGA1150
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+isPart: true
+type: CPU
+humanName: 'Xeon E3-1281V3'
+name: Xeon-E3-1281V3

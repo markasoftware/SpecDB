@@ -1,0 +1,45 @@
+humanName: 'Coffee Lake'
+sections:
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Xeon-E-2278GEL
+      - Xeon-E-2278GE
+      - Xeon-E-2276ML
+      - Xeon-E-2276ME
+      - Core-i7-9850HL
+      - Core-i7-9850HE
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-E-2254ML
+      - Xeon-E-2254ME
+      - Core-i7-9700TE
+      - Core-i7-9700E
+  -
+    header: '6 Threads'
+    members:
+      - Xeon-E-2226GE
+      - Core-i5-9500TE
+      - Core-i5-9500E
+  -
+    header: '4 Threads'
+    members:
+      - Core-i3-9100TE
+      - Core-i3-9100HL
+      - Core-i3-9100E
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-G4932E
+      - Pentium-G4930E
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: 14nm
+  'Release Date': '2019-06-10'
+  Sockets:
+    - BGA1440
+    - LGA1151
+name: Embedded-Coffee-Lake

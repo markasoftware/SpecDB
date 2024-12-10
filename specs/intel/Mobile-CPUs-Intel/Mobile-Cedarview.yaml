@@ -1,0 +1,16 @@
+humanName: Cedarview
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Atom-N2800
+      - Atom-N2600
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '32 nm'
+  'Release Date': '2011-12-28'
+  Sockets:
+    - BGA559
+name: Mobile-Cedarview

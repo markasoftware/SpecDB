@@ -1,0 +1,86 @@
+humanName: 'Cascade Lake'
+sections:
+  -
+    header: '65 - 128 Threads'
+    members:
+      - Xeon-9282
+      - Xeon-9242
+  -
+    header: '17 - 64 Threads'
+    members:
+      - Xeon-9222
+      - Xeon-9221
+      - Xeon-8280M
+      - Xeon-8280L
+      - Xeon-8280
+      - Xeon-8276M
+      - Xeon-8276L
+      - Xeon-8276
+      - Xeon-8270
+      - Xeon-8268
+      - Xeon-8260Y
+      - Xeon-8260M
+      - Xeon-8260L
+      - Xeon-8260
+      - Xeon-8253
+      - Xeon-6262V
+      - Xeon-6254
+      - Xeon-6252N
+      - Xeon-6252
+      - Xeon-6248
+      - Xeon-6246
+      - Xeon-6242
+      - Xeon-6240Y
+      - Xeon-6240M
+      - Xeon-6240L
+      - Xeon-6240
+      - Xeon-6238T
+      - Xeon-6238M
+      - Xeon-6238L
+      - Xeon-6238
+      - Xeon-6230T
+      - Xeon-6230N
+      - Xeon-6230
+      - Xeon-6226
+      - Xeon-6222V
+      - Xeon-5220T
+      - Xeon-5220S
+      - Xeon-5220
+      - Xeon-5218T
+      - Xeon-5218N
+      - Xeon-5218B
+      - Xeon-5218
+      - Xeon-5215M
+      - Xeon-5215L
+      - Xeon-5215
+      - Xeon-4216
+      - Xeon-4214Y
+      - Xeon-4214
+      - Xeon-4210
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Xeon-6244
+      - Xeon-6234
+      - Xeon-5217
+      - Xeon-4215
+      - Xeon-4209T
+      - Xeon-4208
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-8256
+      - Xeon-5222
+  -
+    header: '6 Threads'
+    members:
+      - Xeon-3204
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2019-04-02'
+  Sockets:
+    - LGA3647
+name: Server-Cascade-Lake
