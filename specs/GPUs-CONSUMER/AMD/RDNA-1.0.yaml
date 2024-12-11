@@ -10,31 +10,39 @@ data:
   Release Date: '2019-07-07'
   Manufacturer: AMD
 sections:
-  - header: WHOLE RANGE
-    members:
-    - Radeon-Pro-5300
-    - Radeon-Pro-5300M
-    - Radeon-Pro-5500-XT
-    - Radeon-Pro-5500M
-    - Radeon-Pro-5600M
-    - Radeon-Pro-5700
-    - Radeon-Pro-5700-XT
-    - Radeon-Pro-W5300M
-    - Radeon-Pro-W5500
-    - Radeon-Pro-W5500M
-    - Radeon-Pro-W5500X
-    - Radeon-Pro-W5700
-    - Radeon-Pro-W5700X
-    - Radeon-RX-5300-OEM
-    - Radeon-RX-5300-XT-OEM
-    - Radeon-RX-5300M
-    - Radeon-RX-5500-OEM
-    - Radeon-RX-5500-XT
-    - Radeon-RX-5500M
-    - Radeon-RX-5600-OEM
-    - Radeon-RX-5600-XT
-    - Radeon-RX-5600M
-    - Radeon-RX-5700
-    - Radeon-RX-5700-XT
+  - header: Consumer RX
+    members:    
     - Radeon-RX-5700-XT-50th-Anniversary
+    - Radeon-RX-5700-XT
+    - Radeon-RX-5700
+    - Radeon-RX-5600-XT
+    - Radeon-RX-5500-XT
+  - header: Consumer RX Mobile
+    members:
     - Radeon-RX-5700M
+    - Radeon-RX-5600M
+    - Radeon-RX-5500M
+    - Radeon-RX-5300M
+  - header: Workstation PRO Desktop
+    members:
+    - Radeon-Pro-W5700X
+    - Radeon-Pro-W5700
+    - Radeon-Pro-W5500X
+    - Radeon-Pro-W5500
+    - Radeon-Pro-5700-XT
+    - Radeon-Pro-5700
+    - Radeon-Pro-5500-XT
+    - Radeon-Pro-5300
+  - header: Workstation PRO Mobile
+    members:
+    - Radeon-Pro-W5500M
+    - Radeon-Pro-W5300M
+    - Radeon-Pro-5600M
+    - Radeon-Pro-5500M
+    - Radeon-Pro-5300M
+  - header: OEM
+    members:
+    - Radeon-RX-5600-OEM
+    - Radeon-RX-5500-OEM
+    - Radeon-RX-5300-XT-OEM
+    - Radeon-RX-5300-OEM

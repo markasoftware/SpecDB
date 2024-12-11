@@ -16,46 +16,52 @@ sections:
     - Radeon-RX-6900-XTX
     - Radeon-RX-6900-XT
     - Radeon-RX-6850M-XT
-    - Radeon-RX-6800S
-    - Radeon-RX-6800M
     - Radeon-RX-6800-XT
     - Radeon-RX-6800
     - Radeon-RX-6750-XT
     - Radeon-RX-6750-GRE-12-GB
     - Radeon-RX-6750-GRE-10-GB
-    - Radeon-RX-6700M
     - Radeon-RX-6700-XT
-    - Radeon-RX-6700S
     - Radeon-RX-6700
     - Radeon-RX-6650M-XT
-    - Radeon-RX-6650M
     - Radeon-RX-6650-XT
-    - Radeon-RX-6600S
-    - Radeon-RX-6600M
     - Radeon-RX-6600-XT
     - Radeon-RX-6600
+    - Radeon-RX-6500-XT
+    - Radeon-RX-6400
+    - Radeon-RX-6300
+  - header: Mobile
+    members:
+    - Radeon-RX-6800S
+    - Radeon-RX-6800M
+    - Radeon-RX-6700M
+    - Radeon-RX-6700S
+    - Radeon-RX-6650M
+    - Radeon-RX-6600S
+    - Radeon-RX-6600M
     - Radeon-RX-6550S
     - Radeon-RX-6550M
     - Radeon-RX-6500M
-    - Radeon-RX-6500-XT
     - Radeon-RX-6450M
-    - Radeon-RX-6400
     - Radeon-RX-6300M
-    - Radeon-RX-6300
-  - header: WHOLE RANGE
-    members:
-    - Radeon-610M
-    - Radeon-660M
     - Radeon-680M
-    - Radeon-Graphics-128SP
+    - Radeon-660M
+    - Radeon-610M
+  - header: Workstation PRO Desktop
+    members:
     - Radeon-PRO-W6300
-    - Radeon-Pro-W6300M
     - Radeon-PRO-W6400
-    - Radeon-Pro-W6500M
     - Radeon-PRO-W6600
-    - Radeon-Pro-W6600M
     - Radeon-Pro-W6600X
     - Radeon-PRO-W6800
     - Radeon-Pro-W6800X
     - Radeon-Pro-W6800X-Duo
     - Radeon-Pro-W6900X
+  - header: Workstation PRO Mobile
+    members:
+    - Radeon-Pro-W6300M
+    - Radeon-Pro-W6500M
+    - Radeon-Pro-W6600M
+  - header: Integrated
+    members:
+    - Radeon-Graphics-128SP

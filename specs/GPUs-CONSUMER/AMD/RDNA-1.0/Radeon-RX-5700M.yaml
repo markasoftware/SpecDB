@@ -28,5 +28,7 @@ data:
   TDP: 180 W
   FP32 Compute: 7.926 TFLOPS
   FP64 Compute: 495.4 GFLOPS (1:16)
-  Outputs: 1x HDMI 2.0b3x DisplayPort 1.4a
+  Outputs: 
+    - 1x HDMI 2.0b
+    - 3x DisplayPort 1.4a
   Power Connectors: 1x 6-pin + 1x 8-pin

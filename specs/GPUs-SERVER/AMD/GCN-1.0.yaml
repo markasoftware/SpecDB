@@ -10,7 +10,7 @@ data:
   Release Date: '2011-12-22'
   Manufacturer: AMD
 sections:
-  - header: WHOLE RANGE
+  - header: FirePro Server
     members:
     - FirePro-R5000
     - FirePro-S4000X
@@ -21,6 +21,7 @@ sections:
     - FirePro-S10000
     - FirePro-S10000-Passive
     - FirePro-S10000-Passive-12GB
+  - header: Radeon Sky
     - Radeon-Sky-500
     - Radeon-Sky-700
     - Radeon-Sky-900

@@ -31,6 +31,8 @@ data:
   Slot Width: Dual-slot
   Outputs: 
     - 1x DVI
-    - 1x HDMI 2.0b3x DisplayPort 1.4a
+    - 
+    - 1x HDMI 2.0b
+    - 3x DisplayPort 1.4a
   Power Connectors: 1x 8-pin
   Length: 241 mm

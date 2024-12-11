@@ -30,5 +30,7 @@ data:
   FP32 Compute: 8.960 TFLOPS
   FP64 Compute: 560.0 GFLOPS (1:16)
   Slot Width: IGP
-  Outputs: 1x HDMI 2.0b3x DisplayPort 1.4a
+  Outputs: 
+    - 1x HDMI 2.0b
+    - 3x DisplayPort 1.4a
   Power Connectors: None

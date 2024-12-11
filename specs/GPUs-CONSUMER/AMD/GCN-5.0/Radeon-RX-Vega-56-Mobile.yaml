@@ -29,6 +29,8 @@ data:
   FP32 Compute: 9.326 TFLOPS
   FP64 Compute: 582.8 GFLOPS (1:16)
   Slot Width: MXM Module
-  Outputs: 1x HDMI 2.0b3x DisplayPort 1.4a
+  Outputs: 
+    - 1x HDMI 2.0b
+    - 3x DisplayPort 1.4a
   Power Connectors: None
   Length: 105 mm

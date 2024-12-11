@@ -10,27 +10,34 @@ data:
   Release Date: '2017-06-27'
   Manufacturer: AMD
 sections:
+  - header: RX Vega
+    members:
+    - Radeon-Vega-Frontier-Edition
+    - Radeon-Vega-Frontier-Edition-Watercooled
+    - Radeon-RX-Vega-64-Liquid-Cooling
+    - Radeon-RX-Vega-64-Limited-Edition
+    - Radeon-RX-Vega-64
+    - Radeon-RX-Vega-56
+    - Radeon-RX-Vega-11-Embedded
+    - Radeon-RX-Vega-11
+  - header: RX Vega Mobile
+    members: 
+    - Radeon-RX-Vega-56-Mobile
+    - Radeon-RX-Vega-11-Mobile
+    - Radeon-RX-Vega-10-Mobile
+  - header: Integrated
+    members:
+    - Radeon-Pro-Vega-56
   - header: WHOLE RANGE
     members:
     - Radeon-Pro-Vega-16
     - Radeon-Pro-Vega-20
     - Radeon-Pro-Vega-48
-    - Radeon-Pro-Vega-56
     - Radeon-Pro-Vega-64
     - Radeon-Pro-Vega-64X
     - Radeon-Pro-WX-8100
     - Radeon-Pro-WX-8200
     - Radeon-Pro-WX-9100
-    - Radeon-RX-Vega-10-Mobile
-    - Radeon-RX-Vega-11
-    - Radeon-RX-Vega-11-Embedded
-    - Radeon-RX-Vega-11-Mobile
-    - Radeon-RX-Vega-56
-    - Radeon-RX-Vega-56-Mobile
-    - Radeon-RX-Vega-64
-    - Radeon-RX-Vega-64-Limited-Edition
-    - Radeon-RX-Vega-64-Liquid-Cooling
-    - Radeon-RX-Vega-Nano
     - Radeon-Vega-3
     - Radeon-Vega-3-Embedded
     - Radeon-Vega-3-Mobile
@@ -42,5 +49,7 @@ sections:
     - Radeon-Vega-10-Mobile
     - Radeon-Vega-11
     - Radeon-Vega-11-Embedded
-    - Radeon-Vega-Frontier-Edition
-    - Radeon-Vega-Frontier-Edition-Watercooled
+  - header: Never Released
+    members:
+    - Radeon-RX-Vega-Nano
+  

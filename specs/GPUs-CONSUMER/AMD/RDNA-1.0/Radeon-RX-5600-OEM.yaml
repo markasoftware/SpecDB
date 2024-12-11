@@ -29,5 +29,7 @@ data:
   FP32 Compute: 6.390 TFLOPS
   FP64 Compute: 399.4 GFLOPS (1:16)
   Slot Width: Dual-slot
-  Outputs: 1x HDMI 2.0b3x DisplayPort 1.4a
+  Outputs: 
+    - 1x HDMI 2.0b
+    - 3x DisplayPort 1.4a
   Power Connectors: 1x 8-pin
