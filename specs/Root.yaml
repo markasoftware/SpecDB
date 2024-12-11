@@ -11,6 +11,7 @@ sections:
     - CPUs-SERVER
     - GPUs-CONSUMER-AMD
     - GPUs-CONSOLE-AMD
+    - GPUs-SERVER-AMD
     - APUs-DESKTOP
     - APUs-MOBILE
   - header: Intel

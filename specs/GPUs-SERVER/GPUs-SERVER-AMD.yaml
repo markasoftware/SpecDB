@@ -1,0 +1,30 @@
+name: GPUs-SERVER-AMD
+humanName: Server GPUs
+type: Generic Container
+isPart: false
+topHeader: 'SELECT SERIES:'
+data:
+  Manufacturer: AMD
+sections:
+  - header: RDNA
+    members:
+      - RDNA-3.0-server
+      - RDNA-2.0-server
+      - RDNA-1.0-server
+  - header: CDNA
+    members:
+      - CDNA-3.0
+      - CDNA-2.0
+      - CDNA-1.0
+  - header: GCN
+    members:
+      - GCN-5.1-server
+      - GCN-5.0-server
+      - GCN-4.0-server
+      - GCN-3.0-server
+      - GCN-2.0-server
+      - GCN-1.0-server
+  - header: TeraScale
+    members:
+      - TeraScale-2-server
+      - TeraScale-server

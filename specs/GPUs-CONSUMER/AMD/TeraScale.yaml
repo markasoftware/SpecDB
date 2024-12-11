@@ -4,7 +4,7 @@ type: Graphics Architecture
 isPart: false
 topHeader: 'SELECT CARD:'
 data:
-  Lithography: 14 nm
+  Lithography: 55 nm
   DirectX Support: '9.3'
   Vulkan Support: 'N/A'
   Release Date: '2005-11-22'
@@ -25,7 +25,6 @@ sections:
     - FirePro-2450-Multi-View-PCIe-x1
     - FirePro-M5725
     - FirePro-M7740
-    - FirePro-RG220
     - FirePro-RG220A
     - FirePro-V3700
     - FirePro-V3750
@@ -36,9 +35,6 @@ sections:
     - FirePro-V8700
     - FirePro-V8700-Duo
     - FirePro-V8750
-    - FireStream-9170
-    - FireStream-9250
-    - FireStream-9270
     - Mobility-FireGL-V5600
     - Mobility-FireGL-V5700
     - Mobility-FireGL-V5725

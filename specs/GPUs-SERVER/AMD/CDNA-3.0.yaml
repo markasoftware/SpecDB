@@ -10,7 +10,7 @@ data:
   Release Date: '2023-01-04'
   Manufacturer: AMD
 sections:
-  - header: WHOLE RANGE
+  - header: Instinct series
     members:
     - Radeon-Instinct-MI300
     - Radeon-Instinct-MI300X

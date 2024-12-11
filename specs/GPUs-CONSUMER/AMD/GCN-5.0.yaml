@@ -12,9 +12,6 @@ data:
 sections:
   - header: WHOLE RANGE
     members:
-    - Radeon-Instinct-MI25
-    - Radeon-Pro-V340-8-GB
-    - Radeon-Pro-V340-16-GB
     - Radeon-Pro-Vega-16
     - Radeon-Pro-Vega-20
     - Radeon-Pro-Vega-48
@@ -24,7 +21,6 @@ sections:
     - Radeon-Pro-WX-8100
     - Radeon-Pro-WX-8200
     - Radeon-Pro-WX-9100
-    - Radeon-Pro-V320
     - Radeon-RX-Vega-10-Mobile
     - Radeon-RX-Vega-11
     - Radeon-RX-Vega-11-Embedded

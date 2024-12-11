@@ -4,7 +4,7 @@ type: Graphics Architecture
 isPart: false
 topHeader: 'SELECT CARD:'
 data:
-  Lithography: 14 nm
+  Lithography: 28 nm
   DirectX Support: '12.0'
   Vulkan Support: '1.2.170'
   Release Date: '2014'
@@ -12,10 +12,6 @@ data:
 sections:
   - header: WHOLE RANGE
     members:
-    - FirePro-S7100X
-    - FirePro-S7150
-    - FirePro-S7150-x2
-    - FirePro-S9300-X2
     - FirePro-W7100
     - FirePro-W7170M
     - Radeon-530-Mobile-DDR3
@@ -26,7 +22,6 @@ sections:
     - Radeon-625-OEM
     - Radeon-620-Mobile
     - Radeon-E8950
-    - Radeon-Instinct-MI8
     - Radeon-Pro-Duo
     - Radeon-Pro-SSG
     - Radeon-R4-Mobile-Graphics

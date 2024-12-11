@@ -1,0 +1,26 @@
+name: GCN-1.0-server
+humanName: GCN 1.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  Release Date: '2011-12-22'
+  Manufacturer: AMD
+sections:
+  - header: WHOLE RANGE
+    members:
+    - FirePro-R5000
+    - FirePro-S4000X
+    - FirePro-S7000
+    - FirePro-S9000
+    - FirePro-S9010
+    - FirePro-S9050
+    - FirePro-S10000
+    - FirePro-S10000-Passive
+    - FirePro-S10000-Passive-12GB
+    - Radeon-Sky-500
+    - Radeon-Sky-700
+    - Radeon-Sky-900

@@ -19,8 +19,6 @@ sections:
     - Radeon-Graphics-448SP-Mobile
     - Radeon-Graphics-512SP
     - Radeon-Graphics-512SP-Mobile
-    - Radeon-Instinct-MI50
-    - Radeon-Instinct-MI60
     - Radeon-Pro-V420
     - Radeon-Pro-Vega-II
     - Radeon-Pro-Vega-II-Duo

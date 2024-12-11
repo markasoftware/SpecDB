@@ -4,7 +4,7 @@ type: Graphics Architecture
 isPart: false
 topHeader: 'SELECT CARD:'
 data:
-  Lithography: 14 nm
+  Lithography: 7 nm
   DirectX Support: '12.1'
   Vulkan Support: '1.3'
   Release Date: '2019-07-07'
@@ -19,8 +19,6 @@ sections:
     - Radeon-Pro-5600M
     - Radeon-Pro-5700
     - Radeon-Pro-5700-XT
-    - Radeon-Pro-V520
-    - Radeon-Pro-V540
     - Radeon-Pro-W5300M
     - Radeon-Pro-W5500
     - Radeon-Pro-W5500M

@@ -30,7 +30,6 @@ sections:
     - Radeon-E9390-PCIe
     - Radeon-E9550-MXM
     - Radeon-E9560-PCIe
-    - Radeon-Instinct-MI6
     - Radeon-Pro-450
     - Radeon-Pro-455
     - Radeon-Pro-460
