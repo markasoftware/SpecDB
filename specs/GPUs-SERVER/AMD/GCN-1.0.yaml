@@ -22,6 +22,7 @@ sections:
     - FirePro-S10000-Passive
     - FirePro-S10000-Passive-12GB
   - header: Radeon Sky
+    members:
     - Radeon-Sky-500
     - Radeon-Sky-700
     - Radeon-Sky-900
