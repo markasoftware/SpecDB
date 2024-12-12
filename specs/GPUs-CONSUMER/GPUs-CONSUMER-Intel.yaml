@@ -6,6 +6,9 @@ topHeader: 'SELECT SERIES:'
 data:
   Manufacturer: Intel
 sections:
+  - header: Intel Arc
+    members:
+      - Xe2
   - header: uncategorised Graphics Cards
     members:
       - Generation-12.7

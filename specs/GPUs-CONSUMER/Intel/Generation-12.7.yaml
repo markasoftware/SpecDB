@@ -10,9 +10,13 @@ data:
   Release Date: '2022'
   Manufacturer: Intel
 sections:
-  - header: WHOLE RANGE
+  - header: Desktop
     members:
     - Arc-A310
+    - Arc-A380
+    - Arc-A580
+  - header: WHOLE RANGE
+    members:
     - Arc-A350
     - Arc-A350M
     - Arc-A370M
@@ -20,7 +24,6 @@ sections:
     - Arc-A530M
     - Arc-A550M
     - Arc-A570M
-    - Arc-A580
     - Arc-A730M
     - Arc-A750
     - Arc-A770
