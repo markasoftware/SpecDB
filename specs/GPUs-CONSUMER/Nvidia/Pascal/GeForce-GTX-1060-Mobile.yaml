@@ -3,6 +3,7 @@ humanName: GeForce GTX 1060 Mobile
 isPart: true
 type: Graphics Card
 data:
+  Market: Mobile
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Pascal

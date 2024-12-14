@@ -11,20 +11,22 @@ sections:
       - Ada-Lovelace
       - Ampere
       - Turing
+  - header: GTX
+    members:
+      - Pascal
+      - Maxwell-2.0
+      - Maxwell
+      - Kepler-2.0
+      - Kepler
+      - Fermi-2.0
+      - Fermi
   - header: uncategorised Graphics Cards
     members:
       - Celsius
       - Curie
       - Fahrenheit
-      - Fermi
-      - Fermi-2.0
       - Hopper
       - Kelvin
-      - Kepler
-      - Kepler-2.0
-      - Maxwell
-      - Maxwell-2.0
-      - Pascal
       - Rankine
       - Tesla
       - Tesla-2.0

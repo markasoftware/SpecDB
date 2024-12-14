@@ -11,11 +11,6 @@ sections:
       - RDNA-1.0
       - RDNA-2.0
       - RDNA-3.0
-  - header: CDNA
-    members:
-      - CDNA-1.0
-      - CDNA-2.0
-      - CDNA-3.0
   - header: GCN
     members:
       - GCN-1.0

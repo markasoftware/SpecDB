@@ -10,34 +10,38 @@ data:
   Release Date: '2022-09-20'
   Manufacturer: Nvidia
 sections:
+  - header: Main RTX Range (Consumer)
+    members:
+    - GeForce-RTX-4090-Ti
+    - GeForce-RTX-4090-D
+    - GeForce-RTX-4090
+    - GeForce-RTX-4080-Ti
+    - GeForce-RTX-4080-SUPER
+    - GeForce-RTX-4080-12-GB
+    - GeForce-RTX-4080
+    - GeForce-RTX-4070-Ti-SUPER
+    - GeForce-RTX-4070-Ti
+    - GeForce-RTX-4070-SUPER
+    - GeForce-RTX-4070
+    - GeForce-RTX-4060-Ti-16-GB
+    - GeForce-RTX-4060-Ti-8-GB
+    - GeForce-RTX-4060-AD106
+    - GeForce-RTX-4060
+    - GeForce-RTX-4050
+  - header: RTX Mobile
+    members:
+    - GeForce-RTX-4090-Mobile
+    - GeForce-RTX-4090-Max-Q
+    - GeForce-RTX-4080-Mobile
+    - GeForce-RTX-4080-Max-Q
+    - GeForce-RTX-4070-Mobile
+    - GeForce-RTX-4070-Max-Q
+    - GeForce-RTX-4060-Mobile
+    - GeForce-RTX-4060-Max-Q
+    - GeForce-RTX-4050-Mobile
+    - GeForce-RTX-4050-Max-Q
   - header: WHOLE RANGE
     members:
-    - GeForce-RTX-4050
-    - GeForce-RTX-4050-Max-Q
-    - GeForce-RTX-4050-Mobile
-    - GeForce-RTX-4060
-    - GeForce-RTX-4060-AD106
-    - GeForce-RTX-4060-Max-Q
-    - GeForce-RTX-4060-Mobile
-    - GeForce-RTX-4060-Ti-8-GB
-    - GeForce-RTX-4060-Ti-16-GB
-    - GeForce-RTX-4070
-    - GeForce-RTX-4070-Max-Q
-    - GeForce-RTX-4070-Mobile
-    - GeForce-RTX-4070-SUPER
-    - GeForce-RTX-4070-Ti
-    - GeForce-RTX-4070-Ti-SUPER
-    - GeForce-RTX-4080
-    - GeForce-RTX-4080-12-GB
-    - GeForce-RTX-4080-Max-Q
-    - GeForce-RTX-4080-Mobile
-    - GeForce-RTX-4080-SUPER
-    - GeForce-RTX-4080-Ti
-    - GeForce-RTX-4090
-    - GeForce-RTX-4090-D
-    - GeForce-RTX-4090-Max-Q
-    - GeForce-RTX-4090-Mobile
-    - GeForce-RTX-4090-Ti
     - L4
     - L40
     - L40-CNX

@@ -3,7 +3,9 @@ humanName: Quadro P5000 X2 Mobile
 isPart: true
 type: Graphics Card
 data:
-  Market: Workstation
+  Market:
+    - Workstation
+    - Mobile
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Pascal
