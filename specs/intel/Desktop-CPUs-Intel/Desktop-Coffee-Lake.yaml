@@ -1,0 +1,85 @@
+humanName: 'Coffee Lake'
+sections:
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Core-i9-9900T
+      - Core-i9-9900KS
+      - Core-i9-9900KF
+      - Core-i9-9900K
+      - Core-i9-9900
+      - Core-i7-8700T
+      - Core-i7-8700K
+      - Core-i7-8700
+      - Core-i7-8086K
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-9700T
+      - Core-i7-9700KF
+      - Core-i7-9700K
+      - Core-i7-9700F
+      - Core-i7-9700
+  -
+    header: '6 Threads'
+    members:
+      - Core-i5-9600T
+      - Core-i5-9600KF
+      - Core-i5-9600K
+      - Core-i5-9600
+      - Core-i5-9500T
+      - Core-i5-9500F
+      - Core-i5-9500
+      - Core-i5-9400T
+      - Core-i5-9400F
+      - Core-i5-9400
+      - Core-i5-8600T
+      - Core-i5-8600K
+      - Core-i5-8600
+      - Core-i5-8500T
+      - Core-i5-8500
+      - Core-i5-8400T
+      - Core-i5-8400
+  -
+    header: '4 Threads'
+    members:
+      - Pentium-G5620
+      - Pentium-G5600T
+      - Pentium-G5600
+      - Pentium-G5500T
+      - Pentium-G5500
+      - Pentium-G5420T
+      - Pentium-G5420
+      - Pentium-G5400T
+      - Pentium-G5400
+      - Core-i3-9350KF
+      - Core-i3-9350K
+      - Core-i3-9320
+      - Core-i3-9300T
+      - Core-i3-9300
+      - Core-i3-9100T
+      - Core-i3-9100F
+      - Core-i3-9100
+      - Core-i3-8350K
+      - Core-i3-8300T
+      - Core-i3-8300
+      - Core-i3-8100T
+      - Core-i3-8100
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-G4950
+      - Pentium-G4930T
+      - Pentium-G4930
+      - Pentium-G4920
+      - Pentium-G4900T
+      - Pentium-G4900
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2017-10-05'
+  Sockets:
+    - LGA1151
+name: Desktop-Coffee-Lake

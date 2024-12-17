@@ -1,0 +1,15 @@
+humanName: Merrifield
+sections:
+  -
+    header: '2 Threads'
+    members:
+      - Atom-Z3480
+      - Atom-Z3460
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2014-03-10'
+  Sockets: {  }
+name: Mobile-Merrifield

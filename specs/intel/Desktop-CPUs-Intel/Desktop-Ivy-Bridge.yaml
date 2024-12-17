@@ -1,0 +1,65 @@
+humanName: 'Ivy Bridge'
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-3770T
+      - Core-i7-3770S
+      - Core-i7-3770K
+      - Core-i7-3770
+  -
+    header: '4 Threads'
+    members:
+      - Core-i5-3570T
+      - Core-i5-3570S
+      - Core-i5-3570K
+      - Core-i5-3570
+      - Core-i5-3550S
+      - Core-i5-3550
+      - Core-i5-3475S
+      - Core-i5-3470T
+      - Core-i5-3470S
+      - Core-i5-3470
+      - Core-i5-3450S
+      - Core-i5-3450
+      - Core-i5-3350P
+      - Core-i5-3340S
+      - Core-i5-3340
+      - Core-i5-3330S
+      - Core-i5-3330
+      - Core-i3-3250T
+      - Core-i3-3250
+      - Core-i3-3245
+      - Core-i3-3240T
+      - Core-i3-3240
+      - Core-i3-3225
+      - Core-i3-3220T
+      - Core-i3-3220
+      - Core-i3-3210
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-G2140
+      - Pentium-G2130
+      - Pentium-G2120T
+      - Pentium-G2120
+      - Pentium-G2100T
+      - Pentium-G2030T
+      - Pentium-G2030
+      - Pentium-G2020T
+      - Pentium-G2020
+      - Pentium-G2010
+      - Pentium-G1630
+      - Pentium-G1620T
+      - Pentium-G1620
+      - Pentium-G1610T
+      - Pentium-G1610
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2012-04-29'
+  Sockets:
+    - LGA1155
+name: Desktop-Ivy-Bridge

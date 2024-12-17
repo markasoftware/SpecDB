@@ -1,0 +1,19 @@
+data:
+  Manufacturer: Intel
+  Architecture: Dunnington
+  Market: Server
+  Lithography: '45 nm'
+  TDP: '65 W'
+  'Core Count': 6
+  'Thread Count': 6
+  'Base Frequency': '2.13 GHz'
+  'L2 Cache (Total)': '12 MiB'
+  'Die Size': '503 mm'
+  'Release Date': '2008-09-15'
+  Socket: PGA604
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Xeon L7455'
+name: Xeon-L7455

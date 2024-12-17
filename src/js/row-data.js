@@ -101,6 +101,9 @@ module.exports.sections = [
 		name: 'Basic Specs',
 		rows: [
 			{
+				name: 'Market'
+			},
+			{
 				name: 'Base Frequency',
 				processor: types.unitUp,
 			},
@@ -185,6 +188,7 @@ module.exports.sections = [
 	{
 		name: 'Benchmarks',
 		rows: [
+			// CPU
 			{
 				name: 'UserBenchmark CPU Score',
 				processor: types.numberUp,
@@ -207,6 +211,23 @@ module.exports.sections = [
 			},
 			{
 				name: 'Geekbench Multi-Core Score',
+				processor: types.numberUp,
+			},
+			// GPU
+			{
+				name: '3DMark Graphics Score',
+				processor: types.numberUp,
+			},
+			{
+				name: 'Geekbench Vulkan Score',
+				processor: types.numberUp,
+			},
+			{
+				name: 'Geekbench OpenCl Score',
+				processor: types.numberUp,
+			},
+			{
+				name: 'PassMark Graphics Score',
 				processor: types.numberUp,
 			},
 		],
@@ -285,6 +306,18 @@ module.exports.sections = [
 				name: 'Texture Mapping Unit Count',
 				processor: types.numberUp,
 			},
+			{
+				name: 'Ray Tracing Cores',
+				processor: types.numberUp,
+			},
+			{
+				name: 'Tensor Cores',
+				processor: types.numberUp
+			},
+			{
+				name: 'Pixel Shaders',
+				processor: types.numberUp
+			}
 		],
 	},
 	{
@@ -355,6 +388,30 @@ module.exports.sections = [
 				name: 'PCIe 1.0 Lanes',
 				processor: types.numberUp,
 			},
+			{
+				name: 'Outputs',
+				processor: types.list
+			},
+			{
+				name: 'Power Connectors',
+				processor: types.numberDown
+			},
+			{
+				name: 'Slot Width',
+				processor: types.numberDown
+			},
+			{
+				name: 'Length',
+				processor: types.numberDown
+			},
+			{
+				name: 'Width',
+				processor: types.numberDown
+			},
+			{
+				name: 'Height',
+				processor: types.numberDown
+			}
 		],
 	},
 	{

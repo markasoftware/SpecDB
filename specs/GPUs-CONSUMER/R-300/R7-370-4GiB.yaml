@@ -1,8 +1,0 @@
-isPart: true
-type: Graphics Card
-data:
-  VRAM Capacity: 4 GiB
-inherits:
-  - R7 370 Base
-name: R7-370-4GiB
-humanName: R7 370 (4GiB)

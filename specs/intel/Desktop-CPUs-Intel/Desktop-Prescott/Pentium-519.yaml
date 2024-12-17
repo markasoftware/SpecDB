@@ -1,0 +1,17 @@
+data:
+  Manufacturer: Intel
+  Architecture: Prescott
+  Market: Desktop
+  Lithography: '90 nm'
+  TDP: '84 W'
+  'Core Count': 1
+  'Thread Count': 1
+  'Base Frequency': '3.06 GHz'
+  'L2 Cache (Total)': '1024 KiB'
+  'Die Size': '112 mm'
+  Socket: PLGA775
+  'Other Extensions': {  }
+isPart: true
+type: CPU
+humanName: 'Pentium 519'
+name: Pentium-519

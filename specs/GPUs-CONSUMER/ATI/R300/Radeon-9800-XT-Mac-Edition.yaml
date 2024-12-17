@@ -1,0 +1,31 @@
+name: Radeon-9800-XT-Mac-Edition
+humanName: Radeon 9800 XT Mac Edition
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: R300
+  Lithography: 150 nm
+  DirectX Support: '9.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-03-14'
+  GPU Base Frequency: 412 MHz
+  VRAM Frequency: 365 MHz
+  VRAM Bandwidth: 23.36 GB/s
+  VRAM Capacity: 256 MiB
+  VRAM Type: DDR
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 0 
+  Die Size: 218 mm²
+  GPU: R360
+  GPU Variant: R360
+  TDP: 60 W
+  Slot Width: Single-slot
+  Outputs: 2x DVI
+  Power Connectors: None
+  Pixel Shaders: 8

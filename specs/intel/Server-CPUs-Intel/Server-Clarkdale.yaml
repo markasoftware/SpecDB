@@ -1,0 +1,15 @@
+humanName: Clarkdale
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-L3406
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '32 nm'
+  'Release Date': '2010-03-16'
+  Sockets:
+    - LGA1156
+name: Server-Clarkdale

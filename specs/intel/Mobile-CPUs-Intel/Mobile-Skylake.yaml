@@ -1,0 +1,62 @@
+humanName: Skylake
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-E3-1575MV5
+      - Xeon-E3-1545MV5
+      - Xeon-E3-1535MV5
+      - Xeon-E3-1515MV5
+      - Xeon-E3-1505MV5
+      - Core-i7-6970HQ
+      - Core-i7-6920HQ
+      - Core-i7-6870HQ
+      - Core-i7-6820HQ
+      - Core-i7-6820HK
+      - Core-i7-6770HQ
+      - Core-i7-6700HQ
+  -
+    header: '4 Threads'
+    members:
+      - Pentium-4405Y
+      - Pentium-4405U
+      - Core-i7-6660U
+      - Core-i7-6650U
+      - Core-i7-6600U
+      - Core-i7-6567U
+      - Core-i7-6560U
+      - Core-i7-6500U
+      - Core-i5-6440HQ
+      - Core-i5-6360U
+      - Core-i5-6350HQ
+      - Core-i5-6300U
+      - Core-i5-6300HQ
+      - Core-i5-6287U
+      - Core-i5-6267U
+      - Core-i5-6260U
+      - Core-i5-6200U
+      - Core-i3-6167U
+      - Core-i3-6157U
+      - Core-i3-6100U
+      - Core-i3-6100H
+      - Core-i3-6006U
+      - Core-M7-6Y75
+      - Core-M5-6Y57
+      - Core-M5-6Y54
+      - Core-M3-6Y30
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-3955U
+      - Pentium-3855U
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2015-07-01'
+  Sockets:
+    - BGA1356
+    - BGA1515
+    - BGA1440
+name: Mobile-Skylake

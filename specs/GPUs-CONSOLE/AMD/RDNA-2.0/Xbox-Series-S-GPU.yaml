@@ -1,0 +1,33 @@
+name: Xbox-Series-S-GPU
+humanName: Xbox Series S GPU
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: RDNA 2.0
+  Lithography: 7 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.2'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.2'
+  Release Date: '2020-11-10'
+  GPU Base Frequency: 1565 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 224.0 GB/s
+  VRAM Capacity: 8 GiB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 80
+  Shader Processor Count: 1280 
+  Die Size: 197 mm²
+  GPU: Lockhart
+  TDP: 100 W
+  FP32 Compute: 4.006 TFLOPS
+  FP64 Compute: 250.4 GFLOPS (1:16)
+  Outputs: 1x HDMI 2.1
+  Length: 274 mm
+  Width: 151 mm
+  Height: 64 mm
+  Market: Console

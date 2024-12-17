@@ -1,0 +1,19 @@
+data:
+  Manufacturer: Intel
+  Architecture: Clovertown
+  Market: Server
+  Lithography: '65 nm'
+  TDP: '80 W'
+  'Core Count': 4
+  'Thread Count': 4
+  'Base Frequency': '1.6 GHz'
+  'L2 Cache (Total)': '8 MiB'
+  'Die Size': '286 mm'
+  'Release Date': '2006-10-11'
+  Socket: 'LGA771, PLGA771'
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Xeon E5310'
+name: Xeon-E5310

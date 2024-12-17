@@ -1,0 +1,22 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Cascade Lake'
+  Market: Server
+  Lithography: '14 nm'
+  TDP: '150 W'
+  'Core Count': 24
+  'Thread Count': 48
+  'Max Memory Channels': 6
+  'Max Memory Frequency': '2933 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '2.1 GHz'
+  'Boost Frequency': '3.7 GHz'
+  'L2 Cache (Total)': '35.75 MiB'
+  'Release Date': '2019-04-02'
+  Socket: FCLGA3647
+  AES: true
+  AVX/SSE/MMX: AVX-512
+isPart: true
+type: CPU
+humanName: 'Xeon 6252'
+name: Xeon-6252

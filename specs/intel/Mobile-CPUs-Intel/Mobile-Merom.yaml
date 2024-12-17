@@ -1,0 +1,71 @@
+humanName: Merom
+sections:
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-T3400
+      - Pentium-T3200
+      - Pentium-T2390
+      - Pentium-T2370
+      - Pentium-T2330
+      - Pentium-T2310
+      - Pentium-T1700
+      - Pentium-T1600
+      - Core-X7900
+      - Core-X7800
+      - Core-U7700
+      - Core-U7600
+      - Core-U7500
+      - Core-T7800
+      - Core-T7700
+      - Core-T7600
+      - Core-T7500
+      - Core-T7400
+      - Core-T7300
+      - Core-T7250
+      - Core-T7200
+      - Core-T7100
+      - Core-T5870
+      - Core-T5800
+      - Core-T5750
+      - Core-T5670
+      - Core-T5600
+      - Core-T5550
+      - Core-T5500
+      - Core-T5470
+      - Core-T5450
+      - Core-T5300
+      - Core-T5270
+      - Core-T5250
+      - Core-T5200
+      - Core-L7700
+      - Core-L7500
+      - Core-L7400
+      - Core-L7300
+      - Core-L7200
+  -
+    header: '1 Threads'
+    members:
+      - Pentium-585
+      - Pentium-575
+      - Pentium-573
+      - Pentium-570
+      - Pentium-560
+      - Pentium-550
+      - Pentium-540
+      - Pentium-530
+      - Pentium-523
+      - Pentium-520
+      - Core-U2200
+      - Core-U2100
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '65 nm'
+  'Release Date': 'Q3 2006'
+  Sockets:
+    - PBGA479
+    - PPGA478
+    - PGA478
+name: Mobile-Merom

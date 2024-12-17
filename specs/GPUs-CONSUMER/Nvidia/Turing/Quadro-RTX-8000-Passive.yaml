@@ -1,0 +1,39 @@
+name: Quadro-RTX-8000-Passive
+humanName: Quadro RTX 8000 Passive
+isPart: true
+type: Graphics Card
+data:
+  Market: Workstation
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Turing
+  Lithography: 12 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '576'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2018-08-13'
+  GPU Base Frequency: 1230 MHz
+  GPU Boost Frequency: 1620 MHz
+  VRAM Frequency: 1625 MHz
+  VRAM Bandwidth: 624.0 GB/s
+  VRAM Capacity: 48 GiB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 96
+  Texture Mapping Unit Count: 288
+  Shader Processor Count: 4608 
+  Die Size: 754 mm²
+  GPU: TU102
+  GPU Variant: TU102-875-A1
+  TDP: 260 W
+  FP32 Compute: 14.93 TFLOPS
+  FP64 Compute: 466.6 GFLOPS (1:32)
+  Slot Width: Dual-slot
+  Outputs: No outputs
+  Power Connectors: 1x 6-pin + 1x 8-pin
+  Length: 267 mm
+  Width: 111 mm
+  Ray Tracing Cores: 72
+  Tensor Cores: 576

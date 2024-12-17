@@ -1,0 +1,20 @@
+data:
+  Manufacturer: Intel
+  Architecture: Smithfield
+  Market: Desktop
+  Lithography: '90 nm'
+  TDP: '95 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Base Frequency': '2.8 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Die Size': '206 mm'
+  'Release Date': 'Q2 2005'
+  Socket: PLGA775
+  AES: false
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Pentium 820'
+name: Pentium-820

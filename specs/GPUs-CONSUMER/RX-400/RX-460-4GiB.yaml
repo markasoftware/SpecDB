@@ -1,8 +1,0 @@
-name: RX-460-4GiB
-humanName: RX 460 (4 GiB)
-isPart: true
-type: Graphics Card
-inherits:
-  - RX 460 Base
-data:
-  VRAM Capacity: 4 GiB

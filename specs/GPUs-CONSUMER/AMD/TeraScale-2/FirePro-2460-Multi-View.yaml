@@ -1,0 +1,34 @@
+name: FirePro-2460-Multi-View
+humanName: FirePro 2460 Multi-View
+isPart: true
+type: Graphics Card
+data:
+  Market: Workstation
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2010-04-01'
+  GPU Base Frequency: 500 MHz
+  VRAM Frequency: 500 MHz
+  VRAM Bandwidth: 32.00 GB/s
+  VRAM Capacity: 512 MiB
+  VRAM Type: DDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 80 
+  Die Size: 59 mm²
+  GPU: Cedar
+  GPU Variant: Cedar GL
+  TDP: 17 W
+  FP32 Compute: 80.00 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 4x mini-DisplayPort 1.1
+  Power Connectors: None
+  Length: 170 mm
+  Width: 69 mm

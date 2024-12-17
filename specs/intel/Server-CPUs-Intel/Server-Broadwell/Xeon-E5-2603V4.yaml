@@ -1,0 +1,23 @@
+data:
+  Manufacturer: Intel
+  Architecture: Broadwell
+  Market: Server
+  Lithography: '14 nm'
+  TDP: '85 W'
+  'Core Count': 6
+  'Thread Count': 6
+  'Max Memory Channels': 4
+  'Max Memory Frequency': '1866 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '1.7 GHz'
+  'L2 Cache (Total)': '15 MiB'
+  'Release Date': '2016-03-31'
+  Socket: FCLGA2011-3
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+isPart: true
+type: CPU
+humanName: 'Xeon E5-2603V4'
+name: Xeon-E5-2603V4

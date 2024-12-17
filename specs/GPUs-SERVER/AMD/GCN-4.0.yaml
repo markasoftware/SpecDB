@@ -1,0 +1,15 @@
+name: GCN-4.0-server
+humanName: GCN 4.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.3'
+  Release Date: '2016-06-29'
+  Manufacturer: AMD
+sections:
+  - header: Instinct series
+    members:
+    - Radeon-Instinct-MI6

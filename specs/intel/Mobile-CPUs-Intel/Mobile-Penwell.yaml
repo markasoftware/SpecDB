@@ -1,0 +1,16 @@
+humanName: Penwell
+sections:
+  -
+    header: '2 Threads'
+    members:
+      - Atom-Z2480
+      - Atom-Z2460
+      - Atom-Z2420
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '32 nm'
+  'Release Date': '2012-04-19'
+  Sockets: {  }
+name: Mobile-Penwell

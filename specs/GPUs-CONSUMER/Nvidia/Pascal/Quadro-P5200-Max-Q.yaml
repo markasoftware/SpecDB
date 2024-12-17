@@ -1,0 +1,35 @@
+name: Quadro-P5200-Max-Q
+humanName: Quadro P5200 Max-Q
+isPart: true
+type: Graphics Card
+data:
+  Market:
+    - Workstation
+    - Mobile
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Pascal
+  Lithography: 16 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2018-02-21'
+  GPU Base Frequency: 1316 MHz
+  GPU Boost Frequency: 1569 MHz
+  VRAM Frequency: 1804 MHz
+  VRAM Bandwidth: 230.9 GB/s
+  VRAM Capacity: 16 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 160
+  Shader Processor Count: 2560 
+  Die Size: 314 mm²
+  GPU: GP104
+  TDP: 100 W
+  FP32 Compute: 8.033 TFLOPS
+  FP64 Compute: 251.0 GFLOPS (1:32)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

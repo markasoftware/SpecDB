@@ -1,0 +1,71 @@
+humanName: Skylake
+sections:
+  -
+    header: '17 - 64 Threads'
+    members:
+      - Xeon-W-3175X
+      - Core-i9-9980XE
+      - Core-i9-9960X
+      - Core-i9-9940X
+      - Core-i9-9920X
+      - Core-i9-9900X
+      - Core-i9-9820X
+      - Core-i9-7980XE
+      - Core-i9-7960X
+      - Core-i9-7940X
+      - Core-i9-7920X
+      - Core-i9-7900X
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Core-i7-9800X
+      - Core-i7-7820X
+      - Core-i7-7800X
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-6785R
+      - Core-i7-6700T
+      - Core-i7-6700K
+      - Core-i7-6700
+  -
+    header: '4 Threads'
+    members:
+      - Core-i5-6685R
+      - Core-i5-6600T
+      - Core-i5-6600K
+      - Core-i5-6600
+      - Core-i5-6585R
+      - Core-i5-6500T
+      - Core-i5-6500
+      - Core-i5-6402P
+      - Core-i5-6400T
+      - Core-i5-6400
+      - Core-i3-6320
+      - Core-i3-6300T
+      - Core-i3-6300
+      - Core-i3-6100T
+      - Core-i3-6100
+      - Core-i3-6098P
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-G4520
+      - Pentium-G4500T
+      - Pentium-G4500
+      - Pentium-G4400T
+      - Pentium-G4400
+      - Pentium-G3920
+      - Pentium-G3900T
+      - Pentium-G3900
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2015-08-05'
+  Sockets:
+    - LGA1151
+    - LGA2066
+    - LGA3647
+name: Desktop-Skylake

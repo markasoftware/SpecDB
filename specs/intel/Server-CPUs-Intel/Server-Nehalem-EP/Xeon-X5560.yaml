@@ -1,0 +1,23 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Nehalem EP'
+  Market: Server
+  Lithography: '45 nm'
+  TDP: '95 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 3
+  'Max Memory Frequency': '1333 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2.8 GHz'
+  'Boost Frequency': '3.2 GHz'
+  'L2 Cache (Total)': '8 MiB'
+  'Die Size': '263 mm'
+  'Release Date': '2009-03-30'
+  Socket: FCLGA1366
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Xeon X5560'
+name: Xeon-X5560

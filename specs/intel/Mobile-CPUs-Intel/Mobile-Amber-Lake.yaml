@@ -1,0 +1,15 @@
+humanName: 'Amber Lake'
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Pentium-4425Y
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2019-01-01'
+  Sockets:
+    - BGA1515
+name: Mobile-Amber-Lake

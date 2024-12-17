@@ -1,0 +1,31 @@
+name: GeForce-7600-GT-Mac-Edition
+humanName: GeForce 7600 GT Mac Edition
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Curie
+  Lithography: 80 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2006-09-02'
+  GPU Base Frequency: 560 MHz
+  VRAM Frequency: 700 MHz
+  VRAM Bandwidth: 22.40 GB/s
+  VRAM Capacity: 256 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 12
+  Shader Processor Count: 0 
+  Die Size: 100 mm²
+  GPU: G73B
+  GPU Variant: G73-GT-N-B1
+  TDP: 40 W
+  Slot Width: Single-slot
+  Outputs: 2x DVI
+  Power Connectors: None
+  Pixel Shaders: 12

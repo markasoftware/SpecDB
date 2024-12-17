@@ -1,0 +1,22 @@
+humanName: 'Ivy Bridge EP'
+sections:
+  -
+    header: '17 - 64 Threads'
+    members:
+      - Xeon-E5-4624LV2
+      - Xeon-E5-2658V2
+      - Xeon-E5-2648LV2
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Xeon-E5-2628LV2
+      - Xeon-E5-2618LV2
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2013-09-10'
+  Sockets:
+    - LGA2011
+name: Embedded-Ivy-Bridge-EP

@@ -1,0 +1,15 @@
+name: RDNA-3.0-server
+humanName: RDNA 3.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.3'
+  Release Date: '2022-11-03'
+  Manufacturer: AMD
+sections:
+  - header: Radeon Pro V series
+    members:
+    - Radeon-PRO-V710

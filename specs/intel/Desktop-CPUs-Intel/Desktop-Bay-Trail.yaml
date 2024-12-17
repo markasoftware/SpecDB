@@ -1,0 +1,23 @@
+humanName: 'Bay Trail'
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Pentium-J2900
+      - Pentium-J2850
+      - Pentium-J1900
+      - Pentium-J1850
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-J1800
+      - Pentium-J1750
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2013-09-11'
+  Sockets:
+    - BGA1170
+name: Desktop-Bay-Trail

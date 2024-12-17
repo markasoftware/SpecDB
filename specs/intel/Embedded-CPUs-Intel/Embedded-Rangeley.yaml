@@ -1,0 +1,32 @@
+humanName: Rangeley
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Atom-C2758
+      - Atom-C2738
+      - Atom-C2718
+  -
+    header: '4 Threads'
+    members:
+      - Atom-C2558
+      - Atom-C2538
+      - Atom-C2518
+      - Atom-C2516
+      - Atom-C2508
+  -
+    header: '2 Threads'
+    members:
+      - Atom-C2358
+      - Atom-C2338
+      - Atom-C2316
+      - Atom-C2308
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2013-09-04'
+  Sockets:
+    - BGA1283
+name: Embedded-Rangeley

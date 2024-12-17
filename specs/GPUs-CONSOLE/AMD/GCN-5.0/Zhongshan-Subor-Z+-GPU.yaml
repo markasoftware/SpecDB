@@ -1,0 +1,31 @@
+name: Zhongshan-Subor-Z+-GPU
+humanName: Zhongshan Subor Z+ GPU
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 5.0
+  Lithography: 14 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.2'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2018-08-03'
+  GPU Base Frequency: 1300 MHz
+  VRAM Frequency: 1200 MHz
+  VRAM Bandwidth: 153.6 GB/s
+  VRAM Capacity: 8 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 96
+  Shader Processor Count: 1536 
+  Die Size: 397 mm²
+  GPU: Fenghuang
+  GPU Variant: Zhongshan Subor
+  TDP: 100 W
+  FP32 Compute: 3.994 TFLOPS
+  FP64 Compute: 249.6 GFLOPS (1:16)
+  Outputs: 2x HDMI 2.0
+  Market: Console

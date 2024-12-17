@@ -1,0 +1,32 @@
+name: Quadro-K2000M-Embedded
+humanName: Quadro K2000M Embedded
+isPart: true
+type: Graphics Card
+data:
+  Market: Workstation
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Kepler
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.1'
+  OpenCL Support: '3.0'
+  Release Date: '2012-03-22'
+  GPU Base Frequency: 835 MHz
+  GPU Boost Frequency: 1058 MHz
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 57.60 GB/s
+  VRAM Capacity: 2 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 384 
+  Die Size: 118 mm²
+  GPU: EXK107
+  TDP: 45 W
+  FP32 Compute: 812.5 GFLOPS
+  FP64 Compute: 33.86 GFLOPS (1:24)
+  Slot Width: IGP
+  Outputs: 1x DVI

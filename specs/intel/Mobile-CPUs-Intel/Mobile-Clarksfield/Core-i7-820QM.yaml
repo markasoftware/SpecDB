@@ -1,0 +1,25 @@
+data:
+  Manufacturer: Intel
+  Architecture: Clarksfield
+  Market: Mobile
+  Lithography: '45 nm'
+  TDP: '45 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1333 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '1.73 GHz'
+  'Boost Frequency': '3.06 GHz'
+  'L2 Cache (Total)': '8 MiB'
+  'Die Size': '296 mm'
+  'Release Date': '2009-09-23'
+  Socket: PGA988
+  AES: false
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+isPart: true
+type: CPU
+humanName: 'Core i7-820QM'
+name: Core-i7-820QM

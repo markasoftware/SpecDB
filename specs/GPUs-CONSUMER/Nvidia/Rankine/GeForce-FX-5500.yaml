@@ -1,0 +1,37 @@
+name: GeForce-FX-5500
+humanName: GeForce FX 5500
+isPart: true
+type: Graphics Card
+data:
+  Market: Consumer
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Rankine
+  Lithography: 150 nm
+  DirectX Support: '9.0a'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-03-17'
+  GPU Base Frequency: 270 MHz
+  VRAM Frequency: 166 MHz
+  VRAM Bandwidth: 5.312 GB/s
+  VRAM Capacity: 64 MiB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 91 mm²
+  GPU: NV34B
+  FP32 Compute: 16.2 GFLOPS
+  GPU Variant: FX 5500
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA
+    - 1x S-Video
+  Power Connectors: None
+  Length: 152 mm
+  Pixel Shaders: 4

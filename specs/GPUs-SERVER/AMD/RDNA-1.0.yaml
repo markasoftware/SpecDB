@@ -1,0 +1,16 @@
+name: RDNA-1.0-server
+humanName: RDNA 1.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 7 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  Release Date: '2019-07-07'
+  Manufacturer: AMD
+sections:
+  - header: Radeon Pro V series
+    members:
+    - Radeon-Pro-V520
+    - Radeon-Pro-V540

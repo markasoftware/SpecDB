@@ -1,0 +1,25 @@
+humanName: 'Kaby Lake'
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-E3-1505LV6
+      - Core-i7-7820EQ
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-E3-1501MV6
+      - Xeon-E3-1501LV6
+      - Core-i5-7442EQ
+      - Core-i5-7440EQ
+      - Core-i3-7102E
+      - Core-i3-7100E
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2017-01-03'
+  Sockets:
+    - BGA1440
+name: Embedded-Kaby-Lake

@@ -1,0 +1,30 @@
+data:
+  Manufacturer: Intel
+  Architecture: Haswell
+  Market: Mobile
+  Lithography: '22 nm'
+  TDP: '37 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': DDR3L
+  'Base Frequency': '2.2 GHz'
+  'Boost Frequency': '3.2 GHz'
+  'L2 Cache (Total)': '6 MiB'
+  'Release Date': '2013-06-01'
+  Socket: FCBGA1364
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+  'GPU Base Frequency': '400 MHz'
+  'GPU Boost Frequency': '1.15 GHz'
+  'VRAM Type': DDR3L
+  'Maximum VRAM Capacity': '2 GiB'
+  'DirectX Support': '12'
+  'OpenGL Support': '4.3'
+isPart: true
+type: CPU
+humanName: 'Core i7-4702HQ'
+name: Core-i7-4702HQ

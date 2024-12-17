@@ -1,0 +1,53 @@
+humanName: 'Bay Trail'
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Pentium-N3540
+      - Pentium-N3530
+      - Pentium-N3520
+      - Pentium-N3510
+      - Pentium-N2940
+      - Pentium-N2930
+      - Pentium-N2920
+      - Pentium-N2910
+      - Pentium-A1020
+      - Atom-Z3795
+      - Atom-Z3785
+      - Atom-Z3775D
+      - Atom-Z3775
+      - Atom-Z3770D
+      - Atom-Z3770
+      - Atom-Z3745D
+      - Atom-Z3745
+      - Atom-Z3740D
+      - Atom-Z3740
+      - Atom-Z3736G
+      - Atom-Z3736F
+      - Atom-Z3735G
+      - Atom-Z3735F
+      - Atom-Z3735E
+      - Atom-Z3735D
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-N2840
+      - Pentium-N2830
+      - Pentium-N2820
+      - Pentium-N2815
+      - Pentium-N2810
+      - Pentium-N2808
+      - Pentium-N2807
+      - Pentium-N2806
+      - Pentium-N2805
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2013-09-11'
+  Sockets:
+    - BGA1170
+    - UTBGA1380
+    - UTBGA592
+name: Mobile-Bay-Trail

@@ -1,0 +1,22 @@
+data:
+  Manufacturer: Intel
+  Architecture: Skylake
+  Market: Server
+  Lithography: '14 nm'
+  TDP: '150 W'
+  'Core Count': 26
+  'Thread Count': 52
+  'Max Memory Channels': 6
+  'Max Memory Frequency': '2666 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '2 GHz'
+  'Boost Frequency': '3.7 GHz'
+  'L2 Cache (Total)': '35.75 MiB'
+  'Release Date': '2017-07-11'
+  Socket: FCLGA3647
+  AES: true
+  AVX/SSE/MMX: AVX-512
+isPart: true
+type: CPU
+humanName: 'Xeon 8164'
+name: Xeon-8164

@@ -1,0 +1,94 @@
+humanName: 'Sandy Bridge'
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-2960XM
+      - Core-i7-2920XM
+      - Core-i7-2860QM
+      - Core-i7-2820QM
+      - Core-i7-2760QM
+      - Core-i7-2720QM
+      - Core-i7-2710QE
+      - Core-i7-2675QM
+      - Core-i7-2670QM
+      - Core-i7-2635QM
+      - Core-i7-2630QM
+  -
+    header: '4 Threads'
+    members:
+      - Core-i7-2677M
+      - Core-i7-2657M
+      - Core-i7-2649M
+      - Core-i7-2640M
+      - Core-i7-2637M
+      - Core-i7-2629M
+      - Core-i7-2620M
+      - Core-i7-2617M
+      - Core-i5-2557M
+      - Core-i5-2540M
+      - Core-i5-2537M
+      - Core-i5-2520M
+      - Core-i5-2510E
+      - Core-i5-2467M
+      - Core-i5-2450M
+      - Core-i5-2435M
+      - Core-i5-2430M
+      - Core-i5-2410M
+      - Core-i3-2377M
+      - Core-i3-2375M
+      - Core-i3-2370M
+      - Core-i3-2367M
+      - Core-i3-2365M
+      - Core-i3-2357M
+      - Core-i3-2350M
+      - Core-i3-2348M
+      - Core-i3-2330M
+      - Core-i3-2330E
+      - Core-i3-2328M
+      - Core-i3-2312M
+      - Core-i3-2310M
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-B980
+      - Pentium-B970
+      - Pentium-B960
+      - Pentium-B950
+      - Pentium-B940
+      - Pentium-B840
+      - Pentium-B830
+      - Pentium-B820
+      - Pentium-B815
+      - Pentium-B810
+      - Pentium-B800
+      - Pentium-997
+      - Pentium-987
+      - Pentium-977
+      - Pentium-967
+      - Pentium-957
+      - Pentium-887
+      - Pentium-877
+      - Pentium-867
+      - Pentium-857
+      - Pentium-847
+      - Pentium-807
+  -
+    header: '1 Threads'
+    members:
+      - Pentium-B720
+      - Pentium-B710
+      - Pentium-797
+      - Pentium-787
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '32 nm'
+  'Release Date': '2011-01-09'
+  Sockets:
+    - BGA1224
+    - PGA988
+    - BGA1023
+    - PPGA988
+name: Mobile-Sandy-Bridge

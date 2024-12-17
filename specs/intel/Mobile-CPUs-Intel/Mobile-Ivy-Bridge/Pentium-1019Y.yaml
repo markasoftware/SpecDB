@@ -1,0 +1,25 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Ivy Bridge'
+  Market: Mobile
+  Lithography: '22 nm'
+  TDP: '10 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': DDR3/L/
+  'Base Frequency': '1000 MHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Release Date': '2013-04-01'
+  Socket: FCBGA1023
+  AES: false
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+  'GPU Base Frequency': '350 MHz'
+  'GPU Boost Frequency': '800 MHz'
+isPart: true
+type: CPU
+humanName: 'Pentium 1019Y'
+name: Pentium-1019Y

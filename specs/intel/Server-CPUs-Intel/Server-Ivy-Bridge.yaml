@@ -1,0 +1,55 @@
+humanName: 'Ivy Bridge'
+sections:
+  -
+    header: '17 - 64 Threads'
+    members:
+      - Xeon-E7-8891V2
+      - Xeon-E7-8890V2
+      - Xeon-E7-8880V2
+      - Xeon-E7-8880LV2
+      - Xeon-E7-8870V2
+      - Xeon-E7-8850V2
+      - Xeon-E7-4890V2
+      - Xeon-E7-4880V2
+      - Xeon-E7-4870V2
+      - Xeon-E7-4860V2
+      - Xeon-E7-4850V2
+      - Xeon-E7-4830V2
+      - Xeon-E7-2890V2
+      - Xeon-E7-2880V2
+      - Xeon-E7-2870V2
+      - Xeon-E7-2850V2
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Xeon-E7-8893V2
+      - Xeon-E7-8857V2
+      - Xeon-E7-4820V2
+      - Xeon-E7-4809V2
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-E3-1290V2
+      - Xeon-E3-1280V2
+      - Xeon-E3-1275V2
+      - Xeon-E3-1270V2
+      - Xeon-E3-1265LV2
+      - Xeon-E3-1245V2
+      - Xeon-E3-1240V2
+      - Xeon-E3-1230V2
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-E3-1225V2
+      - Xeon-E3-1220V2
+      - Xeon-E3-1220LV2
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2012-05-14'
+  Sockets:
+    - LGA1155
+    - LGA2011
+name: Server-Ivy-Bridge

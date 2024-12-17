@@ -1,0 +1,18 @@
+name: Curie-Console
+humanName: Curie
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 90-28 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  Release Date: '2003-12-22'
+  Manufacturer: Nvidia
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Playstation-3-GPU-28nm
+    - Playstation-3-GPU-40nm
+    - Playstation-3-GPU-65nm
+    - Playstation-3-GPU-90nm

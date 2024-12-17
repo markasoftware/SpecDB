@@ -1,0 +1,29 @@
+humanName: 'Sandy Bridge'
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-E3-1290
+      - Xeon-E3-1280
+      - Xeon-E3-1275
+      - Xeon-E3-1270
+      - Xeon-E3-1260L
+      - Xeon-E3-1245
+      - Xeon-E3-1240
+      - Xeon-E3-1235
+      - Xeon-E3-1230
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-E3-1225
+      - Xeon-E3-1220L
+      - Xeon-E3-1220
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '32 nm'
+  'Release Date': '2011-04-05'
+  Sockets:
+    - LGA1155
+name: Server-Sandy-Bridge

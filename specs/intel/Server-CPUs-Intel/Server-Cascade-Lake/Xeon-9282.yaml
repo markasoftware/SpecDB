@@ -1,0 +1,20 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Cascade Lake'
+  Market: Server
+  Lithography: 14nm
+  TDP: '400 W'
+  'Core Count': 56
+  'Thread Count': 112
+  'Max Memory Channels': 12
+  'Max Memory Frequency': '2933 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '2.6 GHz'
+  'Boost Frequency': '3.8 GHz'
+  'L2 Cache (Total)': '77 MiB'
+  'Release Date': '2019-04-02'
+  AVX/SSE/MMX: AVX-512
+isPart: true
+type: CPU
+humanName: 'Xeon 9282'
+name: Xeon-9282

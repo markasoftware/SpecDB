@@ -1,0 +1,92 @@
+humanName: Haswell
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-4790T
+      - Core-i7-4790S
+      - Core-i7-4790
+      - Core-i7-4785T
+      - Core-i7-4771
+      - Core-i7-4770T
+      - Core-i7-4770S
+      - Core-i7-4770K
+      - Core-i7-4770
+      - Core-i7-4765T
+  -
+    header: '4 Threads'
+    members:
+      - Core-i5-4690T
+      - Core-i5-4690S
+      - Core-i5-4690
+      - Core-i5-4670T
+      - Core-i5-4670S
+      - Core-i5-4670K
+      - Core-i5-4670
+      - Core-i5-4590T
+      - Core-i5-4590S
+      - Core-i5-4590
+      - Core-i5-4570T
+      - Core-i5-4570S
+      - Core-i5-4570
+      - Core-i5-4460T
+      - Core-i5-4460S
+      - Core-i5-4460
+      - Core-i5-4440S
+      - Core-i5-4440
+      - Core-i5-4430S
+      - Core-i5-4430
+      - Core-i3-4370T
+      - Core-i3-4370
+      - Core-i3-4360T
+      - Core-i3-4360
+      - Core-i3-4350T
+      - Core-i3-4350
+      - Core-i3-4340
+      - Core-i3-4330T
+      - Core-i3-4330
+      - Core-i3-4170T
+      - Core-i3-4170
+      - Core-i3-4160T
+      - Core-i3-4160
+      - Core-i3-4150T
+      - Core-i3-4150
+      - Core-i3-4130T
+      - Core-i3-4130
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-G3470
+      - Pentium-G3460T
+      - Pentium-G3460
+      - Pentium-G3450T
+      - Pentium-G3450
+      - Pentium-G3440T
+      - Pentium-G3440
+      - Pentium-G3430
+      - Pentium-G3420T
+      - Pentium-G3420
+      - Pentium-G3260T
+      - Pentium-G3260
+      - Pentium-G3258
+      - Pentium-G3250T
+      - Pentium-G3250
+      - Pentium-G3240T
+      - Pentium-G3240
+      - Pentium-G3220T
+      - Pentium-G3220
+      - Pentium-G1850
+      - Pentium-G1840T
+      - Pentium-G1840
+      - Pentium-G1830
+      - Pentium-G1820T
+      - Pentium-G1820
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2013-06-01'
+  Sockets:
+    - LGA1150
+name: Desktop-Haswell

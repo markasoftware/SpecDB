@@ -1,0 +1,29 @@
+name: Radeon-HD-6480G-IGP
+humanName: Radeon HD 6480G IGP
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale 2
+  Lithography: 32 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2011-06-14'
+  GPU Base Frequency: 444 MHz
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 12
+  Shader Processor Count: 240 
+  Die Size: 227 mm²
+  GPU: Sumo
+  TDP: 35 W
+  FP32 Compute: 213.1 GFLOPS
+  Slot Width: IGP
+  Outputs: Portable Device Dependent

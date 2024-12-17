@@ -1,0 +1,36 @@
+name: Radeon-HD-5770-Mac-Edition
+humanName: Radeon HD 5770 Mac Edition
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2010-07-04'
+  GPU Base Frequency: 850 MHz
+  VRAM Frequency: 1195 MHz
+  VRAM Bandwidth: 76.48 GB/s
+  VRAM Capacity: 1024 MiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 40
+  Shader Processor Count: 800 
+  Die Size: 166 mm²
+  GPU: Juniper
+  GPU Variant: Juniper XT
+  TDP: 108 W
+  FP32 Compute: 1,360 GFLOPS
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 2x mini-DisplayPort 1.1
+  Power Connectors: 1x 6-pin
+  Length: 208 mm
+  Width: 111 mm
+  Height: 37 mm

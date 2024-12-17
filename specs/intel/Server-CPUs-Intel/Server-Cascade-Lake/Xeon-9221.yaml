@@ -1,0 +1,20 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Cascade Lake'
+  Market: Server
+  Lithography: 14nm
+  TDP: '250 W'
+  'Core Count': 32
+  'Thread Count': 64
+  'Max Memory Channels': 12
+  'Max Memory Frequency': '2933 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '2.3 GHz'
+  'Boost Frequency': '3.7 GHz'
+  'L2 Cache (Total)': '71.5 MiB'
+  'Release Date': '2019-08-01'
+  AVX/SSE/MMX: AVX-512
+isPart: true
+type: CPU
+humanName: 'Xeon 9221'
+name: Xeon-9221

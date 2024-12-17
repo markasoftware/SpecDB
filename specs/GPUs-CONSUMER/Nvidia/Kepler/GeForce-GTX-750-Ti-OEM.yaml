@@ -1,0 +1,32 @@
+name: GeForce-GTX-750-Ti-OEM
+humanName: GeForce GTX 750 Ti OEM
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Kepler
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.2.175'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: 'Unknown'
+  GPU Base Frequency: 1033 MHz
+  GPU Boost Frequency: 1098 MHz
+  VRAM Frequency: 1502 MHz
+  VRAM Bandwidth: 192.3 GB/s
+  VRAM Capacity: 2 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 24
+  Texture Mapping Unit Count: 80
+  Shader Processor Count: 960 
+  Die Size: 221 mm²
+  GPU: GK106
+  TDP: 150 W
+  FP32 Compute: 2.108 TFLOPS
+  FP64 Compute: 87.84 GFLOPS (1:24)
+  Slot Width: Dual-slot
+  Outputs: No outputs
+  Power Connectors: None

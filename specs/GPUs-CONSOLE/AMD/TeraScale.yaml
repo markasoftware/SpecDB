@@ -1,0 +1,19 @@
+name: TeraScale-Console
+humanName: TeraScale
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 45-80 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  Release Date: '2005-11-22'
+  Manufacturer: AMD
+sections:
+  - header: Xbox
+    members:
+    - Xbox-360-E-GPU
+    - Xbox-360-GPU-65nm
+    - Xbox-360-GPU-80nm
+    - Xbox-360-GPU-90nm
+    - Xbox-360-S-GPU

@@ -1,0 +1,25 @@
+humanName: Wolfdale
+sections:
+  -
+    header: '2 Threads'
+    members:
+      - Xeon-X5272
+      - Xeon-X5270
+      - Xeon-X5260
+      - Xeon-L5240
+      - Xeon-L5215
+      - Xeon-L3110
+      - Xeon-E5220
+      - Xeon-E5205
+      - Xeon-E3120
+      - Xeon-E3110
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': '2007-11-12'
+  Sockets:
+    - LGA775
+    - LGA771
+name: Server-Wolfdale

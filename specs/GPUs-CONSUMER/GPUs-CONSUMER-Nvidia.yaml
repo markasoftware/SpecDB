@@ -1,0 +1,35 @@
+name: GPUs-CONSUMER-NVIDIA
+humanName: Consumer GPUs
+type: Generic Container
+isPart: false
+topHeader: 'SELECT SERIES:'
+data:
+  Manufacturer: Nvidia
+sections:
+  - header: RTX
+    members:
+      - Ada-Lovelace
+      - Ampere
+      - Turing
+  - header: GTX
+    members:
+      - Pascal
+      - Maxwell-2.0
+      - Maxwell
+      - Kepler-2.0
+      - Kepler
+      - Fermi-2.0
+      - Fermi
+  - header: uncategorised Graphics Cards
+    members:
+      - Celsius
+      - Curie
+      - Fahrenheit
+      - Hopper
+      - Kelvin
+      - Rankine
+      - Tesla
+      - Tesla-2.0
+      - VLIW-Vec4
+      - Volta
+

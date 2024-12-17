@@ -1,0 +1,104 @@
+name: GCN-4.0 
+humanName: GCN 4.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.3'
+  Release Date: '2016-06-29'
+  Manufacturer: AMD
+sections:
+  - header: WHOLE RANGE
+    members:
+    - P30PH
+    - Radeon-540-Mobile
+    - Radeon-540X-Mobile
+    - Radeon-550X
+    - Radeon-550X-640SP
+    - Radeon-550X-Mobile
+    - Radeon-630-Mobile
+    - Radeon-550
+    - Radeon-E9171-MCM
+    - Radeon-E9172-MXM
+    - Radeon-E9173-PCIe
+    - Radeon-E9174-MXM
+    - Radeon-E9175-PCIe
+    - Radeon-E9260-MXM
+    - Radeon-E9260-PCIe
+    - Radeon-E9390-PCIe
+    - Radeon-E9550-MXM
+    - Radeon-E9560-PCIe
+    - Radeon-Pro-450
+    - Radeon-Pro-455
+    - Radeon-Pro-460
+    - Radeon-Pro-555
+    - Radeon-Pro-555X
+    - Radeon-Pro-560
+    - Radeon-Pro-560X
+    - Radeon-Pro-570
+    - Radeon-Pro-570X
+    - Radeon-Pro-575
+    - Radeon-Pro-575X
+    - Radeon-Pro-580
+    - Radeon-Pro-580X
+    - Radeon-Pro-Duo-Polaris
+    - Radeon-Pro-V5300X
+    - Radeon-Pro-V7300X
+    - Radeon-Pro-V7350X2
+    - Radeon-Pro-WX-2100
+    - Radeon-Pro-WX-3100
+    - Radeon-Pro-WX-3200
+    - Radeon-Pro-WX-3200-Mobile
+    - Radeon-Pro-WX-4100
+    - Radeon-Pro-WX-4130-Mobile
+    - Radeon-Pro-WX-4150-Mobile
+    - Radeon-Pro-WX-4170-Mobile
+    - Radeon-Pro-WX-5100
+    - Radeon-Pro-WX-7100
+    - Radeon-Pro-WX-7100-Mobile
+    - Radeon-Pro-WX-7130-Mobile
+    - Radeon-Pro-WX-Vega-M-GL
+    - Radeon-RX-460
+    - Radeon-RX-460-1024SP
+    - Radeon-RX-460-Mobile
+    - Radeon-RX-470
+    - Radeon-RX-470-Mobile
+    - Radeon-RX-470D
+    - Radeon-RX-480
+    - Radeon-RX-480-Mobile
+    - Radeon-RX-540-Mobile
+    - Radeon-RX-540X-Mobile
+    - Radeon-RX-550
+    - Radeon-RX-550-512SP
+    - Radeon-RX-550-640SP
+    - Radeon-RX-550-Mobile
+    - Radeon-RX-550X
+    - Radeon-RX-550X-640SP
+    - Radeon-RX-550X-Mobile
+    - Radeon-RX-560
+    - Radeon-RX-560-896SP
+    - Radeon-RX-560-Mobile
+    - Radeon-RX-560-XT
+    - Radeon-RX-560D
+    - Radeon-RX-560DX
+    - Radeon-RX-560X
+    - Radeon-RX-560X-Mobile
+    - Radeon-RX-570-Mobile
+    - Radeon-RX-570-X2
+    - Radeon-RX-570X
+    - Radeon-RX-580
+    - Radeon-RX-580-2048SP
+    - Radeon-RX-580-Mobile
+    - Radeon-RX-580-OEM
+    - Radeon-RX-580G
+    - Radeon-RX-580X
+    - Radeon-RX-580X-Mobile
+    - Radeon-RX-590
+    - Radeon-RX-590-GME
+    - Radeon-RX-640-Mobile
+    - Radeon-RX-640-OEM
+    - Radeon-RX-570
+    - Radeon-RX-Vega-M-GH
+    - Radeon-RX-Vega-M-GL

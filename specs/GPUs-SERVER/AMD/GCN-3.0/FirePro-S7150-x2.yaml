@@ -1,0 +1,35 @@
+name: FirePro-S7150-x2
+humanName: FirePro S7150 x2
+isPart: true
+type: Graphics Card
+data:
+  Market: Data center
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 3.0
+  Lithography: 28 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2016-02-01'
+  GPU Base Frequency: 920 MHz
+  VRAM Frequency: 1250 MHz
+  VRAM Bandwidth: 160.0 GB/s
+  VRAM Capacity: 8 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 112
+  Shader Processor Count: 1792 
+  Die Size: 366 mm²
+  GPU: Tonga
+  GPU Variant: Cloudy Tau
+  TDP: 265 W
+  FP32 Compute: 3.297 TFLOPS
+  FP64 Compute: 206.1 GFLOPS (1:16)
+  Slot Width: Dual-slot
+  Outputs: No outputs
+  Power Connectors: 1x 6-pin + 1x 8-pin
+  Length: 241 mm
+  Width: 111 mm

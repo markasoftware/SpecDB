@@ -1,0 +1,78 @@
+humanName: Penryn
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Core-QX9300
+      - Core-Q9100
+      - Core-Q9000
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-T4500
+      - Pentium-T4400
+      - Pentium-T4300
+      - Pentium-T4200
+      - Pentium-T3500
+      - Pentium-T3300
+      - Pentium-T3100
+      - Pentium-SU2300
+      - Core-X9100
+      - Core-X9000
+      - Core-T9900
+      - Core-T9800
+      - Core-T9600
+      - Core-T9550
+      - Core-T9500
+      - Core-T9400
+      - Core-T9300
+      - Core-T8300
+      - Core-T8100
+      - Core-T6670
+      - Core-T6600
+      - Core-T6500
+      - Core-T6400
+      - Core-SU9600
+      - Core-SU9400
+      - Core-SU9300
+      - Core-SP9600
+      - Core-SP9400
+      - Core-SP9300
+      - Core-SL9600
+      - Core-SL9400
+      - Core-SL9380
+      - Core-SL9300
+      - Core-P9700
+      - Core-P9600
+      - Core-P9500
+      - Core-P8800
+      - Core-P8700
+      - Core-P8600
+      - Core-P8400
+      - Core-P7570
+      - Core-P7550
+      - Core-P7450
+      - Core-P7370
+      - Core-P7350
+  -
+    header: '1 Threads'
+    members:
+      - Pentium-925
+      - Pentium-900
+      - Pentium-763
+      - Pentium-743
+      - Pentium-723
+      - Pentium-722
+      - Core-SU3500
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': '2008-01-07'
+  Sockets:
+    - BGA956
+    - BGA479
+    - PGA478
+    - PPGA478
+name: Mobile-Penryn

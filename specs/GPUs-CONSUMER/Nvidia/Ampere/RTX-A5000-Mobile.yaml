@@ -1,0 +1,37 @@
+name: RTX-A5000-Mobile
+humanName: RTX A5000 Mobile
+isPart: true
+type: Graphics Card
+data:
+  Market:
+    - Workstation
+    - Mobile
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Ampere
+  Lithography: 8 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '192'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2021-04-12'
+  GPU Base Frequency: 900 MHz
+  GPU Boost Frequency: 1575 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 448.0 GB/s
+  VRAM Capacity: 16 GiB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 96
+  Texture Mapping Unit Count: 192
+  Shader Processor Count: 6144 
+  Die Size: 392 mm²
+  GPU: GA104
+  TDP: 150 W
+  FP32 Compute: 19.35 TFLOPS
+  FP64 Compute: 302.4 GFLOPS (1:64)
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Ray Tracing Cores: 48
+  Tensor Cores: 192

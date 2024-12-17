@@ -1,0 +1,35 @@
+name: GeForce-FX-5700-VE
+humanName: GeForce FX 5700 VE
+isPart: true
+type: Graphics Card
+data:
+  Market: Consumer
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Rankine
+  Lithography: 130 nm
+  DirectX Support: '9.0a'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-09-01'
+  GPU Base Frequency: 250 MHz
+  VRAM Frequency: 200 MHz
+  VRAM Bandwidth: 6.400 GB/s
+  VRAM Capacity: 128 MiB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 133 mm²
+  FP32 Compute: 17.5 GFLOPS
+  GPU: NV36
+  TDP: 20 W
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA
+    - 1x S-Video
+  Power Connectors: None
+  Pixel Shaders: 4

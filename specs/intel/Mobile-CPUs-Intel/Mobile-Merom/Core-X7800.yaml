@@ -1,0 +1,19 @@
+data:
+  Manufacturer: Intel
+  Architecture: Merom
+  Market: Mobile
+  Lithography: '65 nm'
+  TDP: '44 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Base Frequency': '2.6 GHz'
+  'L2 Cache (Total)': '4 MiB'
+  'Die Size': '143 mm'
+  'Release Date': '2007-07-16'
+  Socket: PPGA478
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Core X7800'
+name: Core-X7800

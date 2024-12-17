@@ -1,0 +1,20 @@
+name: TeraScale-server
+humanName: TeraScale
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 55 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  Release Date: '2005-11-22'
+  Manufacturer: AMD
+sections:
+  - header: FireStream
+    members:
+    - FireStream-9170
+    - FireStream-9250
+    - FireStream-9270
+  - header: FirePro Remote
+    members:
+    - FirePro-RG220

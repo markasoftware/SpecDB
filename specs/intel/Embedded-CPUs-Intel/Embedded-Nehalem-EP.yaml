@@ -1,0 +1,19 @@
+humanName: 'Nehalem EP'
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-L5518
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-L5508
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': '2009-03-30'
+  Sockets:
+    - LGA1366
+name: Embedded-Nehalem-EP

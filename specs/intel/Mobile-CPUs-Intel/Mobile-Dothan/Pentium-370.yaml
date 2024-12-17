@@ -1,0 +1,18 @@
+data:
+  Manufacturer: Intel
+  Architecture: Dothan
+  Market: Mobile
+  Lithography: '90 nm'
+  TDP: '21 W'
+  'Core Count': 1
+  'Thread Count': 1
+  'Base Frequency': '1.5 GHz'
+  'L2 Cache (Total)': '1024 KiB'
+  'Die Size': '87 mm'
+  'Release Date': '2005-02-14'
+  Socket: 'H-PBGA478, H-PBGA479, PPGA478'
+  'Other Extensions': {  }
+isPart: true
+type: CPU
+humanName: 'Pentium 370'
+name: Pentium-370

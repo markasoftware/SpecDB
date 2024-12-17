@@ -1,0 +1,24 @@
+humanName: 'Whiskey Lake'
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-8665UE
+      - Core-i5-8365UE
+  -
+    header: '4 Threads'
+    members:
+      - Core-i3-8145UE
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-4305UE
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: 14nm
+  'Release Date': '2019-06-10'
+  Sockets:
+    - BGA1528
+name: Embedded-Whiskey-Lake

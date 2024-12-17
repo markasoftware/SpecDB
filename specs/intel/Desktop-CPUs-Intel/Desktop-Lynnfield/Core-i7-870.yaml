@@ -1,0 +1,25 @@
+data:
+  Manufacturer: Intel
+  Architecture: Lynnfield
+  Market: Desktop
+  Lithography: '45 nm'
+  TDP: '95 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1333 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2.93 GHz'
+  'Boost Frequency': '3.6 GHz'
+  'L2 Cache (Total)': '8 MiB'
+  'Die Size': '296 mm'
+  'Release Date': '2009-09-08'
+  Socket: LGA1156
+  AES: false
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+isPart: true
+type: CPU
+humanName: 'Core i7-870'
+name: Core-i7-870

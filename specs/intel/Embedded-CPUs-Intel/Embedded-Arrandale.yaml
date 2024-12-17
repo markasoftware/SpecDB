@@ -1,0 +1,17 @@
+humanName: Arrandale
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Core-i7-620UE
+      - Core-i7-620LE
+      - Core-i5-520E
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '32 nm'
+  'Release Date': '2010-01-07'
+  Sockets:
+    - BGA1288
+name: Embedded-Arrandale

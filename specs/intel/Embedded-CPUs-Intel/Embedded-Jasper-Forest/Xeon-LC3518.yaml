@@ -1,0 +1,19 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Jasper Forest'
+  Market: Embedded
+  Lithography: '45 nm'
+  TDP: '23 W'
+  'Core Count': 1
+  'Thread Count': 1
+  'Max Memory Channels': 2
+  'Base Frequency': '1.73 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Release Date': 'Q1 2010'
+  Socket: FCLGA1366
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Xeon LC3518'
+name: Xeon-LC3518

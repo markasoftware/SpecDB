@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Sandy Bridge'
+  Market: Embedded
+  Lithography: '32 nm'
+  TDP: '17 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1333 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '1.1 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Release Date': '2011-06-19'
+  Socket: FCBGA1023
+  AES: false
+  'Other Extensions':
+    - x86-64
+  'GPU Base Frequency': '350 MHz'
+  'GPU Boost Frequency': '800 MHz'
+isPart: true
+type: CPU
+humanName: 'Pentium 847E'
+name: Pentium-847E

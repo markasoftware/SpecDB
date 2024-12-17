@@ -1,0 +1,37 @@
+humanName: 'Ivy Bridge'
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-3615QE
+      - Core-i7-3612QE
+      - Core-i7-3610QE
+  -
+    header: '4 Threads'
+    members:
+      - Core-i7-3555LE
+      - Core-i7-3517UE
+      - Core-i5-3610ME
+      - Core-i3-3217UE
+      - Core-i3-3120ME
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-1405V2
+      - Pentium-1047UE
+      - Pentium-1020E
+  -
+    header: '1 Threads'
+    members:
+      - Pentium-927UE
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2012-04-29'
+  Sockets:
+    - BGA1023
+    - PGA988
+    - LGA1356
+name: Embedded-Ivy-Bridge

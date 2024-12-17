@@ -1,0 +1,34 @@
+name: Quadro-P600-Mobile
+humanName: Quadro P600 Mobile
+isPart: true
+type: Graphics Card
+data:
+  Market:
+    - Workstation
+    - Mobile
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Pascal
+  Lithography: 14 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2017-02-07'
+  GPU Base Frequency: 1430 MHz
+  GPU Boost Frequency: 1620 MHz
+  VRAM Frequency: 1252 MHz
+  VRAM Bandwidth: 80.13 GB/s
+  VRAM Capacity: 4 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 384 
+  Die Size: 132 mm²
+  GPU: GP107
+  TDP: 40 W
+  FP32 Compute: 1,244 GFLOPS
+  FP64 Compute: 38.88 GFLOPS (1:32)
+  Outputs: Portable Device Dependent
+  Power Connectors: None

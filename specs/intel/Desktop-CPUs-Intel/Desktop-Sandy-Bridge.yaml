@@ -1,0 +1,75 @@
+humanName: 'Sandy Bridge'
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-2700K
+      - Core-i7-2600S
+      - Core-i7-2600K
+      - Core-i7-2600
+  -
+    header: '4 Threads'
+    members:
+      - Core-i5-2550K
+      - Core-i5-2500T
+      - Core-i5-2500S
+      - Core-i5-2500K
+      - Core-i5-2500
+      - Core-i5-2450P
+      - Core-i5-2405S
+      - Core-i5-2400S
+      - Core-i5-2400
+      - Core-i5-2390T
+      - Core-i5-2380P
+      - Core-i5-2320
+      - Core-i5-2310
+      - Core-i5-2300
+      - Core-i3-2130
+      - Core-i3-2125
+      - Core-i3-2120T
+      - Core-i3-2120
+      - Core-i3-2105
+      - Core-i3-2102
+      - Core-i3-2100T
+      - Core-i3-2100
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-G870
+      - Pentium-G860T
+      - Pentium-G860
+      - Pentium-G850
+      - Pentium-G840
+      - Pentium-G645T
+      - Pentium-G645
+      - Pentium-G640T
+      - Pentium-G640
+      - Pentium-G632
+      - Pentium-G630T
+      - Pentium-G630
+      - Pentium-G622
+      - Pentium-G620T
+      - Pentium-G620
+      - Pentium-G555
+      - Pentium-G550T
+      - Pentium-G550
+      - Pentium-G540T
+      - Pentium-G540
+      - Pentium-G530T
+      - Pentium-G530
+      - Pentium-G470
+      - Pentium-G465
+      - Pentium-G460
+  -
+    header: '1 Threads'
+    members:
+      - Pentium-G440
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '32 nm'
+  'Release Date': '2011-01-09'
+  Sockets:
+    - LGA1155
+name: Desktop-Sandy-Bridge

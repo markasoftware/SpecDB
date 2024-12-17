@@ -1,0 +1,22 @@
+humanName: 'Cherry Trail'
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Atom-x7-Z8750
+      - Atom-x7-Z8700
+      - Atom-x5-Z8550
+      - Atom-x5-Z8500
+      - Atom-x5-Z8350
+      - Atom-x5-Z8330
+      - Atom-x5-Z8300
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2015-03-02'
+  Sockets:
+    - UTBGA1380
+    - UTBGA592
+name: Mobile-Cherry-Trail

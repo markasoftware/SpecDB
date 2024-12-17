@@ -1,0 +1,21 @@
+humanName: 'Ivy Bridge EN'
+sections:
+  -
+    header: '17 - 64 Threads'
+    members:
+      - Xeon-E5-2448LV2
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Xeon-E5-2428LV2
+      - Xeon-E5-2418LV2
+      - Xeon-E5-1428LV2
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2014-01-09'
+  Sockets:
+    - LGA1356
+name: Embedded-Ivy-Bridge-EN

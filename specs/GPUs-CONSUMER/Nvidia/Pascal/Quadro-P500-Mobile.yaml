@@ -1,0 +1,34 @@
+name: Quadro-P500-Mobile
+humanName: Quadro P500 Mobile
+isPart: true
+type: Graphics Card
+data:
+  Market:
+    - Workstation
+    - Mobile
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Pascal
+  Lithography: 14 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2018-01-05'
+  GPU Base Frequency: 1455 MHz
+  GPU Boost Frequency: 1519 MHz
+  VRAM Frequency: 1253 MHz
+  VRAM Bandwidth: 40.10 GB/s
+  VRAM Capacity: 2 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 256 
+  Die Size: 74 mm²
+  GPU: GP108
+  TDP: 18 W
+  FP32 Compute: 777.7 GFLOPS
+  FP64 Compute: 24.30 GFLOPS (1:32)
+  Outputs: Portable Device Dependent
+  Power Connectors: None
