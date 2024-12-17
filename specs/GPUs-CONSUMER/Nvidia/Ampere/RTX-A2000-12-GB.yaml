@@ -3,6 +3,8 @@ humanName: RTX A2000 12 GB
 isPart: true
 type: Graphics Card
 data:
+  Market:
+    - Workstation
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Ampere

@@ -1,37 +1,39 @@
-name: A10M
-humanName: A10M
+name: A10-PCIe
+humanName: A10 PCIe
 isPart: true
 type: Graphics Card
 data:
+  Market: Data center
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Ampere
   Lithography: 8 nm
   DirectX Support: '12.2'
-  HLSL Shader Model: '224'
+  HLSL Shader Model: '288'
   Vulkan Support: '1.3'
   OpenGL Support: '4.6'
   OpenCL Support: '3.0'
   Release Date: '2021-04-12'
-  GPU Base Frequency: 975 MHz
-  GPU Boost Frequency: 1635 MHz
+  GPU Base Frequency: 885 MHz
+  GPU Boost Frequency: 1695 MHz
   VRAM Frequency: 1563 MHz
   VRAM Bandwidth: 600.2 GB/s
   VRAM Capacity: 24 GiB
   VRAM Type: GDDR6
   VRAM Bus Width: 384 bit
-  Render Output Unit Count: 80
-  Texture Mapping Unit Count: 224
-  Shader Processor Count: 7168 
+  Render Output Unit Count: 96
+  Texture Mapping Unit Count: 288
+  Shader Processor Count: 9216 
   Die Size: 628 mm²
   GPU: GA102
+  GPU Variant: GA102-890-A1
   TDP: 150 W
-  FP32 Compute: 23.44 TFLOPS
-  FP64 Compute: 732.5 GFLOPS (1:32)
+  FP32 Compute: 31.24 TFLOPS
+  FP64 Compute: 976.3 GFLOPS (1:32)
   Slot Width: Single-slot
   Outputs: No outputs
-  Power Connectors: 8-pin EPS
+  Power Connectors: 1x 8-pin
   Length: 267 mm
-  Width: 112 mm
-  Ray Tracing Cores: 56
-  Tensor Cores: 224
+  Width: 111 mm
+  Ray Tracing Cores: 72
+  Tensor Cores: 288

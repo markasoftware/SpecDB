@@ -3,6 +3,8 @@ humanName: RTX A4500
 isPart: true
 type: Graphics Card
 data:
+  Market:
+    - Workstation
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Ampere

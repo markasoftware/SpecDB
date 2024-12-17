@@ -6,28 +6,28 @@ data:
   Manufacturer: Intel
   Vendor: Intel
   Architecture: Xe2
-  # Lithography: 6 nm
-  # DirectX Support: '12.2'
+  Lithography: 5 nm
+  DirectX Support: '12.2'
   # HLSL Shader Model: '384'
-  # Vulkan Support: '1.3'
-  # OpenGL Support: '4.6'
-  # OpenCL Support: '3.0'
+  Vulkan Support: '1.4'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
   Release Date: '2024-12-13'
-  # GPU Base Frequency: 1700 MHz
+  GPU Base Frequency: 2670 MHz
   GPU Boost Frequency: 2670 MHz
   # VRAM Frequency: 2000 MHz
   VRAM Bandwidth: 456.0 GB/s
   VRAM Capacity: 12 GiB
-  # VRAM Type: GDDR6
+  VRAM Type: GDDR6
   VRAM Bus Width: 192 bit
-  # Render Output Unit Count: 96
-  # Texture Mapping Unit Count: 192
-  # Shader Processor Count: 3072 
-  # Die Size: 406 mm²
+  Render Output Unit Count: 80
+  Texture Mapping Unit Count: 160
+  Shader Processor Count: 2560
+  Die Size: 272 mm²
   GPU: BMG-G21
-  # GPU Variant: ACM-G10
+  GPU Variant: SRPMF
   TDP: 190 W
-  # FP32 Compute: 12.29 TFLOPS
+  FP32 Compute: 13.67 TFLOPS
   Slot Width: Dual-slot
   Outputs: 
     - 3x DisplayPort 2.1

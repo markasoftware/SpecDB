@@ -3,6 +3,9 @@ humanName: RTX 2000 Max-Q Ada Generation
 isPart: true
 type: Graphics Card
 data:
+  Market:
+    - Workstation
+    - Mobile
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Ada Lovelace

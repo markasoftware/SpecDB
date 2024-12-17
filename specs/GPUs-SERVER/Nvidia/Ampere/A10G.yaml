@@ -3,6 +3,7 @@ humanName: A10G
 isPart: true
 type: Graphics Card
 data:
+  Market: Data center
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Ampere

@@ -3,6 +3,7 @@ humanName: GeForce RTX 4090 Mobile
 isPart: true
 type: Graphics Card
 data:
+  Market: Mobile
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Ada Lovelace

@@ -1,8 +1,9 @@
-name: A2-PCIe
-humanName: A2 PCIe
+name: A2
+humanName: A2
 isPart: true
 type: Graphics Card
 data:
+  Market: Data center
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Ampere
@@ -27,11 +28,9 @@ data:
   GPU: GA107
   TDP: 60 W
   FP32 Compute: 4.531 TFLOPS
-  FP64 Compute: 141.6 GFLOPS (1:32)
+  FP64 Compute: 70.80 GFLOPS (1:64)
   Slot Width: Single-slot
   Outputs: No outputs
   Power Connectors: None
-  Length: 168 mm
-  Width: 69 mm
   Ray Tracing Cores: 10
   Tensor Cores: 40

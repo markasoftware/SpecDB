@@ -3,6 +3,9 @@ humanName: RTX A1000 Mobile 6 GB
 isPart: true
 type: Graphics Card
 data:
+  Market:
+    - Workstation
+    - Mobile
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Ampere

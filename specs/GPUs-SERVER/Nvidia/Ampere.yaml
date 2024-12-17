@@ -14,3 +14,19 @@ sections:
     members:
     - GRID-A100A
     - GRID-A100B
+  - header: AI Data Center
+    members:
+    - A2
+    - A2-PCIe
+    - A10-PCIe
+    - A10G
+    - A10M
+    - A16-PCIe
+    - A30-PCIe
+    - A30X
+    - A40-PCIe
+    - A100-PCIe-40-GB
+    - A100-PCIe-80-GB
+    - A100-SXM4-40-GB
+    - A100-SXM4-80-GB
+    - A100X

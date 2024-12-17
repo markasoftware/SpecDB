@@ -1,8 +1,9 @@
-name: L40-CNX
-humanName: L40 CNX
+name: L40S
+humanName: L40S
 isPart: true
 type: Graphics Card
 data:
+  Market: Data center
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Ada Lovelace
@@ -13,11 +14,11 @@ data:
   OpenGL Support: '4.6'
   OpenCL Support: '3.0'
   Release Date: '2022-10-13'
-  GPU Base Frequency: 1005 MHz
-  GPU Boost Frequency: 2475 MHz
+  GPU Base Frequency: 1110 MHz
+  GPU Boost Frequency: 2520 MHz
   VRAM Frequency: 2250 MHz
   VRAM Bandwidth: 864.0 GB/s
-  VRAM Capacity: 24 GiB
+  VRAM Capacity: 48 GiB
   VRAM Type: GDDR6
   VRAM Bus Width: 384 bit
   Render Output Unit Count: 192
@@ -27,8 +28,8 @@ data:
   GPU: AD102
   GPU Variant: AD102-???-A1
   TDP: 300 W
-  FP32 Compute: 89.97 TFLOPS
-  FP64 Compute: 1,406 GFLOPS (1:64)
+  FP32 Compute: 91.61 TFLOPS
+  FP64 Compute: 1,431 GFLOPS (1:64)
   Slot Width: Dual-slot
   Outputs: 
     - 1x HDMI 2.1

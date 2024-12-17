@@ -1,8 +1,9 @@
-name: A100-PCIe-80-GB
-humanName: A100 PCIe 80 GB
+name: A100-SXM4-40-GB
+humanName: A100 SXM4 40 GB
 isPart: true
 type: Graphics Card
 data:
+  Market: Data center
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Ampere
@@ -11,12 +12,12 @@ data:
   Vulkan Support: 'N/A'
   OpenGL Support: 'N/A'
   OpenCL Support: '3.0'
-  Release Date: '2021-06-28'
-  GPU Base Frequency: 1065 MHz
+  Release Date: '2020-05-14'
+  GPU Base Frequency: 1095 MHz
   GPU Boost Frequency: 1410 MHz
-  VRAM Frequency: 1512 MHz
-  VRAM Bandwidth: 1,935 GB/s
-  VRAM Capacity: 80 GiB
+  VRAM Frequency: 1215 MHz
+  VRAM Bandwidth: 1,555 GB/s
+  VRAM Capacity: 40 GiB
   VRAM Type: HBM2e
   VRAM Bus Width: 5120 bit
   Render Output Unit Count: 160
@@ -24,12 +25,10 @@ data:
   Shader Processor Count: 6912 
   Die Size: 826 mm²
   GPU: GA100
-  TDP: 300 W
+  TDP: 400 W
   FP32 Compute: 19.49 TFLOPS
   FP64 Compute: 9.746 TFLOPS (1:2)
-  Slot Width: Dual-slot
+  Slot Width: SXM Module
   Outputs: No outputs
-  Power Connectors: 8-pin EPS
-  Length: 267 mm
-  Width: 111 mm
+  Power Connectors: None
   Tensor Cores: 432

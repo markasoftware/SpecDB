@@ -6,6 +6,9 @@ topHeader: 'SELECT SERIES:'
 data:
   Manufacturer: Nvidia
 sections:
+  - header: Ada Lovelace
+    members:
+      - Ada-Lovelace-server
   - header: Ampere
     members:
       - Ampere-server
