@@ -26,7 +26,7 @@ module.exports = {
 					}
 				},
 				class: curData.data && curData.data.Manufacturer
-					&& curData.data.Manufacturer.toLowerCase() || 'amd',
+					&& curData.data.Manufacturer.toLowerCase().replace('3','three') || 'amd',
 			}, [
 				m('.part-padding', [
 					m('.part-header', curData.humanName),

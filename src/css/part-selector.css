@@ -58,6 +58,12 @@ body {
 .part.matrox{
 	border-left: 5px solid #171B61;
 }
+.part.threedfx{
+	border-left: 5px solid #DD7A00;
+}
+.part.xgi{
+	border-left: 5px solid #00458D;
+}
 .part-padding {
 	padding: 10px;
 	overflow: none;

@@ -101,9 +101,6 @@ module.exports.sections = [
 		name: 'Basic Specs',
 		rows: [
 			{
-				name: 'Market'
-			},
-			{
 				name: 'Base Frequency',
 				processor: types.unitUp,
 			},
@@ -182,6 +179,9 @@ module.exports.sections = [
 			{
 				name: 'cTDP Support',
 				processor: types.boolTrue,
+			},
+			{
+				name: 'Market'
 			}
 		],
 	},
