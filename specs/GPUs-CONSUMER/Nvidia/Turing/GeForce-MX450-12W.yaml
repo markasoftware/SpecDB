@@ -3,6 +3,8 @@ humanName: GeForce MX450 12W
 isPart: true
 type: Graphics Card
 data:
+  Market:
+    - Mobile
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Turing

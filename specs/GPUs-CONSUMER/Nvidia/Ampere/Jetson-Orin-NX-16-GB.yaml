@@ -3,6 +3,8 @@ humanName: Jetson Orin NX 16 GB
 isPart: true
 type: Graphics Card
 data:
+  Market:
+    - Embedded
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Ampere

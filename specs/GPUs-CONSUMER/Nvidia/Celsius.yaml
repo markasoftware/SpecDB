@@ -10,47 +10,49 @@ data:
   Release Date: '1999'
   Manufacturer: Nvidia
 sections:
-  - header: WHOLE RANGE
+  - header: GeForce
     members:
-    - GeForce2-Go
-    - GeForce2-Go-200
-    - GeForce2-GTS
-    - GeForce2-GTS-PRO
-    - GeForce2-MX
-    - GeForce2-MX-+-nForce-220
-    - GeForce2-MX-+-nForce-420
-    - GeForce2-MX-200
-    - GeForce2-MX-200-LP
-    - GeForce2-MX-200-PCI
-    - GeForce2-MX-400
-    - GeForce2-MX-400-PCI
-    - GeForce2-MX-DH-Pro-TV
-    - GeForce2-MX-DH-Pro-TV-PCI
-    - GeForce2-MX-PCI
-    - GeForce2-PRO
-    - GeForce2-Ti
-    - GeForce2-Ultra
-    - GeForce4-410-Go
-    - GeForce4-420-Go
-    - GeForce4-440-Go
-    - GeForce4-448-Go
-    - GeForce4-460-Go
-    - GeForce4-488-Go
-    - GeForce4-MX-+-nForce2
-    - GeForce4-MX-420
-    - GeForce4-MX-420-PCI
-    - GeForce4-MX-440
-    - GeForce4-MX-440-Mac-Edition
-    - GeForce4-MX-440-8x
-    - GeForce4-MX-440-SE
-    - GeForce4-MX-4000
-    - GeForce4-MX-4000-PCI
-    - GeForce4-MX-4000-Rev.-2
-    - GeForce-256-DDR
-    - GeForce-256-SDR
-    - GeForce2-Go-100
-    - GeForce-6200-AGP
     - GeForce-PCX-4300
+    - GeForce-6200-AGP
+    - GeForce2-Go-100
+    - GeForce-256-SDR
+    - GeForce-256-DDR
+    - GeForce4-MX-4000-Rev.-2
+    - GeForce4-MX-4000-PCI
+    - GeForce4-MX-4000
+    - GeForce4-MX-440-SE
+    - GeForce4-MX-440-8x
+    - GeForce4-MX-440-Mac-Edition
+    - GeForce4-MX-440
+    - GeForce4-MX-420-PCI
+    - GeForce4-MX-420
+    - GeForce4-MX-+-nForce2
+    - GeForce4-488-Go
+    - GeForce4-460-Go
+    - GeForce4-448-Go
+    - GeForce4-440-Go
+    - GeForce4-420-Go
+    - GeForce4-410-Go
+    - GeForce2-Ultra
+    - GeForce2-Ti
+    - GeForce2-PRO
+    - GeForce2-MX-PCI
+    - GeForce2-MX-DH-Pro-TV-PCI
+    - GeForce2-MX-DH-Pro-TV
+    - GeForce2-MX-400-PCI
+    - GeForce2-MX-400
+    - GeForce2-MX-200-PCI
+    - GeForce2-MX-200-LP
+    - GeForce2-MX-200
+    - GeForce2-MX-+-nForce-420
+    - GeForce2-MX-+-nForce-220
+    - GeForce2-MX
+    - GeForce2-GTS-PRO
+    - GeForce2-GTS
+    - GeForce2-Go-200
+    - GeForce2-Go
+  - header: Quadro
+    members:
     - Quadro
     - Quadro2-Go
     - Quadro2-MXR

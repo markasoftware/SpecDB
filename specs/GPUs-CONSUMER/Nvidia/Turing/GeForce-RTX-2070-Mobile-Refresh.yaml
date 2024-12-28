@@ -3,6 +3,8 @@ humanName: GeForce RTX 2070 Mobile Refresh
 isPart: true
 type: Graphics Card
 data:
+  Market:
+    - Mobile
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Turing

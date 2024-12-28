@@ -3,6 +3,9 @@ humanName: T500 Mobile
 isPart: true
 type: Graphics Card
 data:
+  Market:
+    - Workstation
+    - Mobile
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Turing

@@ -3,6 +3,8 @@ humanName: GeForce RTX 3080 Ti 20 GB
 isPart: true
 type: Graphics Card
 data:
+  Market:
+    - Consumer
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Ampere

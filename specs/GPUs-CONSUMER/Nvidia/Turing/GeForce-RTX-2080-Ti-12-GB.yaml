@@ -3,6 +3,8 @@ humanName: GeForce RTX 2080 Ti 12 GB
 isPart: true
 type: Graphics Card
 data:
+  Market:
+    - Consumer
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Turing

@@ -18,7 +18,7 @@ sections:
     - GeForce-RTX-3080-Ti
     - GeForce-RTX-3080-12-GB
     - GeForce-RTX-3080
-    - GeForce-RTX-3070-TiM
+    # - GeForce-RTX-3070-TiM
     - GeForce-RTX-3070-Ti-16-GB
     - GeForce-RTX-3070-Ti-8-GB-GA102
     - GeForce-RTX-3070-Ti
@@ -74,7 +74,7 @@ sections:
     - RTX-A1000-Embedded
     - RTX-A500-Embedded
     - RTX-A500
-  - header: Workstation mobile
+  - header: Workstation Mobile
     members:
     - RTX-A5500-Mobile
     - RTX-A5500-Max-Q
@@ -92,6 +92,10 @@ sections:
     - RTX-A1000-Mobile
     - RTX-A500-Mobile
     - RTX-A4-Mobile
+  - header: Mobile
+    members:
+      - GeForce-MX570
+      - GeForce-MX570-A
   - header: Uncategorised
     members:
     - A800-PCIe-40-GB
@@ -102,8 +106,6 @@ sections:
     - CMP-170HX-8-GB
     - CMP-170HX-10-GB
     - DRIVE-A100-PROD
-    - GeForce-MX570
-    - GeForce-MX570-A
     - Jetson-AGX-Orin-32-GB
     - Jetson-AGX-Orin-64-GB
     - Jetson-Orin-Nano-4-GB

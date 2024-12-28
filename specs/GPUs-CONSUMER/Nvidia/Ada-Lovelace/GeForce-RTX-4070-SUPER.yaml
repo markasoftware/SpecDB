@@ -3,6 +3,8 @@ humanName: GeForce RTX 4070 SUPER
 isPart: true
 type: Graphics Card
 data:
+  Market:
+    - Consumer
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Ada Lovelace

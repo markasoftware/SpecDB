@@ -100,7 +100,7 @@ const combineUtil = {
 			},
 			// RX
 			{
-				nameTest: /^(Pro.)?RX-(\(TM\)-)?\d{3,4}(?!.*[Ll]aptop)(.XT)?(.XTX)?$/i,
+				nameTest: /(\(TM\)-)?(Pro.)?RX-(\(TM\)-)?\d{3,4}(?!.*[Ll]aptop)(.XT)?(.XTX)?$/i,
 				brand: 'amd',
 				type: 'gpu',
 				parser: () => {

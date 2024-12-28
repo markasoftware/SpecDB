@@ -3,6 +3,9 @@ humanName: TITAN RTX
 isPart: true
 type: Graphics Card
 data:
+  Market:
+    - Consumer
+    - Enthusiast
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Turing

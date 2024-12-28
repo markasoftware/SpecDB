@@ -3,6 +3,9 @@ humanName: T500 Max-Q
 isPart: true
 type: Graphics Card
 data:
+  Market:
+    - Workstation
+    - Mobile
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Turing

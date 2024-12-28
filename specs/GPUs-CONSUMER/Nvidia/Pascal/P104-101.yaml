@@ -3,6 +3,7 @@ humanName: P104-101
 isPart: true
 type: Graphics Card
 data:
+  Market: Crypto
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Pascal

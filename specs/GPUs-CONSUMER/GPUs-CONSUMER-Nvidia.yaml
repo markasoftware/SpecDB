@@ -20,16 +20,17 @@ sections:
       - Kepler
       - Fermi-2.0
       - Fermi
-  - header: uncategorised Graphics Cards
+      - Tesla-2.0
+      - Tesla
+  - header: Pre-GTX
     members:
       - Celsius
       - Curie
       - Fahrenheit
-      - Hopper
       - Kelvin
       - Rankine
-      - Tesla
-      - Tesla-2.0
       - VLIW-Vec4
+  - header: Uncategorised
+    members:
+      - Hopper
       - Volta
-

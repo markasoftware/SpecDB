@@ -3,6 +3,7 @@ humanName: CMP 40HX
 isPart: true
 type: Graphics Card
 data:
+  Market: Crypto
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Turing

@@ -3,6 +3,8 @@ humanName: Jetson AGX Orin 32 GB
 isPart: true
 type: Graphics Card
 data:
+  Market:
+    - Embedded
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Ampere

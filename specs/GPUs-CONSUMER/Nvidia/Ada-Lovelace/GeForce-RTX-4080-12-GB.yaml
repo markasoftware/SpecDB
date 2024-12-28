@@ -3,6 +3,8 @@ humanName: GeForce RTX 4080 12 GB
 isPart: true
 type: Graphics Card
 data:
+  Market:
+    - Consumer
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Ada Lovelace

@@ -3,7 +3,9 @@ humanName: Quadro RTX 4000 Max-Q
 isPart: true
 type: Graphics Card
 data:
-  Market: Workstation
+  Market:
+    - Workstation
+    - Mobile
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Turing

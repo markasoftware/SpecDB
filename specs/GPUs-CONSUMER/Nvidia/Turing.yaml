@@ -4,98 +4,97 @@ type: Graphics Architecture
 isPart: false
 topHeader: 'SELECT CARD:'
 data:
-  Lithography: 14 nm
+  Lithography: 12 nm
   DirectX Support: '12.2'
   Vulkan Support: '1.3'
   Release Date: '2018-08-13'
   Manufacturer: Nvidia
 sections:
-  - header: WHOLE RANGE
+  - header: Enthusiast Titan
     members:
-    - CMP-30HX
-    - CMP-40HX
-    - CMP-50HX
-    - GeForce-GTX-1630
-    - GeForce-GTX-1650
-    - GeForce-GTX-1650-GDDR6
-    - GeForce-GTX-1650-Max-Q
-    - GeForce-GTX-1650-Mobile
-    - GeForce-GTX-1650-SUPER
-    - GeForce-GTX-1650-Ti-Max-Q
-    - GeForce-GTX-1650-Ti-Mobile
-    - GeForce-GTX-1650-TU116
-    - GeForce-GTX-1660
-    - GeForce-GTX-1660-SUPER
+    - TITAN-RTX
+  - header: Main RTX Range (Consumer)
+    members:
+    - GeForce-RTX-2080-Ti-12-GB
+    - GeForce-RTX-2080-Ti
+    - GeForce-RTX-2080-SUPER
+    - GeForce-RTX-2080-Engineering-Sample
+    - GeForce-RTX-2080
+    - GeForce-RTX-2070-SUPER
+    - GeForce-RTX-2070
+    - GeForce-RTX-2060-TU104
+    - GeForce-RTX-2060-SUPER
+    - GeForce-RTX-2060-12-GB
+    - GeForce-RTX-2060
+  - header: Main GTX Range (Consumer)
+    members:
     - GeForce-GTX-1660-Ti
-    - GeForce-GTX-1660-Ti-Max-Q
+    - GeForce-GTX-1660-SUPER
+    - GeForce-GTX-1660
+    - GeForce-GTX-1650-TU116
+    - GeForce-GTX-1650-TU106
+    - GeForce-GTX-1650-SUPER
+    - GeForce-GTX-1650-GDDR6
+    - GeForce-GTX-1650
+    - GeForce-GTX-1630
+  - header: Main RTX Range (Mobile)
+    members:
     - GeForce-GTX-1660-Ti-Mobile
+    - GeForce-GTX-1660-Ti-Max-Q
+    - GeForce-GTX-1650-Ti-Mobile
+    - GeForce-GTX-1650-Ti-Max-Q
+    - GeForce-GTX-1650-Mobile
+    - GeForce-GTX-1650-Max-Q
+  - header: Quadro Desktop (Workstation)
+    members:
+    - Quadro-RTX-8000-Passive
+    - Quadro-RTX-8000
+    - Quadro-RTX-6000-Passive
+    - Quadro-RTX-6000
+    - Quadro-RTX-5000
+    - Quadro-RTX-4000
+  - header: Quadro Mobile (Workstation)
+    members:
+    - Quadro-T2000-Mobile
+    - Quadro-T2000-Max-Q
+    - Quadro-T1200-Mobile
+    - Quadro-T1200-Max-Q
+    - Quadro-T1000-Mobile-GDDR6
+    - Quadro-T1000-Mobile
+    - Quadro-T1000-Max-Q
+    - Quadro-RTX-6000-Mobile
+    - Quadro-RTX-5000-X2-Mobile
+    - Quadro-RTX-5000-Mobile-Refresh
+    - Quadro-RTX-5000-Mobile
+    - Quadro-RTX-5000-Max-Q
+    - Quadro-RTX-4000-Mobile
+    - Quadro-RTX-4000-Max-Q
+    - Quadro-RTX-3000-X2-Mobile
+    - Quadro-RTX-3000-Mobile-Refresh
+    - Quadro-RTX-3000-Mobile
+    - Quadro-RTX-3000-Max-Q
+  - header: Workstation T Series
+    members:
+    - T1000-8-GB
+    - T1000
+    - T600
+    - T400-4-GB
+    - T400
+  - header: Workstation T Series Mobile
+    members:
+    - T600-Mobile
+    - T600-Max-Q
+    - T550-Mobile
+    - T500-Mobile
+    - T500-Max-Q
+  - header: Budget Mobile
+    members:
     - GeForce-MX450-30.5W-8Gbps
     - GeForce-MX450-30.5W-10Gbps
     - GeForce-MX550
-    - GeForce-RTX-2060
-    - GeForce-RTX-2060-12-GB
-    - GeForce-RTX-2060-Max-Q
-    - GeForce-RTX-2060-Max-Q-Refresh
-    - GeForce-RTX-2060-Mobile
-    - GeForce-RTX-2060-Mobile-Refresh
-    - GeForce-RTX-2060-SUPER
-    - GeForce-RTX-2060-SUPER-Mobile
-    - GeForce-RTX-2060-TU104
-    - GeForce-RTX-2070
-    - GeForce-RTX-2070-Max-Q
-    - GeForce-RTX-2070-Max-Q-Refresh
-    - GeForce-RTX-2070-Mobile
-    - GeForce-RTX-2070-Mobile-Refresh
-    - GeForce-RTX-2070-SUPER
-    - GeForce-RTX-2070-SUPER-Max-Q
-    - GeForce-RTX-2070-SUPER-Mobile
-    - GeForce-RTX-2080
-    - GeForce-RTX-2080-Engineering-Sample
-    - GeForce-RTX-2080-Max-Q
-    - GeForce-RTX-2080-Mobile
-    - GeForce-RTX-2080-SUPER
-    - GeForce-RTX-2080-SUPER-Max-Q
-    - GeForce-RTX-2080-SUPER-Mobile
-    - GeForce-RTX-2080-Ti
-    - GeForce-RTX-2080-Ti-12-GB
     - GeForce-MX450-12W
-    - GeForce-GTX-1650-TU106
-    - GRID-RTX-T10-2
-    - GRID-RTX-T10-4
-    - GRID-RTX-T10-8
-    - GRID-RTX-T10-16
-    - Quadro-RTX-3000-Max-Q
-    - Quadro-RTX-3000-Mobile
-    - Quadro-RTX-3000-Mobile-Refresh
-    - Quadro-RTX-3000-X2-Mobile
-    - Quadro-RTX-4000
-    - Quadro-RTX-4000-Max-Q
-    - Quadro-RTX-4000-Mobile
-    - Quadro-RTX-5000
-    - Quadro-RTX-5000-Max-Q
-    - Quadro-RTX-5000-Mobile
-    - Quadro-RTX-5000-Mobile-Refresh
-    - Quadro-RTX-5000-X2-Mobile
-    - Quadro-RTX-6000
-    - Quadro-RTX-6000-Mobile
-    - Quadro-RTX-6000-Passive
-    - Quadro-RTX-8000
-    - Quadro-RTX-8000-Passive
-    - Quadro-T1000-Max-Q
-    - Quadro-T1000-Mobile
-    - Quadro-T1000-Mobile-GDDR6
-    - Quadro-T1200-Max-Q
-    - Quadro-T1200-Mobile
-    - Quadro-T2000-Max-Q
-    - Quadro-T2000-Mobile
-    - T400
-    - T400-4-GB
-    - T500-Max-Q
-    - T500-Mobile
-    - T550-Mobile
-    - T600
-    - T600-Max-Q
-    - T600-Mobile
-    - T1000
-    - T1000-8-GB
-    - TITAN-RTX
+  - header: Crypto Mining
+    members:
+    - CMP-50HX
+    - CMP-40HX
+    - CMP-30HX

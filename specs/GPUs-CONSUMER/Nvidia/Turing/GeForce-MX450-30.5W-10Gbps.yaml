@@ -3,6 +3,8 @@ humanName: GeForce MX450 30.5W 10Gbps
 isPart: true
 type: Graphics Card
 data:
+  Market:
+    - Mobile
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Turing

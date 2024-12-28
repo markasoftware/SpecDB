@@ -3,6 +3,7 @@ humanName: Quadro NVS 280 SD
 isPart: true
 type: Graphics Card
 data:
+  Market: Workstation
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Celsius

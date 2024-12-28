@@ -3,6 +3,8 @@ humanName: T400 4 GB
 isPart: true
 type: Graphics Card
 data:
+  Market:
+    - Workstation
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Turing
