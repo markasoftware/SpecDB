@@ -451,6 +451,19 @@ module.exports.sections = [
 		],
 	},
 	{
+		name: 'Hardware Accelerated Media',
+		rows: [
+			{
+				name: 'AV1',
+				processor: types.boolTrue,
+			},
+			{
+				name: 'Other Hardware Accelerated Media',
+				processor: types.list,
+			},
+		],
+	},
+	{
 		name: 'Features',
 		rows: [
 			{

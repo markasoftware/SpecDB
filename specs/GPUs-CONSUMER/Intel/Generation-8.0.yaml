@@ -10,7 +10,7 @@ data:
   Release Date: '2014-09-05'
   Manufacturer: Intel
 sections:
-  - header: WHOLE RANGE
+  - header: HD Graphics
     members:
     - HD-Graphics-12EU-Mobile
     - HD-Graphics-400-Mobile
@@ -20,6 +20,8 @@ sections:
     - HD-Graphics-5600-Mobile
     - HD-Graphics-6000-Mobile
     - HD-Graphics-P5700
+  - header: Iris Graphics
+    members:
     - Iris-Graphics-6100-Mobile
     - Iris-Pro-Graphics-6200
     - Iris-Pro-Graphics-6200-Mobile

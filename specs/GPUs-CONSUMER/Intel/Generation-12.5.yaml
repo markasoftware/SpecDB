@@ -4,7 +4,7 @@ type: Graphics Architecture
 isPart: false
 topHeader: 'SELECT CARD:'
 data:
-  Lithography: 14 nm
+  Lithography: 7 nm - 10 nm
   DirectX Support: '12.1'
   Vulkan Support: 'N/A'
   Release Date: '2021'
