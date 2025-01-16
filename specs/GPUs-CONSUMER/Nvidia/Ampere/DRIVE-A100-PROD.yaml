@@ -31,3 +31,5 @@ data:
   Outputs: No outputs
   Power Connectors: None
   Tensor Cores: 432
+  Market:
+    - Workstation

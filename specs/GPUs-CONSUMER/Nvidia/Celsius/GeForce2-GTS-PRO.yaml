@@ -29,3 +29,5 @@ data:
   Outputs: 1x VGA2x S-Video
   Power Connectors: None
   Pixel Shaders: 4
+  Market:
+    - Workstation

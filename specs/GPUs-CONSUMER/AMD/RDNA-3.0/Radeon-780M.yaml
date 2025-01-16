@@ -3,6 +3,7 @@ humanName: Radeon 780M
 isPart: true
 type: Graphics Card
 data:
+  Market: Mobile
   Manufacturer: AMD
   Vendor: AMD
   Architecture: RDNA 3.0

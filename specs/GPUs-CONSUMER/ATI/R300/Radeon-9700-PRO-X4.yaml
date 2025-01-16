@@ -28,3 +28,5 @@ data:
   Outputs: 4x DVI
   Power Connectors: 2x Molex
   Pixel Shaders: 8
+  Market:
+    - Workstation
