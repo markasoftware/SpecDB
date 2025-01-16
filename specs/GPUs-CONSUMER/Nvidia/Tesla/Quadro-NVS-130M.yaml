@@ -28,3 +28,5 @@ data:
   FP32 Compute: 12.80 GFLOPS
   Outputs: Portable Device Dependent
   Power Connectors: None
+  Market:
+    - Workstation

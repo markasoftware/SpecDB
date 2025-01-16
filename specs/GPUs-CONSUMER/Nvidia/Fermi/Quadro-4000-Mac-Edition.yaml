@@ -32,3 +32,5 @@ data:
     - 1x DisplayPort1x S-Video
   Power Connectors: 1x 6-pin
   Length: 241 mm
+  Market:
+    - Workstation

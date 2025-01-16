@@ -29,3 +29,5 @@ data:
   Slot Width: MXM Module
   Outputs: Portable Device Dependent
   Power Connectors: None
+  Market:
+    - Workstation

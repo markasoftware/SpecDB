@@ -26,3 +26,5 @@ data:
   TDP: 35 W
   Outputs: Portable Device Dependent
   Pixel Shaders: 12
+  Market:
+    - Workstation

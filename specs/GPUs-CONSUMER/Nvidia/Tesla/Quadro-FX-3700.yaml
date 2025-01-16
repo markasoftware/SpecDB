@@ -33,3 +33,5 @@ data:
   Power Connectors: 1x 6-pin
   Length: 267 mm
   Width: 111 mm
+  Market:
+    - Workstation

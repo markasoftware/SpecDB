@@ -30,3 +30,5 @@ data:
   Power Connectors: None
   Length: 198 mm
   Width: 69 mm
+  Market:
+    - Workstation

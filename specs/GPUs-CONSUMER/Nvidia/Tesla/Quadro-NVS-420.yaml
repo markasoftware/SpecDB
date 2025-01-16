@@ -28,3 +28,5 @@ data:
   Slot Width: Single-slot
   Outputs: 1x VHDCI
   Power Connectors: None
+  Market:
+    - Workstation

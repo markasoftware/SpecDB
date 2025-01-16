@@ -33,3 +33,5 @@ data:
     - 2x DisplayPort1x S-Video2x SDI
   Length: 248 mm
   Width: 111 mm
+  Market:
+    - Workstation

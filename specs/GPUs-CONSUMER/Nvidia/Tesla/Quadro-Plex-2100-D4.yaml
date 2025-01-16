@@ -27,3 +27,5 @@ data:
   FP32 Compute: 320.0 GFLOPS
   Outputs: No outputs
   Length: 522 mm
+  Market:
+    - Workstation

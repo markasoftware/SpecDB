@@ -29,3 +29,5 @@ data:
   Outputs: 2x DisplayPort
   Power Connectors: None
   Length: 168 mm
+  Market:
+    - Workstation

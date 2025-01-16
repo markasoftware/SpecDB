@@ -27,3 +27,5 @@ data:
   Slot Width: IGP
   Outputs: Motherboard Dependent
   Pixel Shaders: 2
+  Market:
+    - Workstation

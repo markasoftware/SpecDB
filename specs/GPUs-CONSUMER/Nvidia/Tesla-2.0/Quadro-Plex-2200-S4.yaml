@@ -28,3 +28,5 @@ data:
   FP64 Compute: 77.76 GFLOPS (1:8)
   Outputs: No outputs
   Length: 522 mm
+  Market:
+    - Workstation

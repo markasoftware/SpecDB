@@ -28,3 +28,5 @@ data:
   Slot Width: Single-slot
   Outputs: 4x DisplayPort
   Power Connectors: None
+  Market:
+    - Workstation

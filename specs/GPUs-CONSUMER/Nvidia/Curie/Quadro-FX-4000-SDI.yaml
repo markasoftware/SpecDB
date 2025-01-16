@@ -33,3 +33,5 @@ data:
   Length: 214 mm
   Width: 111 mm
   Pixel Shaders: 12
+  Market:
+    - Workstation
