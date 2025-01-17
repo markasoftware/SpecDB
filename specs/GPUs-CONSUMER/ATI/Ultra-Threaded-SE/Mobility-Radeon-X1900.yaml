@@ -27,3 +27,5 @@ data:
   Slot Width: MXM Module
   Outputs: Portable Device Dependent
   Pixel Shaders: 36
+  Market:
+    - Mobile

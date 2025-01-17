@@ -28,3 +28,5 @@ data:
   FP32 Compute: 1,114 GFLOPS
   Slot Width: MXM Module
   Outputs: Portable Device Dependent
+  Market:
+    - Mobile

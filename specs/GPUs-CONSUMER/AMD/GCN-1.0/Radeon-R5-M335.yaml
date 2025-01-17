@@ -29,3 +29,5 @@ data:
   FP64 Compute: 41.20 GFLOPS (1:16)
   Outputs: Portable Device Dependent
   Power Connectors: None
+  Market:
+    - Mobile

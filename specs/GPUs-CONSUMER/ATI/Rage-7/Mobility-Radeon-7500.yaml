@@ -27,3 +27,5 @@ data:
   TDP: 27 W
   Outputs: Portable Device Dependent
   Pixel Shaders: 2
+  Market:
+    - Mobile

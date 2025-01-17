@@ -32,3 +32,5 @@ data:
   Outputs: Portable Device Dependent
   Power Connectors: None
   Ray Tracing Cores: 12
+  Market:
+    - Mobile

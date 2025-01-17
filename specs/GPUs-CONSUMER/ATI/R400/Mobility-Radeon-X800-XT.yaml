@@ -27,3 +27,5 @@ data:
   TDP: unknown
   Outputs: Portable Device Dependent
   Pixel Shaders: 16
+  Market:
+    - Mobile

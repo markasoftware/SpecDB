@@ -29,3 +29,5 @@ data:
   Outputs: 2x VGA
   Power Connectors: 1x Molex
   Pixel Shaders: 2
+  Market:
+    - Mobile

@@ -27,3 +27,5 @@ data:
   TDP: unknown
   FP32 Compute: 576.0 GFLOPS
   Outputs: Portable Device Dependent
+  Market:
+    - Mobile

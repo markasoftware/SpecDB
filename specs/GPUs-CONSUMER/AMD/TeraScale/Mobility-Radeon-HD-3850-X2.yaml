@@ -27,3 +27,5 @@ data:
   FP32 Compute: 371.2 GFLOPS
   FP64 Compute: 74.24 GFLOPS (1:5)
   Outputs: Portable Device Dependent
+  Market:
+    - Mobile

@@ -29,3 +29,5 @@ data:
   Outputs: Portable Device Dependent
   Power Connectors: None
   Pixel Shaders: 1
+  Market:
+    - Mobile
