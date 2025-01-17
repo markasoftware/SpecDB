@@ -33,3 +33,5 @@ data:
   Length: 267 mm
   Width: 111 mm
   Height: 38 mm
+  Market:
+    - Consumer

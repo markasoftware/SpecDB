@@ -35,3 +35,5 @@ data:
     - 3x DisplayPort 1.2
   Power Connectors: 1x 6-pin
   Length: 241 mm
+  Market:
+    - Consumer
