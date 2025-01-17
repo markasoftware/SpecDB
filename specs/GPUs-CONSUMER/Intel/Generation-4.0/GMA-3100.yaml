@@ -27,3 +27,5 @@ data:
   Slot Width: IGP
   Outputs: Portable Device Dependent
   Pixel Shaders: 4
+  Market:
+    - Mobile

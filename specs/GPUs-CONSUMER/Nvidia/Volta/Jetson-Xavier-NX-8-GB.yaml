@@ -33,3 +33,5 @@ data:
   Length: 70 mm
   Width: 45 mm
   Tensor Cores: 48
+  Market:
+    - Mobile

@@ -32,3 +32,5 @@ data:
   Outputs: Portable Device Dependent
   Length: 70 mm
   Width: 45 mm
+  Market:
+    - Mobile

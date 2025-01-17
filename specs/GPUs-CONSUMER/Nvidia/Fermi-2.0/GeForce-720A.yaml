@@ -29,3 +29,5 @@ data:
   FP64 Compute: 24.80 GFLOPS (1:12)
   Slot Width: MXM Module
   Outputs: Portable Device Dependent
+  Market:
+    - Mobile

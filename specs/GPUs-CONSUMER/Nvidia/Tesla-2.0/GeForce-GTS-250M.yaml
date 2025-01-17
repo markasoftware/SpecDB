@@ -27,3 +27,5 @@ data:
   TDP: 28 W
   FP32 Compute: 207.4 GFLOPS
   Outputs: Portable Device Dependent
+  Market:
+    - Mobile

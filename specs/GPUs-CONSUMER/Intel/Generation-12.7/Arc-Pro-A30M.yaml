@@ -33,3 +33,5 @@ data:
   Power Connectors: None
   Ray Tracing Cores: 8
   Tensor Cores: 128
+  Market:
+    - Mobile

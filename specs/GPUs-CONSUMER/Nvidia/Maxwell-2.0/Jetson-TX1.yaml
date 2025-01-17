@@ -29,3 +29,5 @@ data:
   FP64 Compute: 15.97 GFLOPS (1:32)
   Slot Width: IGP
   Outputs: Portable Device Dependent
+  Market:
+    - Mobile

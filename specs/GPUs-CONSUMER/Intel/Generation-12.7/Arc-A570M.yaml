@@ -32,3 +32,5 @@ data:
   Outputs: Portable Device Dependent
   Ray Tracing Cores: 16
   Tensor Cores: 256
+  Market:
+    - Mobile

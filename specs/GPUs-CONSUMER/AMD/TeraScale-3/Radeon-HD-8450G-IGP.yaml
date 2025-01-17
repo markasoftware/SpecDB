@@ -28,3 +28,5 @@ data:
   FP32 Compute: 276.5 GFLOPS
   Slot Width: IGP
   Outputs: Portable Device Dependent
+  Market:
+    - Mobile
