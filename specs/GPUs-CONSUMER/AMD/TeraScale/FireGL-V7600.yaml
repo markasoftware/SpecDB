@@ -33,3 +33,5 @@ data:
   Power Connectors: 1x 8-pin
   Length: 254 mm
   Width: 111 mm
+  Market:
+    - Workstation

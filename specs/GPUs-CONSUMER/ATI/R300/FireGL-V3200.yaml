@@ -29,3 +29,5 @@ data:
   Outputs: No outputs
   Power Connectors: None
   Pixel Shaders: 4
+  Market:
+    - Workstation
