@@ -27,3 +27,5 @@ data:
   Outputs: 1x VGA
   Length: 178 mm
   Pixel Shaders: 1
+  Market:
+    - Consumer

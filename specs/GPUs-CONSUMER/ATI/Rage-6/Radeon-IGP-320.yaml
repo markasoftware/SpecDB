@@ -29,3 +29,5 @@ data:
   Outputs: Motherboard Dependent
   Power Connectors: None
   Pixel Shaders: 1
+  Market:
+    - Consumer

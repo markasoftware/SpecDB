@@ -26,3 +26,5 @@ data:
   TDP: unknown
   Slot Width: Single-slot
   Outputs: 1x VGA
+  Market:
+    - Consumer

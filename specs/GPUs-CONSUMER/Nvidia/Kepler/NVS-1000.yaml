@@ -29,3 +29,5 @@ data:
   Slot Width: Single-slot
   Outputs: 4x mini-DisplayPort 1.2
   Length: 160 mm
+  Market:
+    - Consumer

@@ -36,3 +36,5 @@ data:
     - 1x USB Type-C
   Power Connectors: 1x 6-pin
   Ray Tracing Cores: 16
+  Market:
+    - Consumer

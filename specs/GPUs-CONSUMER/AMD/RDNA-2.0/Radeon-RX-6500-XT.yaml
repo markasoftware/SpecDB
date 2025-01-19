@@ -34,3 +34,5 @@ data:
     - 1x DisplayPort 1.4a
   Power Connectors: 1x 6-pin
   Ray Tracing Cores: 16
+  Market:
+    - Consumer

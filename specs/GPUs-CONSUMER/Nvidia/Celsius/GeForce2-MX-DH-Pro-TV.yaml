@@ -28,3 +28,5 @@ data:
   Outputs: 2x VGA1x S-Video
   Power Connectors: None
   Pixel Shaders: 2
+  Market:
+    - Consumer

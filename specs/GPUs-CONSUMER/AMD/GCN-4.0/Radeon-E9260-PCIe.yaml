@@ -33,3 +33,5 @@ data:
   Power Connectors: None
   Length: 168 mm
   Width: 69 mm
+  Market:
+    - Consumer

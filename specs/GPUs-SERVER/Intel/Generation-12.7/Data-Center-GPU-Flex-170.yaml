@@ -33,3 +33,5 @@ data:
     - 3x DisplayPort 2.0
   Power Connectors: 1x 8-pin
   Ray Tracing Cores: 32
+  Market:
+    - Data center

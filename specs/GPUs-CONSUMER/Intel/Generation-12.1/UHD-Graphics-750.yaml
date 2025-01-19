@@ -28,3 +28,5 @@ data:
   FP32 Compute: 665.6 GFLOPS
   Slot Width: IGP
   Outputs: Motherboard Dependent
+  Market:
+    - Consumer

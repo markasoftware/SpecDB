@@ -31,3 +31,5 @@ data:
     - 1x VHDCI
   Power Connectors: 1x 6-pin
   Pixel Shaders: 48
+  Market:
+    - Consumer

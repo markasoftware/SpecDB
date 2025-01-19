@@ -17,6 +17,7 @@ sections:
   - header: Intel
     members:
     - GPUs-CONSUMER-INTEL
+    - GPUs-SERVER-INTEL
     - Desktop-CPUs-Intel
     - Mobile-CPUs-Intel
     - Embedded-CPUs-Intel
@@ -25,6 +26,7 @@ sections:
     members:
     - GPUs-CONSUMER-ATI
     - GPUs-CONSOLE-ATI
+    - GPUs-SERVER-ATI
   - header: Nvidia
     members:
     - GPUs-CONSUMER-NVIDIA

@@ -33,3 +33,5 @@ data:
   Outputs: No outputs
   Ray Tracing Cores: 6
   Tensor Cores: 96
+  Market:
+    - Consumer

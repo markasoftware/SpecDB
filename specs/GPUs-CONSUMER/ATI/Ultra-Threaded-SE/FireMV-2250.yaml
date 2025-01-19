@@ -31,3 +31,5 @@ data:
   Width: 69 mm
   Height: 23 mm
   Pixel Shaders: 4
+  Market:
+    - Consumer

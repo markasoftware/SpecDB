@@ -41,3 +41,5 @@ data:
     - AVC
     - VP9
     - XAVC-H
+  Market:
+    - Consumer

@@ -26,3 +26,5 @@ data:
   Slot Width: Single-slot
   Outputs: No outputs
   Pixel Shaders: 1
+  Market:
+    - Consumer

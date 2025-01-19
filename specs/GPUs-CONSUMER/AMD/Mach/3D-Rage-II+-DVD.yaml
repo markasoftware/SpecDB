@@ -28,3 +28,5 @@ data:
   Slot Width: Single-slot
   Outputs: 1x VGA1x S-Video
   Pixel Shaders: 1
+  Market:
+    - Consumer

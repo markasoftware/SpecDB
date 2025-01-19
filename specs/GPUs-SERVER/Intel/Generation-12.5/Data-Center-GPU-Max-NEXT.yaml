@@ -1,0 +1,38 @@
+name: Data-Center-GPU-Max-NEXT
+humanName: Data Center GPU Max NEXT
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Intel
+  Vendor: Intel
+  Architecture: Generation 12.5
+  Lithography: 7 nm
+  DirectX Support: '12.1'
+  HLSL Shader Model: '1280'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: 'Unknown'
+  GPU Base Frequency: 900 MHz
+  GPU Boost Frequency: 1600 MHz
+  VRAM Frequency: 1565 MHz
+  VRAM Bandwidth: 3,205 GB/s
+  VRAM Capacity: 128 GiB
+  VRAM Type: HBM2e
+  VRAM Bus Width: 8192 bit
+  Render Output Unit Count: 0
+  Texture Mapping Unit Count: 1280
+  Shader Processor Count: 20480 
+  Die Size: 1280 mm²
+  GPU: Rialto Bridge
+  TDP: 800 W
+  FP32 Compute: 65.54 TFLOPS
+  FP64 Compute: 65.54 TFLOPS (1:1)
+  Slot Width: OAM Module
+  Outputs: No outputs
+  Power Connectors: 8-pin EPS
+  Length: 267 mm
+  Ray Tracing Cores: 160
+  Tensor Cores: 1280
+  Market:
+    - Consumer

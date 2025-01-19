@@ -36,3 +36,5 @@ data:
   Width: 112 mm
   Ray Tracing Cores: 48
   Tensor Cores: 192
+  Market:
+    - Consumer

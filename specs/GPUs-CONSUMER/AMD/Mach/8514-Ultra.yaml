@@ -28,3 +28,5 @@ data:
   Outputs: No outputs
   Power Connectors: None
   Pixel Shaders: 1
+  Market:
+    - Consumer

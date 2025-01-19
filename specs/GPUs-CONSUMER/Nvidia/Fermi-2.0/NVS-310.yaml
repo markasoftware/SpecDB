@@ -31,3 +31,5 @@ data:
   Outputs: 2x DisplayPort
   Power Connectors: None
   Length: 156 mm
+  Market:
+    - Consumer

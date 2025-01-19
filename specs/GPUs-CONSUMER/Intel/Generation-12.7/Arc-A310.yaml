@@ -34,3 +34,5 @@ data:
   Power Connectors: None
   Ray Tracing Cores: 2
   Tensor Cores: 96
+  Market:
+    - Consumer

@@ -31,3 +31,5 @@ data:
     - 1x VGA
   Length: 168 mm
   Pixel Shaders: 2
+  Market:
+    - Consumer

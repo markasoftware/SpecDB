@@ -34,3 +34,5 @@ data:
   Length: 267 mm
   Ray Tracing Cores: 56
   Tensor Cores: 448
+  Market:
+    - Consumer

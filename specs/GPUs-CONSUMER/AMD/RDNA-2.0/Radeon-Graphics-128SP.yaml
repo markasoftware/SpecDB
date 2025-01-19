@@ -31,3 +31,5 @@ data:
   Outputs: Motherboard Dependent
   Power Connectors: None
   Ray Tracing Cores: 2
+  Market:
+    - Consumer

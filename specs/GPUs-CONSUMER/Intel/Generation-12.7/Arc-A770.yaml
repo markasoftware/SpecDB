@@ -35,3 +35,5 @@ data:
   Power Connectors: 1x 6-pin + 1x 8-pin
   Ray Tracing Cores: 32
   Tensor Cores: 512
+  Market:
+    - Consumer

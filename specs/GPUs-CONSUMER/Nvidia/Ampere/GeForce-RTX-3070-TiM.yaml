@@ -40,3 +40,5 @@ data:
   Height: 55 mm
   Ray Tracing Cores: 46
   Tensor Cores: 184
+  Market:
+    - Consumer

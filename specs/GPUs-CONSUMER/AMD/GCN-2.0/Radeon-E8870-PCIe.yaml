@@ -30,3 +30,5 @@ data:
   Slot Width: Single-slot
   Outputs: 4x DisplayPort 1.2
   Power Connectors: None
+  Market:
+    - Consumer

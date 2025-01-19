@@ -32,3 +32,5 @@ data:
   Outputs: 2x HDMI 2.1
   Power Connectors: None
   Ray Tracing Cores: 12
+  Market:
+    - Consumer

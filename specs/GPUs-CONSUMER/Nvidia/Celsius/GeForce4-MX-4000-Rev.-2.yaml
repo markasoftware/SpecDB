@@ -26,7 +26,11 @@ data:
   GPU Variant: MX4000
   TDP: unknown
   Slot Width: Single-slot
-  Outputs: 1x VGA1x S-Video
+  Outputs:
+    - 1x VGA
+    - 1x S-Video
   Power Connectors: None
   Length: 168 mm
   Pixel Shaders: 2
+  Market:
+    - Consumer

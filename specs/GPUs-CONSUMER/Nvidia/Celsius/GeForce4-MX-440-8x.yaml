@@ -26,6 +26,10 @@ data:
   GPU Variant: NV18 A2
   TDP: unknown
   Slot Width: Single-slot
-  Outputs: 1x VGA1x S-Video
+  Outputs:
+    - 1x VGA
+    - 1x S-Video
   Power Connectors: None
   Pixel Shaders: 2
+  Market:
+    - Consumer

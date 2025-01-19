@@ -31,3 +31,5 @@ data:
   Outputs: 1x HDMI3x DisplayPort
   Power Connectors: None
   Length: 178 mm
+  Market:
+    - Consumer

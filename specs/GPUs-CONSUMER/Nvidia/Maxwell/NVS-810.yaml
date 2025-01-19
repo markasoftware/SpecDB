@@ -31,3 +31,5 @@ data:
   Outputs: 8x mini-DisplayPort 1.2
   Power Connectors: None
   Length: 198 mm
+  Market:
+    - Consumer

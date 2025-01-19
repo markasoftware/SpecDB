@@ -33,3 +33,5 @@ data:
   Length: 267 mm
   Width: 111 mm
   Tensor Cores: 432
+  Market:
+    - Consumer

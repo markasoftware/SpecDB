@@ -31,3 +31,5 @@ data:
   Slot Width: Single-slot
   Outputs: 1x VGA
   Power Connectors: 1x 6-pin + 1x 8-pin
+  Market:
+    - Consumer

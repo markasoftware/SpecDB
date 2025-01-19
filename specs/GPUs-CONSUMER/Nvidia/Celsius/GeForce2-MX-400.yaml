@@ -31,3 +31,5 @@ data:
     - 1x VGA
   Power Connectors: None
   Pixel Shaders: 2
+  Market:
+    - Consumer

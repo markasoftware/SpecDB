@@ -31,3 +31,5 @@ data:
   Slot Width: Single-slot
   Outputs: 1x DisplayPort 1.4a2x mini-DisplayPort 1.4a
   Power Connectors: None
+  Market:
+    - Consumer

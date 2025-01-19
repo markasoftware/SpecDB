@@ -28,3 +28,5 @@ data:
   Outputs: 1x VGA
   Power Connectors: 1x Molex
   Pixel Shaders: 4
+  Market:
+    - Consumer

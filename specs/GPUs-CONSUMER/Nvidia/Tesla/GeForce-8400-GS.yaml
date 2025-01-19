@@ -32,3 +32,5 @@ data:
     - 1x VGA1x S-Video
   Power Connectors: None
   Length: 170 mm
+  Market:
+    - Consumer

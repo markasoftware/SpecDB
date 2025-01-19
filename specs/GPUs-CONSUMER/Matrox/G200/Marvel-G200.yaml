@@ -31,3 +31,5 @@ data:
   Power Connectors: None
   Length: 150 mm
   Pixel Shaders: 1
+  Market:
+    - Consumer

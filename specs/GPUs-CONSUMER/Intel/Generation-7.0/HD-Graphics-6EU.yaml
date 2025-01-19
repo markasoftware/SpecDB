@@ -30,3 +30,5 @@ data:
   FP64 Compute: 25.20 GFLOPS (1:4)
   Slot Width: IGP
   Outputs: Motherboard Dependent
+  Market:
+    - Consumer

@@ -31,3 +31,5 @@ data:
   Outputs: 4x DisplayPort 1.4a
   Power Connectors: 1x 6-pin
   Length: 241 mm
+  Market:
+    - Consumer

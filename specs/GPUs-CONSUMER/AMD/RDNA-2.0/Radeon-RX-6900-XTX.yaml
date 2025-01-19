@@ -38,3 +38,5 @@ data:
   Width: 135 mm
   Height: 50 mm
   Ray Tracing Cores: 80
+  Market:
+    - Consumer

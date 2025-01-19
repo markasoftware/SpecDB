@@ -32,3 +32,5 @@ data:
   Outputs: No outputs
   Power Connectors: 2x 8-pin
   Tensor Cores: 280
+  Market:
+    - Consumer

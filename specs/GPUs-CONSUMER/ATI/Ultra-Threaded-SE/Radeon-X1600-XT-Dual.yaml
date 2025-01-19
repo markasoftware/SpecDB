@@ -28,3 +28,5 @@ data:
   Outputs: 2x DVI
   Power Connectors: 1x Molex
   Pixel Shaders: 12
+  Market:
+    - Consumer

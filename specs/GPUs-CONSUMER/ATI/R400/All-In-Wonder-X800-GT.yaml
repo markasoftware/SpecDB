@@ -29,3 +29,5 @@ data:
   Outputs: 1x DVI
   Power Connectors: None
   Pixel Shaders: 8
+  Market:
+    - Consumer

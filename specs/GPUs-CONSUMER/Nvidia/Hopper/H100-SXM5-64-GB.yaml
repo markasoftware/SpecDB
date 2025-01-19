@@ -31,3 +31,5 @@ data:
   Outputs: No outputs
   Power Connectors: 8-pin EPS
   Tensor Cores: 528
+  Market:
+    - Consumer

@@ -36,3 +36,5 @@ data:
   Width: 70 mm
   Height: 29 mm
   Ray Tracing Cores: 8
+  Market:
+    - Data center
