@@ -6,7 +6,7 @@ topHeader: 'SELECT SERIES:'
 data:
   Manufacturer: XGI
 sections:
-  - header: uncategorised Graphics Cards
+  - header: Uncategorised
     members:
       - XG4
 

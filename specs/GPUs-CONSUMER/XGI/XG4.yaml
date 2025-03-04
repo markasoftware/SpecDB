@@ -4,7 +4,7 @@ type: Graphics Architecture
 isPart: false
 topHeader: 'SELECT CARD:'
 data:
-  Lithography: 14 nm
+  Lithography: 130 nm
   DirectX Support: '9.0'
   Vulkan Support: 'N/A'
   Release Date: '2003-09-15'

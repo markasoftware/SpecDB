@@ -6,7 +6,7 @@ data:
   Manufacturer: Matrox
   Vendor: Matrox
   Architecture: MP
-  Lithography: 0 nm
+  # Lithography: 0 nm
   DirectX Support: '8.1'
   Vulkan Support: 'N/A'
   OpenGL Support: '1.5'

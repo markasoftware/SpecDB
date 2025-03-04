@@ -6,7 +6,7 @@ topHeader: 'SELECT SERIES:'
 data:
   Manufacturer: 3dfx
 sections:
-  - header: uncategorised Graphics Cards
+  - header: Uncategorised
     members:
       - Voodoo-Scalable
 
