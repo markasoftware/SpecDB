@@ -1,0 +1,36 @@
+name: MTT-S4000
+humanName: MTT S4000
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Moore-Threads
+  Vendor: Moore-Threads
+  Architecture: MUSA
+  Lithography: 12 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '128'
+  Vulkan Support: '1.4'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: 'Unknown'
+  GPU Base Frequency: 1500 MHz
+  VRAM Frequency: 2000 MHz
+  VRAM Bandwidth: 768.0 GB/s
+  VRAM Capacity: 48 GiB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 512
+  Texture Mapping Unit Count: 512
+  Shader Processor Count: 8192 
+  Die Size: unknown
+  GPU: Chunxiao
+  TDP: 450 W
+  FP32 Compute: 24.58 TFLOPS
+  FP64 Compute: 384.0 GFLOPS (1:64)
+  Slot Width: Dual-slot
+  Outputs: 4x DisplayPort 1.4a
+  Power Connectors: 2x 8-pin
+  Length: 266 mm
+  Width: 112 mm
+  Height: 39 mm
+  Tensor Cores: 128

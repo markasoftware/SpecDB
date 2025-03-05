@@ -1,0 +1,41 @@
+name: GeForce-RTX-5070-Ti
+humanName: GeForce RTX 5070 Ti
+isPart: true
+type: Graphics Card
+data:
+  Market:
+    - Consumer
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Blackwell 2.0
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '280'
+  Vulkan Support: '1.4'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2025-02-20'
+  GPU Base Frequency: 2295 MHz
+  GPU Boost Frequency: 2452 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 896.0 GB/s
+  VRAM Capacity: 16 GiB
+  VRAM Type: GDDR7
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 96
+  Texture Mapping Unit Count: 280
+  Shader Processor Count: 8960 
+  Die Size: 378 mm²
+  GPU: GB203
+  GPU Variant: GB203-300-A1
+  TDP: 300 W
+  FP32 Compute: 43.94 TFLOPS
+  FP64 Compute: 686.6 GFLOPS (1:64)
+  Slot Width: Dual-slot
+  Outputs: 1x HDMI 2.1b3x DisplayPort 2.1b
+  Power Connectors: 1x 16-pin
+  Length: 304 mm
+  Width: 137 mm
+  Height: 48 mm
+  Ray Tracing Cores: 70
+  Tensor Cores: 280

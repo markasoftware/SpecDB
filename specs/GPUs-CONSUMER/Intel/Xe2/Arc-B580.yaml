@@ -8,14 +8,14 @@ data:
   Architecture: Xe2
   Lithography: 5 nm
   DirectX Support: '12.2'
-  # HLSL Shader Model: '384'
+  HLSL Shader Model: '160'
   Vulkan Support: '1.4'
   OpenGL Support: '4.6'
   OpenCL Support: '3.0'
   Release Date: '2024-12-13'
   GPU Base Frequency: 2670 MHz
   GPU Boost Frequency: 2670 MHz
-  # VRAM Frequency: 2000 MHz
+  VRAM Frequency: 2375 MHz
   VRAM Bandwidth: 456.0 GB/s
   VRAM Capacity: 12 GiB
   VRAM Type: GDDR6
@@ -28,11 +28,15 @@ data:
   GPU Variant: SRPMF
   TDP: 190 W
   FP32 Compute: 13.67 TFLOPS
+  FP64 Compute: 1.709 TFLOPS (1:8)
   Slot Width: Dual-slot
   Outputs: 
     - 3x DisplayPort 2.1
-    - 1x HDMI 2.1
+    - 1x HDMI 2.1a
   Power Connectors: 1x 8-pin
+  Length: 272 mm
+  Width: 115 mm
+  Height: 45 mm
   Ray Tracing Cores: 20
   Tensor Cores: 160
   AV1: true

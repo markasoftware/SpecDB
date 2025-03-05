@@ -8,31 +8,34 @@ data:
   Architecture: Xe2
   Lithography: 5 nm
   DirectX Support: '12.2'
-  # HLSL Shader Model: '384'
+  HLSL Shader Model: '144'
   Vulkan Support: '1.4'
   OpenGL Support: '4.6'
   OpenCL Support: '3.0'
   Release Date: '2025-01-16'
   GPU Base Frequency: 2500 MHz
   GPU Boost Frequency: 2500 MHz
-  # VRAM Frequency: 2000 MHz
+  VRAM Frequency: 2375 MHz
   VRAM Bandwidth: 380.0 GB/s
   VRAM Capacity: 10 GiB
   VRAM Type: GDDR6
   VRAM Bus Width: 160 bit
-  # Render Output Unit Count: 96
-  # Texture Mapping Unit Count: 192
-  # Shader Processor Count: 3072 
-  # Die Size: 406 mm²
+  Render Output Unit Count: 80
+  Texture Mapping Unit Count: 144
+  Shader Processor Count: 2304 
+  Die Size: 272 mm²
   GPU: BMG-G21
-  # GPU Variant: SRPMF
+  GPU Variant: SRPMG
   TDP: 150 W
-  # FP32 Compute: 12.29 TFLOPS
+  FP32 Compute: 11.52 TFLOPS
+  FP64 Compute: 1,440 GFLOPS (1:8)
   Slot Width: Dual-slot
   Outputs: 
     - 3x DisplayPort 2.1
     - 1x HDMI 2.1
   Power Connectors: 1x 8-pin
+  Length: 272 mm
+  Width: 115 mm
   Ray Tracing Cores: 18
   Tensor Cores: 144
   AV1: true
@@ -40,5 +43,6 @@ data:
     - HEVC
     - AVC
     - VP9
-    - XAVC-H  Market:
+    - XAVC-H
+  Market:
     - Consumer

@@ -1,0 +1,39 @@
+name: GeForce-RTX-5060-Mobile
+humanName: GeForce RTX 5060 Mobile
+isPart: true
+type: Graphics Card
+data:
+  Market:
+    - Consumer
+    - Mobile
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Blackwell 2.0
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '112'
+  Vulkan Support: '1.4'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2025'
+  GPU Base Frequency: 2235 MHz
+  GPU Boost Frequency: 2520 MHz
+  VRAM Frequency: 2000 MHz
+  VRAM Bandwidth: 512.0 GB/s
+  VRAM Capacity: 8 GiB
+  VRAM Type: GDDR7
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 112
+  Shader Processor Count: 3584 
+  Die Size: unknown
+  GPU: GB206
+  GPU Variant: GB206
+  TDP: 115 W
+  FP32 Compute: 18.06 TFLOPS
+  FP64 Compute: 282.2 GFLOPS (1:64)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Ray Tracing Cores: 28
+  Tensor Cores: 112

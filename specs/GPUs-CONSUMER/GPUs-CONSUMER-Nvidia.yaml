@@ -8,6 +8,7 @@ data:
 sections:
   - header: RTX
     members:
+      - Blackwell-2.0
       - Ada-Lovelace
       - Ampere
       - Turing

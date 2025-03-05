@@ -22,6 +22,7 @@ sections:
   - header: Workstation PRO
     members:
     - Radeon-PRO-W7900
+    - Radeon-PRO-W7800-48-GB
     - Radeon-PRO-W7800
     - Radeon-PRO-W7700
     - Radeon-PRO-W7600
@@ -29,6 +30,7 @@ sections:
   - header: Mobile
     members:
     - Radeon-RX-7900M
+    - Radeon-RX-7800M
     - Radeon-RX-7700S
     - Radeon-RX-7600M-XT
     - Radeon-RX-7600M
