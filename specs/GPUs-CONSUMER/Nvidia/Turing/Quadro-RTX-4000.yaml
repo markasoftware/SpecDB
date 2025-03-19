@@ -31,7 +31,9 @@ data:
   FP32 Compute: 7.119 TFLOPS
   FP64 Compute: 222.5 GFLOPS (1:32)
   Slot Width: Single-slot
-  Outputs: 3x DisplayPort 1.4a1x USB Type-C
+  Outputs: 
+    - 3x DisplayPort 1.4a
+    - 1x USB Type-C
   Power Connectors: 1x 8-pin
   Length: 241 mm
   Width: 111 mm

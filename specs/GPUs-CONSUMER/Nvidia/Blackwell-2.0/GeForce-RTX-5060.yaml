@@ -32,7 +32,9 @@ data:
   FP32 Compute: 23.22 TFLOPS
   FP64 Compute: 362.9 GFLOPS (1:64)
   Slot Width: Dual-slot
-  Outputs: 1x HDMI 2.1b3x DisplayPort 2.1b
+  Outputs: 
+    - 1x HDMI 2.1b
+    - 3x DisplayPort 2.1b
   Power Connectors: 1x 16-pin
   Ray Tracing Cores: 36
   Tensor Cores: 144
