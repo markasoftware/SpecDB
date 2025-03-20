@@ -1,0 +1,5 @@
+BOARD,FAMILY,NVENC Generation,# OF CHIPS,# OF NVENC /CHIP,Total # of NVENC,Max # of concurrent sessions,H.264 (AVCHD) YUV 4:2:0,H.264 (AVCHD) YUV 4:2:2,H.264 (AVCHD) YUV 4:4:4,H.264 (AVCHD) Lossless,H.265 (HEVC) 4K YUV 4:2:0,H.265 (HEVC) 4K YUV 4:2:2,H.265 (HEVC) 4K YUV 4:4:4,H.265 (HEVC) 4K Lossless,H.265 (HEVC) 8K,HEVC 10-bit support,HEVC B Frame support,AV1 YUV 4:2:0
+DGX Station,Volta,6th Gen,4,3,12,Unrestricted,YES,NO,YES,YES,YES,NO,YES,YES,YES,YES,NO,NO
+DGX-1,Volta,6th Gen,8,3,24,Unrestricted,YES,NO,YES,YES,YES,NO,YES,YES,YES,YES,NO,NO
+DGX-2,Volta,6th Gen,16,3,48,Unrestricted,YES,NO,YES,YES,YES,NO,YES,YES,YES,YES,NO,NO
+DGX A100,Ampere,7th Gen,8,0,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
