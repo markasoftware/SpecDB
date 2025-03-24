@@ -1,4 +1,4 @@
-BOARD,FAMILY,NVDEC Generation,Desktop/ Mobile,# OF CHIPS,Total # of NVDEC,MPEG-1,MPEG-2,VC-1,VP8,VP9 4:2:0 8 Bit 10 Bit 12 Bit,H.264 (AVCHD) 4:2:0 8 Bit 10 Bit,H.264 (AVCHD) 4:2:2 8 Bit 10 Bit,H.265 (HEVC) 4:2:0 8 Bit 10 Bit 12 Bit,H.265 (HEVC) 4:2:2 8 Bit 10 Bit,H.265 (HEVC) 4:4:4 8 Bit 10 Bit 12 Bit,AV1 8 Bit 10 Bit
+BOARD,FAMILY,NVDEC Generation,Desktop/ Mobile,# OF CHIPS,Total # of NVDEC,MPEG-1,MPEG-2,VC-1,VP8,VP9 4:2:0 8 Bit 10 Bit 12 Bit,H.264 (AVCHD) 4:2:0 8 Bit 10 Bit,H.264 (AVCHD) 4:2:2 8 Bit 10 Bit,H.265 (HEVC) 4:2:0 8 Bit 10 Bit 12 Bit,H.265 (HEVC) 4:2:2 8 Bit 10 Bit,H.265 (HEVC) 4:4:4 8 Bit 10 Bit 12 Bit,AV1 8 Bit 10 Bit,Column1,Column2,Column3,Column4,Column5,Column6,H.265 (HEVC) 4:4:4 10 Bit,H.265 (HEVC) 4:4:4 12 Bit,AV1 8 Bit,AV1 10 Bit
 GeForce GTX 745 > 750 Ti,Maxwell (1st Gen),1st Gen,D,1,1,YES,YES,YES,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO
 GeForce 845M / 940M / 940MX / 945M,Maxwell (1st Gen),1st Gen,M,1,1,YES,YES,YES,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO
 GeForce GTX 850A > 960A,Maxwell (1st Gen),1st Gen,M,1,1,YES,YES,YES,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO
