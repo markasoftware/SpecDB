@@ -25,7 +25,6 @@ data:
   Die Size: 153 mm²
   GPU: Navi 44
   GPU Variant: Navi 44 XT
-  Codename: ?
   TDP: 150 W
   FP32 Compute: 26.46 TFLOPS
   FP64 Compute: 826.9 GFLOPS (1:32)
