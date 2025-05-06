@@ -20,6 +20,7 @@ sections:
     - GeForce-RTX-4070-Ti
     - GeForce-RTX-4070-SUPER
     - GeForce-RTX-4070
+    - GeForce-RTX-4070-10-GB
     - GeForce-RTX-4060-Ti-16-GB
     - GeForce-RTX-4060-Ti-8-GB
     - GeForce-RTX-4060
@@ -55,6 +56,7 @@ sections:
     - RTX-2000-Max-Q-Ada-Generation
   - header: Workstation RTX Embedded
     members:
+    - RTX-5000-Embedded-Ada-Generation-X2
     - RTX-5000-Embedded-Ada-Generation
     - RTX-3500-Embedded-Ada-Generation
     - RTX-2000-Embedded-Ada-Generation

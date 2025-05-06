@@ -43,6 +43,7 @@ sections:
     - Radeon-Vega-11-Embedded
     - Radeon-Vega-11
     - Radeon-Vega-10-Mobile
+    - Radeon-Vega-9-Mobile
     - Radeon-Vega-8-Mobile
     - Radeon-Vega-8-Embedded
     - Radeon-Vega-8

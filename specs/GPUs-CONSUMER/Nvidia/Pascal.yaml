@@ -47,6 +47,7 @@ sections:
     - GeForce-GTX-1050-Ti-Mobile
     - GeForce-GTX-1050-Ti-Max-Q
     - GeForce-GTX-1050-Mobile
+    - GeForce-GTX-1050-Mobile-3-GB
     - GeForce-GTX-1050-Max-Q
   - header: Quadro Desktop (Workstation)
     members:

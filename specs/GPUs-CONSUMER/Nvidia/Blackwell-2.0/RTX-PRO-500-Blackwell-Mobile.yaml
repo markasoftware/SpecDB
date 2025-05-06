@@ -1,0 +1,38 @@
+name: RTX-PRO-500-Blackwell-Mobile
+humanName: RTX PRO 500 Blackwell Mobile
+isPart: true
+type: Graphics Card
+data:
+  Market:
+    - Workstation
+    - Mobile
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Blackwell 2.0
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '56'
+  Vulkan Support: '1.4'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: 'Unknown'
+  GPU Base Frequency: 2235 MHz
+  GPU Boost Frequency: 2520 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 336.0 GB/s
+  VRAM Capacity: 6 GiB
+  VRAM Type: GDDR7
+  VRAM Bus Width: 96 bit
+  Render Output Unit Count: 24
+  Texture Mapping Unit Count: 56
+  Shader Processor Count: 1792 
+  Die Size: unknown
+  GPU: GB207
+  TDP: 35 W
+  FP32 Compute: 9.032 TFLOPS
+  FP64 Compute: 141.1 GFLOPS (1:64)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Ray Tracing Cores: 14
+  Tensor Cores: 56

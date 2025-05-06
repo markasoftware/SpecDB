@@ -28,3 +28,16 @@ sections:
     - GeForce-RTX-5070-Mobile
     - GeForce-RTX-5060-Mobile
     - GeForce-RTX-5050-Mobile
+  - header: PRO
+    members:
+    - RTX-PRO-500-Blackwell-Mobile
+    - RTX-PRO-1000-Blackwell-Mobile
+    - RTX-PRO-2000-Blackwell-Mobile
+    - RTX-PRO-3000-Blackwell-Mobile
+    - RTX-PRO-4000-Blackwell
+    - RTX-PRO-4000-Blackwell-Mobile
+    - RTX-PRO-4500-Blackwell
+    - RTX-PRO-5000-Blackwell
+    - RTX-PRO-5000-Blackwell-Mobile
+    - RTX-PRO-6000-Blackwell
+    - RTX-PRO-6000-Blackwell-Max-Q

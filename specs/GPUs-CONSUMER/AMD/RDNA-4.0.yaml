@@ -14,3 +14,7 @@ sections:
     members:
     - Radeon-RX-9070-XT
     - Radeon-RX-9070
+    - Radeon-RX-9060-XT
+  - header: Workstation PRO
+    members:
+    - Radeon-PRO-W9070

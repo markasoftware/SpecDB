@@ -1,0 +1,15 @@
+name: Blackwell-server
+humanName: Blackwell
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.4'
+  Release Date: '2025'
+  Manufacturer: Nvidia
+sections:
+  - header: AI
+    members:
+    - B200-SXM-192-GB

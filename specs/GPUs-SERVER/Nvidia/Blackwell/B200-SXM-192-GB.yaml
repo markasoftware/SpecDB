@@ -1,0 +1,33 @@
+name: B200-SXM-192-GB
+humanName: B200 SXM 192 GB
+isPart: true
+type: Graphics Card
+data:
+  Market: Data center
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Blackwell
+  Lithography: 5 nm
+  HLSL Shader Model: '528'
+  Vulkan Support: 'N/A'
+  OpenGL Support: 'N/A'
+  OpenCL Support: '3.0'
+  Release Date: '2024'
+  GPU Base Frequency: 1665 MHz
+  GPU Boost Frequency: 1837 MHz
+  VRAM Frequency: 2000 MHz
+  VRAM Bandwidth: 4.10 TB/s
+  VRAM Capacity: 96 GiB
+  VRAM Type: HBM3e
+  VRAM Bus Width: 4096 bit
+  Render Output Unit Count: 24
+  Texture Mapping Unit Count: 528
+  Shader Processor Count: 16896 
+  Die Size: unknown
+  GPU: GB100
+  TDP: 1000 W
+  FP32 Compute: 62.08 TFLOPS
+  FP64 Compute: 31.04 TFLOPS (1:2)
+  Slot Width: SXM Module
+  Outputs: No outputs
+  Tensor Cores: 528
