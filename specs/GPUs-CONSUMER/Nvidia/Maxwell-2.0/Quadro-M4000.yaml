@@ -8,11 +8,6 @@ data:
     - H.264 (AVCHD) YUV 4:4:4
     - H.264 (AVCHD) Lossless
     - H.265 (HEVC) 4K YUV 4:2:0
-  Hardware Accelerated Encoding:
-    - H.264 (AVCHD) YUV 4:2:0
-    - H.264 (AVCHD) YUV 4:4:4
-    - H.264 (AVCHD) Lossless
-    - H.265 (HEVC) 4K YUV 4:2:0
   Hardware Accelerated Decoding:
     - MPEG-1
     - MPEG-2

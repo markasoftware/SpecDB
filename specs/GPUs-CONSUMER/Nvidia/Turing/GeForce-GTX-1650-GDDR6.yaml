@@ -12,16 +12,6 @@ data:
     - H.265 (HEVC) 4K Lossless
     - H.265 (HEVC) 8K
     - HEVC 10-bit
-    - HEVC B Frame
-  Hardware Accelerated Encoding:
-    - H.264 (AVCHD) YUV 4:2:0
-    - H.264 (AVCHD) YUV 4:4:4
-    - H.264 (AVCHD) Lossless
-    - H.265 (HEVC) 4K YUV 4:2:0
-    - H.265 (HEVC) 4K YUV 4:4:4
-    - H.265 (HEVC) 4K Lossless
-    - H.265 (HEVC) 8K
-    - HEVC 10-bit
   Hardware Accelerated Decoding:
     - MPEG-1
     - MPEG-2

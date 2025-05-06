@@ -17,11 +17,6 @@ data:
     - H.264 (AVCHD) 4:2:0 8 Bit
     - H.265 (HEVC) 4:2:0 8 Bit
     - H.265 (HEVC) 4:2:0 10 Bit
-  Hardware Accelerated Decoding:
-    - MPEG-1
-    - MPEG-2
-    - VC-1
-    - H.264 (AVCHD) 4:2:0 8 Bit
   Market: Workstation
   Manufacturer: Nvidia
   Vendor: Nvidia
