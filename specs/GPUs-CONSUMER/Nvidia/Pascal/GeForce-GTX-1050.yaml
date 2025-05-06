@@ -3,7 +3,7 @@ humanName: GeForce GTX 1050
 isPart: true
 type: Graphics Card
 data:
-  Hardware Accelerated encoding:
+  Hardware Accelerated Encoding:
     - H.264 (AVCHD) YUV 4:2:0
     - H.264 (AVCHD) YUV 4:4:4
     - H.264 (AVCHD) Lossless

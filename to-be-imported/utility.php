@@ -79,7 +79,7 @@ function generateLines(array $line): string
     "HEVC B Frame support",
     "AV1 YUV 4:2:0",
     ];
-    $result = PHP_EOL."  Hardware Accelerated encoding:";
+    $result = PHP_EOL."  Hardware Accelerated Encoding:";
     foreach ($keys as $key) {
         if ($line[$key] === 'YES') {
             $result = $result . PHP_EOL . "    - ".$key;
