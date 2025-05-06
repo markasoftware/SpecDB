@@ -4,7 +4,8 @@ Tesla M4,Maxwell (GM206),5th Gen,1,1,1,Unrestricted,YES,NO,YES,YES,YES,NO,NO,NO,
 Tesla M40,Maxwell (2nd Gen),5th Gen,1,2,2,Unrestricted,YES,NO,YES,YES,YES,NO,NO,NO,NO,NO,NO,NO
 Tesla M6,Maxwell (2nd Gen),5th Gen,1,2,2,Unrestricted,YES,NO,YES,YES,YES,NO,NO,NO,NO,NO,NO,NO
 Tesla M60,Maxwell (2nd Gen),5th Gen,2,2,4,Unrestricted,YES,NO,YES,YES,YES,NO,NO,NO,NO,NO,NO,NO
-Tesla P4 / P6,Pascal,6th Gen,1,2,2,Unrestricted,YES,NO,YES,YES,YES,NO,YES,YES,YES,YES,NO,NO
+Tesla P4,Pascal,6th Gen,1,2,2,Unrestricted,YES,NO,YES,YES,YES,NO,YES,YES,YES,YES,NO,NO
+Tesla P6,Pascal,6th Gen,1,2,2,Unrestricted,YES,NO,YES,YES,YES,NO,YES,YES,YES,YES,NO,NO
 Tesla P40,Pascal,6th Gen,1,2,2,Unrestricted,YES,NO,YES,YES,YES,NO,YES,YES,YES,YES,NO,NO
 Tesla P100,Pascal,6th Gen,1,3,3,Unrestricted,YES,NO,YES,YES,YES,NO,YES,YES,NO,YES,NO,NO
 Tesla V100,Volta,6th Gen,1,3,3,Unrestricted,YES,NO,YES,YES,YES,NO,YES,YES,YES,YES,NO,NO

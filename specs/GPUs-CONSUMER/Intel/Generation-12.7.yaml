@@ -15,6 +15,13 @@ sections:
     - Arc-A310
     - Arc-A380
     - Arc-A580
+  - header: Pro (Workstation)
+    members:
+    - Arc-Pro-A60M
+    - Arc-Pro-A60
+    - Arc-Pro-A50
+    - Arc-Pro-A40
+    - Arc-Pro-A30M
   - header: WHOLE RANGE
     members:
     - Arc-A350
@@ -29,8 +36,3 @@ sections:
     - Arc-A770
     - Arc-A770M
     - Arc-A780
-    - Arc-Pro-A30M
-    - Arc-Pro-A40
-    - Arc-Pro-A50
-    - Arc-Pro-A60
-    - Arc-Pro-A60M

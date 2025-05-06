@@ -3,6 +3,12 @@ humanName: Quadro M3000M
 isPart: true
 type: Graphics Card
 data:
+  Hardware Accelerated Decoding:
+    - MPEG-1
+    - MPEG-2
+    - VC-1
+    - VP8
+    - H.264 (AVCHD) 4:2:0 8 Bit
   Market: Workstation
   Manufacturer: Nvidia
   Vendor: Nvidia

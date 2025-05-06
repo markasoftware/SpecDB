@@ -3,6 +3,33 @@ humanName: RTX A5000
 isPart: true
 type: Graphics Card
 data:
+  Hardware Accelerated encoding:
+    - H.264 (AVCHD) YUV 4:2:0
+    - H.264 (AVCHD) YUV 4:4:4
+    - H.264 (AVCHD) Lossless
+    - H.265 (HEVC) 4K YUV 4:2:0
+    - H.265 (HEVC) 4K YUV 4:4:4
+    - H.265 (HEVC) 4K Lossless
+    - H.265 (HEVC) 8K
+    - HEVC 10-bit
+    - HEVC B Frame
+  Hardware Accelerated Decoding:
+    - MPEG-1
+    - MPEG-2
+    - VC-1
+    - VP8
+    - VP9 4:2:0 8 Bit
+    - VP9 4:2:0 10 Bit
+    - VP9 4:2:0 12 Bit
+    - H.264 (AVCHD) 4:2:0 8 Bit
+    - H.265 (HEVC) 4:2:0 8 Bit
+    - H.265 (HEVC) 4:2:0 10 Bit
+    - H.265 (HEVC) 4:2:0 12 Bit
+    - H.265 (HEVC) 4:4:4 8 Bit
+    - H.265 (HEVC) 4:4:4 10 Bit
+    - H.265 (HEVC) 4:4:4 12 Bit
+    - AV1 8 Bit
+    - AV1 10 Bit
   Market:
     - Workstation
   Manufacturer: Nvidia

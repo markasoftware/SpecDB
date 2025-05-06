@@ -3,6 +3,15 @@ humanName: GeForce 940M
 isPart: true
 type: Graphics Card
 data:
+  Hardware Accelerated encoding:
+    - H.264 (AVCHD) YUV 4:2:0
+    - H.264 (AVCHD) YUV 4:4:4
+    - H.264 (AVCHD) Lossless
+  Hardware Accelerated Decoding:
+    - MPEG-1
+    - MPEG-2
+    - VC-1
+    - H.264 (AVCHD) 4:2:0 8 Bit
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Maxwell

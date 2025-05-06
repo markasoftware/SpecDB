@@ -38,8 +38,12 @@ data:
   Width: 115 mm
   Ray Tracing Cores: 18
   Tensor Cores: 144
-  AV1: true
-  Other Hardware Accelerated Media:
+  Hardware Accelerated Encoding:
+    - HEVC
+    - AVC
+    - VP9
+    - XAVC-H
+  Hardware Accelerated Decoding:
     - HEVC
     - AVC
     - VP9

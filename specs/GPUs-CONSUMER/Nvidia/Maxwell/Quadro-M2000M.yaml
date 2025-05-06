@@ -3,6 +3,10 @@ humanName: Quadro M2000M
 isPart: true
 type: Graphics Card
 data:
+  Hardware Accelerated encoding:
+    - H.264 (AVCHD) YUV 4:2:0
+    - H.264 (AVCHD) YUV 4:4:4
+    - H.264 (AVCHD) Lossless
   Market: Workstation
   Manufacturer: Nvidia
   Vendor: Nvidia
