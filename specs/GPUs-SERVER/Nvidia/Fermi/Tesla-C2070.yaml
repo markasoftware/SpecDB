@@ -1,0 +1,33 @@
+name: Tesla-C2070
+humanName: Tesla C2070
+isPart: true
+type: Graphics Card
+data:
+  Market: Data center
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2011-07-25'
+  GPU Base Frequency: 574 MHz
+  VRAM Frequency: 747 MHz
+  VRAM Bandwidth: 143.4 GB/s
+  VRAM Capacity: 6 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 48
+  Texture Mapping Unit Count: 56
+  Shader Processor Count: 448 
+  Die Size: 529 mm²
+  GPU: GF100
+  TDP: 238 W
+  FP32 Compute: 1,028 GFLOPS
+  FP64 Compute: 513.9 GFLOPS (1:2)
+  Slot Width: Dual-slot
+  Outputs: 1x DVI
+  Power Connectors: 1x 6-pin + 1x 8-pin
+  Length: 248 mm

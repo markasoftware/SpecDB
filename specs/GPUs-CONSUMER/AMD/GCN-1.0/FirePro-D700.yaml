@@ -1,0 +1,35 @@
+name: FirePro-D700
+humanName: FirePro D700
+isPart: true
+type: Graphics Card
+data:
+  Market: Workstation
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2014-01-18'
+  GPU Base Frequency: 850 MHz
+  VRAM Frequency: 1370 MHz
+  VRAM Bandwidth: 263.0 GB/s
+  VRAM Capacity: 6 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 128
+  Shader Processor Count: 2048 
+  Die Size: 352 mm²
+  GPU: Tahiti
+  GPU Variant: Tahiti XT GL
+  TDP: 274 W
+  FP32 Compute: 3.482 TFLOPS
+  FP64 Compute: 870.4 GFLOPS (1:4)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 6x mini-DisplayPort 1.2
+    - 1x SDI
+  Length: 279 mm

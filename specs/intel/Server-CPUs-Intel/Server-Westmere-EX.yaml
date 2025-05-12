@@ -1,0 +1,38 @@
+humanName: 'Westmere EX'
+sections:
+  -
+    header: '17 - 64 Threads'
+    members:
+      - Xeon-E7-8870
+      - Xeon-E7-8867L
+      - Xeon-E7-8860
+      - Xeon-E7-8850
+      - Xeon-E7-4870
+      - Xeon-E7-4860
+      - Xeon-E7-4850
+      - Xeon-E7-2870
+      - Xeon-E7-2860
+      - Xeon-E7-2850
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Xeon-E7-8830
+      - Xeon-E7-4830
+      - Xeon-E7-4820
+      - Xeon-E7-4807
+      - Xeon-E7-2830
+      - Xeon-E7-2820
+      - Xeon-E7-2803
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-E7-8837
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '32 nm'
+  'Release Date': '2011-04-05'
+  Sockets:
+    - LGA1567
+name: Server-Westmere-EX

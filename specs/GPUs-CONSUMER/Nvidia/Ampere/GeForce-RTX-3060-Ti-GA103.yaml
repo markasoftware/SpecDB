@@ -1,0 +1,42 @@
+name: GeForce-RTX-3060-Ti-GA103
+humanName: GeForce RTX 3060 Ti GA103
+isPart: true
+type: Graphics Card
+data:
+  Market:
+    - Consumer
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Ampere
+  Lithography: 8 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '152'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2022-02-23'
+  GPU Base Frequency: 1410 MHz
+  GPU Boost Frequency: 1665 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 448.0 GB/s
+  VRAM Capacity: 8 GiB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 80
+  Texture Mapping Unit Count: 152
+  Shader Processor Count: 4864 
+  Die Size: 496 mm²
+  GPU: GA103
+  GPU Variant: GA103-200-A1
+  TDP: 200 W
+  FP32 Compute: 16.20 TFLOPS
+  FP64 Compute: 253.1 GFLOPS (1:64)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x HDMI 2.1
+    - 3x DisplayPort 1.4a
+  Power Connectors: 1x 12-pin
+  Length: 242 mm
+  Width: 112 mm
+  Ray Tracing Cores: 38
+  Tensor Cores: 152

@@ -1,0 +1,26 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Sandy Bridge'
+  Market: Mobile
+  Lithography: '32 nm'
+  TDP: '17 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1333 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '1.4 GHz'
+  'Boost Frequency': '2.3 GHz'
+  'L2 Cache (Total)': '3 MiB'
+  'Release Date': '2011-02-20'
+  Socket: FCBGA1023
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: false
+  'GPU Base Frequency': '350 MHz'
+  'GPU Boost Frequency': '900 MHz'
+isPart: true
+type: CPU
+humanName: 'Core i5-2537M'
+name: Core-i5-2537M

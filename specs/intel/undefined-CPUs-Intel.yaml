@@ -1,0 +1,11 @@
+humanName: 'undefined CPUs (Intel)'
+sections:
+  -
+    header: '2015 - 2019'
+    members:
+      - undefined-Cascade-Lake
+type: 'Generic Container'
+topHeader: 'SELECT ARCHITECTURE:'
+data:
+  Manufacturer: Intel
+name: undefined-CPUs-Intel

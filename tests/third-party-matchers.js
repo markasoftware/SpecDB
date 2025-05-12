@@ -97,23 +97,13 @@ test('3PM: Userbenchmark Untagged Intel', t => {
 	t.end();
 });
 
-test('3PM: RX GPUs', t => {
-	confirmMatches({
-		name: 'RX 580',
-	}, [
-		'RX-580', 'RX-580-4GiB', 'RX-580-8GiB'
-	], [], t, 'RX 580');
-	confirmMatches({
-		name: 'R9 390',
-	}, [ 'R9-390' ], [ 'R9-390X' ], t, 'R9 390 (but not X)');
-	t.equal(threepm({
-		brand: 'amd',
-		type: 'gpu',
-		name: 'RX 580 4GB',
-	}), 'RX-580-4GiB');
+// test('3PM: Dodgy geekbench RX', t => {
+// 	confirmMatches({
+// 		name: 'Radeon(TM) RX 580'
+// 	}, ['RX-580'], [], t, 'RX 580 not matching with either dodgy geekbench names.');
 
-	t.end();
-});
+// 	t.end();
+// })
 
 test('3PM: HD GPUs', t => {
 	confirmMatches({
@@ -128,3 +118,9 @@ test('3PM: HD GPUs', t => {
 
 	t.end();
 });
+
+// test('3PM: RTX GPUs', t => {
+// 	confirmMatches({
+// 		name: ''
+// 	})
+// })

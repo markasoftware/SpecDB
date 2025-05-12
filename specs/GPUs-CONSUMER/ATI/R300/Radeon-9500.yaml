@@ -1,0 +1,35 @@
+name: Radeon-9500
+humanName: Radeon 9500
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: R300
+  Lithography: 150 nm
+  DirectX Support: '9.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2003-03-01'
+  GPU Base Frequency: 275 MHz
+  VRAM Frequency: 270 MHz
+  VRAM Bandwidth: 17.28 GB/s
+  VRAM Capacity: 64 MiB
+  VRAM Type: DDR
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 215 mm²
+  GPU: R300
+  GPU Variant: R300
+  TDP: 12 W
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None
+  Pixel Shaders: 4
+  Market:
+    - Consumer

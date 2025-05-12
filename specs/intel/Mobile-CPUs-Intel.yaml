@@ -1,0 +1,63 @@
+humanName: 'Mobile CPUs (Intel)'
+sections:
+  -
+    header: '2015 - 2019'
+    members:
+      - Mobile-Gemini-Lake-Refresh
+      - Mobile-Comet-Lake
+      - Mobile-Ice-Lake
+      - Mobile-Amber-Lake
+      - Mobile-Whiskey-Lake
+      - Mobile-Amber-Lake-Y
+      - Mobile-Coffee-Lake
+      - Mobile-Kaby-Lake-G
+      - Mobile-Gemini-Lake
+      - Mobile-Kaby-Lake-R
+      - Mobile-Kaby-Lake
+      - Mobile-Apollo-Lake
+      - Mobile-Skylake
+      - Mobile-Braswell
+      - Mobile-Cherry-Trail
+      - Mobile-SoFIA-LTE
+      - Mobile-SoFIA-3G-R
+  -
+    header: '2010 - 2014'
+    members:
+      - Mobile-Broadwell
+      - Mobile-Moorefield
+      - Mobile-Merrifield
+      - Mobile-Bay-Trail
+      - Mobile-Crystal-Well
+      - Mobile-Haswell
+      - Mobile-Cloverview
+      - Mobile-Ivy-Bridge
+      - Mobile-Penwell
+      - Mobile-Cedarview
+      - Mobile-Lincroft
+      - Mobile-Sandy-Bridge
+      - Mobile-Pineview
+      - Mobile-Arrandale
+  -
+    header: '2005 - 2009'
+    members:
+      - Mobile-Clarksfield
+      - Mobile-Diamondville
+      - Mobile-Silverthorne
+      - Mobile-Penryn
+      - Mobile-Merom
+      - Mobile-Yonah
+  -
+    header: '2000 - 2004'
+    members:
+      - Mobile-Dothan
+  -
+    header: '1970 - 1974'
+    members:
+      - Mobile-Tualatin
+      - Mobile-Banias
+      - Mobile-Prescott
+type: 'Generic Container'
+topHeader: 'SELECT ARCHITECTURE:'
+data:
+  Manufacturer: Intel
+name: Mobile-CPUs-Intel

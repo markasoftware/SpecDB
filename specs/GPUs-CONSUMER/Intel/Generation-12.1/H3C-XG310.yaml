@@ -1,0 +1,34 @@
+name: H3C-XG310
+humanName: H3C XG310
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Intel
+  Vendor: Intel
+  Architecture: Generation 12.1
+  Lithography: 10 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2020-11-11'
+  GPU Base Frequency: 1050 MHz
+  GPU Boost Frequency: 1100 MHz
+  VRAM Frequency: 2133 MHz
+  VRAM Bandwidth: 68.26 GB/s
+  VRAM Capacity: 8 GiB
+  VRAM Type: LPDDR4X
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 24
+  Texture Mapping Unit Count: 48
+  Shader Processor Count: 768 
+  Die Size: 95 mm²
+  GPU: DG1
+  TDP: 300 W
+  FP32 Compute: 1.690 TFLOPS
+  FP64 Compute: 422.4 GFLOPS (1:4)
+  Slot Width: Single-slot
+  Outputs: No outputs
+  Power Connectors: 1x 8-pin
+  Market:
+    - Consumer

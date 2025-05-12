@@ -1,0 +1,39 @@
+name: GeForce-GTX-295
+humanName: GeForce GTX 295
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla 2.0
+  Lithography: 55 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-01-08'
+  GPU Base Frequency: 576 MHz
+  VRAM Frequency: 999 MHz
+  VRAM Bandwidth: 111.9 GB/s
+  VRAM Capacity: 896 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 448 bit
+  Render Output Unit Count: 28
+  Texture Mapping Unit Count: 80
+  Shader Processor Count: 240 
+  Die Size: 470 mm²
+  GPU: GT200B
+  GPU Variant: G200-400-B3
+  TDP: 289 W
+  FP32 Compute: 596.2 GFLOPS
+  FP64 Compute: 74.52 GFLOPS (1:8)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x HDMI
+  Power Connectors: 1x 6-pin + 1x 8-pin
+  Length: 267 mm
+  Width: 111 mm
+  Height: 38 mm
+  Market:
+    - Consumer

@@ -1,0 +1,20 @@
+data:
+  Manufacturer: Intel
+  Architecture: Diamondville
+  Market: Desktop
+  Lithography: '45 nm'
+  TDP: '4 W'
+  'Core Count': 1
+  'Thread Count': 2
+  'Base Frequency': '1.6 GHz'
+  'L2 Cache (Total)': '512 KiB'
+  'Die Size': '26 mm'
+  'Release Date': '2008-06-03'
+  Socket: PBGA437
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: false
+isPart: true
+type: CPU
+humanName: 'Atom 230'
+name: Atom-230

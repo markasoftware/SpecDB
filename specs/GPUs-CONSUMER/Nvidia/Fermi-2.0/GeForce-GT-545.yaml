@@ -1,0 +1,36 @@
+name: GeForce-GT-545
+humanName: GeForce GT 545
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi 2.0
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2011-05-14'
+  GPU Base Frequency: 720 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 38.40 GB/s
+  VRAM Capacity: 1536 MiB
+  VRAM Type: DDR3
+  VRAM Bus Width: 192 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 144 
+  Die Size: 238 mm²
+  GPU: GF116
+  TDP: 70 W
+  FP32 Compute: 414.7 GFLOPS
+  FP64 Compute: 34.56 GFLOPS (1:12)
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 1.3a1x VGA
+  Power Connectors: None
+  Length: 145 mm
+  Market:
+    - Consumer

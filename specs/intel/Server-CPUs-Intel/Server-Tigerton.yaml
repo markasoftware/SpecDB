@@ -1,0 +1,26 @@
+humanName: Tigerton
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-X7350
+      - Xeon-L7345
+      - Xeon-E7340
+      - Xeon-E7330
+      - Xeon-E7320
+      - Xeon-E7310
+  -
+    header: '2 Threads'
+    members:
+      - Xeon-E7220
+      - Xeon-E7210
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '65 nm'
+  'Release Date': 'Q3 2007'
+  Sockets:
+    - PPGA604
+    - PGA604
+name: Server-Tigerton

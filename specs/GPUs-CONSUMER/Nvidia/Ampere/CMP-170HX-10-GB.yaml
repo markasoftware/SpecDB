@@ -1,0 +1,36 @@
+name: CMP-170HX-10-GB
+humanName: CMP 170HX 10 GB
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Ampere
+  Lithography: 7 nm
+  HLSL Shader Model: '280'
+  Vulkan Support: 'N/A'
+  OpenGL Support: 'N/A'
+  OpenCL Support: '3.0'
+  Release Date: '2021-09-01'
+  GPU Base Frequency: 1140 MHz
+  GPU Boost Frequency: 1410 MHz
+  VRAM Frequency: 1215 MHz
+  VRAM Bandwidth: 1,555 GB/s
+  VRAM Capacity: 10 GiB
+  VRAM Type: HBM2e
+  VRAM Bus Width: 5120 bit
+  Render Output Unit Count: 128
+  Texture Mapping Unit Count: 280
+  Shader Processor Count: 4480 
+  Die Size: 826 mm²
+  GPU: GA100
+  GPU Variant: GA100-???F-A1
+  TDP: 250 W
+  FP32 Compute: 12.63 TFLOPS
+  FP64 Compute: 6.317 TFLOPS (1:2)
+  Slot Width: IGP
+  Outputs: No outputs
+  Power Connectors: 2x 8-pin
+  Tensor Cores: 280
+  Market:
+    - Consumer

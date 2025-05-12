@@ -1,0 +1,18 @@
+data:
+  Manufacturer: Intel
+  Architecture: Yorkfield
+  Market: Desktop
+  Lithography: '45 nm'
+  TDP: '95 W'
+  'Core Count': 4
+  'Thread Count': 4
+  'Base Frequency': '2.83 GHz'
+  'L2 Cache (Total)': '6 MiB'
+  'Die Size': '164 mm'
+  Socket: LGA775
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Core Q9500'
+name: Core-Q9500

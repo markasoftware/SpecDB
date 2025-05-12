@@ -1,0 +1,37 @@
+humanName: 'Cascade Lake'
+sections:
+  -
+    header: '17 - 64 Threads'
+    members:
+      - Xeon-W-3275M
+      - Xeon-W-3275
+      - Xeon-W-3265M
+      - Xeon-W-3265
+      - Xeon-W-3245M
+      - Xeon-W-3245
+      - Xeon-W-3235
+      - Xeon-W-2295
+      - Xeon-W-2275
+      - Xeon-W-2265
+      - Xeon-W-2255
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Xeon-W-3225
+      - Xeon-W-3223
+      - Xeon-W-2245
+      - Xeon-W-2235
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-W-2225
+      - Xeon-W-2223
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2019-06-03'
+  Sockets:
+    - LGA3647
+name: undefined-Cascade-Lake

@@ -1,0 +1,36 @@
+name: GeForce-7900-GS
+humanName: GeForce 7900 GS
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Curie
+  Lithography: 90 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2006-05-01'
+  GPU Base Frequency: 450 MHz
+  VRAM Frequency: 660 MHz
+  VRAM Bandwidth: 42.24 GB/s
+  VRAM Capacity: 256 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 20
+  Shader Processor Count: 0 
+  Die Size: 196 mm²
+  GPU: G71
+  GPU Variant: G71-N-A2
+  TDP: 49 W
+  Slot Width: Single-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x 6-pin
+  Length: 198 mm
+  Pixel Shaders: 20
+  Market:
+    - Consumer

@@ -1,0 +1,40 @@
+name: GeForce-RTX-5060
+humanName: GeForce RTX 5060
+isPart: true
+type: Graphics Card
+data:
+  Market:
+    - Consumer
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Blackwell 2.0
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '144'
+  Vulkan Support: '1.4'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: 'Mar 2025'
+  GPU Base Frequency: 2235 MHz
+  GPU Boost Frequency: 2520 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 448.0 GB/s
+  VRAM Capacity: 8 GiB
+  VRAM Type: GDDR7
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 48
+  Texture Mapping Unit Count: 144
+  Shader Processor Count: 4608 
+  Die Size: unknown
+  GPU: GB206
+  GPU Variant: GB206
+  TDP: 170 W
+  FP32 Compute: 23.22 TFLOPS
+  FP64 Compute: 362.9 GFLOPS (1:64)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x HDMI 2.1b
+    - 3x DisplayPort 2.1b
+  Power Connectors: 1x 16-pin
+  Ray Tracing Cores: 36
+  Tensor Cores: 144

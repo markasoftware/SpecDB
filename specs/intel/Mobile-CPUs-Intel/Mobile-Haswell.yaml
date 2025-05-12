@@ -1,0 +1,101 @@
+humanName: Haswell
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-4940MX
+      - Core-i7-4930MX
+      - Core-i7-4910MQ
+      - Core-i7-4900MQ
+      - Core-i7-4810MQ
+      - Core-i7-4800MQ
+      - Core-i7-4722HQ
+      - Core-i7-4720HQ
+      - Core-i7-4712MQ
+      - Core-i7-4712HQ
+      - Core-i7-4710MQ
+      - Core-i7-4710HQ
+      - Core-i7-4702MQ
+      - Core-i7-4702HQ
+      - Core-i7-4700MQ
+      - Core-i7-4700HQ
+  -
+    header: '4 Threads'
+    members:
+      - Core-i7-4650U
+      - Core-i7-4610Y
+      - Core-i7-4610M
+      - Core-i7-4600U
+      - Core-i7-4600M
+      - Core-i7-4578U
+      - Core-i7-4558U
+      - Core-i7-4550U
+      - Core-i7-4510U
+      - Core-i7-4500U
+      - Core-i5-4360U
+      - Core-i5-4350U
+      - Core-i5-4340M
+      - Core-i5-4330M
+      - Core-i5-4310U
+      - Core-i5-4310M
+      - Core-i5-4308U
+      - Core-i5-4302Y
+      - Core-i5-4300Y
+      - Core-i5-4300U
+      - Core-i5-4300M
+      - Core-i5-4288U
+      - Core-i5-4278U
+      - Core-i5-4260U
+      - Core-i5-4258U
+      - Core-i5-4250U
+      - Core-i5-4220Y
+      - Core-i5-4210Y
+      - Core-i5-4210U
+      - Core-i5-4210M
+      - Core-i5-4210H
+      - Core-i5-4202Y
+      - Core-i5-4200Y
+      - Core-i5-4200U
+      - Core-i5-4200M
+      - Core-i5-4200H
+      - Core-i3-4158U
+      - Core-i3-4120U
+      - Core-i3-4110M
+      - Core-i3-4100U
+      - Core-i3-4100M
+      - Core-i3-4030Y
+      - Core-i3-4030U
+      - Core-i3-4025U
+      - Core-i3-4020Y
+      - Core-i3-4012Y
+      - Core-i3-4010Y
+      - Core-i3-4010U
+      - Core-i3-4005U
+      - Core-i3-4000M
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-3561Y
+      - Pentium-3560Y
+      - Pentium-3560M
+      - Pentium-3558U
+      - Pentium-3556U
+      - Pentium-3550M
+      - Pentium-2981U
+      - Pentium-2980U
+      - Pentium-2970M
+      - Pentium-2961Y
+      - Pentium-2957U
+      - Pentium-2955U
+      - Pentium-2950M
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2013-06-01'
+  Sockets:
+    - BGA1364
+    - BGA1168
+    - PGA946
+name: Mobile-Haswell

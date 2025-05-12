@@ -1,0 +1,34 @@
+name: Quadro-Plex-7000
+humanName: Quadro Plex 7000
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi 2.0
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2011-07-25'
+  GPU Base Frequency: 574 MHz
+  VRAM Frequency: 750 MHz
+  VRAM Bandwidth: 144.0 GB/s
+  VRAM Capacity: 6 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 48
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 512 
+  Die Size: 520 mm²
+  GPU: GF110
+  TDP: 600 W
+  FP32 Compute: 1,176 GFLOPS
+  FP64 Compute: 587.8 GFLOPS (1:2)
+  Outputs: 
+    - 4x DVI
+    - 2x S-Video
+  Length: 522 mm
+  Market:
+    - Workstation

@@ -1,0 +1,32 @@
+name: Quadro-NVS-320M
+humanName: Quadro NVS 320M
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 80 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2007-06-09'
+  GPU Base Frequency: 575 MHz
+  VRAM Frequency: 700 MHz
+  VRAM Bandwidth: 22.40 GB/s
+  VRAM Capacity: 512 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 32 
+  Die Size: 169 mm²
+  GPU: G84
+  TDP: 20 W
+  FP32 Compute: 73.60 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Market:
+    - Workstation

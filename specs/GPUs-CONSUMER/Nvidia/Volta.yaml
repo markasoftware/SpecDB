@@ -1,0 +1,22 @@
+name: Volta 
+humanName: Volta
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 12 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  Release Date: '2017-06-21'
+  Manufacturer: Nvidia
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Jetson-AGX-Xavier-16-GB
+    - Jetson-AGX-Xavier-32-GB
+    - Jetson-Xavier-NX-8-GB
+    - Jetson-Xavier-NX-16-GB
+    - Quadro-GV100
+    - TITAN-V
+    - TITAN-V-CEO-Edition
+    - Tesla-V100-SXM2-32-GB

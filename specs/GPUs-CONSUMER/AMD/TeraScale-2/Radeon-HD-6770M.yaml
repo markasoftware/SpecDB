@@ -1,0 +1,32 @@
+name: Radeon-HD-6770M
+humanName: Radeon HD 6770M
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2011-01-04'
+  GPU Base Frequency: 725 MHz
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 57.60 GB/s
+  VRAM Capacity: 1024 MiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 480 
+  Die Size: 118 mm²
+  GPU: Whistler
+  GPU Variant: Whistler XT
+  TDP: 35 W
+  FP32 Compute: 696.0 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Market:
+    - Mobile

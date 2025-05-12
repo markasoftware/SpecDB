@@ -1,0 +1,26 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Ivy Bridge'
+  Market: Mobile
+  Lithography: '22 nm'
+  TDP: '17 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': DDR3/L/
+  'Base Frequency': '1.9 GHz'
+  'Boost Frequency': '2.9 GHz'
+  'L2 Cache (Total)': '3 MiB'
+  'Release Date': '2013-01-20'
+  Socket: FCBGA1023
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: false
+  'GPU Base Frequency': '650 MHz'
+  'GPU Boost Frequency': '1.2 GHz'
+isPart: true
+type: CPU
+humanName: 'Core i5-3437U'
+name: Core-i5-3437U

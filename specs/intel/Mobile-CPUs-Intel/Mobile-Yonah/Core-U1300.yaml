@@ -1,0 +1,17 @@
+data:
+  Manufacturer: Intel
+  Architecture: Yonah
+  Market: Mobile
+  Lithography: '65 nm'
+  TDP: '6 W'
+  'Core Count': 1
+  'Thread Count': 1
+  'Base Frequency': '1.06 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Die Size': '90 mm'
+  Socket: PBGA479
+  'Other Extensions': {  }
+isPart: true
+type: CPU
+humanName: 'Core U1300'
+name: Core-U1300

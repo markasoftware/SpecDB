@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: Broadwell
+  Market: Server
+  Lithography: '14 nm'
+  TDP: '150 W'
+  'Core Count': 22
+  'Thread Count': 44
+  'Max Memory Channels': 4
+  'Max Memory Frequency': '1866 MHz'
+  'Memory Type': 'DDR4, DDR3'
+  'Base Frequency': '2.2 GHz'
+  'Boost Frequency': '3.3 GHz'
+  'L2 Cache (Total)': '55 MiB'
+  'Release Date': '2016-06-06'
+  Socket: FCLGA2011
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+isPart: true
+type: CPU
+humanName: 'Xeon E7-8880V4'
+name: Xeon-E7-8880V4

@@ -1,0 +1,22 @@
+name: Hopper 
+humanName: Hopper
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 4 nm
+  DirectX Support: ''
+  Vulkan Support: 'N/A'
+  Release Date: '2023-03-21'
+  Manufacturer: Nvidia
+sections:
+  - header: WHOLE RANGE
+    members:
+    - H100-CNX
+    - H100-PCIe-80-GB
+    - H100-PCIe-96-GB
+    - H100-SXM5-64-GB
+    - H100-SXM5-80-GB
+    - H100-SXM5-96-GB
+    - H800-PCIe-80-GB
+    - H800-SXM5

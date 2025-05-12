@@ -1,0 +1,36 @@
+name: GeForce-RTX-3080-Ti-Max-Q
+humanName: GeForce RTX 3080 Ti Max-Q
+isPart: true
+type: Graphics Card
+data:
+  Market: Mobile
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Ampere
+  Lithography: 8 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '232'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2022-01-25'
+  GPU Base Frequency: 585 MHz
+  GPU Boost Frequency: 1125 MHz
+  VRAM Frequency: 1500 MHz
+  VRAM Bandwidth: 384.0 GB/s
+  VRAM Capacity: 16 GiB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 96
+  Texture Mapping Unit Count: 232
+  Shader Processor Count: 7424 
+  Die Size: 496 mm²
+  GPU: GA103
+  GPU Variant: GN20-E8-A1
+  TDP: 80 W
+  FP32 Compute: 16.70 TFLOPS
+  FP64 Compute: 261.0 GFLOPS (1:64)
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Ray Tracing Cores: 58
+  Tensor Cores: 232

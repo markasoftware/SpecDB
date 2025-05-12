@@ -1,0 +1,32 @@
+name: Radeon-9700-PRO-X4
+humanName: Radeon 9700 PRO X4
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: R300
+  Lithography: 150 nm
+  DirectX Support: '9.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2002-08-19'
+  GPU Base Frequency: 325 MHz
+  VRAM Frequency: 310 MHz
+  VRAM Bandwidth: 19.84 GB/s
+  VRAM Capacity: 128 MiB
+  VRAM Type: DDR
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 0 
+  Die Size: 215 mm²
+  GPU: R300
+  TDP: unknown
+  Slot Width: Dual-slot
+  Outputs: 4x DVI
+  Power Connectors: 2x Molex
+  Pixel Shaders: 8
+  Market:
+    - Workstation

@@ -1,0 +1,36 @@
+name: MTT-S70
+humanName: MTT S70
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Moore-Threads
+  Vendor: Moore-Threads
+  Architecture: MUSA
+  Lithography: 12 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.4'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: 'Unknown'
+  GPU Base Frequency: 1600 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 392.0 GB/s
+  VRAM Capacity: 7 GiB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 224 bit
+  Render Output Unit Count: 224
+  Texture Mapping Unit Count: 224
+  Shader Processor Count: 3584 
+  Die Size: unknown
+  GPU: Chunxiao
+  TDP: 220 W
+  FP32 Compute: 11.47 TFLOPS
+  FP64 Compute: 179.2 GFLOPS (1:64)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x HDMI 2.1
+    - 3x DisplayPort 1.4a
+  Power Connectors: 1x 8-pin
+  Length: 285 mm
+  Width: 112 mm
+  Height: 49 mm

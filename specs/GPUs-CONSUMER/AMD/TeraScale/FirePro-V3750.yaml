@@ -1,0 +1,36 @@
+name: FirePro-V3750
+humanName: FirePro V3750
+isPart: true
+type: Graphics Card
+data:
+  Market: Workstation
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2008-09-11'
+  GPU Base Frequency: 550 MHz
+  VRAM Frequency: 700 MHz
+  VRAM Bandwidth: 22.40 GB/s
+  VRAM Capacity: 256 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 320 
+  Die Size: 146 mm²
+  GPU: RV730
+  GPU Variant: RV730 GL V3750
+  TDP: 48 W
+  FP32 Compute: 352.0 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 2x DisplayPort 1.0
+  Power Connectors: None
+  Length: 168 mm
+  Width: 111 mm

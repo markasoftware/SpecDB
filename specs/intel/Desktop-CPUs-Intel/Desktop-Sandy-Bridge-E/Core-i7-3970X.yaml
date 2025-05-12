@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Sandy Bridge E'
+  Market: Desktop
+  Lithography: '32 nm'
+  TDP: '150 W'
+  'Core Count': 6
+  'Thread Count': 12
+  'Max Memory Channels': 4
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '3.5 GHz'
+  'Boost Frequency': '4 GHz'
+  'L2 Cache (Total)': '15 MiB'
+  'Release Date': '2012-11-12'
+  Socket: FCLGA2011
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+isPart: true
+type: CPU
+humanName: 'Core i7-3970X'
+name: Core-i7-3970X

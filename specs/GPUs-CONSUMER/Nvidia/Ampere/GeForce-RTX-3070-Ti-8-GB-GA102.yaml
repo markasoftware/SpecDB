@@ -1,0 +1,42 @@
+name: GeForce-RTX-3070-Ti-8-GB-GA102
+humanName: GeForce RTX 3070 Ti 8 GB GA102
+isPart: true
+type: Graphics Card
+data:
+  Market:
+    - Consumer
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Ampere
+  Lithography: 8 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '192'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2022-10-21'
+  GPU Base Frequency: 1575 MHz
+  GPU Boost Frequency: 1770 MHz
+  VRAM Frequency: 1188 MHz
+  VRAM Bandwidth: 608.3 GB/s
+  VRAM Capacity: 8 GiB
+  VRAM Type: GDDR6X
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 96
+  Texture Mapping Unit Count: 192
+  Shader Processor Count: 6144 
+  Die Size: 628 mm²
+  GPU: GA102
+  GPU Variant: GA102-150-A1
+  TDP: 290 W
+  FP32 Compute: 21.75 TFLOPS
+  FP64 Compute: 339.8 GFLOPS (1:64)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x HDMI 2.1
+    - 3x DisplayPort 1.4a
+  Power Connectors: 1x 12-pin
+  Length: 267 mm
+  Width: 112 mm
+  Ray Tracing Cores: 48
+  Tensor Cores: 192

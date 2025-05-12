@@ -1,0 +1,33 @@
+name: Parhelia-PCI
+humanName: Parhelia PCI
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Matrox
+  Vendor: Matrox
+  Architecture: Parhelia
+  Lithography: 150 nm
+  DirectX Support: '8.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.3'
+  OpenCL Support: 'N/A'
+  Release Date: '2003'
+  GPU Base Frequency: 200 MHz
+  VRAM Frequency: 250 MHz
+  VRAM Bandwidth: 4.000 GB/s
+  VRAM Capacity: 256 MiB
+  VRAM Type: DDR
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 0 
+  Die Size: 174 mm²
+  GPU: Parhelia-512
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 2x DVI
+  Power Connectors: None
+  Length: 190 mm
+  Pixel Shaders: 4
+  Market:
+    - Consumer

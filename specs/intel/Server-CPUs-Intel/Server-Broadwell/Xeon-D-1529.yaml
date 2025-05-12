@@ -1,0 +1,23 @@
+data:
+  Manufacturer: Intel
+  Architecture: Broadwell
+  Market: Server
+  Lithography: '14 nm'
+  TDP: '20 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 2
+  'Memory Type': 'DDR4, DDR3'
+  'Base Frequency': '1.3 GHz'
+  'Boost Frequency': '1.3 GHz'
+  'L2 Cache (Total)': '6 MiB'
+  'Release Date': '2016-04-12'
+  Socket: FCBGA1667
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+isPart: true
+type: CPU
+humanName: 'Xeon D-1529'
+name: Xeon-D-1529

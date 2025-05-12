@@ -1,0 +1,30 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Coffee Lake'
+  Market: Mobile
+  Lithography: '14 nm'
+  TDP: '28 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '2400 MHz'
+  'Memory Type': 'DDR4, LPDDR3'
+  'Base Frequency': '2.8 GHz'
+  'Boost Frequency': '4.7 GHz'
+  'L2 Cache (Total)': '8 MiB'
+  'Release Date': '2019-05-21'
+  Socket: FCBGA1528
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+  'GPU Base Frequency': '300 MHz'
+  'GPU Boost Frequency': '1.2 GHz'
+  'VRAM Type': 'DDR4, LPDDR3'
+  'Maximum VRAM Capacity': '32 GiB'
+  'DirectX Support': '12'
+  'OpenGL Support': '4.5'
+isPart: true
+type: CPU
+humanName: 'Core i7-8569U'
+name: Core-i7-8569U

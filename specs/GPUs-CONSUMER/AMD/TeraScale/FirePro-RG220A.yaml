@@ -1,0 +1,33 @@
+name: FirePro-RG220A
+humanName: FirePro RG220A
+isPart: true
+type: Graphics Card
+data:
+  Market: Workstation
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2010-05-04'
+  GPU Base Frequency: 500 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 51.20 GB/s
+  VRAM Capacity: 512 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 80 
+  Die Size: 73 mm²
+  GPU: RV711
+  TDP: 35 W
+  FP32 Compute: 80.00 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 1x DVI
+  Power Connectors: None
+  Length: 168 mm
+  Width: 111 mm

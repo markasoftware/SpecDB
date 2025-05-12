@@ -1,0 +1,19 @@
+humanName: Kentsfield
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Core-QX6850
+      - Core-QX6800
+      - Core-QX6700
+      - Core-Q6700
+      - Core-Q6600
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '65 nm'
+  'Release Date': 'Q4 2006'
+  Sockets:
+    - LGA775
+name: Desktop-Kentsfield

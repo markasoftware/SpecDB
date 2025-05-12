@@ -1,0 +1,31 @@
+name: Voodoo-Scalable 
+humanName: Voodoo Scalable
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 250 - 180 nm
+  DirectX Support: '6.0'
+  Vulkan Support: 'N/A'
+  Release Date: '2000-06-22'
+  Manufacturer: 3dfx
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Spectre-1000
+    - Spectre-2000
+    - Spectre-3000
+    - Voodoo4-4000-AGP
+    - Voodoo4-4500-AGP
+    - Voodoo4-4500-PCI
+    - Voodoo4-4800-AGP
+    - Voodoo4-2-4000-AGP
+    - Voodoo4-2-4200-AGP
+    - Voodoo4-2-4200-PCI-16-MB
+    - Voodoo4-2-4200-PCI-32-MB
+    - Voodoo4-2-4800-AGP
+    - Voodoo5-5000-AGP
+    - Voodoo5-5000-PCI
+    - Voodoo5-5500-AGP
+    - Voodoo5-5500-PCI
+    - Voodoo5-6000

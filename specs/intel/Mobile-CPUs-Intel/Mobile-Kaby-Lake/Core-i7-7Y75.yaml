@@ -1,0 +1,30 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Kaby Lake'
+  Market: Mobile
+  Lithography: '14 nm'
+  TDP: '4.5 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1866 MHz'
+  'Memory Type': 'LPDDR3, DDR3L'
+  'Base Frequency': '1.3 GHz'
+  'Boost Frequency': '3.6 GHz'
+  'L2 Cache (Total)': '4 MiB'
+  'Release Date': '2016-08-30'
+  Socket: FCBGA1515
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+  'GPU Base Frequency': '300 MHz'
+  'GPU Boost Frequency': '1.05 GHz'
+  'VRAM Type': 'LPDDR3, DDR3L'
+  'Maximum VRAM Capacity': '16 GiB'
+  'DirectX Support': '12'
+  'OpenGL Support': '4.5'
+isPart: true
+type: CPU
+humanName: 'Core i7-7Y75'
+name: Core-i7-7Y75

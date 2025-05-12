@@ -1,0 +1,40 @@
+name: CMP-50HX
+humanName: CMP 50HX
+isPart: true
+type: Graphics Card
+data:
+  Market: Crypto
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Turing
+  Lithography: 12 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '448'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2021-06-24'
+  GPU Base Frequency: 1350 MHz
+  GPU Boost Frequency: 1545 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 560.0 GB/s
+  VRAM Capacity: 10 GiB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 320 bit
+  Render Output Unit Count: 80
+  Texture Mapping Unit Count: 192
+  Shader Processor Count: 3584 
+  Die Size: 754 mm²
+  GPU: TU102
+  GPU Variant: TU102-100-A1
+  TDP: 250 W
+  FP32 Compute: 11.07 TFLOPS
+  FP64 Compute: 346.1 GFLOPS (1:32)
+  Slot Width: Dual-slot
+  Outputs: No outputs
+  Power Connectors: 2x 8-pin
+  Length: 267 mm
+  Width: 116 mm
+  Height: 35 mm
+  Ray Tracing Cores: 56
+  Tensor Cores: 448

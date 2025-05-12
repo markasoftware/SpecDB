@@ -1,0 +1,39 @@
+name: Quadro-RTX-4000-Mobile
+humanName: Quadro RTX 4000 Mobile
+isPart: true
+type: Graphics Card
+data:
+  Market:
+    - Workstation
+    - Mobile
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Turing
+  Lithography: 12 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '320'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2019-05-27'
+  GPU Base Frequency: 1110 MHz
+  GPU Boost Frequency: 1560 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 448.0 GB/s
+  VRAM Capacity: 8 GiB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 160
+  Shader Processor Count: 2560 
+  Die Size: 545 mm²
+  GPU: TU104
+  GPU Variant: N19E-Q3-A1
+  TDP: 110 W
+  FP32 Compute: 7.987 TFLOPS
+  FP64 Compute: 249.6 GFLOPS (1:32)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Ray Tracing Cores: 40
+  Tensor Cores: 320

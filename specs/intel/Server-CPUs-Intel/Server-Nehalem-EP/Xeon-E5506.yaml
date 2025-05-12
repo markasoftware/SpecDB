@@ -1,0 +1,21 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Nehalem EP'
+  Market: Server
+  Lithography: '45 nm'
+  TDP: '80 W'
+  'Core Count': 4
+  'Thread Count': 4
+  'Max Memory Channels': 3
+  'Max Memory Frequency': '800 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2.13 GHz'
+  'L2 Cache (Total)': '4 MiB'
+  'Release Date': '2009-03-30'
+  Socket: FCLGA1366
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Xeon E5506'
+name: Xeon-E5506

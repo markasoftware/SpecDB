@@ -1,0 +1,30 @@
+data:
+  Manufacturer: Intel
+  Architecture: Haswell
+  Market: Desktop
+  Lithography: '22 nm'
+  TDP: '65 W'
+  'Core Count': 4
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': 'DDR3, DDR3L'
+  'Base Frequency': '2.7 GHz'
+  'Boost Frequency': '3.2 GHz'
+  'L2 Cache (Total)': '6 MiB'
+  'Release Date': '2013-06-01'
+  Socket: FCLGA1150
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+  'GPU Base Frequency': '350 MHz'
+  'GPU Boost Frequency': '1.1 GHz'
+  'VRAM Type': 'DDR3, DDR3L'
+  'Maximum VRAM Capacity': '2 GiB'
+  'DirectX Support': '12'
+  'OpenGL Support': '4.3'
+isPart: true
+type: CPU
+humanName: 'Core i5-4430S'
+name: Core-i5-4430S

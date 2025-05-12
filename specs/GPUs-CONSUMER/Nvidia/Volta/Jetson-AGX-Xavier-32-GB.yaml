@@ -1,0 +1,37 @@
+name: Jetson-AGX-Xavier-32-GB
+humanName: Jetson AGX Xavier 32 GB
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Volta
+  Lithography: 12 nm
+  DirectX Support: '12.1'
+  HLSL Shader Model: '64'
+  Vulkan Support: '1.2'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.2'
+  Release Date: 'Oct 2018'
+  GPU Base Frequency: 854 MHz
+  GPU Boost Frequency: 1377 MHz
+  VRAM Frequency: 2133 MHz
+  VRAM Bandwidth: 136.5 GB/s
+  VRAM Capacity: 32 GiB
+  VRAM Type: LPDDR4X
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 512 
+  Die Size: 350 mm²
+  GPU: GV10B
+  TDP: 30 W
+  FP32 Compute: 1,410 GFLOPS
+  FP64 Compute: 705.0 GFLOPS (1:2)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Length: 100 mm
+  Width: 87 mm
+  Tensor Cores: 64
+  Market:
+    - Mobile

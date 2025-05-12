@@ -1,0 +1,19 @@
+name: Generation-6.0 
+humanName: Generation 6.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 32 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  Release Date: '2011-02-01'
+  Manufacturer: Intel
+sections:
+  - header: WHOLE RANGE
+    members:
+    - HD-Graphics-6EU-Mobile
+    - HD-Graphics-2000
+    - HD-Graphics-3000
+    - HD-Graphics-3000-Mobile
+    - HD-Graphics-P3000

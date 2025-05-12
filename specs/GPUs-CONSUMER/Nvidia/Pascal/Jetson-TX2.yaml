@@ -1,0 +1,35 @@
+name: Jetson-TX2
+humanName: Jetson TX2
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Pascal
+  Lithography: 16 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.2'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.2'
+  Release Date: '2016'
+  GPU Base Frequency: 1300 MHz
+  VRAM Frequency: 1866 MHz
+  VRAM Bandwidth: 59.71 GB/s
+  VRAM Capacity: 8 GiB
+  VRAM Type: LPDDR4
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 256 
+  Die Size: unknown
+  GPU: GP10B
+  GPU Variant: Tegra X2
+  TDP: 15 W
+  FP32 Compute: 665.6 GFLOPS
+  FP64 Compute: 20.80 GFLOPS (1:32)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Length: 87 mm
+  Width: 50 mm
+  Market:
+    - Mobile

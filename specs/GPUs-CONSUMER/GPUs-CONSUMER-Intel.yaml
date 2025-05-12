@@ -1,0 +1,37 @@
+name: GPUs-CONSUMER-INTEL
+humanName: Consumer GPUs
+type: Generic Container
+isPart: false
+topHeader: 'SELECT SERIES:'
+data:
+  Manufacturer: Intel
+sections:
+  - header: Intel Arc
+    members:
+      - Xe2
+  - header: Uncategorised
+    members:
+      - Generation-12.7
+      - Xe-LPG
+      - Generation-12.5
+      - Generation-2.0
+      - Generation-3.0
+      - Generation-3.5
+      - Generation-4.0
+      - Generation-5.0
+      - Generation-12.1
+      - Generation-7.0
+      - Generation-6.0
+      - Generation-7.5
+      - Generation-5.75
+      - Generation-8.0
+      - Generation-9.0
+      - Generation-9.5
+      - i740
+      - Generation-1.0
+      - Generation-11.0
+      - Generation-12.2
+      - Knights
+      - PowerVR-SGX535
+      - PowerVR-SGX545
+

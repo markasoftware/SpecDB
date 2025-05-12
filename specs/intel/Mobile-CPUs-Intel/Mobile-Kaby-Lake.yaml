@@ -1,0 +1,58 @@
+humanName: 'Kaby Lake'
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-E3-1535MV6
+      - Xeon-E3-1505MV6
+      - Core-i7-7920HQ
+      - Core-i7-7820HQ
+      - Core-i7-7820HK
+      - Core-i7-7700HQ
+  -
+    header: '4 Threads'
+    members:
+      - Pentium-4415Y
+      - Pentium-4415U
+      - Pentium-4410Y
+      - Core-i7-7660U
+      - Core-i7-7600U
+      - Core-i7-7567U
+      - Core-i7-7560U
+      - Core-i7-7500U
+      - Core-i7-7Y75
+      - Core-i5-7440HQ
+      - Core-i5-7360U
+      - Core-i5-7300U
+      - Core-i5-7300HQ
+      - Core-i5-7287U
+      - Core-i5-7267U
+      - Core-i5-7260U
+      - Core-i5-7200U
+      - Core-i5-7Y57
+      - Core-i5-7Y54
+      - Core-i3-8130U
+      - Core-i3-7167U
+      - Core-i3-7130U
+      - Core-i3-7100U
+      - Core-i3-7100H
+      - Core-i3-7020U
+      - Core-M3-7Y32
+      - Core-M3-7Y30
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-3965Y
+      - Pentium-3965U
+      - Pentium-3865U
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2016-08-30'
+  Sockets:
+    - BGA1515
+    - BGA1356
+    - BGA1440
+name: Mobile-Kaby-Lake

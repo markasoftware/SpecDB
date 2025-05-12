@@ -1,0 +1,34 @@
+name: GeForce-8600-GS
+humanName: GeForce 8600 GS
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 80 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2007-04-17'
+  GPU Base Frequency: 540 MHz
+  VRAM Frequency: 400 MHz
+  VRAM Bandwidth: 12.80 GB/s
+  VRAM Capacity: 512 MiB
+  VRAM Type: DDR2
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 16 
+  Die Size: 169 mm²
+  GPU: G84
+  TDP: 47 W
+  FP32 Compute: 38.08 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None
+  Market:
+    - Consumer

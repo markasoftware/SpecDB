@@ -1,0 +1,33 @@
+name: Tesla-K40d
+humanName: Tesla K40d
+isPart: true
+type: Graphics Card
+data:
+  Market: Data center
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Kepler
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.175'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2013-11-22'
+  GPU Base Frequency: 745 MHz
+  GPU Boost Frequency: 876 MHz
+  VRAM Frequency: 1502 MHz
+  VRAM Bandwidth: 288.4 GB/s
+  VRAM Capacity: 12 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 48
+  Texture Mapping Unit Count: 240
+  Shader Processor Count: 2880 
+  Die Size: 561 mm²
+  GPU: GK110B
+  TDP: 245 W
+  FP32 Compute: 5.046 TFLOPS
+  FP64 Compute: 1.682 TFLOPS (1:3)
+  Slot Width: Dual-slot
+  Outputs: No outputs
+  Length: 267 mm

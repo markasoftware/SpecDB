@@ -1,0 +1,33 @@
+name: GeForce-G210-OEM
+humanName: GeForce G210 OEM
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 55 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-05-26'
+  GPU Base Frequency: 550 MHz
+  VRAM Frequency: 504 MHz
+  VRAM Bandwidth: 8.064 GB/s
+  VRAM Capacity: 512 MiB
+  VRAM Type: DDR2
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 16 
+  Die Size: 121 mm²
+  GPU: G96C
+  TDP: 31 W
+  FP32 Compute: 43.20 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x DisplayPort1x VGA
+  Power Connectors: None
+  Length: 168 mm

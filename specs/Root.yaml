@@ -6,14 +6,41 @@ topHeader: "SELECT CATEGORY:"
 sections:
   - header: AMD
     members:
+    - MISSINGCPUS
     - CPUs-DESKTOP
     - CPUs-SERVER
-    - GPUs-CONSUMER
+    - GPUs-CONSUMER-AMD
+    - GPUs-CONSOLE-AMD
+    - GPUs-SERVER-AMD
     - APUs-DESKTOP
     - APUs-MOBILE
   - header: Intel
     members:
+    - GPUs-CONSUMER-INTEL
+    - GPUs-SERVER-INTEL
     - Desktop-CPUs-Intel
     - Mobile-CPUs-Intel
     - Embedded-CPUs-Intel
     - Server-CPUs-Intel
+  - header: ATI
+    members:
+    - GPUs-CONSUMER-ATI
+    - GPUs-CONSOLE-ATI
+    - GPUs-SERVER-ATI
+  - header: Nvidia
+    members:
+    - GPUs-CONSUMER-NVIDIA
+    - GPUs-CONSOLE-Nvidia
+    - GPUs-SERVER-Nvidia
+  - header: 3dfx
+    members:
+    - GPUs-CONSUMER-3dfx
+  - header: Matrox
+    members:
+    - GPUs-CONSUMER-MATROX
+  - header: PowerVR
+    members:
+    - GPUs-CONSUMER-POWERVR
+  - header: XGI
+    members:
+    - GPUs-CONSUMER-XGI

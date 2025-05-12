@@ -1,0 +1,40 @@
+name: TITAN-X-Pascal
+humanName: TITAN X Pascal
+isPart: true
+type: Graphics Card
+data:
+  Market: Consumer
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Pascal
+  Lithography: 16 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2016-08-02'
+  GPU Base Frequency: 1417 MHz
+  GPU Boost Frequency: 1531 MHz
+  VRAM Frequency: 1251 MHz
+  VRAM Bandwidth: 480.4 GB/s
+  VRAM Capacity: 12 GiB
+  VRAM Type: GDDR5X
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 96
+  Texture Mapping Unit Count: 224
+  Shader Processor Count: 3584 
+  Die Size: 471 mm²
+  GPU: GP102
+  GPU Variant: GP102-400-A1
+  TDP: 250 W
+  FP32 Compute: 10.97 TFLOPS
+  FP64 Compute: 342.9 GFLOPS (1:32)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 2.0
+    - 3x DisplayPort 1.4a
+  Power Connectors: 1x 6-pin + 1x 8-pin
+  Length: 267 mm
+  Width: 112 mm
+  Height: 40 mm

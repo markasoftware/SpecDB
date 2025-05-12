@@ -1,0 +1,31 @@
+name: Radeon-HD-6320-IGP
+humanName: Radeon HD 6320 IGP
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2011-08-15'
+  GPU Base Frequency: 508 MHz
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 80 
+  Die Size: 75 mm²
+  GPU: Loveland
+  TDP: 18 W
+  FP32 Compute: 81.28 GFLOPS
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Market:
+    - Mobile

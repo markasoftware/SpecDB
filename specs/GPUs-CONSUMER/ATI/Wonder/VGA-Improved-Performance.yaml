@@ -1,0 +1,31 @@
+name: VGA-Improved-Performance
+humanName: VGA Improved Performance
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: Wonder
+  Lithography: 800 nm
+  Vulkan Support: 'N/A'
+  OpenGL Support: 'N/A'
+  OpenCL Support: 'N/A'
+  Release Date: '1987-09-28'
+  GPU Base Frequency: 10 MHz
+  VRAM Frequency: 10 MHz
+  VRAM Bandwidth: 40.00 MB/s
+  VRAM Capacity: 256 KiB
+  VRAM Type: DRAM
+  VRAM Bus Width: 32 bit
+  Render Output Unit Count: 1
+  Texture Mapping Unit Count: 0
+  Shader Processor Count: 0 
+  Die Size: unknown
+  GPU: CHIPS P82C441
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 1x VGA
+  Length: 178 mm
+  Pixel Shaders: 1
+  Market:
+    - Consumer

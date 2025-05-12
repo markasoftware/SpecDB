@@ -1,0 +1,38 @@
+name: Data-Center-GPU-Max-1100
+humanName: Data Center GPU Max 1100
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Intel
+  Vendor: Intel
+  Architecture: Generation 12.5
+  Lithography: 10 nm
+  DirectX Support: '12.1'
+  HLSL Shader Model: '448'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2023-01-10'
+  GPU Base Frequency: 1000 MHz
+  GPU Boost Frequency: 1550 MHz
+  VRAM Frequency: 600 MHz
+  VRAM Bandwidth: 1,229 GB/s
+  VRAM Capacity: 48 GiB
+  VRAM Type: HBM2e
+  VRAM Bus Width: 8192 bit
+  Render Output Unit Count: 0
+  Texture Mapping Unit Count: 448
+  Shader Processor Count: 7168 
+  Die Size: 1280 mm²
+  GPU: Ponte Vecchio
+  TDP: 300 W
+  FP32 Compute: 22.22 TFLOPS
+  FP64 Compute: 22.22 TFLOPS (1:1)
+  Slot Width: Dual-slot
+  Outputs: No outputs
+  Power Connectors: 1x 12-pin
+  Length: 267 mm
+  Ray Tracing Cores: 56
+  Tensor Cores: 448
+  Market:
+    - Consumer

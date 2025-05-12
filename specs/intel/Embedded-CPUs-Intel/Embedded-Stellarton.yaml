@@ -1,0 +1,18 @@
+humanName: Stellarton
+sections:
+  -
+    header: '2 Threads'
+    members:
+      - Atom-E665CT
+      - Atom-E665C
+      - Atom-E645CT
+      - Atom-E645C
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': '2010-11-22'
+  Sockets:
+    - BGA1466
+name: Embedded-Stellarton

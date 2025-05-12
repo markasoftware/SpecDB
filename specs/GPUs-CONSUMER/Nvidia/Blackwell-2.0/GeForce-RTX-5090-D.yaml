@@ -1,0 +1,42 @@
+name: GeForce-RTX-5090-D
+humanName: GeForce RTX 5090 D
+isPart: true
+type: Graphics Card
+data:
+  Market:
+    - Consumer
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Blackwell 2.0
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '680'
+  Vulkan Support: '1.4'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2025-01-30'
+  GPU Base Frequency: 2017 MHz
+  GPU Boost Frequency: 2407 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 1.79 TB/s
+  VRAM Capacity: 32 GiB
+  VRAM Type: GDDR7
+  VRAM Bus Width: 512 bit
+  Render Output Unit Count: 176
+  Texture Mapping Unit Count: 680
+  Shader Processor Count: 21760 
+  Die Size: 750 mm²
+  GPU: GB202
+  TDP: 575 W
+  FP32 Compute: 104.8 TFLOPS
+  FP64 Compute: 1.637 TFLOPS (1:64)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x HDMI 2.1b
+    - 3x DisplayPort 2.1b
+  Power Connectors: 1x 16-pin
+  Length: 304 mm
+  Width: 137 mm
+  Height: 48 mm
+  Ray Tracing Cores: 170
+  Tensor Cores: 680

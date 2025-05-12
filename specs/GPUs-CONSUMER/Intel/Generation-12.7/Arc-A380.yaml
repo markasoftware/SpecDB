@@ -1,0 +1,38 @@
+name: Arc-A310
+humanName: Arc A310
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Intel
+  Vendor: Intel
+  Architecture: Generation 12.7
+  Lithography: 6 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '96'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2022-6-14'
+  GPU Base Frequency: 2000 MHz
+  GPU Boost Frequency: 2050 MHz
+  VRAM Frequency: 1937 MHz
+  VRAM Bandwidth: 186.0 GB/s
+  VRAM Capacity: 6 GiB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 96 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 128
+  Shader Processor Count: 256
+  Die Size: 157 mm²
+  GPU: DG2-128
+  GPU Variant: ACM-G11
+  TDP: 75 W
+  FP32 Compute: 4.096 TFLOPS
+  FP64 Compute: 1.024 GFLOPS (1:4)
+  Slot Width: Single-slot
+  Outputs: 4x mini-DisplayPort 2.0
+  Power Connectors: None
+  Ray Tracing Cores: 2
+  Tensor Cores: 96
+  Market:
+    - Consumer

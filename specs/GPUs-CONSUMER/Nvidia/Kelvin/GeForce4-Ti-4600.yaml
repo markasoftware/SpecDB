@@ -1,0 +1,36 @@
+name: GeForce4-Ti-4600
+humanName: GeForce4 Ti 4600
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Kelvin
+  Lithography: 150 nm
+  DirectX Support: '8.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.5'
+  OpenCL Support: 'N/A'
+  Release Date: '2002-02-06'
+  GPU Base Frequency: 300 MHz
+  VRAM Frequency: 324 MHz
+  VRAM Bandwidth: 10.37 GB/s
+  VRAM Capacity: 128 MiB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 0 
+  Die Size: 142 mm²
+  GPU: NV25
+  GPU Variant: Ti 4600
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None
+  Length: 216 mm
+  Pixel Shaders: 4
+  Market:
+    - Consumer

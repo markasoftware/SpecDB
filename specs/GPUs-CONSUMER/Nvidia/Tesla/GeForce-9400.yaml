@@ -1,0 +1,33 @@
+name: GeForce-9400
+humanName: GeForce 9400
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: 'N/A'
+  Release Date: '2007-04-17'
+  GPU Base Frequency: 450 MHz
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 16 
+  Die Size: 144 mm²
+  GPU: C79
+  TDP: 40 W
+  FP32 Compute: 35.20 GFLOPS
+  Slot Width: IGP
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Market:
+    - Consumer

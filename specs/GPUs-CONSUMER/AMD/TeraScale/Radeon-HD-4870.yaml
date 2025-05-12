@@ -1,0 +1,39 @@
+name: Radeon-HD-4870
+humanName: Radeon HD 4870
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2008-06-25'
+  GPU Base Frequency: 750 MHz
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 115.2 GB/s
+  VRAM Capacity: 512 MiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 40
+  Shader Processor Count: 800 
+  Die Size: 256 mm²
+  GPU: RV770
+  GPU Variant: RV770 XT
+  TDP: 150 W
+  FP32 Compute: 1,200 GFLOPS
+  FP64 Compute: 240.0 GFLOPS (1:5)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 2x 6-pin
+  Length: 241 mm
+  Width: 111 mm
+  Height: 40 mm
+  Market:
+    - Consumer

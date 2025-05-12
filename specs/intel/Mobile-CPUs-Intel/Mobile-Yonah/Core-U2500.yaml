@@ -1,0 +1,18 @@
+data:
+  Manufacturer: Intel
+  Architecture: Yonah
+  Market: Mobile
+  Lithography: '65 nm'
+  TDP: '9 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Base Frequency': '1.2 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Die Size': '90 mm'
+  'Release Date': '2006-02-14'
+  Socket: PBGA479
+  'Other Extensions': {  }
+isPart: true
+type: CPU
+humanName: 'Core U2500'
+name: Core-U2500

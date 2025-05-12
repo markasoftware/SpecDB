@@ -1,0 +1,32 @@
+name: Radeon-HD-8280-Mobile-IGP
+humanName: Radeon HD 8280 Mobile IGP
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 2.0
+  Lithography: 28 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2013-09-18'
+  GPU Base Frequency: 450 MHz
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 128 
+  Die Size: 110 mm²
+  GPU: Kalindi
+  TDP: 15 W
+  FP32 Compute: 115.2 GFLOPS
+  FP64 Compute: 7.200 GFLOPS (1:16)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Market:
+    - Mobile

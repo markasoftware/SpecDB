@@ -1,0 +1,36 @@
+name: Quadro-2000D
+humanName: Quadro 2000D
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2011-10-05'
+  GPU Base Frequency: 625 MHz
+  VRAM Frequency: 650 MHz
+  VRAM Bandwidth: 41.60 GB/s
+  VRAM Capacity: 1024 MiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 192 
+  Die Size: 238 mm²
+  GPU: GF106
+  GPU Variant: GF106-875-KA-A1
+  TDP: 62 W
+  FP32 Compute: 480.0 GFLOPS
+  FP64 Compute: 40.00 GFLOPS (1:12)
+  Slot Width: Single-slot
+  Outputs: 2x DVI
+  Power Connectors: None
+  Length: 178 mm
+  Width: 111 mm
+  Market:
+    - Workstation

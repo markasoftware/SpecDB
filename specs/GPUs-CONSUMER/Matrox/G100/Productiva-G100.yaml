@@ -1,0 +1,34 @@
+name: Productiva-G100
+humanName: Productiva G100
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Matrox
+  Vendor: Matrox
+  Architecture: G100
+  Lithography: 350 nm
+  DirectX Support: '3.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: 'None'
+  OpenCL Support: 'None'
+  Release Date: '1998'
+  GPU Base Frequency: 41 MHz
+  VRAM Frequency: 62 MHz
+  VRAM Bandwidth: 496.0 MB/s
+  VRAM Capacity: 2 MiB
+  VRAM Type: SGR
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 1
+  Texture Mapping Unit Count: 1
+  Shader Processor Count: 0 
+  Die Size: unknown
+  GPU: Twister
+  GPU Variant: MGA-G100A-E
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 1x VGA
+  Power Connectors: None
+  Length: 150 mm
+  Pixel Shaders: 1
+  Market:
+    - Consumer

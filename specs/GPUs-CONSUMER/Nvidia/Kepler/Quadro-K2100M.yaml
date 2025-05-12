@@ -1,0 +1,34 @@
+name: Quadro-K2100M
+humanName: Quadro K2100M
+isPart: true
+type: Graphics Card
+data:
+  Market: Workstation
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Kepler
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.2.175'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2013-07-23'
+  GPU Base Frequency: 667 MHz
+  GPU Boost Frequency: 667 MHz
+  VRAM Frequency: 752 MHz
+  VRAM Bandwidth: 48.13 GB/s
+  VRAM Capacity: 2 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 48
+  Shader Processor Count: 576 
+  Die Size: 221 mm²
+  GPU: GK106S
+  GPU Variant: N15P-Q3-A1
+  TDP: 55 W
+  FP32 Compute: 768.4 GFLOPS
+  FP64 Compute: 32.02 GFLOPS (1:24)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

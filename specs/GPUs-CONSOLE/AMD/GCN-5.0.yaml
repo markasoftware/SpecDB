@@ -1,0 +1,19 @@
+name: GCN-5.0-Console
+humanName: GCN 5.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 14 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  Release Date: '2017-06-27'
+  Manufacturer: AMD
+sections:
+  - header: Atari
+    members:
+    - Atari-VCS-400-GPU
+    - Atari-VCS-800-GPU
+  - header: Zhongshan
+    members:
+    - Zhongshan-Subor-Z+-GPU

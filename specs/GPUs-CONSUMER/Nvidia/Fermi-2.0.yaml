@@ -1,0 +1,80 @@
+name: Fermi-2.0 
+humanName: Fermi 2.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  Release Date: '2010-11-09'
+  Manufacturer: Nvidia
+sections:
+  - header: WHOLE RANGE
+    members:
+    - GeForce-410M
+    - GeForce-605-OEM
+    - GeForce-610
+    - GeForce-610M
+    - GeForce-620M
+    - GeForce-705A
+    - GeForce-705M
+    - GeForce-710M
+    - GeForce-720A
+    - GeForce-800A
+    - GeForce-820M
+    - GeForce-510-OEM
+    - GeForce-800M
+    - GeForce-820A
+    - GeForce-GT-520
+    - GeForce-GT-520-OEM
+    - GeForce-GT-520-PCIe-x1
+    - GeForce-GT-520MX
+    - GeForce-GT-545
+    - GeForce-GT-545-OEM
+    - GeForce-GT-550M
+    - GeForce-GT-555M-2-GB
+    - GeForce-GT-555M-3-GB
+    - GeForce-GT-610-OEM
+    - GeForce-GT-610-PCIe-x1
+    - GeForce-GT-620-OEM
+    - GeForce-GT-625M
+    - GeForce-GT-635M
+    - GeForce-GT-640-OEM-Rebrand
+    - GeForce-GT-645-OEM
+    - GeForce-GT-705-OEM
+    - GeForce-GT-710M
+    - GeForce-GT-720A
+    - GeForce-GT-720M
+    - GeForce-GTS-450-Rev.-3
+    - GeForce-GTX-460-SE-v2
+    - GeForce-GTX-460-v2
+    - GeForce-GT-520-PCI
+    - GeForce-GT-610
+    - GeForce-GT-610-PCI
+    - GeForce-GTS-450-Rev.-2
+    - GeForce-GTX-550-Ti
+    - GeForce-GTX-555-OEM
+    - GeForce-GTX-560
+    - GeForce-GTX-560-OEM
+    - GeForce-GTX-560-SE
+    - GeForce-GTX-560-Ti
+    - GeForce-GTX-560-Ti-448
+    - GeForce-GTX-560-Ti-OEM
+    - GeForce-GTX-560M
+    - GeForce-GTX-570
+    - GeForce-GTX-570-Rev.-2
+    - GeForce-GTX-570M
+    - GeForce-GTX-580
+    - GeForce-GTX-580-Rev.-2
+    - GeForce-GTX-580M
+    - GeForce-GTX-590
+    - GeForce-GTX-670M
+    - GeForce-GTX-675M
+    - NVS-310
+    - NVS-315
+    - NVS-4200M
+    - NVS-5200M
+    - Quadro-5010M
+    - Quadro-7000
+    - Quadro-Plex-7000

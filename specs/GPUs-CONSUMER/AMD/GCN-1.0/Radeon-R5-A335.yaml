@@ -1,0 +1,31 @@
+name: Radeon-R5-A335
+humanName: Radeon R5 A335
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2015-10-21'
+  GPU Base Frequency: 1070 MHz
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 14.40 GB/s
+  VRAM Capacity: 2 GiB
+  VRAM Type: DDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 20
+  Shader Processor Count: 320 
+  Die Size: 56 mm²
+  GPU: Exo
+  TDP: unknown
+  FP32 Compute: 684.8 GFLOPS
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Market:
+    - Mobile

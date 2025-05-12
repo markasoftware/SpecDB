@@ -1,0 +1,32 @@
+name: FirePro-W4150M
+humanName: FirePro W4150M
+isPart: true
+type: Graphics Card
+data:
+  Market: Workstation
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: 'Unknown'
+  GPU Base Frequency: 800 MHz
+  GPU Boost Frequency: 850 MHz
+  VRAM Frequency: 1000 MHz
+  VRAM Bandwidth: 64.00 GB/s
+  VRAM Capacity: 1024 MiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 384 
+  Die Size: 77 mm²
+  GPU: Mars
+  TDP: unknown
+  FP32 Compute: 652.8 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

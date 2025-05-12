@@ -1,0 +1,18 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Westmere EP'
+  Market: Server
+  Lithography: '32 nm'
+  TDP: '60 W'
+  'Core Count': 6
+  'Thread Count': 12
+  'Base Frequency': '2 GHz'
+  'Boost Frequency': '2.4 GHz'
+  'L2 Cache (Total)': '12 MiB'
+  'Release Date': '2010-03-16'
+  Socket: FCLGA1366
+  AES: true
+isPart: true
+type: CPU
+humanName: 'Xeon L5638'
+name: Xeon-L5638

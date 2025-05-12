@@ -1,0 +1,33 @@
+name: Radeon-X1900-G5-Mac-Edition
+humanName: Radeon X1900 G5 Mac Edition
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: Ultra-Threaded SE
+  Lithography: 90 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2006-11-06'
+  GPU Base Frequency: 575 MHz
+  VRAM Frequency: 600 MHz
+  VRAM Bandwidth: 38.40 GB/s
+  VRAM Capacity: 256 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 12
+  Texture Mapping Unit Count: 12
+  Shader Processor Count: 0 
+  Die Size: 352 mm²
+  GPU: R580
+  GPU Variant: R580 XL
+  TDP: 75 W
+  Slot Width: Single-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x 6-pin
+  Pixel Shaders: 36

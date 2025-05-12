@@ -1,0 +1,35 @@
+name: Radeon-X1950-GT-AGP
+humanName: Radeon X1950 GT AGP
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: Ultra-Threaded SE
+  Lithography: 80 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2007-02-10'
+  GPU Base Frequency: 500 MHz
+  VRAM Frequency: 600 MHz
+  VRAM Bandwidth: 38.40 GB/s
+  VRAM Capacity: 256 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 12
+  Texture Mapping Unit Count: 12
+  Shader Processor Count: 0 
+  Die Size: 230 mm²
+  GPU: RV570
+  GPU Variant: RV570 XL
+  TDP: 57 W
+  Slot Width: Single-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 2x Molex
+  Pixel Shaders: 36
+  Market:
+    - Consumer

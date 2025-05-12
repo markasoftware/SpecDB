@@ -1,0 +1,32 @@
+name: GeForce-8600-GT-Mac-Edition
+humanName: GeForce 8600 GT Mac Edition
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 80 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2007-04-17'
+  GPU Base Frequency: 600 MHz
+  VRAM Frequency: 750 MHz
+  VRAM Bandwidth: 24.00 GB/s
+  VRAM Capacity: 128 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 32 
+  Die Size: 169 mm²
+  GPU: G84
+  GPU Variant: G84-303-A2
+  TDP: 47 W
+  FP32 Compute: 92.80 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 2x DVI
+  Power Connectors: None
+  Length: 170 mm

@@ -1,0 +1,19 @@
+data:
+  Manufacturer: Intel
+  Architecture: Prescott
+  Market: Desktop
+  Lithography: '90 nm'
+  TDP: '73 W'
+  'Core Count': 1
+  'Thread Count': 1
+  'Base Frequency': '2.26 GHz'
+  'L2 Cache (Total)': '256 KiB'
+  'Die Size': '112 mm'
+  'Release Date': 'Q2 2004'
+  Socket: PPGA478
+  AES: false
+  'Other Extensions': {  }
+isPart: true
+type: CPU
+humanName: 'Pentium 315J'
+name: Pentium-315J

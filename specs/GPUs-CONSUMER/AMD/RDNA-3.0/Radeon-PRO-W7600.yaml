@@ -1,0 +1,38 @@
+name: Radeon-PRO-W7600
+humanName: Radeon PRO W7600
+isPart: true
+type: Graphics Card
+data:
+  Market: Workstation
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: RDNA 3.0
+  Lithography: 6 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.2'
+  Release Date: '2023-08-03'
+  GPU Base Frequency: 1720 MHz
+  GPU Boost Frequency: 2440 MHz
+  VRAM Frequency: 2250 MHz
+  VRAM Bandwidth: 288.0 GB/s
+  VRAM Capacity: 8 GiB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 128
+  Shader Processor Count: 2048 
+  Die Size: 204 mm²
+  GPU: Navi 33
+  GPU Variant: Navi 33 XL
+  Codename: Hotpink Bonefish
+  TDP: 130 W
+  FP32 Compute: 19.99 TFLOPS
+  FP64 Compute: 624.6 GFLOPS (1:32)
+  Slot Width: Single-slot
+  Outputs: 4x DisplayPort 2.1
+  Power Connectors: 1x 6-pin
+  Length: 241 mm
+  Width: 115 mm
+  Ray Tracing Cores: 32

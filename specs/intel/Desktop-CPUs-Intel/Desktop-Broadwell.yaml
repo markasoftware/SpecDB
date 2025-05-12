@@ -1,0 +1,23 @@
+humanName: Broadwell
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-5775R
+      - Core-i7-5775C
+  -
+    header: '4 Threads'
+    members:
+      - Core-i5-5675R
+      - Core-i5-5675C
+      - Core-i5-5575R
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2015-06-02'
+  Sockets:
+    - BGA1364
+    - LGA1150
+name: Desktop-Broadwell

@@ -1,0 +1,37 @@
+name: Radeon-HD-3850
+humanName: Radeon HD 3850
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2007-11-19'
+  GPU Base Frequency: 668 MHz
+  VRAM Frequency: 830 MHz
+  VRAM Bandwidth: 53.12 GB/s
+  VRAM Capacity: 512 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 320 
+  Die Size: 192 mm²
+  GPU: RV670
+  GPU Variant: RV670 PRO
+  TDP: 75 W
+  FP32 Compute: 427.5 GFLOPS
+  FP64 Compute: 85.50 GFLOPS (1:5)
+  Slot Width: Single-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x 6-pin
+  Length: 208 mm
+  Market:
+    - Consumer

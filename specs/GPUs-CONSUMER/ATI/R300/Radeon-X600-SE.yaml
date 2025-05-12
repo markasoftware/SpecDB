@@ -1,0 +1,35 @@
+name: Radeon-X600-SE
+humanName: Radeon X600 SE
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: R300
+  Lithography: 110 nm
+  DirectX Support: '9.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-09-01'
+  GPU Base Frequency: 325 MHz
+  VRAM Frequency: 250 MHz
+  VRAM Bandwidth: 4.000 GB/s
+  VRAM Capacity: 128 MiB
+  VRAM Type: DDR
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 74 mm²
+  GPU: RV370
+  GPU Variant: RV370 X600 SE
+  TDP: 36 W
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x S-Video
+  Power Connectors: None
+  Pixel Shaders: 4
+  Market:
+    - Consumer

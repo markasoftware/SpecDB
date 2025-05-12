@@ -1,0 +1,39 @@
+name: RTX-PRO-1000-Blackwell-Mobile
+humanName: RTX PRO 1000 Blackwell Mobile
+isPart: true
+type: Graphics Card
+data:
+  Market:
+    - Workstation
+    - Mobile
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Blackwell 2.0
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '80'
+  Vulkan Support: '1.4'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: 'Unknown'
+  GPU Base Frequency: 2235 MHz
+  GPU Boost Frequency: 2520 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 448.0 GB/s
+  VRAM Capacity: 8 GiB
+  VRAM Type: GDDR7
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 80
+  Shader Processor Count: 2560 
+  Die Size: unknown
+  GPU: GB207
+  GPU Variant: GB207
+  TDP: 35 W
+  FP32 Compute: 12.90 TFLOPS
+  FP64 Compute: 201.6 GFLOPS (1:64)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Ray Tracing Cores: 20
+  Tensor Cores: 80

@@ -1,0 +1,17 @@
+humanName: 'Cascade Lake'
+sections:
+  -
+    header: '17 - 64 Threads'
+    members:
+      - Core-i9-10980XE
+      - Core-i9-10940X
+      - Core-i9-10920X
+      - Core-i9-10900X
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2019-10-07'
+  Sockets: {  }
+name: Desktop-Cascade-Lake

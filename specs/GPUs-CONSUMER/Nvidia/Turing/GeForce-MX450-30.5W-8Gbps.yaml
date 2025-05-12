@@ -1,0 +1,34 @@
+name: GeForce-MX450-30.5W-8Gbps
+humanName: GeForce MX450 30.5W 8Gbps
+isPart: true
+type: Graphics Card
+data:
+  Market:
+    - Mobile
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Turing
+  Lithography: 12 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2020-08-25'
+  GPU Base Frequency: 1035 MHz
+  GPU Boost Frequency: 1275 MHz
+  VRAM Frequency: 2000 MHz
+  VRAM Bandwidth: 64.00 GB/s
+  VRAM Capacity: 2 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 56
+  Shader Processor Count: 896 
+  Die Size: 200 mm²
+  GPU: TU117S
+  GPU Variant: N18S-G5
+  TDP: 31 W
+  FP32 Compute: 2.285 TFLOPS
+  FP64 Compute: 71.40 GFLOPS (1:32)
+  Outputs: Portable Device Dependent
+  Power Connectors: None

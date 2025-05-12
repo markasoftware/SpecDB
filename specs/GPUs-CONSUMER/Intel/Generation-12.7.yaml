@@ -1,0 +1,38 @@
+name: Generation-12.7 
+humanName: Generation 12.7
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 6 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.3'
+  Release Date: '2022'
+  Manufacturer: Intel
+sections:
+  - header: Desktop
+    members:
+    - Arc-A310
+    - Arc-A380
+    - Arc-A580
+  - header: Pro (Workstation)
+    members:
+    - Arc-Pro-A60M
+    - Arc-Pro-A60
+    - Arc-Pro-A50
+    - Arc-Pro-A40
+    - Arc-Pro-A30M
+  - header: WHOLE RANGE
+    members:
+    - Arc-A350
+    - Arc-A350M
+    - Arc-A370M
+    - Arc-A380M
+    - Arc-A530M
+    - Arc-A550M
+    - Arc-A570M
+    - Arc-A730M
+    - Arc-A750
+    - Arc-A770
+    - Arc-A770M
+    - Arc-A780

@@ -1,0 +1,25 @@
+humanName: Avoton
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Atom-C2750
+      - Atom-C2730
+  -
+    header: '4 Threads'
+    members:
+      - Atom-C2550
+      - Atom-C2530
+  -
+    header: '2 Threads'
+    members:
+      - Atom-C2350
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2013-09-04'
+  Sockets:
+    - BGA1283
+name: Server-Avoton

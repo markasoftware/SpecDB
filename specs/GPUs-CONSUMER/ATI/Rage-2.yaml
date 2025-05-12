@@ -1,0 +1,16 @@
+name: Rage-2 
+humanName: Rage 2
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 500 nm
+  DirectX Support: '5.0'
+  Vulkan Support: 'N/A'
+  Release Date: '1997-04-01'
+  Manufacturer: ATI
+sections:
+  - header: WHOLE RANGE
+    members:
+    - 3D-Rage-IIC-AGP
+    - 3D-Rage-IIC-PCI

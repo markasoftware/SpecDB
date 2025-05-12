@@ -1,0 +1,27 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Apollo Lake'
+  Market: Embedded
+  Lithography: '14 nm'
+  TDP: '6.5 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Max Memory Channels': 4
+  'Max Memory Frequency': '2133 MHz'
+  'Memory Type': 'DDR3L, MT/s;<br/>LPDDR4'
+  'Base Frequency': '1.3 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Release Date': '2016-10-25'
+  Socket: FCBGA1296
+  AES: true
+  'Other Extensions':
+    - x86-64
+  'GPU Base Frequency': '400 MHz'
+  'VRAM Type': 'DDR3L, MT/s;<br/>LPDDR4'
+  'Maximum VRAM Capacity': '2 GiB'
+  'DirectX Support': '0'
+  'OpenGL Support': 'Yes'
+isPart: true
+type: CPU
+humanName: 'Atom E3930'
+name: Atom-E3930

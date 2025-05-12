@@ -1,0 +1,36 @@
+name: GeForce-8800-GT
+humanName: GeForce 8800 GT
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2007-10-29'
+  GPU Base Frequency: 600 MHz
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 57.60 GB/s
+  VRAM Capacity: 512 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 56
+  Shader Processor Count: 112 
+  Die Size: 324 mm²
+  GPU: G92
+  GPU Variant: G92-270-A2
+  TDP: 125 W
+  FP32 Compute: 336.0 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x 6-pin
+  Length: 229 mm
+  Market:
+    - Consumer

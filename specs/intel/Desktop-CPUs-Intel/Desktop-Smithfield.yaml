@@ -1,0 +1,21 @@
+humanName: Smithfield
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Pentium-840
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-830
+      - Pentium-820
+      - Pentium-805
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '90 nm'
+  'Release Date': 'Q1 2005'
+  Sockets:
+    - PLGA775
+name: Desktop-Smithfield

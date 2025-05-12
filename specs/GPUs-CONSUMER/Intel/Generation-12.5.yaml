@@ -1,0 +1,17 @@
+name: Generation-12.5 
+humanName: Generation 12.5
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 7 nm - 10 nm
+  DirectX Support: '12.1'
+  Vulkan Support: 'N/A'
+  Release Date: '2021'
+  Manufacturer: Intel
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Arctic-Sound-M
+    - Arctic-Sound-1T
+    - Arctic-Sound-2T

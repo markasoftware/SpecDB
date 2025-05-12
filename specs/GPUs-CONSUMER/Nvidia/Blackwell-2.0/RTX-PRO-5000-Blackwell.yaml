@@ -1,0 +1,40 @@
+name: RTX-PRO-5000-Blackwell
+humanName: RTX PRO 5000 Blackwell
+isPart: true
+type: Graphics Card
+data:
+  Market:
+    - Workstation
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Blackwell 2.0
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '440'
+  Vulkan Support: '1.4'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2025-03-18'
+  GPU Base Frequency: 1590 MHz
+  GPU Boost Frequency: 2617 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 1.34 TB/s
+  VRAM Capacity: 48 GiB
+  VRAM Type: GDDR7
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 176
+  Texture Mapping Unit Count: 440
+  Shader Processor Count: 14080 
+  Die Size: 750 mm²
+  GPU: GB202
+  TDP: 300 W
+  FP32 Compute: 73.69 TFLOPS
+  FP64 Compute: 1,151 GFLOPS (1:64)
+  Slot Width: Dual-slot
+  Outputs: 4x DisplayPort 2.1b
+  Power Connectors: 1x 16-pin
+  Length: 267 mm
+  Width: 111 mm
+  Height: 40 mm
+  Ray Tracing Cores: 110
+  Tensor Cores: 440

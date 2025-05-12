@@ -1,0 +1,27 @@
+data:
+  Manufacturer: Intel
+  Architecture: Arrandale
+  Market: Mobile
+  Lithography: '32 nm'
+  TDP: '35 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1066 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2.66 GHz'
+  'Boost Frequency': '3.333 GHz'
+  'L2 Cache (Total)': '4 MiB'
+  'Die Size': '81 mm'
+  'Release Date': '2010-01-07'
+  Socket: 'BGA1288, PGA988'
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+  'GPU Base Frequency': '500 MHz'
+  'GPU Boost Frequency': '766 MHz'
+isPart: true
+type: CPU
+humanName: 'Core i7-620M'
+name: Core-i7-620M

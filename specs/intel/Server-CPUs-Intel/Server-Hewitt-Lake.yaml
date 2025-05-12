@@ -1,0 +1,28 @@
+humanName: 'Hewitt Lake'
+sections:
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Xeon-D-1653N
+      - Xeon-D-1649N
+      - Xeon-D-1637
+      - Xeon-D-1633N
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-D-1627
+      - Xeon-D-1623N
+      - Xeon-D-1622
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-D-1602
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2019-04-02'
+  Sockets:
+    - BGA1667
+name: Server-Hewitt-Lake

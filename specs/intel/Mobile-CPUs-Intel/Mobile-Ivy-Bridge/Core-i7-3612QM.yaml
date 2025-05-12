@@ -1,0 +1,27 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Ivy Bridge'
+  Market: Mobile
+  Lithography: '22 nm'
+  TDP: '35 W'
+  'Core Count': 4
+  'Thread Count': 8
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': DDR3/L/
+  'Base Frequency': '2.1 GHz'
+  'Boost Frequency': '3.1 GHz'
+  'L2 Cache (Total)': '6 MiB'
+  'Release Date': '2012-04-29'
+  Socket: FCPGA988
+  AES: true
+  'Other Extensions':
+    - x86-64
+    - x86-64
+  AVX/SSE/MMX: false
+  'GPU Base Frequency': '650 MHz'
+  'GPU Boost Frequency': '1.1 GHz'
+isPart: true
+type: CPU
+humanName: 'Core i7-3612QM'
+name: Core-i7-3612QM

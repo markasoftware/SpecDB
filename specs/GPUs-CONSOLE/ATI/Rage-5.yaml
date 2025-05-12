@@ -1,0 +1,15 @@
+name: Rage-5-Console
+humanName: Rage 5
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 180 nm
+  DirectX Support: '6.0+'
+  Vulkan Support: 'N/A'
+  Release Date: '2000-08-24'
+  Manufacturer: ATI
+sections:
+  - header: WHOLE RANGE
+    members:
+    - GameCube-GPU

@@ -1,0 +1,33 @@
+name: All-In-Wonder-X800-VE
+humanName: All-In-Wonder X800 VE
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: R400
+  Lithography: 130 nm
+  DirectX Support: '9.2'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2005-04-27'
+  GPU Base Frequency: 425 MHz
+  VRAM Frequency: 400 MHz
+  VRAM Bandwidth: 25.60 GB/s
+  VRAM Capacity: 256 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 0 
+  Die Size: 281 mm²
+  GPU: R420
+  GPU Variant: R420 LE
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 1x DVI
+  Power Connectors: None
+  Pixel Shaders: 8
+  Market:
+    - Consumer

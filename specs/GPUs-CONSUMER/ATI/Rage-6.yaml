@@ -1,0 +1,43 @@
+name: Rage-6 
+humanName: Rage 6
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 180 nm
+  DirectX Support: '7.0'
+  Vulkan Support: 'N/A'
+  Release Date: '2000-04-01'
+  Manufacturer: ATI
+sections:
+  - header: WHOLE RANGE
+    members:
+    - All-In-Wonder-Radeon-7200
+    - ES1000
+    - Mobility-Radeon
+    - Mobility-Radeon-7000
+    - Mobility-Radeon-7000-IGP
+    - Mobility-Radeon-P
+    - Radeon-7000
+    - Radeon-7000-Mac-Edition
+    - Radeon-7000-Mac-Edition-PCI
+    - Radeon-7000-PCI
+    - Radeon-7200
+    - Radeon-DDR
+    - Radeon-DDR-MAXX
+    - Radeon-DDR-VIVO
+    - Radeon-DDR-VIVO-OEM
+    - Radeon-DDR-VIVO-SE
+    - Radeon-7200-64-MB
+    - Radeon-IGP-320
+    - Radeon-IGP-320M
+    - Radeon-IGP-330M
+    - Radeon-IGP-340
+    - Radeon-IGP-340M
+    - Radeon-IGP-345M
+    - Radeon-IGP-350M
+    - Radeon-LE
+    - Radeon-SDR
+    - Radeon-SDR-PCI
+    - Radeon-VE-AGP
+    - Radeon-VE-PCI

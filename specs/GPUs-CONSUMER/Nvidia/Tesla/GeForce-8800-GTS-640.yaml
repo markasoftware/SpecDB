@@ -1,0 +1,36 @@
+name: GeForce-8800-GTS-640
+humanName: GeForce 8800 GTS 640
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 90 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1 (1.0)'
+  Release Date: '2006-11-08'
+  GPU Base Frequency: 513 MHz
+  VRAM Frequency: 792 MHz
+  VRAM Bandwidth: 63.36 GB/s
+  VRAM Capacity: 640 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 320 bit
+  Render Output Unit Count: 20
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 96 
+  Die Size: 484 mm²
+  GPU: G80
+  GPU Variant: G80-100-K0-A2
+  TDP: 143 W
+  FP32 Compute: 228.1 GFLOPS
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x 6-pin
+  Length: 267 mm
+  Market:
+    - Consumer

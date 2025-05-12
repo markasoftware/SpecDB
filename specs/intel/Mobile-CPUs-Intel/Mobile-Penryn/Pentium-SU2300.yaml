@@ -1,0 +1,17 @@
+data:
+  Manufacturer: Intel
+  Architecture: Penryn
+  Market: Mobile
+  Lithography: '45 nm'
+  TDP: '10 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Base Frequency': '1.2 GHz'
+  'L2 Cache (Total)': '1024 KiB'
+  'Die Size': '107 mm'
+  'Release Date': '2009-09-06'
+  Socket: BGA956
+isPart: true
+type: CPU
+humanName: 'Pentium SU2300'
+name: Pentium-SU2300

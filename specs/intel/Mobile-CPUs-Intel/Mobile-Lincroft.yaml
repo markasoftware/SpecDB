@@ -1,0 +1,19 @@
+humanName: Lincroft
+sections:
+  -
+    header: '2 Threads'
+    members:
+      - Atom-Z670
+      - Atom-Z650
+      - Atom-Z625
+      - Atom-Z615
+      - Atom-Z600
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': '2011-04-11'
+  Sockets:
+    - TPBGA518
+name: Mobile-Lincroft

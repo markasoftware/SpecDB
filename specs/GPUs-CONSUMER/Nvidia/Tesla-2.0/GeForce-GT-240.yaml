@@ -1,0 +1,36 @@
+name: GeForce-GT-240
+humanName: GeForce GT 240
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla 2.0
+  Lithography: 40 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-11-17'
+  GPU Base Frequency: 550 MHz
+  VRAM Frequency: 850 MHz
+  VRAM Bandwidth: 54.40 GB/s
+  VRAM Capacity: 1024 MiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 96 
+  Die Size: 144 mm²
+  GPU: GT215
+  GPU Variant: GT215-450-A2
+  TDP: 69 W
+  FP32 Compute: 257.3 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI1x VGA
+  Power Connectors: None
+  Length: 168 mm
+  Market:
+    - Consumer

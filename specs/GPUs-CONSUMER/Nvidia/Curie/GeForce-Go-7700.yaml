@@ -1,0 +1,32 @@
+name: GeForce-Go-7700
+humanName: GeForce Go 7700
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Curie
+  Lithography: 80 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2006-08-01'
+  GPU Base Frequency: 450 MHz
+  VRAM Frequency: 500 MHz
+  VRAM Bandwidth: 16.00 GB/s
+  VRAM Capacity: 512 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 12
+  Shader Processor Count: 0 
+  Die Size: 100 mm²
+  GPU: G73B
+  GPU Variant: GF-GO7700-N-B1
+  TDP: unknown
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Pixel Shaders: 12
+  Market:
+    - Mobile

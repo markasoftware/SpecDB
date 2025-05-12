@@ -1,0 +1,13 @@
+name: GPUs-SERVER-INTEL
+humanName: Server GPUs
+type: Generic Container
+isPart: false
+topHeader: 'SELECT SERIES:'
+data:
+  Manufacturer: Intel
+sections:
+  - header: Uncategorised
+    members:
+      - Generation-12.7-server
+      - Generation-12.5-server
+

@@ -1,0 +1,35 @@
+name: GeForce-GT-740M
+humanName: GeForce GT 740M
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Kepler
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.2.175'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2013-04-01'
+  GPU Base Frequency: 810 MHz
+  GPU Boost Frequency: 895 MHz
+  VRAM Frequency: 901 MHz
+  VRAM Bandwidth: 28.83 GB/s
+  VRAM Capacity: 2 GiB
+  VRAM Type: DDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 384 
+  Die Size: 118 mm²
+  GPU: GK107
+  GPU Variant: GT 740M
+  TDP: 45 W
+  FP32 Compute: 687.4 GFLOPS
+  FP64 Compute: 28.64 GFLOPS (1:24)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Market:
+    - Mobile

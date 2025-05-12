@@ -1,0 +1,35 @@
+name: FirePro-W4100
+humanName: FirePro W4100
+isPart: true
+type: Graphics Card
+data:
+  Market: Workstation
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2014-08-13'
+  GPU Base Frequency: 630 MHz
+  VRAM Frequency: 1000 MHz
+  VRAM Bandwidth: 64.00 GB/s
+  VRAM Capacity: 2 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 512 
+  Die Size: 123 mm²
+  GPU: Cape Verde
+  GPU Variant: Cape Verde PRO GL
+  TDP: 50 W
+  FP32 Compute: 645.1 GFLOPS
+  FP64 Compute: 40.32 GFLOPS (1:16)
+  Slot Width: Single-slot
+  Outputs: 4x mini-DisplayPort 1.2
+  Power Connectors: None
+  Length: 171 mm
+  Width: 69 mm

@@ -1,0 +1,37 @@
+name: FireGL-V7600
+humanName: FireGL V7600
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale
+  Lithography: 80 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2007-08-06'
+  GPU Base Frequency: 600 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 51.20 GB/s
+  VRAM Capacity: 512 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 320 
+  Die Size: 420 mm²
+  GPU: R600
+  GPU Variant: R600 GL
+  TDP: 127 W
+  FP32 Compute: 384.0 GFLOPS
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x 8-pin
+  Length: 254 mm
+  Width: 111 mm
+  Market:
+    - Workstation

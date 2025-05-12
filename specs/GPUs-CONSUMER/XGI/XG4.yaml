@@ -1,0 +1,24 @@
+name: XG4 
+humanName: XG4
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 130 nm
+  DirectX Support: '9.0'
+  Vulkan Support: 'N/A'
+  Release Date: '2003-09-15'
+  Manufacturer: XGI
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Volari-8300
+    - Volari-8600-XT
+    - Volari-Duo-V5-Ultra
+    - Volari-Duo-V8-Ultra
+    - Volari-V3
+    - Volari-V3-XT
+    - Volari-V5
+    - Volari-V5-Ultra
+    - Volari-V8
+    - Volari-V8-Ultra

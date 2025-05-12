@@ -1,0 +1,33 @@
+name: Quadro-FX-1800M
+humanName: Quadro FX 1800M
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla 2.0
+  Lithography: 40 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-06-15'
+  GPU Base Frequency: 560 MHz
+  VRAM Frequency: 790 MHz
+  VRAM Bandwidth: 25.28 GB/s
+  VRAM Capacity: 1024 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 72 
+  Die Size: 144 mm²
+  GPU: GT215
+  GPU Variant: N10P-GLM4
+  TDP: 45 W
+  FP32 Compute: 162.0 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Market:
+    - Workstation

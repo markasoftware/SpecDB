@@ -1,0 +1,32 @@
+name: Xeon-Phi-7120P
+humanName: Xeon Phi 7120P
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Intel
+  Vendor: Intel
+  Architecture: Knights
+  Lithography: 22 nm
+  Vulkan Support: 'N/A'
+  OpenGL Support: 'N/A'
+  OpenCL Support: '1.2'
+  Release Date: '2013-06-17'
+  GPU Base Frequency: 1238 MHz
+  GPU Boost Frequency: 1333 MHz
+  VRAM Frequency: 1375 MHz
+  VRAM Bandwidth: 352.0 GB/s
+  VRAM Capacity: 16 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 512 bit
+  Render Output Unit Count: 0
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 976 
+  Die Size: 720 mm²
+  GPU: Knights Corner
+  TDP: 300 W
+  FP32 Compute: 2.602 TFLOPS
+  Slot Width: Dual-slot
+  Outputs: No outputs
+  Length: 248 mm
+  Market:
+    - Consumer

@@ -1,0 +1,24 @@
+name: Wonder 
+humanName: Wonder
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 800 nm
+  DirectX Support: ''
+  Vulkan Support: 'N/A'
+  Release Date: '1986-08-04'
+  Manufacturer: ATI
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Color-Emulation-Card
+    - EGA-Wonder-480
+    - EGA-Wonder-800
+    - EGA-Wonder-800+
+    - Graphics-Solution
+    - Graphics-Solution-Plus
+    - VGA-Improved-Performance
+    - VGA-Wonder
+    - VGA-Wonder+
+    - VGA-Wonder-XL24

@@ -1,0 +1,36 @@
+name: Radeon-HD-6290
+humanName: Radeon HD 6290
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2011-12-04'
+  GPU Base Frequency: 650 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 12.80 GB/s
+  VRAM Capacity: 1024 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 80 
+  Die Size: 59 mm²
+  GPU: Cedar
+  GPU Variant: Cedar LE
+  TDP: 19 W
+  FP32 Compute: 104.0 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 1.3a
+  Power Connectors: None
+  Length: 168 mm
+  Market:
+    - Consumer

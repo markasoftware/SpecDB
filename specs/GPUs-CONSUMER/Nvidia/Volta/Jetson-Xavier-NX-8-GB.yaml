@@ -1,0 +1,37 @@
+name: Jetson-Xavier-NX-8-GB
+humanName: Jetson Xavier NX 8 GB
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Volta
+  Lithography: 12 nm
+  DirectX Support: '12.1'
+  HLSL Shader Model: '48'
+  Vulkan Support: '1.2'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.2'
+  Release Date: '2020-05-14'
+  GPU Base Frequency: 854 MHz
+  GPU Boost Frequency: 1100 MHz
+  VRAM Frequency: 1866 MHz
+  VRAM Bandwidth: 59.71 GB/s
+  VRAM Capacity: 8 GiB
+  VRAM Type: LPDDR4X
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 384 
+  Die Size: 350 mm²
+  GPU: GV10B
+  TDP: 15 W
+  FP32 Compute: 844.8 GFLOPS
+  FP64 Compute: 422.4 GFLOPS (1:2)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Length: 70 mm
+  Width: 45 mm
+  Tensor Cores: 48
+  Market:
+    - Mobile

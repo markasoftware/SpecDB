@@ -1,0 +1,34 @@
+name: Radeon-Pro-570X
+humanName: Radeon Pro 570X
+isPart: true
+type: Graphics Card
+data:
+  Market: Workstation
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 4.0
+  Lithography: 14 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2019-03-18'
+  GPU Base Frequency: 1000 MHz
+  GPU Boost Frequency: 1105 MHz
+  VRAM Frequency: 1695 MHz
+  VRAM Bandwidth: 217.0 GB/s
+  VRAM Capacity: 4 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 112
+  Shader Processor Count: 1792 
+  Die Size: 232 mm²
+  GPU: Ellesmere
+  GPU Variant: Ellesmere PROA
+  TDP: 150 W
+  FP32 Compute: 3.960 TFLOPS
+  FP64 Compute: 247.5 GFLOPS (1:16)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None

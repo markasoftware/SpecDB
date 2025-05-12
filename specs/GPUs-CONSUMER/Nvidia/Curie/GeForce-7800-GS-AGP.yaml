@@ -1,0 +1,35 @@
+name: GeForce-7800-GS-AGP
+humanName: GeForce 7800 GS AGP
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Curie
+  Lithography: 110 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2006-02-02'
+  GPU Base Frequency: 375 MHz
+  VRAM Frequency: 600 MHz
+  VRAM Bandwidth: 38.40 GB/s
+  VRAM Capacity: 256 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 0 
+  Die Size: 333 mm²
+  GPU: G70
+  GPU Variant: GF-7800-GT-A2
+  TDP: 75 W
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: 1x Molex
+  Pixel Shaders: 16
+  Market:
+    - Consumer

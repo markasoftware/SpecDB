@@ -1,0 +1,15 @@
+name: G100 
+humanName: G100
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 350 nm
+  DirectX Support: '3.0'
+  Vulkan Support: 'N/A'
+  Release Date: '1998'
+  Manufacturer: Matrox
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Productiva-G100

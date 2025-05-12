@@ -1,0 +1,36 @@
+name: Rage-4 
+humanName: Rage 4
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 250 nm
+  DirectX Support: '6.0'
+  Vulkan Support: 'N/A'
+  Release Date: '1998-08-01'
+  Manufacturer: ATI
+sections:
+  - header: WHOLE RANGE
+    members:
+    - All-In-Wonder-128
+    - All-In-Wonder-128-PCI
+    - All-In-Wonder-128-PRO
+    - All-In-Wonder-128-PRO-Ultra
+    - Rage-128-GL
+    - Rage-128-GL-PCI
+    - Rage-128-PRO
+    - Rage-128-PRO-Ultra
+    - Rage-128-PRO-Ultra-GL
+    - Rage-128-Ultra
+    - Rage-128-VR-AGP
+    - Rage-128-VR-PCI
+    - Rage-Fury
+    - Rage-Fury-MAXX
+    - Rage-Mobility-M
+    - Rage-Mobility-M1
+    - Rage-Mobility-M3
+    - Rage-Mobility-M4
+    - Rage-Mobility-P
+    - Rage-Mobility-128-AGP-2X
+    - Rage-Mobility-128-AGP-4X
+    - Rage-Mobility-CL

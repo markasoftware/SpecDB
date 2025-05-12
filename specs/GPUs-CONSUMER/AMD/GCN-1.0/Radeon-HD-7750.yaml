@@ -1,0 +1,37 @@
+name: Radeon-HD-7750
+humanName: Radeon HD 7750
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2012-02-15'
+  GPU Base Frequency: 800 MHz
+  VRAM Frequency: 1125 MHz
+  VRAM Bandwidth: 72.00 GB/s
+  VRAM Capacity: 1024 MiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 512 
+  Die Size: 123 mm²
+  GPU: Cape Verde
+  GPU Variant: Cape Verde PRO
+  TDP: 55 W
+  FP32 Compute: 819.2 GFLOPS
+  FP64 Compute: 51.20 GFLOPS (1:16)
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 1.4a1x DisplayPort 1.2
+  Power Connectors: None
+  Length: 168 mm
+  Market:
+    - Consumer

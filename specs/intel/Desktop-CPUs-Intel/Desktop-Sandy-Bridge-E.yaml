@@ -1,0 +1,21 @@
+humanName: 'Sandy Bridge E'
+sections:
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Core-i7-3970X
+      - Core-i7-3960X
+      - Core-i7-3930K
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-3820
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '32 nm'
+  'Release Date': '2011-11-14'
+  Sockets:
+    - LGA2011
+name: Desktop-Sandy-Bridge-E

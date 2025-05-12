@@ -1,0 +1,32 @@
+name: GeForce-320M-Mac-Edition
+humanName: GeForce 320M Mac Edition
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla 2.0
+  Lithography: 40 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: 'N/A'
+  Release Date: '2010-04-01'
+  GPU Base Frequency: 450 MHz
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 48 
+  Die Size: 100 mm²
+  GPU: C89
+  GPU Variant: MCP89UL-A3
+  TDP: 23 W
+  FP32 Compute: 91.20 GFLOPS
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Market:
+    - Mobile

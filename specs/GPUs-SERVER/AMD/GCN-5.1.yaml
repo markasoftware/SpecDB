@@ -1,0 +1,16 @@
+name: GCN-5.1-server
+humanName: GCN 5.1
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 7 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  Release Date: '2018-11-18'
+  Manufacturer: AMD
+sections:
+  - header: Instinct series
+    members:
+    - Radeon-Instinct-MI50
+    - Radeon-Instinct-MI60

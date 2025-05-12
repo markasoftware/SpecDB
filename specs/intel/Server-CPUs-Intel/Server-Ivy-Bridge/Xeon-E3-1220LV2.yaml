@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Ivy Bridge'
+  Market: Server
+  Lithography: '22 nm'
+  TDP: '17 W'
+  'Core Count': 2
+  'Thread Count': 4
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2.3 GHz'
+  'Boost Frequency': '3.5 GHz'
+  'L2 Cache (Total)': '3 MiB'
+  'Release Date': '2012-05-14'
+  Socket: FCLGA1155
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+isPart: true
+type: CPU
+humanName: 'Xeon E3-1220LV2'
+name: Xeon-E3-1220LV2

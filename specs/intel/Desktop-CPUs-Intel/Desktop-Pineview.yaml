@@ -1,0 +1,21 @@
+humanName: Pineview
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Atom-D525
+      - Atom-D510
+  -
+    header: '2 Threads'
+    members:
+      - Atom-D425
+      - Atom-D410
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': 'Q1 2010'
+  Sockets:
+    - BGA559
+name: Desktop-Pineview

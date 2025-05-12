@@ -1,0 +1,20 @@
+humanName: 'Gemini Lake'
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Pentium-J5005
+      - Pentium-J4105
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-J4005
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2017-12-11'
+  Sockets:
+    - BGA1090
+name: Desktop-Gemini-Lake

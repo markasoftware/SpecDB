@@ -1,0 +1,21 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Tunnel Creek'
+  Market: Embedded
+  Lithography: '45 nm'
+  TDP: '3.6 W'
+  'Core Count': 1
+  'Thread Count': 2
+  'Max Memory Channels': 1
+  'Max Memory Frequency': '800 MHz'
+  'Memory Type': DDR2
+  'Base Frequency': '1000 MHz'
+  'L2 Cache (Total)': '512 KiB'
+  'Release Date': 'Q3 2010'
+  Socket: FCBGA676
+  'Other Extensions': {  }
+  'GPU Base Frequency': '320 MHz'
+isPart: true
+type: CPU
+humanName: 'Atom E640'
+name: Atom-E640

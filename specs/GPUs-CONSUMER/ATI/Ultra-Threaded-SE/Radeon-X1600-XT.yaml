@@ -1,0 +1,35 @@
+name: Radeon-X1600-XT
+humanName: Radeon X1600 XT
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: Ultra-Threaded SE
+  Lithography: 90 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2005-10-01'
+  GPU Base Frequency: 590 MHz
+  VRAM Frequency: 690 MHz
+  VRAM Bandwidth: 22.08 GB/s
+  VRAM Capacity: 256 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 150 mm²
+  GPU: RV530
+  GPU Variant: RV530 XT
+  TDP: 42 W
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None
+  Pixel Shaders: 12
+  Market:
+    - Consumer

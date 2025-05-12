@@ -1,0 +1,32 @@
+name: GeForce-9700M-GTS
+humanName: GeForce 9700M GTS
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2008-07-29'
+  GPU Base Frequency: 530 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 51.20 GB/s
+  VRAM Capacity: 512 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 48 
+  Die Size: 240 mm²
+  GPU: G94
+  GPU Variant: NB9E-GS
+  TDP: 60 W
+  FP32 Compute: 127.2 GFLOPS
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Market:
+    - Mobile

@@ -1,0 +1,32 @@
+name: Playstation-3-GPU-28nm
+humanName: Playstation 3 GPU 28nm
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Curie
+  Lithography: 28 nm
+  Vulkan Support: 'N/A'
+  OpenGL Support: 'ES 1.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2013-06-03'
+  GPU Base Frequency: 550 MHz
+  VRAM Frequency: 650 MHz
+  VRAM Bandwidth: 20.80 GB/s
+  VRAM Capacity: 256 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 0 
+  Die Size: 68 mm²
+  GPU: RSX-28nm
+  GPU Variant: RSX-D5305L
+  TDP: 21 W
+  Outputs: 1x HDMI 1.3
+  Length: 290 mm
+  Width: 60 mm
+  Height: 230 mm
+  Market: Console
+  Pixel Shaders: 24

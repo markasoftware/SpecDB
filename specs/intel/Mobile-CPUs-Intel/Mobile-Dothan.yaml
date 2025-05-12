@@ -1,0 +1,44 @@
+humanName: Dothan
+sections:
+  -
+    header: '1 Threads'
+    members:
+      - Pentium-780
+      - Pentium-778
+      - Pentium-773
+      - Pentium-770
+      - Pentium-765
+      - Pentium-760
+      - Pentium-758
+      - Pentium-755
+      - Pentium-753
+      - Pentium-750
+      - Pentium-745A
+      - Pentium-745
+      - Pentium-740
+      - Pentium-738
+      - Pentium-735
+      - Pentium-733
+      - Pentium-730
+      - Pentium-725
+      - Pentium-715
+      - Pentium-390
+      - Pentium-383
+      - Pentium-380
+      - Pentium-373
+      - Pentium-370
+      - Pentium-360
+      - Pentium-353
+      - Pentium-350
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '90 nm'
+  'Release Date': 'Q2 2004'
+  Sockets:
+    - HPBGA478
+    - HPBGA479
+    - PPGA478
+    - PPGA479
+name: Mobile-Dothan

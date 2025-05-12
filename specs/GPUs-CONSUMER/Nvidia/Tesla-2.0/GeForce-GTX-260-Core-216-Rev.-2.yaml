@@ -1,0 +1,37 @@
+name: GeForce-GTX-260-Core-216-Rev.-2
+humanName: GeForce GTX 260 Core 216 Rev. 2
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla 2.0
+  Lithography: 55 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2008-11-27'
+  GPU Base Frequency: 576 MHz
+  VRAM Frequency: 999 MHz
+  VRAM Bandwidth: 111.9 GB/s
+  VRAM Capacity: 896 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 448 bit
+  Render Output Unit Count: 28
+  Texture Mapping Unit Count: 72
+  Shader Processor Count: 216 
+  Die Size: 470 mm²
+  GPU: GT200B
+  GPU Variant: G200-103-B2
+  TDP: 171 W
+  FP32 Compute: 536.5 GFLOPS
+  FP64 Compute: 67.07 GFLOPS (1:8)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 2x 6-pin
+  Length: 267 mm
+  Market:
+    - Consumer

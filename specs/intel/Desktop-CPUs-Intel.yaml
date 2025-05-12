@@ -1,0 +1,53 @@
+humanName: 'Desktop CPUs (Intel)'
+sections:
+  -
+    header: '2015 - 2019'
+    members:
+      - Desktop-Gemini-Lake-Refresh
+      - Desktop-Cascade-Lake
+      - Desktop-Gemini-Lake
+      - Desktop-Coffee-Lake
+      - Desktop-Kaby-Lake
+      - Desktop-Apollo-Lake
+      - Desktop-Broadwell-E
+      - Desktop-Braswell
+      - Desktop-Skylake
+      - Desktop-Broadwell
+  -
+    header: '2010 - 2014'
+    members:
+      - Desktop-Haswell-E
+      - Desktop-Devils-Canyon
+      - Desktop-Bay-Trail
+      - Desktop-Ivy-Bridge-E
+      - Desktop-Crystal-Well
+      - Desktop-Haswell
+      - Desktop-Ivy-Bridge
+      - Desktop-Sandy-Bridge-E
+      - Desktop-Cedarview
+      - Desktop-Sandy-Bridge
+      - Desktop-Gulftown
+      - Desktop-Clarkdale
+      - Desktop-Pineview
+  -
+    header: '2005 - 2009'
+    members:
+      - Desktop-Lynnfield
+      - Desktop-Bloomfield
+      - Desktop-Diamondville
+      - Desktop-Wolfdale
+      - Desktop-Yorkfield
+      - Desktop-Kentsfield
+      - Desktop-Conroe
+      - Desktop-Cedarmill
+      - Desktop-Presler
+      - Desktop-Smithfield
+  -
+    header: '2000 - 2004'
+    members:
+      - Desktop-Prescott
+type: 'Generic Container'
+topHeader: 'SELECT ARCHITECTURE:'
+data:
+  Manufacturer: Intel
+name: Desktop-CPUs-Intel

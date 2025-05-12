@@ -1,0 +1,27 @@
+humanName: 'Ice Lake'
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-1065G7
+      - Core-i7-1060G7
+      - Core-i5-1035G7
+      - Core-i5-1035G4
+      - Core-i5-1035G1
+      - Core-i5-1030G7
+      - Core-i5-1030G4
+  -
+    header: '4 Threads'
+    members:
+      - Core-i3-1005G1
+      - Core-i3-1000G4
+      - Core-i3-1000G1
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '10 nm'
+  'Release Date': '2019-08-01'
+  Sockets:
+    - BGA1526
+name: Mobile-Ice-Lake
