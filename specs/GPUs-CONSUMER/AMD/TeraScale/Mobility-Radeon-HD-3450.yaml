@@ -24,7 +24,6 @@ data:
   Die Size: 67 mm²
   GPU: M82
   GPU Variant: M82-SCE XT
-  TDP: unknown
   FP32 Compute: 40.00 GFLOPS
   Slot Width: MXM Module
   Outputs: Portable Device Dependent

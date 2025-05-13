@@ -23,7 +23,6 @@ data:
   Shader Processor Count: 0 
   Die Size: 110 mm²
   GPU: NV44B
-  TDP: unknown
   Slot Width: Single-slot
   Outputs: 
     - 1x DVI

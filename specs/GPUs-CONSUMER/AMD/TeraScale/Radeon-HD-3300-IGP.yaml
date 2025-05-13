@@ -24,7 +24,6 @@ data:
   Die Size: 85 mm²
   GPU: RS780
   GPU Variant: RS780D
-  TDP: unknown
   FP32 Compute: 40.00 GFLOPS
   Slot Width: IGP
   Outputs: Motherboard Dependent

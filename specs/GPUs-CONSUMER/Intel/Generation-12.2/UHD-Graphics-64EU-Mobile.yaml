@@ -22,7 +22,6 @@ data:
   Render Output Unit Count: 16
   Texture Mapping Unit Count: 32
   Shader Processor Count: 512 
-  Die Size: unknown
   GPU: Raptor Lake GT1
   TDP: 15 W
   FP32 Compute: 1,280 GFLOPS

@@ -22,7 +22,6 @@ data:
   Render Output Unit Count: 9
   Texture Mapping Unit Count: 72
   Shader Processor Count: 576 
-  Die Size: unknown
   GPU: Skylake GT4e
   TDP: 15 W
   FP32 Compute: 1,152 GFLOPS

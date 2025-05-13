@@ -24,7 +24,6 @@ data:
   Die Size: 125 mm²
   GPU: Meso
   GPU Variant: Meso XT
-  TDP: unknown
   FP32 Compute: 706.6 GFLOPS
   Outputs: Portable Device Dependent
   Market:

@@ -25,7 +25,6 @@ data:
   Die Size: 94 mm²
   GPU: Ivy Bridge GT1
   GPU Variant: Ivy Bridge-H-2
-  TDP: unknown
   FP32 Compute: 100.8 GFLOPS
   FP64 Compute: 25.20 GFLOPS (1:4)
   Slot Width: IGP

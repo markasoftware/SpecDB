@@ -23,7 +23,6 @@ data:
   Render Output Unit Count: 24
   Texture Mapping Unit Count: 528
   Shader Processor Count: 16896 
-  Die Size: unknown
   GPU: GB100
   TDP: 1000 W
   FP32 Compute: 62.08 TFLOPS

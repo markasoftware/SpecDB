@@ -24,7 +24,6 @@ data:
   Die Size: 67 mm²
   GPU: RS880
   GPU Variant: RS880M
-  TDP: unknown
   FP32 Compute: 32.00 GFLOPS
   Slot Width: IGP
   Outputs: Portable Device Dependent

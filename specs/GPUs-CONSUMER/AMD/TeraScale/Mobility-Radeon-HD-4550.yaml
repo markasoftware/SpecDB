@@ -23,7 +23,6 @@ data:
   Shader Processor Count: 80 
   Die Size: 73 mm²
   GPU: M93
-  TDP: unknown
   FP32 Compute: 88.00 GFLOPS
   Slot Width: MXM Module
   Outputs: Portable Device Dependent

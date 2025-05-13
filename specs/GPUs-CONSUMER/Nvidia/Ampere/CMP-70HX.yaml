@@ -26,7 +26,6 @@ data:
   Die Size: 392 mm²
   GPU: GA104
   GPU Variant: GA104-100-A1
-  TDP: unknown
   FP32 Compute: 17.14 TFLOPS
   FP64 Compute: 267.8 GFLOPS (1:64)
   Slot Width: Dual-slot

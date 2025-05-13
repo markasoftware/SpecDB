@@ -24,7 +24,6 @@ data:
   Shader Processor Count: 1024 
   Die Size: 398 mm²
   GPU: GM204
-  TDP: unknown
   FP32 Compute: 2.355 TFLOPS
   FP64 Compute: 73.60 GFLOPS (1:32)
   Slot Width: MXM Module

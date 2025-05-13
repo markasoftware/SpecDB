@@ -12,7 +12,6 @@ data:
   Vulkan Support: '1.2.170'
   OpenGL Support: '4.6'
   OpenCL Support: '2.1 (1.2)'
-  Release Date: 'Unknown'
   GPU Base Frequency: 800 MHz
   GPU Boost Frequency: 850 MHz
   VRAM Frequency: 1000 MHz
@@ -25,7 +24,6 @@ data:
   Shader Processor Count: 384 
   Die Size: 77 mm²
   GPU: Mars
-  TDP: unknown
   FP32 Compute: 652.8 GFLOPS
   Slot Width: MXM Module
   Outputs: Portable Device Dependent

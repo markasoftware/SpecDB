@@ -28,7 +28,6 @@ data:
   Shader Processor Count: 2048 
   Die Size: 200 mm²
   GPU: GA107S
-  TDP: unknown
   FP32 Compute: 6.296 TFLOPS
   FP64 Compute: 98.37 GFLOPS (1:64)
   Slot Width: IGP

@@ -22,7 +22,6 @@ data:
   Render Output Unit Count: 4
   Texture Mapping Unit Count: 40
   Shader Processor Count: 320 
-  Die Size: unknown
   GPU: Haswell GT3e
   TDP: 30 W
   FP32 Compute: 768.0 GFLOPS

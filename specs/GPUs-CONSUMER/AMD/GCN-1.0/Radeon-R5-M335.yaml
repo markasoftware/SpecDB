@@ -24,7 +24,6 @@ data:
   Die Size: 56 mm²
   GPU: Exo
   GPU Variant: Exo S3 PRO
-  TDP: unknown
   FP32 Compute: 659.2 GFLOPS
   FP64 Compute: 41.20 GFLOPS (1:16)
   Outputs: Portable Device Dependent

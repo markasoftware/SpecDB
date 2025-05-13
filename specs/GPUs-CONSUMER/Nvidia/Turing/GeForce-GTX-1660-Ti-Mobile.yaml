@@ -41,7 +41,6 @@ data:
   Shader Processor Count: 1536 
   Die Size: 284 mm²
   GPU: TU116
-  TDP: unknown
   FP32 Compute: 4.884 TFLOPS
   FP64 Compute: 152.6 GFLOPS (1:32)
   Slot Width: MXM Module

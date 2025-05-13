@@ -21,7 +21,6 @@ data:
   Render Output Unit Count: 1
   Texture Mapping Unit Count: 10
   Shader Processor Count: 80 
-  Die Size: unknown
   GPU: Cantiga
   TDP: 13 W
   FP32 Compute: 85.28 GFLOPS

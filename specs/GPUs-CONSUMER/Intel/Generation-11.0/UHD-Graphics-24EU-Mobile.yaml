@@ -22,7 +22,6 @@ data:
   Render Output Unit Count: 6
   Texture Mapping Unit Count: 12
   Shader Processor Count: 192 
-  Die Size: unknown
   GPU: Jasper Lake GT1
   TDP: 10 W
   FP32 Compute: 307.2 GFLOPS

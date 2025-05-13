@@ -24,7 +24,6 @@ data:
   Die Size: 420 mm²
   GPU: R600
   GPU Variant: R600 V8650
-  TDP: unknown
   FP32 Compute: 440.3 GFLOPS
   Slot Width: Dual-slot
   Outputs: 

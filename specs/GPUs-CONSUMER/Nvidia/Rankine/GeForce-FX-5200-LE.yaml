@@ -26,7 +26,6 @@ data:
   GPU: NV34
   FP32 Compute: 15 GFLOPS
   GPU Variant: NV34 5200
-  TDP: unknown
   Slot Width: Single-slot
   Outputs: 
     - 1x DVI

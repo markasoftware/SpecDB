@@ -25,7 +25,6 @@ data:
   Die Size: 207 mm²
   FP32 Compute: 22.7 GFLOPS
   GPU: NV35
-  TDP: unknown
   Slot Width: Single-slot
   Outputs: 
     - 1x DVI

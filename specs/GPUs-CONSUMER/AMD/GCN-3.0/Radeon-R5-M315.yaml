@@ -24,7 +24,6 @@ data:
   Die Size: 125 mm²
   GPU: Meso
   GPU Variant: Meso LE
-  TDP: unknown
   FP32 Compute: 745.0 GFLOPS
   FP64 Compute: 46.56 GFLOPS (1:16)
   Outputs: Portable Device Dependent

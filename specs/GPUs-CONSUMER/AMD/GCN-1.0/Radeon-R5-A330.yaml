@@ -23,7 +23,6 @@ data:
   Shader Processor Count: 320 
   Die Size: 56 mm²
   GPU: Exo
-  TDP: unknown
   FP32 Compute: 659.2 GFLOPS
   Outputs: Portable Device Dependent
   Power Connectors: None

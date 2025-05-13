@@ -24,7 +24,6 @@ data:
   Die Size: 135 mm²
   GPU: M86
   GPU Variant: M86-M GL
-  TDP: unknown
   FP32 Compute: 144.0 GFLOPS
   Outputs: Portable Device Dependent
   Market:

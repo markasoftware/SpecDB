@@ -21,7 +21,6 @@ data:
   Render Output Unit Count: 16
   Texture Mapping Unit Count: 16
   Shader Processor Count: 256 
-  Die Size: unknown
   GPU: GP10B
   GPU Variant: Tegra X2
   TDP: 15 W

@@ -25,7 +25,6 @@ data:
   Die Size: 398 mm²
   GPU: GM204
   GPU Variant: N16E-GXX-A1
-  TDP: unknown
   FP32 Compute: 4.669 TFLOPS
   FP64 Compute: 145.9 GFLOPS (1:32)
   Slot Width: MXM Module

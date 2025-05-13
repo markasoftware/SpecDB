@@ -23,7 +23,6 @@ data:
   Shader Processor Count: 8 
   Die Size: 86 mm²
   GPU: G98S
-  TDP: unknown
   FP32 Compute: 22.40 GFLOPS
   Slot Width: Single-slot
   Outputs: 

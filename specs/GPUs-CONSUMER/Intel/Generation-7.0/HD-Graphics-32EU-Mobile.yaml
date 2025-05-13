@@ -22,7 +22,6 @@ data:
   Render Output Unit Count: 1
   Texture Mapping Unit Count: 4
   Shader Processor Count: 32 
-  Die Size: unknown
   GPU: Bay Trail GT1
   TDP: 4 W
   FP32 Compute: 41.34 GFLOPS

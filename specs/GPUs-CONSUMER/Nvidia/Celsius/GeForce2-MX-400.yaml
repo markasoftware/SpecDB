@@ -24,7 +24,6 @@ data:
   Die Size: 64 mm²
   GPU: NV11B
   GPU Variant: MX400
-  TDP: unknown
   Slot Width: Single-slot
   Outputs: 
     - 1x DVI

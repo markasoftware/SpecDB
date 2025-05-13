@@ -24,7 +24,6 @@ data:
   Die Size: 135 mm²
   GPU: M86
   GPU Variant: M86-ME
-  TDP: unknown
   FP32 Compute: 120.0 GFLOPS
   Slot Width: MXM Module
   Outputs: Portable Device Dependent

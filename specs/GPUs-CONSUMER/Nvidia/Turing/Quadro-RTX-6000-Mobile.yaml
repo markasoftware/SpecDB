@@ -26,7 +26,6 @@ data:
   Shader Processor Count: 4608 
   Die Size: 754 mm²
   GPU: TU102
-  TDP: unknown
   FP32 Compute: 13.41 TFLOPS
   FP64 Compute: 419.0 GFLOPS (1:32)
   Slot Width: IGP

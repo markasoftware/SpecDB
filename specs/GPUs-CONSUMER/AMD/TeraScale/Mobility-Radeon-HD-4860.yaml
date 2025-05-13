@@ -24,7 +24,6 @@ data:
   Die Size: 137 mm²
   GPU: M97
   GPU Variant: M97 M2 XT
-  TDP: unknown
   FP32 Compute: 832.0 GFLOPS
   FP64 Compute: 166.4 GFLOPS (1:5)
   Slot Width: MXM Module

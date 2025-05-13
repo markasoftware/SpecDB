@@ -25,7 +25,6 @@ data:
   Die Size: 56 mm²
   GPU: Jet
   GPU Variant: Jet XT
-  TDP: unknown
   FP32 Compute: 791.0 GFLOPS
   FP64 Compute: 49.44 GFLOPS (1:16)
   Slot Width: IGP

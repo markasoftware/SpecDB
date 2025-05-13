@@ -24,7 +24,6 @@ data:
   Die Size: 67 mm²
   GPU: Seymour
   GPU Variant: Seymour PRO S3
-  TDP: unknown
   FP32 Compute: 192.0 GFLOPS
   Outputs: Portable Device Dependent
   Market:

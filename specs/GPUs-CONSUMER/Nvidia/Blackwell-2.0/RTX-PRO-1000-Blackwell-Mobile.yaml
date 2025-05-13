@@ -15,7 +15,6 @@ data:
   Vulkan Support: '1.4'
   OpenGL Support: '4.6'
   OpenCL Support: '3.0'
-  Release Date: 'Unknown'
   GPU Base Frequency: 2235 MHz
   GPU Boost Frequency: 2520 MHz
   VRAM Frequency: 1750 MHz
@@ -26,7 +25,6 @@ data:
   Render Output Unit Count: 32
   Texture Mapping Unit Count: 80
   Shader Processor Count: 2560 
-  Die Size: unknown
   GPU: GB207
   GPU Variant: GB207
   TDP: 35 W

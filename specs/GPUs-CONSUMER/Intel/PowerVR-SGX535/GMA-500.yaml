@@ -21,9 +21,7 @@ data:
   Render Output Unit Count: 1
   Texture Mapping Unit Count: 4
   Shader Processor Count: 32 
-  Die Size: unknown
   GPU: Poulsbo
-  TDP: unknown
   FP32 Compute: 12.80 GFLOPS
   Slot Width: IGP
   Outputs: Portable Device Dependent

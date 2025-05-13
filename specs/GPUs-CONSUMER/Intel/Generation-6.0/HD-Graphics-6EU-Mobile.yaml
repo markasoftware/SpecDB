@@ -24,7 +24,6 @@ data:
   Shader Processor Count: 48 
   Die Size: 131 mm²
   GPU: Sandy Bridge GT1
-  TDP: unknown
   FP32 Compute: 76.80 GFLOPS
   Slot Width: IGP
   Outputs: Portable Device Dependent

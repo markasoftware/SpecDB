@@ -23,7 +23,6 @@ data:
   Shader Processor Count: 0 
   Die Size: 98 mm²
   GPU: RV280
-  TDP: unknown
   Slot Width: Single-slot
   Outputs: 
     - 1x DVI

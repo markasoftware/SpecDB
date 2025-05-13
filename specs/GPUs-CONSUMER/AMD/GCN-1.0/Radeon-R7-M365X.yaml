@@ -24,7 +24,6 @@ data:
   Die Size: 77 mm²
   GPU: Litho
   GPU Variant: Litho XT
-  TDP: unknown
   FP32 Compute: 633.6 GFLOPS
   FP64 Compute: 39.60 GFLOPS (1:16)
   Outputs: Portable Device Dependent

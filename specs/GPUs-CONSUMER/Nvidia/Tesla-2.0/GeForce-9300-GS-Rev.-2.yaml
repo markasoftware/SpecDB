@@ -24,7 +24,6 @@ data:
   Die Size: 57 mm²
   GPU: GT218S
   GPU Variant: GT218-670-B1
-  TDP: unknown
   FP32 Compute: 44.86 GFLOPS
   Slot Width: Single-slot
   Outputs: 

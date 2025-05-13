@@ -24,7 +24,6 @@ data:
   Die Size: 123 mm²
   GPU: Venus
   GPU Variant: Venus XTX
-  TDP: unknown
   FP32 Compute: 1,299 GFLOPS
   Outputs: Portable Device Dependent
   Market:

@@ -23,7 +23,6 @@ data:
   Render Output Unit Count: 4
   Texture Mapping Unit Count: 8
   Shader Processor Count: 192 
-  Die Size: unknown
   GPU: GK20A
   GPU Variant: CD575M-A1
   TDP: 8 W

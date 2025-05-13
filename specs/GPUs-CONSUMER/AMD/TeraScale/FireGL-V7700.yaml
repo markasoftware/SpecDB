@@ -24,7 +24,6 @@ data:
   Die Size: 192 mm²
   GPU: RV670
   GPU Variant: RV670 GL
-  TDP: unknown
   FP32 Compute: 497.3 GFLOPS
   FP64 Compute: 99.46 GFLOPS (1:5)
   Slot Width: Dual-slot

@@ -22,7 +22,6 @@ data:
   Render Output Unit Count: 8
   Texture Mapping Unit Count: 16
   Shader Processor Count: 256 
-  Die Size: unknown
   GPU: Rocket Lake GT1
   TDP: 15 W
   FP32 Compute: 665.6 GFLOPS

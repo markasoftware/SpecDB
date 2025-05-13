@@ -24,7 +24,6 @@ data:
   Die Size: 65 mm²
   GPU: NV18C
   GPU Variant: MX4000
-  TDP: unknown
   Slot Width: Single-slot
   Outputs: 
     - 1x DVI

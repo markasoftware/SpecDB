@@ -24,7 +24,6 @@ data:
   Die Size: 256 mm²
   GPU: M98
   GPU Variant: M98 L2
-  TDP: unknown
   FP32 Compute: 804.8 GFLOPS
   FP64 Compute: 161.0 GFLOPS (1:5)
   Outputs: Portable Device Dependent

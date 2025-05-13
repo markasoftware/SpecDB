@@ -24,7 +24,6 @@ data:
   Die Size: 65 mm²
   GPU: NV17
   GPU Variant: MX440-SE
-  TDP: unknown
   Slot Width: Single-slot
   Outputs:
     - 1x VGA
