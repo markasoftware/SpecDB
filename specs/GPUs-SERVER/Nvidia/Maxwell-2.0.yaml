@@ -1,0 +1,27 @@
+name: Maxwell-2.0-server
+humanName: Maxwell 2.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 28 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  Release Date: '2014-09-19'
+  Manufacturer: Nvidia
+sections:
+  - header: GRID
+    members:
+    - GRID-M6-8Q
+    - GRID-M60-1Q
+    - GRID-M60-2Q
+    - GRID-M60-4A
+    - GRID-M60-8Q
+  - header: Tesla
+    members:
+      - Tesla-M4
+      - Tesla-M6-Mobile
+      - Tesla-M6-X2-Mobile
+      - Tesla-M40
+      - Tesla-M40-24-GB
+      - Tesla-M60

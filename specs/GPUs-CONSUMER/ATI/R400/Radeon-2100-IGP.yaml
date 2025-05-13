@@ -1,0 +1,32 @@
+name: Radeon-2100-IGP
+humanName: Radeon 2100 IGP
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: R400
+  Lithography: 55 nm
+  DirectX Support: '9.2'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2008-03-04'
+  GPU Base Frequency: 400 MHz
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 73 mm²
+  GPU: RS740
+  GPU Variant: RS740
+  TDP: unknown
+  Slot Width: IGP
+  Outputs: Motherboard Dependent
+  Pixel Shaders: 4
+  Market:
+    - Consumer

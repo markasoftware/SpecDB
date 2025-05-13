@@ -1,0 +1,18 @@
+name: IBM 
+humanName: IBM
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 180-250 nm
+  DirectX Support: '6.0'
+  Vulkan Support: 'N/A'
+  Release Date: '1999-03-01'
+  Manufacturer: ATI
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Fire-GL2
+    - Fire-GL3
+    - Fire-GL4
+    - Fire-GL1

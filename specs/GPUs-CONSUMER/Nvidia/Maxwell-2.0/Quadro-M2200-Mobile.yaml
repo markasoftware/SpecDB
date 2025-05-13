@@ -1,0 +1,33 @@
+name: Quadro-M2200-Mobile
+humanName: Quadro M2200 Mobile
+isPart: true
+type: Graphics Card
+data:
+  Market: Workstation
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Maxwell 2.0
+  Lithography: 28 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2017-01-11'
+  GPU Base Frequency: 695 MHz
+  GPU Boost Frequency: 1036 MHz
+  VRAM Frequency: 1377 MHz
+  VRAM Bandwidth: 88.13 GB/s
+  VRAM Capacity: 4 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 1024 
+  Die Size: 228 mm²
+  GPU: GM206
+  TDP: 55 W
+  FP32 Compute: 2.122 TFLOPS
+  FP64 Compute: 66.30 GFLOPS (1:32)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

@@ -1,0 +1,15 @@
+name: Blackwell-2.0-server
+humanName: Blackwell 2.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.4'
+  Release Date: '2025'
+  Manufacturer: Nvidia
+sections:
+  - header: Data center
+    members:
+    - RTX-PRO-6000-Blackwell-Server

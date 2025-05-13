@@ -1,0 +1,35 @@
+name: Radeon-X800-SE
+humanName: Radeon X800 SE
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: R400
+  Lithography: 130 nm
+  DirectX Support: '9.2'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-10-04'
+  GPU Base Frequency: 425 MHz
+  VRAM Frequency: 350 MHz
+  VRAM Bandwidth: 22.40 GB/s
+  VRAM Capacity: 128 MiB
+  VRAM Type: DDR
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 0 
+  Die Size: 289 mm²
+  GPU: R423
+  GPU Variant: R423 SE
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None
+  Pixel Shaders: 8
+  Market:
+    - Consumer

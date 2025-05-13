@@ -1,0 +1,33 @@
+name: Radeon-R5-M240-Rebrand
+humanName: Radeon R5 M240 Rebrand
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2014-01-10'
+  GPU Base Frequency: 650 MHz
+  GPU Boost Frequency: 700 MHz
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 14.40 GB/s
+  VRAM Capacity: 1024 MiB
+  VRAM Type: DDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 384 
+  Die Size: 77 mm²
+  GPU: Mars
+  GPU Variant: Mars M2 PRO
+  TDP: unknown
+  FP32 Compute: 537.6 GFLOPS
+  FP64 Compute: 33.60 GFLOPS (1:16)
+  Outputs: Portable Device Dependent
+  Market:
+    - Mobile

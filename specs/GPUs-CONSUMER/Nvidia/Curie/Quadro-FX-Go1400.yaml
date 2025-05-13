@@ -1,0 +1,32 @@
+name: Quadro-FX-Go1400
+humanName: Quadro FX Go1400
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Curie
+  Lithography: 130 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2005-02-25'
+  GPU Base Frequency: 275 MHz
+  VRAM Frequency: 295 MHz
+  VRAM Bandwidth: 18.88 GB/s
+  VRAM Capacity: 256 MiB
+  VRAM Type: DDR
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 0 
+  Die Size: 225 mm²
+  GPU: NV41
+  TDP: unknown
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Pixel Shaders: 8
+  Market:
+    - Workstation

@@ -1,0 +1,20 @@
+name: Maxwell-server
+humanName: Maxwell
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.3'
+  Release Date: '2014-01-13'
+  Manufacturer: Nvidia
+sections:
+  - header: GRID
+    members:
+    - GRID-M3-3020
+    - GRID-M10-8Q
+    - GRID-M40
+  - header: Tesla
+    members:
+    - Tesla-M10

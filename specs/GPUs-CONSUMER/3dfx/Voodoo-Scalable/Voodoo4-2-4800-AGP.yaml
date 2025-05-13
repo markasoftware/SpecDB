@@ -1,0 +1,33 @@
+name: Voodoo4-2-4800-AGP
+humanName: Voodoo4-2 4800 AGP
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: 3dfx
+  Vendor: 3dfx
+  Architecture: Voodoo Scalable
+  Lithography: 180 nm
+  DirectX Support: '6.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.1'
+  OpenCL Support: 'N/A'
+  Release Date: 'Never Released'
+  GPU Base Frequency: 166 MHz
+  VRAM Frequency: 166 MHz
+  VRAM Bandwidth: 2.656 GB/s
+  VRAM Capacity: 32 MiB
+  VRAM Type: SDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 2
+  Texture Mapping Unit Count: 2
+  Shader Processor Count: 0 
+  Die Size: 112 mm²
+  GPU: VSA-101
+  GPU Variant: Napalm 2
+  TDP: 15 W
+  Slot Width: Single-slot
+  Outputs: 1x VGA
+  Power Connectors: None
+  Pixel Shaders: 2
+  Market:
+    - Consumer

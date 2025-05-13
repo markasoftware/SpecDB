@@ -1,0 +1,34 @@
+name: Radeon-Instinct-MI300X
+humanName: Radeon Instinct MI300X
+isPart: true
+type: Graphics Card
+data:
+  Market: Data center
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: CDNA 3.0
+  Lithography: 5 nm
+  HLSL Shader Model: '1216'
+  Vulkan Support: 'N/A'
+  OpenGL Support: 'N/A'
+  OpenCL Support: '3.0'
+  Release Date: '2023-12-06'
+  GPU Base Frequency: 1000 MHz
+  GPU Boost Frequency: 2100 MHz
+  VRAM Frequency: 2525 MHz
+  VRAM Bandwidth: 5,171 GB/s
+  VRAM Capacity: 192 GiB
+  VRAM Type: HBM3
+  VRAM Bus Width: 8192 bit
+  Render Output Unit Count: 0
+  Texture Mapping Unit Count: 1216
+  Shader Processor Count: 19456 
+  Die Size: 1017 mm²
+  GPU: Aqua Vanjaram
+  TDP: 750 W
+  FP32 Compute: 81.72 TFLOPS
+  FP64 Compute: 81.72 TFLOPS (1:1)
+  Slot Width: OAM Module
+  Outputs: No outputs
+  Power Connectors: None
+  Tensor Cores: 1216

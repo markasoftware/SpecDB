@@ -1,0 +1,35 @@
+name: P102-101
+humanName: P102-101
+isPart: true
+type: Graphics Card
+data:
+  Market: Crypto
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Pascal
+  Lithography: 16 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2018'
+  GPU Base Frequency: 1557 MHz
+  GPU Boost Frequency: 1670 MHz
+  VRAM Frequency: 2002 MHz
+  VRAM Bandwidth: 320.3 GB/s
+  VRAM Capacity: 10 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 320 bit
+  Render Output Unit Count: 80
+  Texture Mapping Unit Count: 200
+  Shader Processor Count: 3200 
+  Die Size: 471 mm²
+  GPU: GP102
+  GPU Variant: GP102-101-A1
+  TDP: 250 W
+  FP32 Compute: 10.69 TFLOPS
+  FP64 Compute: 334.0 GFLOPS (1:32)
+  Slot Width: Dual-slot
+  Outputs: No outputs
+  Power Connectors: 2x 8-pin
+  Length: 267 mm

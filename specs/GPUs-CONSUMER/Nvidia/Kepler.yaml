@@ -1,0 +1,108 @@
+name: Kepler 
+humanName: Kepler
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.2.175'
+  Release Date: '2012-03-22'
+  Manufacturer: Nvidia
+sections:
+  - header: WHOLE RANGE
+    members:
+    - GeForce-810M
+    - GeForce-GT-630-OEM
+    - GeForce-GT-640-OEM
+    - GeForce-GT-640M
+    - GeForce-GT-645M
+    - GeForce-GT-650M
+    - GeForce-GT-650M-Mac-Edition
+    - GeForce-GT-730M
+    - GeForce-GT-740
+    - GeForce-GT-740-OEM
+    - GeForce-GT-740M
+    - GeForce-GT-745M
+    - GeForce-GT-750M-Mac-Edition
+    - GeForce-GT-755M
+    - GeForce-GT-755M-Mac-Edition
+    - GeForce-GT-1030-GK107
+    - GeForce-GT-640M-Mac-Edition
+    - GeForce-GT-730-OEM
+    - GeForce-GT-745A
+    - GeForce-GT-750M
+    - GeForce-GTX-645-OEM
+    - GeForce-GTX-650
+    - GeForce-GTX-650-Ti-Boost
+    - GeForce-GTX-650-Ti-OEM
+    - GeForce-GTX-660
+    - GeForce-GTX-660-OEM
+    - GeForce-GTX-660-Ti
+    - GeForce-GTX-660M
+    - GeForce-GTX-660M-Mac-Edition
+    - GeForce-GTX-670
+    - GeForce-GTX-670MX
+    - GeForce-GTX-675MX
+    - GeForce-GTX-675MX-Mac-Edition
+    - GeForce-GTX-680
+    - GeForce-GTX-680-Mac-Edition
+    - GeForce-GTX-680M
+    - GeForce-GTX-680MX-Mac-Edition
+    - GeForce-GTX-690
+    - GeForce-GTX-750-Ti-OEM
+    - GeForce-GTX-760
+    - GeForce-GTX-760-OEM
+    - GeForce-GTX-760-Ti-OEM
+    - GeForce-GTX-760-Ti-OEM-Rebrand
+    - GeForce-GTX-760-X2
+    - GeForce-GTX-760A
+    - GeForce-GTX-760M
+    - GeForce-GTX-765M
+    - GeForce-GTX-770
+    - GeForce-GTX-770M
+    - GeForce-GTX-775M-Mac-Edition
+    - GeForce-GTX-780
+    - GeForce-GTX-780-6-GB
+    - GeForce-GTX-780-Rev.-2
+    - GeForce-GTX-780-Ti
+    - GeForce-GTX-780-Ti-6-GB
+    - GeForce-GTX-780M
+    - GeForce-GTX-780M-Mac-Edition
+    - GeForce-GTX-870M
+    - GeForce-GTX-880M
+    - GeForce-GT-720-OEM
+    - GeForce-GTX-760-OEM-Rebrand
+    - GeForce-GTX-TITAN
+    - GeForce-GTX-TITAN-BLACK
+    - GeForce-GTX-TITAN-Z
+    - NVS-510
+    - NVS-1000
+    - Quadro-410
+    - Quadro-4100
+    - Quadro-K100M
+    - Quadro-K200M
+    - Quadro-K420
+    - Quadro-K500M
+    - Quadro-K600
+    - Quadro-K1000M
+    - Quadro-K1100M
+    - Quadro-K2000
+    - Quadro-K2000D
+    - Quadro-K2000M
+    - Quadro-K2000M-Embedded
+    - Quadro-K2100M
+    - Quadro-K3000M
+    - Quadro-K3100M
+    - Quadro-K4000
+    - Quadro-K4000M
+    - Quadro-K4100M
+    - Quadro-K4200
+    - Quadro-K5000
+    - Quadro-K5000-Mac-Edition
+    - Quadro-K5000-SYNC
+    - Quadro-K5000M
+    - Quadro-K5100M
+    - Quadro-K5200
+    - Quadro-K6000
+    - Quadro-K6000-SDI

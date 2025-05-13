@@ -1,0 +1,25 @@
+humanName: Cedarmill
+sections:
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-661
+      - Pentium-651
+      - Pentium-641
+      - Pentium-631
+  -
+    header: '1 Threads'
+    members:
+      - Pentium-365
+      - Pentium-356
+      - Pentium-352
+      - Pentium-347
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '65 nm'
+  'Release Date': 'Q1 2006'
+  Sockets:
+    - PLGA775
+name: Desktop-Cedarmill

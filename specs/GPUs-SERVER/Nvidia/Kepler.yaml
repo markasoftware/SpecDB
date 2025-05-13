@@ -1,0 +1,47 @@
+name: Kepler-server
+humanName: Kepler
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.2.175'
+  Release Date: '2012-03-22'
+  Manufacturer: Nvidia
+sections:
+  - header: GRID
+    members:
+    - GRID-K1
+    - GRID-K2
+    - GRID-K100
+    - GRID-K120Q
+    - GRID-K140Q
+    - GRID-K160Q
+    - GRID-K180Q
+    - GRID-K200
+    - GRID-K220Q
+    - GRID-K240Q
+    - GRID-K260Q
+    - GRID-K280Q
+    - GRID-K340
+    - GRID-K500
+    - GRID-K520
+    - GRID-K520Q
+    - GRID-K540Q
+    - GRID-K560Q
+  - header: Tesla
+    members:
+      - Tesla-K8
+      - Tesla-K10
+      - Tesla-K20c
+      - Tesla-K20m
+      - Tesla-K20s
+      - Tesla-K20X
+      - Tesla-K20Xm
+      - Tesla-K40c
+      - Tesla-K40d
+      - Tesla-K40m
+      - Tesla-K40s
+      - Tesla-K40st
+      - Tesla-K40t

@@ -1,0 +1,43 @@
+name: GeForce-RTX-4090-D
+humanName: GeForce RTX 4090 D
+isPart: true
+type: Graphics Card
+data:
+  Market:
+    - Consumer
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Ada Lovelace
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '456'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2023-12-28'
+  GPU Base Frequency: 2280 MHz
+  GPU Boost Frequency: 2520 MHz
+  VRAM Frequency: 1313 MHz
+  VRAM Bandwidth: 1,008 GB/s
+  VRAM Capacity: 24 GiB
+  VRAM Type: GDDR6X
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 176
+  Texture Mapping Unit Count: 456
+  Shader Processor Count: 14592 
+  Die Size: 609 mm²
+  GPU: AD102
+  GPU Variant: AD102-250-A1
+  TDP: 425 W
+  FP32 Compute: 73.54 TFLOPS
+  FP64 Compute: 1,149 GFLOPS (1:64)
+  Slot Width: Triple-slot
+  Outputs: 
+    - 1x HDMI 2.1
+    - 3x DisplayPort 1.4a
+  Power Connectors: 1x 16-pin
+  Length: 304 mm
+  Width: 137 mm
+  Height: 61 mm
+  Ray Tracing Cores: 114
+  Tensor Cores: 456

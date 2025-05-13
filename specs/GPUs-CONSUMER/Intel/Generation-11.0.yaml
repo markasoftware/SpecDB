@@ -1,0 +1,21 @@
+name: Generation-11.0 
+humanName: Generation 11.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 10 nm 10 nm+
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  Release Date: '2019-05-29'
+  Manufacturer: Intel
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Iris-Plus-Graphics-G4-48EU-Mobile
+    - Iris-Plus-Graphics-G7-64EU-Mobile
+    - UHD-Graphics-24EU-Mobile
+    - UHD-Graphics-32EU-Mobile
+    - UHD-Graphics-G1-32EU-Mobile
+    - UHD-Graphics-G4-48EU-Mobile
+    - UHD-Graphics-G7-64EU-Mobile

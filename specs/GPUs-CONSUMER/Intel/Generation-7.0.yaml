@@ -1,0 +1,19 @@
+name: Generation-7.0 
+humanName: Generation 7.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 22 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.0'
+  Release Date: '2012-04-01'
+  Manufacturer: Intel
+sections:
+  - header: WHOLE RANGE
+    members:
+    - HD-Graphics-6EU
+    - HD-Graphics-32EU-Mobile
+    - HD-Graphics-4000
+    - HD-Graphics-4000-Mobile
+    - HD-Graphics-P4000

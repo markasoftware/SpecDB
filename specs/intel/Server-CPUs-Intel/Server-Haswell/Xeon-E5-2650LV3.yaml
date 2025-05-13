@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: Haswell
+  Market: Server
+  Lithography: '22 nm'
+  TDP: '65 W'
+  'Core Count': 12
+  'Thread Count': 24
+  'Max Memory Channels': 4
+  'Max Memory Frequency': '2133 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '1.8 GHz'
+  'Boost Frequency': '2.5 GHz'
+  'L2 Cache (Total)': '30 MiB'
+  'Release Date': '2014-09-08'
+  Socket: FCLGA2011-3
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX2
+isPart: true
+type: CPU
+humanName: 'Xeon E5-2650LV3'
+name: Xeon-E5-2650LV3

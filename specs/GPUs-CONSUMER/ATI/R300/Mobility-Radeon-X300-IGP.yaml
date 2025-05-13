@@ -1,0 +1,33 @@
+name: Mobility-Radeon-X300-IGP
+humanName: Mobility Radeon X300 IGP
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: R300
+  Lithography: 110 nm
+  DirectX Support: '9.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2005'
+  GPU Base Frequency: 300 MHz
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 2
+  Texture Mapping Unit Count: 2
+  Shader Processor Count: 0 
+  Die Size: 74 mm²
+  GPU: RS480
+  GPU Variant: RS480M X300 IGP
+  TDP: unknown
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Pixel Shaders: 2
+  Market:
+    - Mobile

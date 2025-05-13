@@ -1,0 +1,40 @@
+name: Radeon-RX-7500-XT
+humanName: Radeon RX 7500 XT
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: RDNA 3.0
+  Lithography: 6 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.2'
+  Release Date: 'Never Released'
+  GPU Base Frequency: 1452 MHz
+  GPU Boost Frequency: 2300 MHz
+  VRAM Frequency: 2250 MHz
+  VRAM Bandwidth: 216.0 GB/s
+  VRAM Capacity: 6 GiB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 96 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 1024 
+  Die Size: 204 mm²
+  GPU: Navi 33
+  GPU Variant: Navi 33
+  Codename: Hotpink Bonefish
+  TDP: 100 W
+  FP32 Compute: 9.421 TFLOPS
+  FP64 Compute: 294.4 GFLOPS (1:32)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x HDMI 2.1a
+    - 2x DisplayPort 2.1
+    - 1x USB Type-C
+  Power Connectors: 1x 6-pin
+  Ray Tracing Cores: 16
+  Market:
+    - Consumer

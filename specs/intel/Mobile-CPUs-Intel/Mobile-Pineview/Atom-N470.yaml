@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: Pineview
+  Market: Mobile
+  Lithography: '45 nm'
+  TDP: '6.5 W'
+  'Core Count': 1
+  'Thread Count': 2
+  'Max Memory Channels': 1
+  'Max Memory Frequency': '667 MHz'
+  'Memory Type': DDR2
+  'Base Frequency': '1.83 GHz'
+  'L2 Cache (Total)': '512 KiB'
+  'Die Size': '66 mm'
+  'Release Date': 'Q1 2010'
+  Socket: FCBGA559
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: false
+  'GPU Base Frequency': '200 MHz'
+isPart: true
+type: CPU
+humanName: 'Atom N470'
+name: Atom-N470

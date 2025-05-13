@@ -1,0 +1,25 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Ivy Bridge'
+  Market: Desktop
+  Lithography: '22 nm'
+  TDP: '55 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1333 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2.9 GHz'
+  'L2 Cache (Total)': '3 MiB'
+  'Release Date': '2013-01-20'
+  Socket: FCLGA1155
+  AES: false
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+  'GPU Base Frequency': '650 MHz'
+  'GPU Boost Frequency': '1.05 GHz'
+isPart: true
+type: CPU
+humanName: 'Pentium G2020'
+name: Pentium-G2020

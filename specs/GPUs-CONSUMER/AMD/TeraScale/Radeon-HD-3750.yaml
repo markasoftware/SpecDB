@@ -1,0 +1,35 @@
+name: Radeon-HD-3750
+humanName: Radeon HD 3750
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: 'N/A'
+  Release Date: '2008-09-11'
+  GPU Base Frequency: 796 MHz
+  VRAM Frequency: 693 MHz
+  VRAM Bandwidth: 22.18 GB/s
+  VRAM Capacity: 512 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 120 
+  Die Size: 135 mm²
+  GPU: RV635
+  GPU Variant: RV635 PRO
+  TDP: 65 W
+  FP32 Compute: 191.0 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: None
+  Market:
+    - Consumer

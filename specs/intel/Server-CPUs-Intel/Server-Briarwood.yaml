@@ -1,0 +1,17 @@
+humanName: Briarwood
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Atom-S1289
+      - Atom-S1279
+      - Atom-S1269
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '32 nm'
+  'Release Date': '2013-04-10'
+  Sockets:
+    - BGA1283
+name: Server-Briarwood

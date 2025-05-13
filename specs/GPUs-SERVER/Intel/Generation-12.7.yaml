@@ -1,0 +1,16 @@
+name: Generation-12.7-server
+humanName: Generation 12.7
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 6 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.3'
+  Release Date: '2022'
+  Manufacturer: Intel
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Data-Center-GPU-Flex-140
+    - Data-Center-GPU-Flex-170

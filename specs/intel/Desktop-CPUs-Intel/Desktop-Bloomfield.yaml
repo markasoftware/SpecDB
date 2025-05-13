@@ -1,0 +1,21 @@
+humanName: Bloomfield
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-975
+      - Core-i7-965
+      - Core-i7-960
+      - Core-i7-950
+      - Core-i7-940
+      - Core-i7-930
+      - Core-i7-920
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': '2008-11-17'
+  Sockets:
+    - LGA1366
+name: Desktop-Bloomfield

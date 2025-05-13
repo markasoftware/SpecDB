@@ -1,0 +1,31 @@
+humanName: Harpertown
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-X5492
+      - Xeon-X5482
+      - Xeon-X5472
+      - Xeon-X5470
+      - Xeon-X5460
+      - Xeon-X5450
+      - Xeon-L5430
+      - Xeon-L5420
+      - Xeon-L5410
+      - Xeon-E5472
+      - Xeon-E5462
+      - Xeon-E5450
+      - Xeon-E5440
+      - Xeon-E5430
+      - Xeon-E5420
+      - Xeon-E5410
+      - Xeon-E5405
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': '2007-11-12'
+  Sockets:
+    - LGA771
+name: Server-Harpertown

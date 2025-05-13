@@ -1,0 +1,33 @@
+name: GeForce-GT-120-Mac-Edition
+humanName: GeForce GT 120 Mac Edition
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 55 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-01-20'
+  GPU Base Frequency: 550 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 25.60 GB/s
+  VRAM Capacity: 512 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 32 
+  Die Size: 121 mm²
+  GPU: G96C
+  TDP: 50 W
+  FP32 Compute: 89.60 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x mini-DisplayPort
+  Power Connectors: None
+  Length: 145 mm

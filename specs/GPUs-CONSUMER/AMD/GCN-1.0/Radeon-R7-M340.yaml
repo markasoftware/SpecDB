@@ -1,0 +1,34 @@
+name: Radeon-R7-M340
+humanName: Radeon R7 M340
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2015-12-06'
+  GPU Base Frequency: 620 MHz
+  GPU Boost Frequency: 715 MHz
+  VRAM Frequency: 1000 MHz
+  VRAM Bandwidth: 16.00 GB/s
+  VRAM Capacity: 1024 MiB
+  VRAM Type: DDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 384 
+  Die Size: 77 mm²
+  GPU: Opal
+  GPU Variant: Opal PRO
+  TDP: unknown
+  FP32 Compute: 549.1 GFLOPS
+  FP64 Compute: 34.32 GFLOPS (1:16)
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Market:
+    - Mobile

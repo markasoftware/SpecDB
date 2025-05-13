@@ -1,0 +1,22 @@
+name: GPUs-CONSUMER-ATI
+humanName: Consumer GPUs
+type: Generic Container
+isPart: false
+topHeader: 'SELECT SERIES:'
+data:
+  Manufacturer: ATI
+sections:
+  - header: Uncategorised
+    members:
+      - Rage-1
+      - Rage-2
+      - Rage-3
+      - Rage-4
+      - Rage-7
+      - Rage-6
+      - Rage-5
+      - Wonder
+      - Ultra-Threaded-SE
+      - IBM
+      - R300
+      - R400

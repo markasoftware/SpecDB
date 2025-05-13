@@ -1,0 +1,33 @@
+name: Quadro-5010M
+humanName: Quadro 5010M
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi 2.0
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2011-02-22'
+  GPU Base Frequency: 450 MHz
+  VRAM Frequency: 650 MHz
+  VRAM Bandwidth: 83.20 GB/s
+  VRAM Capacity: 4 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 48
+  Shader Processor Count: 384 
+  Die Size: 520 mm²
+  GPU: GF110
+  GPU Variant: N12E-Q5-A1
+  TDP: 100 W
+  FP32 Compute: 691.2 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Market:
+    - Workstation

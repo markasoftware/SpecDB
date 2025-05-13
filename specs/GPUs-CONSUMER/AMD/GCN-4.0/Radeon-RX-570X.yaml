@@ -1,0 +1,40 @@
+name: Radeon-RX-570X
+humanName: Radeon RX 570X
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 4.0
+  Lithography: 14 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2018-04-11'
+  GPU Base Frequency: 1168 MHz
+  GPU Boost Frequency: 1244 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 224.0 GB/s
+  VRAM Capacity: 8 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 128
+  Shader Processor Count: 2048 
+  Die Size: 232 mm²
+  GPU: Polaris 20
+  GPU Variant: Polaris 20 XL
+  TDP: 150 W
+  FP32 Compute: 5.095 TFLOPS
+  FP64 Compute: 318.5 GFLOPS (1:16)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 
+    - 1x HDMI 2.0b
+    - 3x DisplayPort 1.4a
+  Power Connectors: 1x 6-pin
+  Length: 241 mm
+  Market:
+    - Consumer

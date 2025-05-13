@@ -1,0 +1,32 @@
+humanName: Broadwell
+sections:
+  -
+    header: '17 - 64 Threads'
+    members:
+      - Xeon-E5-4628LV4
+      - Xeon-E5-2699RV4
+      - Xeon-E5-2658V4
+      - Xeon-E5-2648LV4
+      - Xeon-E5-2628LV4
+      - Xeon-E5-2618LV4
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Xeon-E5-2608LV4
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-E3-1278LV4
+      - Xeon-E3-1258LV4
+      - Core-i7-5850EQ
+      - Core-i7-5700EQ
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2015-06-02'
+  Sockets:
+    - BGA1364
+    - LGA20113
+name: Embedded-Broadwell

@@ -1,0 +1,22 @@
+name: GPUs-CONSOLE-Nvidia
+humanName: Console GPUs
+type: Generic Container
+isPart: false
+topHeader: 'SELECT SERIES:'
+data:
+  Manufacturer: Nvidia
+sections:
+  - header: Maxwell-2.0
+    members:
+      - Switch-GPU-16nm
+      - Switch-GPU-20nm
+  - header: Curie
+    members:
+      - Playstation-3-GPU-28nm
+      - Playstation-3-GPU-40nm
+      - Playstation-3-GPU-65nm
+      - Playstation-3-GPU-90nm
+  - header: Kelvin
+    members:
+      - Xbox-GPU
+

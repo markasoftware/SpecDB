@@ -1,0 +1,35 @@
+name: Radeon-9800
+humanName: Radeon 9800
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: R300
+  Lithography: 150 nm
+  DirectX Support: '9.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2003-03-01'
+  GPU Base Frequency: 325 MHz
+  VRAM Frequency: 290 MHz
+  VRAM Bandwidth: 18.56 GB/s
+  VRAM Capacity: 128 MiB
+  VRAM Type: DDR
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 0 
+  Die Size: 215 mm²
+  GPU: R350
+  GPU Variant: R350
+  TDP: 37 W
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: 1x Molex
+  Pixel Shaders: 8
+  Market:
+    - Consumer

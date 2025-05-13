@@ -1,0 +1,19 @@
+data:
+  Manufacturer: Intel
+  Architecture: Yorkfield
+  Market: Server
+  Lithography: '45 nm'
+  TDP: '95 W'
+  'Core Count': 4
+  'Thread Count': 4
+  'Base Frequency': '3.16 GHz'
+  'L2 Cache (Total)': '12 MiB'
+  'Die Size': '214 mm'
+  'Release Date': '2009-03-02'
+  Socket: LGA775
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Xeon X3380'
+name: Xeon-X3380

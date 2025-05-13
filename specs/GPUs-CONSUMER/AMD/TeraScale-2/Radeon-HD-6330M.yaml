@@ -1,0 +1,31 @@
+name: Radeon-HD-6330M
+humanName: Radeon HD 6330M
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2010-11-26'
+  GPU Base Frequency: 500 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 12.80 GB/s
+  VRAM Capacity: 1024 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 80 
+  Die Size: 59 mm²
+  GPU: Robson
+  GPU Variant: Robson LP S3
+  TDP: 7 W
+  FP32 Compute: 80.00 GFLOPS
+  Outputs: Portable Device Dependent
+  Market:
+    - Mobile

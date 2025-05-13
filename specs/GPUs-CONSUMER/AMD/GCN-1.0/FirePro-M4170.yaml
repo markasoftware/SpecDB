@@ -1,0 +1,33 @@
+name: FirePro-M4170
+humanName: FirePro M4170
+isPart: true
+type: Graphics Card
+data:
+  Market: Workstation
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2015-04-23'
+  GPU Base Frequency: 825 MHz
+  GPU Boost Frequency: 900 MHz
+  VRAM Frequency: 1000 MHz
+  VRAM Bandwidth: 64.00 GB/s
+  VRAM Capacity: 1024 MiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 384 
+  Die Size: 77 mm²
+  GPU: Opal
+  TDP: unknown
+  FP32 Compute: 691.2 GFLOPS
+  FP64 Compute: 43.20 GFLOPS (1:16)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

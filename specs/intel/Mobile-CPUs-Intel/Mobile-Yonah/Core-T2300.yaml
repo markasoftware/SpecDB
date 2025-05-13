@@ -1,0 +1,17 @@
+data:
+  Manufacturer: Intel
+  Architecture: Yonah
+  Market: Mobile
+  Lithography: '65 nm'
+  TDP: '31 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Base Frequency': '1.66 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Die Size': '90 mm'
+  Socket: 'PBGA479, PPGA478'
+  'Other Extensions': {  }
+isPart: true
+type: CPU
+humanName: 'Core T2300'
+name: Core-T2300

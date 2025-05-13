@@ -1,0 +1,33 @@
+name: GeForce-210-PCI
+humanName: GeForce 210 PCI
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla 2.0
+  Lithography: 40 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-10-12'
+  GPU Base Frequency: 475 MHz
+  VRAM Frequency: 400 MHz
+  VRAM Bandwidth: 6.400 GB/s
+  VRAM Capacity: 512 MiB
+  VRAM Type: DDR2
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 16 
+  Die Size: 100 mm²
+  GPU: GT216
+  TDP: 31 W
+  FP32 Compute: 35.20 GFLOPS
+  Slot Width: Single-slot
+  Outputs: No outputs
+  Power Connectors: None
+  Length: 145 mm
+  Market:
+    - Consumer

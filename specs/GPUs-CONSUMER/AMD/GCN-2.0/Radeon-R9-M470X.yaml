@@ -1,0 +1,33 @@
+name: Radeon-R9-M470X
+humanName: Radeon R9 M470X
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 2.0
+  Lithography: 28 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2016-05-15'
+  GPU Base Frequency: 1000 MHz
+  GPU Boost Frequency: 1100 MHz
+  VRAM Frequency: 1200 MHz
+  VRAM Bandwidth: 76.80 GB/s
+  VRAM Capacity: 4 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 56
+  Shader Processor Count: 896 
+  Die Size: 160 mm²
+  GPU: Emerald
+  GPU Variant: Emerald XT
+  TDP: unknown
+  FP32 Compute: 1.971 TFLOPS
+  FP64 Compute: 123.2 GFLOPS (1:16)
+  Outputs: Portable Device Dependent
+  Market:
+    - Mobile

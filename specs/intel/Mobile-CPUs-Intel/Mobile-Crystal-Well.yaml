@@ -1,0 +1,23 @@
+humanName: 'Crystal Well'
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-4980HQ
+      - Core-i7-4960HQ
+      - Core-i7-4950HQ
+      - Core-i7-4870HQ
+      - Core-i7-4860HQ
+      - Core-i7-4850HQ
+      - Core-i7-4770HQ
+      - Core-i7-4760HQ
+      - Core-i7-4750HQ
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2013-06-04'
+  Sockets:
+    - BGA1364
+name: Mobile-Crystal-Well

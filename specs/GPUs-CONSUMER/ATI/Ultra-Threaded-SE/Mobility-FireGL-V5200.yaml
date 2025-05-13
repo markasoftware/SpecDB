@@ -1,0 +1,31 @@
+name: Mobility-FireGL-V5200
+humanName: Mobility FireGL V5200
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: Ultra-Threaded SE
+  Lithography: 90 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2006-02-01'
+  GPU Base Frequency: 425 MHz
+  VRAM Frequency: 475 MHz
+  VRAM Bandwidth: 15.20 GB/s
+  VRAM Capacity: 256 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 12
+  Texture Mapping Unit Count: 12
+  Shader Processor Count: 0 
+  Die Size: 150 mm²
+  GPU: M56
+  GPU Variant: M56 GL
+  TDP: unknown
+  Outputs: Portable Device Dependent
+  Pixel Shaders: 12
+  Market:
+    - Mobile

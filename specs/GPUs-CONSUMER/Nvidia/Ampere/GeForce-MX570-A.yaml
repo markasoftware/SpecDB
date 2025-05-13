@@ -1,0 +1,37 @@
+name: GeForce-MX570-A
+humanName: GeForce MX570 A
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Ampere
+  Lithography: 8 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '64'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2021-12-17'
+  GPU Base Frequency: 832 MHz
+  GPU Boost Frequency: 1155 MHz
+  VRAM Frequency: 1500 MHz
+  VRAM Bandwidth: 96.00 GB/s
+  VRAM Capacity: 2 GiB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 2048 
+  Die Size: 200 mm²
+  GPU: GA107SB
+  TDP: 25 W
+  FP32 Compute: 4.731 TFLOPS
+  FP64 Compute: 73.92 GFLOPS (1:64)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Ray Tracing Cores: 16
+  Tensor Cores: 64
+  Market:
+    - Mobile

@@ -1,0 +1,35 @@
+name: GeForce-6200-PCI
+humanName: GeForce 6200 PCI
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Curie
+  Lithography: 110 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2008-01-16'
+  GPU Base Frequency: 280 MHz
+  VRAM Frequency: 200 MHz
+  VRAM Bandwidth: 3.200 GB/s
+  VRAM Capacity: 256 MiB
+  VRAM Type: DDR2
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 2
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 110 mm²
+  GPU: NV44
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None
+  Length: 168 mm
+  Pixel Shaders: 4
+  Market:
+    - Consumer

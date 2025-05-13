@@ -1,0 +1,22 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Bay Trail'
+  Market: Embedded
+  Lithography: '22 nm'
+  TDP: '3 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Max Memory Channels': 1
+  'Max Memory Frequency': '1067 MHz'
+  'Memory Type': DDR3L
+  'Base Frequency': '1.33 GHz'
+  'L2 Cache (Total)': '1024 KiB'
+  'Release Date': '2014-10-06'
+  Socket: FCBGA1170
+  AES: true
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Atom E3805'
+name: Atom-E3805

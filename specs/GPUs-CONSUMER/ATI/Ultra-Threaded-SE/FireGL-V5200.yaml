@@ -1,0 +1,33 @@
+name: FireGL-V5200
+humanName: FireGL V5200
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: Ultra-Threaded SE
+  Lithography: 90 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2005-10-01'
+  GPU Base Frequency: 600 MHz
+  VRAM Frequency: 700 MHz
+  VRAM Bandwidth: 22.40 GB/s
+  VRAM Capacity: 128 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 150 mm²
+  GPU: RV530
+  GPU Variant: RV530 GL
+  TDP: 35 W
+  Slot Width: Single-slot
+  Outputs: 2x DVI
+  Power Connectors: None
+  Pixel Shaders: 12
+  Market:
+    - Workstation

@@ -1,0 +1,35 @@
+name: MTT-S50
+humanName: MTT S50
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Moore-Threads
+  Vendor: Moore-Threads
+  Architecture: MUSA
+  Lithography: 12 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.4'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: 'Unknown'
+  GPU Base Frequency: 1200 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 448.0 GB/s
+  VRAM Capacity: 8 GiB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 128
+  Texture Mapping Unit Count: 128
+  Shader Processor Count: 2048 
+  Die Size: unknown
+  GPU: MTT Gen 1
+  TDP: 85 W
+  FP32 Compute: 4.915 TFLOPS
+  FP64 Compute: 76.80 GFLOPS (1:64)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x HDMI 2.0
+    - 2x DisplayPort 1.2
+  Power Connectors: 1x 6-pin
+  Length: 251 mm
+  Width: 111 mm

@@ -1,0 +1,71 @@
+name: R400 
+humanName: R400
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 80-130 nm
+  DirectX Support: '9.2'
+  Vulkan Support: 'N/A'
+  Release Date: '2004-03-01'
+  Manufacturer: ATI
+sections:
+  - header: WHOLE RANGE
+    members:
+    - All-In-Wonder-X800-GT
+    - All-In-Wonder-X800-SE
+    - All-In-Wonder-X800-VE
+    - All-In-Wonder-X800-XL
+    - All-In-Wonder-X800-XT
+    - FireGL-V5000
+    - FireGL-V5100
+    - FireGL-V7100
+    - FireGL-X3-256
+    - Mobility-FireGL-V5000
+    - Mobility-Radeon-9800
+    - Mobility-Radeon-X700
+    - Mobility-Radeon-X700-XL
+    - Mobility-Radeon-X800
+    - Mobility-Radeon-X800-XT
+    - Radeon-2100-IGP
+    - Radeon-X550-XT
+    - Radeon-X550-XTX
+    - Radeon-X700
+    - Radeon-X700-AGP
+    - Radeon-X700-LE
+    - Radeon-X700-PRO
+    - Radeon-X700-PRO-AGP
+    - Radeon-X700-SE
+    - Radeon-X700-XT
+    - Radeon-X740-XL
+    - Radeon-X800
+    - Radeon-X800-CrossFire-Edition
+    - Radeon-X800-GT
+    - Radeon-X800-GT-AGP
+    - Radeon-X800-GTO
+    - Radeon-X800-GTO-AGP
+    - Radeon-X800-PRO
+    - Radeon-X800-PRO-AGP
+    - Radeon-X800-SE
+    - Radeon-X800-SE-AGP
+    - Radeon-X800-VE-AGP
+    - Radeon-X800-XL
+    - Radeon-X800-XL-AGP
+    - Radeon-X800-XT
+    - Radeon-X800-XT-AGP
+    - Radeon-X800-XT-Mac-Edition
+    - Radeon-X800-XT-Platinum
+    - Radeon-X800-XT-Platinum-AGP
+    - Radeon-X850-CrossFire-Edition
+    - Radeon-X850-PRO
+    - Radeon-X850-PRO-AGP
+    - Radeon-X850-XT
+    - Radeon-X850-XT-AGP
+    - Radeon-X850-XT-Platinum
+    - Radeon-X850-XT-Platinum-AGP
+    - Radeon-Xpress-1200-IGP
+    - Radeon-Xpress-1200-Mobile-IGP
+    - Radeon-Xpress-1250-IGP
+    - Radeon-Xpress-1250-Mobile-IGP
+    - Radeon-Xpress-1270-Mobile-IGP
+    - Radeon-X800-GTO2

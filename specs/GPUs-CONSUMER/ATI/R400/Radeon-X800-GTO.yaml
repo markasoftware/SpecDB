@@ -1,0 +1,35 @@
+name: Radeon-X800-GTO
+humanName: Radeon X800 GTO
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: R400
+  Lithography: 130 nm
+  DirectX Support: '9.2'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2005-11-01'
+  GPU Base Frequency: 400 MHz
+  VRAM Frequency: 400 MHz
+  VRAM Bandwidth: 25.60 GB/s
+  VRAM Capacity: 256 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 12
+  Texture Mapping Unit Count: 12
+  Shader Processor Count: 0 
+  Die Size: 297 mm²
+  GPU: R480
+  GPU Variant: R480 GTO
+  TDP: 49 W
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VGA1x S-Video
+  Power Connectors: None
+  Pixel Shaders: 12
+  Market:
+    - Consumer

@@ -1,0 +1,18 @@
+name: Generation-5.0 
+humanName: Generation 5.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  Release Date: '2008-06-01'
+  Manufacturer: Intel
+sections:
+  - header: WHOLE RANGE
+    members:
+    - GMA-X4500
+    - GMA-X4500M
+    - GMA-X4500MHD
+    - GMA-X4700MHD

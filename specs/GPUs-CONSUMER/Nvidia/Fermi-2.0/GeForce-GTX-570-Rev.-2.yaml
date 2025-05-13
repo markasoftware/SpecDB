@@ -1,0 +1,37 @@
+name: GeForce-GTX-570-Rev.-2
+humanName: GeForce GTX 570 Rev. 2
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi 2.0
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2010-12-07'
+  GPU Base Frequency: 732 MHz
+  VRAM Frequency: 950 MHz
+  VRAM Bandwidth: 152.0 GB/s
+  VRAM Capacity: 1280 MiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 320 bit
+  Render Output Unit Count: 40
+  Texture Mapping Unit Count: 60
+  Shader Processor Count: 480 
+  Die Size: 520 mm²
+  GPU: GF110
+  GPU Variant: GF110-275-A1
+  TDP: 219 W
+  FP32 Compute: 1,405 GFLOPS
+  FP64 Compute: 175.7 GFLOPS (1:8)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x HDMI 1.3a1x DisplayPort
+  Power Connectors: 2x 6-pin
+  Length: 267 mm
+  Market:
+    - Consumer

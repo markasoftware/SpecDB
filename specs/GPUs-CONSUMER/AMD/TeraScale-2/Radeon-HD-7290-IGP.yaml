@@ -1,0 +1,31 @@
+name: Radeon-HD-7290-IGP
+humanName: Radeon HD 7290 IGP
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2012-06-06'
+  GPU Base Frequency: 276 MHz
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 80 
+  Die Size: 75 mm²
+  GPU: Loveland
+  TDP: 18 W
+  FP32 Compute: 44.16 GFLOPS
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Market:
+    - Mobile

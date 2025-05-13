@@ -1,0 +1,22 @@
+name: MUSA 
+humanName: MUSA
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 12 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.4'
+  Release Date: 'Unknown'
+  Manufacturer: Moore-Threads
+sections:
+  - header: WHOLE RANGE
+    members:
+    - MTT-S30
+    - MTT-S50
+    - MTT-S70
+    - MTT-S80
+    - MTT-S1000M
+    - MTT-S2000
+    - MTT-S3000
+    - MTT-S4000

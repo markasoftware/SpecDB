@@ -1,0 +1,34 @@
+name: Aubrey-Isle
+humanName: Aubrey Isle
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Intel
+  Vendor: Intel
+  Architecture: Knights
+  Lithography: 45 nm
+  Vulkan Support: 'N/A'
+  OpenGL Support: 'N/A'
+  OpenCL Support: '1.2'
+  Release Date: '2010-05-31'
+  GPU Base Frequency: 1200 MHz
+  VRAM Frequency: 1200 MHz
+  VRAM Bandwidth: 153.6 GB/s
+  VRAM Capacity: 2 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 0
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 512 
+  Die Size: 684 mm²
+  GPU: Knights Ferry
+  TDP: 300 W
+  FP32 Compute: 1,229 GFLOPS
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI1x DisplayPort
+  Power Connectors: 1x 6-pin + 1x 8-pin
+  Length: 267 mm
+  Market:
+    - Consumer

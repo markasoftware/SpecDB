@@ -1,0 +1,36 @@
+name: Arc-A770M
+humanName: Arc A770M
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Intel
+  Vendor: Intel
+  Architecture: Generation 12.7
+  Lithography: 6 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '512'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2022'
+  GPU Base Frequency: 1650 MHz
+  GPU Boost Frequency: 2050 MHz
+  VRAM Frequency: 2000 MHz
+  VRAM Bandwidth: 512.0 GB/s
+  VRAM Capacity: 16 GiB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 128
+  Texture Mapping Unit Count: 256
+  Shader Processor Count: 4096 
+  Die Size: 406 mm²
+  GPU: DG2-512
+  GPU Variant: ACM-G10
+  TDP: 120 W
+  FP32 Compute: 16.79 TFLOPS
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Ray Tracing Cores: 32
+  Tensor Cores: 512
+  Market:
+    - Mobile

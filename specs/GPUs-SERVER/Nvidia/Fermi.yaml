@@ -1,0 +1,21 @@
+name: Fermi-server
+humanName: Fermi
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  Release Date: '2010-03-26'
+  Manufacturer: Nvidia
+sections:
+  - header: Tesla
+    members:
+    - Tesla-C2050
+    - Tesla-C2070
+    - Tesla-M2050
+    - Tesla-M2070
+    - Tesla-M2070-Q
+    - Tesla-S2050
+    - Tesla-X2070

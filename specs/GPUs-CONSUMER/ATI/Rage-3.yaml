@@ -1,0 +1,19 @@
+name: Rage-3 
+humanName: Rage 3
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 350 nm
+  DirectX Support: '6.0'
+  Vulkan Support: 'N/A'
+  Release Date: '1997-03-01'
+  Manufacturer: ATI
+sections:
+  - header: WHOLE RANGE
+    members:
+    - 3D-Rage-PRO-AGP
+    - 3D-Rage-PRO-PCI
+    - Rage-PRO-Turbo-AGP
+    - Rage-PRO-Turbo-PCI
+    - Rage-XL-PCI

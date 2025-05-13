@@ -1,0 +1,34 @@
+name: Radeon-R7-M445
+humanName: Radeon R7 M445
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 3.0
+  Lithography: 28 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2016-05-15'
+  GPU Base Frequency: 780 MHz
+  GPU Boost Frequency: 920 MHz
+  VRAM Frequency: 1000 MHz
+  VRAM Bandwidth: 32.00 GB/s
+  VRAM Capacity: 4 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 20
+  Shader Processor Count: 320 
+  Die Size: 125 mm²
+  GPU: Meso
+  GPU Variant: Meso PRO
+  TDP: unknown
+  FP32 Compute: 588.8 GFLOPS
+  FP64 Compute: 36.80 GFLOPS (1:16)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Market:
+    - Mobile

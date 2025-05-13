@@ -1,0 +1,23 @@
+name: RDNA-2.0-Console 
+humanName: RDNA 2.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 6-7 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.3'
+  Release Date: '2020-10-28'
+  Manufacturer: AMD
+sections:
+  - header: Steam Deck
+    members:
+    - Steam-Deck-GPU
+    - Steam-Deck-OLED-GPU
+  - header: Playstation
+    members:
+    - Playstation-5-GPU
+  - header: Xbox
+    members:
+    - Xbox-Series-S-GPU
+    - Xbox-Series-X-GPU

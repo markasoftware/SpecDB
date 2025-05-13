@@ -1,0 +1,21 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Cascade Lake'
+  Lithography: '14 nm'
+  TDP: '160 W'
+  'Core Count': 8
+  'Thread Count': 16
+  'Max Memory Channels': 6
+  'Max Memory Frequency': '2666 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '3.7 GHz'
+  'Boost Frequency': '4.3 GHz'
+  'L2 Cache (Total)': '16.5 MiB'
+  'Release Date': '2019-06-03'
+  Socket: FCLGA3647
+  AES: true
+  AVX/SSE/MMX: AVX-512
+isPart: true
+type: CPU
+humanName: 'Xeon W-3225'
+name: Xeon-W-3225

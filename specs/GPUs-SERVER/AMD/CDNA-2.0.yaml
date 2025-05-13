@@ -1,0 +1,18 @@
+name: CDNA-2.0 
+humanName: CDNA 2.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 6 nm
+  DirectX Support: ''
+  Vulkan Support: 'N/A'
+  Release Date: '2021-11-08'
+  Manufacturer: AMD
+sections:
+  - header: Instinct series
+    members:
+    - Radeon-Instinct-MI200
+    - Radeon-Instinct-MI210
+    - Radeon-Instinct-MI250
+    - Radeon-Instinct-MI250X

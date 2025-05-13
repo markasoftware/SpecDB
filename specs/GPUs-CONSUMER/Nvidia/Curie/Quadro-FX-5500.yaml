@@ -1,0 +1,36 @@
+name: Quadro-FX-5500
+humanName: Quadro FX 5500
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Curie
+  Lithography: 90 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2006-04-20'
+  GPU Base Frequency: 650 MHz
+  VRAM Frequency: 505 MHz
+  VRAM Bandwidth: 32.32 GB/s
+  VRAM Capacity: 1024 MiB
+  VRAM Type: DDR2
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 0 
+  Die Size: 196 mm²
+  GPU: G71
+  TDP: 96 W
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x 6-pin
+  Length: 229 mm
+  Width: 111 mm
+  Pixel Shaders: 24
+  Market:
+    - Workstation

@@ -1,0 +1,33 @@
+name: MTT-S30
+humanName: MTT S30
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Moore-Threads
+  Vendor: Moore-Threads
+  Architecture: MUSA
+  Lithography: 12 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.4'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: 'Unknown'
+  GPU Base Frequency: 1300 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 224.0 GB/s
+  VRAM Capacity: 4 GiB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 1024 
+  Die Size: unknown
+  GPU: MTT Gen 1
+  TDP: 40 W
+  FP32 Compute: 2.662 TFLOPS
+  FP64 Compute: 41.60 GFLOPS (1:64)
+  Slot Width: Single-slot
+  Outputs: 2x DisplayPort 1.2
+  Power Connectors: None
+  Length: 159 mm
+  Width: 80 mm

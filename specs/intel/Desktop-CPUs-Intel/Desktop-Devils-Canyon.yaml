@@ -1,0 +1,19 @@
+humanName: "Devil's Canyon"
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-4790K
+  -
+    header: '4 Threads'
+    members:
+      - Core-i5-4690K
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2014-06-02'
+  Sockets:
+    - LGA1150
+name: Desktop-Devils-Canyon

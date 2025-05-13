@@ -1,0 +1,33 @@
+name: All-In-Wonder-X800-XL
+humanName: All-In-Wonder X800 XL
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: R400
+  Lithography: 110 nm
+  DirectX Support: '9.2'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1'
+  OpenCL Support: 'N/A'
+  Release Date: '2005-01-21'
+  GPU Base Frequency: 400 MHz
+  VRAM Frequency: 490 MHz
+  VRAM Bandwidth: 31.36 GB/s
+  VRAM Capacity: 256 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 0 
+  Die Size: 240 mm²
+  GPU: R430
+  GPU Variant: R430 AIW
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 1x DVI
+  Power Connectors: None
+  Pixel Shaders: 16
+  Market:
+    - Consumer

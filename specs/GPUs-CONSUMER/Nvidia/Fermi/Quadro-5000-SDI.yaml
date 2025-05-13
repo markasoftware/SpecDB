@@ -1,0 +1,37 @@
+name: Quadro-5000-SDI
+humanName: Quadro 5000 SDI
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2011-02-23'
+  GPU Base Frequency: 513 MHz
+  VRAM Frequency: 750 MHz
+  VRAM Bandwidth: 120.0 GB/s
+  VRAM Capacity: 2.5 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 320 bit
+  Render Output Unit Count: 40
+  Texture Mapping Unit Count: 44
+  Shader Processor Count: 352 
+  Die Size: 529 mm²
+  GPU: GF100
+  GPU Variant: GF100-850-A3
+  TDP: 172 W
+  FP32 Compute: 722.3 GFLOPS
+  FP64 Compute: 361.2 GFLOPS (1:2)
+  Slot Width: Quad-slot
+  Outputs: 
+    - 1x DVI
+    - 2x DisplayPort1x S-Video2x SDI
+  Length: 248 mm
+  Width: 111 mm
+  Market:
+    - Workstation

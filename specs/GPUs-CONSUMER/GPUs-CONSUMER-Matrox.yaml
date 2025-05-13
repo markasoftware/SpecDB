@@ -1,0 +1,18 @@
+name: GPUs-CONSUMER-Matrox
+humanName: Consumer GPUs
+type: Generic Container
+isPart: false
+topHeader: 'SELECT SERIES:'
+data:
+  Manufacturer: Matrox
+sections:
+  - header: Uncategorised
+    members:
+      - PX
+      - G200
+      - G400
+      - Parhelia
+      - G500
+      - G100
+      - MP
+

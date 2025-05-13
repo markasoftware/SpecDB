@@ -1,0 +1,32 @@
+name: Radeon-R7-Graphics
+humanName: Radeon R7 Graphics
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 2.0
+  Lithography: 28 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2014-01-11'
+  GPU Base Frequency: 720 MHz
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 512 
+  Die Size: 245 mm²
+  GPU: Spectre
+  TDP: 25 W
+  FP32 Compute: 737.3 GFLOPS
+  FP64 Compute: 46.08 GFLOPS (1:16)
+  Slot Width: IGP
+  Outputs: Motherboard Dependent
+  Market:
+    - Consumer

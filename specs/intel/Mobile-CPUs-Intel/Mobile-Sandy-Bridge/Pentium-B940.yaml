@@ -1,0 +1,25 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Sandy Bridge'
+  Market: Mobile
+  Lithography: '32 nm'
+  TDP: '35 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Max Memory Channels': 2
+  'Max Memory Frequency': '1333 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Release Date': '2011-06-19'
+  Socket: PGA988
+  AES: false
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+  'GPU Base Frequency': '650 MHz'
+  'GPU Boost Frequency': '1.1 GHz'
+isPart: true
+type: CPU
+humanName: 'Pentium B940'
+name: Pentium-B940

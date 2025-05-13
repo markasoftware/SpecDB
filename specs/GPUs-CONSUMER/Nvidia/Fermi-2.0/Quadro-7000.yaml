@@ -1,0 +1,37 @@
+name: Quadro-7000
+humanName: Quadro 7000
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi 2.0
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2012-05-02'
+  GPU Base Frequency: 651 MHz
+  VRAM Frequency: 851 MHz
+  VRAM Bandwidth: 163.4 GB/s
+  VRAM Capacity: 6 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 48
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 512 
+  Die Size: 520 mm²
+  GPU: GF110
+  TDP: 204 W
+  FP32 Compute: 1,332 GFLOPS
+  FP64 Compute: 666.1 GFLOPS (1:2)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 2x DisplayPort1x S-Video
+  Power Connectors: 1x 6-pin + 1x 8-pin
+  Length: 248 mm
+  Width: 111 mm
+  Market:
+    - Workstation

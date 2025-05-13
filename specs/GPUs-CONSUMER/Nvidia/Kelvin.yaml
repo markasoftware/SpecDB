@@ -1,0 +1,29 @@
+name: Kelvin 
+humanName: Kelvin
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 150 nm
+  DirectX Support: '8.1'
+  Vulkan Support: 'N/A'
+  Release Date: '2001-02-27'
+  Manufacturer: Nvidia
+sections:
+  - header: WHOLE RANGE
+    members:
+    - GeForce3
+    - GeForce3-Ti200
+    - GeForce3-Ti500
+    - GeForce4-Go-4200
+    - GeForce4-Ti-4200
+    - GeForce4-Ti-4200-8X
+    - GeForce4-Ti-4400
+    - GeForce4-Ti-4600
+    - GeForce4-Ti-4800
+    - Quadro4-700-Go-GL
+    - Quadro4-700-XGL
+    - Quadro4-750-XGL
+    - Quadro4-900-XGL
+    - Quadro4-980-XGL
+    - Quadro-DCC

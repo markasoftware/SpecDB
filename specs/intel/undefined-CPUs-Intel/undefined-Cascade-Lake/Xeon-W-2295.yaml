@@ -1,0 +1,22 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Cascade Lake'
+  Lithography: '14 nm'
+  TDP: '165 W'
+  'Core Count': 18
+  'Thread Count': 36
+  'Max Memory Channels': 4
+  'Max Memory Frequency': '2933 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '3 GHz'
+  'Boost Frequency': '4.6 GHz'
+  'L2 Cache (Total)': '24.75 MiB'
+  'Release Date': '2019-10-07'
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: AVX-512
+isPart: true
+type: CPU
+humanName: 'Xeon W-2295'
+name: Xeon-W-2295

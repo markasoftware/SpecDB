@@ -1,0 +1,36 @@
+name: Radeon-X1950-XTX-Uber-Edition
+humanName: Radeon X1950 XTX Uber Edition
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: Ultra-Threaded SE
+  Lithography: 90 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2007-01-19'
+  GPU Base Frequency: 670 MHz
+  VRAM Frequency: 1050 MHz
+  VRAM Bandwidth: 67.20 GB/s
+  VRAM Capacity: 512 MiB
+  VRAM Type: GDDR4
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 0 
+  Die Size: 352 mm²
+  GPU: R580+
+  GPU Variant: R580+ XT
+  TDP: 125 W
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 1x VHDCI
+  Power Connectors: 1x 6-pin
+  Length: 230 mm
+  Pixel Shaders: 48
+  Market:
+    - Consumer

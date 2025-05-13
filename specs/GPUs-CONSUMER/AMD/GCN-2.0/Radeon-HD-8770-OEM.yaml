@@ -1,0 +1,35 @@
+name: Radeon-HD-8770-OEM
+humanName: Radeon HD 8770 OEM
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 2.0
+  Lithography: 28 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2013-09-02'
+  GPU Base Frequency: 1050 MHz
+  VRAM Frequency: 1500 MHz
+  VRAM Bandwidth: 96.00 GB/s
+  VRAM Capacity: 1024 MiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 56
+  Shader Processor Count: 896 
+  Die Size: 160 mm²
+  GPU: Bonaire
+  GPU Variant: Bonaire XT
+  TDP: 85 W
+  FP32 Compute: 1.882 TFLOPS
+  FP64 Compute: 117.6 GFLOPS (1:16)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 1x HDMI 1.4a2x mini-DisplayPort 1.2
+  Power Connectors: 1x 6-pin
+  Length: 183 mm

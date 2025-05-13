@@ -1,0 +1,51 @@
+humanName: 'Kaby Lake'
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-7740X
+      - Core-i7-7700T
+      - Core-i7-7700K
+      - Core-i7-7700
+  -
+    header: '4 Threads'
+    members:
+      - Pentium-G4620
+      - Pentium-G4600T
+      - Pentium-G4600
+      - Pentium-G4560T
+      - Pentium-G4560
+      - Core-i5-7640X
+      - Core-i5-7600T
+      - Core-i5-7600K
+      - Core-i5-7600
+      - Core-i5-7500T
+      - Core-i5-7500
+      - Core-i5-7400T
+      - Core-i5-7400
+      - Core-i3-7350K
+      - Core-i3-7320
+      - Core-i3-7300T
+      - Core-i3-7300
+      - Core-i3-7101TE
+      - Core-i3-7101E
+      - Core-i3-7100T
+      - Core-i3-7100
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-G3950
+      - Pentium-G3930TE
+      - Pentium-G3930T
+      - Pentium-G3930E
+      - Pentium-G3930
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2017-01-03'
+  Sockets:
+    - LGA1151
+    - LGA2066
+name: Desktop-Kaby-Lake

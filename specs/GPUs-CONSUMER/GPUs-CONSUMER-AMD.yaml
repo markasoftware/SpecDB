@@ -1,0 +1,32 @@
+name: GPUs-CONSUMER-AMD
+humanName: Consumer GPUs
+type: Generic Container
+isPart: false
+topHeader: 'SELECT SERIES:'
+data:
+  Manufacturer: AMD
+sections:
+  - header: RDNA
+    members:
+      - RDNA-4.0
+      - RDNA-3.5
+      - RDNA-3.0
+      - RDNA-2.0
+      - RDNA-1.0
+  - header: GCN
+    members:
+      - GCN-5.1
+      - GCN-5.0
+      - GCN-4.0
+      - GCN-3.0
+      - GCN-2.0
+      - GCN-1.0
+  - header: TeraScale
+    members:
+      - TeraScale-3
+      - TeraScale-2
+      - TeraScale
+  - header: Mach
+    members:
+      - Mach
+

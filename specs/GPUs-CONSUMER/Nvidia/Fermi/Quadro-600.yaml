@@ -1,0 +1,37 @@
+name: Quadro-600
+humanName: Quadro 600
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2010-12-13'
+  GPU Base Frequency: 640 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 25.60 GB/s
+  VRAM Capacity: 1024 MiB
+  VRAM Type: DDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 96 
+  Die Size: 116 mm²
+  GPU: GF108
+  TDP: 40 W
+  FP32 Compute: 245.8 GFLOPS
+  FP64 Compute: 20.48 GFLOPS (1:12)
+  Slot Width: Single-slot
+  Outputs: 
+    - 1x DVI
+    - 1x DisplayPort
+  Power Connectors: None
+  Length: 168 mm
+  Width: 69 mm
+  Market:
+    - Workstation

@@ -1,0 +1,17 @@
+humanName: Kentsfield
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-X3230
+      - Xeon-X3220
+      - Xeon-X3210
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '65 nm'
+  'Release Date': '2007-01-08'
+  Sockets:
+    - LGA775
+name: Server-Kentsfield

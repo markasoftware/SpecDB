@@ -1,0 +1,20 @@
+humanName: 'Ivy Bridge E'
+sections:
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Core-i7-4960X
+      - Core-i7-4930K
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-4820K
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2013-09-10'
+  Sockets:
+    - LGA2011
+name: Desktop-Ivy-Bridge-E

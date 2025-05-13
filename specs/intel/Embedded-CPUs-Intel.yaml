@@ -1,0 +1,40 @@
+humanName: 'Embedded CPUs (Intel)'
+sections:
+  -
+    header: '2015 - 2019'
+    members:
+      - Embedded-Whiskey-Lake
+      - Embedded-Coffee-Lake
+      - Embedded-Kaby-Lake
+      - Embedded-Apollo-Lake
+      - Embedded-Braswell
+      - Embedded-Skylake
+      - Embedded-Broadwell
+  -
+    header: '2010 - 2014'
+    members:
+      - Embedded-Ivy-Bridge-EN
+      - Embedded-Bay-Trail
+      - Embedded-Ivy-Bridge-EP
+      - Embedded-Rangeley
+      - Embedded-Haswell
+      - Embedded-Gladden
+      - Embedded-Sandy-Bridge-EN
+      - Embedded-Ivy-Bridge
+      - Embedded-Sandy-Bridge-EP
+      - Embedded-Sandy-Bridge
+      - Embedded-Stellarton
+      - Embedded-Tunnel-Creek
+      - Embedded-Arrandale
+      - Embedded-Jasper-Forest
+  -
+    header: '2005 - 2009'
+    members:
+      - Embedded-Nehalem-EP
+      - Embedded-Harpertown
+      - Embedded-Wolfdale
+type: 'Generic Container'
+topHeader: 'SELECT ARCHITECTURE:'
+data:
+  Manufacturer: Intel
+name: Embedded-CPUs-Intel

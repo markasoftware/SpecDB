@@ -1,0 +1,72 @@
+humanName: 'Ivy Bridge'
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-3940XM
+      - Core-i7-3920XM
+      - Core-i7-3840QM
+      - Core-i7-3820QM
+      - Core-i7-3740QM
+      - Core-i7-3720QM
+      - Core-i7-3635QM
+      - Core-i7-3632QM
+      - Core-i7-3630QM
+      - Core-i7-3615QM
+      - Core-i7-3612QM
+      - Core-i7-3610QM
+  -
+    header: '4 Threads'
+    members:
+      - Core-i7-3689Y
+      - Core-i7-3687U
+      - Core-i7-3667U
+      - Core-i7-3540M
+      - Core-i7-3537U
+      - Core-i7-3520M
+      - Core-i7-3517U
+      - Core-i5-3439Y
+      - Core-i5-3437U
+      - Core-i5-3427U
+      - Core-i5-3380M
+      - Core-i5-3360M
+      - Core-i5-3340M
+      - Core-i5-3339Y
+      - Core-i5-3337U
+      - Core-i5-3320M
+      - Core-i5-3317U
+      - Core-i5-3230M
+      - Core-i5-3210M
+      - Core-i3-3229Y
+      - Core-i3-3227U
+      - Core-i3-3217U
+      - Core-i3-3130M
+      - Core-i3-3120M
+      - Core-i3-3110M
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-A1018
+      - Pentium-2129Y
+      - Pentium-2127U
+      - Pentium-2117U
+      - Pentium-2030M
+      - Pentium-2020M
+      - Pentium-1037U
+      - Pentium-1020M
+      - Pentium-1019Y
+      - Pentium-1017U
+      - Pentium-1007U
+      - Pentium-1005M
+      - Pentium-1000M
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2012-04-29'
+  Sockets:
+    - PGA988
+    - BGA1224
+    - BGA1023
+name: Mobile-Ivy-Bridge

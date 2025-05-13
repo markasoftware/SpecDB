@@ -1,0 +1,34 @@
+name: GeForce-6800-GT-Dual
+humanName: GeForce 6800 GT Dual
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Curie
+  Lithography: 130 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-06-08'
+  GPU Base Frequency: 350 MHz
+  VRAM Frequency: 500 MHz
+  VRAM Bandwidth: 32.00 GB/s
+  VRAM Capacity: 256 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 0 
+  Die Size: 287 mm²
+  GPU: NV45
+  TDP: unknown
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x 6-pin
+  Pixel Shaders: 16
+  Market:
+    - Consumer

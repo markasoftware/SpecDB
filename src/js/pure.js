@@ -87,11 +87,19 @@ module.exports.genSubtext = (data, passedSpecData) => {
 				innerData.TDP.replace(' ', '') + ' TDP',
 			];
 		case 'Graphics Card':
-			return [
-				innerData['VRAM Capacity'].replace(' ', '') + ' VRAM',
-				innerData['Shader Processor Count'] + ' Shader Processors',
-				genClockText(innerData, true),
-			];
+			if (innerData['Shader Processor Count']){
+				return [
+					innerData['VRAM Capacity'].replace(' ', '') + ' VRAM',
+					innerData['Shader Processor Count'] + ' Shader Processors',
+					genClockText(innerData, true),
+				];
+			} else {
+				return [
+					innerData['VRAM Capacity'].replace(' ', '') + ' VRAM',
+					innerData['Pixel Shaders'] + ' Pixel Shaders',
+					genClockText(innerData, true),
+				];
+			}
 		case 'APU':
 			return [
 				genCoreText(innerData),

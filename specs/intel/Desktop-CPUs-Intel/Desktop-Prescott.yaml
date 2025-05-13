@@ -1,0 +1,68 @@
+humanName: Prescott
+sections:
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-672
+      - Pentium-670
+      - Pentium-662
+      - Pentium-660
+      - Pentium-650
+      - Pentium-640
+      - Pentium-630
+      - Pentium-620
+      - Pentium-571
+      - Pentium-561
+      - Pentium-560J
+      - Pentium-551
+      - Pentium-550J
+      - Pentium-541
+      - Pentium-540J
+      - Pentium-531
+      - Pentium-530J
+      - Pentium-524
+      - Pentium-521
+      - Pentium-520J
+      - Pentium-517
+  -
+    header: '1 Threads'
+    members:
+      - Pentium-519K
+      - Pentium-519
+      - Pentium-516
+      - Pentium-515
+      - Pentium-511
+      - Pentium-506
+      - Pentium-505J
+      - Pentium-505
+      - Pentium-355
+      - Pentium-351
+      - Pentium-350J
+      - Pentium-346
+      - Pentium-345J
+      - Pentium-345
+      - Pentium-341
+      - Pentium-340J
+      - Pentium-336
+      - Pentium-335J
+      - Pentium-335
+      - Pentium-331
+      - Pentium-330J
+      - Pentium-326
+      - Pentium-325J
+      - Pentium-325
+      - Pentium-320
+      - Pentium-315J
+      - Pentium-315
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '90 nm'
+  'Release Date': 'Q2 2004'
+  Sockets:
+    - PPGA478
+    - PLGA478
+    - PLGA775
+    - PPGA775
+name: Desktop-Prescott

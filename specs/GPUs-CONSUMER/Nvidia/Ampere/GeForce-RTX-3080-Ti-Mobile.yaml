@@ -1,0 +1,63 @@
+name: GeForce-RTX-3080-Ti-Mobile
+humanName: GeForce RTX 3080 Ti Mobile
+isPart: true
+type: Graphics Card
+data:
+  Hardware Accelerated Encoding:
+    - H.264 (AVCHD) YUV 4:2:0
+    - H.264 (AVCHD) YUV 4:4:4
+    - H.264 (AVCHD) Lossless
+    - H.265 (HEVC) 4K YUV 4:2:0
+    - H.265 (HEVC) 4K YUV 4:4:4
+    - H.265 (HEVC) 4K Lossless
+    - H.265 (HEVC) 8K
+    - HEVC 10-bit
+    - HEVC B Frame
+  Hardware Accelerated Decoding:
+    - MPEG-1
+    - MPEG-2
+    - VC-1
+    - VP8
+    - VP9 4:2:0 8 Bit
+    - VP9 4:2:0 10 Bit
+    - VP9 4:2:0 12 Bit
+    - H.264 (AVCHD) 4:2:0 8 Bit
+    - H.265 (HEVC) 4:2:0 8 Bit
+    - H.265 (HEVC) 4:2:0 10 Bit
+    - H.265 (HEVC) 4:2:0 12 Bit
+    - H.265 (HEVC) 4:4:4 8 Bit
+    - H.265 (HEVC) 4:4:4 10 Bit
+    - H.265 (HEVC) 4:4:4 12 Bit
+    - AV1 8 Bit
+    - AV1 10 Bit
+  Market: Mobile
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Ampere
+  Lithography: 8 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '232'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2022-01-25'
+  GPU Base Frequency: 810 MHz
+  GPU Boost Frequency: 1260 MHz
+  VRAM Frequency: 2000 MHz
+  VRAM Bandwidth: 512.0 GB/s
+  VRAM Capacity: 16 GiB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 96
+  Texture Mapping Unit Count: 232
+  Shader Processor Count: 7424 
+  Die Size: 496 mm²
+  GPU: GA103
+  GPU Variant: GN20-E8-A1
+  TDP: 115 W
+  FP32 Compute: 18.71 TFLOPS
+  FP64 Compute: 292.3 GFLOPS (1:64)
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Ray Tracing Cores: 58
+  Tensor Cores: 232

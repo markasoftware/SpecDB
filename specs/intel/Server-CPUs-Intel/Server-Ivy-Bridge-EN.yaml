@@ -1,0 +1,29 @@
+humanName: 'Ivy Bridge EN'
+sections:
+  -
+    header: '17 - 64 Threads'
+    members:
+      - Xeon-E5-2470V2
+      - Xeon-E5-2450LV2
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Xeon-E5-2450V2
+      - Xeon-E5-2440V2
+      - Xeon-E5-2430V2
+      - Xeon-E5-2430LV2
+      - Xeon-E5-2420V2
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-E5-2407V2
+      - Xeon-E5-2403V2
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '22 nm'
+  'Release Date': '2014-01-09'
+  Sockets:
+    - LGA1356
+name: Server-Ivy-Bridge-EN

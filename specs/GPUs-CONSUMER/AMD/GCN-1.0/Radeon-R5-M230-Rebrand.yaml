@@ -1,0 +1,33 @@
+name: Radeon-R5-M230-Rebrand
+humanName: Radeon R5 M230 Rebrand
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 1.0
+  Lithography: 28 nm
+  DirectX Support: '11.1'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1 (1.2)'
+  Release Date: '2013-03-01'
+  GPU Base Frequency: 750 MHz
+  GPU Boost Frequency: 825 MHz
+  VRAM Frequency: 900 MHz
+  VRAM Bandwidth: 14.40 GB/s
+  VRAM Capacity: 2 GiB
+  VRAM Type: DDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 20
+  Shader Processor Count: 320 
+  Die Size: 56 mm²
+  GPU: Sun
+  GPU Variant: Sun S3 UL
+  TDP: unknown
+  FP32 Compute: 528.0 GFLOPS
+  FP64 Compute: 33.00 GFLOPS (1:16)
+  Outputs: Portable Device Dependent
+  Market:
+    - Mobile

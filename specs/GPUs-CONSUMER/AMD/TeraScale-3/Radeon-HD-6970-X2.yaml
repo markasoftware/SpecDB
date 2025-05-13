@@ -1,0 +1,35 @@
+name: Radeon-HD-6970-X2
+humanName: Radeon HD 6970 X2
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale 3
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: 'Never Released'
+  GPU Base Frequency: 880 MHz
+  VRAM Frequency: 1375 MHz
+  VRAM Bandwidth: 176.0 GB/s
+  VRAM Capacity: 2 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 96
+  Shader Processor Count: 1536 
+  Die Size: 389 mm²
+  GPU: Antilles
+  GPU Variant: Antilles XT
+  TDP: 375 W
+  FP32 Compute: 2.703 TFLOPS
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x HDMI 1.4a2x mini-DisplayPort 1.2
+  Power Connectors: 3x 8-pin
+  Market:
+    - Consumer

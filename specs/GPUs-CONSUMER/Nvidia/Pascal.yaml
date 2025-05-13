@@ -1,0 +1,109 @@
+name: Pascal 
+humanName: Pascal
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 16-14 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.2'
+  Release Date: '2016'
+  Manufacturer: Nvidia
+sections:
+  - header: High-end Titan range (Consumer)
+    members:
+    - TITAN-Xp
+    - TITAN-X-Pascal
+  - header: Main GTX Range (Consumer)
+    members:
+    - GeForce-GTX-1080-Ti-12-GB
+    - GeForce-GTX-1080-Ti-10-GB
+    - GeForce-GTX-1080-Ti
+    - GeForce-GTX-1080-11Gbps
+    - GeForce-GTX-1080
+    - GeForce-GTX-1070-Ti
+    - GeForce-GTX-1070-GDDR5X
+    - GeForce-GTX-1070
+    - GeForce-GTX-1060-8-GB-GDDR5X
+    - GeForce-GTX-1060-6-GB-Rev.-2
+    - GeForce-GTX-1060-6-GB-GP104
+    - GeForce-GTX-1060-6-GB-GDDR5X
+    - GeForce-GTX-1060-6-GB-9Gbps
+    - GeForce-GTX-1060-6-GB
+    - GeForce-GTX-1060-5-GB
+    - GeForce-GTX-1060-3-GB-GP104
+    - GeForce-GTX-1060-3-GB
+    - GeForce-GTX-1050-Ti
+    - GeForce-GTX-1050-3-GB
+    - GeForce-GTX-1050
+  - header: GTX Mobile
+    members:
+    - GeForce-GTX-1080-Mobile
+    - GeForce-GTX-1080-Max-Q
+    - GeForce-GTX-1070-Mobile
+    - GeForce-GTX-1070-Max-Q
+    - GeForce-GTX-1060-Mobile
+    - GeForce-GTX-1060-Max-Q
+    - GeForce-GTX-1050-Ti-Mobile
+    - GeForce-GTX-1050-Ti-Max-Q
+    - GeForce-GTX-1050-Mobile
+    - GeForce-GTX-1050-Mobile-3-GB
+    - GeForce-GTX-1050-Max-Q
+  - header: Quadro Desktop (Workstation)
+    members:
+    - Quadro-P2200
+    - Quadro-P6000
+    - Quadro-P5000
+    - Quadro-P4000
+    - Quadro-P2000
+    - Quadro-P1000
+    - Quadro-P620
+    - Quadro-P600
+    - Quadro-P400
+    - Quadro-GP100
+  - header: Quadro Mobile (Workstation)
+    members:
+    - Quadro-P1000-Mobile
+    - Quadro-P5200-Mobile
+    - Quadro-P5200-Max-Q
+    - Quadro-P5000-X2-Mobile
+    - Quadro-P5000-Mobile
+    - Quadro-P4200-Mobile
+    - Quadro-P4200-Max-Q
+    - Quadro-P4000-Mobile
+    - Quadro-P4000-Max-Q
+    - Quadro-P3200-Mobile
+    - Quadro-P3200-Max-Q
+    - Quadro-P3000-Mobile
+    - Quadro-P2000-Mobile
+    - Quadro-P620-Mobile
+    - Quadro-P600-Mobile
+    - Quadro-P520-Mobile
+    - Quadro-P520-Max-Q
+    - Quadro-P500-Mobile
+  - header: Low-end GT Desktop
+    members:
+    - GeForce-GT-1030-DDR4
+    - GeForce-GT-1030
+    - GeForce-GT-1010-DDR4
+    - GeForce-GT-1010
+  - header: Low-end MX Mobile
+    members:
+    - GeForce-MX330
+    - GeForce-MX150-GP107
+    - GeForce-MX350
+    - GeForce-MX250
+    - GeForce-MX230
+    - GeForce-MX150
+  - header: Embedded Jetson
+    members:
+    - Jetson-TX2
+  - header: Crypto Mining
+    members:
+    - P102-100
+    - P102-101
+    - P104-100
+    - P104-101
+    - P106-090
+    - P106-100
+    - P106M

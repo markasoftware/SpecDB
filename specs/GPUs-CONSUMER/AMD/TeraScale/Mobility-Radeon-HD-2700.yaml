@@ -1,0 +1,32 @@
+name: Mobility-Radeon-HD-2700
+humanName: Mobility Radeon HD 2700
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: 'N/A'
+  Release Date: '2007-12-12'
+  GPU Base Frequency: 650 MHz
+  VRAM Frequency: 700 MHz
+  VRAM Bandwidth: 22.40 GB/s
+  VRAM Capacity: 256 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 120 
+  Die Size: 153 mm²
+  GPU: M76
+  GPU Variant: M76 XT-M
+  TDP: 35 W
+  FP32 Compute: 156.0 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Market:
+    - Mobile

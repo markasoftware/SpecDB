@@ -1,0 +1,19 @@
+humanName: 'Kaby Lake G'
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-8809G
+      - Core-i7-8709G
+      - Core-i7-8706G
+      - Core-i7-8705G
+      - Core-i5-8305G
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '14 nm'
+  'Release Date': '2018-01-07'
+  Sockets:
+    - BGA2270
+name: Mobile-Kaby-Lake-G

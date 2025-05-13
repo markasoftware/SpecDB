@@ -1,0 +1,35 @@
+name: FireGL-9800-X2-256
+humanName: FireGL 9800 X2-256
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: R300
+  Lithography: 150 nm
+  DirectX Support: '9.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2003-03-01'
+  GPU Base Frequency: 380 MHz
+  VRAM Frequency: 350 MHz
+  VRAM Bandwidth: 22.40 GB/s
+  VRAM Capacity: 256 MiB
+  VRAM Type: DDR2
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 0 
+  Die Size: 218 mm²
+  GPU: R360
+  GPU Variant: R360 GL
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x Molex
+  Pixel Shaders: 8
+  Market:
+    - Workstation

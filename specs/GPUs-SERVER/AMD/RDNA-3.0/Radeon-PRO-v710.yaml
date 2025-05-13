@@ -1,0 +1,38 @@
+name: Radeon-PRO-V710
+humanName: Radeon PRO V710
+isPart: true
+type: Graphics Card
+data:
+  Market: Data center
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: RDNA 3.0
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.2'
+  Release Date: '2024-10-03'
+  GPU Base Frequency: 1900 MHz
+  GPU Boost Frequency: 2000 MHz
+  VRAM Frequency: 2250 MHz
+  VRAM Bandwidth: 504.0 GB/s
+  VRAM Capacity: 28 GiB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 224 bit
+  Render Output Unit Count: 96
+  Texture Mapping Unit Count: 216
+  Shader Processor Count: 3456 
+  Die Size: 346 mm²
+  GPU: Navi 32
+  GPU Variant: Navi 32
+  TDP: 158 W
+  FP32 Compute: 27.65 TFLOPS
+  FP64 Compute: 864.0 GFLOPS (1:32)
+  Slot Width: Single-slot
+  Outputs: No outputs
+  Power Connectors: 1x 8-pin
+  # Length: 267 mm
+  # Width: 120 mm
+  # Height: 50 mm
+  Ray Tracing Cores: 54

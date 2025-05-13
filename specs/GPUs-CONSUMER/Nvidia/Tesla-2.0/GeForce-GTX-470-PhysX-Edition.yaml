@@ -1,0 +1,35 @@
+name: GeForce-GTX-470-PhysX-Edition
+humanName: GeForce GTX 470 PhysX Edition
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla 2.0
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: 'Never Released'
+  GPU Base Frequency: 608 MHz
+  VRAM Frequency: 837 MHz
+  VRAM Bandwidth: 133.9 GB/s
+  VRAM Capacity: 1280 MiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 320 bit
+  Render Output Unit Count: 40
+  Texture Mapping Unit Count: 56
+  Shader Processor Count: 448 
+  Die Size: 144 mm²
+  GPU: GT215
+  GPU Variant: GT215-400-A2
+  TDP: 215 W
+  FP32 Compute: 1,089 GFLOPS
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x mini-HDMI 1.3a
+  Power Connectors: 1x 6-pin + 1x 8-pin
+  Market:
+    - Consumer

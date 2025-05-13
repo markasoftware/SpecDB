@@ -1,0 +1,34 @@
+name: Radeon-RX-5300M
+humanName: Radeon RX 5300M
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: RDNA 1.0
+  Lithography: 7 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2019-11-13'
+  GPU Base Frequency: 1000 MHz
+  GPU Boost Frequency: 1445 MHz
+  VRAM Frequency: 1750 MHz
+  VRAM Bandwidth: 168.0 GB/s
+  VRAM Capacity: 3 GiB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 96 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 88
+  Shader Processor Count: 1408 
+  Die Size: 158 mm²
+  GPU: Navi 14
+  GPU Variant: Navi 14 XLM
+  TDP: 85 W
+  FP32 Compute: 4.069 TFLOPS
+  FP64 Compute: 254.3 GFLOPS (1:16)
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Market:
+    - Mobile

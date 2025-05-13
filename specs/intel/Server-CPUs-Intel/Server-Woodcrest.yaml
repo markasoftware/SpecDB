@@ -1,0 +1,24 @@
+humanName: Woodcrest
+sections:
+  -
+    header: '2 Threads'
+    members:
+      - Xeon-5160
+      - Xeon-5150
+      - Xeon-5148
+      - Xeon-5140
+      - Xeon-5138
+      - Xeon-5133
+      - Xeon-5130
+      - Xeon-5128
+      - Xeon-5113
+      - Xeon-5110
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '65 nm'
+  'Release Date': '2006-06-25'
+  Sockets:
+    - LGA771
+name: Server-Woodcrest

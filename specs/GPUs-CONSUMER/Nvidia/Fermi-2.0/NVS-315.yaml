@@ -1,0 +1,35 @@
+name: NVS-315
+humanName: NVS 315
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi 2.0
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2013-03-10'
+  GPU Base Frequency: 523 MHz
+  VRAM Frequency: 875 MHz
+  VRAM Bandwidth: 14.00 GB/s
+  VRAM Capacity: 1024 MiB
+  VRAM Type: DDR3
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 48 
+  Die Size: 79 mm²
+  GPU: GF119S
+  GPU Variant: GF119-825-A1
+  TDP: 19 W
+  FP32 Compute: 100.4 GFLOPS
+  FP64 Compute: 8.368 GFLOPS (1:12)
+  Slot Width: Single-slot
+  Outputs: 1x DMS-59
+  Power Connectors: None
+  Length: 145 mm
+  Market:
+    - Consumer

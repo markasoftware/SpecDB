@@ -1,0 +1,34 @@
+name: Parhelia-128-MB
+humanName: Parhelia 128 MB
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Matrox
+  Vendor: Matrox
+  Architecture: Parhelia
+  Lithography: 150 nm
+  DirectX Support: '8.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.3'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-03-30'
+  GPU Base Frequency: 250 MHz
+  VRAM Frequency: 300 MHz
+  VRAM Bandwidth: 19.20 GB/s
+  VRAM Capacity: 128 MiB
+  VRAM Type: DDR
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 16
+  Shader Processor Count: 0 
+  Die Size: 174 mm²
+  GPU: Parhelia-512
+  GPU Variant: PHF-D2
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 2x DVI
+  Power Connectors: None
+  Length: 175 mm
+  Pixel Shaders: 4
+  Market:
+    - Consumer

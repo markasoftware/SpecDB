@@ -1,0 +1,36 @@
+name: Quadro-FX-4600-SDI
+humanName: Quadro FX 4600 SDI
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 90 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1 (1.0)'
+  Release Date: '2007-03-05'
+  GPU Base Frequency: 500 MHz
+  VRAM Frequency: 700 MHz
+  VRAM Bandwidth: 67.20 GB/s
+  VRAM Capacity: 768 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 24
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 96 
+  Die Size: 484 mm²
+  GPU: G80
+  TDP: 154 W
+  FP32 Compute: 230.4 GFLOPS
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x 6-pin
+  Length: 229 mm
+  Width: 111 mm
+  Market:
+    - Workstation

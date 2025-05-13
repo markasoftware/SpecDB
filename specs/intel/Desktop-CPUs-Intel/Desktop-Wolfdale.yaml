@@ -1,0 +1,41 @@
+humanName: Wolfdale
+sections:
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-E6800
+      - Pentium-E6700
+      - Pentium-E6600
+      - Pentium-E6500K
+      - Pentium-E6500
+      - Pentium-E6300
+      - Pentium-E5800
+      - Pentium-E5700
+      - Pentium-E5500
+      - Pentium-E5400
+      - Pentium-E5300
+      - Pentium-E5200
+      - Pentium-E3500
+      - Pentium-E3400
+      - Pentium-E3300
+      - Pentium-E3200
+      - Core-E8600
+      - Core-E8500
+      - Core-E8400
+      - Core-E8300
+      - Core-E8200
+      - Core-E8190
+      - Core-E7600
+      - Core-E7500
+      - Core-E7400
+      - Core-E7300
+      - Core-E7200
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': '2008-01-20'
+  Sockets:
+    - LGA775
+name: Desktop-Wolfdale

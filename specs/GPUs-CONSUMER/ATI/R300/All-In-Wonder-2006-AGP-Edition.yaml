@@ -1,0 +1,33 @@
+name: All-In-Wonder-2006-AGP-Edition
+humanName: All-In-Wonder 2006 AGP Edition
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: R300
+  Lithography: 130 nm
+  DirectX Support: '9.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2005-04-29'
+  GPU Base Frequency: 324 MHz
+  VRAM Frequency: 196 MHz
+  VRAM Bandwidth: 6.272 GB/s
+  VRAM Capacity: 256 MiB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 76 mm²
+  GPU: RV350
+  GPU Variant: RV350 LE
+  TDP: unknown
+  Slot Width: Single-slot
+  Outputs: 1x VGA1x S-Video
+  Power Connectors: None
+  Pixel Shaders: 4
+  Market:
+    - Consumer

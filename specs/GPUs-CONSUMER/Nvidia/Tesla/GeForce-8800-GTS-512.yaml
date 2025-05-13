@@ -1,0 +1,36 @@
+name: GeForce-8800-GTS-512
+humanName: GeForce 8800 GTS 512
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2007-12-11'
+  GPU Base Frequency: 650 MHz
+  VRAM Frequency: 820 MHz
+  VRAM Bandwidth: 52.48 GB/s
+  VRAM Capacity: 512 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 128 
+  Die Size: 324 mm²
+  GPU: G92
+  GPU Variant: G92-400-A2
+  TDP: 135 W
+  FP32 Compute: 416.0 GFLOPS
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 1x 6-pin
+  Length: 254 mm
+  Market:
+    - Consumer

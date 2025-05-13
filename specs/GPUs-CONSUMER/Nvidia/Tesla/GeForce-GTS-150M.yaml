@@ -1,0 +1,33 @@
+name: GeForce-GTS-150M
+humanName: GeForce GTS 150M
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 65 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-03-03'
+  GPU Base Frequency: 400 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 51.20 GB/s
+  VRAM Capacity: 1024 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 64 
+  Die Size: 240 mm²
+  GPU: G94
+  GPU Variant: N10E-GE1
+  TDP: 45 W
+  FP32 Compute: 128.0 GFLOPS
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Market:
+    - Mobile

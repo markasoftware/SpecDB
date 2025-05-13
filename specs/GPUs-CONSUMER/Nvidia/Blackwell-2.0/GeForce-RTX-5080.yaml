@@ -1,0 +1,78 @@
+name: GeForce-RTX-5080
+humanName: GeForce RTX 5080
+isPart: true
+type: Graphics Card
+data:
+  Hardware Accelerated Encoding:
+    - H.264 (AVCHD) YUV 4:2:0
+    - H.264 (AVCHD) YUV 4:2:2
+    - H.264 (AVCHD) YUV 4:4:4
+    - H.264 (AVCHD) Lossless
+    - H.265 (HEVC) 4K YUV 4:2:0
+    - H.265 (HEVC) YUV 4:2:2
+    - H.265 (HEVC) 4K YUV 4:4:4
+    - H.265 (HEVC) 4K Lossless
+    - H.265 (HEVC) 8K
+    - HEVC 10-bit
+    - HEVC B Frame
+    - AV1 YUV 4:2:0
+  Hardware Accelerated Decoding:
+    - MPEG-1
+    - MPEG-2
+    - VC-1
+    - VP8
+    - VP9 4:2:0 8 Bit
+    - VP9 4:2:0 10 Bit
+    - VP9 4:2:0 12 Bit
+    - H.264 (AVCHD) 4:2:0 8 Bit
+    - H.264 (AVCHD) 4:2:0 10 Bit
+    - H.264 (AVCHD) 4:2:2 8 Bit
+    - H.264 (AVCHD) 4:2:2 10 Bit
+    - H.265 (HEVC) 4:2:0 8 Bit
+    - H.265 (HEVC) 4:2:0 10 Bit
+    - H.265 (HEVC) 4:2:0 12 Bit
+    - H.265 (HEVC) 4:2:2 8 Bit
+    - H.265 (HEVC) 4:2:2 10 Bit
+    - H.265 (HEVC) 4:4:4 8 Bit
+    - H.265 (HEVC) 4:4:4 10 Bit
+    - H.265 (HEVC) 4:4:4 12 Bit
+    - AV1 8 Bit
+    - AV1 10 Bit
+  Market:
+    - Consumer
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Blackwell 2.0
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '336'
+  Vulkan Support: '1.4'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2025-01-30'
+  GPU Base Frequency: 2295 MHz
+  GPU Boost Frequency: 2617 MHz
+  VRAM Frequency: 1875 MHz
+  VRAM Bandwidth: 960.0 GB/s
+  VRAM Capacity: 16 GiB
+  VRAM Type: GDDR7
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 112
+  Texture Mapping Unit Count: 336
+  Shader Processor Count: 10752 
+  Die Size: 378 mm²
+  GPU: GB203
+  GPU Variant: GB203-400-A1
+  TDP: 360 W
+  FP32 Compute: 56.28 TFLOPS
+  FP64 Compute: 879.3 GFLOPS (1:64)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x HDMI 2.1b
+    - 3x DisplayPort 2.1b
+  Power Connectors: 1x 16-pin
+  Length: 304 mm
+  Width: 137 mm
+  Height: 40 mm
+  Ray Tracing Cores: 84
+  Tensor Cores: 336

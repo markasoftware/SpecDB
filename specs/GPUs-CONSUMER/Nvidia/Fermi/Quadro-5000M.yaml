@@ -1,0 +1,33 @@
+name: Quadro-5000M
+humanName: Quadro 5000M
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2010-07-27'
+  GPU Base Frequency: 405 MHz
+  VRAM Frequency: 600 MHz
+  VRAM Bandwidth: 76.80 GB/s
+  VRAM Capacity: 2 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 40
+  Shader Processor Count: 320 
+  Die Size: 529 mm²
+  GPU: GF100
+  GPU Variant: N10E-GLM5-A3
+  TDP: 100 W
+  FP32 Compute: 518.4 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Market:
+    - Workstation

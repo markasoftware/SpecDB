@@ -1,0 +1,26 @@
+humanName: Lynnfield
+sections:
+  -
+    header: '8 Threads'
+    members:
+      - Core-i7-880
+      - Core-i7-875K
+      - Core-i7-870S
+      - Core-i7-870
+      - Core-i7-860S
+      - Core-i7-860
+  -
+    header: '4 Threads'
+    members:
+      - Core-i5-760
+      - Core-i5-750S
+      - Core-i5-750
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': '2009-09-08'
+  Sockets:
+    - LGA1156
+name: Desktop-Lynnfield

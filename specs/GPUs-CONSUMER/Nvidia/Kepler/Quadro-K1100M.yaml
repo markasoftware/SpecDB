@@ -1,0 +1,33 @@
+name: Quadro-K1100M
+humanName: Quadro K1100M
+isPart: true
+type: Graphics Card
+data:
+  Market: Workstation
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Kepler
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.2.175'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2013-07-23'
+  GPU Base Frequency: 706 MHz
+  GPU Boost Frequency: 706 MHz
+  VRAM Frequency: 700 MHz
+  VRAM Bandwidth: 44.80 GB/s
+  VRAM Capacity: 2 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 384 
+  Die Size: 118 mm²
+  GPU: GK107
+  TDP: 45 W
+  FP32 Compute: 542.2 GFLOPS
+  FP64 Compute: 22.59 GFLOPS (1:24)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None

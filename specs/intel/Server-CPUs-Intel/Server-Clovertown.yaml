@@ -1,0 +1,25 @@
+humanName: Clovertown
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-X5365
+      - Xeon-X5355
+      - Xeon-L5335
+      - Xeon-L5320
+      - Xeon-L5318
+      - Xeon-L5310
+      - Xeon-E5345
+      - Xeon-E5335
+      - Xeon-E5320
+      - Xeon-E5310
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '65 nm'
+  'Release Date': '2006-10-11'
+  Sockets:
+    - LGA771
+    - PLGA771
+name: Server-Clovertown

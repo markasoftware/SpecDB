@@ -1,0 +1,32 @@
+name: Radeon-HD-8650D-IGP
+humanName: Radeon HD 8650D IGP
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale 3
+  Lithography: 32 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2013-12-28'
+  GPU Base Frequency: 720 MHz
+  GPU Boost Frequency: 844 MHz
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 384 
+  Die Size: 246 mm²
+  GPU: Scrapper
+  TDP: 65 W
+  FP32 Compute: 648.2 GFLOPS
+  Slot Width: IGP
+  Outputs: Motherboard Dependent
+  Market:
+    - Consumer

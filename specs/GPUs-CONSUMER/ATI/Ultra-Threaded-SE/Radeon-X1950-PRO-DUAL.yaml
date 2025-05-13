@@ -1,0 +1,36 @@
+name: Radeon-X1950-PRO-DUAL
+humanName: Radeon X1950 PRO DUAL
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: Ultra-Threaded SE
+  Lithography: 80 nm
+  DirectX Support: '9.3'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.1 (full)'
+  OpenCL Support: 'N/A'
+  Release Date: '2007-01-10'
+  GPU Base Frequency: 575 MHz
+  VRAM Frequency: 690 MHz
+  VRAM Bandwidth: 44.16 GB/s
+  VRAM Capacity: 512 MiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 12
+  Texture Mapping Unit Count: 12
+  Shader Processor Count: 0 
+  Die Size: 230 mm²
+  GPU: RV570
+  GPU Variant: RV570 XT
+  TDP: 130 W
+  Slot Width: Single-slot
+  Outputs: 
+    - 2x DVI
+    - 1x S-Video
+  Power Connectors: 2x 6-pin
+  Length: 300 mm
+  Pixel Shaders: 36
+  Market:
+    - Workstation

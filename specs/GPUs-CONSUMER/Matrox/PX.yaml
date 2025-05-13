@@ -1,0 +1,15 @@
+name: PX 
+humanName: PX
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 90 nm
+  DirectX Support: '8.1'
+  Vulkan Support: 'N/A'
+  Release Date: 'Unknown'
+  Manufacturer: Matrox
+sections:
+  - header: WHOLE RANGE
+    members:
+    - M9125-PCIe-x16

@@ -1,0 +1,46 @@
+humanName: 'Westmere EP'
+sections:
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Xeon-X5690
+      - Xeon-X5680
+      - Xeon-X5675
+      - Xeon-X5670
+      - Xeon-X5660
+      - Xeon-X5650
+      - Xeon-W3680
+      - Xeon-W3670
+      - Xeon-L5640
+      - Xeon-L5638
+      - Xeon-E5649
+      - Xeon-E5645
+  -
+    header: '8 Threads'
+    members:
+      - Xeon-X5687
+      - Xeon-X5677
+      - Xeon-X5672
+      - Xeon-X5667
+      - Xeon-X5647
+      - Xeon-L5630
+      - Xeon-L5618
+      - Xeon-E5640
+      - Xeon-E5630
+      - Xeon-E5620
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-L5609
+      - Xeon-E5607
+      - Xeon-E5606
+      - Xeon-E5603
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '32 nm'
+  'Release Date': '2010-03-16'
+  Sockets:
+    - LGA1366
+name: Server-Westmere-EP

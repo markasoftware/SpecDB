@@ -1,0 +1,19 @@
+data:
+  Manufacturer: Intel
+  Architecture: Diamondville
+  Market: Mobile
+  Lithography: '45 nm'
+  TDP: '2.5 W'
+  'Core Count': 1
+  'Thread Count': 2
+  'Base Frequency': '1.66 GHz'
+  'L2 Cache (Total)': '512 KiB'
+  'Die Size': '26 mm'
+  'Release Date': 'Q1 2009'
+  Socket: PBGA437
+  'Other Extensions': {  }
+  AVX/SSE/MMX: false
+isPart: true
+type: CPU
+humanName: 'Atom N280'
+name: Atom-N280

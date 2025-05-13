@@ -1,0 +1,32 @@
+name: Radeon-HD-6550A
+humanName: Radeon HD 6550A
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: '2011-02-07'
+  GPU Base Frequency: 550 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 25.60 GB/s
+  VRAM Capacity: 2 GiB
+  VRAM Type: GDDR3
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 8
+  Texture Mapping Unit Count: 24
+  Shader Processor Count: 480 
+  Die Size: 104 mm²
+  GPU: Pinewood
+  GPU Variant: Pinewood PRO
+  TDP: 35 W
+  FP32 Compute: 528.0 GFLOPS
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Market:
+    - Mobile

@@ -1,0 +1,16 @@
+name: G500 
+humanName: G500
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 180 nm
+  DirectX Support: '8.0'
+  Vulkan Support: 'N/A'
+  Release Date: '2001-11-26'
+  Manufacturer: Matrox
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Millennium-G550
+    - Millennium-G550-PCIe

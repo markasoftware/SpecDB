@@ -1,0 +1,24 @@
+humanName: Dunnington
+sections:
+  -
+    header: '6 Threads'
+    members:
+      - Xeon-X7460
+      - Xeon-L7455
+      - Xeon-E7450
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-L7445
+      - Xeon-E7440
+      - Xeon-E7430
+      - Xeon-E7420
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '45 nm'
+  'Release Date': '2008-09-15'
+  Sockets:
+    - PGA604
+name: Server-Dunnington

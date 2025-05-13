@@ -1,0 +1,26 @@
+name: Parhelia 
+humanName: Parhelia
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 150 nm
+  DirectX Support: '8.1'
+  Vulkan Support: 'N/A'
+  Release Date: '2003'
+  Manufacturer: Matrox
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Millenium-P650
+    - Millenium-P650-LP-MDD-PCIe
+    - Millenium-P650-PCIe
+    - Millenium-P750
+    - Parhelia-128-MB
+    - Parhelia-256-MB
+    - Parhelia-DL256
+    - Parhelia-HR256
+    - Parhelia-PCI
+    - Parhelia-Precision-SDT
+    - Parhelia-Precision-SGT
+    - Parhelia-APVe

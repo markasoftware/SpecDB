@@ -1,0 +1,34 @@
+name: Radeon-RX-Vega-M-GH
+humanName: Radeon RX Vega M GH
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 4.0
+  Lithography: 14 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2018-02-01'
+  GPU Base Frequency: 1063 MHz
+  GPU Boost Frequency: 1190 MHz
+  VRAM Frequency: 800 MHz
+  VRAM Bandwidth: 204.8 GB/s
+  VRAM Capacity: 4 GiB
+  VRAM Type: HBM2
+  VRAM Bus Width: 1024 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 96
+  Shader Processor Count: 1536 
+  Die Size: 208 mm²
+  GPU: Polaris 22
+  GPU Variant: VegaM XT
+  TDP: 100 W
+  FP32 Compute: 3.656 TFLOPS
+  FP64 Compute: 228.5 GFLOPS (1:16)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Market:
+    - Mobile

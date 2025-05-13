@@ -1,0 +1,19 @@
+data:
+  Manufacturer: Intel
+  Architecture: Tigerton
+  Market: Server
+  Lithography: '65 nm'
+  TDP: '80 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Base Frequency': '2.4 GHz'
+  'L2 Cache (Total)': '8 MiB'
+  'Die Size': '286 mm'
+  'Release Date': 'Q3 2007'
+  Socket: PPGA604
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Xeon E7210'
+name: Xeon-E7210

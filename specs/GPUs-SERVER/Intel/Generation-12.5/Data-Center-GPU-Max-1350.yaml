@@ -1,0 +1,36 @@
+name: Data-Center-GPU-Max-1350
+humanName: Data Center GPU Max 1350
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Intel
+  Vendor: Intel
+  Architecture: Generation 12.5
+  Lithography: 10 nm
+  DirectX Support: '12.1'
+  HLSL Shader Model: '896'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2023-01-10'
+  GPU Base Frequency: 750 MHz
+  GPU Boost Frequency: 1550 MHz
+  VRAM Frequency: 1200 MHz
+  VRAM Bandwidth: 2,458 GB/s
+  VRAM Capacity: 96 GiB
+  VRAM Type: HBM2e
+  VRAM Bus Width: 8192 bit
+  Render Output Unit Count: 0
+  Texture Mapping Unit Count: 896
+  Shader Processor Count: 14336 
+  Die Size: 1280 mm²
+  GPU: Ponte Vecchio
+  TDP: 450 W
+  FP32 Compute: 44.44 TFLOPS
+  FP64 Compute: 44.44 TFLOPS (1:1)
+  Slot Width: OAM Module
+  Outputs: No outputs
+  Ray Tracing Cores: 112
+  Tensor Cores: 896
+  Market:
+    - Consumer

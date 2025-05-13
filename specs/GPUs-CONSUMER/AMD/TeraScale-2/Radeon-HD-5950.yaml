@@ -1,0 +1,38 @@
+name: Radeon-HD-5950
+humanName: Radeon HD 5950
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale 2
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Release Date: 'Never Released'
+  GPU Base Frequency: 725 MHz
+  VRAM Frequency: 1000 MHz
+  VRAM Bandwidth: 128.0 GB/s
+  VRAM Capacity: 1024 MiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 72
+  Shader Processor Count: 1440 
+  Die Size: 334 mm²
+  GPU: Hemlock
+  GPU Variant: Hemlock PRO
+  TDP: 302 W
+  FP32 Compute: 2.088 TFLOPS
+  Slot Width: Dual-slot
+  Outputs: 
+    - 2x DVI
+    - 1x HDMI 1.3a1x DisplayPort 1.1
+  Power Connectors: 1x 6-pin + 1x 8-pin
+  Length: 280 mm
+  Width: 111 mm
+  Height: 37 mm
+  Market:
+    - Consumer

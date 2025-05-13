@@ -1,0 +1,32 @@
+name: UHD-Graphics-64EU-Mobile
+humanName: UHD Graphics 64EU Mobile
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Intel
+  Vendor: Intel
+  Architecture: Generation 12.2
+  Lithography: 10 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2023-01-04'
+  GPU Base Frequency: 300 MHz
+  GPU Boost Frequency: 1250 MHz
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 512 
+  Die Size: unknown
+  GPU: Raptor Lake GT1
+  TDP: 15 W
+  FP32 Compute: 1,280 GFLOPS
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Market:
+    - Mobile

@@ -1,0 +1,31 @@
+humanName: 'Sandy Bridge EN'
+sections:
+  -
+    header: '9 - 16 Threads'
+    members:
+      - Xeon-E5-2470
+      - Xeon-E5-2450L
+      - Xeon-E5-2450
+      - Xeon-E5-2440
+      - Xeon-E5-2430L
+      - Xeon-E5-2430
+      - Xeon-E5-2420
+      - Xeon-E5-1428L
+  -
+    header: '4 Threads'
+    members:
+      - Xeon-E5-2407
+      - Xeon-E5-2403
+  -
+    header: '2 Threads'
+    members:
+      - Pentium-1405
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '32 nm'
+  'Release Date': '2012-05-14'
+  Sockets:
+    - LGA1356
+name: Server-Sandy-Bridge-EN

@@ -1,0 +1,16 @@
+data:
+  Manufacturer: Intel
+  Architecture: Penryn
+  Market: Mobile
+  Lithography: '45 nm'
+  TDP: '10 W'
+  'Core Count': 1
+  'Thread Count': 1
+  'Base Frequency': '1.4 GHz'
+  'L2 Cache (Total)': '1024 KiB'
+  'Die Size': '107 mm'
+  'Release Date': '2011-01-09'
+isPart: true
+type: CPU
+humanName: 'Pentium 763'
+name: Pentium-763

@@ -1,0 +1,33 @@
+name: Radeon-HD-8210-IGP
+humanName: Radeon HD 8210 IGP
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 2.0
+  Lithography: 28 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2014-01-31'
+  GPU Base Frequency: 300 MHz
+  VRAM Frequency: System Shared
+  VRAM Bandwidth: System Dependent
+  VRAM Capacity: System Shared
+  VRAM Type: System Shared
+  VRAM Bus Width: System Shared
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 8
+  Shader Processor Count: 128 
+  Die Size: 110 mm²
+  GPU: Kalindi
+  GPU Variant: Kalindi LP
+  TDP: 8 W
+  FP32 Compute: 76.80 GFLOPS
+  FP64 Compute: 4.800 GFLOPS (1:16)
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Market:
+    - Mobile

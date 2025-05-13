@@ -1,0 +1,53 @@
+name: Arc-B580
+humanName: ARC B580
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Intel
+  Vendor: Intel
+  Architecture: Xe2
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  HLSL Shader Model: '160'
+  Vulkan Support: '1.4'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2024-12-13'
+  GPU Base Frequency: 2670 MHz
+  GPU Boost Frequency: 2670 MHz
+  VRAM Frequency: 2375 MHz
+  VRAM Bandwidth: 456.0 GB/s
+  VRAM Capacity: 12 GiB
+  VRAM Type: GDDR6
+  VRAM Bus Width: 192 bit
+  Render Output Unit Count: 80
+  Texture Mapping Unit Count: 160
+  Shader Processor Count: 2560
+  Die Size: 272 mm²
+  GPU: BMG-G21
+  GPU Variant: SRPMF
+  TDP: 190 W
+  FP32 Compute: 13.67 TFLOPS
+  FP64 Compute: 1.709 TFLOPS (1:8)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 3x DisplayPort 2.1
+    - 1x HDMI 2.1a
+  Power Connectors: 1x 8-pin
+  Length: 272 mm
+  Width: 115 mm
+  Height: 45 mm
+  Ray Tracing Cores: 20
+  Tensor Cores: 160
+  Hardware Accelerated Encoding:
+    - HEVC
+    - AVC
+    - VP9
+    - XAVC-H
+  Hardware Accelerated Decoding:
+    - HEVC
+    - AVC
+    - VP9
+    - XAVC-H
+  Market:
+    - Consumer

@@ -1,0 +1,15 @@
+humanName: 'SoFIA LTE'
+sections:
+  -
+    header: '4 Threads'
+    members:
+      - Atom-x3-C3445
+      - Atom-x3-C3405
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '28 nm'
+  'Release Date': '2015-03-02'
+  Sockets: {  }
+name: Mobile-SoFIA-LTE

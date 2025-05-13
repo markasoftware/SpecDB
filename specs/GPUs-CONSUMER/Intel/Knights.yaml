@@ -1,0 +1,21 @@
+name: Knights 
+humanName: Knights
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 22 nm - 45 nm
+  DirectX Support: ''
+  Vulkan Support: 'N/A'
+  Release Date: '2010-05-31'
+  Manufacturer: Intel
+sections:
+  - header: WHOLE RANGE
+    members:
+    - Aubrey-Isle
+    - Xeon-Phi-3120A
+    - Xeon-Phi-5110P
+    - Xeon-Phi-5120D
+    - Xeon-Phi-7120P
+    - Xeon-Phi-7120X
+    - Xeon-Phi-SE10X

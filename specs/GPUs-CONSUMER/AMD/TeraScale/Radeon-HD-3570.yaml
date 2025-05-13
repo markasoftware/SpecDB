@@ -1,0 +1,33 @@
+name: Radeon-HD-3570
+humanName: Radeon HD 3570
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale
+  Lithography: 55 nm
+  DirectX Support: '10.1'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: 'N/A'
+  Release Date: '2010-07-05'
+  GPU Base Frequency: 796 MHz
+  VRAM Frequency: 495 MHz
+  VRAM Bandwidth: 7.920 GB/s
+  VRAM Capacity: 512 MiB
+  VRAM Type: DDR2
+  VRAM Bus Width: 64 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 40 
+  Die Size: 67 mm²
+  GPU: RV620
+  GPU Variant: RV620 PRO
+  TDP: 30 W
+  FP32 Compute: 63.68 GFLOPS
+  Slot Width: Single-slot
+  Outputs: 2x DisplayPort
+  Power Connectors: None
+  Market:
+    - Consumer

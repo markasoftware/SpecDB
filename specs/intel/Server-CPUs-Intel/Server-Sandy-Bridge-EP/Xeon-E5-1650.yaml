@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Sandy Bridge EP'
+  Market: Server
+  Lithography: '32 nm'
+  TDP: '130 W'
+  'Core Count': 6
+  'Thread Count': 12
+  'Max Memory Channels': 4
+  'Max Memory Frequency': '1600 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '3.2 GHz'
+  'Boost Frequency': '3.8 GHz'
+  'L2 Cache (Total)': '12 MiB'
+  'Release Date': '2012-03-06'
+  Socket: FCLGA2011
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: false
+isPart: true
+type: CPU
+humanName: 'Xeon E5-1650'
+name: Xeon-E5-1650

@@ -1,0 +1,33 @@
+name: Radeon-R9-M380
+humanName: Radeon R9 M380
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 2.0
+  Lithography: 28 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.2.170'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2015-05-05'
+  GPU Base Frequency: 900 MHz
+  GPU Boost Frequency: 1000 MHz
+  VRAM Frequency: 1500 MHz
+  VRAM Bandwidth: 96.00 GB/s
+  VRAM Capacity: 4 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 48
+  Shader Processor Count: 768 
+  Die Size: 160 mm²
+  GPU: Strato
+  GPU Variant: Strato PRO
+  TDP: unknown
+  FP32 Compute: 1.536 TFLOPS
+  FP64 Compute: 96.00 GFLOPS (1:16)
+  Outputs: Portable Device Dependent
+  Market:
+    - Mobile

@@ -1,0 +1,22 @@
+name: GPUs-CONSOLE-AMD
+humanName: Console GPUs
+type: Generic Container
+isPart: false
+topHeader: 'SELECT SERIES:'
+data:
+  Manufacturer: AMD
+sections:
+  - header: RDNA
+    members:
+      - RDNA-2.0-Console
+      - RDNA-3.0-Console
+  - header: GCN
+    members:
+      - GCN-1.0-Console
+      - GCN-2.0-Console
+      - GCN-5.0-Console
+  - header: TeraScale
+    members:
+      - TeraScale-Console
+      - TeraScale-2-Console
+

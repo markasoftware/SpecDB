@@ -1,0 +1,24 @@
+data:
+  Manufacturer: Intel
+  Architecture: 'Westmere EX'
+  Market: Server
+  Lithography: '32 nm'
+  TDP: '130 W'
+  'Core Count': 10
+  'Thread Count': 20
+  'Max Memory Channels': 4
+  'Max Memory Frequency': '1333 MHz'
+  'Memory Type': DDR3
+  'Base Frequency': '2.26 GHz'
+  'Boost Frequency': '2.666 GHz'
+  'L2 Cache (Total)': '24 MiB'
+  'Release Date': '2011-04-05'
+  Socket: LGA1567
+  AES: true
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: 'SSE 4.2'
+isPart: true
+type: CPU
+humanName: 'Xeon E7-8860'
+name: Xeon-E7-8860

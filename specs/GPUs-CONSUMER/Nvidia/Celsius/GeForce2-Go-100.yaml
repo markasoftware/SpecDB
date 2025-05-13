@@ -1,0 +1,32 @@
+name: GeForce2-Go-100
+humanName: GeForce2 Go 100
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Celsius
+  Lithography: 180 nm
+  DirectX Support: '7.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '1.2'
+  OpenCL Support: 'N/A'
+  Release Date: '2001-02-06'
+  GPU Base Frequency: 125 MHz
+  VRAM Frequency: 166 MHz
+  VRAM Bandwidth: 1.328 GB/s
+  VRAM Capacity: 16 MiB
+  VRAM Type: DDR
+  VRAM Bus Width: 32 bit
+  Render Output Unit Count: 2
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 64 mm²
+  GPU: NV11B
+  TDP: 2 W
+  Slot Width: IGP
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Pixel Shaders: 2
+  Market:
+    - Mobile

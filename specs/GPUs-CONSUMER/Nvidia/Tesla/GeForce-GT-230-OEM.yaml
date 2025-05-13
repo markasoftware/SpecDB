@@ -1,0 +1,31 @@
+name: GeForce-GT-230-OEM
+humanName: GeForce GT 230 OEM
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Tesla
+  Lithography: 55 nm
+  DirectX Support: '10.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '3.3'
+  OpenCL Support: '1.1'
+  Release Date: '2009-04-27'
+  GPU Base Frequency: 500 MHz
+  VRAM Frequency: 500 MHz
+  VRAM Bandwidth: 24.00 GB/s
+  VRAM Capacity: 1536 MiB
+  VRAM Type: DDR2
+  VRAM Bus Width: 192 bit
+  Render Output Unit Count: 12
+  Texture Mapping Unit Count: 48
+  Shader Processor Count: 96 
+  Die Size: 260 mm²
+  GPU: G92B
+  GPU Variant: G92-159-B1
+  TDP: 75 W
+  FP32 Compute: 240.0 GFLOPS
+  Slot Width: Single-slot
+  Outputs: No outputs
+  Power Connectors: None

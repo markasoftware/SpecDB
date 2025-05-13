@@ -1,0 +1,43 @@
+name: Blackwell-2.0 
+humanName: Blackwell 2.0
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 5 nm
+  DirectX Support: '12.2'
+  Vulkan Support: '1.4'
+  Release Date: '2025'
+  Manufacturer: Nvidia
+sections:
+  - header: Main RTX Range (Consumer)
+    members:
+    - GeForce-RTX-5090-D
+    - GeForce-RTX-5090
+    - GeForce-RTX-5080
+    - GeForce-RTX-5070-Ti
+    - GeForce-RTX-5070
+    - GeForce-RTX-5060-Ti
+    - GeForce-RTX-5060
+    - GeForce-RTX-5050
+  - header: RTX Mobile
+    members:
+    - GeForce-RTX-5090-Mobile
+    - GeForce-RTX-5080-Mobile
+    - GeForce-RTX-5070-Ti-Mobile
+    - GeForce-RTX-5070-Mobile
+    - GeForce-RTX-5060-Mobile
+    - GeForce-RTX-5050-Mobile
+  - header: PRO
+    members:
+    - RTX-PRO-500-Blackwell-Mobile
+    - RTX-PRO-1000-Blackwell-Mobile
+    - RTX-PRO-2000-Blackwell-Mobile
+    - RTX-PRO-3000-Blackwell-Mobile
+    - RTX-PRO-4000-Blackwell
+    - RTX-PRO-4000-Blackwell-Mobile
+    - RTX-PRO-4500-Blackwell
+    - RTX-PRO-5000-Blackwell
+    - RTX-PRO-5000-Blackwell-Mobile
+    - RTX-PRO-6000-Blackwell
+    - RTX-PRO-6000-Blackwell-Max-Q

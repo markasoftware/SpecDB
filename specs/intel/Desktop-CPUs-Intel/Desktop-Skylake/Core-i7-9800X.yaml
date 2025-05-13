@@ -1,0 +1,22 @@
+data:
+  Manufacturer: Intel
+  Architecture: Skylake
+  Market: Desktop
+  Lithography: '14 nm'
+  TDP: '165 W'
+  'Core Count': 8
+  'Thread Count': 16
+  'Max Memory Channels': 4
+  'Max Memory Frequency': '2666 MHz'
+  'Memory Type': DDR4
+  'Base Frequency': '3.8 GHz'
+  'Boost Frequency': '4.4 GHz'
+  'L2 Cache (Total)': '16.5 MiB'
+  'Release Date': '2018-10-08'
+  Socket: FCLGA2066
+  AES: true
+  AVX/SSE/MMX: AVX-512
+isPart: true
+type: CPU
+humanName: 'Core i7-9800X'
+name: Core-i7-9800X

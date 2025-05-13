@@ -1,0 +1,31 @@
+name: Mobility-Radeon-9700
+humanName: Mobility Radeon 9700
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: ATI
+  Vendor: ATI
+  Architecture: R300
+  Lithography: 130 nm
+  DirectX Support: '9.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '2.0'
+  OpenCL Support: 'N/A'
+  Release Date: '2004-06-01'
+  GPU Base Frequency: 450 MHz
+  VRAM Frequency: 275 MHz
+  VRAM Bandwidth: 8.800 GB/s
+  VRAM Capacity: 64 MiB
+  VRAM Type: DDR
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 4
+  Texture Mapping Unit Count: 4
+  Shader Processor Count: 0 
+  Die Size: 92 mm²
+  GPU: M11
+  GPU Variant: M11 P
+  TDP: unknown
+  Outputs: Portable Device Dependent
+  Pixel Shaders: 4
+  Market:
+    - Mobile

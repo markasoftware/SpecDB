@@ -1,0 +1,23 @@
+data:
+  Manufacturer: Intel
+  Architecture: Pineview
+  Market: Mobile
+  Lithography: '45 nm'
+  TDP: '5.5 W'
+  'Core Count': 1
+  'Thread Count': 2
+  'Max Memory Channels': 1
+  'Max Memory Frequency': '667 MHz'
+  'Memory Type': DDR2
+  'Base Frequency': '1.66 GHz'
+  'L2 Cache (Total)': '512 KiB'
+  'Die Size': '66 mm'
+  'Release Date': 'Q1 2010'
+  Socket: FCBGA559
+  'Other Extensions':
+    - x86-64
+  AVX/SSE/MMX: false
+isPart: true
+type: CPU
+humanName: 'Atom N450'
+name: Atom-N450

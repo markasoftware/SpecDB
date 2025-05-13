@@ -1,0 +1,35 @@
+name: GeForce-GT-750M
+humanName: GeForce GT 750M
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Kepler
+  Lithography: 28 nm
+  DirectX Support: '11.0'
+  Vulkan Support: '1.2.175'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2013-01-09'
+  GPU Base Frequency: 941 MHz
+  GPU Boost Frequency: 967 MHz
+  VRAM Frequency: 1003 MHz
+  VRAM Bandwidth: 64.19 GB/s
+  VRAM Capacity: 2 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 128 bit
+  Render Output Unit Count: 16
+  Texture Mapping Unit Count: 32
+  Shader Processor Count: 384 
+  Die Size: 118 mm²
+  GPU: GK107
+  GPU Variant: N14P-GT
+  TDP: 50 W
+  FP32 Compute: 742.7 GFLOPS
+  FP64 Compute: 30.94 GFLOPS (1:24)
+  Slot Width: MXM Module
+  Outputs: Portable Device Dependent
+  Power Connectors: None
+  Market:
+    - Mobile

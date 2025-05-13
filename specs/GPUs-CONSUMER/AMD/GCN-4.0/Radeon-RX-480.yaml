@@ -1,0 +1,40 @@
+name: Radeon-RX-480
+humanName: Radeon RX 480
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: GCN 4.0
+  Lithography: 14 nm
+  DirectX Support: '12.0'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '2.1'
+  Release Date: '2016-06-29'
+  GPU Base Frequency: 1120 MHz
+  GPU Boost Frequency: 1266 MHz
+  VRAM Frequency: 2000 MHz
+  VRAM Bandwidth: 256.0 GB/s
+  VRAM Capacity: 8 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 32
+  Texture Mapping Unit Count: 144
+  Shader Processor Count: 2304 
+  Die Size: 232 mm²
+  GPU: Ellesmere
+  GPU Variant: Polaris 10 XT
+  TDP: 150 W
+  FP32 Compute: 5.834 TFLOPS
+  FP64 Compute: 364.6 GFLOPS (1:16)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x HDMI 2.0b
+    - 3x DisplayPort 1.4a
+  Power Connectors: 1x 6-pin
+  Length: 240 mm
+  Width: 95 mm
+  Height: 35 mm
+  Market:
+    - Consumer

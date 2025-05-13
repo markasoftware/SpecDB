@@ -1,0 +1,39 @@
+name: GeForce-GTX-590
+humanName: GeForce GTX 590
+isPart: true
+type: Graphics Card
+data:
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Fermi 2.0
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.6'
+  OpenCL Support: '1.1'
+  Release Date: '2011-03-24'
+  GPU Base Frequency: 608 MHz
+  VRAM Frequency: 854 MHz
+  VRAM Bandwidth: 164.0 GB/s
+  VRAM Capacity: 1536 MiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 384 bit
+  Render Output Unit Count: 48
+  Texture Mapping Unit Count: 64
+  Shader Processor Count: 512 
+  Die Size: 520 mm²
+  GPU: GF110
+  GPU Variant: GF110-351-A1
+  TDP: 365 W
+  FP32 Compute: 1,244 GFLOPS
+  FP64 Compute: 155.5 GFLOPS (1:8)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 3x DVI
+    - 1x mini-DisplayPort
+  Power Connectors: 2x 8-pin
+  Length: 279 mm
+  Width: 111 mm
+  Height: 40 mm
+  Market:
+    - Consumer

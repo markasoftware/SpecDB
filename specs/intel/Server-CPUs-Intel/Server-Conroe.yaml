@@ -1,0 +1,20 @@
+humanName: Conroe
+sections:
+  -
+    header: '2 Threads'
+    members:
+      - Xeon-3070
+      - Xeon-3065
+      - Xeon-3060
+      - Xeon-3050
+      - Xeon-3040
+type: 'CPU Architecture'
+topHeader: 'SELECT CPU:'
+data:
+  Manufacturer: Intel
+  Lithography: '65 nm'
+  'Release Date': '2007-11-12'
+  Sockets:
+    - LGA775
+    - PLGA775
+name: Server-Conroe

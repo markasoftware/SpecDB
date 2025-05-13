@@ -1,0 +1,12 @@
+name: GPUs-CONSUMER-POWERVR
+humanName: Consumer GPUs
+type: Generic Container
+isPart: false
+topHeader: 'SELECT SERIES:'
+data:
+  Manufacturer: PowerVR
+sections:
+  - header: Uncategorised
+    members:
+      - PowerVR-Series5XT
+      

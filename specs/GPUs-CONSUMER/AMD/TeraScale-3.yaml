@@ -1,0 +1,50 @@
+name: TeraScale-3 
+humanName: TeraScale 3
+type: Graphics Architecture
+isPart: false
+topHeader: 'SELECT CARD:'
+data:
+  Lithography: 34-40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  Release Date: '2010-12-14'
+  Manufacturer: AMD
+sections:
+  - header: WHOLE RANGE
+    members:
+    - FirePro-A300
+    - FirePro-A320
+    - FirePro-V5900
+    - FirePro-V7900
+    - FirePro-V7900-SDI
+    - Radeon-HD-6930
+    - Radeon-HD-6950
+    - Radeon-HD-6970
+    - Radeon-HD-6970-X2
+    - Radeon-HD-6990
+    - Radeon-HD-7400G-IGP
+    - Radeon-HD-7420G-IGP
+    - Radeon-HD-7480D-IGP
+    - Radeon-HD-7500G-IGP
+    - Radeon-HD-7520G-IGP
+    - Radeon-HD-7540D-IGP
+    - Radeon-HD-7560G-IGP
+    - Radeon-HD-7600G-IGP
+    - Radeon-HD-7620G-IGP
+    - Radeon-HD-7640G-IGP
+    - Radeon-HD-7660D-IGP
+    - Radeon-HD-7660G-IGP
+    - Radeon-HD-8310G-IGP
+    - Radeon-HD-8350G-IGP
+    - Radeon-HD-8370D-IGP
+    - Radeon-HD-8410G-IGP
+    - Radeon-HD-8450G-IGP
+    - Radeon-HD-8470D-IGP
+    - Radeon-HD-8550D-IGP
+    - Radeon-HD-8550G-IGP
+    - Radeon-HD-8570D-IGP
+    - Radeon-HD-8610G-IGP
+    - Radeon-HD-8650D-IGP
+    - Radeon-HD-8650G-IGP
+    - Radeon-HD-7560D-IGP
+    - Radeon-HD-8510G-IGP

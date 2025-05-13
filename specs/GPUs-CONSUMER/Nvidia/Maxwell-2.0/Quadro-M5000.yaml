@@ -1,0 +1,49 @@
+name: Quadro-M5000
+humanName: Quadro M5000
+isPart: true
+type: Graphics Card
+data:
+  Hardware Accelerated Encoding:
+    - H.264 (AVCHD) YUV 4:2:0
+    - H.264 (AVCHD) YUV 4:4:4
+    - H.264 (AVCHD) Lossless
+    - H.265 (HEVC) 4K YUV 4:2:0
+  Hardware Accelerated Decoding:
+    - MPEG-1
+    - MPEG-2
+    - VC-1
+    - VP8
+    - H.264 (AVCHD) 4:2:0 8 Bit
+  Market: Workstation
+  Manufacturer: Nvidia
+  Vendor: Nvidia
+  Architecture: Maxwell 2.0
+  Lithography: 28 nm
+  DirectX Support: '12.1'
+  Vulkan Support: '1.3'
+  OpenGL Support: '4.6'
+  OpenCL Support: '3.0'
+  Release Date: '2015-06-29'
+  GPU Base Frequency: 861 MHz
+  GPU Boost Frequency: 1038 MHz
+  VRAM Frequency: 1653 MHz
+  VRAM Bandwidth: 211.6 GB/s
+  VRAM Capacity: 8 GiB
+  VRAM Type: GDDR5
+  VRAM Bus Width: 256 bit
+  Render Output Unit Count: 64
+  Texture Mapping Unit Count: 128
+  Shader Processor Count: 2048 
+  Die Size: 398 mm²
+  GPU: GM204
+  GPU Variant: GM204-875-A1
+  TDP: 150 W
+  FP32 Compute: 4.252 TFLOPS
+  FP64 Compute: 132.9 GFLOPS (1:32)
+  Slot Width: Dual-slot
+  Outputs: 
+    - 1x DVI
+    - 4x DisplayPort 1.2
+  Power Connectors: 1x 6-pin
+  Length: 267 mm
+  Width: 111 mm

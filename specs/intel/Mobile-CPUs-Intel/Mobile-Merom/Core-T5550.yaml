@@ -1,0 +1,18 @@
+data:
+  Manufacturer: Intel
+  Architecture: Merom
+  Market: Mobile
+  Lithography: '65 nm'
+  TDP: '35 W'
+  'Core Count': 2
+  'Thread Count': 2
+  'Base Frequency': '1.83 GHz'
+  'L2 Cache (Total)': '2 MiB'
+  'Die Size': '143 mm'
+  Socket: PPGA478
+  'Other Extensions':
+    - x86-64
+isPart: true
+type: CPU
+humanName: 'Core T5550'
+name: Core-T5550
