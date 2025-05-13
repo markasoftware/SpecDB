@@ -24,7 +24,6 @@ data:
   Die Size: 240 mm²
   GPU: G94
   GPU Variant: G94-300-A1
-  TDP: unknown
   FP32 Compute: 120.0 GFLOPS
   Slot Width: Single-slot
   Outputs: 

@@ -7,7 +7,6 @@ data:
   Lithography: 90 nm
   DirectX Support: '8.1'
   Vulkan Support: 'N/A'
-  Release Date: 'Unknown'
   Manufacturer: Matrox
 sections:
   - header: WHOLE RANGE

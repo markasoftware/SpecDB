@@ -7,7 +7,6 @@ data:
   Lithography: 12 nm
   DirectX Support: '12.2'
   Vulkan Support: '1.4'
-  Release Date: 'Unknown'
   Manufacturer: Moore-Threads
 sections:
   - header: WHOLE RANGE

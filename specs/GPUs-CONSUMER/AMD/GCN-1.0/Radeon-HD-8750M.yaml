@@ -24,7 +24,6 @@ data:
   Die Size: 77 mm²
   GPU: Mars
   GPU Variant: Mars M2 PRO/LP
-  TDP: unknown
   FP32 Compute: 514.6 GFLOPS
   FP64 Compute: 32.16 GFLOPS (1:16)
   Outputs: Portable Device Dependent

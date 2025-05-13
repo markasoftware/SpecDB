@@ -24,7 +24,6 @@ data:
   Die Size: 166 mm²
   GPU: Juniper
   GPU Variant: Juniper XT
-  TDP: unknown
   FP32 Compute: 1,360 GFLOPS
   Slot Width: Dual-slot
   Outputs: 

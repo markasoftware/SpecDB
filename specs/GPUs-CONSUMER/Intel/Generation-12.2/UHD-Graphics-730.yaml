@@ -22,7 +22,6 @@ data:
   Render Output Unit Count: 8
   Texture Mapping Unit Count: 12
   Shader Processor Count: 192 
-  Die Size: unknown
   GPU: Alder Lake GT1
   TDP: 15 W
   FP32 Compute: 537.6 GFLOPS

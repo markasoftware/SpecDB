@@ -22,7 +22,6 @@ data:
   Render Output Unit Count: 3
   Texture Mapping Unit Count: 24
   Shader Processor Count: 192 
-  Die Size: unknown
   GPU: Broadwell GT2
   TDP: 15 W
   FP32 Compute: 326.4 GFLOPS

@@ -23,7 +23,6 @@ data:
   Render Output Unit Count: 64
   Texture Mapping Unit Count: 144
   Shader Processor Count: 2304 
-  Die Size: unknown
   GPU: Navi 12
   GPU Variant: Navi 12 GLXL
   TDP: 225 W

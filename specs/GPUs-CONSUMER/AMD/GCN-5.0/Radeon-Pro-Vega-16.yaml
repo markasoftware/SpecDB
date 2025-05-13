@@ -23,7 +23,6 @@ data:
   Render Output Unit Count: 32
   Texture Mapping Unit Count: 64
   Shader Processor Count: 1024 
-  Die Size: unknown
   GPU: Vega 12
   GPU Variant: Vega 12 XLA
   TDP: 75 W

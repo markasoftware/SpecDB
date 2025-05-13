@@ -25,7 +25,6 @@ data:
   Die Size: 160 mm²
   GPU: Strato
   GPU Variant: Strato PRO
-  TDP: unknown
   FP32 Compute: 1.568 TFLOPS
   FP64 Compute: 98.02 GFLOPS (1:16)
   Outputs: Portable Device Dependent

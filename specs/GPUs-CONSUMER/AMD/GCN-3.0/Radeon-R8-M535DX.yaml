@@ -25,7 +25,6 @@ data:
   Die Size: 125 mm²
   GPU: Meso
   GPU Variant: Meso PRO
-  TDP: unknown
   FP32 Compute: 570.2 GFLOPS
   FP64 Compute: 35.64 GFLOPS (1:16)
   Slot Width: IGP

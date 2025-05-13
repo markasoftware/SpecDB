@@ -25,7 +25,6 @@ data:
   Die Size: 228 mm²
   GPU: GM206S
   GPU Variant: 950 OEM
-  TDP: unknown
   FP32 Compute: 2.464 TFLOPS
   FP64 Compute: 76.99 GFLOPS (1:32)
   Slot Width: Dual-slot

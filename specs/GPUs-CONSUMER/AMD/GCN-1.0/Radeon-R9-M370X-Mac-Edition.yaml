@@ -25,7 +25,6 @@ data:
   Die Size: 123 mm²
   GPU: Tropo
   GPU Variant: Tropo XT
-  TDP: unknown
   FP32 Compute: 1,024 GFLOPS
   FP64 Compute: 64.00 GFLOPS (1:16)
   Outputs: Portable Device Dependent

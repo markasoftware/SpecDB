@@ -24,7 +24,6 @@ data:
   Die Size: 67 mm²
   GPU: Seymour
   GPU Variant: Seymour XTX M2
-  TDP: unknown
   FP32 Compute: 240.0 GFLOPS
   Outputs: Portable Device Dependent
   Market:

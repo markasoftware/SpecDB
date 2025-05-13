@@ -25,7 +25,6 @@ data:
   Die Size: 160 mm²
   GPU: Saturn
   GPU Variant: Saturn XT
-  TDP: unknown
   FP32 Compute: 1.792 TFLOPS
   FP64 Compute: 112.0 GFLOPS (1:16)
   Outputs: Portable Device Dependent

@@ -24,7 +24,6 @@ data:
   Shader Processor Count: 384 
   Die Size: 77 mm²
   GPU: Opal
-  TDP: unknown
   FP32 Compute: 549.1 GFLOPS
   FP64 Compute: 34.32 GFLOPS (1:16)
   Slot Width: MXM Module

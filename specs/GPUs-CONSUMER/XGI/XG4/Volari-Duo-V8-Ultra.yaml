@@ -21,10 +21,8 @@ data:
   Render Output Unit Count: 4
   Texture Mapping Unit Count: 8
   Shader Processor Count: 0 
-  Die Size: unknown
   GPU: XG40
   GPU Variant: Volari V8 Ultra
-  TDP: unknown
   Slot Width: Single-slot
   Outputs: 
     - 1x DVI

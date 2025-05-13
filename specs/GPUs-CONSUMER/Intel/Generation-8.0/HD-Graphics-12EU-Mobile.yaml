@@ -21,7 +21,6 @@ data:
   Render Output Unit Count: 2
   Texture Mapping Unit Count: 12
   Shader Processor Count: 96 
-  Die Size: unknown
   GPU: Braswell GT1
   TDP: 6 W
   FP32 Compute: 96.00 GFLOPS

@@ -22,7 +22,6 @@ data:
   Render Output Unit Count: 8
   Texture Mapping Unit Count: 24
   Shader Processor Count: 384 
-  Die Size: unknown
   GPU: Ice Lake GT1
   TDP: 15 W
   FP32 Compute: 806.4 GFLOPS

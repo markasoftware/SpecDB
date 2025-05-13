@@ -22,7 +22,6 @@ data:
   Render Output Unit Count: 3
   Texture Mapping Unit Count: 18
   Shader Processor Count: 144 
-  Die Size: unknown
   GPU: Gemini Lake GT1.5
   TDP: 5 W
   FP32 Compute: 216.0 GFLOPS

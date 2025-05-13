@@ -25,7 +25,6 @@ data:
   Die Size: 125 mm²
   GPU: Topaz
   GPU Variant: Topaz PRO
-  TDP: unknown
   FP32 Compute: 721.9 GFLOPS
   Outputs: Portable Device Dependent
   Market:

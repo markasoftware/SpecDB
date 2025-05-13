@@ -23,7 +23,6 @@ data:
   Shader Processor Count: 120 
   Die Size: 153 mm²
   GPU: RV630
-  TDP: unknown
   FP32 Compute: 192.0 GFLOPS
   Slot Width: Dual-slot
   Outputs: 

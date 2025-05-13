@@ -25,7 +25,6 @@ data:
   Shader Processor Count: 640 
   Die Size: 148 mm²
   GPU: GM107
-  TDP: unknown
   FP32 Compute: 1.672 TFLOPS
   FP64 Compute: 52.24 GFLOPS (1:32)
   Slot Width: Dual-slot

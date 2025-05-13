@@ -22,7 +22,6 @@ data:
   Render Output Unit Count: 8
   Texture Mapping Unit Count: 32
   Shader Processor Count: 512 
-  Die Size: unknown
   GPU: Lakefield GT2
   TDP: 15 W
   FP32 Compute: 512.0 GFLOPS

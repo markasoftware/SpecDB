@@ -26,7 +26,6 @@ data:
   Shader Processor Count: 2048 
   Die Size: 233 mm²
   GPU: Strix Point
-  TDP: unknown
   FP32 Compute: 9.564 TFLOPS
   FP64 Compute: 298.9 GFLOPS (1:32)
   Slot Width: IGP

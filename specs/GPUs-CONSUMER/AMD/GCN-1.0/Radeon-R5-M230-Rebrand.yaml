@@ -25,7 +25,6 @@ data:
   Die Size: 56 mm²
   GPU: Sun
   GPU Variant: Sun S3 UL
-  TDP: unknown
   FP32 Compute: 528.0 GFLOPS
   FP64 Compute: 33.00 GFLOPS (1:16)
   Outputs: Portable Device Dependent

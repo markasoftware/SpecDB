@@ -24,7 +24,6 @@ data:
   Render Output Unit Count: 32
   Texture Mapping Unit Count: 64
   Shader Processor Count: 2048 
-  Die Size: unknown
   GPU: GA10B
   TDP: 60 W
   FP32 Compute: 5.325 TFLOPS

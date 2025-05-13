@@ -21,7 +21,6 @@ data:
   Render Output Unit Count: 1
   Texture Mapping Unit Count: 4
   Shader Processor Count: 32 
-  Die Size: unknown
   GPU: Cedarview
   TDP: 13 W
   FP32 Compute: 40.96 GFLOPS

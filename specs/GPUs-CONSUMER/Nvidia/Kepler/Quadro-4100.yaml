@@ -12,7 +12,6 @@ data:
   Vulkan Support: '1.2.175'
   OpenGL Support: '4.6'
   OpenCL Support: '3.0'
-  Release Date: 'Unknown'
   GPU Base Frequency: 797 MHz
   VRAM Frequency: 891 MHz
   VRAM Bandwidth: 57.02 GB/s

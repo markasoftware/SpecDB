@@ -25,7 +25,6 @@ data:
   Die Size: 77 mm²
   GPU: Opal
   GPU Variant: Opal PRO
-  TDP: unknown
   FP32 Compute: 549.1 GFLOPS
   Outputs: Portable Device Dependent
   Power Connectors: None

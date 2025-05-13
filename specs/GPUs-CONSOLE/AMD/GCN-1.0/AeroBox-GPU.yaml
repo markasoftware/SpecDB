@@ -22,7 +22,6 @@ data:
   Render Output Unit Count: 16
   Texture Mapping Unit Count: 56
   Shader Processor Count: 896 
-  Die Size: unknown
   GPU: Kryptos
   TDP: 100 W
   FP32 Compute: 1.765 TFLOPS

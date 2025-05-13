@@ -24,7 +24,6 @@ data:
   Die Size: 596 mm²
   GPU: Capsaicin
   GPU Variant: Capsaicin XT C9
-  TDP: unknown
   FP32 Compute: 8.602 TFLOPS
   Slot Width: Dual-slot
   Outputs: 1x HDMI 1.4a3x DisplayPort 1.2

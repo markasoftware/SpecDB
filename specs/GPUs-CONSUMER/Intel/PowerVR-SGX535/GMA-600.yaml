@@ -23,7 +23,6 @@ data:
   Shader Processor Count: 32 
   Die Size: 62 mm²
   GPU: Lincroft
-  TDP: unknown
   FP32 Compute: 25.60 GFLOPS
   Slot Width: IGP
   Outputs: Portable Device Dependent

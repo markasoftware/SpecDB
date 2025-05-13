@@ -24,7 +24,6 @@ data:
   Die Size: 85 mm²
   GPU: M74
   GPU Variant: M74-M
-  TDP: unknown
   FP32 Compute: 52.00 GFLOPS
   Outputs: Portable Device Dependent
   Market:

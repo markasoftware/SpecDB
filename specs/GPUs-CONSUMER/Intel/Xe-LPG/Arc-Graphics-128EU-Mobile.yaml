@@ -22,7 +22,6 @@ data:
   Render Output Unit Count: 32
   Texture Mapping Unit Count: 64
   Shader Processor Count: 1024 
-  Die Size: unknown
   GPU: Meteor Lake GT1
   TDP: 28 W
   FP32 Compute: 4.608 TFLOPS

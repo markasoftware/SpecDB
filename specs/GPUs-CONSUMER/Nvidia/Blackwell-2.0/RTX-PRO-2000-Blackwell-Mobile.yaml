@@ -15,7 +15,6 @@ data:
   Vulkan Support: '1.4'
   OpenGL Support: '4.6'
   OpenCL Support: '3.0'
-  Release Date: 'Unknown'
   GPU Base Frequency: 952 MHz
   GPU Boost Frequency: 1455 MHz
   VRAM Frequency: 1750 MHz

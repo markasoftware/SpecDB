@@ -25,7 +25,6 @@ data:
   Die Size: 123 mm²
   GPU: Venus
   GPU Variant: Venus XT
-  TDP: unknown
   FP32 Compute: 992.0 GFLOPS
   FP64 Compute: 62.00 GFLOPS (1:16)
   Outputs: Portable Device Dependent

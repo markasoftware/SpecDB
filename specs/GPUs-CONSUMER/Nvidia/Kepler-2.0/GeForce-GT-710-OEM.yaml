@@ -23,7 +23,6 @@ data:
   Shader Processor Count: 192 
   Die Size: 87 mm²
   GPU: GK208B
-  TDP: unknown
   FP32 Compute: 306.0 GFLOPS
   FP64 Compute: 12.75 GFLOPS (1:24)
   Slot Width: Single-slot

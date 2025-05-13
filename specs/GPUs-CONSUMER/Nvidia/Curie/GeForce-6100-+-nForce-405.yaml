@@ -21,10 +21,8 @@ data:
   Render Output Unit Count: 1
   Texture Mapping Unit Count: 1
   Shader Processor Count: 0 
-  Die Size: unknown
   GPU: C61
   GPU Variant: NF-6100-405-N-A2
-  TDP: unknown
   Slot Width: IGP
   Outputs: Motherboard Dependent
   Pixel Shaders: 2

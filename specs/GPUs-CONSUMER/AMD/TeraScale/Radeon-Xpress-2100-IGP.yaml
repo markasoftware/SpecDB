@@ -23,7 +23,6 @@ data:
   Shader Processor Count: 40 
   Die Size: 85 mm²
   GPU: RS780
-  TDP: unknown
   FP32 Compute: 40.00 GFLOPS
   Slot Width: IGP
   Outputs: Motherboard Dependent

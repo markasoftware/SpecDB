@@ -25,7 +25,6 @@ data:
   Die Size: 495 mm²
   GPU: Vega 10
   GPU Variant: Vega 10 PRO
-  TDP: unknown
   FP32 Compute: 7.373 TFLOPS
   FP64 Compute: 460.8 GFLOPS (1:16)
   Slot Width: IGP

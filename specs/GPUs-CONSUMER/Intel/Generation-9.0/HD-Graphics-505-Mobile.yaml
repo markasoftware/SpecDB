@@ -22,7 +22,6 @@ data:
   Render Output Unit Count: 3
   Texture Mapping Unit Count: 18
   Shader Processor Count: 144 
-  Die Size: unknown
   GPU: Apollo Lake GT1.5
   TDP: 6 W
   FP32 Compute: 187.2 GFLOPS

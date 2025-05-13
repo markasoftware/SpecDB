@@ -22,7 +22,6 @@ data:
   Render Output Unit Count: 8
   Texture Mapping Unit Count: 16
   Shader Processor Count: 256 
-  Die Size: unknown
   GPU: Elkhart Lake GT1
   TDP: 9 W
   FP32 Compute: 384.0 GFLOPS

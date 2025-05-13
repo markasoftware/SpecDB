@@ -22,7 +22,6 @@ data:
   Render Output Unit Count: 2
   Texture Mapping Unit Count: 20
   Shader Processor Count: 160 
-  Die Size: unknown
   GPU: Haswell GT2
   TDP: 20 W
   FP32 Compute: 304.0 GFLOPS

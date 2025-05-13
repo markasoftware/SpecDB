@@ -12,7 +12,6 @@ data:
   Vulkan Support: '1.2.170'
   OpenGL Support: '4.6'
   OpenCL Support: '2.1 (1.2)'
-  Release Date: 'Unknown'
   GPU Base Frequency: 650 MHz
   GPU Boost Frequency: 700 MHz
   VRAM Frequency: 1000 MHz
@@ -26,6 +25,5 @@ data:
   Die Size: 77 mm²
   GPU: Mars
   GPU Variant: Mars M2 LP
-  TDP: unknown
   FP32 Compute: 537.6 GFLOPS
   Outputs: Portable Device Dependent

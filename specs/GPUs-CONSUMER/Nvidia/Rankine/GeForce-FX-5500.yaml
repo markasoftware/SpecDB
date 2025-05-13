@@ -26,7 +26,6 @@ data:
   GPU: NV34B
   FP32 Compute: 16.2 GFLOPS
   GPU Variant: FX 5500
-  TDP: unknown
   Slot Width: Single-slot
   Outputs: 
     - 1x DVI
