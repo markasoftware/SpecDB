@@ -12,13 +12,6 @@ data:
 sections:
   - header: Radeon R9
     members:
-    - Radeon-R9-M470X
-    - Radeon-R9-M470
-    - Radeon-R9-M385X
-    - Radeon-R9-M385
-    - Radeon-R9-M380
-    - Radeon-R9-M280X
-    - Radeon-R9-M270X
     - Radeon-R9-390X
     - Radeon-R9-390-X2
     - Radeon-R9-390
@@ -28,23 +21,32 @@ sections:
     - Radeon-R9-290
   - header: Radeon R7
     members:
-    - Radeon-R7-260
-    - Radeon-R7-260X
     - Radeon-R7-360
     - Radeon-R7-360-896SP
+    - Radeon-R7-260X
+    - Radeon-R7-260
     - Radeon-R7-Graphics
   - header: Radeon HD
     members:
     - Radeon-HD-7790
   - header: Workstation FirePro
     members:
-    - FirePro-M6100
-    - FirePro-W4300
-    - FirePro-W6150M
-    - FirePro-W6170M
-    - FirePro-W8100
     - FirePro-W9100
+    - FirePro-W8100
+    - FirePro-W6170M
+    - FirePro-W6150M
+    - FirePro-M6100
     - FirePro-W5100
+    - FirePro-W4300
+  - header: Radeon R9 Mobile
+    members:
+    - Radeon-R9-M470X
+    - Radeon-R9-M470
+    - Radeon-R9-M385X
+    - Radeon-R9-M385
+    - Radeon-R9-M380
+    - Radeon-R9-M280X
+    - Radeon-R9-M270X
   - header: Mobile
     members:
     - Radeon-E8870-PCIe
@@ -59,20 +61,20 @@ sections:
     - Radeon-R7-Mobile-Graphics
   - header: Integrated
     members:
-    - Radeon-R7-360E
-    - Radeon-HD-8210E
-    - Radeon-HD-8280E
-    - Radeon-HD-8330E
-    - Radeon-HD-8400E
-    - Radeon-HD-8180-IGP
-    - Radeon-HD-8210-IGP
-    - Radeon-HD-8240-Mobile-IGP
-    - Radeon-HD-8250-IGP
-    - Radeon-HD-8280-IGP
-    - Radeon-HD-8280-Mobile-IGP
-    - Radeon-HD-8330-Mobile-IGP
-    - Radeon-HD-8400-IGP
     - Radeon-HD-8400-Mobile-IGP
+    - Radeon-HD-8400-IGP
+    - Radeon-HD-8330-Mobile-IGP
+    - Radeon-HD-8280-Mobile-IGP
+    - Radeon-HD-8280-IGP
+    - Radeon-HD-8250-IGP
+    - Radeon-HD-8240-Mobile-IGP
+    - Radeon-HD-8210-IGP
+    - Radeon-HD-8180-IGP
+    - Radeon-HD-8400E
+    - Radeon-HD-8330E
+    - Radeon-HD-8280E
+    - Radeon-HD-8210E
+    - Radeon-R7-360E
   - header: OEM
     members:
     - Radeon-HD-8770-OEM

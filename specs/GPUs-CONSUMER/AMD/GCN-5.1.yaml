@@ -12,15 +12,15 @@ data:
 sections:
   - header: WHOLE RANGE
     members:
-    - Radeon-Graphics-320SP-Mobile
-    - Radeon-Graphics-384SP
-    - Radeon-Graphics-384SP-Mobile
-    - Radeon-Graphics-448SP
-    - Radeon-Graphics-448SP-Mobile
-    - Radeon-Graphics-512SP
-    - Radeon-Graphics-512SP-Mobile
-    - Radeon-Pro-V420
-    - Radeon-Pro-Vega-II
-    - Radeon-Pro-Vega-II-Duo
-    - Radeon-Pro-VII
     - Radeon-VII
+    - Radeon-Pro-VII
+    - Radeon-Pro-Vega-II-Duo
+    - Radeon-Pro-Vega-II
+    - Radeon-Pro-V420
+    - Radeon-Graphics-512SP-Mobile
+    - Radeon-Graphics-512SP
+    - Radeon-Graphics-448SP-Mobile
+    - Radeon-Graphics-448SP
+    - Radeon-Graphics-384SP-Mobile
+    - Radeon-Graphics-384SP
+    - Radeon-Graphics-320SP-Mobile
