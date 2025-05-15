@@ -138,9 +138,9 @@ td.table-section-hidden.not-that-hidden {
 	display: block;
 	transform-origin: top left;
 	transform: rotate(90deg);
-	width: 9rem;
+	width: 14rem;
 	text-align: center;
-	top: calc(50% - 4.5rem);
+	top: calc(50% - 6.9rem);
 	left: 4.5rem;
 }
 .table-collapse-button {
