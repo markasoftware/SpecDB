@@ -1,6 +1,6 @@
 name: GeForce-G100-OEM
 humanName: GeForce G100 OEM
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -32,3 +32,4 @@ data:
     - 1x S-Video
   Power Connectors: None
   Length: 168 mm
+  HLSL Shader Model: '4.0'

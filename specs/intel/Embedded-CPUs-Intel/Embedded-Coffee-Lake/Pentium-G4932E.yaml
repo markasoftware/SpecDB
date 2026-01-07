@@ -24,7 +24,7 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-isPart: true
+
 type: CPU
 humanName: 'Pentium G4932E'
 name: Pentium-G4932E

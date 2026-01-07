@@ -1,6 +1,6 @@
 name: Ryzen-3-2300X
 humanName: Ryzen 3 2300X
-isPart: true
+
 type: CPU
 inherits:
   - Pinnacle-Ridge

@@ -1,6 +1,6 @@
 name: Iris-Xe-MAX-Graphics
 humanName: Iris Xe MAX Graphics
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel
@@ -31,3 +31,4 @@ data:
   Outputs: No outputs
   Market:
     - Consumer
+  HLSL Shader Model: '6.6'

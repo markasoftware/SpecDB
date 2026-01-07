@@ -1,6 +1,6 @@
 name: GeForce-510-OEM
 humanName: GeForce 510 OEM
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -32,3 +32,4 @@ data:
     - 1x HDMI 1.3a1x VGA
   Power Connectors: None
   Length: 145 mm
+  HLSL Shader Model: '5.1'

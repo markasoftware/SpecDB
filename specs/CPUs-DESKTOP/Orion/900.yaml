@@ -1,6 +1,6 @@
 name: 900(O)
 humanName: Athlon 900 Orion
-isPart: true
+
 type: CPU
 inherits:
   - Pluto

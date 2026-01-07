@@ -1,6 +1,6 @@
 name: GeForce-FX-5600-XT-PCI
 humanName: GeForce FX 5600 XT PCI
-isPart: true
+
 type: Graphics Card
 data:
   Market: Consumer

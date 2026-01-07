@@ -1,6 +1,6 @@
 name: Quadro4-980-XGL
 humanName: Quadro4 980 XGL
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

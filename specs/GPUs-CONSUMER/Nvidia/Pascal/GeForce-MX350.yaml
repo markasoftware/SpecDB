@@ -1,6 +1,6 @@
 name: GeForce-MX350
 humanName: GeForce MX350
-isPart: true
+
 type: Graphics Card
 data:
   Market: Mobile
@@ -31,3 +31,4 @@ data:
   FP64 Compute: 58.72 GFLOPS (1:32)
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.7'

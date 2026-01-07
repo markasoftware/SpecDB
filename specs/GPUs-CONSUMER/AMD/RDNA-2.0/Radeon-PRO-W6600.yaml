@@ -1,6 +1,6 @@
 name: Radeon-PRO-W6600
 humanName: Radeon PRO W6600
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -34,3 +34,4 @@ data:
   Power Connectors: 1x 6-pin
   Length: 241 mm
   Ray Tracing Cores: 28
+  HLSL Shader Model: '6.7'

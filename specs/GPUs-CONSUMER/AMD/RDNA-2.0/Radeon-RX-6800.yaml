@@ -1,6 +1,6 @@
 name: Radeon-RX-6800
 humanName: Radeon RX 6800
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -40,3 +40,4 @@ data:
   Ray Tracing Cores: 60
   Market:
     - Consumer
+  HLSL Shader Model: '6.7'

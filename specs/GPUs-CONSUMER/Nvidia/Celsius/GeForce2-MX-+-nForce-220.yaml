@@ -1,6 +1,6 @@
 name: GeForce2-MX-+-nForce-220
 humanName: GeForce2 MX + nForce 220
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

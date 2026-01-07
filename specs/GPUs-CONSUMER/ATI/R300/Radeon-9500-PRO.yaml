@@ -1,6 +1,6 @@
 name: Radeon-9500-PRO
 humanName: Radeon 9500 PRO
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

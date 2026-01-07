@@ -1,6 +1,6 @@
 name: Xbox-One-S-GPU
 humanName: Xbox One S GPU
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -31,3 +31,4 @@ data:
   Width: 230 mm
   Height: 64 mm
   Market: Console
+  HLSL Shader Model: '5.1'

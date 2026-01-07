@@ -1,7 +1,7 @@
 name: GPUs-CONSUMER-3dfx
 humanName: Consumer GPUs
 type: Generic Container
-isPart: false
+
 topHeader: 'SELECT SERIES:'
 data:
   Manufacturer: 3dfx

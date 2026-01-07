@@ -22,7 +22,7 @@ data:
   'GPU Boost Frequency': '1.05 GHz'
   'VRAM Type': 'DDR3L,LPDDR3, DDR4'
   'Maximum VRAM Capacity': '64 GiB'
-isPart: true
+
 type: CPU
 humanName: 'Xeon E3-1565LV5'
 name: Xeon-E3-1565LV5

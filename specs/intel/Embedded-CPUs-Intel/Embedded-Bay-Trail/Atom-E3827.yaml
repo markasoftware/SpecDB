@@ -17,7 +17,7 @@ data:
   'Other Extensions':
     - x86-64
   'GPU Base Frequency': '542 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Atom E3827'
 name: Atom-E3827

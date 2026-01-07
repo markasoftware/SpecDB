@@ -19,7 +19,7 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '1.1 GHz'
-isPart: true
+
 type: CPU
 humanName: 'Pentium G640T'
 name: Pentium-G640T

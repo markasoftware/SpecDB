@@ -11,7 +11,7 @@ data:
   'Die Size': '107 mm'
   'Release Date': '2009-09-06'
   Socket: BGA956
-isPart: true
+
 type: CPU
 humanName: 'Pentium SU2300'
 name: Pentium-SU2300

@@ -1,6 +1,6 @@
 name: Jetson-TK1
 humanName: Jetson TK1
-isPart: true
+
 type: Graphics Card
 data:
   Market: Embedded
@@ -32,3 +32,4 @@ data:
   Outputs: Portable Device Dependent
   Length: 127 mm
   Width: 127 mm
+  HLSL Shader Model: '6.5 (5.1)'

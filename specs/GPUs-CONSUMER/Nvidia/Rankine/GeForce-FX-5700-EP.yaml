@@ -1,6 +1,6 @@
 name: GeForce-FX-5700-EP
 humanName: GeForce FX 5700 EP
-isPart: true
+
 type: Graphics Card
 data:
   Market: Consumer

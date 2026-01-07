@@ -1,6 +1,6 @@
 name: FirePro-S9010
 humanName: FirePro S9010
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -35,3 +35,4 @@ data:
   Power Connectors: 2x 6-pin
   Length: 267 mm
   Width: 111 mm
+  HLSL Shader Model: '6.5 (5.1)'

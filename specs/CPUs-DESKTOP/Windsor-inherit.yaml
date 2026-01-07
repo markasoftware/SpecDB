@@ -1,4 +1,4 @@
-hidden: true
+type: Hidden
 name: Windsor
 data:
   Architecture: K8

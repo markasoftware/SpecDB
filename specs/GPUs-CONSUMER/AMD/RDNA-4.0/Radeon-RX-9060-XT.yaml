@@ -1,6 +1,6 @@
 name: Radeon-RX-9060-XT
 humanName: Radeon RX 9060 XT
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -39,3 +39,4 @@ data:
   Ray Tracing Cores: 32
   Market:
     - Consumer
+  HLSL Shader Model: '6.8'

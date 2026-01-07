@@ -1,6 +1,6 @@
 name: Radeon-HD-2600-PRO-AGP
 humanName: Radeon HD 2600 PRO AGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -33,3 +33,4 @@ data:
   Power Connectors: None
   Market:
     - Workstation
+  HLSL Shader Model: '4.0'

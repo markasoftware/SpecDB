@@ -1,6 +1,6 @@
 name: Tesla-M10
 humanName: Tesla M10
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -43,3 +43,4 @@ data:
   Outputs: No outputs
   Power Connectors: 1x 8-pin
   Length: 267 mm
+  HLSL Shader Model: '6.7 (5.1)'

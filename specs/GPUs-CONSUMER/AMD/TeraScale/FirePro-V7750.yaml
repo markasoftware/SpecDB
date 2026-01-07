@@ -1,6 +1,6 @@
 name: FirePro-V7750
 humanName: FirePro V7750
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -34,3 +34,4 @@ data:
   Power Connectors: 1x 6-pin
   Length: 234 mm
   Width: 111 mm
+  HLSL Shader Model: '4.1'

@@ -1,7 +1,7 @@
 name: Carrizo-M
 humanName: Carrizo Mobile
 type: APU Architecture
-isPart: false
+
 topHeader: 'SELECT APU:'
 data:
   Lithography: 28nm

@@ -1,6 +1,6 @@
 name: GMA-X4700MHD
 humanName: GMA X4700MHD
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel
@@ -28,3 +28,4 @@ data:
   Outputs: Portable Device Dependent
   Market:
     - Mobile
+  HLSL Shader Model: '4.0'

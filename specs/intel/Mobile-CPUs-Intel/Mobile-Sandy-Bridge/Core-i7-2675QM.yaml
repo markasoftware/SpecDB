@@ -20,7 +20,7 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '1.2 GHz'
-isPart: true
+
 type: CPU
 humanName: 'Core i7-2675QM'
 name: Core-i7-2675QM

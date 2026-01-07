@@ -1,6 +1,6 @@
 name: Quadro-FX-1500M
 humanName: Quadro FX 1500M
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -31,3 +31,4 @@ data:
   Pixel Shaders: 20
   Market:
     - Workstation
+  HLSL Shader Model: '3.0'

@@ -19,7 +19,7 @@ data:
     - x86-64
   'GPU Base Frequency': '166 MHz'
   'GPU Boost Frequency': '500 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Pentium U3400'
 name: Pentium-U3400

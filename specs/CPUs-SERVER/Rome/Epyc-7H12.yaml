@@ -1,6 +1,6 @@
 name: Epyc-7H12
 humanName: Epyc 7H12
-isPart: true
+
 type: CPU
 inherits:
   - Rome

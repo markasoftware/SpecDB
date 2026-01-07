@@ -1,6 +1,6 @@
 name: GeForce2-Ti
 humanName: GeForce2 Ti
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

@@ -1,6 +1,6 @@
 name: Quadro-FX-2000
 humanName: Quadro FX 2000
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation

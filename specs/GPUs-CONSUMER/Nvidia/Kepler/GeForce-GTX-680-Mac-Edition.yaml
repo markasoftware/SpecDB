@@ -1,6 +1,6 @@
 name: GeForce-GTX-680-Mac-Edition
 humanName: GeForce GTX 680 Mac Edition
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -36,3 +36,4 @@ data:
   Length: 256 mm
   Width: 111 mm
   Height: 38 mm
+  HLSL Shader Model: '6.5 (5.1)'

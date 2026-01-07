@@ -1,6 +1,6 @@
 name: GeForce-GTX-965M-4-GB
 humanName: GeForce GTX 965M 4 GB
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -31,3 +31,4 @@ data:
   Power Connectors: None
   Market:
     - Mobile
+  HLSL Shader Model: '6.7 (6.4)'

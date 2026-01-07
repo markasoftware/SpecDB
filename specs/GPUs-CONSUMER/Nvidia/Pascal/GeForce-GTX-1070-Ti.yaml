@@ -1,6 +1,6 @@
 name: GeForce-GTX-1070-Ti
 humanName: GeForce GTX 1070 Ti
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -57,3 +57,4 @@ data:
   Length: 267 mm
   Width: 112 mm
   Height: 40 mm
+  HLSL Shader Model: '6.7'

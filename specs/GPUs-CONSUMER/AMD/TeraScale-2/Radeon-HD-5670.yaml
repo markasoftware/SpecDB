@@ -1,16 +1,10 @@
 name: Radeon-HD-5670
 humanName: Radeon HD 5670
-isPart: true
+
 type: Graphics Card
+inherits:
+  - TeraScale-2
 data:
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: TeraScale 2
-  Lithography: 40 nm
-  DirectX Support: '11.0'
-  Vulkan Support: 'N/A'
-  OpenGL Support: '4.4'
-  OpenCL Support: '1.2'
   Release Date: '2010-01-14'
   GPU Base Frequency: 775 MHz
   VRAM Frequency: 1000 MHz
@@ -36,3 +30,4 @@ data:
   Height: 20 mm
   Market:
     - Consumer
+  HLSL Shader Model: '5.0'

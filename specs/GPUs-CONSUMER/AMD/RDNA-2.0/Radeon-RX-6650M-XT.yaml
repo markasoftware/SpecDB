@@ -1,6 +1,6 @@
 name: Radeon-RX-6650M-XT
 humanName: Radeon RX 6650M XT
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -33,3 +33,4 @@ data:
   Ray Tracing Cores: 32
   Market:
     - Mobile
+  HLSL Shader Model: '6.7'

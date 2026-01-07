@@ -1,8 +1,9 @@
 name: X4-950
 humanName: X4 950
-isPart: true
+
 type: CPU
 inherits:
+  - Bristol-Ridge
   - Excavator-4C-Base
 data:
   Base Frequency: 3.5 GHz

@@ -1,6 +1,6 @@
 name: Ryzen-9-5900X
 humanName: Ryzen 9 5900X
-isPart: true
+
 type: CPU
 inherits:
 - Vermeer

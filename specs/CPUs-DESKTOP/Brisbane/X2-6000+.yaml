@@ -1,6 +1,6 @@
 name: X2-6000+-Brisbane
 humanName: X2 6000+ Brisbane
-isPart: true
+
 type: CPU
 inherits:
   - Brisbane

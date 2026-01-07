@@ -18,7 +18,7 @@ data:
     - x86-64
   'GPU Base Frequency': '688 MHz'
   'GPU Boost Frequency': '854 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Pentium J1900'
 name: Pentium-J1900

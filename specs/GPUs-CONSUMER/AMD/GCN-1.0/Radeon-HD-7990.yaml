@@ -1,6 +1,6 @@
 name: Radeon-HD-7990
 humanName: Radeon HD 7990
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -38,3 +38,4 @@ data:
   Height: 38 mm
   Market:
     - Consumer
+  HLSL Shader Model: '6.5 (5.1)'

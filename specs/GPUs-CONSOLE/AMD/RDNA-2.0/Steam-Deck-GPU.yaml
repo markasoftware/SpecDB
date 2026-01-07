@@ -1,6 +1,6 @@
 name: Steam-Deck-GPU
 humanName: Steam Deck GPU
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -34,3 +34,4 @@ data:
   Height: 49 mm
   Ray Tracing Cores: 8
   Market: Console
+  HLSL Shader Model: '6.5'

@@ -1,4 +1,4 @@
-hidden: true
+type: Hidden
 name: Kaveri-X2
 data:
   Architecture: Steamroller

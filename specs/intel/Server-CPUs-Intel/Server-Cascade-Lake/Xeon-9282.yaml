@@ -14,7 +14,7 @@ data:
   'L2 Cache (Total)': '77 MiB'
   'Release Date': '2019-04-02'
   AVX/SSE/MMX: AVX-512
-isPart: true
+
 type: CPU
 humanName: 'Xeon 9282'
 name: Xeon-9282

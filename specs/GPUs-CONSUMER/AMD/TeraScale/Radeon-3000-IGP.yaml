@@ -1,6 +1,6 @@
 name: Radeon-3000-IGP
 humanName: Radeon 3000 IGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -29,3 +29,4 @@ data:
   Outputs: Motherboard Dependent
   Market:
     - Consumer
+  HLSL Shader Model: '4.1'

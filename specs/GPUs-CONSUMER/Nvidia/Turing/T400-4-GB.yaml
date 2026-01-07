@@ -1,6 +1,6 @@
 name: T400-4-GB
 humanName: T400 4 GB
-isPart: true
+
 type: Graphics Card
 data:
   Market:
@@ -32,3 +32,4 @@ data:
   Slot Width: Single-slot
   Outputs: 3x mini-DisplayPort 1.4a
   Power Connectors: None
+  HLSL Shader Model: '6.7'

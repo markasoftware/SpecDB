@@ -11,7 +11,7 @@ data:
   'Die Size': '90 mm'
   Socket: 'PBGA479, PPGA478'
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Core T2300E'
 name: Core-T2300E

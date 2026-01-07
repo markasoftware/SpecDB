@@ -1,6 +1,6 @@
 name: FireMV-2250
 humanName: FireMV 2250
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI
@@ -33,3 +33,4 @@ data:
   Pixel Shaders: 4
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

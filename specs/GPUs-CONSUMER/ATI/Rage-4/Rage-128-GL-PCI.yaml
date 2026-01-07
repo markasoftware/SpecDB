@@ -1,6 +1,6 @@
 name: Rage-128-GL-PCI
 humanName: Rage 128 GL PCI
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

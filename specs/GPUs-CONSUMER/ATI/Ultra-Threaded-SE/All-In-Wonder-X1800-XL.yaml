@@ -1,6 +1,6 @@
 name: All-In-Wonder-X1800-XL
 humanName: All-In-Wonder X1800 XL
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI
@@ -34,3 +34,4 @@ data:
   Pixel Shaders: 16
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

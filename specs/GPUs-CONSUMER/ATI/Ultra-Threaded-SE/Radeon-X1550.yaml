@@ -1,6 +1,6 @@
 name: Radeon-X1550
 humanName: Radeon X1550
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI
@@ -33,3 +33,4 @@ data:
   Pixel Shaders: 4
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

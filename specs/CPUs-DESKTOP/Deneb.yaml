@@ -20,15 +20,15 @@ sections:
       - 980BE
   - header: Standard SKUs
     members:
-      - 805
-      - 810
-      - 820
-      - 830
-      - 910
-      - 920 
-      - 925
-      - 945
-      - 955
+      - '805'
+      - '810'
+      - '820'
+      - '830'
+      - '910'
+      - '920' 
+      - '925'
+      - '945'
+      - '955'
   - header: Low Power SKUs
     members:
       - 900e

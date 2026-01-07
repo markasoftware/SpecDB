@@ -1,6 +1,6 @@
 name: GeForce2-MX-200-LP
 humanName: GeForce2 MX 200 LP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

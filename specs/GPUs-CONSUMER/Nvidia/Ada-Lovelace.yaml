@@ -1,7 +1,7 @@
 name: Ada-Lovelace 
 humanName: Ada Lovelace
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 5 nm

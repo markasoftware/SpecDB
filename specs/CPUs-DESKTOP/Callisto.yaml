@@ -19,8 +19,8 @@ sections:
       - 570BE
   - header: Standard SKUs
     members:
-      - 545
-      - 550
+      - '545'
+      - '550'
   - header: Business Class SKUs
     members:
       - B53

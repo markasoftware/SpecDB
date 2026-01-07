@@ -12,7 +12,7 @@ data:
   'Release Date': 'Q3 2005'
   Socket: 'PLGA478, PPGA478'
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Pentium 350J'
 name: Pentium-350J

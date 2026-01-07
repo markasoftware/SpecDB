@@ -1,6 +1,6 @@
 name: Ryzen-5-8600G
 humanName: Ryzen 5 8600G
-isPart: true
+
 type: CPU
 inherits:
 - Phoenix

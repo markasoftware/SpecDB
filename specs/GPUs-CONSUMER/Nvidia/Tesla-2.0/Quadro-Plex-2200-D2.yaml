@@ -1,6 +1,6 @@
 name: Quadro-Plex-2200-D2
 humanName: Quadro Plex 2200 D2
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -30,3 +30,4 @@ data:
   Length: 522 mm
   Market:
     - Workstation
+  HLSL Shader Model: '4.0'

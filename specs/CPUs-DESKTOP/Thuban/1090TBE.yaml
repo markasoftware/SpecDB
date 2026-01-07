@@ -1,6 +1,6 @@
 name: 1090TBE
 humanName: X6 1090T Black Edition
-isPart: true
+
 type: CPU
 inherits:
   - Thuban

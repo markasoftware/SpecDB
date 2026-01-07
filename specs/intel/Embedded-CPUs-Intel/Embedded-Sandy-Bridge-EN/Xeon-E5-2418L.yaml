@@ -15,7 +15,7 @@ data:
   'Release Date': '2012-05-14'
   Socket: FCLGA1356
   AES: true
-isPart: true
+
 type: CPU
 humanName: 'Xeon E5-2418L'
 name: Xeon-E5-2418L

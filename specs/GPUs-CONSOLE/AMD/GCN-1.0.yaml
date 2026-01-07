@@ -1,7 +1,7 @@
 name: GCN-1.0-Console
 humanName: GCN 1.0
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 16-28 nm

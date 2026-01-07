@@ -12,7 +12,7 @@ data:
   'Release Date': '2006-02-14'
   Socket: PBGA479
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Core L2400'
 name: Core-L2400

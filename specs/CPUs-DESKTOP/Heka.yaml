@@ -17,8 +17,8 @@ sections:
       - 740BE
   - header: Standard SKUs
     members:
-      - 710
-      - 720
+      - '710'
+      - '720'
   - header: Low Power SKUs
     members:
       - 700e

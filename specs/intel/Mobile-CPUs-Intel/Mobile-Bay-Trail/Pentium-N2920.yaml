@@ -18,7 +18,7 @@ data:
     - x86-64
   'GPU Base Frequency': '313 MHz'
   'GPU Boost Frequency': '844 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Pentium N2920'
 name: Pentium-N2920

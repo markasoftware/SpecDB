@@ -1,7 +1,7 @@
 name: RDNA-3.0-Console
 humanName: RDNA 3.0
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 4 nm

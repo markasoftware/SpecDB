@@ -11,7 +11,7 @@ data:
   'Die Size': '90 mm'
   Socket: PBGA479
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Core U1400'
 name: Core-U1400

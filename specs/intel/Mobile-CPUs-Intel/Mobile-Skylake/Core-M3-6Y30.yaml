@@ -24,7 +24,7 @@ data:
   'Maximum VRAM Capacity': '16 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-isPart: true
+
 type: CPU
 humanName: 'Core M3-6Y30'
 name: Core-M3-6Y30

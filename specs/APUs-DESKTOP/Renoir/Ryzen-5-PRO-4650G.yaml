@@ -1,9 +1,9 @@
 name: Ryzen-5-PRO-4650G
 humanName: Ryzen 5 PRO 4650G
-isPart: true
+
 type: CPU
 inherits:
-- GCN 5.1
+- GCN-5.1
 - Renoir
 data:
   L1 Cache (Data): 192 KiB

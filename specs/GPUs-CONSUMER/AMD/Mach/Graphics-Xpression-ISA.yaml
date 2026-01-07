@@ -1,6 +1,6 @@
 name: Graphics-Xpression-ISA
 humanName: Graphics Xpression ISA
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD

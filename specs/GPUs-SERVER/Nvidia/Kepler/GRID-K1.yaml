@@ -1,6 +1,6 @@
 name: GRID-K1
 humanName: GRID K1
-isPart: true
+
 type: Graphics Card
 data:
   Market: Cloud Gaming
@@ -32,3 +32,4 @@ data:
   Outputs: No outputs
   Power Connectors: 1x 6-pin
   Length: 267 mm
+  HLSL Shader Model: '6.5 (5.1)'

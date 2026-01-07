@@ -1,6 +1,6 @@
 name: Graphics-Ultra
 humanName: Graphics Ultra
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD

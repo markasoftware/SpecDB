@@ -1,6 +1,6 @@
 name: GeForce-6800-Ultra
 humanName: GeForce 6800 Ultra
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -34,3 +34,4 @@ data:
   Pixel Shaders: 16
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

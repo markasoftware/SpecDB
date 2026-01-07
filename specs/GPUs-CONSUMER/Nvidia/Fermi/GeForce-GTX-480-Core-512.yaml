@@ -1,6 +1,6 @@
 name: GeForce-GTX-480-Core-512
 humanName: GeForce GTX 480 Core 512
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -34,3 +34,4 @@ data:
   Length: 292 mm
   Market:
     - Consumer
+  HLSL Shader Model: '5.1'

@@ -1,6 +1,6 @@
 name: EPYC-9354
 humanName: EPYC 9354
-isPart: true
+
 type: CPU
 inherits:
 - Genoa

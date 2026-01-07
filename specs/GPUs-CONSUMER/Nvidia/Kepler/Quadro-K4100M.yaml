@@ -1,6 +1,6 @@
 name: Quadro-K4100M
 humanName: Quadro K4100M
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -32,3 +32,4 @@ data:
   Slot Width: MXM Module
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.5 (5.1)'

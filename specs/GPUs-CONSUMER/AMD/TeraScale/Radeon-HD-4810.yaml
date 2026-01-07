@@ -1,6 +1,6 @@
 name: Radeon-HD-4810
 humanName: Radeon HD 4810
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -35,3 +35,4 @@ data:
   Length: 246 mm
   Market:
     - Consumer
+  HLSL Shader Model: '4.1'

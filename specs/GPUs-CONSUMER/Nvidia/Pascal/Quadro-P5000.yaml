@@ -1,6 +1,6 @@
 name: Quadro-P5000
 humanName: Quadro P5000
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -55,3 +55,4 @@ data:
   Power Connectors: 1x 8-pin
   Length: 267 mm
   Width: 111 mm
+  HLSL Shader Model: '6.7'

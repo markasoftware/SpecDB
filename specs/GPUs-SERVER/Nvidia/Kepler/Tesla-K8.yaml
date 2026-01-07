@@ -1,6 +1,6 @@
 name: Tesla-K8
 humanName: Tesla K8
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -32,3 +32,4 @@ data:
   Outputs: No outputs
   Power Connectors: 1x 6-pin
   Length: 241 mm
+  HLSL Shader Model: '6.5 (5.1)'

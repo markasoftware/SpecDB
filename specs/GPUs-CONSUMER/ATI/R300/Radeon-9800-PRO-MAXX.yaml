@@ -1,6 +1,6 @@
 name: Radeon-9800-PRO-MAXX
 humanName: Radeon 9800 PRO MAXX
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

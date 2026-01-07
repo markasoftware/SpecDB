@@ -1,6 +1,6 @@
 name: Quadro-M1000M
 humanName: Quadro M1000M
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -36,3 +36,4 @@ data:
   Slot Width: MXM Module
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.7 (5.1)'

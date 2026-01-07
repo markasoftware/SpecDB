@@ -12,7 +12,7 @@ module.exports = {
 		}
 		return m('.part', {
 				onclick: () => {
-					if(curData.isPart) {
+					if(pure.isPart(curData)) {
 						if(vnode.attrs.canSelect) {
 							// add part to list
 							hashMan.add(vnode.attrs.name);

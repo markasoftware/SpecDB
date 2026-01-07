@@ -1,9 +1,9 @@
-isPart: true
+
 name: A8-8600P
 humanName: A8-8600P
 type: APU
 inherits:
-  - GCN 3
+  - "GCN-3"
   - Carrizo
 data:
 

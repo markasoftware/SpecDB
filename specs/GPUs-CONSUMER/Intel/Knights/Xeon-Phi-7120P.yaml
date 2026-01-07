@@ -1,6 +1,6 @@
 name: Xeon-Phi-7120P
 humanName: Xeon Phi 7120P
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel
@@ -30,3 +30,4 @@ data:
   Length: 248 mm
   Market:
     - Consumer
+  HLSL Shader Model: '5.0'

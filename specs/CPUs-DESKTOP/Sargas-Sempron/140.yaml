@@ -1,6 +1,6 @@
-name: 140
+name: '140'
 humanName: '140'
-isPart: true
+
 type: CPU
 inherits:
   - Sargas-Sempron

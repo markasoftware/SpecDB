@@ -16,7 +16,7 @@ data:
   Socket: FCLGA3647
   AES: true
   AVX/SSE/MMX: AVX-512
-isPart: true
+
 type: CPU
 humanName: 'Xeon 6238'
 name: Xeon-6238

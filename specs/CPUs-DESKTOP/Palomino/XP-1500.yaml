@@ -1,6 +1,6 @@
 name: XP-1500-PAL
 humanName: Athlon XP 1500+ (Palomino)
-isPart: true
+
 type: CPU
 inherits:
   - Palomino

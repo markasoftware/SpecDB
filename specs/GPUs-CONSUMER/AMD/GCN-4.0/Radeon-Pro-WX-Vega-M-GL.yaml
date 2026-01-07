@@ -1,6 +1,6 @@
 name: Radeon-Pro-WX-Vega-M-GL
 humanName: Radeon Pro WX Vega M GL
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -31,3 +31,4 @@ data:
   FP64 Compute: 161.8 GFLOPS (1:16)
   Slot Width: IGP
   Outputs: Portable Device Dependent
+  HLSL Shader Model: '6.7'

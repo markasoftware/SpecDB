@@ -1,6 +1,6 @@
 name: GeForce-GTX-295
 humanName: GeForce GTX 295
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -37,3 +37,4 @@ data:
   Height: 38 mm
   Market:
     - Consumer
+  HLSL Shader Model: '4.0'

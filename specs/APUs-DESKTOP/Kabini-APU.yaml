@@ -1,7 +1,7 @@
 name: Kabini-APUs
 humanName: Kabini
 type: APU Architecture
-isPart: false
+
 topHeader: 'SELECT APU:'
 data:
   Lithography: 28nm

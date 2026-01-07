@@ -1,6 +1,6 @@
 name: Radeon-X700-LE
 humanName: Radeon X700 LE
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

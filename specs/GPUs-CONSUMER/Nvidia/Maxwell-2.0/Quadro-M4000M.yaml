@@ -1,6 +1,6 @@
 name: Quadro-M4000M
 humanName: Quadro M4000M
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Decoding:
@@ -38,3 +38,4 @@ data:
   Slot Width: MXM Module
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.7 (6.4)'

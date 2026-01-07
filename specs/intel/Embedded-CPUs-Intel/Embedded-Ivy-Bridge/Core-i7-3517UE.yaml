@@ -20,7 +20,7 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '350 MHz'
   'GPU Boost Frequency': '1000 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Core i7-3517UE'
 name: Core-i7-3517UE

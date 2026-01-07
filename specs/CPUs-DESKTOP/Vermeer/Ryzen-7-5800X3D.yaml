@@ -1,6 +1,6 @@
 name: Ryzen-7-5800X3D
 humanName: Ryzen 7 5800X3D
-isPart: true
+
 type: CPU
 inherits:
 - Vermeer

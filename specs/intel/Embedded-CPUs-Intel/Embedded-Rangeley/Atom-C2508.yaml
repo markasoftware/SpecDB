@@ -14,7 +14,7 @@ data:
   'Release Date': '2014-03-27'
   Socket: FCBGA1283
   AES: true
-isPart: true
+
 type: CPU
 humanName: 'Atom C2508'
 name: Atom-C2508

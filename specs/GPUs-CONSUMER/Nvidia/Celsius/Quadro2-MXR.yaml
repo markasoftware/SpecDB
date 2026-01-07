@@ -1,6 +1,6 @@
 name: Quadro2-MXR
 humanName: Quadro2 MXR
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation

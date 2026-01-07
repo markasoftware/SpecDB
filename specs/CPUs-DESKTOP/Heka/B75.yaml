@@ -1,6 +1,6 @@
 name: B75
 humanName: X3 B75
-isPart: true
+
 type: CPU
 inherits:
   - Heka

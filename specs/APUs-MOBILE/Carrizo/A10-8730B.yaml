@@ -1,9 +1,9 @@
-isPart: true
+
 name: A10-8730B
 humanName: A10-8730B
 type: APU
 inherits:
-  - GCN 3
+  - "GCN-3"
   - Carrizo
 data:
 

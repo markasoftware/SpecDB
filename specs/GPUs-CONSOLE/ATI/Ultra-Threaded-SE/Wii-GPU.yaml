@@ -1,6 +1,6 @@
 name: Wii-GPU
 humanName: Wii GPU
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

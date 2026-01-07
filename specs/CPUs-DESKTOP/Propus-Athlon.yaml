@@ -12,12 +12,12 @@ data:
 sections:
   - header: Standard SKUs
     members:
-      - 620
-      - 630
-      - 635
-      - 640
-      - 645
-      - 650
+      - '620'
+      - '630'
+      - '635'
+      - '640'
+      - '645'
+      - '650'
   - header: Low Power SKUs
     members: 
       - 600e

@@ -1,7 +1,7 @@
 name: MP 
 humanName: MP
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: Unknown

@@ -1,6 +1,6 @@
 name: Radeon-X850-CrossFire-Edition
 humanName: Radeon X850 CrossFire Edition
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

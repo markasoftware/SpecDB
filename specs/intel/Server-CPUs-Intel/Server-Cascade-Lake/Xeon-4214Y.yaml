@@ -16,7 +16,7 @@ data:
   Socket: FCLGA3647
   AES: true
   AVX/SSE/MMX: AVX-512
-isPart: true
+
 type: CPU
 humanName: 'Xeon 4214Y'
 name: Xeon-4214Y

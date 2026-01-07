@@ -1,6 +1,6 @@
 name: Quadro-FX-4500-X2
 humanName: Quadro FX 4500 X2
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -33,3 +33,4 @@ data:
   Pixel Shaders: 24
   Market:
     - Workstation
+  HLSL Shader Model: '3.0'

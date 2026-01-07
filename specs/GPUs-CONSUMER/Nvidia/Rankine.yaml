@@ -1,7 +1,7 @@
 name: Rankine 
 humanName: Rankine
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 150 - 130 nm

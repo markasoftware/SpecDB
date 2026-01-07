@@ -1,6 +1,6 @@
 name: Radeon-HD-2600-XT-Mac-Edition
 humanName: Radeon HD 2600 XT Mac Edition
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -28,3 +28,4 @@ data:
   Slot Width: Single-slot
   Outputs: 2x DVI
   Power Connectors: None
+  HLSL Shader Model: '4.0'

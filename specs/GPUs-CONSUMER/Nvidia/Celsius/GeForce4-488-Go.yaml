@@ -1,6 +1,6 @@
 name: GeForce4-488-Go
 humanName: GeForce4 488 Go
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

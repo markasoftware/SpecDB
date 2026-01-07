@@ -1,6 +1,6 @@
 name: Radeon-E9390-PCIe
 humanName: Radeon E9390 PCIe
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -33,3 +33,4 @@ data:
   Length: 173 mm
   Market:
     - Consumer
+  HLSL Shader Model: '6.7'

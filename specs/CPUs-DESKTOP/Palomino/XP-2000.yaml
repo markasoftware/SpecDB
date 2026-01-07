@@ -1,6 +1,6 @@
 name: XP-2000-PAL
 humanName: Athlon XP 2000+ (Palomino)
-isPart: true
+
 type: CPU
 inherits:
   - Palomino

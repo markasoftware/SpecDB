@@ -1,6 +1,6 @@
 name: Radeon-RX-590-GME
 humanName: Radeon RX 590 GME
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -36,3 +36,4 @@ data:
   Length: 241 mm
   Market:
     - Consumer
+  HLSL Shader Model: '6.7'

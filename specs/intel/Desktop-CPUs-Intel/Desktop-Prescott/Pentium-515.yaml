@@ -12,7 +12,7 @@ data:
   'Release Date': 'Q3 2005'
   Socket: PLGA775
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Pentium 515'
 name: Pentium-515

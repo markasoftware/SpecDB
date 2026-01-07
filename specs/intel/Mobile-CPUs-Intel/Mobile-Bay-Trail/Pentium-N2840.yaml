@@ -18,7 +18,7 @@ data:
     - x86-64
   'GPU Base Frequency': '311 MHz'
   'GPU Boost Frequency': '792 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Pentium N2840'
 name: Pentium-N2840

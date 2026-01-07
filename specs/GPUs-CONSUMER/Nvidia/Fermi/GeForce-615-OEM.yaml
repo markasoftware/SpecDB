@@ -1,6 +1,6 @@
 name: GeForce-615-OEM
 humanName: GeForce 615 OEM
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -29,3 +29,4 @@ data:
   Slot Width: Single-slot
   Outputs: No outputs
   Power Connectors: None
+  HLSL Shader Model: '5.1'

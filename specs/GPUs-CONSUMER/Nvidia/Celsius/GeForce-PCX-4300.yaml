@@ -1,6 +1,6 @@
 name: GeForce-PCX-4300
 humanName: GeForce PCX 4300
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

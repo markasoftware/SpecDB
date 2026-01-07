@@ -1,6 +1,6 @@
 name: GeForce2-MX-200-PCI
 humanName: GeForce2 MX 200 PCI
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

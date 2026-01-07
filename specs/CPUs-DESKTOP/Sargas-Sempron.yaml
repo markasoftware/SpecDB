@@ -12,8 +12,8 @@ data:
 sections:
   - header: Standard SKUs
     members:
-      - 130
-      - 140
-      - 145
-      - 150
+      - '130'
+      - '140'
+      - '145'
+      - '150'
 

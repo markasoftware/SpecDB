@@ -1,6 +1,6 @@
 name: Quadro4-380-XGL
 humanName: Quadro4 380 XGL
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation

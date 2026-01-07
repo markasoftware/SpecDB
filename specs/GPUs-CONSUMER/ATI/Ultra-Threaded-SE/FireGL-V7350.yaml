@@ -1,6 +1,6 @@
 name: FireGL-V7350
 humanName: FireGL V7350
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI
@@ -35,3 +35,4 @@ data:
   Pixel Shaders: 16
   Market:
     - Workstation
+  HLSL Shader Model: '3.0'

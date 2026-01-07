@@ -1,6 +1,6 @@
-name: 720
+name: '720'
 humanName: X3 720
-isPart: true
+
 type: CPU
 inherits:
   - Heka

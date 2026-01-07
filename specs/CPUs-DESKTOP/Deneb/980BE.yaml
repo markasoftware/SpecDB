@@ -1,6 +1,6 @@
 name: 980BE
 humanName: X4 980 Black Edition
-isPart: true
+
 type: CPU
 inherits:
   - Deneb

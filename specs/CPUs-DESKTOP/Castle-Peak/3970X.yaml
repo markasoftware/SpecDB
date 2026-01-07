@@ -1,6 +1,6 @@
 name: 3970X
 humanName: 3970x
-isPart: true
+
 type: CPU
 inherits:
   - Castle-Peak

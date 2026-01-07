@@ -1,16 +1,10 @@
 name: Radeon-HD-6430M
 humanName: Radeon HD 6430M
-isPart: true
+
 type: Graphics Card
+inherits:
+  - TeraScale-2
 data:
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: TeraScale 2
-  Lithography: 40 nm
-  DirectX Support: '11.0'
-  Vulkan Support: 'N/A'
-  OpenGL Support: '4.4'
-  OpenCL Support: '1.2'
   Release Date: '2011-01-04'
   GPU Base Frequency: 480 MHz
   VRAM Frequency: 800 MHz
@@ -28,3 +22,4 @@ data:
   Outputs: Portable Device Dependent
   Market:
     - Mobile
+  HLSL Shader Model: '5.0'

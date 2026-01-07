@@ -1,6 +1,6 @@
 name: GRID-M6-8Q
 humanName: GRID M6-8Q
-isPart: true
+
 type: Graphics Card
 data:
   Market: Cloud Gaming
@@ -31,3 +31,4 @@ data:
   Slot Width: MXM Module
   Outputs: No outputs
   Power Connectors: None
+  HLSL Shader Model: '6.7 (6.4)'

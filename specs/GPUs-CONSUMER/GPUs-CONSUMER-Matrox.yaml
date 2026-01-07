@@ -1,7 +1,7 @@
 name: GPUs-CONSUMER-Matrox
 humanName: Consumer GPUs
 type: Generic Container
-isPart: false
+
 topHeader: 'SELECT SERIES:'
 data:
   Manufacturer: Matrox

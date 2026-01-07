@@ -1,7 +1,7 @@
 name: Parhelia 
 humanName: Parhelia
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 150 nm

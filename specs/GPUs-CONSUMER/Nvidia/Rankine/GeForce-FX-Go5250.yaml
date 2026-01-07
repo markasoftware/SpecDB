@@ -1,6 +1,6 @@
 name: GeForce-FX-Go5250
 humanName: GeForce FX Go5250
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

@@ -1,7 +1,7 @@
 name: GPUs-SERVER-INTEL
 humanName: Server GPUs
 type: Generic Container
-isPart: false
+
 topHeader: 'SELECT SERIES:'
 data:
   Manufacturer: Intel

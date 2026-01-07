@@ -1,6 +1,6 @@
 name: Radeon-3100-Mobile-IGP
 humanName: Radeon 3100 Mobile IGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -30,3 +30,4 @@ data:
   Power Connectors: None
   Market:
     - Mobile
+  HLSL Shader Model: '4.1'

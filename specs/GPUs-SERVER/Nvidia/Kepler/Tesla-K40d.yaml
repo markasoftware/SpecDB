@@ -1,6 +1,6 @@
 name: Tesla-K40d
 humanName: Tesla K40d
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -31,3 +31,4 @@ data:
   Slot Width: Dual-slot
   Outputs: No outputs
   Length: 267 mm
+  HLSL Shader Model: '6.5 (5.1)'

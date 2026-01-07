@@ -12,7 +12,7 @@ data:
   'Release Date': 'Q2 2004'
   Socket: PPGA478
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Pentium 725'
 name: Pentium-725

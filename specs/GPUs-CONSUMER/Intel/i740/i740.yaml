@@ -1,6 +1,6 @@
 name: i740-part
 humanName: i740
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel

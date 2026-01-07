@@ -1,6 +1,6 @@
 name: Radeon-7000
 humanName: Radeon 7000
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

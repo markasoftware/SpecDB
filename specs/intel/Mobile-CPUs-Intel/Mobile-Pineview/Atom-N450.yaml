@@ -17,7 +17,7 @@ data:
   'Other Extensions':
     - x86-64
   AVX/SSE/MMX: false
-isPart: true
+
 type: CPU
 humanName: 'Atom N450'
 name: Atom-N450

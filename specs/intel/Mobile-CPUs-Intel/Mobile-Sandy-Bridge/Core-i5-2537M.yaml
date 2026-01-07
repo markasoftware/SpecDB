@@ -20,7 +20,7 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '350 MHz'
   'GPU Boost Frequency': '900 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Core i5-2537M'
 name: Core-i5-2537M

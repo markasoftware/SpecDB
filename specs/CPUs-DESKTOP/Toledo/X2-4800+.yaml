@@ -1,6 +1,6 @@
 name: X2-4800+-Toledo
 humanName: X2 4800+ Toledo
-isPart: true
+
 type: CPU
 inherits:
   - Toledo

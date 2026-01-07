@@ -1,6 +1,6 @@
 name: Quadro4-400-NVS-PCI
 humanName: Quadro4 400 NVS PCI
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation

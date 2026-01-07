@@ -1,9 +1,9 @@
 name: Ryzen-9-4900HS
 humanName: Ryzen 9 4900HS
-isPart: true
+
 type: APU
 inherits:
-  - GCN 5.1
+  - GCN-5.1
   - Renoir-M
 data:
   Release Date: '2020-03-16'

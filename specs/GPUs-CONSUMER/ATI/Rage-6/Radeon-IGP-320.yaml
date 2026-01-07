@@ -1,6 +1,6 @@
 name: Radeon-IGP-320
 humanName: Radeon IGP 320
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

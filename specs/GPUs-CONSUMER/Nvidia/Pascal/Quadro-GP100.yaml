@@ -1,6 +1,6 @@
 name: Quadro-GP100
 humanName: Quadro GP100
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -54,3 +54,4 @@ data:
   Power Connectors: 1x 8-pin
   Length: 267 mm
   Width: 111 mm
+  HLSL Shader Model: '6.0'

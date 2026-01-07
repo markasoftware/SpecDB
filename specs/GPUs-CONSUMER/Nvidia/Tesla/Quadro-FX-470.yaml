@@ -1,6 +1,6 @@
 name: Quadro-FX-470
 humanName: Quadro FX 470
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -29,3 +29,4 @@ data:
   Outputs: 2x DVI
   Market:
     - Workstation
+  HLSL Shader Model: '4.0'

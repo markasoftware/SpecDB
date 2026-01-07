@@ -12,7 +12,7 @@ data:
   'Release Date': '2004-06-25'
   Socket: 'H-PBGA479, PPGA478'
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Pentium 745'
 name: Pentium-745

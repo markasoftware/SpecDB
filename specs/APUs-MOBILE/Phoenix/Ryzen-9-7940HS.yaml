@@ -1,6 +1,6 @@
 name: Ryzen-9-7940HS
 humanName: Ryzen 9 7940HS
-isPart: true
+
 type: APU
 inherits:
 - Phoenix-M

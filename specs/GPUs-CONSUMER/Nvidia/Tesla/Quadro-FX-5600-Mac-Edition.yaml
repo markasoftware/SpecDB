@@ -1,6 +1,6 @@
 name: Quadro-FX-5600-Mac-Edition
 humanName: Quadro FX 5600 Mac Edition
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -32,3 +32,4 @@ data:
   Width: 111 mm
   Market:
     - Workstation
+  HLSL Shader Model: '4.0'

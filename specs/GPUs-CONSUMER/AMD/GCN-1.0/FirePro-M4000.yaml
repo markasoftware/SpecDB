@@ -1,17 +1,11 @@
 name: FirePro-M4000
 humanName: FirePro M4000
-isPart: true
+
 type: Graphics Card
+inherits:
+  - GCN-1
 data:
   Market: Workstation
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: GCN 1.0
-  Lithography: 28 nm
-  DirectX Support: '11.1'
-  Vulkan Support: '1.2.170'
-  OpenGL Support: '4.6'
-  OpenCL Support: '2.1 (1.2)'
   Release Date: '2012-06-27'
   GPU Base Frequency: 675 MHz
   VRAM Frequency: 1000 MHz
@@ -31,3 +25,4 @@ data:
   Slot Width: MXM Module
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.5 (5.1)'

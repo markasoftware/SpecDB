@@ -1,6 +1,6 @@
 name: GeForce-7800-GS+-20Pipes-AGP
 humanName: GeForce 7800 GS+ 20Pipes AGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -33,3 +33,4 @@ data:
   Pixel Shaders: 20
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

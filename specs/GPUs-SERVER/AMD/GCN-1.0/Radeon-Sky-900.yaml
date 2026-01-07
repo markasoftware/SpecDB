@@ -1,6 +1,6 @@
 name: Radeon-Sky-900
 humanName: Radeon Sky 900
-isPart: true
+
 type: Graphics Card
 data:
   Market: Cloud Gaming
@@ -37,3 +37,4 @@ data:
   Power Connectors: 2x 8-pin
   Length: 305 mm
   Width: 111 mm
+  HLSL Shader Model: '6.5 (5.1)'

@@ -1,16 +1,10 @@
 name: Radeon-R9-255-OEM
 humanName: Radeon R9 255 OEM
-isPart: true
+
 type: Graphics Card
+inherits:
+  - GCN-1
 data:
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: GCN 1.0
-  Lithography: 28 nm
-  DirectX Support: '11.1'
-  Vulkan Support: '1.2.170'
-  OpenGL Support: '4.6'
-  OpenCL Support: '2.1 (1.2)'
   Release Date: '2013-12-21'
   GPU Base Frequency: 900 MHz
   GPU Boost Frequency: 930 MHz
@@ -31,3 +25,4 @@ data:
   Slot Width: Dual-slot
   Outputs: No outputs
   Power Connectors: 1x 6-pin
+  HLSL Shader Model: '6.5 (5.1)'

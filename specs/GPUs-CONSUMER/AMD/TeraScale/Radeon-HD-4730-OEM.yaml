@@ -1,6 +1,6 @@
 name: Radeon-HD-4730-OEM
 humanName: Radeon HD 4730 OEM
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -31,3 +31,4 @@ data:
     - 2x DVI
     - 1x S-Video
   Length: 241 mm
+  HLSL Shader Model: '4.1'

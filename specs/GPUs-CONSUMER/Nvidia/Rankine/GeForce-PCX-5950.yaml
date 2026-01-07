@@ -1,6 +1,6 @@
 name: GeForce-PCX-5950
 humanName: GeForce PCX 5950
-isPart: true
+
 type: Graphics Card
 data:
   Market: Consumer

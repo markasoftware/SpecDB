@@ -64,6 +64,9 @@ body {
 .part.xgi{
 	border-left: 5px solid #00458D;
 }
+.part.powervr {
+	border-left: 5px solid #2D509F;
+}
 .part-padding {
 	padding: 10px;
 	overflow: none;

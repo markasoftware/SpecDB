@@ -1,6 +1,6 @@
-name: 7450
+name: '7450'
 humanName: X2 7450
-isPart: true
+
 type: CPU
 inherits:
   - Kuma

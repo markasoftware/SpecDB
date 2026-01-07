@@ -21,7 +21,7 @@ data:
   'Maximum VRAM Capacity': '2 GiB'
   'DirectX Support': '0'
   'OpenGL Support': 'Yes'
-isPart: true
+
 type: CPU
 humanName: 'Atom E3940'
 name: Atom-E3940

@@ -1,16 +1,10 @@
 name: Radeon-R9-390-X2
 humanName: Radeon R9 390 X2
-isPart: true
+
 type: Graphics Card
+inherits:
+  - GCN-2
 data:
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: GCN 2.0
-  Lithography: 28 nm
-  DirectX Support: '12.0'
-  Vulkan Support: '1.2.170'
-  OpenGL Support: '4.6'
-  OpenCL Support: '2.1'
   Release Date: '2015-09-03'
   GPU Base Frequency: 1000 MHz
   VRAM Frequency: 1350 MHz
@@ -34,3 +28,4 @@ data:
   Power Connectors: 4x 8-pin
   Market:
     - Consumer
+  HLSL Shader Model: '6.5'

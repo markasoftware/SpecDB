@@ -1,7 +1,7 @@
 name: Curie-Console
 humanName: Curie
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 90-28 nm

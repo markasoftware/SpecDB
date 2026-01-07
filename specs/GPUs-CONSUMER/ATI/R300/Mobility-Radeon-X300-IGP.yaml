@@ -1,6 +1,6 @@
 name: Mobility-Radeon-X300-IGP
 humanName: Mobility Radeon X300 IGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

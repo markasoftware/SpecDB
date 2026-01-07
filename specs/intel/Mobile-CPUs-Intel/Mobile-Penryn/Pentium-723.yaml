@@ -13,7 +13,7 @@ data:
     - x86-64
   'Release Date': '2008-08-19'
   Socket: BGA956
-isPart: true
+
 type: CPU
 humanName: 'Pentium 723'
 name: Pentium-723

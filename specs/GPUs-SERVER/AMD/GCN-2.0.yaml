@@ -1,7 +1,7 @@
 name: GCN-2.0-server
 humanName: GCN 2.0
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 28 nm

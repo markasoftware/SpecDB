@@ -1,6 +1,6 @@
 name: Quadro-K620
 humanName: Quadro K620
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -45,3 +45,4 @@ data:
   Power Connectors: None
   Length: 160 mm
   Width: 69 mm
+  HLSL Shader Model: '6.7 (5.1)'

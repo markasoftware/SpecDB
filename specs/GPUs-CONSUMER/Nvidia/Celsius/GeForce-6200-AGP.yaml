@@ -1,6 +1,6 @@
 name: GeForce-6200-AGP
 humanName: GeForce 6200 AGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

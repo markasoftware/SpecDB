@@ -1,6 +1,6 @@
 name: HD-Graphics-4000-Mobile
 humanName: HD Graphics 4000 Mobile
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel
@@ -31,3 +31,4 @@ data:
   Outputs: Portable Device Dependent
   Market:
     - Mobile
+  HLSL Shader Model: '5.0'

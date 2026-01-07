@@ -2,7 +2,7 @@ name: Epyc-7281
 humanName: Epyc 7281
 inherits:
   - Naples
-isPart: true
+
 type: CPU
 data:
   Thread Count: 32

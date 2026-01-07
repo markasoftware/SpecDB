@@ -1,6 +1,6 @@
 name: GeForce-FX-5700-Engineering-Sample
 humanName: GeForce FX 5700 Engineering Sample
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

@@ -1,6 +1,6 @@
 name: Quadro4-750-XGL
 humanName: Quadro4 750 XGL
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

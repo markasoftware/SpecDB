@@ -1,7 +1,7 @@
 name: CDNA-1.0 
 humanName: CDNA 1.0
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 7 nm

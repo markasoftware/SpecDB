@@ -12,7 +12,7 @@ data:
   Socket: PPGA478
   'Other Extensions':
     - x86-64
-isPart: true
+
 type: CPU
 humanName: 'Pentium T2390'
 name: Pentium-T2390

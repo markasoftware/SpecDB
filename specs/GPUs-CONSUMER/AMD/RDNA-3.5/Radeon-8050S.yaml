@@ -1,6 +1,6 @@
 name: Radeon-8050S
 humanName: Radeon 8050S
-isPart: true
+
 type: Graphics Card
 data:
   Market:
@@ -32,3 +32,4 @@ data:
   Outputs: Portable Device Dependent
   Power Connectors: None
   Ray Tracing Cores: 32
+  HLSL Shader Model: '6.8'

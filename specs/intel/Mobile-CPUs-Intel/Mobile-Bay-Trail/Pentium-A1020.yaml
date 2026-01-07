@@ -19,7 +19,7 @@ data:
   'GPU Base Frequency': '688 MHz'
   'GPU Boost Frequency': '896 MHz'
   'DirectX Support': '11.2'
-isPart: true
+
 type: CPU
 humanName: 'Pentium A1020'
 name: Pentium-A1020

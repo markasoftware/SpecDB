@@ -1,6 +1,6 @@
 name: GeForce-9800-GT-Rebrand
 humanName: GeForce 9800 GT Rebrand
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -34,3 +34,4 @@ data:
   Length: 229 mm
   Market:
     - Consumer
+  HLSL Shader Model: '4.0'

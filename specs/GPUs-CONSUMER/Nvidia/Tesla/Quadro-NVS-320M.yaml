@@ -1,6 +1,6 @@
 name: Quadro-NVS-320M
 humanName: Quadro NVS 320M
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -30,3 +30,4 @@ data:
   Power Connectors: None
   Market:
     - Workstation
+  HLSL Shader Model: '4.0'

@@ -22,7 +22,7 @@ data:
   'Maximum VRAM Capacity': '8 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.4'
-isPart: true
+
 type: CPU
 humanName: 'Pentium J4005'
 name: Pentium-J4005

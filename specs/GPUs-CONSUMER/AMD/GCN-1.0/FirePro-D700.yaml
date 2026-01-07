@@ -1,17 +1,11 @@
 name: FirePro-D700
 humanName: FirePro D700
-isPart: true
+
 type: Graphics Card
+inherits:
+  - GCN-1
 data:
   Market: Workstation
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: GCN 1.0
-  Lithography: 28 nm
-  DirectX Support: '11.1'
-  Vulkan Support: '1.2.170'
-  OpenGL Support: '4.6'
-  OpenCL Support: '2.1 (1.2)'
   Release Date: '2014-01-18'
   GPU Base Frequency: 850 MHz
   VRAM Frequency: 1370 MHz
@@ -33,3 +27,4 @@ data:
     - 6x mini-DisplayPort 1.2
     - 1x SDI
   Length: 279 mm
+  HLSL Shader Model: '6.5 (5.1)'

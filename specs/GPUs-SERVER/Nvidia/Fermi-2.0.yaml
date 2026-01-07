@@ -1,7 +1,7 @@
 name: Fermi-2.0-server
 humanName: Fermi 2.0
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 40 nm

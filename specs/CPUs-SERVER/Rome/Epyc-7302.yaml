@@ -1,6 +1,6 @@
 name: Epyc-7302
 humanName: Epyc 7302
-isPart: true
+
 type: CPU
 inherits:
   - Rome

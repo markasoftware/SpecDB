@@ -1,6 +1,6 @@
 name: GeForce4-MX-4000
 humanName: GeForce4 MX 4000
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

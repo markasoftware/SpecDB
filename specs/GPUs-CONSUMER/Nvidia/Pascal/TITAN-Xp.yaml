@@ -1,6 +1,6 @@
 name: TITAN-Xp
 humanName: TITAN Xp
-isPart: true
+
 type: Graphics Card
 data:
   Market: Consumer
@@ -37,3 +37,4 @@ data:
   Length: 267 mm
   Width: 112 mm
   Height: 40 mm
+  HLSL Shader Model: '6.7'

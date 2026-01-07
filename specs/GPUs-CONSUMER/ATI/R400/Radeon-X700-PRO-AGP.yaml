@@ -1,6 +1,6 @@
 name: Radeon-X700-PRO-AGP
 humanName: Radeon X700 PRO AGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

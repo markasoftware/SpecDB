@@ -1,6 +1,6 @@
 name: GeForce-G110M
 humanName: GeForce G110M
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -31,3 +31,4 @@ data:
   Power Connectors: None
   Market:
     - Mobile
+  HLSL Shader Model: '4.0'

@@ -1,6 +1,6 @@
 name: Quadro-P400
 humanName: Quadro P400
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -54,3 +54,4 @@ data:
   Power Connectors: None
   Length: 150 mm
   Width: 69 mm
+  HLSL Shader Model: '6.7'

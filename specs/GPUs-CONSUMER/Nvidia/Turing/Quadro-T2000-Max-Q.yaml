@@ -1,6 +1,6 @@
 name: Quadro-T2000-Max-Q
 humanName: Quadro T2000 Max-Q
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -57,3 +57,4 @@ data:
   Slot Width: IGP
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.7'

@@ -1,6 +1,6 @@
 name: Mobility-Radeon-X1900
 humanName: Mobility Radeon X1900
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI
@@ -28,3 +28,4 @@ data:
   Pixel Shaders: 36
   Market:
     - Mobile
+  HLSL Shader Model: '3.0'

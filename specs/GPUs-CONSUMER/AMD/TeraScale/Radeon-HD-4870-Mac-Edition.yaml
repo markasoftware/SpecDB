@@ -1,6 +1,6 @@
 name: Radeon-HD-4870-Mac-Edition
 humanName: Radeon HD 4870 Mac Edition
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -33,3 +33,4 @@ data:
     - 1x mini-DisplayPort 1.0
   Power Connectors: 2x 6-pin
   Length: 250 mm
+  HLSL Shader Model: '4.1'

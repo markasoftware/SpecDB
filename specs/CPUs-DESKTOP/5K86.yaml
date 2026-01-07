@@ -6,8 +6,8 @@ data:
   Release Date: '1996-10-07'
   Lithography: 350 nm
   Sockets:
-  - 5
-  - 7
+  - '5'
+  - '7'
   Foundry: AMD Foundries
 sections:
     - header: Standard SKUs

@@ -1,7 +1,7 @@
 name: GPUs-CONSOLE-Nvidia
 humanName: Console GPUs
 type: Generic Container
-isPart: false
+
 topHeader: 'SELECT SERIES:'
 data:
   Manufacturer: Nvidia

@@ -18,7 +18,7 @@ data:
   'GPU Base Frequency': '400 MHz'
   'VRAM Type': DDR2
   'Maximum VRAM Capacity': '256 MiB'
-isPart: true
+
 type: CPU
 humanName: 'Atom Z615'
 name: Atom-Z615

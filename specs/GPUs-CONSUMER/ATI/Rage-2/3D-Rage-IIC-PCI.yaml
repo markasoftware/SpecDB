@@ -1,6 +1,6 @@
 name: 3D-Rage-IIC-PCI
 humanName: 3D Rage IIC PCI
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

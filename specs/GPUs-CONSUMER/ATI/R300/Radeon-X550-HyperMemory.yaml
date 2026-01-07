@@ -1,6 +1,6 @@
 name: Radeon-X550-HyperMemory
 humanName: Radeon X550 HyperMemory
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

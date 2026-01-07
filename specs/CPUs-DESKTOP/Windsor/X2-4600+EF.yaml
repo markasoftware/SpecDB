@@ -1,6 +1,6 @@
 name: X2-4600+-Windsor-EF
 humanName: X2 4600+ Windsor EF
-isPart: true
+
 type: CPU
 inherits:
   - Windsor

@@ -1,16 +1,10 @@
 name: Radeon-HD-8400E
 humanName: Radeon HD 8400E
-isPart: true
+
 type: Graphics Card
+inherits:
+  - GCN-2
 data:
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: GCN 2.0
-  Lithography: 28 nm
-  DirectX Support: '12.0'
-  Vulkan Support: '1.2.170'
-  OpenGL Support: '4.6'
-  OpenCL Support: '2.1'
   Release Date: '2013-04-23'
   GPU Base Frequency: 600 MHz
   VRAM Frequency: System Shared
@@ -30,3 +24,4 @@ data:
   Outputs: Portable Device Dependent
   Market:
     - Mobile
+  HLSL Shader Model: '6.5'

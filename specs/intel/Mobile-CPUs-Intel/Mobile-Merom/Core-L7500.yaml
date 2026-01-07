@@ -13,7 +13,7 @@ data:
   Socket: PBGA479
   'Other Extensions':
     - x86-64
-isPart: true
+
 type: CPU
 humanName: 'Core L7500'
 name: Core-L7500

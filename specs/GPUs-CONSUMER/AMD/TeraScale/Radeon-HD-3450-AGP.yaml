@@ -1,6 +1,6 @@
 name: Radeon-HD-3450-AGP
 humanName: Radeon HD 3450 AGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -31,3 +31,4 @@ data:
   Power Connectors: 1x Molex
   Market:
     - Consumer
+  HLSL Shader Model: '4.1'

@@ -1,6 +1,6 @@
 name: Quadro-5000-SDI
 humanName: Quadro 5000 SDI
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -35,3 +35,4 @@ data:
   Width: 111 mm
   Market:
     - Workstation
+  HLSL Shader Model: '5.1'

@@ -1,6 +1,6 @@
 name: GeForce-8800-GTX
 humanName: GeForce 8800 GTX
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -34,3 +34,4 @@ data:
   Length: 270 mm
   Market:
     - Consumer
+  HLSL Shader Model: '4.0'

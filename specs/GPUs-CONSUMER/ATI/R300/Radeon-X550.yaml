@@ -1,6 +1,6 @@
 name: Radeon-X550
 humanName: Radeon X550
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

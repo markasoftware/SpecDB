@@ -1,6 +1,6 @@
 name: GeForce-GTX-1660-Ti
 humanName: GeForce GTX 1660 Ti
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -64,3 +64,4 @@ data:
   Length: 229 mm
   Width: 111 mm
   Height: 35 mm
+  HLSL Shader Model: '6.7'

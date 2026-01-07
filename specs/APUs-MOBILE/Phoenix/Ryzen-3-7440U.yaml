@@ -1,6 +1,6 @@
 name: Ryzen-3-7440U
 humanName: Ryzen 3 7440U
-isPart: true
+
 type: APU
 inherits:
 - Phoenix-M

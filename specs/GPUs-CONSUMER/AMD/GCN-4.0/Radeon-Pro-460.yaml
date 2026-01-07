@@ -1,6 +1,6 @@
 name: Radeon-Pro-460
 humanName: Radeon Pro 460
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -32,3 +32,4 @@ data:
   Slot Width: IGP
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.7'

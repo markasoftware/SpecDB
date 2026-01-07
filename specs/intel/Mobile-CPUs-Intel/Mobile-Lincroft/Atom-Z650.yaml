@@ -16,7 +16,7 @@ data:
   'Other Extensions': {  }
   AVX/SSE/MMX: false
   'GPU Base Frequency': '400 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Atom Z650'
 name: Atom-Z650

@@ -1,6 +1,6 @@
 name: 1000(O)
 humanName: Athlon 1000 Orion
-isPart: true
+
 type: CPU
 inherits:
   - Pluto

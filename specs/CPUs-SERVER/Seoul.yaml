@@ -13,12 +13,12 @@ sections:
     members:
       - 4365EE
       - 4376HE
-      - 4386
+      - '4386'
   - header: Six Core SKUs
     members:
       - 4332HE
-      - 4334
-      - 4340
+      - '4334'
+      - '4340'
   - header: Quad Core SKUs
     members:
       - 4310EE

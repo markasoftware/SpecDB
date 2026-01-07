@@ -1,6 +1,6 @@
 name: Riva-TNT2-M64
 humanName: Riva TNT2 M64
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

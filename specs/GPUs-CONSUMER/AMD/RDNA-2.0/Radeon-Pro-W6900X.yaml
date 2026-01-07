@@ -1,6 +1,6 @@
 name: Radeon-Pro-W6900X
 humanName: Radeon Pro W6900X
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -35,3 +35,4 @@ data:
   Length: 267 mm
   Width: 120 mm
   Ray Tracing Cores: 80
+  HLSL Shader Model: '6.7'

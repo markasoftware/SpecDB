@@ -271,72 +271,67 @@ const util = {
 
 		const parseSections = forEach(and(
 			atPath('header', parseStringy),
-			atPath('members',
-						 forEach(parseStringy)
-						),
+			atPath('members', forEach(parseStringy)),
 		));
 
 		// @param p the whole yaml
 		const parseRequiredSubtextData = p => {
 			const typeRequiredProps = {
-				'Generic Container': [],
+				'Generic Container': [
+					atPath('topHeader', parseStringy),
+					atPath('sections', parseSections),
+				],
 				'CPU Architecture': [
+					atPath('humanName', parseStringy),
 					atPath('data.Lithography', parseStringy),
 					// maybe should be some date parser? Maybe could hook into dates.js?
 					atPath('data.Release Date', parseStringy),
-					atPath('data.Sockets', or(forEach(parseStringy)), parseStringy),
+					atPath('data.Sockets', or(forEach(parseStringy), parseStringy)),
 				],
 				'Graphics Architecture': [
+					atPath('humanName', parseStringy),
 					atPath('data.Lithography', parseStringy),
 					atPath('data.Release Date', parseStringy),
 				],
 				'APU Architecture': [
+					atPath('humanName', parseStringy),
 					atPath('data.Lithography', parseStringy),
 					atPath('data.Release Date', parseStringy),
 				],
-				CPU: [
+				'CPU': [
+					atPath('humanName', parseStringy),
 					atPath('data.Core Count', parseType('number')),
 					atPath('data.Thread Count', parseType('number')),
 					atPath('data.Base Frequency', parseStringy),
 					atPath('data.TDP', parseStringy),
 				],
 				'Graphics Card': [
+					atPath('humanName', parseStringy),
 					atPath('data.VRAM Capacity', parseStringy),
 					atPath('data.Shader Processor Count', parseType('number')),
 					atPath('data.GPU Base Frequency', parseStringy),
 				],
 				'APU': [
+					atPath('humanName', parseStringy),
 					atPath('data.Core Count', parseType('number')),
 					atPath('data.Thread Count', parseType('number')),
 					atPath('data.Base Frequency', parseStringy),
 					atPath('data.Shader Processor Count', parseStringy),
 				],
+				'Hidden': [],
 			};
 
+			let result = false;
 			atPath('type', parseType('string'))(p);
 			const type = p.type;
+			if (!typeRequiredProps.hasOwnProperty(type)) {
+				throw new YamlVerifyError(`Unknown type "${type}" in yamlVerify`);
+			}
 			typeRequiredProps[type].forEach(c => c(p));
 		};
 
 		and(
-			or(
-				atPath('hidden', parseTrue),
-				//and(
-					//forHumanYamls ? atPath('name', parseStringy) : _.noop,
-				//),
-				and(
-					//forHumanYamls ? atPath('name', parseStringy) : _.noop,
-					atPath('humanName', parseStringy),
-					parseRequiredSubtextData,
-					or(
-						atPath('isPart', parseTrue),
-						and(
-							atPath('topHeader', parseStringy),
-							atPath('sections', parseSections),
-						),
-					),
-				),
-			),
+			parseRequiredSubtextData,
 			atPath('inherits',
 				or(
 					parseType('undefined'),

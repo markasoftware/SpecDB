@@ -14,7 +14,7 @@ data:
   'Other Extensions':
     - x86-64
   AVX/SSE/MMX: false
-isPart: true
+
 type: CPU
 humanName: 'Pentium E3500'
 name: Pentium-E3500

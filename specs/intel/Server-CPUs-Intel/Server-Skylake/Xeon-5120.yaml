@@ -19,7 +19,7 @@ data:
   'Release Date': '2017-07-11'
   AES: true
   AVX/SSE/MMX: AVX-512
-isPart: true
+
 type: CPU
 humanName: 'Xeon 5120'
 name: Xeon-5120

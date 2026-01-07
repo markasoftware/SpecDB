@@ -6,7 +6,7 @@ data:
   Release Date: '2005-05-31'
   Lithography: 90 nm
   Sockets:
-  - 939
+  - '939'
   Foundry: AMD Foundries
 sections:
   - header: Standard SKUs

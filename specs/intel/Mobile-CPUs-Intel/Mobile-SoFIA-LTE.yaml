@@ -11,5 +11,6 @@ data:
   Manufacturer: Intel
   Lithography: '28 nm'
   'Release Date': '2015-03-02'
-  Sockets: {  }
+  Sockets:
+  - Integrated
 name: Mobile-SoFIA-LTE

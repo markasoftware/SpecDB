@@ -1,17 +1,11 @@
 name: FirePro-M3900
 humanName: FirePro M3900
-isPart: true
+
 type: Graphics Card
+inherits:
+  - TeraScale-2
 data:
   Market: Workstation
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: TeraScale 2
-  Lithography: 40 nm
-  DirectX Support: '11.0'
-  Vulkan Support: 'N/A'
-  OpenGL Support: '4.4'
-  OpenCL Support: '1.2'
   Release Date: '2010-10-19'
   GPU Base Frequency: 750 MHz
   VRAM Frequency: 900 MHz
@@ -28,3 +22,4 @@ data:
   TDP: 20 W
   FP32 Compute: 240.0 GFLOPS
   Outputs: Portable Device Dependent
+  HLSL Shader Model: '5.0'

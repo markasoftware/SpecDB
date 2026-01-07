@@ -1,6 +1,6 @@
 name: GeForce-GT-710-OEM
 humanName: GeForce GT 710 OEM
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -28,3 +28,4 @@ data:
   Slot Width: Single-slot
   Outputs: No outputs
   Power Connectors: None
+  HLSL Shader Model: '6.5 (5.1)'

@@ -1,6 +1,6 @@
 name: FirePro-V3750
 humanName: FirePro V3750
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -34,3 +34,4 @@ data:
   Power Connectors: None
   Length: 168 mm
   Width: 111 mm
+  HLSL Shader Model: '4.1'

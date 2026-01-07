@@ -1,6 +1,6 @@
 name: FirePro-S10000-Passive
 humanName: FirePro S10000 Passive
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -36,3 +36,4 @@ data:
   Power Connectors: 2x 8-pin
   Length: 305 mm
   Width: 111 mm
+  HLSL Shader Model: '6.5 (5.1)'

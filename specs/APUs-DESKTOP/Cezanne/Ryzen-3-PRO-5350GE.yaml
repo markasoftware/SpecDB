@@ -1,9 +1,9 @@
 name: Ryzen-3-PRO-5350GE
 humanName: Ryzen 3 PRO 5350GE
-isPart: true
+
 type: CPU
 inherits:
-- GCN 5.1
+- GCN-5.1
 - Cezanne
 data:
   Release Date: '2021-06-01'

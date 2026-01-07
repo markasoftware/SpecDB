@@ -1,6 +1,6 @@
 name: Radeon-Instinct-MI100
 humanName: Radeon Instinct MI100
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center

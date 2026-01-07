@@ -1,6 +1,6 @@
 name: Radeon-9200-PRO
 humanName: Radeon 9200 PRO
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

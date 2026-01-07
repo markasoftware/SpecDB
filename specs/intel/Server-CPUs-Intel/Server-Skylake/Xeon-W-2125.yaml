@@ -18,7 +18,7 @@ data:
   'Other Extensions':
     - x86-64
   AVX/SSE/MMX: AVX-512
-isPart: true
+
 type: CPU
 humanName: 'Xeon W-2125'
 name: Xeon-W-2125

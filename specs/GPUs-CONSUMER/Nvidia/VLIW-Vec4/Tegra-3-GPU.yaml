@@ -1,6 +1,6 @@
 name: Tegra-3-GPU
 humanName: Tegra 3 GPU
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

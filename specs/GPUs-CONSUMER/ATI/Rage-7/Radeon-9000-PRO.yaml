@@ -1,6 +1,6 @@
 name: Radeon-9000-PRO
 humanName: Radeon 9000 PRO
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

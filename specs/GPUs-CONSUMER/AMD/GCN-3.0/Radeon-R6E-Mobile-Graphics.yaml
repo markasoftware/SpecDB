@@ -1,16 +1,10 @@
 name: Radeon-R6E-Mobile-Graphics
 humanName: Radeon R6E Mobile Graphics
-isPart: true
+
 type: Graphics Card
+inherit:
+  - "GCN-3"
 data:
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: GCN 3.0
-  Lithography: 28 nm
-  DirectX Support: '12.0'
-  Vulkan Support: '1.2.170'
-  OpenGL Support: '4.6'
-  OpenCL Support: '2.1'
   Release Date: '2016'
   GPU Base Frequency: 200 MHz
   GPU Boost Frequency: 758 MHz
@@ -31,3 +25,4 @@ data:
   Outputs: Portable Device Dependent
   Market:
     - Mobile
+  HLSL Shader Model: '6.5'

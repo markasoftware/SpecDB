@@ -1,6 +1,6 @@
 name: K6-300(L)
 humanName: K6 300 Little Foot
-isPart: true
+
 type: CPU
 inherits:
   - M6

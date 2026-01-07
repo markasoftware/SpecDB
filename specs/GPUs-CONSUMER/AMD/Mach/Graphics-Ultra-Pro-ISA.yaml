@@ -1,6 +1,6 @@
 name: Graphics-Ultra-Pro-ISA
 humanName: Graphics Ultra Pro ISA
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD

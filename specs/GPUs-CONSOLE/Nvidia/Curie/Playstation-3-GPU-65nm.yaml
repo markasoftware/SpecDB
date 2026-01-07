@@ -1,6 +1,6 @@
 name: Playstation-3-GPU-65nm
 humanName: Playstation 3 GPU 65nm
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

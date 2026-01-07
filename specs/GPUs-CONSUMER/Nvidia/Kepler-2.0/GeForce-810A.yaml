@@ -1,6 +1,6 @@
 name: GeForce-810A
 humanName: GeForce 810A
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -32,3 +32,4 @@ data:
   Power Connectors: None
   Market:
     - Mobile
+  HLSL Shader Model: '6.5 (5.1)'

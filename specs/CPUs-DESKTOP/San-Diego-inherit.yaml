@@ -1,4 +1,4 @@
-hidden: true
+type: Hidden
 name: San-Diego
 data:
   Architecture: K8

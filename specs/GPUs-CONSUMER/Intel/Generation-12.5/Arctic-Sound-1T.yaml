@@ -1,6 +1,6 @@
 name: Arctic-Sound-1T
 humanName: Arctic Sound 1T
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel
@@ -32,3 +32,4 @@ data:
   Length: 267 mm
   Market:
     - Workstation
+  HLSL Shader Model: '6.6'

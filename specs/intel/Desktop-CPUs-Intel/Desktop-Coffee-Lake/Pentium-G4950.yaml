@@ -23,7 +23,7 @@ data:
   'Maximum VRAM Capacity': '64 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-isPart: true
+
 type: CPU
 humanName: 'Pentium G4950'
 name: Pentium-G4950

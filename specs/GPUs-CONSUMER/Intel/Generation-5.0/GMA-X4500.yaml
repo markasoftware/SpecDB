@@ -1,6 +1,6 @@
 name: GMA-X4500
 humanName: GMA X4500
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel
@@ -28,3 +28,4 @@ data:
   Outputs: Motherboard Dependent
   Market:
     - Consumer
+  HLSL Shader Model: '4.0'

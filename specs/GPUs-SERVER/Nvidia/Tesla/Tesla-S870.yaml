@@ -1,6 +1,6 @@
 name: Tesla-S870
 humanName: Tesla S870
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -28,3 +28,4 @@ data:
   FP32 Compute: 345.6 GFLOPS
   Slot Width: Dual-slot
   Outputs: No outputs
+  HLSL Shader Model: '4.0'

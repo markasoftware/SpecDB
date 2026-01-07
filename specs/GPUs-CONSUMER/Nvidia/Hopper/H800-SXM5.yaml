@@ -1,13 +1,13 @@
 name: H800-SXM5
 humanName: H800 SXM5
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Hopper
   Lithography: 4 nm
-  HLSL Shader Model: '528'
+
   Vulkan Support: 'N/A'
   OpenGL Support: 'N/A'
   OpenCL Support: '3.0'

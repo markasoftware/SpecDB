@@ -1,6 +1,6 @@
 name: Ryzen-5-5600X
 humanName: Ryzen 5 5600X
-isPart: true
+
 type: CPU
 inherits:
 - Vermeer

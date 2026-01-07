@@ -1,6 +1,6 @@
 name: WinCharger
 humanName: WinCharger
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD

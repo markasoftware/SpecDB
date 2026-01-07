@@ -1,6 +1,6 @@
 name: QID
 humanName: QID
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Matrox

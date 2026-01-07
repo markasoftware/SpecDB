@@ -1,6 +1,6 @@
 name: Quadro-FX-600-PCI
 humanName: Quadro FX 600 PCI
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation

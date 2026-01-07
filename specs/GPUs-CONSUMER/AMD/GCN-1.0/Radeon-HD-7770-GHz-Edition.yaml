@@ -1,16 +1,10 @@
 name: Radeon-HD-7770-GHz-Edition
 humanName: Radeon HD 7770 GHz Edition
-isPart: true
+
 type: Graphics Card
+inherits:
+  - GCN-1
 data:
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: GCN 1.0
-  Lithography: 28 nm
-  DirectX Support: '11.1'
-  Vulkan Support: '1.2.170'
-  OpenGL Support: '4.6'
-  OpenCL Support: '2.1 (1.2)'
   Release Date: '2012-02-15'
   GPU Base Frequency: 1000 MHz
   VRAM Frequency: 1125 MHz
@@ -35,3 +29,4 @@ data:
   Length: 210 mm
   Market:
     - Consumer
+  HLSL Shader Model: '6.5 (5.1)'

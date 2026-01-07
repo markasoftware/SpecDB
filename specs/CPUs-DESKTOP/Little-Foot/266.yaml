@@ -1,6 +1,6 @@
 name: K6-266(L)
 humanName: K6 266 Little Foot
-isPart: true
+
 type: CPU
 inherits:
   - M6

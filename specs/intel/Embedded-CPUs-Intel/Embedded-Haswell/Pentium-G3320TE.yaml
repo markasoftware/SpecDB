@@ -21,7 +21,7 @@ data:
   'GPU Boost Frequency': '1000 MHz'
   'VRAM Type': 'DDR3, DDR3L'
   'Maximum VRAM Capacity': '1024 MiB'
-isPart: true
+
 type: CPU
 humanName: 'Pentium G3320TE'
 name: Pentium-G3320TE

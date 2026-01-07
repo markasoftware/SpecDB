@@ -1,6 +1,6 @@
 name: GeForce-GTX-285-Mac-Edition
 humanName: GeForce GTX 285 Mac Edition
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -33,3 +33,4 @@ data:
     - 1x S-Video
   Power Connectors: 2x 6-pin
   Length: 267 mm
+  HLSL Shader Model: '4.0'

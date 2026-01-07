@@ -1,6 +1,6 @@
 name: GeForce-FX-Go5200-NPB-64M
 humanName: GeForce FX Go5200 NPB 64M
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

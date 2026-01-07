@@ -1,6 +1,6 @@
 name: GeForce-210-PCI
 humanName: GeForce 210 PCI
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -31,3 +31,4 @@ data:
   Length: 145 mm
   Market:
     - Consumer
+  HLSL Shader Model: '4.1'

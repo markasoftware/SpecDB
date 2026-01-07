@@ -1,6 +1,6 @@
 name: GeForce-GTX-1650-TU116
 humanName: GeForce GTX 1650 TU116
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Decoding:
@@ -54,3 +54,4 @@ data:
   Length: 229 mm
   Width: 111 mm
   Height: 35 mm
+  HLSL Shader Model: '6.7'

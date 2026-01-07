@@ -1,6 +1,6 @@
 name: X2-4850E-Brisbane
 humanName: X2 4850E Brisbane
-isPart: true
+
 type: CPU
 inherits:
   - Brisbane

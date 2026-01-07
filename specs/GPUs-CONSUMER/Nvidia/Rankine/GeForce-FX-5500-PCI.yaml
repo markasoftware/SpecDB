@@ -1,6 +1,6 @@
 name: GeForce-FX-5500-PCI
 humanName: GeForce FX 5500 PCI
-isPart: true
+
 type: Graphics Card
 data:
   Market: Consumer

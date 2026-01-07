@@ -1,6 +1,6 @@
 name: 3D-Rage
 humanName: 3D Rage
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD

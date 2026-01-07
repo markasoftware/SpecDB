@@ -1,6 +1,6 @@
 name: Radeon-PRO-W7500
 humanName: Radeon PRO W7500
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -36,3 +36,4 @@ data:
   Length: 216 mm
   Width: 115 mm
   Ray Tracing Cores: 28
+  HLSL Shader Model: '6.7'

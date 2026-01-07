@@ -1,6 +1,6 @@
 name: Radeon-PRO-W6300
 humanName: Radeon PRO W6300
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -33,3 +33,4 @@ data:
   Outputs: No outputs
   Power Connectors: None
   Ray Tracing Cores: 12
+  HLSL Shader Model: '6.7'

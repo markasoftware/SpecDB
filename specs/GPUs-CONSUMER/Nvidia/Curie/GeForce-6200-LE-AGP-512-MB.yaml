@@ -1,6 +1,6 @@
 name: GeForce-6200-LE-AGP-512-MB
 humanName: GeForce 6200 LE AGP 512 MB
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -32,3 +32,4 @@ data:
   Pixel Shaders: 4
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

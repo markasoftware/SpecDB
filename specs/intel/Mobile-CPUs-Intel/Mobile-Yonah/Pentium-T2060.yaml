@@ -12,7 +12,7 @@ data:
   'Release Date': 'Q1 2007'
   Socket: PPGA478
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Pentium T2060'
 name: Pentium-T2060

@@ -18,7 +18,7 @@ data:
   'Other Extensions':
     - x86-64
   AVX/SSE/MMX: AVX2
-isPart: true
+
 type: CPU
 humanName: 'Xeon E5-2699RV4'
 name: Xeon-E5-2699RV4

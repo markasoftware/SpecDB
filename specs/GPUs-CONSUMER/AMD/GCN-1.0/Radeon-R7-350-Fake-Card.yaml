@@ -1,16 +1,10 @@
 name: Radeon-R7-350-Fake-Card
 humanName: Radeon R7 350 Fake Card
-isPart: true
+
 type: Graphics Card
+inherits:
+  - GCN-1
 data:
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: GCN 1.0
-  Lithography: 28 nm
-  DirectX Support: '11.1'
-  Vulkan Support: '1.2.170'
-  OpenGL Support: '4.6'
-  OpenCL Support: '2.1 (1.2)'
   Release Date: '2015'
   GPU Base Frequency: 1050 MHz
   VRAM Frequency: 1150 MHz
@@ -33,3 +27,4 @@ data:
   Power Connectors: None
   Market:
     - Consumer
+  HLSL Shader Model: '6.5 (5.1)'

@@ -1,6 +1,6 @@
 name: GeForce-6600-LE
 humanName: GeForce 6600 LE
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -31,3 +31,4 @@ data:
   Pixel Shaders: 4
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

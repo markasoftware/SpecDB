@@ -1,6 +1,6 @@
 name: Radeon-HD-2400-PRO-PCI
 humanName: Radeon HD 2400 PRO PCI
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -31,3 +31,4 @@ data:
   Power Connectors: None
   Market:
     - Workstation
+  HLSL Shader Model: '4.0'

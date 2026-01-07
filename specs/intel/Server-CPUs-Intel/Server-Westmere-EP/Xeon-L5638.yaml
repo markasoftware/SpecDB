@@ -12,7 +12,7 @@ data:
   'Release Date': '2010-03-16'
   Socket: FCLGA1366
   AES: true
-isPart: true
+
 type: CPU
 humanName: 'Xeon L5638'
 name: Xeon-L5638

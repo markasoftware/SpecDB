@@ -1,6 +1,6 @@
 name: CMP-30HX
 humanName: CMP 30HX
-isPart: true
+
 type: Graphics Card
 data:
   Market: Crypto
@@ -35,3 +35,4 @@ data:
   Length: 229 mm
   Width: 111 mm
   Height: 35 mm
+  HLSL Shader Model: '6.7'

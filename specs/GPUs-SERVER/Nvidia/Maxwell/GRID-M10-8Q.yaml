@@ -1,6 +1,6 @@
 name: GRID-M10-8Q
 humanName: GRID M10-8Q
-isPart: true
+
 type: Graphics Card
 data:
   Market: Cloud Gaming
@@ -33,3 +33,4 @@ data:
   Outputs: No outputs
   Power Connectors: 1x 8-pin
   Length: 267 mm
+  HLSL Shader Model: '6.7 (5.1)'

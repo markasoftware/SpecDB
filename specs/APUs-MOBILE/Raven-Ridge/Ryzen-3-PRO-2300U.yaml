@@ -1,9 +1,9 @@
-isPart: true
+
 name: Ryzen-3-PRO-2300U
 humanName: Ryzen 3 PRO 2300U
 type: APU
 inherits:
-  - GCN 5
+  - GCN-5
   - Raven-Ridge
 data:
  

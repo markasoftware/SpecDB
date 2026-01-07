@@ -1,6 +1,6 @@
 name: Xeon-Phi-5120D
 humanName: Xeon Phi 5120D
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel
@@ -29,3 +29,4 @@ data:
   Length: 248 mm
   Market:
     - Consumer
+  HLSL Shader Model: '5.0'

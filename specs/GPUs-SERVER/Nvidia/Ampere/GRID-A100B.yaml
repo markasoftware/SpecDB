@@ -1,6 +1,6 @@
 name: GRID-A100B
 humanName: GRID A100B
-isPart: true
+
 type: Graphics Card
 data:
   Market: Cloud Gaming
@@ -8,7 +8,7 @@ data:
   Vendor: Nvidia
   Architecture: Ampere
   Lithography: 7 nm
-  HLSL Shader Model: '432'
+
   Vulkan Support: 'N/A'
   OpenGL Support: 'N/A'
   OpenCL Support: '3.0'

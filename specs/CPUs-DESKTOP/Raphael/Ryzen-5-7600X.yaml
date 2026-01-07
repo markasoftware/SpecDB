@@ -1,6 +1,6 @@
 name: Ryzen-5-7600X
 humanName: Ryzen 5 7600X
-isPart: true
+
 type: CPU
 inherits:
 - Raphael

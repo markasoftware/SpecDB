@@ -1,6 +1,6 @@
 name: GeForce-GTX-760-X2
 humanName: GeForce GTX 760 X2
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -36,3 +36,4 @@ data:
   Length: 279 mm
   Market:
     - Consumer
+  HLSL Shader Model: '6.5 (5.1)'

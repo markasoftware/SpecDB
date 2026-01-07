@@ -14,7 +14,7 @@ data:
   AES: false
   'Other Extensions':
     - x86-64
-isPart: true
+
 type: CPU
 humanName: 'Core QX6850'
 name: Core-QX6850

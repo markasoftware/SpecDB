@@ -1,6 +1,6 @@
 name: i852GM-Graphics
 humanName: i852GM Graphics
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel

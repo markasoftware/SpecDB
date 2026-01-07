@@ -1,6 +1,6 @@
 name: Quadro-FX-3800M
 humanName: Quadro FX 3800M
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -31,3 +31,4 @@ data:
   Power Connectors: None
   Market:
     - Workstation
+  HLSL Shader Model: '4.0'

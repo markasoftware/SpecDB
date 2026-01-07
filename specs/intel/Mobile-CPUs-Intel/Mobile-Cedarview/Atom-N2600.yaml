@@ -16,7 +16,7 @@ data:
     - x86-64
   AVX/SSE/MMX: false
   'GPU Base Frequency': '400 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Atom N2600'
 name: Atom-N2600

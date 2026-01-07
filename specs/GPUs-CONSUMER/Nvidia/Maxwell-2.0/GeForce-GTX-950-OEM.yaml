@@ -1,6 +1,6 @@
 name: GeForce-GTX-950-OEM
 humanName: GeForce GTX 950 OEM
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -30,3 +30,4 @@ data:
   Slot Width: Dual-slot
   Outputs: No outputs
   Power Connectors: None
+  HLSL Shader Model: '6.7'

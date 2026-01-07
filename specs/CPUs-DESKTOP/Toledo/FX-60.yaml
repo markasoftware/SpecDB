@@ -1,6 +1,6 @@
 name: FX-60
 humanName: FX-60
-isPart: true
+
 type: CPU
 inherits:
   - Toledo

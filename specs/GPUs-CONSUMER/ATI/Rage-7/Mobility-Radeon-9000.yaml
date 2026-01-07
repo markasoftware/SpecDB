@@ -1,6 +1,6 @@
 name: Mobility-Radeon-9000
 humanName: Mobility Radeon 9000
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

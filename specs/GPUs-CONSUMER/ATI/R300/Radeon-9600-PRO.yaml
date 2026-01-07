@@ -1,6 +1,6 @@
 name: Radeon-9600-PRO
 humanName: Radeon 9600 PRO
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

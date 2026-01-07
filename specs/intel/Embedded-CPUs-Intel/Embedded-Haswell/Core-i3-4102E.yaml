@@ -19,7 +19,7 @@ data:
   AVX/SSE/MMX: AVX2
   'GPU Base Frequency': '400 MHz'
   'GPU Boost Frequency': '900 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Core i3-4102E'
 name: Core-i3-4102E

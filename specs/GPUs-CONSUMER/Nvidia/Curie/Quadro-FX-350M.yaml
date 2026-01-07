@@ -1,6 +1,6 @@
 name: Quadro-FX-350M
 humanName: Quadro FX 350M
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -30,3 +30,4 @@ data:
   Pixel Shaders: 4
   Market:
     - Workstation
+  HLSL Shader Model: '3.0'

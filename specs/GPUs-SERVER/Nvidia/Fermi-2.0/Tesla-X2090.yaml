@@ -1,6 +1,6 @@
 name: Tesla-X2090
 humanName: Tesla X2090
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -30,3 +30,4 @@ data:
   Slot Width: MXM Module
   Outputs: No outputs
   Power Connectors: None
+  HLSL Shader Model: '5.1'

@@ -3,6 +3,7 @@ const _ = require('lodash');
 const debug = require('debug')('specdb.combine-specs');
 const util = require('./util');
 const combineUtil = require('./combine-util');
+const pure = require('./../src/js/pure');
 
 /*
  * Spec combination process:
@@ -83,6 +84,6 @@ const fixedSitemapUrls = [
 	'https://specdb.info/',
 	'https://specdb.info/about',
 ];
-const dynamicSitemapUrls = Object.keys(_.pickBy(toReturn, v => v.isPart)).map(c => `https://specdb.info/${c}`);
+const dynamicSitemapUrls = Object.keys(_.pickBy(toReturn, pure.isPart)).map(c => `https://specdb.info/${c}`);
 const allSitemapUrls = fixedSitemapUrls.concat(dynamicSitemapUrls);
 fs.writeFileSync(sitemapFile, allSitemapUrls.join('\n'), 'utf8');

@@ -1,6 +1,6 @@
 name: GeForce-GTX-980-Ti
 humanName: GeForce GTX 980 Ti
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -50,3 +50,4 @@ data:
   Height: 40 mm
   Market:
     - Consumer
+  HLSL Shader Model: '6.7'

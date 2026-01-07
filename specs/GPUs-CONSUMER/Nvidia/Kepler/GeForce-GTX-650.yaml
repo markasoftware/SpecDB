@@ -1,6 +1,6 @@
 name: GeForce-GTX-650
 humanName: GeForce GTX 650
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -34,3 +34,4 @@ data:
   Length: 147 mm
   Market:
     - Consumer
+  HLSL Shader Model: '6.5 (5.1)'

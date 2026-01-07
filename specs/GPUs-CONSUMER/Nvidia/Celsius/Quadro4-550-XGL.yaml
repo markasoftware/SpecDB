@@ -1,6 +1,6 @@
 name: Quadro4-550-XGL
 humanName: Quadro4 550 XGL
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation

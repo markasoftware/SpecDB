@@ -1,6 +1,6 @@
 name: Radeon-VE-AGP
 humanName: Radeon VE AGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

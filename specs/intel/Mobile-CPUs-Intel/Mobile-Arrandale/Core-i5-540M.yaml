@@ -21,7 +21,7 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '500 MHz'
   'GPU Boost Frequency': '766 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Core i5-540M'
 name: Core-i5-540M

@@ -1,6 +1,6 @@
 name: GeForce-GT-1030-DDR4
 humanName: GeForce GT 1030 DDR4
-isPart: true
+
 type: Graphics Card
 data:
   Market: Consumer
@@ -37,3 +37,4 @@ data:
   Length: 145 mm
   Width: 69 mm
   Height: 15 mm
+  HLSL Shader Model: '6.7'

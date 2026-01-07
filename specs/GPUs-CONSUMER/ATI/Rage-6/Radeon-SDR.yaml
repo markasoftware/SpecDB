@@ -1,6 +1,6 @@
 name: Radeon-SDR
 humanName: Radeon SDR
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

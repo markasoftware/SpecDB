@@ -1,6 +1,6 @@
 name: X2-5400+BE-Brisbane
 humanName: X2 5400+ Black Edition Brisbane
-isPart: true
+
 type: CPU
 inherits:
   - Brisbane

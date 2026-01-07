@@ -1,6 +1,6 @@
 name: Quadro-FX-3000
 humanName: Quadro FX 3000
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation

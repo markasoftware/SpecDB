@@ -1,6 +1,6 @@
 name: GRID-K120Q
 humanName: GRID K120Q
-isPart: true
+
 type: Graphics Card
 data:
   Market: Cloud Gaming
@@ -29,3 +29,4 @@ data:
   FP64 Compute: 13.60 GFLOPS (1:24)
   Slot Width: IGP
   Outputs: No outputs
+  HLSL Shader Model: '6.5 (5.1)'

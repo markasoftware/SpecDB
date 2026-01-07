@@ -1,6 +1,6 @@
 name: GeForce-9400M
 humanName: GeForce 9400M
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -30,3 +30,4 @@ data:
   Outputs: Portable Device Dependent
   Market:
     - Mobile
+  HLSL Shader Model: '4.0'

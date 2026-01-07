@@ -18,7 +18,7 @@ data:
     - x86-64
   'GPU Base Frequency': '313 MHz'
   'GPU Boost Frequency': '750 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Pentium N3510'
 name: Pentium-N3510

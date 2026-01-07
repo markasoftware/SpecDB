@@ -1,7 +1,7 @@
 name: Volta-server
 humanName: Volta
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 12 nm

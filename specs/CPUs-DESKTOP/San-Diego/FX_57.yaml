@@ -1,6 +1,6 @@
 name: FX-57(S)
 humanName: FX-57 San-Diego
-isPart: true
+
 type: CPU
 inherits:
   - San-Diego

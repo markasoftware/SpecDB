@@ -1,6 +1,6 @@
 name: GeForce-PCX-5750
 humanName: GeForce PCX 5750
-isPart: true
+
 type: Graphics Card
 data:
   Market: Consumer

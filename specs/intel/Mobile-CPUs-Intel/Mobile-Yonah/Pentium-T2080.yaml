@@ -12,7 +12,7 @@ data:
   'Release Date': 'Q2 2007'
   Socket: PPGA478
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Pentium T2080'
 name: Pentium-T2080

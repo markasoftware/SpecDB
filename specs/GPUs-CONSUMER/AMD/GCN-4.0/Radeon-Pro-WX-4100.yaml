@@ -1,6 +1,6 @@
 name: Radeon-Pro-WX-4100
 humanName: Radeon Pro WX 4100
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -34,3 +34,4 @@ data:
   Power Connectors: None
   Length: 168 mm
   Width: 69 mm
+  HLSL Shader Model: '6.7'

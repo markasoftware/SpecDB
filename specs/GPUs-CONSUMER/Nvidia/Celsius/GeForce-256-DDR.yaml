@@ -1,6 +1,6 @@
 name: GeForce-256-DDR
 humanName: GeForce 256 DDR
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

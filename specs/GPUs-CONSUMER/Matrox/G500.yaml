@@ -1,7 +1,7 @@
 name: G500 
 humanName: G500
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 180 nm

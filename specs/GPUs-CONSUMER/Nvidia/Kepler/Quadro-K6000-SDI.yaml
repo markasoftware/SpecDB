@@ -1,6 +1,6 @@
 name: Quadro-K6000-SDI
 humanName: Quadro K6000 SDI
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -34,3 +34,4 @@ data:
     - 3x SDI
   Length: 267 mm
   Width: 111 mm
+  HLSL Shader Model: '6.5 (5.1)'

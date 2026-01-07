@@ -1,6 +1,6 @@
 name: Mobility-Radeon-X2500
 humanName: Mobility Radeon X2500
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI
@@ -27,3 +27,4 @@ data:
   Pixel Shaders: 12
   Market:
     - Mobile
+  HLSL Shader Model: '3.0'

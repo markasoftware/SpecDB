@@ -1,6 +1,6 @@
 name: '250'
 humanName:  '250'
-isPart: true
+
 type: CPU
 data:
   Base Frequency: 3.2 GHz

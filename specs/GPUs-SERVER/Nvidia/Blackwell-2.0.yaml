@@ -1,7 +1,7 @@
 name: Blackwell-2.0-server
 humanName: Blackwell 2.0
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 5 nm

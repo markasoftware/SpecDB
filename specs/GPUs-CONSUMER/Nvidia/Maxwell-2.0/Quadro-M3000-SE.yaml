@@ -1,6 +1,6 @@
 name: Quadro-M3000-SE
 humanName: Quadro M3000 SE
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -31,3 +31,4 @@ data:
   Slot Width: MXM Module
   Outputs: No outputs
   Power Connectors: None
+  HLSL Shader Model: '6.7 (6.4)'

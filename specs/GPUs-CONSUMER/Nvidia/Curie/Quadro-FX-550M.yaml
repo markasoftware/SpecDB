@@ -1,6 +1,6 @@
 name: Quadro-FX-550M
 humanName: Quadro FX 550M
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -28,3 +28,4 @@ data:
   Pixel Shaders: 12
   Market:
     - Workstation
+  HLSL Shader Model: '3.0'

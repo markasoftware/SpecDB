@@ -1,6 +1,6 @@
 name: GeForce-205-OEM
 humanName: GeForce 205 OEM
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -32,3 +32,4 @@ data:
     - 1x DisplayPort1x VGA
   Power Connectors: None
   Length: 168 mm
+  HLSL Shader Model: '4.1'

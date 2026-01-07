@@ -1,6 +1,6 @@
 name: B200-SXM-192-GB
 humanName: B200 SXM 192 GB
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -8,7 +8,7 @@ data:
   Vendor: Nvidia
   Architecture: Blackwell
   Lithography: 5 nm
-  HLSL Shader Model: '528'
+
   Vulkan Support: 'N/A'
   OpenGL Support: 'N/A'
   OpenCL Support: '3.0'

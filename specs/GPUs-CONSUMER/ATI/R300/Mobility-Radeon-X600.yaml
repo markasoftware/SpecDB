@@ -1,6 +1,6 @@
 name: Mobility-Radeon-X600
 humanName: Mobility Radeon X600
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

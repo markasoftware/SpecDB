@@ -1,7 +1,7 @@
 name: Bristol-Ridge-M
 humanName: Bristol Ridge Mobile
 type: APU Architecture
-isPart: false
+
 topHeader: 'SELECT APU:'
 data:
   Lithography: 28nm

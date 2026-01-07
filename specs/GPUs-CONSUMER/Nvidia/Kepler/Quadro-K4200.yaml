@@ -1,6 +1,6 @@
 name: Quadro-K4200
 humanName: Quadro K4200
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -36,3 +36,4 @@ data:
   Power Connectors: 1x 6-pin
   Length: 241 mm
   Width: 111 mm
+  HLSL Shader Model: '6.5 (5.1)'

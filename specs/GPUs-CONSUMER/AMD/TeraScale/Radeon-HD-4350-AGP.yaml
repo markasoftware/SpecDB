@@ -1,6 +1,6 @@
 name: Radeon-HD-4350-AGP
 humanName: Radeon HD 4350 AGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -33,3 +33,4 @@ data:
   Power Connectors: None
   Market:
     - Consumer
+  HLSL Shader Model: '4.1'

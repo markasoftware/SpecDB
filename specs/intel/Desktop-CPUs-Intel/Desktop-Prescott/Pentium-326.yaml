@@ -15,7 +15,7 @@ data:
     - x86-64
     - x86-64
   AES: false
-isPart: true
+
 type: CPU
 humanName: 'Pentium 326'
 name: Pentium-326

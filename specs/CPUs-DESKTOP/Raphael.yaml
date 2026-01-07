@@ -1,7 +1,7 @@
 name: Raphael
 humanName: Raphael
 type: CPU Architecture
-isPart: false
+
 topHeader: 'SELECT CPU:'
 data: 
   Release Date: '2022-09-27'

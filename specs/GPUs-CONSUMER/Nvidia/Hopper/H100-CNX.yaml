@@ -1,13 +1,13 @@
 name: H100-CNX
 humanName: H100 CNX
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
   Vendor: Nvidia
   Architecture: Hopper
   Lithography: 4 nm
-  HLSL Shader Model: '456'
+
   Vulkan Support: 'N/A'
   OpenGL Support: 'N/A'
   OpenCL Support: '3.0'

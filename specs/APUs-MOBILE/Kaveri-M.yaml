@@ -1,7 +1,7 @@
 name: Kaveri-M
 humanName: Kaveri Mobile
 type: APU Architecture
-isPart: false
+
 topHeader: 'SELECT APU:'
 data:
   Lithography: 28nm

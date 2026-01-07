@@ -20,7 +20,7 @@ data:
   AVX/SSE/MMX: AVX2
   'DirectX Support': '0'
   'OpenGL Support': N/A
-isPart: true
+
 type: CPU
 humanName: 'Xeon E-2234'
 name: Xeon-E-2234

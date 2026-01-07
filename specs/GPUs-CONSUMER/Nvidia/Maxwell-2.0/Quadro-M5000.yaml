@@ -1,6 +1,6 @@
 name: Quadro-M5000
 humanName: Quadro M5000
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -47,3 +47,4 @@ data:
   Power Connectors: 1x 6-pin
   Length: 267 mm
   Width: 111 mm
+  HLSL Shader Model: '6.7 (6.4)'

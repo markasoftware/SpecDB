@@ -1,6 +1,6 @@
 name: GeForce-GT-640-OEM-Rebrand
 humanName: GeForce GT 640 OEM Rebrand
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -33,3 +33,4 @@ data:
     - 1x mini-HDMI 1.3a
   Power Connectors: None
   Length: 145 mm
+  HLSL Shader Model: '5.1'

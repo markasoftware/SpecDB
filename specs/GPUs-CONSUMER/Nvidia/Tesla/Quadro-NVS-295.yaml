@@ -1,6 +1,6 @@
 name: Quadro-NVS-295
 humanName: Quadro NVS 295
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -31,3 +31,4 @@ data:
   Length: 168 mm
   Market:
     - Workstation
+  HLSL Shader Model: '4.0'

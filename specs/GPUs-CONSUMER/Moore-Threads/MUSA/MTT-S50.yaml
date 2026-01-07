@@ -1,6 +1,6 @@
 name: MTT-S50
 humanName: MTT S50
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Moore-Threads
@@ -31,3 +31,4 @@ data:
   Power Connectors: 1x 6-pin
   Length: 251 mm
   Width: 111 mm
+  HLSL Shader Model: '6.5'

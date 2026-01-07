@@ -1,6 +1,6 @@
 name: Radeon-HD-3870-Mac-Edition
 humanName: Radeon HD 3870 Mac Edition
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -33,3 +33,4 @@ data:
     - 1x S-Video
   Power Connectors: 1x 6-pin
   Length: 241 mm
+  HLSL Shader Model: '4.1'

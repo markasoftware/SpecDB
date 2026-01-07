@@ -1,6 +1,6 @@
 name: Radeon-550X-640SP
 humanName: Radeon 550X 640SP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -35,3 +35,4 @@ data:
   Power Connectors: None
   Market:
     - Consumer
+  HLSL Shader Model: '6.7'

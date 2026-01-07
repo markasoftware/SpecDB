@@ -1,6 +1,6 @@
 name: 2850E
 humanName: 2850E
-isPart: true
+
 type: CPU
 inherits:
   - Lima

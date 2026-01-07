@@ -1,6 +1,6 @@
 name: GeForce-GTS-450-Rev.-3
 humanName: GeForce GTS 450 Rev. 3
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -35,3 +35,4 @@ data:
   Length: 210 mm
   Market:
     - Consumer
+  HLSL Shader Model: '5.1'

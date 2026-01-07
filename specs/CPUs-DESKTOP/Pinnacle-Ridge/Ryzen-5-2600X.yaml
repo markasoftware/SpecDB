@@ -1,6 +1,6 @@
 name: Ryzen-5-2600X
 humanName: Ryzen 5 2600X
-isPart: true
+
 type: CPU
 inherits:
   - Pinnacle-Ridge

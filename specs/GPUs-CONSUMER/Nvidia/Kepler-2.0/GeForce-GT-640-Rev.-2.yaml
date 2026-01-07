@@ -1,6 +1,6 @@
 name: GeForce-GT-640-Rev.-2
 humanName: GeForce GT 640 Rev. 2
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -35,3 +35,4 @@ data:
   Length: 145 mm
   Market:
     - Consumer
+  HLSL Shader Model: '6.5 (5.1)'

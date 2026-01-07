@@ -1,6 +1,6 @@
 name: 3500+-Lima
 humanName: 3500+ Lima
-isPart: true
+
 type: CPU
 inherits:
   - Lima

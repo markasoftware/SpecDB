@@ -1,7 +1,7 @@
 name: TeraScale-2-server
 humanName: TeraScale 2
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 40 nm

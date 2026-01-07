@@ -1,6 +1,6 @@
 name: Quadro-P600-Mobile
 humanName: Quadro P600 Mobile
-isPart: true
+
 type: Graphics Card
 data:
   Market:
@@ -32,3 +32,4 @@ data:
   FP64 Compute: 38.88 GFLOPS (1:32)
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.7'

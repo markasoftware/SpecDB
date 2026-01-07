@@ -1,6 +1,6 @@
 name: Radeon-Pro-W6500M
 humanName: Radeon Pro W6500M
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -33,3 +33,4 @@ data:
   Outputs: Portable Device Dependent
   Power Connectors: None
   Ray Tracing Cores: 16
+  HLSL Shader Model: '6.7'

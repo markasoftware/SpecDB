@@ -1,6 +1,6 @@
 name: Tesla-M2070-Q
 humanName: Tesla M2070-Q
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -32,3 +32,4 @@ data:
   Outputs: No outputs
   Power Connectors: 1x 6-pin + 1x 8-pin
   Length: 248 mm
+  HLSL Shader Model: '5.1'

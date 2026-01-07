@@ -1,6 +1,6 @@
 name: Mobility-Radeon
 humanName: Mobility Radeon
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

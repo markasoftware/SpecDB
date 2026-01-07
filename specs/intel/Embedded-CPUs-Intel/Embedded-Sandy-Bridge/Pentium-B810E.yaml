@@ -18,7 +18,7 @@ data:
     - x86-64
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '1000 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Pentium B810E'
 name: Pentium-B810E

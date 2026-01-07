@@ -1,6 +1,6 @@
 name: GeForce4-Ti-4400
 humanName: GeForce4 Ti 4400
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

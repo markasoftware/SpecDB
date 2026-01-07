@@ -1,6 +1,6 @@
 name: Radeon-Instinct-MI210
 humanName: Radeon Instinct MI210
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center

@@ -1,6 +1,6 @@
 name: Voodoo4-2-4200-PCI-32-MB
 humanName: Voodoo4-2 4200 PCI 32 MB
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: 3dfx

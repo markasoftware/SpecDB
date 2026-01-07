@@ -1,6 +1,6 @@
 name: GRID-M60-1Q
 humanName: GRID M60-1Q
-isPart: true
+
 type: Graphics Card
 data:
   Market: Cloud Gaming
@@ -32,3 +32,4 @@ data:
   Outputs: No outputs
   Power Connectors: 1x 8-pin
   Length: 267 mm
+  HLSL Shader Model: '6.7 (6.4)'

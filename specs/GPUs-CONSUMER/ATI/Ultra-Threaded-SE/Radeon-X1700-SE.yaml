@@ -1,6 +1,6 @@
 name: Radeon-X1700-SE
 humanName: Radeon X1700 SE
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI
@@ -33,3 +33,4 @@ data:
   Pixel Shaders: 24
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

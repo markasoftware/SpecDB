@@ -1,9 +1,9 @@
 name: Ryzen-3-5300G
 humanName: Ryzen 3 5300G
-isPart: true
+
 type: CPU
 inherits:
-- GCN 5.1
+- GCN-5.1
 - Cezanne
 data:
   Release Date: '2021-04-13'

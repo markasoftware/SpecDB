@@ -19,7 +19,7 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '350 MHz'
   'GPU Boost Frequency': '800 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Pentium 957'
 name: Pentium-957

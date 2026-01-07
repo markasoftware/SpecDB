@@ -1,7 +1,7 @@
 name: R300 
 humanName: R300
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 110-150 nm

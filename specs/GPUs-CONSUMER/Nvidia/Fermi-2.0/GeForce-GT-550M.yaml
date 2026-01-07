@@ -1,6 +1,6 @@
 name: GeForce-GT-550M
 humanName: GeForce GT 550M
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -31,3 +31,4 @@ data:
   Power Connectors: None
   Market:
     - Mobile
+  HLSL Shader Model: '5.1'

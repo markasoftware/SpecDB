@@ -1,6 +1,6 @@
 name: Xbox-360-S-GPU
 humanName: Xbox 360 S GPU
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -31,3 +31,4 @@ data:
   Width: 270 mm
   Height: 78 mm
   Market: Console
+  HLSL Shader Model: '3.0'

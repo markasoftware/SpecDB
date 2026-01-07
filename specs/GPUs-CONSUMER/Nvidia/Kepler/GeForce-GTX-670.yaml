@@ -1,6 +1,6 @@
 name: GeForce-GTX-670
 humanName: GeForce GTX 670
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -38,3 +38,4 @@ data:
   Height: 38 mm
   Market:
     - Consumer
+  HLSL Shader Model: '6.5 (5.1)'

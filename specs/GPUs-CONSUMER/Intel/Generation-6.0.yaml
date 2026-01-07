@@ -1,7 +1,7 @@
 name: Generation-6.0 
 humanName: Generation 6.0
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 32 nm

@@ -1,6 +1,6 @@
 name: Radeon-Xpress-1150-IGP
 humanName: Radeon Xpress 1150 IGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

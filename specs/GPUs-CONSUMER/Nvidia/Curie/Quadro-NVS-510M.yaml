@@ -1,6 +1,6 @@
 name: Quadro-NVS-510M
 humanName: Quadro NVS 510M
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -29,3 +29,4 @@ data:
   Pixel Shaders: 24
   Market:
     - Workstation
+  HLSL Shader Model: '3.0'

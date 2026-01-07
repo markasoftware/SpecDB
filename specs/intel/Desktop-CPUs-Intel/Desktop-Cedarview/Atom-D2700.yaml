@@ -17,7 +17,7 @@ data:
     - x86-64
   AVX/SSE/MMX: false
   'GPU Base Frequency': '640 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Atom D2700'
 name: Atom-D2700

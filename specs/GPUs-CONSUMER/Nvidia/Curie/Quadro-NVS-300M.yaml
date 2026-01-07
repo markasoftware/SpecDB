@@ -1,6 +1,6 @@
 name: Quadro-NVS-300M
 humanName: Quadro NVS 300M
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -30,3 +30,4 @@ data:
   Pixel Shaders: 8
   Market:
     - Workstation
+  HLSL Shader Model: '3.0'

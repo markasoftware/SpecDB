@@ -1,6 +1,6 @@
 name: Ryzen-9-PRO-3900
 humanName: Ryzen 9 PRO 3900
-isPart: true
+
 type: CPU
 inherits:
   - Matisse

@@ -1,6 +1,6 @@
-name: 9500
+name: '9500'
 humanName: X4 9500
-isPart: true
+
 type: CPU
 inherits:
   - Agena

@@ -1,6 +1,6 @@
 name: UHD-Graphics-630
 humanName: UHD Graphics 630
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel
@@ -30,3 +30,4 @@ data:
   Outputs: Motherboard Dependent
   Market:
     - Consumer
+  HLSL Shader Model: '6.4'

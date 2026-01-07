@@ -14,7 +14,7 @@ data:
     - x86-64
   'Release Date': '2007-06-03'
   AES: false
-isPart: true
+
 type: CPU
 humanName: 'Pentium 430'
 name: Pentium-430

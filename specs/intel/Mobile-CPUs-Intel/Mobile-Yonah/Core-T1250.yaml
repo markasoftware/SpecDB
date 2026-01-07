@@ -10,7 +10,7 @@ data:
   'L2 Cache (Total)': '2 MiB'
   'Die Size': '90 mm'
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Core T1250'
 name: Core-T1250

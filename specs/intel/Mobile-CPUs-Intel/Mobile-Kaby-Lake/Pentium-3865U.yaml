@@ -23,7 +23,7 @@ data:
   'Maximum VRAM Capacity': '32 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.4'
-isPart: true
+
 type: CPU
 humanName: 'Pentium 3865U'
 name: Pentium-3865U

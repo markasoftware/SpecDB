@@ -1,8 +1,9 @@
 name: Ryzen-5-1400
 humanName: Ryzen 5 1400
-isPart: true
+
 type: CPU
 inherits:
+  - Summit-Ridge
   - Ryzen R5 Base
 data:
   Core Count: 4

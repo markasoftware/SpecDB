@@ -1,6 +1,6 @@
 name: GeForce-9100M-G-mGPU-Intel
 humanName: GeForce 9100M G mGPU Intel
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -30,3 +30,4 @@ data:
   Outputs: Portable Device Dependent
   Market:
     - Mobile
+  HLSL Shader Model: '4.0'

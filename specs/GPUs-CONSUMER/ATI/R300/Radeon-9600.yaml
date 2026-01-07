@@ -1,6 +1,6 @@
 name: Radeon-9600
 humanName: Radeon 9600
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

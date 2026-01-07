@@ -13,7 +13,7 @@ data:
   Socket: PBGA441
   'Other Extensions': {  }
   AVX/SSE/MMX: false
-isPart: true
+
 type: CPU
 humanName: 'Atom Z530'
 name: Atom-Z530

@@ -1,7 +1,7 @@
 name: Rage-5-Console
 humanName: Rage 5
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 180 nm

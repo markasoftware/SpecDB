@@ -1,9 +1,9 @@
 name: Ryzen-7-4700U
 humanName: Ryzen 7 4700U
-isPart: true
+
 type: APU
 inherits:
-  - GCN 5.1
+  - GCN-5.1
   - Renoir-M
 data:
   Core Count: 8

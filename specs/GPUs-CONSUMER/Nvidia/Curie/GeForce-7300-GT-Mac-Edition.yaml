@@ -1,6 +1,6 @@
 name: GeForce-7300-GT-Mac-Edition
 humanName: GeForce 7300 GT Mac Edition
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -29,3 +29,4 @@ data:
   Outputs: 2x DVI
   Power Connectors: None
   Pixel Shaders: 8
+  HLSL Shader Model: '3.0'

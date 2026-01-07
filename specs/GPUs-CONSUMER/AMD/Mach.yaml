@@ -1,7 +1,7 @@
 name: Mach 
 humanName: Mach
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 600-500 nm

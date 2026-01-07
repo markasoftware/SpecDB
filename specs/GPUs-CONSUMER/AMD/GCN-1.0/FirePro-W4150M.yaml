@@ -1,17 +1,11 @@
 name: FirePro-W4150M
 humanName: FirePro W4150M
-isPart: true
+
 type: Graphics Card
+inherits:
+  - GCN-1
 data:
   Market: Workstation
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: GCN 1.0
-  Lithography: 28 nm
-  DirectX Support: '11.1'
-  Vulkan Support: '1.2.170'
-  OpenGL Support: '4.6'
-  OpenCL Support: '2.1 (1.2)'
   GPU Base Frequency: 800 MHz
   GPU Boost Frequency: 850 MHz
   VRAM Frequency: 1000 MHz
@@ -28,3 +22,4 @@ data:
   Slot Width: MXM Module
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.5 (5.1)'

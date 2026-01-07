@@ -1,17 +1,11 @@
 name: FirePro-M3100
 humanName: FirePro M3100
-isPart: true
+
 type: Graphics Card
+inherits:
+  - GCN-1
 data:
   Market: Workstation
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: GCN 1.0
-  Lithography: 28 nm
-  DirectX Support: '11.1'
-  Vulkan Support: '1.2.170'
-  OpenGL Support: '4.6'
-  OpenCL Support: '2.1 (1.2)'
   GPU Base Frequency: 650 MHz
   GPU Boost Frequency: 700 MHz
   VRAM Frequency: 1000 MHz
@@ -27,3 +21,4 @@ data:
   GPU Variant: Mars M2 LP
   FP32 Compute: 537.6 GFLOPS
   Outputs: Portable Device Dependent
+  HLSL Shader Model: '6.5 (5.1)'

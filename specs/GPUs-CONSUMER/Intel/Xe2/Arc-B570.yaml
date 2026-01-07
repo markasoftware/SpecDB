@@ -1,6 +1,6 @@
 name: Arc-B570
 humanName: ARC B570
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel
@@ -8,7 +8,7 @@ data:
   Architecture: Xe2
   Lithography: 5 nm
   DirectX Support: '12.2'
-  HLSL Shader Model: '144'
+  HLSL Shader Model: '6.6'
   Vulkan Support: '1.4'
   OpenGL Support: '4.6'
   OpenCL Support: '3.0'

@@ -1,6 +1,6 @@
 name: Radeon-X1650-GTO
 humanName: Radeon X1650 GTO
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI
@@ -30,3 +30,4 @@ data:
   Pixel Shaders: 12
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

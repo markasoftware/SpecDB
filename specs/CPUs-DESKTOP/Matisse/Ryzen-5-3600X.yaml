@@ -1,6 +1,6 @@
 name: Ryzen-5-3600X
 humanName: Ryzen 5 3600X
-isPart: true
+
 type: CPU
 inherits:
   - Matisse

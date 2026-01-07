@@ -1,6 +1,6 @@
 name: Jetson-AGX-Xavier-16-GB
 humanName: Jetson AGX Xavier 16 GB
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -8,7 +8,7 @@ data:
   Architecture: Volta
   Lithography: 12 nm
   DirectX Support: '12.1'
-  HLSL Shader Model: '64'
+  HLSL Shader Model: '6.0'
   Vulkan Support: '1.2'
   OpenGL Support: '4.6'
   OpenCL Support: '1.2'

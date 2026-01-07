@@ -1,7 +1,7 @@
 name: Renoir-M
 humanName: Renoir Mobile
 type: APU Architecture
-isPart: false
+
 topHeader: 'SELECT APU:'
 data:
   Lithography: 7nm

@@ -1,6 +1,6 @@
 name: FireGL-V3100
 humanName: FireGL V3100
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

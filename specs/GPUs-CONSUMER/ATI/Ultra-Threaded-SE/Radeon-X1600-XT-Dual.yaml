@@ -1,6 +1,6 @@
 name: Radeon-X1600-XT-Dual
 humanName: Radeon X1600 XT Dual
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI
@@ -29,3 +29,4 @@ data:
   Pixel Shaders: 12
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

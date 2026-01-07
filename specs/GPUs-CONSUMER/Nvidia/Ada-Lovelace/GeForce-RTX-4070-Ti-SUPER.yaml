@@ -1,6 +1,6 @@
 name: GeForce-RTX-4070-Ti-SUPER
 humanName: GeForce RTX 4070 Ti SUPER
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -38,7 +38,7 @@ data:
   Architecture: Ada Lovelace
   Lithography: 5 nm
   DirectX Support: '12.2'
-  HLSL Shader Model: '264'
+  HLSL Shader Model: '6.7'
   Vulkan Support: '1.3'
   OpenGL Support: '4.6'
   OpenCL Support: '3.0'

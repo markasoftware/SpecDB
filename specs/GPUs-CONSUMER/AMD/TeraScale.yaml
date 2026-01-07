@@ -1,7 +1,7 @@
 name: TeraScale 
 humanName: TeraScale
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 55 nm

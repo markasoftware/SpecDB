@@ -1,6 +1,6 @@
 name: Radeon-DDR
 humanName: Radeon DDR
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

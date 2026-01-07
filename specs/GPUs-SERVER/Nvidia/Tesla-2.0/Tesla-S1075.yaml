@@ -1,6 +1,6 @@
 name: Tesla-S1075
 humanName: Tesla S1075
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -29,3 +29,4 @@ data:
   FP64 Compute: 77.76 GFLOPS (1:8)
   Slot Width: Dual-slot
   Outputs: No outputs
+  HLSL Shader Model: '4.0'

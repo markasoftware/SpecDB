@@ -1,6 +1,6 @@
 name: K6-166(M6)
 humanName: K6 166 Model-6
-isPart: true
+
 type: CPU
 inherits:
   - M6

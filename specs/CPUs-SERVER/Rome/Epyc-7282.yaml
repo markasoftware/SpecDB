@@ -1,6 +1,6 @@
 name: Epyc-7282
 humanName: Epyc 7282
-isPart: true
+
 type: CPU
 inherits:
   - Rome

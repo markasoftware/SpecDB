@@ -1,7 +1,7 @@
 name: GCN-5.1 
 humanName: GCN 5.1
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 7 nm

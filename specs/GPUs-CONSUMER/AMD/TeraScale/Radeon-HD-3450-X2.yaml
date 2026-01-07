@@ -1,6 +1,6 @@
 name: Radeon-HD-3450-X2
 humanName: Radeon HD 3450 X2
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -32,3 +32,4 @@ data:
   Length: 168 mm
   Market:
     - Consumer
+  HLSL Shader Model: '4.1'

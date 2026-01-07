@@ -1,6 +1,6 @@
 name: Stream-Processor
 humanName: Stream Processor
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -34,3 +34,4 @@ data:
   Length: 241 mm
   Width: 111 mm
   Pixel Shaders: 48
+  HLSL Shader Model: '3.0'

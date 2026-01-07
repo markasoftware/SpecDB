@@ -12,7 +12,7 @@ data:
   'Release Date': 'Q4 2005'
   Socket: PLGA775
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Pentium 540J'
 name: Pentium-540J

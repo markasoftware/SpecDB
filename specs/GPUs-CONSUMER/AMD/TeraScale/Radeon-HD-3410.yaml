@@ -1,6 +1,6 @@
 name: Radeon-HD-3410
 humanName: Radeon HD 3410
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -32,3 +32,4 @@ data:
   Power Connectors: None
   Market:
     - Consumer
+  HLSL Shader Model: '4.0'

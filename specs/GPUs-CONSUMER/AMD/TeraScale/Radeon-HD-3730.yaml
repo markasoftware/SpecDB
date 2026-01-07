@@ -1,6 +1,6 @@
 name: Radeon-HD-3730
 humanName: Radeon HD 3730
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -33,3 +33,4 @@ data:
   Power Connectors: None
   Market:
     - Consumer
+  HLSL Shader Model: '4.1'

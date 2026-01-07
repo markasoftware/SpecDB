@@ -1,6 +1,6 @@
 name: ES1000
 humanName: ES1000
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

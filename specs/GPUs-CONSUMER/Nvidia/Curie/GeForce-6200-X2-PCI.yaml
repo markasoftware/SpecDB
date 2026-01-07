@@ -1,6 +1,6 @@
 name: GeForce-6200-X2-PCI
 humanName: GeForce 6200 X2 PCI
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -30,3 +30,4 @@ data:
   Pixel Shaders: 4
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

@@ -1,6 +1,6 @@
 name: Quadro-P2000
 humanName: Quadro P2000
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -54,3 +54,4 @@ data:
   Power Connectors: None
   Length: 196 mm
   Width: 111 mm
+  HLSL Shader Model: '6.7'

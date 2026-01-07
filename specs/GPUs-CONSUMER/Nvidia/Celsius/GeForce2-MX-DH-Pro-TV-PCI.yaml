@@ -1,6 +1,6 @@
 name: GeForce2-MX-DH-Pro-TV-PCI
 humanName: GeForce2 MX DH Pro TV PCI
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

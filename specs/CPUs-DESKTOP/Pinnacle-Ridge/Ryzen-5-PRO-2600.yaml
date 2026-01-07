@@ -1,6 +1,6 @@
 name: Ryzen-5-PRO-2600
 humanName: Ryzen 5 PRO 2600
-isPart: true
+
 type: CPU
 inherits:
   - Pinnacle-Ridge

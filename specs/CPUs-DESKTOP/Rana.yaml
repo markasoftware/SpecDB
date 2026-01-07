@@ -12,13 +12,13 @@ data:
 sections:
   - header: Standard SKUs
     members:
-      - 425
-      - 435
-      - 440
-      - 445
-      - 450
-      - 455
-      - 460
+      - '425'
+      - '435'
+      - '440'
+      - '445'
+      - '450'
+      - '455'
+      - '460'
   - header: Low Power SKUs
     members:
       - 400e

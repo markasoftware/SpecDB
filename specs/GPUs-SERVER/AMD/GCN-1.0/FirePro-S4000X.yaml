@@ -1,6 +1,6 @@
 name: FirePro-S4000X
 humanName: FirePro S4000X
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -31,3 +31,4 @@ data:
   FP64 Compute: 62.00 GFLOPS (1:16)
   Slot Width: MXM Module
   Outputs: Portable Device Dependent
+  HLSL Shader Model: '6.5 (5.1)'

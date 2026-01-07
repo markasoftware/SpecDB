@@ -1,6 +1,6 @@
 name: Radeon-8500
 humanName: Radeon 8500
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

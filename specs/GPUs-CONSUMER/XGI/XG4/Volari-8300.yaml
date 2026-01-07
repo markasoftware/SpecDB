@@ -1,6 +1,6 @@
 name: Volari-8300
 humanName: Volari 8300
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: XGI
@@ -29,3 +29,4 @@ data:
   Pixel Shaders: 4
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

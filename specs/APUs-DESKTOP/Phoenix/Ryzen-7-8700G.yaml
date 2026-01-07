@@ -1,6 +1,6 @@
 name: Ryzen-7-8700G
 humanName: Ryzen 7 8700G
-isPart: true
+
 type: CPU
 inherits:
 - Phoenix

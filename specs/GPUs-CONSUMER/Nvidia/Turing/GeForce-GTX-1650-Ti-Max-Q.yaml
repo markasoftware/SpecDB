@@ -1,6 +1,6 @@
 name: GeForce-GTX-1650-Ti-Max-Q
 humanName: GeForce GTX 1650 Ti Max-Q
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Decoding:
@@ -47,3 +47,4 @@ data:
   FP64 Compute: 76.80 GFLOPS (1:32)
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.7'

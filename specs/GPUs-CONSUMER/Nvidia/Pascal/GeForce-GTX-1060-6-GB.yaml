@@ -1,6 +1,6 @@
 name: GeForce-GTX-1060-6-GB
 humanName: GeForce GTX 1060 6 GB
-isPart: true
+
 type: Graphics Card
 data:
   Market: Consumer
@@ -37,3 +37,4 @@ data:
   Power Connectors: 1x 6-pin
   Length: 250 mm
   Width: 111 mm
+  HLSL Shader Model: '6.7'

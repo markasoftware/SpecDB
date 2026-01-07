@@ -1,6 +1,6 @@
 name: 3200+(M)
 humanName: 3200+ Manchester
-isPart: true
+
 type: CPU
 inherits:
   - Manchester

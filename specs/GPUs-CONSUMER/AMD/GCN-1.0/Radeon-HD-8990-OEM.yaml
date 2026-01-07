@@ -1,6 +1,6 @@
 name: Radeon-HD-8990-OEM
 humanName: Radeon HD 8990 OEM
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -34,3 +34,4 @@ data:
     - 4x mini-DisplayPort 1.2
   Power Connectors: 2x 8-pin
   Length: 307 mm
+  HLSL Shader Model: '6.5 (5.1)'

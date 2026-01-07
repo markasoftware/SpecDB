@@ -1,9 +1,9 @@
-isPart: true
+
 name: A12-9720P
 humanName: A12-9720P
 type: APU
 inherits:
-  - GCN 3
+  - "GCN-3"
   - Bristol-Ridge
 data:
 

@@ -1,6 +1,6 @@
 name: H3C-XG310
 humanName: H3C XG310
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel
@@ -32,3 +32,4 @@ data:
   Power Connectors: 1x 8-pin
   Market:
     - Consumer
+  HLSL Shader Model: '6.6'

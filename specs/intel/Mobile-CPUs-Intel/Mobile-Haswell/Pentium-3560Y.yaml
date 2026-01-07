@@ -18,7 +18,7 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '200 MHz'
   'GPU Boost Frequency': '850 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Pentium 3560Y'
 name: Pentium-3560Y

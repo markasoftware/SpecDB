@@ -1,6 +1,6 @@
 name: 955BE
 humanName: X4 955 Black Edition
-isPart: true
+
 type: CPU
 inherits:
   - Deneb

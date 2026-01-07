@@ -1,6 +1,6 @@
 name: Quadro-NVS-210S
 humanName: Quadro NVS 210S
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -28,3 +28,4 @@ data:
   Pixel Shaders: 2
   Market:
     - Workstation
+  HLSL Shader Model: '3.0'

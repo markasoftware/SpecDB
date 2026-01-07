@@ -1,7 +1,7 @@
 name: Kepler-2.0-server
 humanName: Kepler 2.0
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 28 nm

@@ -1,17 +1,11 @@
 name: FirePro-V3900
 humanName: FirePro V3900
-isPart: true
+
 type: Graphics Card
+inherits:
+  - TeraScale-2
 data:
   Market: Workstation
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: TeraScale 2
-  Lithography: 40 nm
-  DirectX Support: '11.0'
-  Vulkan Support: 'N/A'
-  OpenGL Support: '4.4'
-  OpenCL Support: '1.2'
   Release Date: '2012-02-07'
   GPU Base Frequency: 650 MHz
   VRAM Frequency: 900 MHz
@@ -34,3 +28,4 @@ data:
   Power Connectors: None
   Length: 168 mm
   Width: 69 mm
+  HLSL Shader Model: '5.0'

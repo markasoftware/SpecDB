@@ -1,6 +1,6 @@
 name: Radeon-HD-2600-XT-AGP
 humanName: Radeon HD 2600 XT AGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -33,3 +33,4 @@ data:
   Power Connectors: 1x 6-pin
   Market:
     - Consumer
+  HLSL Shader Model: '4.0'

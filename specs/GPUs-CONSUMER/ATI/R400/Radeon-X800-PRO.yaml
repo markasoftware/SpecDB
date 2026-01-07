@@ -1,6 +1,6 @@
 name: Radeon-X800-PRO
 humanName: Radeon X800 PRO
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

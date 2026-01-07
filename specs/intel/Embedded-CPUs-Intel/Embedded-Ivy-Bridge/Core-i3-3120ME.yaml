@@ -19,7 +19,7 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '900 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Core i3-3120ME'
 name: Core-i3-3120ME

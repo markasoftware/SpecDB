@@ -1,6 +1,6 @@
 name: GeForce-GTX-1660-Ti-Max-Q
 humanName: GeForce GTX 1660 Ti Max-Q
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -56,3 +56,4 @@ data:
   Slot Width: MXM Module
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.7'

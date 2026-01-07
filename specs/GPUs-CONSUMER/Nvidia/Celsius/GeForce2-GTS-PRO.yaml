@@ -1,6 +1,6 @@
 name: GeForce2-GTS-PRO
 humanName: GeForce2 GTS PRO
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

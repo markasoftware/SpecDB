@@ -1,6 +1,6 @@
 name: XP-1700-TBR
 humanName: Athlon XP 1700+ (Thoroughbred)
-isPart: true
+
 type: CPU
 inherits:
   - Thoroughbred

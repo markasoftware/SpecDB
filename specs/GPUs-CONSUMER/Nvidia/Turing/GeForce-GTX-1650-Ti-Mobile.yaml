@@ -1,6 +1,6 @@
 name: GeForce-GTX-1650-Ti-Mobile
 humanName: GeForce GTX 1650 Ti Mobile
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Decoding:
@@ -47,3 +47,4 @@ data:
   FP64 Compute: 95.04 GFLOPS (1:32)
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.7'

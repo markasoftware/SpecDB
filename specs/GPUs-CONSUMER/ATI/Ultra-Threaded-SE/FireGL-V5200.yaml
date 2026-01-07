@@ -1,6 +1,6 @@
 name: FireGL-V5200
 humanName: FireGL V5200
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI
@@ -31,3 +31,4 @@ data:
   Pixel Shaders: 12
   Market:
     - Workstation
+  HLSL Shader Model: '3.0'

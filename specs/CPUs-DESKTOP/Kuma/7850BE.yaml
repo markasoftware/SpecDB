@@ -1,6 +1,6 @@
 name: 7850BE
 humanName: X2 7850 Black Edition
-isPart: true
+
 type: CPU
 inherits:
   - Kuma

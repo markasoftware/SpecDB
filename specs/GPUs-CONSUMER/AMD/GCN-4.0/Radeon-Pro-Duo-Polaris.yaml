@@ -1,6 +1,6 @@
 name: Radeon-Pro-Duo-Polaris
 humanName: Radeon Pro Duo Polaris
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -35,3 +35,4 @@ data:
   Power Connectors: 1x 6-pin + 1x 8-pin
   Length: 305 mm
   Width: 111 mm
+  HLSL Shader Model: '6.7'

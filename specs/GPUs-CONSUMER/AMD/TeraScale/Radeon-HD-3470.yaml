@@ -1,6 +1,6 @@
 name: Radeon-HD-3470
 humanName: Radeon HD 3470
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -34,3 +34,4 @@ data:
   Length: 168 mm
   Market:
     - Consumer
+  HLSL Shader Model: '4.1'

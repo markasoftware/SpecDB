@@ -1,6 +1,6 @@
 name: Radeon-X1900-GT
 humanName: Radeon X1900 GT
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI
@@ -33,3 +33,4 @@ data:
   Pixel Shaders: 36
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

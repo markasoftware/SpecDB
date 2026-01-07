@@ -1,6 +1,6 @@
 name: Radeon-RX-5700M
 humanName: Radeon RX 5700M
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -34,3 +34,4 @@ data:
   Power Connectors: 1x 6-pin + 1x 8-pin
   Market:
     - Mobile
+  HLSL Shader Model: '6.7'

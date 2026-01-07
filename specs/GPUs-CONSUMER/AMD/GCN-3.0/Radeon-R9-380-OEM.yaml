@@ -1,16 +1,10 @@
 name: Radeon-R9-380-OEM
 humanName: Radeon R9 380 OEM
-isPart: true
+
 type: Graphics Card
+inherit:
+  - "GCN-3"
 data:
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: GCN 3.0
-  Lithography: 28 nm
-  DirectX Support: '12.0'
-  Vulkan Support: '1.2.170'
-  OpenGL Support: '4.6'
-  OpenCL Support: '2.1'
   Release Date: '2015-05-05'
   GPU Base Frequency: 918 MHz
   VRAM Frequency: 1375 MHz
@@ -30,7 +24,9 @@ data:
   Slot Width: Dual-slot
   Outputs: 
     - 2x DVI
-    - 1x HDMI 1.4a1x DisplayPort 1.2
+    - 1x HDMI 1.4a
+    - 1x DisplayPort 1.2
   Power Connectors: 2x 6-pin
   Length: 221 mm
   Width: 111 mm
+  HLSL Shader Model: '6.5'

@@ -1,6 +1,6 @@
 name: Ryzen-7-3800X
 humanName: Ryzen 7 3800X
-isPart: true
+
 type: CPU
 inherits:
   - Matisse

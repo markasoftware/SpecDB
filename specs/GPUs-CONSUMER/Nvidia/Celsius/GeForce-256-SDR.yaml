@@ -1,6 +1,6 @@
 name: GeForce-256-SDR
 humanName: GeForce 256 SDR
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

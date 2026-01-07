@@ -1,6 +1,6 @@
 name: GeForce-6600-GT
 humanName: GeForce 6600 GT
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -31,3 +31,4 @@ data:
   Pixel Shaders: 8
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

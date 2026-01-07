@@ -1,8 +1,9 @@
 name: 1920X
 humanName: 1920X
-isPart: true
+
 type: CPU
 inherits:
+  - Whitehaven
   - Ryzen R9 Base
 data:
   Core Count: 12

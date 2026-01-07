@@ -1,8 +1,9 @@
 name: 1900X
 humanName: 1900X
-isPart: true
+
 type: CPU
 inherits:
+  - Whitehaven
   - Ryzen R9 Base
 data:
   Core Count: 8

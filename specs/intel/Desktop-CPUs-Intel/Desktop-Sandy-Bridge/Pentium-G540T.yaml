@@ -19,7 +19,7 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '1000 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Pentium G540T'
 name: Pentium-G540T

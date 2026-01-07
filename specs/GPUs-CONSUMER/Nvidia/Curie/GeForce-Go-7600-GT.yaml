@@ -1,6 +1,6 @@
 name: GeForce-Go-7600-GT
 humanName: GeForce Go 7600 GT
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -29,3 +29,4 @@ data:
   Pixel Shaders: 12
   Market:
     - Mobile
+  HLSL Shader Model: '3.0'

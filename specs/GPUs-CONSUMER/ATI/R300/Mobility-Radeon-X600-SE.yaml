@@ -1,6 +1,6 @@
 name: Mobility-Radeon-X600-SE
 humanName: Mobility Radeon X600 SE
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

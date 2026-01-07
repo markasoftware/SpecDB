@@ -1,6 +1,6 @@
 name: Radeon-9550
 humanName: Radeon 9550
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

@@ -13,7 +13,7 @@ data:
   Socket: PPGA478
   AES: false
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Pentium 315J'
 name: Pentium-315J

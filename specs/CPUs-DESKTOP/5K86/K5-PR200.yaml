@@ -1,11 +1,11 @@
 name: K5-PR200
 humanName: K5 PR 200
-isPart: true
+
 type: CPU
 inherits:
   - 5K86
 data:
   Base Frequency:  0.133 GHz
   Release Date: '1997-04'
-  
+  TDP: 26-29 W
   

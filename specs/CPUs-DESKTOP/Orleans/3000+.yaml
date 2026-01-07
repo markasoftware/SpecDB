@@ -1,6 +1,6 @@
 name: 3000+(O)
 humanName: 3000+ Orleans
-isPart: true
+
 type: CPU
 inherits:
   - Orleans

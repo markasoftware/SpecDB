@@ -1,6 +1,6 @@
 name: Radeon-E9260-PCIe
 humanName: Radeon E9260 PCIe
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -35,3 +35,4 @@ data:
   Width: 69 mm
   Market:
     - Consumer
+  HLSL Shader Model: '6.7'

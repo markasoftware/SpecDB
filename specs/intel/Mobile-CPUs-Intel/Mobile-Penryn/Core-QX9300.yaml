@@ -13,7 +13,7 @@ data:
   Socket: PGA478
   'Other Extensions':
     - x86-64
-isPart: true
+
 type: CPU
 humanName: 'Core QX9300'
 name: Core-QX9300

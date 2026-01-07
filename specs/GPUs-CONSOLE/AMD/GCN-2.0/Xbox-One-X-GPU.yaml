@@ -1,6 +1,6 @@
 name: Xbox-One-X-GPU
 humanName: Xbox One X GPU
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -30,3 +30,4 @@ data:
   Width: 240 mm
   Height: 60 mm
   Market: Console
+  HLSL Shader Model: '6.0'

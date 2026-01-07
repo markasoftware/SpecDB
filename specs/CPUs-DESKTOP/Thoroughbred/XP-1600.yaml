@@ -1,6 +1,6 @@
 name: XP-1600-TBR
 humanName: Athlon XP 1600+ (Thoroughbred)
-isPart: true
+
 type: CPU
 inherits:
   - Thoroughbred

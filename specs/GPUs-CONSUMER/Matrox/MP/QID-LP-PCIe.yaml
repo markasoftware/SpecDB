@@ -1,6 +1,6 @@
 name: QID-LP-PCIe
 humanName: QID LP PCIe
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Matrox

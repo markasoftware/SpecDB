@@ -1,6 +1,6 @@
 name: Radeon-X800
 humanName: Radeon X800
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

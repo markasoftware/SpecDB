@@ -1,6 +1,6 @@
 name: Radeon-Pro-5500M
 humanName: Radeon Pro 5500M
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -31,3 +31,4 @@ data:
   FP64 Compute: 278.4 GFLOPS (1:16)
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.7'

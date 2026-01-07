@@ -1,4 +1,4 @@
-hidden: true
+type: Hidden
 name: SledgeHammer
 data:
   Architecture: K8

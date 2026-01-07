@@ -1,6 +1,6 @@
 name: Quadro-NVS-50-PCI
 humanName: Quadro NVS 50 PCI
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation

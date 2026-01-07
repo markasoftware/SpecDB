@@ -1,6 +1,6 @@
 name: Ryzen-5-2500X
 humanName: Ryzen 5 2500X
-isPart: true
+
 type: CPU
 inherits:
   - Pinnacle-Ridge

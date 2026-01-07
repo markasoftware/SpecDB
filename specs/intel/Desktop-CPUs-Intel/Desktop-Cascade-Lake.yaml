@@ -13,5 +13,6 @@ data:
   Manufacturer: Intel
   Lithography: '14 nm'
   'Release Date': '2019-10-07'
-  Sockets: {  }
+  Sockets:
+  - FCLGA2066
 name: Desktop-Cascade-Lake

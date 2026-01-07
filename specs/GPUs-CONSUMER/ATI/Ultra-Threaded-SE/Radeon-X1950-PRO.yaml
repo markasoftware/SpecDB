@@ -1,6 +1,6 @@
 name: Radeon-X1950-PRO
 humanName: Radeon X1950 PRO
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI
@@ -35,3 +35,4 @@ data:
   Pixel Shaders: 36
   Market:
     - Workstation
+  HLSL Shader Model: '3.0'

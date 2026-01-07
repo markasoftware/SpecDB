@@ -1,6 +1,6 @@
 name: Radeon-PRO-V710
 humanName: Radeon PRO V710
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -36,3 +36,4 @@ data:
   # Width: 120 mm
   # Height: 50 mm
   Ray Tracing Cores: 54
+  HLSL Shader Model: '6.8'

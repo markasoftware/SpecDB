@@ -1,6 +1,6 @@
 name: Epyc-7402P
 humanName: Epyc 7402P
-isPart: true
+
 type: CPU
 inherits:
   - Rome

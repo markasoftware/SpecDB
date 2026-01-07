@@ -1,6 +1,6 @@
 name: Quadro2-Go
 humanName: Quadro2 Go
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation

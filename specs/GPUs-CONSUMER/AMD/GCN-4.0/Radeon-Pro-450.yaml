@@ -1,6 +1,6 @@
 name: Radeon-Pro-450
 humanName: Radeon Pro 450
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -30,3 +30,4 @@ data:
   FP64 Compute: 64.00 GFLOPS (1:16)
   Slot Width: MXM Module
   Outputs: Portable Device Dependent
+  HLSL Shader Model: '6.7'

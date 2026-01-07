@@ -1,6 +1,6 @@
 name: Millenium-P650-PCIe
 humanName: Millenium P650 PCIe
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Matrox

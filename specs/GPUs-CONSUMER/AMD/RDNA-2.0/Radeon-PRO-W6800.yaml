@@ -1,6 +1,6 @@
 name: Radeon-PRO-W6800
 humanName: Radeon PRO W6800
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -36,3 +36,4 @@ data:
   Width: 120 mm
   Height: 50 mm
   Ray Tracing Cores: 60
+  HLSL Shader Model: '6.7'

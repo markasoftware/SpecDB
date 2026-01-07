@@ -1,6 +1,6 @@
 name: Quadro-FX-5500-SDI
 humanName: Quadro FX 5500 SDI
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -34,3 +34,4 @@ data:
   Pixel Shaders: 24
   Market:
     - Workstation
+  HLSL Shader Model: '3.0'

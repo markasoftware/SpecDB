@@ -1,6 +1,6 @@
 name: Radeon-9250
 humanName: Radeon 9250
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

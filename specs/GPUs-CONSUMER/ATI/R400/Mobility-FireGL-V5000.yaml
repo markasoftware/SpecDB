@@ -1,6 +1,6 @@
 name: Mobility-FireGL-V5000
 humanName: Mobility FireGL V5000
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

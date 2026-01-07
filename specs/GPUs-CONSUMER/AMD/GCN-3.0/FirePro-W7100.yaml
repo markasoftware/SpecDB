@@ -1,17 +1,11 @@
 name: FirePro-W7100
 humanName: FirePro W7100
-isPart: true
+
 type: Graphics Card
+inherit:
+  - "GCN-3"
 data:
   Market: Workstation
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: GCN 3.0
-  Lithography: 28 nm
-  DirectX Support: '12.0'
-  Vulkan Support: '1.2.170'
-  OpenGL Support: '4.6'
-  OpenCL Support: '2.1'
   Release Date: '2014-08-12'
   GPU Base Frequency: 920 MHz
   VRAM Frequency: 1250 MHz
@@ -33,3 +27,4 @@ data:
   Power Connectors: 1x 6-pin
   Length: 241 mm
   Width: 111 mm
+  HLSL Shader Model: '6.5'

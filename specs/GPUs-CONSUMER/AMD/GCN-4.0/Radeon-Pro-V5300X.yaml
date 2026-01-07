@@ -1,6 +1,6 @@
 name: Radeon-Pro-V5300X
 humanName: Radeon Pro V5300X
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -32,3 +32,4 @@ data:
   Slot Width: Single-slot
   Outputs: 4x mini-DisplayPort 1.4a
   Power Connectors: None
+  HLSL Shader Model: '6.7'

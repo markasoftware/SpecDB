@@ -1,6 +1,6 @@
 name: GeForce-Go-7450
 humanName: GeForce Go 7450
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -28,3 +28,4 @@ data:
   Pixel Shaders: 8
   Market:
     - Mobile
+  HLSL Shader Model: '3.0'

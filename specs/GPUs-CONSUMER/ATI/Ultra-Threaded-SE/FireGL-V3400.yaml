@@ -1,6 +1,6 @@
 name: FireGL-V3400
 humanName: FireGL V3400
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI
@@ -30,3 +30,4 @@ data:
   Pixel Shaders: 12
   Market:
     - Workstation
+  HLSL Shader Model: '3.0'

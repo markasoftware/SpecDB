@@ -1,6 +1,6 @@
 name: K5-PR133
 humanName: K5 PR 133
-isPart: true
+
 type: CPU
 inherits:
   - 5K86

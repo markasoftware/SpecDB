@@ -3,6 +3,7 @@ const naturalCompare = require('natural-compare');
 const specData = require('spec-data');
 const mainSelector = require('./components/main-selector');
 const svg = require('./components/svg');
+const pure = require('./pure');
 
 // by caching json representation of parts, it is actually quite a bit faster searching
 // shouldn't use more than a few megs of ram
@@ -28,7 +29,7 @@ const search = {
 		const unlimitedSearchResults = Object.keys(specData)
 		.filter(c =>
 			searchWords.every(term =>
-				specDataJSONs[c].includes(term) && specData[c].isPart
+				specDataJSONs[c].includes(term) && pure.isPart(specData[c])
 			)
 		)
 		// group by type

@@ -20,7 +20,7 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '350 MHz'
   'GPU Boost Frequency': '850 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Core i7-3689Y'
 name: Core-i7-3689Y

@@ -1,8 +1,9 @@
 name: FX-4100
 humanName: FX 4100
-isPart: true
+
 type: CPU
 inherits:
+  - Bulldozer
   - Bulldozer 4C Base
 data:
   Base Frequency: 3.6 GHz

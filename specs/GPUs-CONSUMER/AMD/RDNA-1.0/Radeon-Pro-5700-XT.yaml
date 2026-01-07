@@ -1,6 +1,6 @@
 name: Radeon-Pro-5700-XT
 humanName: Radeon Pro 5700 XT
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -32,3 +32,4 @@ data:
   Slot Width: IGP
   Outputs: No outputs
   Power Connectors: None
+  HLSL Shader Model: '6.7'

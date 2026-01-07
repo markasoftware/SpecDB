@@ -1,6 +1,6 @@
 name: GeForce-GTX-1660-Ti-Mobile
 humanName: GeForce GTX 1660 Ti Mobile
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Decoding:
@@ -46,3 +46,4 @@ data:
   Slot Width: MXM Module
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.7'

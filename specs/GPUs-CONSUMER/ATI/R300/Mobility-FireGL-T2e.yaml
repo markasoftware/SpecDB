@@ -1,6 +1,6 @@
 name: Mobility-FireGL-T2e
 humanName: Mobility FireGL T2e
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

@@ -1,6 +1,6 @@
 name: FX-72
 humanName: FX-72
-isPart: true
+
 type: CPU
 inherits:
   - Windsor

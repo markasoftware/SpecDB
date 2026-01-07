@@ -1,6 +1,6 @@
 name: FirePro-M5725
 humanName: FirePro M5725
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -28,3 +28,4 @@ data:
   TDP: 35 W
   FP32 Compute: 432.0 GFLOPS
   Outputs: Portable Device Dependent
+  HLSL Shader Model: '4.1'

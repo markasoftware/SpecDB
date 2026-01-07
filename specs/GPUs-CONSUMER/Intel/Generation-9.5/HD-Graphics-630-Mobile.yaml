@@ -1,6 +1,6 @@
 name: HD-Graphics-630-Mobile
 humanName: HD Graphics 630 Mobile
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel
@@ -30,3 +30,4 @@ data:
   Outputs: Portable Device Dependent
   Market:
     - Mobile
+  HLSL Shader Model: '6.4'

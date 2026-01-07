@@ -1,6 +1,6 @@
 name: LE-1640B-Lima
 humanName: LE-1640B Lima
-isPart: true
+
 type: CPU
 inherits:
   - Lima

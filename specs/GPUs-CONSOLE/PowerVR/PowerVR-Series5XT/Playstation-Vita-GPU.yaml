@@ -1,6 +1,6 @@
 name: Playstation-Vita-GPU
 humanName: Playstation Vita GPU
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: PowerVR
@@ -31,4 +31,5 @@ data:
   Height: 84 mm
   Pixel Shaders: 4
   Market:
-    - Consumer
+    - Console
+  HLSL Shader Model: '4.1'

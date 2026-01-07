@@ -1,7 +1,7 @@
 name: R400 
 humanName: R400
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 80-130 nm

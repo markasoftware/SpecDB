@@ -1,6 +1,6 @@
 name: Quadro-3000M
 humanName: Quadro 3000M
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -32,3 +32,4 @@ data:
   Power Connectors: None
   Market:
     - Workstation
+  HLSL Shader Model: '5.1'

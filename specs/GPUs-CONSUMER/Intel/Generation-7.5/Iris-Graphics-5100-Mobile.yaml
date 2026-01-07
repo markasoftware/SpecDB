@@ -1,6 +1,6 @@
 name: Iris-Graphics-5100-Mobile
 humanName: Iris Graphics 5100 Mobile
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel
@@ -31,3 +31,4 @@ data:
   Outputs: Portable Device Dependent
   Market:
     - Mobile
+  HLSL Shader Model: '5.1'

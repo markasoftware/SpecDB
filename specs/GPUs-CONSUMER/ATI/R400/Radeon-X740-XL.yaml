@@ -1,6 +1,6 @@
 name: Radeon-X740-XL
 humanName: Radeon X740 XL
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

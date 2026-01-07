@@ -1,6 +1,6 @@
 name: Radeon-X1900-G5-Mac-Edition
 humanName: Radeon X1900 G5 Mac Edition
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI
@@ -31,3 +31,4 @@ data:
     - 1x S-Video
   Power Connectors: 1x 6-pin
   Pixel Shaders: 36
+  HLSL Shader Model: '3.0'

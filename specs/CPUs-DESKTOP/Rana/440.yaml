@@ -1,6 +1,6 @@
-name: 440
+name: '440'
 humanName: X3 440
-isPart: true
+
 type: CPU
 inherits:
   - Rana

@@ -1,6 +1,6 @@
 name: Radeon-Pro-W5500X
 humanName: Radeon Pro W5500X
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -31,3 +31,4 @@ data:
   FP64 Compute: 337.3 GFLOPS (1:16)
   Slot Width: Dual-slot
   Outputs: 2x HDMI 2.0b
+  HLSL Shader Model: '6.7'

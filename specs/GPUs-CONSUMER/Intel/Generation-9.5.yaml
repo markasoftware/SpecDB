@@ -1,7 +1,7 @@
 name: Generation-9.5 
 humanName: Generation 9.5
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 14 nm - 14 nm+++

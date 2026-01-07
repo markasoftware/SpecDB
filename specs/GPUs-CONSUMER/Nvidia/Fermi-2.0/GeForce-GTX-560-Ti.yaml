@@ -1,6 +1,6 @@
 name: GeForce-GTX-560-Ti
 humanName: GeForce GTX 560 Ti
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -35,3 +35,4 @@ data:
   Length: 229 mm
   Market:
     - Consumer
+  HLSL Shader Model: '5.1'

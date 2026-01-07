@@ -1,6 +1,6 @@
 name: Quadro4-100-NVS
 humanName: Quadro4 100 NVS
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation

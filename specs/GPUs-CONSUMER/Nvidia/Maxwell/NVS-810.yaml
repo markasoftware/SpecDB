@@ -1,6 +1,6 @@
 name: NVS-810
 humanName: NVS 810
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -33,3 +33,4 @@ data:
   Length: 198 mm
   Market:
     - Consumer
+  HLSL Shader Model: '6.7 (5.1)'

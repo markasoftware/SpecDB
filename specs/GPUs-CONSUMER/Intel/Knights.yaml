@@ -1,7 +1,7 @@
 name: Knights 
 humanName: Knights
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 22 nm - 45 nm

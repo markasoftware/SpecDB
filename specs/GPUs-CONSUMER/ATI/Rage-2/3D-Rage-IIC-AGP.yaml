@@ -1,6 +1,6 @@
 name: 3D-Rage-IIC-AGP
 humanName: 3D Rage IIC AGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

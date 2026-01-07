@@ -1,6 +1,6 @@
 name: CMP-40HX
 humanName: CMP 40HX
-isPart: true
+
 type: Graphics Card
 data:
   Market: Crypto
@@ -9,7 +9,7 @@ data:
   Architecture: Turing
   Lithography: 12 nm
   DirectX Support: '12.2'
-  HLSL Shader Model: '288'
+  HLSL Shader Model: '6.7'
   Vulkan Support: '1.3'
   OpenGL Support: '4.6'
   OpenCL Support: '3.0'

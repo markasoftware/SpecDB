@@ -1,6 +1,6 @@
 name: 8750B
 humanName: X3 8750B
-isPart: true
+
 type: CPU
 inherits:
   - Toliman

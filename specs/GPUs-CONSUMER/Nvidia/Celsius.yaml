@@ -1,7 +1,7 @@
 name: Celsius 
 humanName: Celsius
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 150-220 nm

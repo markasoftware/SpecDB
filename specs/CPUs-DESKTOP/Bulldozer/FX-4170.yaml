@@ -1,8 +1,9 @@
 name: FX-4170
 humanName: FX 4170
-isPart: true
+
 type: CPU
 inherits:
+  - Bulldozer
   - Bulldozer 4C Base
 data:
   Base Frequency: 4.2 GHz

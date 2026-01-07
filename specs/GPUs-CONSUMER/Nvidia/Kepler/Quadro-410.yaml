@@ -1,6 +1,6 @@
 name: Quadro-410
 humanName: Quadro 410
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -35,3 +35,4 @@ data:
   Power Connectors: None
   Length: 176 mm
   Width: 69 mm
+  HLSL Shader Model: '6.5 (5.1)'

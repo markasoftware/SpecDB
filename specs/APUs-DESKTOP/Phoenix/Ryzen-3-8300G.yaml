@@ -1,6 +1,6 @@
 name: Ryzen-3-8300G
 humanName: Ryzen 3 8300G
-isPart: true
+
 type: CPU
 inherits:
 - Phoenix

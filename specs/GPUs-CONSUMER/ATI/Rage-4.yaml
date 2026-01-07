@@ -1,7 +1,7 @@
 name: Rage-4 
 humanName: Rage 4
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 250 nm

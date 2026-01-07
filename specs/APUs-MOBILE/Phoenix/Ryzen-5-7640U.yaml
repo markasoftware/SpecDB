@@ -1,6 +1,6 @@
 name: Ryzen-5-7640U
 humanName: Ryzen 7 7640U
-isPart: true
+
 type: APU
 inherits:
 - Phoenix-M

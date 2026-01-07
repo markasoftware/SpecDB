@@ -1,6 +1,6 @@
 name: Mobility-Radeon-HD-2400
 humanName: Mobility Radeon HD 2400
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -28,3 +28,4 @@ data:
   Outputs: Portable Device Dependent
   Market:
     - Mobile
+  HLSL Shader Model: '4.0'

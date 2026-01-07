@@ -1,7 +1,7 @@
 name: Ultra-Threaded-SE-Console
 humanName: Ultra-Threaded SE
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 90 nm

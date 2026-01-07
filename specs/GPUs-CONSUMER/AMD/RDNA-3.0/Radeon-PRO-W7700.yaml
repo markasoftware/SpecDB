@@ -1,6 +1,6 @@
 name: Radeon-PRO-W7700
 humanName: Radeon PRO W7700
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -36,3 +36,4 @@ data:
   Length: 241 mm
   Width: 111 mm
   Ray Tracing Cores: 48
+  HLSL Shader Model: '6.7'

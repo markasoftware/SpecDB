@@ -1,6 +1,6 @@
 name: Radeon-RX-7800M
 humanName: Radeon RX 7800M
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -33,3 +33,4 @@ data:
   Outputs: Portable Device Dependent
   Power Connectors: None
   Ray Tracing Cores: 60
+  HLSL Shader Model: '6.8'

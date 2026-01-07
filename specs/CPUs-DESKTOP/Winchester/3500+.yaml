@@ -1,6 +1,6 @@
 name: 3500+(W)
 humanName: 3500+ Winchester
-isPart: true
+
 type: CPU
 inherits:
   - Venice

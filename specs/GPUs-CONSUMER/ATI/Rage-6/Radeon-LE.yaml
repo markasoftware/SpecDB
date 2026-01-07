@@ -1,6 +1,6 @@
 name: Radeon-LE
 humanName: Radeon LE
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

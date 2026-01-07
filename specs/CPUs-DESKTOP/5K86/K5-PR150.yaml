@@ -1,11 +1,12 @@
 name: K5-150
 humanName: K5 PR 150
-isPart: true
+
 type: CPU
 inherits:
   - 5K86
 data:
   Base Frequency:  0.105 GHz
   Release Date: '1997-01-06'
+  TDP: 23-25 W
   
   

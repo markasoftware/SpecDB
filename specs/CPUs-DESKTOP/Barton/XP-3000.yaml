@@ -1,6 +1,6 @@
 name: XP-3000-BAR
 humanName: Athlon XP 3000+ (Barton)
-isPart: true
+
 type: CPU
 inherits:
   - Barton

@@ -12,7 +12,7 @@ data:
   'Release Date': '2009-04-08'
   Socket: PBGA441
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Atom Z550'
 name: Atom-Z550

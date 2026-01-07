@@ -11,19 +11,19 @@ data:
 sections:
   - header: Sixteen Core
     members:
-     - 6366HE
-     - 6376
-     - 6378
-     - 6380
-     - 6386SE
+     - '6366HE'
+     - '6376'
+     - '6378'
+     - '6380'
+     - '6386SE'
   - header: Twelve Core
     members: 
-      - 6344
-      - 6348
+      - '6344'
+      - '6348'
   - header: Eight Core
     members:
-      - 6320
-      - 6328
+      - '6320'
+      - '6328'
   - header: Quad Core
     members:
-      - 6308
+      - '6308'

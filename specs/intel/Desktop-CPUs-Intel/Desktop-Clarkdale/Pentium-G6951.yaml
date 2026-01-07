@@ -18,7 +18,7 @@ data:
   'Other Extensions':
     - x86-64
   'GPU Base Frequency': '533 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Pentium G6951'
 name: Pentium-G6951

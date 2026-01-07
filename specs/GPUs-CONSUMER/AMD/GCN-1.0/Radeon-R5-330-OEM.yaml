@@ -1,16 +1,10 @@
 name: Radeon-R5-330-OEM
 humanName: Radeon R5 330 OEM
-isPart: true
+
 type: Graphics Card
+inherits:
+  - GCN-1
 data:
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: GCN 1.0
-  Lithography: 28 nm
-  DirectX Support: '11.1'
-  Vulkan Support: '1.2.170'
-  OpenGL Support: '4.6'
-  OpenCL Support: '2.1 (1.2)'
   Release Date: '2015-05-05'
   GPU Base Frequency: 830 MHz
   GPU Boost Frequency: 855 MHz
@@ -30,3 +24,4 @@ data:
   Slot Width: Single-slot
   Outputs: No outputs
   Power Connectors: None
+  HLSL Shader Model: '6.5 (5.1)'

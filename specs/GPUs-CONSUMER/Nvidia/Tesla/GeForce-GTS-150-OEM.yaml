@@ -1,6 +1,6 @@
 name: GeForce-GTS-150-OEM
 humanName: GeForce GTS 150 OEM
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -31,3 +31,4 @@ data:
     - 1x S-Video
   Power Connectors: 2x 6-pin
   Length: 267 mm
+  HLSL Shader Model: '4.0'

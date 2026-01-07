@@ -1,6 +1,6 @@
 name: GeForce-GTX-1630
 humanName: GeForce GTX 1630
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -63,3 +63,4 @@ data:
   Length: 145 mm
   Width: 69 mm
   Height: 18 mm
+  HLSL Shader Model: '6.7'

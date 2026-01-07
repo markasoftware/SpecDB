@@ -1,6 +1,6 @@
 name: Radeon-RX-560X
 humanName: Radeon RX 560X
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -36,3 +36,4 @@ data:
   Length: 170 mm
   Market:
     - Consumer
+  HLSL Shader Model: '6.7'

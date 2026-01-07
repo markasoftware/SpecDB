@@ -1,6 +1,6 @@
 name: HD-Graphics-610
 humanName: HD Graphics 610
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel
@@ -30,3 +30,4 @@ data:
   Outputs: Motherboard Dependent
   Market:
     - Consumer
+  HLSL Shader Model: '6.4'

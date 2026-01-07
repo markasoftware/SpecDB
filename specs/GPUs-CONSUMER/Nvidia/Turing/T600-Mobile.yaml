@@ -1,6 +1,6 @@
 name: T600-Mobile
 humanName: T600 Mobile
-isPart: true
+
 type: Graphics Card
 data:
   Market:
@@ -33,3 +33,4 @@ data:
   Slot Width: IGP
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.7'

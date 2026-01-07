@@ -1,6 +1,6 @@
 name: GeForce-9600-GS-OEM
 humanName: GeForce 9600 GS OEM
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -30,3 +30,4 @@ data:
     - 1x DVI
     - 1x VGA1x S-Video
   Power Connectors: 1x 6-pin
+  HLSL Shader Model: '4.0'

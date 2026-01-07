@@ -1,6 +1,6 @@
 name: Parhelia-PCI
 humanName: Parhelia PCI
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Matrox

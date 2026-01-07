@@ -1,6 +1,6 @@
 name: EPYC-9634
 humanName: EPYC 9634
-isPart: true
+
 type: CPU
 inherits:
 - Genoa

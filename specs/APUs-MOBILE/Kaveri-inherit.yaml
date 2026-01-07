@@ -1,5 +1,5 @@
-hidden: true
-name: Kaveri
+type: Hidden
+name: Kaveri-apu
 data:
   Architecture: Steamroller
   Lithography: 28 nm

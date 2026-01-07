@@ -1,9 +1,9 @@
 name: Ryzen-5-4500U
 humanName: Ryzen 5 4500U
-isPart: true
+
 type: APU
 inherits:
-  - GCN 5.1
+  - GCN-5.1
   - Renoir-M
 data:
   Core Count: 6

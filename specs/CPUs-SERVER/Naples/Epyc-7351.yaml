@@ -2,7 +2,7 @@ name: Epyc-7351
 humanName: Epyc 7351
 inherits:
   - Naples
-isPart: true
+
 type: CPU
 data:
   Thread Count: 32

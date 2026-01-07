@@ -1,6 +1,6 @@
 name: Radeon-760M
 humanName: Radeon 760M
-isPart: true
+
 type: Graphics Card
 data:
   Market: Mobile
@@ -32,3 +32,4 @@ data:
   Outputs: Portable Device Dependent
   Power Connectors: None
   Ray Tracing Cores: 8
+  HLSL Shader Model: '6.7'

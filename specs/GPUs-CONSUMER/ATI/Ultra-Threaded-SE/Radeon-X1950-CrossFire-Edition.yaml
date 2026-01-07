@@ -1,6 +1,6 @@
 name: Radeon-X1950-CrossFire-Edition
 humanName: Radeon X1950 CrossFire Edition
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI
@@ -32,3 +32,4 @@ data:
   Pixel Shaders: 48
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

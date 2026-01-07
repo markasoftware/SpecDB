@@ -18,7 +18,7 @@ data:
     - x86-64
   'GPU Base Frequency': '350 MHz'
   'GPU Boost Frequency': '900 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Pentium 1047UE'
 name: Pentium-1047UE

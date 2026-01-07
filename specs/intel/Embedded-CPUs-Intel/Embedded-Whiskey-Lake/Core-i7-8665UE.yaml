@@ -22,7 +22,7 @@ data:
   'GPU Boost Frequency': '1.15 GHz'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-isPart: true
+
 type: CPU
 humanName: 'Core i7-8665UE'
 name: Core-i7-8665UE

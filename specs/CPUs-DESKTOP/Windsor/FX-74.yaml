@@ -1,6 +1,6 @@
 name: FX-74
 humanName: FX-74
-isPart: true
+
 type: CPU
 inherits:
   - Windsor

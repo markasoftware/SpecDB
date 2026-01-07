@@ -1,6 +1,6 @@
 name: Rage-XL-PCI
 humanName: Rage XL PCI
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

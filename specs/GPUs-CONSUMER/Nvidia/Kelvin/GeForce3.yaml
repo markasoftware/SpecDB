@@ -1,6 +1,6 @@
 name: GeForce3
 humanName: GeForce3
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

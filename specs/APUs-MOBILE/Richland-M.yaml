@@ -1,7 +1,7 @@
 name: Richland-M
 humanName: Richland Mobile
 type: APU Architecture
-isPart: false
+
 topHeader: 'SELECT APU:'
 data:
   Lithography: 32nm

@@ -1,16 +1,10 @@
 name: Radeon-HD-5530
 humanName: Radeon HD 5530
-isPart: true
+
 type: Graphics Card
+inherits:
+  - TeraScale-2
 data:
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: TeraScale 2
-  Lithography: 40 nm
-  DirectX Support: '11.0'
-  Vulkan Support: 'N/A'
-  OpenGL Support: '4.4'
-  OpenCL Support: '1.2'
   Release Date: '2011-03-17'
   GPU Base Frequency: 650 MHz
   VRAM Frequency: 600 MHz
@@ -33,3 +27,4 @@ data:
   Length: 170 mm
   Market:
     - Consumer
+  HLSL Shader Model: '5.0'

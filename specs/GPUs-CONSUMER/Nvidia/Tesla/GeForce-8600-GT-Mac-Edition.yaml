@@ -1,6 +1,6 @@
 name: GeForce-8600-GT-Mac-Edition
 humanName: GeForce 8600 GT Mac Edition
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -30,3 +30,4 @@ data:
   Outputs: 2x DVI
   Power Connectors: None
   Length: 170 mm
+  HLSL Shader Model: '4.0'

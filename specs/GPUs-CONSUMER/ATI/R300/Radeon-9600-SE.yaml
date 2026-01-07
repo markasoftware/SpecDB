@@ -1,6 +1,6 @@
 name: Radeon-9600-SE
 humanName: Radeon 9600 SE
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

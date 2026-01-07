@@ -1,6 +1,6 @@
 name: Radeon-IGP-345M
 humanName: Radeon IGP 345M
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

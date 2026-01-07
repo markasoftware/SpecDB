@@ -1,6 +1,6 @@
 name: GeForce4-Ti-4200-8X
 humanName: GeForce4 Ti 4200-8X
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

@@ -1,17 +1,11 @@
 name: FirePro-V7900
 humanName: FirePro V7900
-isPart: true
+
 type: Graphics Card
+inherits:
+  - TeraScale-3
 data:
   Market: Workstation
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: TeraScale 3
-  Lithography: 40 nm
-  DirectX Support: '11.0'
-  Vulkan Support: 'N/A'
-  OpenGL Support: '4.4'
-  OpenCL Support: '1.2'
   Release Date: '2011-05-24'
   GPU Base Frequency: 725 MHz
   VRAM Frequency: 1250 MHz
@@ -33,3 +27,4 @@ data:
   Power Connectors: 1x 6-pin
   Length: 279 mm
   Width: 111 mm
+  HLSL Shader Model: '5.0'

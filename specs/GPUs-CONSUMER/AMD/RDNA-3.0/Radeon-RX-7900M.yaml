@@ -1,6 +1,6 @@
 name: Radeon-RX-7900M
 humanName: Radeon RX 7900M
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -35,3 +35,4 @@ data:
   Ray Tracing Cores: 72
   Market:
     - Mobile
+  HLSL Shader Model: '6.7'

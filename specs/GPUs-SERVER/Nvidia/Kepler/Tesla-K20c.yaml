@@ -1,6 +1,6 @@
 name: Tesla-K20c
 humanName: Tesla K20c
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -32,3 +32,4 @@ data:
   Outputs: No outputs
   Power Connectors: 1x 6-pin + 1x 8-pin
   Length: 267 mm
+  HLSL Shader Model: '6.5 (5.1)'

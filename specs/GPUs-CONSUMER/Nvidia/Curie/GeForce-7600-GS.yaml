@@ -1,6 +1,6 @@
 name: GeForce-7600-GS
 humanName: GeForce 7600 GS
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -33,3 +33,4 @@ data:
   Pixel Shaders: 12
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

@@ -1,6 +1,6 @@
 name: A30-PCIe
 humanName: A30 PCIe
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -8,7 +8,7 @@ data:
   Vendor: Nvidia
   Architecture: Ampere
   Lithography: 7 nm
-  HLSL Shader Model: '224'
+
   Vulkan Support: 'N/A'
   OpenGL Support: 'N/A'
   OpenCL Support: '3.0'

@@ -12,7 +12,7 @@ data:
   'Release Date': '2004-07-29'
   Socket: H-PBGA479
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Pentium 738'
 name: Pentium-738

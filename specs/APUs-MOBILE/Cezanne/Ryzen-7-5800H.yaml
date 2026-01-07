@@ -1,9 +1,9 @@
 name: Ryzen-7-5800H
 humanName: Ryzen 7 5800H
-isPart: true
+
 type: CPU
 inherits:
-- GCN 5.1
+- GCN-5.1
 - Cezanne-M
 data:
   Release Date: '2021-01-12'

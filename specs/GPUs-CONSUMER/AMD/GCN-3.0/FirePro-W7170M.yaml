@@ -1,17 +1,11 @@
 name: FirePro-W7170M
 humanName: FirePro W7170M
-isPart: true
+
 type: Graphics Card
+inherit:
+  - "GCN-3"
 data:
   Market: Workstation
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: GCN 3.0
-  Lithography: 28 nm
-  DirectX Support: '12.0'
-  Vulkan Support: '1.2.170'
-  OpenGL Support: '4.6'
-  OpenCL Support: '2.1'
   Release Date: '2015-10-02'
   GPU Base Frequency: 723 MHz
   VRAM Frequency: 1250 MHz
@@ -31,3 +25,4 @@ data:
   Slot Width: MXM Module
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.5'

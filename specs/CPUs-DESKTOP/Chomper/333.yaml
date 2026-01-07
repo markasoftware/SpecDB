@@ -1,6 +1,6 @@
 name: K6-2-333(C)
 humanName: K6-2 333 Chomper
-isPart: true
+
 type: CPU
 inherits:
   - Chomper

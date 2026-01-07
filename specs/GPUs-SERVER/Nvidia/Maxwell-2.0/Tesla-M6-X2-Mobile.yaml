@@ -1,6 +1,6 @@
 name: Tesla-M6-X2-Mobile
 humanName: Tesla M6 X2 Mobile
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -32,3 +32,4 @@ data:
   Slot Width: MXM Module
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.7 (6.4)'

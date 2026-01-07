@@ -12,7 +12,7 @@ data:
   'Release Date': '2005-02-14'
   Socket: 'H-PBGA478, H-PBGA479, PPGA478'
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Pentium 370'
 name: Pentium-370

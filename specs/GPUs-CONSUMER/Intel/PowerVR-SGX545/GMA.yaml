@@ -1,6 +1,6 @@
 name: GMA
 humanName: GMA
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel
@@ -27,3 +27,4 @@ data:
   Pixel Shaders: 4
   Market:
     - Mobile
+  HLSL Shader Model: '3.0'

@@ -1,6 +1,6 @@
 name: GeForce-FX-5900
 humanName: GeForce FX 5900
-isPart: true
+
 type: Graphics Card
 data:
   Market: Consumer

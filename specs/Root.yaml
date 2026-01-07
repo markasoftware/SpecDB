@@ -1,7 +1,7 @@
 name: Root
 humanName: Root
 type: Generic Container
-isPart: false
+
 topHeader: "SELECT CATEGORY:"
 sections:
   - header: AMD
@@ -40,7 +40,7 @@ sections:
     - GPUs-CONSUMER-MATROX
   - header: PowerVR
     members:
-    - GPUs-CONSUMER-POWERVR
+    - GPUs-CONSOLE-POWERVR
   - header: XGI
     members:
     - GPUs-CONSUMER-XGI

@@ -1,17 +1,11 @@
 name: FirePro-W9000
 humanName: FirePro W9000
-isPart: true
+
 type: Graphics Card
+inherits:
+  - GCN-1
 data:
   Market: Workstation
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: GCN 1.0
-  Lithography: 28 nm
-  DirectX Support: '11.1'
-  Vulkan Support: '1.2.170'
-  OpenGL Support: '4.6'
-  OpenCL Support: '2.1 (1.2)'
   Release Date: '2012-06-14'
   GPU Base Frequency: 975 MHz
   VRAM Frequency: 1375 MHz
@@ -35,3 +29,4 @@ data:
   Power Connectors: 1x 6-pin + 1x 8-pin
   Length: 279 mm
   Width: 111 mm
+  HLSL Shader Model: '6.5 (5.1)'

@@ -1,6 +1,6 @@
 name: GeForce4-440-Go
 humanName: GeForce4 440 Go
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

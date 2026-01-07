@@ -1,6 +1,6 @@
 name: EPYC-9374F
 humanName: EPYC 9374F
-isPart: true
+
 type: CPU
 inherits:
 - Genoa

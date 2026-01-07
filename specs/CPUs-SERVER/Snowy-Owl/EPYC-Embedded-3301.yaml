@@ -1,7 +1,7 @@
 #Not listed on AMD website but exists
 name: EPYC-Embedded-3301
 humanName: EPYC Embedded 3301
-isPart: true
+
 type: CPU
 inherits:
 - Snowy-Owl

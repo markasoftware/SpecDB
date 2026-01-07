@@ -1,6 +1,6 @@
 name: FireGL-V5100
 humanName: FireGL V5100
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

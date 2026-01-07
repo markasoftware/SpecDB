@@ -13,7 +13,7 @@ data:
   Socket: 'PLGA478, PLGA775'
   AES: false
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Pentium 335J'
 name: Pentium-335J

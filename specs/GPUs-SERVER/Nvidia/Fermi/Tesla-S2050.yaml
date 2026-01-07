@@ -1,6 +1,6 @@
 name: Tesla-S2050
 humanName: Tesla S2050
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -29,3 +29,4 @@ data:
   FP64 Compute: 513.9 GFLOPS (1:2)
   Slot Width: Dual-slot
   Outputs: No outputs
+  HLSL Shader Model: '5.1'

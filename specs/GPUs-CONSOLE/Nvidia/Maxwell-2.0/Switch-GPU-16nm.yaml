@@ -1,6 +1,6 @@
 name: Switch-GPU-16nm
 humanName: Switch GPU 16nm
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -33,3 +33,4 @@ data:
   Width: 101 mm
   Height: 28 mm
   Market: Console
+  HLSL Shader Model: '6.0'

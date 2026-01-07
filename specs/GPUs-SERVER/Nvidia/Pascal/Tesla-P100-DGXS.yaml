@@ -1,6 +1,6 @@
 name: Tesla-P100-DGXS
 humanName: Tesla P100 DGXS
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -30,3 +30,4 @@ data:
   FP64 Compute: 5.304 TFLOPS (1:2)
   Outputs: No outputs
   Power Connectors: None
+  HLSL Shader Model: '6.0'

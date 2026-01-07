@@ -1,6 +1,6 @@
 name: EPYC-Embedded-3201
 humanName: EPYC Embedded 3201
-isPart: true
+
 type: CPU
 inherits:
 - Snowy-Owl

@@ -11,7 +11,7 @@ data:
   'Die Size': '112 mm'
   Socket: PLGA775
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Pentium 560J'
 name: Pentium-560J

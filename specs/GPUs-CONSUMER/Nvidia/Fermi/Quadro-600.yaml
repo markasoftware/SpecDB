@@ -1,6 +1,6 @@
 name: Quadro-600
 humanName: Quadro 600
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -35,3 +35,4 @@ data:
   Width: 69 mm
   Market:
     - Workstation
+  HLSL Shader Model: '5.1'

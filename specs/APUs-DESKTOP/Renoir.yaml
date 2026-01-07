@@ -1,7 +1,7 @@
 name: Renoir
 humanName: Renoir
 type: CPU Architecture
-isPart: false
+
 topHeader: 'SELECT APU:'
 data:
   Lithography: 7nm

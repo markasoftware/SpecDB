@@ -1,6 +1,6 @@
 name: Data-Center-GPU-Max-NEXT
 humanName: Data Center GPU Max NEXT
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel
@@ -8,7 +8,7 @@ data:
   Architecture: Generation 12.5
   Lithography: 7 nm
   DirectX Support: '12.1'
-  HLSL Shader Model: '1280'
+  HLSL Shader Model: '6.6'
   Vulkan Support: 'N/A'
   OpenGL Support: '4.6'
   OpenCL Support: '3.0'

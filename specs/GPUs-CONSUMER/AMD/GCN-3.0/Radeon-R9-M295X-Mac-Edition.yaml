@@ -1,16 +1,10 @@
 name: Radeon-R9-M295X-Mac-Edition
 humanName: Radeon R9 M295X Mac Edition
-isPart: true
+
 type: Graphics Card
+inherit:
+  - "GCN-3"
 data:
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: GCN 3.0
-  Lithography: 28 nm
-  DirectX Support: '12.0'
-  Vulkan Support: '1.2.170'
-  OpenGL Support: '4.6'
-  OpenCL Support: '2.1'
   Release Date: '2014-11-23'
   GPU Base Frequency: 850 MHz
   VRAM Frequency: 1362 MHz
@@ -31,3 +25,4 @@ data:
   Outputs: Portable Device Dependent
   Market:
     - Mobile
+  HLSL Shader Model: '6.5'

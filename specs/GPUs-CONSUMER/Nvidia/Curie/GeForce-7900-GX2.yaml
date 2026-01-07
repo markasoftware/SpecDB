@@ -1,6 +1,6 @@
 name: GeForce-7900-GX2
 humanName: GeForce 7900 GX2
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -33,3 +33,4 @@ data:
   Pixel Shaders: 24
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

@@ -1,7 +1,7 @@
 name: Pascal 
 humanName: Pascal
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 16-14 nm

@@ -11,7 +11,7 @@ data:
   'Die Size': '90 mm'
   Socket: PPGA478
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Core T2050'
 name: Core-T2050

@@ -1,6 +1,6 @@
 name: Radeon-RX-6750-GRE-12-GB
 humanName: Radeon RX 6750 GRE 12 GB
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -39,3 +39,4 @@ data:
   Ray Tracing Cores: 40
   Market:
     - Consumer
+  HLSL Shader Model: '6.7'

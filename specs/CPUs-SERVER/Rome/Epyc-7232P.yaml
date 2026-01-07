@@ -1,6 +1,6 @@
 name: Epyc-7232P
 humanName: Epyc 7232P
-isPart: true
+
 type: CPU
 inherits:
   - Rome

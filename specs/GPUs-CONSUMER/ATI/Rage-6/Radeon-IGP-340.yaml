@@ -1,6 +1,6 @@
 name: Radeon-IGP-340
 humanName: Radeon IGP 340
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

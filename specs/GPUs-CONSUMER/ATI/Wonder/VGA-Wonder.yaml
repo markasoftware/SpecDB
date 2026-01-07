@@ -1,6 +1,6 @@
 name: VGA-Wonder
 humanName: VGA Wonder
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

@@ -1,6 +1,6 @@
 name: Radeon-Pro-575X
 humanName: Radeon Pro 575X
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -31,3 +31,4 @@ data:
   Slot Width: IGP
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.7'

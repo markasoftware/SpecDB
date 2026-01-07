@@ -1,6 +1,6 @@
 name: P106-090
 humanName: P106-090
-isPart: true
+
 type: Graphics Card
 data:
   Market: Crypto
@@ -33,3 +33,4 @@ data:
   Outputs: No outputs
   Power Connectors: 1x 6-pin
   Length: 250 mm
+  HLSL Shader Model: '6.7'

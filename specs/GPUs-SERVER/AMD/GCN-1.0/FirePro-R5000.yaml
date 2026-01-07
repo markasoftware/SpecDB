@@ -1,6 +1,6 @@
 name: FirePro-R5000
 humanName: FirePro R5000
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -33,3 +33,4 @@ data:
   Power Connectors: 1x 6-pin
   Length: 279 mm
   Width: 111 mm
+  HLSL Shader Model: '6.5 (5.1)'

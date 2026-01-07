@@ -16,12 +16,12 @@ sections:
       - 9950BE
   - header: Standard SKUs
     members:
-      - 9500
-      - 9550
-      - 9600
-      - 9650
-      - 9750
-      - 9850
+      - '9500'
+      - '9550'
+      - '9600'
+      - '9650'
+      - '9750'
+      - '9850'
   - header: Low Power SKUs
     members:
       - 9100e

@@ -1,17 +1,11 @@
 name: FirePro-W600
 humanName: FirePro W600
-isPart: true
+
 type: Graphics Card
+inherits:
+  - GCN-1
 data:
   Market: Workstation
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: GCN 1.0
-  Lithography: 28 nm
-  DirectX Support: '11.1'
-  Vulkan Support: '1.2.170'
-  OpenGL Support: '4.6'
-  OpenCL Support: '2.1 (1.2)'
   Release Date: '2012-06-13'
   GPU Base Frequency: 750 MHz
   VRAM Frequency: 1000 MHz
@@ -34,3 +28,4 @@ data:
   Length: 168 mm
   Width: 111 mm
   Height: 20 mm
+  HLSL Shader Model: '6.5 (5.1)'

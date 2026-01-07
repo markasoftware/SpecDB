@@ -1,6 +1,6 @@
 name: K5-PR90
 humanName: K5 PR 90
-isPart: true
+
 type: CPU
 inherits:
   - 5K86

@@ -1,6 +1,6 @@
 name: GeForce4-420-Go
 humanName: GeForce4 420 Go
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

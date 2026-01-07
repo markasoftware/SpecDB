@@ -1,6 +1,6 @@
 name: Radeon-X700-SE
 humanName: Radeon X700 SE
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

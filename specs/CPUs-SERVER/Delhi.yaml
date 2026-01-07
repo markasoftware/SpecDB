@@ -11,8 +11,8 @@ data:
 sections:
   - header: Eight Core SKUs
     members:
-      - 3365
-      - 3380
+      - '3365'
+      - '3380'
   - header: Quad Core SKUs
     members:
       - 3320EE

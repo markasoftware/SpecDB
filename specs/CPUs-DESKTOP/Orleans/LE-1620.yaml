@@ -1,6 +1,6 @@
 name: LE-1620(O)
 humanName: LE-1620 Orleans
-isPart: true
+
 type: CPU
 inherits:
   - Orleans

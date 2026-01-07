@@ -1,6 +1,6 @@
 name: Quadro-FX-Go540
 humanName: Quadro FX Go540
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -31,3 +31,4 @@ data:
   Pixel Shaders: 8
   Market:
     - Workstation
+  HLSL Shader Model: '3.0'

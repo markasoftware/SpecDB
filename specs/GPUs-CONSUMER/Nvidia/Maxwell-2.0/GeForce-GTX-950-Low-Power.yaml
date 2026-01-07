@@ -1,6 +1,6 @@
 name: GeForce-GTX-950-Low-Power
 humanName: GeForce GTX 950 Low Power
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -37,3 +37,4 @@ data:
   Length: 202 mm
   Market:
     - Consumer
+  HLSL Shader Model: '6.7'

@@ -1,6 +1,6 @@
 name: GeForce2-Go-100
 humanName: GeForce2 Go 100
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

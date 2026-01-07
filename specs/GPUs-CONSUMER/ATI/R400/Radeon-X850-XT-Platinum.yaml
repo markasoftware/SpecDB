@@ -1,6 +1,6 @@
 name: Radeon-X850-XT-Platinum
 humanName: Radeon X850 XT Platinum
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

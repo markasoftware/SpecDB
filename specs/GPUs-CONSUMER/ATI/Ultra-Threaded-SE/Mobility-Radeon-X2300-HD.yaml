@@ -1,6 +1,6 @@
 name: Mobility-Radeon-X2300-HD
 humanName: Mobility Radeon X2300 HD
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI
@@ -28,3 +28,4 @@ data:
   Pixel Shaders: 4
   Market:
     - Mobile
+  HLSL Shader Model: '3.0'

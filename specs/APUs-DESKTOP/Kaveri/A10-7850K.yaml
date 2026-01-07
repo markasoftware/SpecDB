@@ -1,9 +1,9 @@
-isPart: true
+
 name: A10-7850K
 humanName: A10-7850K
 type: APU
 inherits:
-  - GCN 2
+  - GCN-2
 data:
   Architecture: Steamroller
   Lithography: 28 nm

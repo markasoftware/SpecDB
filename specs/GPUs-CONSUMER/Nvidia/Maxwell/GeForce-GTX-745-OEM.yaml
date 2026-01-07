@@ -1,6 +1,6 @@
 name: GeForce-GTX-745-OEM
 humanName: GeForce GTX 745 OEM
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -33,3 +33,4 @@ data:
     - 1x HDMI 1.4a1x VGA
   Power Connectors: None
   Length: 145 mm
+  HLSL Shader Model: '6.7 (5.1)'

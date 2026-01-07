@@ -20,7 +20,7 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '850 MHz'
   'GPU Boost Frequency': '1.35 GHz'
-isPart: true
+
 type: CPU
 humanName: 'Core i7-2600'
 name: Core-i7-2600

@@ -1,6 +1,6 @@
 name: FirePro-M7740
 humanName: FirePro M7740
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -31,3 +31,4 @@ data:
   Slot Width: MXM Module
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '4.1'

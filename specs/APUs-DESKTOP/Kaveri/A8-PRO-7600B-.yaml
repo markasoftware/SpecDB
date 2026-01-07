@@ -1,9 +1,9 @@
-isPart: true
+
 name: A8-PRO-7600B
 humanName: A8 PRO 7600B
 type: APU
 inherits:
-  - GCN 2
+  - GCN-2
 data:
   Architecture: Steamroller
   Lithography: 28 nm

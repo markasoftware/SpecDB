@@ -1,6 +1,6 @@
 name: Radeon-Pro-WX-5100
 humanName: Radeon Pro WX 5100
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -34,3 +34,4 @@ data:
   Power Connectors: None
   Length: 173 mm
   Width: 112 mm
+  HLSL Shader Model: '6.7'

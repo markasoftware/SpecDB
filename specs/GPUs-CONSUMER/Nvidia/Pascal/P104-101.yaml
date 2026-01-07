@@ -1,6 +1,6 @@
 name: P104-101
 humanName: P104-101
-isPart: true
+
 type: Graphics Card
 data:
   Market: Crypto
@@ -32,3 +32,4 @@ data:
   Outputs: No outputs
   Power Connectors: 1x 8-pin
   Length: 267 mm
+  HLSL Shader Model: '6.7'

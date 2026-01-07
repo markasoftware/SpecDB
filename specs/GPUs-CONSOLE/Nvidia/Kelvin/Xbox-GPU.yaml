@@ -1,6 +1,6 @@
 name: Xbox-GPU
 humanName: Xbox GPU
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

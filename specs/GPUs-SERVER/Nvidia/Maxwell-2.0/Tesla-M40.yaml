@@ -1,6 +1,6 @@
 name: Tesla-M40
 humanName: Tesla M40
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -44,3 +44,4 @@ data:
   Outputs: No outputs
   Power Connectors: 8-pin EPS
   Length: 267 mm
+  HLSL Shader Model: '6.7'

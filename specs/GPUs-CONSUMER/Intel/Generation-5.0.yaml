@@ -1,7 +1,7 @@
 name: Generation-5.0 
 humanName: Generation 5.0
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 65 nm

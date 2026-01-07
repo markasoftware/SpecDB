@@ -1,6 +1,6 @@
 name: GeForce-FX-5600-Ultra
 humanName: GeForce FX 5600 Ultra
-isPart: true
+
 type: Graphics Card
 data:
   Market: Consumer

@@ -1,7 +1,5 @@
-hidden: true
+type: Hidden
 name: Ryzen R9 Base
-inherits:
-  - Whitehaven
 data:
   Release Date: '2017-08-12'
   XFR Support: true

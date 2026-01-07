@@ -1,6 +1,6 @@
 name: GeForce-7150-+-nForce-630i
 humanName: GeForce 7150 + nForce 630i
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -29,3 +29,4 @@ data:
   Pixel Shaders: 2
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

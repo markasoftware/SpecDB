@@ -24,7 +24,7 @@ data:
   'Maximum VRAM Capacity': '16 GiB'
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
-isPart: true
+
 type: CPU
 humanName: 'Core i7-5550U'
 name: Core-i7-5550U

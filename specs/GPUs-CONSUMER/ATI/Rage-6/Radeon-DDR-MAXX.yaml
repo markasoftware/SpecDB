@@ -1,6 +1,6 @@
 name: Radeon-DDR-MAXX
 humanName: Radeon DDR MAXX
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

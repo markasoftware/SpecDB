@@ -1,6 +1,6 @@
 name: Quadro-FX-3000G
 humanName: Quadro FX 3000G
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation

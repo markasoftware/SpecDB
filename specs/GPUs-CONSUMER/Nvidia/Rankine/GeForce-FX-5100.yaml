@@ -1,6 +1,6 @@
 name: GeForce-FX-5100
 humanName: GeForce FX 5100
-isPart: true
+
 type: Graphics Card
 data:
   Market: Consumer

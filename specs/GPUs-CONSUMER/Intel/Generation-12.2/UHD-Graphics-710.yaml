@@ -1,6 +1,6 @@
 name: UHD-Graphics-710
 humanName: UHD Graphics 710
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel
@@ -29,3 +29,4 @@ data:
   Outputs: Motherboard Dependent
   Market:
     - Consumer
+  HLSL Shader Model: '6.6'

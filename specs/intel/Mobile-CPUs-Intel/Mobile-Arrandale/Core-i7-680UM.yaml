@@ -21,7 +21,7 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '166 MHz'
   'GPU Boost Frequency': '500 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Core i7-680UM'
 name: Core-i7-680UM

@@ -1,6 +1,6 @@
 name: Radeon-9250-PCI
 humanName: Radeon 9250 PCI
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

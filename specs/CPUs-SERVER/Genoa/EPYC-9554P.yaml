@@ -1,6 +1,6 @@
 name: EPYC-9554P
 humanName: EPYC 9554P
-isPart: true
+
 type: CPU
 inherits:
 - Genoa

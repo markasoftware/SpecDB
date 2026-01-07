@@ -1,6 +1,6 @@
 name: MTT-S2000
 humanName: MTT S2000
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Moore-Threads
@@ -29,3 +29,4 @@ data:
   Power Connectors: 1x 8-pin
   Length: 266 mm
   Width: 111 mm
+  HLSL Shader Model: '6.5'

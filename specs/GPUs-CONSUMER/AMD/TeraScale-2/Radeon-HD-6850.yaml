@@ -1,16 +1,10 @@
 name: Radeon-HD-6850
 humanName: Radeon HD 6850
-isPart: true
+
 type: Graphics Card
+inherits:
+  - TeraScale-2
 data:
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: TeraScale 2
-  Lithography: 40 nm
-  DirectX Support: '11.0'
-  Vulkan Support: 'N/A'
-  OpenGL Support: '4.4'
-  OpenCL Support: '1.2'
   Release Date: '2010-10-21'
   GPU Base Frequency: 775 MHz
   VRAM Frequency: 1000 MHz
@@ -34,3 +28,4 @@ data:
   Length: 198 mm
   Market:
     - Consumer
+  HLSL Shader Model: '5.0'

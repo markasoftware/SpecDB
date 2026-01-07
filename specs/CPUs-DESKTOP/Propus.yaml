@@ -12,5 +12,5 @@ data:
 sections:
   - header: Standard SKUs
     members:
-      - 840
-      - 850
+      - '840'
+      - '850'

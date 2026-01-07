@@ -19,7 +19,7 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '1.15 GHz'
-isPart: true
+
 type: CPU
 humanName: 'Core i3-2370M'
 name: Core-i3-2370M

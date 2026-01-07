@@ -16,7 +16,7 @@ data:
   Socket: FCLGA2066
   AES: true
   AVX/SSE/MMX: AVX-512
-isPart: true
+
 type: CPU
 humanName: 'Core i7-9800X'
 name: Core-i7-9800X

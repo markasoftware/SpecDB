@@ -1,6 +1,6 @@
 name: FirePro-2260-PCI
 humanName: FirePro 2260 PCI
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -31,3 +31,4 @@ data:
   Power Connectors: None
   Length: 170 mm
   Width: 69 mm
+  HLSL Shader Model: '4.1'

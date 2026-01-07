@@ -1,6 +1,6 @@
 name: XP-2100-PAL
 humanName: Athlon XP 2100+ (Palomino)
-isPart: true
+
 type: CPU
 inherits:
   - Palomino

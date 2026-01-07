@@ -1,7 +1,7 @@
 name: Kepler 
 humanName: Kepler
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 28 nm

@@ -1,6 +1,6 @@
 name: GeForce-FX-Go5600
 humanName: GeForce FX Go5600
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

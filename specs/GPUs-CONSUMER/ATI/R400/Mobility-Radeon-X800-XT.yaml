@@ -1,6 +1,6 @@
 name: Mobility-Radeon-X800-XT
 humanName: Mobility Radeon X800 XT
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

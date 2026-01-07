@@ -1,6 +1,6 @@
 name: 565BE
 humanName: X2 565 Black Edition
-isPart: true
+
 type: CPU
 inherits:
   - Callisto

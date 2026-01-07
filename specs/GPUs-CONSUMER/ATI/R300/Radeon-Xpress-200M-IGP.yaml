@@ -1,6 +1,6 @@
 name: Radeon-Xpress-200M-IGP
 humanName: Radeon Xpress 200M IGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

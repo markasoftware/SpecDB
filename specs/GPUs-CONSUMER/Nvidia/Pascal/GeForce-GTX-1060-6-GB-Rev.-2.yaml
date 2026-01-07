@@ -1,6 +1,6 @@
 name: GeForce-GTX-1060-6-GB-Rev.-2
 humanName: GeForce GTX 1060 6 GB Rev. 2
-isPart: true
+
 type: Graphics Card
 data:
   Market: Consumer
@@ -36,3 +36,4 @@ data:
     - 3x DisplayPort 1.4a
   Power Connectors: 1x 6-pin
   Length: 250 mm
+  HLSL Shader Model: '6.7'

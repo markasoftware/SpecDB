@@ -1,6 +1,6 @@
 name: Mobility-FireGL-V3100
 humanName: Mobility FireGL V3100
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

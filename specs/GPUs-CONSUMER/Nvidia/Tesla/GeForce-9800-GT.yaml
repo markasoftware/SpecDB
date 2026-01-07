@@ -1,6 +1,6 @@
 name: GeForce-9800-GT
 humanName: GeForce 9800 GT
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -35,3 +35,4 @@ data:
   Width: 111 mm
   Market:
     - Consumer
+  HLSL Shader Model: '4.0'

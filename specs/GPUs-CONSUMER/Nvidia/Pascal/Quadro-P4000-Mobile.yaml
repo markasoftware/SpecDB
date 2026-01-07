@@ -1,6 +1,6 @@
 name: Quadro-P4000-Mobile
 humanName: Quadro P4000 Mobile
-isPart: true
+
 type: Graphics Card
 data:
   Market:
@@ -34,3 +34,4 @@ data:
   Slot Width: MXM Module
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.7'

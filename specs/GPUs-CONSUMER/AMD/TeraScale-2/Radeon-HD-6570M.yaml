@@ -1,16 +1,10 @@
 name: Radeon-HD-6570M
 humanName: Radeon HD 6570M
-isPart: true
+
 type: Graphics Card
+inherits:
+  - TeraScale-2
 data:
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: TeraScale 2
-  Lithography: 40 nm
-  DirectX Support: '11.0'
-  Vulkan Support: 'N/A'
-  OpenGL Support: '4.4'
-  OpenCL Support: '1.2'
   Release Date: '2011-04-25'
   GPU Base Frequency: 600 MHz
   VRAM Frequency: 800 MHz
@@ -29,3 +23,4 @@ data:
   Outputs: Portable Device Dependent
   Market:
     - Mobile
+  HLSL Shader Model: '5.0'

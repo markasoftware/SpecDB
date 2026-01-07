@@ -1,6 +1,6 @@
 name: 9750B
 humanName: X4 9750B
-isPart: true
+
 type: CPU
 inherits:
   - Agena

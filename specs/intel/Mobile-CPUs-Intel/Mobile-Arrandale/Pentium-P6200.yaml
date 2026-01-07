@@ -19,7 +19,7 @@ data:
     - x86-64
   'GPU Base Frequency': '500 MHz'
   'GPU Boost Frequency': '667 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Pentium P6200'
 name: Pentium-P6200

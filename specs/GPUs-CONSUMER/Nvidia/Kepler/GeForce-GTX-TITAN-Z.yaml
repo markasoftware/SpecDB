@@ -1,6 +1,6 @@
 name: GeForce-GTX-TITAN-Z
 humanName: GeForce GTX TITAN Z
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -38,3 +38,4 @@ data:
   Height: 62 mm
   Market:
     - Consumer
+  HLSL Shader Model: '6.5 (5.1)'

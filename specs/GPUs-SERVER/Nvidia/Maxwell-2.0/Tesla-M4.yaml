@@ -1,6 +1,6 @@
 name: Tesla-M4
 humanName: Tesla M4
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -44,3 +44,4 @@ data:
   FP64 Compute: 68.61 GFLOPS (1:32)
   Slot Width: Single-slot
   Outputs: No outputs
+  HLSL Shader Model: '6.7'

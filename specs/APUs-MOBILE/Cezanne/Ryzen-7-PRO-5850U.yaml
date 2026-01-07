@@ -1,9 +1,9 @@
 name: Ryzen-7-PRO-5850U
 humanName: Ryzen 7 PRO 5850U
-isPart: true
+
 type: CPU
 inherits:
-- GCN 5.1
+- GCN-5.1
 - Cezanne-M
 data:
   Release Date: '2021-03-16'

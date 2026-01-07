@@ -1,6 +1,6 @@
 name: GeForce-PCX-5900
 humanName: GeForce PCX 5900
-isPart: true
+
 type: Graphics Card
 data:
   Market: Consumer

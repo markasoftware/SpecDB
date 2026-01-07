@@ -1,6 +1,6 @@
 name: Radeon-550
 humanName: Radeon 550
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -36,3 +36,4 @@ data:
   Length: 145 mm
   Market:
     - Consumer
+  HLSL Shader Model: '6.7'

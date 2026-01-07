@@ -1,6 +1,6 @@
 name: Radeon-RX-5500-OEM
 humanName: Radeon RX 5500 OEM
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -35,3 +35,4 @@ data:
   Power Connectors: 1x 8-pin
   Length: 180 mm
   Width: 110 mm
+  HLSL Shader Model: '6.7'

@@ -1,6 +1,6 @@
 name: GeForce-8600-GTS-Mac-Edition
 humanName: GeForce 8600 GTS Mac Edition
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -29,3 +29,4 @@ data:
   Slot Width: Single-slot
   Outputs: 2x DVI
   Power Connectors: 1x 6-pin
+  HLSL Shader Model: '4.0'

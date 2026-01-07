@@ -1,6 +1,6 @@
 name: XP-2600-BAR
 humanName: Athlon XP 2600+ (Barton)
-isPart: true
+
 type: CPU
 inherits:
   - Barton

@@ -1,6 +1,6 @@
 name: FirePro-S9300-X2
 humanName: FirePro S9300 X2
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -33,3 +33,4 @@ data:
   Power Connectors: 2x 8-pin
   Length: 267 mm
   Width: 111 mm
+  HLSL Shader Model: '6.5'

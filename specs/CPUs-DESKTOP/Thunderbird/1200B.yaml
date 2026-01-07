@@ -1,6 +1,6 @@
 name: 1200B(T)
 humanName: Athlon 1000B Thunderbird
-isPart: true
+
 type: CPU
 inherits:
   - Thunderbird

@@ -15,7 +15,7 @@ data:
   'Release Date': '2019-10-07'
   AES: true
   AVX/SSE/MMX: AVX-512
-isPart: true
+
 type: CPU
 humanName: 'Core i9-10920X'
 name: Core-i9-10920X

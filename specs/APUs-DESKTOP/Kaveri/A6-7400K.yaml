@@ -1,9 +1,9 @@
-isPart: true
+
 name: A6-7400K
 humanName: A6-7400K
 type: APU
 inherits:
-  - GCN 2
+  - GCN-2
 data:
   Architecture: Steamroller
   Lithography: 28 nm

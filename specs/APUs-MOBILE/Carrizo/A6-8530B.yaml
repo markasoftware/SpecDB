@@ -1,9 +1,9 @@
-isPart: true
+
 name: A6-8530B
 humanName: A6-8530B
 type: APU
 inherits:
-  - GCN 3
+  - "GCN-3"
   - Carrizo
 data:
 

@@ -1,6 +1,6 @@
 name: 7750BE
 humanName: X2 7750 Black Edition
-isPart: true
+
 type: CPU
 inherits:
   - Kuma

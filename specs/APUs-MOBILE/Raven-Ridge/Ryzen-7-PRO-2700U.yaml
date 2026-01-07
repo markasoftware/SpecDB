@@ -1,9 +1,9 @@
-isPart: true
+
 name: Ryzen-7-PRO-2700U
 humanName: Ryzen 7 PRO 2700U
 type: APU
 inherits:
-  - GCN 5
+  - GCN-5
   - Raven-Ridge
 data:
  

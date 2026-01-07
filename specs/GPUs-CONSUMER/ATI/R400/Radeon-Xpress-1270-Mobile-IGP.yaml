@@ -1,6 +1,6 @@
 name: Radeon-Xpress-1270-Mobile-IGP
 humanName: Radeon Xpress 1270 Mobile IGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

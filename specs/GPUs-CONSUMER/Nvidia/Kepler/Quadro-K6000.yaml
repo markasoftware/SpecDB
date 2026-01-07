@@ -1,6 +1,6 @@
 name: Quadro-K6000
 humanName: Quadro K6000
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -36,3 +36,4 @@ data:
   Power Connectors: 2x 6-pin
   Length: 267 mm
   Width: 111 mm
+  HLSL Shader Model: '6.5 (5.1)'

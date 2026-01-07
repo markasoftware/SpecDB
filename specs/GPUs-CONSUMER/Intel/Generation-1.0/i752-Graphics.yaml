@@ -1,6 +1,6 @@
 name: i752-Graphics
 humanName: i752 Graphics
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel

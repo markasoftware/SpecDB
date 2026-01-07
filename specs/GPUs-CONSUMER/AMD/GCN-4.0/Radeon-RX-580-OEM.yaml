@@ -1,6 +1,6 @@
 name: Radeon-RX-580-OEM
 humanName: Radeon RX 580 OEM
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -34,3 +34,4 @@ data:
     - 3x DisplayPort 1.4a
   Power Connectors: 1x 6-pin
   Length: 241 mm
+  HLSL Shader Model: '6.7'

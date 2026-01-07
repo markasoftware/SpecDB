@@ -1,6 +1,6 @@
 name: GeForce-GTX-750-Ti-OEM
 humanName: GeForce GTX 750 Ti OEM
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -29,3 +29,4 @@ data:
   Slot Width: Dual-slot
   Outputs: No outputs
   Power Connectors: None
+  HLSL Shader Model: '6.5 (5.1)'

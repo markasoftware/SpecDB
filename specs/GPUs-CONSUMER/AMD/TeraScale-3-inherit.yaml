@@ -1,0 +1,12 @@
+type: Hidden
+name: TeraScale-3
+data:
+  Manufacturer: AMD
+  Vendor: AMD
+  Architecture: TeraScale 3
+  Lithography: 40 nm
+  DirectX Support: '11.0'
+  Vulkan Support: 'N/A'
+  OpenGL Support: '4.4'
+  OpenCL Support: '1.2'
+  Crossfire Support: CrossfireX

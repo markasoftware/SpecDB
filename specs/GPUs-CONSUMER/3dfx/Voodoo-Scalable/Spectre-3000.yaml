@@ -1,6 +1,6 @@
 name: Spectre-3000
 humanName: Spectre 3000
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: 3dfx

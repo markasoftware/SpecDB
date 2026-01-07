@@ -1,6 +1,6 @@
 name: ROG-Ally-Extreme-GPU
 humanName: ROG Ally Extreme GPU
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -34,3 +34,4 @@ data:
   Height: 21 mm
   Ray Tracing Cores: 12
   Market: Console
+  HLSL Shader Model: '6.7'

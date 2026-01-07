@@ -1,13 +1,14 @@
 name: MUSA 
 humanName: MUSA
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 12 nm
   DirectX Support: '12.2'
   Vulkan Support: '1.4'
   Manufacturer: Moore-Threads
+  Release Date: '2025'
 sections:
   - header: WHOLE RANGE
     members:

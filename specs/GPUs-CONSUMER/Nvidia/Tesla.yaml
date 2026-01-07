@@ -1,7 +1,7 @@
 name: Tesla 
 humanName: Tesla
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 55-90 nm

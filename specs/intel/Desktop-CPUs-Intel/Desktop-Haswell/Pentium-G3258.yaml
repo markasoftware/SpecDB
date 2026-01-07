@@ -24,7 +24,7 @@ data:
   'DirectX Support': '12'
   'OpenGL Support': '4.3'
   Unlocked: 'yes'
-isPart: true
+
 type: CPU
 humanName: 'Pentium G3258'
 name: Pentium-G3258

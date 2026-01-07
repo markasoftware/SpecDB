@@ -1,6 +1,6 @@
 name: Aubrey-Isle
 humanName: Aubrey Isle
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel
@@ -32,3 +32,4 @@ data:
   Length: 267 mm
   Market:
     - Consumer
+  HLSL Shader Model: '5.0'

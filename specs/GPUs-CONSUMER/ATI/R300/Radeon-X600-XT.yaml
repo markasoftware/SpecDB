@@ -1,6 +1,6 @@
 name: Radeon-X600-XT
 humanName: Radeon X600 XT
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

@@ -1,6 +1,6 @@
 name: Quadro4-500-Go-GL
 humanName: Quadro4 500 Go GL
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation

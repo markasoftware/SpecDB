@@ -1,6 +1,6 @@
 name: Radeon-X850-PRO-AGP
 humanName: Radeon X850 PRO AGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

@@ -1,6 +1,6 @@
 name: FireStream-9250
 humanName: FireStream 9250
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -33,3 +33,4 @@ data:
   Power Connectors: 1x 6-pin
   Length: 234 mm
   Width: 111 mm
+  HLSL Shader Model: '4.1'

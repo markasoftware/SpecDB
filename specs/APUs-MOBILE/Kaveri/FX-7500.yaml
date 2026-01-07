@@ -1,10 +1,10 @@
-isPart: true
+
 name: FX-7500
 humanName: FX-7500
 type: APU
 inherits:
-  - GCN 2
-  - Kaveri
+  - GCN-2
+  - Kaveri-apu
 data:
 
   Core Count: 4

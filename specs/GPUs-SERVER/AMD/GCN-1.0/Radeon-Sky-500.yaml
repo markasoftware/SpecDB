@@ -1,6 +1,6 @@
 name: Radeon-Sky-500
 humanName: Radeon Sky 500
-isPart: true
+
 type: Graphics Card
 data:
   Market: Cloud Gaming
@@ -34,3 +34,4 @@ data:
   Power Connectors: 1x 6-pin
   Length: 242 mm
   Width: 111 mm
+  HLSL Shader Model: '6.5 (5.1)'

@@ -1,6 +1,6 @@
 name: Radeon-X1650-AGP
 humanName: Radeon X1650 AGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI
@@ -32,3 +32,4 @@ data:
   Pixel Shaders: 12
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

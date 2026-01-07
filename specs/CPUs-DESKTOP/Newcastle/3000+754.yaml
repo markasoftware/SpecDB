@@ -1,6 +1,6 @@
 name: 3000+(N)
 humanName: 3000+ Newcastle
-isPart: true
+
 type: CPU
 inherits:
   - Newcastle

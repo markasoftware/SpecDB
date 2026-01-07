@@ -1,6 +1,6 @@
 name: AeroBox-GPU
 humanName: AeroBox GPU
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -31,3 +31,4 @@ data:
   Width: 238 mm
   Height: 56 mm
   Market: Console
+  HLSL Shader Model: '5.1'

@@ -12,7 +12,7 @@ data:
   'Release Date': '2005-02-14'
   Socket: H-PBGA479
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Pentium 373'
 name: Pentium-373

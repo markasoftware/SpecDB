@@ -1,6 +1,6 @@
 name: Quadro-DCC
 humanName: Quadro DCC
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

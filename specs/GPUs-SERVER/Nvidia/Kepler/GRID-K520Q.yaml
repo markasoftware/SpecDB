@@ -1,6 +1,6 @@
 name: GRID-K520Q
 humanName: GRID K520Q
-isPart: true
+
 type: Graphics Card
 data:
   Market: Cloud Gaming
@@ -30,3 +30,4 @@ data:
   Slot Width: Dual-slot
   Outputs: No outputs
   Length: 267 mm
+  HLSL Shader Model: '6.5 (5.1)'

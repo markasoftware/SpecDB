@@ -1,6 +1,6 @@
 name: Radeon-7000-Mac-Edition
 humanName: Radeon 7000 Mac Edition
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

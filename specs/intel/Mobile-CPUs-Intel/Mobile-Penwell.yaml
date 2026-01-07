@@ -12,5 +12,6 @@ data:
   Manufacturer: Intel
   Lithography: '32 nm'
   'Release Date': '2012-04-19'
-  Sockets: {  }
+  Sockets:
+  - Integrated
 name: Mobile-Penwell

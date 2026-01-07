@@ -1,9 +1,9 @@
 name: Ryzen-3-5400U
 humanName: Ryzen 3 5400U
-isPart: true
+
 type: CPU
 inherits:
-- GCN 5.1
+- GCN-5.1
 - Cezanne-M
 data:
   Release Date: '2021-01-12'

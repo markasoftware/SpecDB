@@ -20,7 +20,7 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '650 MHz'
   'GPU Boost Frequency': '1.15 GHz'
-isPart: true
+
 type: CPU
 humanName: 'Core i5-3570K'
 name: Core-i5-3570K

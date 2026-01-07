@@ -14,7 +14,7 @@ data:
   AES: false
   'Other Extensions':
     - x86-64
-isPart: true
+
 type: CPU
 humanName: 'Core E6600'
 name: Core-E6600

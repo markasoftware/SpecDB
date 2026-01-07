@@ -13,7 +13,7 @@ data:
   Socket: 'H-PBGA478, H-PBGA479, PPGA478'
   AES: false
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Pentium 320'
 name: Pentium-320

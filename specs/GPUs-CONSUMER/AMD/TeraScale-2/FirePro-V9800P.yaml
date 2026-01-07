@@ -1,17 +1,11 @@
 name: FirePro-V9800P
 humanName: FirePro V9800P
-isPart: true
+
 type: Graphics Card
+inherits:
+  - TeraScale-2
 data:
   Market: Workstation
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: TeraScale 2
-  Lithography: 40 nm
-  DirectX Support: '11.0'
-  Vulkan Support: 'N/A'
-  OpenGL Support: '4.4'
-  OpenCL Support: '1.2'
   Release Date: '2010-09-09'
   GPU Base Frequency: 850 MHz
   VRAM Frequency: 1150 MHz
@@ -33,3 +27,4 @@ data:
   Power Connectors: 1x 8-pin
   Length: 267 mm
   Width: 111 mm
+  HLSL Shader Model: '5.0'

@@ -21,7 +21,7 @@ data:
   'GPU Boost Frequency': '900 MHz'
   'VRAM Type': DDR3L
   'Maximum VRAM Capacity': '1024 MiB'
-isPart: true
+
 type: CPU
 humanName: 'Pentium 2002E'
 name: Pentium-2002E

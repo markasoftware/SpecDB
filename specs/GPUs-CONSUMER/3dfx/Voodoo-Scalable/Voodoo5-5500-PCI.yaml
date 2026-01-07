@@ -1,6 +1,6 @@
 name: Voodoo5-5500-PCI
 humanName: Voodoo5 5500 PCI
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: 3dfx

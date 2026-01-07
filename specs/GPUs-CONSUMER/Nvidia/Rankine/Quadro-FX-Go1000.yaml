@@ -1,6 +1,6 @@
 name: Quadro-FX-Go1000
 humanName: Quadro FX Go1000
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation

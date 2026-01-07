@@ -1,9 +1,9 @@
 name: Ryzen-7-4680U
 humanName: Ryzen 7 4680U
-isPart: true
+
 type: APU
 inherits:
-  - GCN 5.1
+  - GCN-5.1
   - Renoir-M
 data:
   Release Date: '2020-04-13'

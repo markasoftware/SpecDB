@@ -19,7 +19,7 @@ data:
   'GPU Base Frequency': '313 MHz'
   'GPU Boost Frequency': '896 MHz'
   'DirectX Support': '11.2'
-isPart: true
+
 type: CPU
 humanName: 'Pentium N3540'
 name: Pentium-N3540

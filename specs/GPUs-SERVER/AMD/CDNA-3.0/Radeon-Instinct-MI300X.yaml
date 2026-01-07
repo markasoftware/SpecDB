@@ -1,6 +1,6 @@
 name: Radeon-Instinct-MI300X
 humanName: Radeon Instinct MI300X
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -8,7 +8,7 @@ data:
   Vendor: AMD
   Architecture: CDNA 3.0
   Lithography: 5 nm
-  HLSL Shader Model: '1216'
+
   Vulkan Support: 'N/A'
   OpenGL Support: 'N/A'
   OpenCL Support: '3.0'

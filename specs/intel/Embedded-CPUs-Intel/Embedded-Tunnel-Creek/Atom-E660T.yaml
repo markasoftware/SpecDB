@@ -15,7 +15,7 @@ data:
   Socket: FCBGA676
   'Other Extensions': {  }
   'GPU Base Frequency': '400 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Atom E660T'
 name: Atom-E660T

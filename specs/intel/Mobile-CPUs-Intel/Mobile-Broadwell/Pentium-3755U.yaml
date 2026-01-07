@@ -20,7 +20,7 @@ data:
   'GPU Base Frequency': '100 MHz'
   'GPU Boost Frequency': '800 MHz'
   'DirectX Support': '12'
-isPart: true
+
 type: CPU
 humanName: 'Pentium 3755U'
 name: Pentium-3755U

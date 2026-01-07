@@ -1,6 +1,6 @@
 name: Graphics-Vantage
 humanName: Graphics Vantage
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD

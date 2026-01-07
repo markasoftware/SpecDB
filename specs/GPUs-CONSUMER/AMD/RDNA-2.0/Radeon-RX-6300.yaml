@@ -1,6 +1,6 @@
 name: Radeon-RX-6300
 humanName: Radeon RX 6300
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -34,3 +34,4 @@ data:
   Ray Tracing Cores: 12
   Market:
     - Consumer
+  HLSL Shader Model: '6.7'

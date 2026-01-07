@@ -1,7 +1,5 @@
-hidden: true
+type: Hidden
 name: Bulldozer 4C Base
-inherits:
-  - Bulldozer
 data:
   Core Count: 4
   Thread Count: 4

@@ -1,6 +1,6 @@
 name: Quadro-NVS-280-AGP
 humanName: Quadro NVS 280 AGP
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation

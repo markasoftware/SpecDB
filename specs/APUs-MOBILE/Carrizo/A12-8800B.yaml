@@ -1,9 +1,9 @@
-isPart: true
+
 name: A12-8800B
 humanName: A12-8800B
 type: APU
 inherits:
-  - GCN 3
+  - "GCN-3"
   - Carrizo
 data:
 

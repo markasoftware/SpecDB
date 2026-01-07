@@ -1,6 +1,6 @@
 name: Zhongshan-Subor-Z+-GPU
 humanName: Zhongshan Subor Z+ GPU
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -29,3 +29,4 @@ data:
   FP64 Compute: 249.6 GFLOPS (1:16)
   Outputs: 2x HDMI 2.0
   Market: Console
+  HLSL Shader Model: '6.0'

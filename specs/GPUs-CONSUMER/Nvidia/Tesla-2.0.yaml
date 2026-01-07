@@ -1,7 +1,7 @@
 name: Tesla-2.0 
 humanName: Tesla 2.0
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 40-55 nm

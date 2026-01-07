@@ -1,7 +1,7 @@
 name: PowerVR-Series5XT 
 humanName: PowerVR Series5XT
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 32 nm
@@ -10,6 +10,6 @@ data:
   Release Date: '2011-12-11'
   Manufacturer: PowerVR
 sections:
-  - header: WHOLE RANGE
+  - header: PlayStation Vita
     members:
     - Playstation-Vita-GPU

@@ -1,6 +1,6 @@
 name: Radeon-RX-6700S
 humanName: Radeon RX 6700S
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -33,3 +33,4 @@ data:
   Ray Tracing Cores: 28
   Market:
     - Mobile
+  HLSL Shader Model: '6.7'

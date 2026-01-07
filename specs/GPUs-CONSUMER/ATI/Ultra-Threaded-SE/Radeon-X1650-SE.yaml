@@ -1,6 +1,6 @@
 name: Radeon-X1650-SE
 humanName: Radeon X1650 SE
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI
@@ -32,3 +32,4 @@ data:
   Pixel Shaders: 4
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

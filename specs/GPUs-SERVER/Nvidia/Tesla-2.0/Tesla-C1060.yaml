@@ -1,6 +1,6 @@
 name: Tesla-C1060
 humanName: Tesla C1060
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -32,3 +32,4 @@ data:
   Power Connectors: 1x 6-pin + 1x 8-pin
   Length: 267 mm
   Width: 111 mm
+  HLSL Shader Model: '4.0'

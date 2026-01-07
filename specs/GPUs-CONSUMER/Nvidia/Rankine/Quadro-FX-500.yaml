@@ -1,6 +1,6 @@
 name: Quadro-FX-500
 humanName: Quadro FX 500
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation

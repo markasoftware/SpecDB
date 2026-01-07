@@ -20,7 +20,7 @@ data:
     - x86-64
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '733 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Core i5-670'
 name: Core-i5-670

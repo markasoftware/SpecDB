@@ -1,6 +1,6 @@
 name: Ryzen-7-7840H
 humanName: Ryzen 7 7840H
-isPart: true
+
 type: APU
 inherits:
 - Phoenix-M

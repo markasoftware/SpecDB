@@ -1,6 +1,6 @@
 name: Radeon-7200
 humanName: Radeon 7200
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

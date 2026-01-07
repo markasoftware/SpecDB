@@ -1,6 +1,6 @@
 name: Radeon-VE-PCI
 humanName: Radeon VE PCI
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

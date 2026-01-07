@@ -1,6 +1,6 @@
 name: GeForce-GTX-555-OEM
 humanName: GeForce GTX 555 OEM
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -33,3 +33,4 @@ data:
     - 1x mini-HDMI 1.3a
   Power Connectors: 2x 6-pin
   Length: 210 mm
+  HLSL Shader Model: '5.1'

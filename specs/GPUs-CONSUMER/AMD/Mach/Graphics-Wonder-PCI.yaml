@@ -1,6 +1,6 @@
 name: Graphics-Wonder-PCI
 humanName: Graphics Wonder PCI
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD

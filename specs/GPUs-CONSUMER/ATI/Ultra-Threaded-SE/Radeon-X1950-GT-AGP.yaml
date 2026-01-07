@@ -1,6 +1,6 @@
 name: Radeon-X1950-GT-AGP
 humanName: Radeon X1950 GT AGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI
@@ -33,3 +33,4 @@ data:
   Pixel Shaders: 36
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

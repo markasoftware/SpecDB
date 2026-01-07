@@ -1,6 +1,6 @@
 name: Mobility-Radeon-7500C
 humanName: Mobility Radeon 7500C
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

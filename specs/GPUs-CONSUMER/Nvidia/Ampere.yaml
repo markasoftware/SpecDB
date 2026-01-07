@@ -1,7 +1,7 @@
 name: Ampere 
 humanName: Ampere
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 8 nm

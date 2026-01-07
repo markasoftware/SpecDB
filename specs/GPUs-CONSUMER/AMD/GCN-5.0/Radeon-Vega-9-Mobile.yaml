@@ -1,16 +1,10 @@
 name: Radeon-Vega-9-Mobile
 humanName: Radeon Vega 9 Mobile
-isPart: true
+
 type: Graphics Card
+inherit:
+  - GCN-5
 data:
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: GCN 5.0
-  Lithography: 12 nm
-  DirectX Support: '12.1'
-  Vulkan Support: '1.3'
-  OpenGL Support: '4.6'
-  OpenCL Support: '2.1'
   Release Date: '2019-10-22'
   GPU Base Frequency: 300 MHz
   GPU Boost Frequency: 1300 MHz
@@ -32,3 +26,4 @@ data:
   Power Connectors: None
   Market:
     - Mobile
+  HLSL Shader Model: '6.7'

@@ -11,5 +11,6 @@ data:
   Manufacturer: Intel
   Lithography: '22 nm'
   'Release Date': '2014-03-10'
-  Sockets: {  }
+  Sockets:
+  - Integrated
 name: Mobile-Merrifield

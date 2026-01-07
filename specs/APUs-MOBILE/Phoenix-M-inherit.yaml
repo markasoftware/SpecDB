@@ -1,4 +1,4 @@
-hidden: true
+type: Hidden
 name: Phoenix-M
 data:
   Release Date: '2023-05' #Date month and year correct. Exact date unsure though.

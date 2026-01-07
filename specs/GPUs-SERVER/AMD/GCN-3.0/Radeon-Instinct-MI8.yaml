@@ -1,6 +1,6 @@
 name: Radeon-Instinct-MI8
 humanName: Radeon Instinct MI8
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -33,3 +33,4 @@ data:
   Power Connectors: 1x 8-pin
   Length: 152 mm
   Width: 111 mm
+  HLSL Shader Model: '6.5'

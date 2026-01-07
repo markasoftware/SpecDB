@@ -1,6 +1,6 @@
 name: Radeon-DDR-VIVO-SE
 humanName: Radeon DDR VIVO SE
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

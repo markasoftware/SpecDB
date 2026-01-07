@@ -1,5 +1,4 @@
 require('./create-spec.js')({
-    isPart: true,
     type: 'CPU',
     data: {},
 }, [

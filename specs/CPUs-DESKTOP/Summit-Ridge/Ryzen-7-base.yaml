@@ -1,7 +1,5 @@
-hidden: true
+type: Hidden
 name: Ryzen R7 Base
-inherits:
-  - Summit-Ridge
 data:
   Core Count: 8
   Thread Count: 16

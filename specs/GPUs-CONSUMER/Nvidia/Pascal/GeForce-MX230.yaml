@@ -1,6 +1,6 @@
 name: GeForce-MX230
 humanName: GeForce MX230
-isPart: true
+
 type: Graphics Card
 data:
   Market: Mobile
@@ -32,3 +32,4 @@ data:
   Slot Width: IGP
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.7'

@@ -1,6 +1,6 @@
 name: 1075TBE
 humanName: X6 1075T Black Edition
-isPart: true
+
 type: CPU
 inherits:
   - Thuban

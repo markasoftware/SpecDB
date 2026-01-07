@@ -13,7 +13,7 @@ data:
   Socket: FCBGA437
   'Other Extensions': {  }
   AVX/SSE/MMX: false
-isPart: true
+
 type: CPU
 humanName: 'Atom Z510PT'
 name: Atom-Z510PT

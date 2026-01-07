@@ -1,6 +1,6 @@
 name: Epyc-7F32
 humanName: Epyc 7F32
-isPart: true
+
 type: CPU
 inherits:
   - Rome

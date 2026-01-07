@@ -1,9 +1,9 @@
-isPart: true
+
 name: A8-9600B
 humanName: A8-9600B
 type: APU
 inherits:
-  - GCN 3
+  - "GCN-3"
   - Bristol-Ridge
 data:
 

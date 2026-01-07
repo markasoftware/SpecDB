@@ -1,6 +1,6 @@
 name: Mobility-Radeon-9100-IGP
 humanName: Mobility Radeon 9100 IGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

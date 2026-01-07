@@ -21,7 +21,7 @@ data:
   'Maximum VRAM Capacity': '8 GiB'
   'DirectX Support': '0'
   'OpenGL Support': 'Yes'
-isPart: true
+
 type: CPU
 humanName: 'Pentium N3350'
 name: Pentium-N3350

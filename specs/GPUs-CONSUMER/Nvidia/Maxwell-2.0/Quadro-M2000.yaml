@@ -1,6 +1,6 @@
 name: Quadro-M2000
 humanName: Quadro M2000
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -48,3 +48,4 @@ data:
   Power Connectors: None
   Length: 201 mm
   Width: 111 mm
+  HLSL Shader Model: '6.7'

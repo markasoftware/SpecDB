@@ -1,7 +1,7 @@
 name: G100 
 humanName: G100
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 350 nm

@@ -1,6 +1,6 @@
-name: 820
+name: '820'
 humanName: X4 820
-isPart: true
+
 type: CPU
 inherits:
   - Deneb

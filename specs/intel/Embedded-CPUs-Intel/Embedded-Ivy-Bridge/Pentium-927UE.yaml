@@ -16,7 +16,7 @@ data:
   AES: false
   'GPU Base Frequency': '350 MHz'
   'GPU Boost Frequency': '900 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Pentium 927UE'
 name: Pentium-927UE

@@ -1,6 +1,6 @@
 name: Mobility-Radeon-X1350
 humanName: Mobility Radeon X1350
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

@@ -1,6 +1,6 @@
 name: Playstation-4-GPU
 humanName: Playstation 4 GPU
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -31,3 +31,4 @@ data:
   Width: 275 mm
   Height: 53 mm
   Market: Console
+  HLSL Shader Model: '5.1'

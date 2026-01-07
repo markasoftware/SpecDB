@@ -1,6 +1,6 @@
 name: Graphics-Ultra-Pro-PCI
 humanName: Graphics Ultra Pro PCI
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD

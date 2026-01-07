@@ -1,6 +1,6 @@
 name: Quadro-K600
 humanName: Quadro K600
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -35,3 +35,4 @@ data:
   Power Connectors: None
   Length: 160 mm
   Width: 69 mm
+  HLSL Shader Model: '6.5 (5.1)'

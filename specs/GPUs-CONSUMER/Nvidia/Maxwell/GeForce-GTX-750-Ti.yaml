@@ -1,6 +1,6 @@
 name: GeForce-GTX-750-Ti
 humanName: GeForce GTX 750 Ti
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -45,3 +45,4 @@ data:
   Length: 145 mm
   Market:
     - Consumer
+  HLSL Shader Model: '6.7 (5.1)'

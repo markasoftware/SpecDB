@@ -1,6 +1,6 @@
 name: Radeon-Instinct-MI25
 humanName: Radeon Instinct MI25
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -34,3 +34,4 @@ data:
   Power Connectors: 2x 8-pin
   Length: 267 mm
   Width: 111 mm
+  HLSL Shader Model: '6.7'

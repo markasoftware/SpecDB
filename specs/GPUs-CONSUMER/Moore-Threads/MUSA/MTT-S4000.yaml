@@ -1,6 +1,6 @@
 name: MTT-S4000
 humanName: MTT S4000
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Moore-Threads
@@ -8,7 +8,7 @@ data:
   Architecture: MUSA
   Lithography: 12 nm
   DirectX Support: '12.2'
-  HLSL Shader Model: '128'
+  HLSL Shader Model: '6.5'
   Vulkan Support: '1.4'
   OpenGL Support: '4.6'
   OpenCL Support: '3.0'

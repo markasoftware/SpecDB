@@ -1,6 +1,6 @@
 name: NVS-315
 humanName: NVS 315
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -33,3 +33,4 @@ data:
   Length: 145 mm
   Market:
     - Consumer
+  HLSL Shader Model: '5.1'

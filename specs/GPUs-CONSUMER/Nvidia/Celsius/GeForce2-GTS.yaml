@@ -1,6 +1,6 @@
 name: GeForce2-GTS
 humanName: GeForce2 GTS
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

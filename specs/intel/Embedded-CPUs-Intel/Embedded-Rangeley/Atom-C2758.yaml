@@ -16,7 +16,7 @@ data:
   AES: true
   'Other Extensions':
     - x86-64
-isPart: true
+
 type: CPU
 humanName: 'Atom C2758'
 name: Atom-C2758

@@ -1,6 +1,6 @@
 name: GeForce-7200-GS
 humanName: GeForce 7200 GS
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -32,3 +32,4 @@ data:
   Pixel Shaders: 2
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

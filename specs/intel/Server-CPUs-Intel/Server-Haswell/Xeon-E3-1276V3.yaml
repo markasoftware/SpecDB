@@ -24,7 +24,7 @@ data:
   'Maximum VRAM Capacity': '1.69921875 GiB'
   'DirectX Support': '11.2'
   'OpenGL Support': '4.3'
-isPart: true
+
 type: CPU
 humanName: 'Xeon E3-1276V3'
 name: Xeon-E3-1276V3

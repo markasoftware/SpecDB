@@ -1,6 +1,6 @@
 name: GeForce-FX-5700-LE
 humanName: GeForce FX 5700 LE
-isPart: true
+
 type: Graphics Card
 data:
   Market: Consumer

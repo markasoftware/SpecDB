@@ -10,7 +10,7 @@ data:
   'L2 Cache (Total)': '1024 KiB'
   'Die Size': '107 mm'
   'Release Date': '2011-01-09'
-isPart: true
+
 type: CPU
 humanName: 'Pentium 763'
 name: Pentium-763

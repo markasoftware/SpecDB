@@ -1,6 +1,6 @@
 name: 250u
 humanName: X2 250u
-isPart: true
+
 type: CPU
 inherits:
   - Regor-Athlon

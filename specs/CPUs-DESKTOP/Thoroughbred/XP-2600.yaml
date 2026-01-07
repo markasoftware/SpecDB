@@ -1,6 +1,6 @@
 name: XP-2600-TBR
 humanName: Athlon XP 2600+ (Thoroughbred)
-isPart: true
+
 type: CPU
 inherits:
   - Thoroughbred

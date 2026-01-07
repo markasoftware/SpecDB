@@ -1,8 +1,9 @@
 name: FX-8150
 humanName: FX 8150
-isPart: true
+
 type: CPU
 inherits:
+  - Bulldozer
   - Bulldozer 8C Base
 data:
   Base Frequency: 3.6 GHz

@@ -1,6 +1,6 @@
 name: Xbox-Series-S-GPU
 humanName: Xbox Series S GPU
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -31,3 +31,4 @@ data:
   Width: 151 mm
   Height: 64 mm
   Market: Console
+  HLSL Shader Model: '6.7'

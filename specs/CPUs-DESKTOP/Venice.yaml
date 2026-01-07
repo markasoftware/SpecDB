@@ -6,8 +6,8 @@ data:
   Release Date: '2005-04-04'
   Lithography: 90 nm
   Sockets:
-  - 754
-  - 939
+  - '754'
+  - '939'
   Foundry: AMD Foundries
 sections:
   - header: Socket 754 SKUs

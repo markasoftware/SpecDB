@@ -1,6 +1,6 @@
 name: Ryzen-9-7950X3D
 humanName: Ryzen 9 7950X3D
-isPart: true
+
 type: CPU
 inherits:
 - Raphael

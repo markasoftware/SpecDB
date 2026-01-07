@@ -1,9 +1,9 @@
-isPart: true
+
 name: A10-9700
 humanName: A10-9700
 type: APU
 inherits:
-  - GCN 3
+  - "GCN-3"
 data:
   Architecture: Excavator
   Lithography: 28 nm

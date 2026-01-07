@@ -1,6 +1,6 @@
 name: Tesla-P100-SXM2
 humanName: Tesla P100 SXM2
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -32,3 +32,4 @@ data:
   Slot Width: SXM Module
   Outputs: No outputs
   Power Connectors: None
+  HLSL Shader Model: '6.0'

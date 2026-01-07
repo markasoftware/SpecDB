@@ -1,9 +1,9 @@
-isPart: true
+
 name: Athlon-5150
 humanName: Athlon 5150
 type: APU
 inherits:
-  - GCN 1
+  - GCN-1
 data:
   Architecture: Jaguar
   Lithography: 28 nm

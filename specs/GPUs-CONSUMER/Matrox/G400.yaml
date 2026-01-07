@@ -1,7 +1,7 @@
 name: G400 
 humanName: G400
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 180-250 nm

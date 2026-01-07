@@ -1,7 +1,7 @@
 name: PowerVR-SGX535 
 humanName: PowerVR SGX535
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 45 nm - 130 nm

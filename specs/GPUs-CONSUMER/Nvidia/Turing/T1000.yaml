@@ -1,6 +1,6 @@
 name: T1000
 humanName: T1000
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -56,3 +56,4 @@ data:
   Slot Width: Single-slot
   Outputs: 4x mini-DisplayPort 1.4a
   Power Connectors: None
+  HLSL Shader Model: '6.7'

@@ -1,6 +1,6 @@
 name: Radeon-X300-LE
 humanName: Radeon X300 LE
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

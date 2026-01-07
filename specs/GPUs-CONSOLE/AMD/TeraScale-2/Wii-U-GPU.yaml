@@ -1,6 +1,6 @@
 name: Wii-U-GPU
 humanName: Wii U GPU
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -29,3 +29,4 @@ data:
   Width: 172 mm
   Height: 46 mm
   Market: Console
+  HLSL Shader Model: '5.0'

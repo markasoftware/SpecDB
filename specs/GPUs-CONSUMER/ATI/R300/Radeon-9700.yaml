@@ -1,6 +1,6 @@
 name: Radeon-9700
 humanName: Radeon 9700
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

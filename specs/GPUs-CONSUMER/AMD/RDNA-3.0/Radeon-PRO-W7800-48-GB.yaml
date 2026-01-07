@@ -1,6 +1,6 @@
 name: Radeon-PRO-W7800-48-GB
 humanName: Radeon PRO W7800 48 GB
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -38,3 +38,4 @@ data:
   Width: 110 mm
   Height: 40 mm
   Ray Tracing Cores: 70
+  HLSL Shader Model: '6.8'

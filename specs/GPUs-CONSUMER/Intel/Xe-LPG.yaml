@@ -1,7 +1,7 @@
 name: Xe-LPG 
 humanName: Xe-LPG
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 10 nm

@@ -6,7 +6,7 @@ const util = require('../build/util');
 const yamlVerify = util.yamlVerify;
 
 test('YAMLVERIFY: Missing properties', t => {
-	// Required properties: name, humanName, isPart, type
+	// Required properties: name, humanName, type
 	// Required for subtext: data.whatever
 	// Required for sections: topHeader, sections
 	const missingRegex = /incorrect type.*found "undefined"/i;
@@ -15,7 +15,6 @@ test('YAMLVERIFY: Missing properties', t => {
 	t.throws(() => yamlVerify({
 		name: 'Yeet',
 		humanName: 'yap',
-		isPart: true,
 		type: 'CPU',
 		data: {
 			TDP: '95 W',
@@ -24,7 +23,6 @@ test('YAMLVERIFY: Missing properties', t => {
 	t.throws(() => yamlVerify({
 		name: 'Yeet',
 		humanName: 'yap',
-		isPart: false,
 		type: 'Generic Container',
 		topHeader: 'ur mom gay',
 	}), missingRegex, 'Missing sections');
@@ -38,16 +36,25 @@ test('YAMLVERIFY: Wrong types', t => {
 	t.throws(() => yamlVerify({
 		name: 'BLEP',
 		humanName: 'BLEP',
-		isPart: 'maybe',
 		type: 'Generic Container',
-	}), typeRegex, 'isPart is not boolean');
+	}), typeRegex, 'Generic Container is missing required elements.');
 	t.throws(() => yamlVerify({
 		name: 'BLEP',
 		humanName: 'BLEP',
-		isPart: false,
 		type: 'Generic Container',
 		sections: { },
 	}), typeRegex, 'sections is not an array');
+
+	t.end();
+});
+
+test('YAMLVERIFY: Invalid type throws', t => {
+	t.throws(() => yamlVerify({
+		name: 'Bogus',
+		humanName: 'Bogus',
+		type: 'BogusType',
+		data: {},
+	}), /Unknown type/i, 'should throw for unknown type');
 
 	t.end();
 });
@@ -58,14 +65,12 @@ test('YAMLVERIFY: inherits', t => {
 	t.throws(() => yamlVerify({
 		name: 'Yat',
 		humanName: 'yat',
-		isPart: true,
 		type: 'Generic Container',
 		inherits: 637,
 	}), typeRegex, 'Inherits is number');
 	t.throws(() => yamlVerify({
 		name: 'Yat',
 		humanName: 'yat',
-		isPart: true,
 		type: 'Generic Container',
 		inherits: [
 			{ }
@@ -80,7 +85,6 @@ test('YAMLVERIFY: All clear', t => {
 	t.doesNotThrow(() => yamlVerify({
 		name: 'Yeet',
 		humanName: 'yap',
-		isPart: true,
 		type: 'CPU',
 		data: {
 			TDP: '95 W',
@@ -90,9 +94,9 @@ test('YAMLVERIFY: All clear', t => {
 			'Thread Count': 1e25, // i.e, 1 bajillion
 		},
 	}), 'basic CPU part');
+
 	t.doesNotThrow(() => yamlVerify({
 		humanName: 'BLEP',
-		isPart: false,
 		type: 'Generic Container',
 		topHeader: 'cod is 4 killerz',
 		sections: [
@@ -101,9 +105,9 @@ test('YAMLVERIFY: All clear', t => {
 			{ header: 'BLYZEN APUs', members: [ 'B6-BBBB' ]},
 		],
 	}), 'section');
+
 	t.doesNotThrow(() => yamlVerify({
 		humanName: 'rr',
-		isPart: false,
 		type: 'CPU Architecture',
 		topHeader: 'cod is 4 killerz',
 		inherits: [
@@ -119,8 +123,10 @@ test('YAMLVERIFY: All clear', t => {
 			{ header: 'do NOT say yeet one more fucking time', members: [ 'HH, h', 'rr'] },
 		],
 	}), 'complex section');
+
 	t.doesNotThrow(() => yamlVerify({
-		hidden: true,
+		name: 'sam-inherit',
+		type: "Hidden",
 	}), 'minimal hidden');
 
 	t.end();

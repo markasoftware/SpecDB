@@ -1,6 +1,6 @@
 name: Radeon-9800-XXL
 humanName: Radeon 9800 XXL
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

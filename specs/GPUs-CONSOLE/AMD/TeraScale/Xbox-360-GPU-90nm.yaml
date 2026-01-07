@@ -1,6 +1,6 @@
 name: Xbox-360-GPU-90nm
 humanName: Xbox 360 GPU 90nm
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -31,3 +31,4 @@ data:
   Width: 269 mm
   Height: 79 mm
   Market: Console
+  HLSL Shader Model: '3.0'

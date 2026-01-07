@@ -1,6 +1,6 @@
 name: Radeon-PRO-W7900
 humanName: Radeon PRO W7900
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -39,3 +39,4 @@ data:
   Width: 110 mm
   Height: 51 mm
   Ray Tracing Cores: 96
+  HLSL Shader Model: '6.7'

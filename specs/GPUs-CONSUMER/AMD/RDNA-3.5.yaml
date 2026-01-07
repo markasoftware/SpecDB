@@ -1,7 +1,7 @@
 name: RDNA-3.5 
 humanName: RDNA 3.5
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 4 nm

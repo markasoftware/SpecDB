@@ -1,7 +1,7 @@
 name: Wonder 
 humanName: Wonder
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 800 nm

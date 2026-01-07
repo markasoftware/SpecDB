@@ -1,7 +1,7 @@
 name: Generation-12.7 
 humanName: Generation 12.7
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 6 nm

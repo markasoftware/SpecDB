@@ -1,6 +1,6 @@
 name: Radeon-9600-TX
 humanName: Radeon 9600 TX
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

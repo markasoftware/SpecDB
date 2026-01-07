@@ -93,20 +93,20 @@ test('combineUtil: toMatcher', t => {
 test('combineUtil: getDiscreteItem', t => {
 	const fixture = {
 		Skylake: [
-			{ priority: 0, item: { hidden: true, data: { socket: 'lga' } } },
+			{ priority: 0, item: { type: "Hidden", data: { socket: 'lga' } } },
 		],
 		'Crater Lake': [
 			{ priority: 1, item: { socket: [ 'lga' ], foop: 15 } },
 			{ priority: 0, item: { socket: [ 'dna' ], foop: 5 } },
 		],
 		'Kaby Lake': [
-			{ priority: 555, item: { hidden: true, inherits: [ 'Skylake' ] } },
+			{ priority: 555, item: { type: "Hidden", inherits: [ 'Skylake' ] } },
 		],
 		'Coffee Lake': [
-			{ priority: 0, item: { hidden: true, inherits: [ 'Kaby Lake' ] } },
+			{ priority: 0, item: { type: "Hidden", inherits: [ 'Kaby Lake' ] } },
 		],
 		Foopwell: [
-			{ priority: 15, item: { hidden: true, data: { speed: 'fast' } } },
+			{ priority: 15, item: { type: "Hidden", data: { speed: 'fast' } } },
 		],
 		Haswell: [
 			{ priority: 0, item: { inherits: [ 'Coffee Lake', 'Foopwell' ] } },
@@ -122,7 +122,7 @@ test('combineUtil: getDiscreteItem', t => {
 			{ priority: Number.MAX_SAFE_INTEGER, item: { inherits: [ 'glasgow' ], data: { meow: 5 } } },
 		],
 		Spoopy: [
-			{ priority: 0, item: { hidden: true, data: { speed: 'super duper fast' } } },
+			{ priority: 0, item: { type: "Hidden", data: { speed: 'super duper fast' } } },
 			{ priority: 1, item: { data: { speed: 'slow' } } },
 		],
 		globglogabgolab: [
@@ -132,13 +132,13 @@ test('combineUtil: getDiscreteItem', t => {
 		],
 	};
 	// TODO: get rid of the unnecessary *datas and figure out what to do with those
-	const skylakeData = { hidden: true, data: { socket: 'lga' } };
+	const skylakeData = { type: "Hidden", data: { socket: 'lga' } };
 	const craterlakeData = {
 		socket: [ 'dna', 'lga' ],
 		foop: 5,
 	};
 	const kabylakeData = skylakeData;
-	const coffeelakeData = { hidden: true, data: { socket: 'lga' }};
+	const coffeelakeData = { type: "Hidden", data: { socket: 'lga' }};
 	const haswellData = { data: { socket: 'lga', speed: 'fast' } };
 	const spoopyData = { data: { speed: 'slow' } };
 //	t.deepEqual(cu.getDiscreteItem(fixture, 'Skylake'), skylakeData, 'simple');

@@ -1,6 +1,6 @@
 name: Radeon-9550-XT
 humanName: Radeon 9550 XT
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

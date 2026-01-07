@@ -19,7 +19,7 @@ data:
     - x86-64
   'GPU Base Frequency': '500 MHz'
   'GPU Boost Frequency': '667 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Pentium P4600'
 name: Pentium-P4600

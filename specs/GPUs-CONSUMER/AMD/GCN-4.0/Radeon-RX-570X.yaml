@@ -1,6 +1,6 @@
 name: Radeon-RX-570X
 humanName: Radeon RX 570X
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -38,3 +38,4 @@ data:
   Length: 241 mm
   Market:
     - Consumer
+  HLSL Shader Model: '6.7'

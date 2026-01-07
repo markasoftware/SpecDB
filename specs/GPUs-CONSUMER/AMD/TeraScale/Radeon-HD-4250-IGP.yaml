@@ -1,6 +1,6 @@
 name: Radeon-HD-4250-IGP
 humanName: Radeon HD 4250 IGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -28,3 +28,4 @@ data:
   Outputs: Motherboard Dependent
   Market:
     - Consumer
+  HLSL Shader Model: '4.1'

@@ -1,7 +1,7 @@
 name: Generation-7.5 
 humanName: Generation 7.5
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 22 nm

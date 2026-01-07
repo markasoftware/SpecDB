@@ -1,6 +1,6 @@
 name: 1100TBE
 humanName: X6 1100T Black Edition
-isPart: true
+
 type: CPU
 inherits:
   - Thuban

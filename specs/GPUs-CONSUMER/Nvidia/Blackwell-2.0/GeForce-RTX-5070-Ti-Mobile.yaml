@@ -1,6 +1,6 @@
 name: GeForce-RTX-5070-Ti-Mobile
 humanName: GeForce RTX 5070 Ti Mobile
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -46,7 +46,7 @@ data:
   Architecture: Blackwell 2.0
   Lithography: 5 nm
   DirectX Support: '12.2'
-  HLSL Shader Model: '184'
+  HLSL Shader Model: '6.8'
   Vulkan Support: '1.4'
   OpenGL Support: '4.6'
   OpenCL Support: '3.0'

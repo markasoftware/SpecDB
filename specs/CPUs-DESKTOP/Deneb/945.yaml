@@ -1,6 +1,6 @@
-name: 945
+name: '945'
 humanName: X4 945
-isPart: true
+
 type: CPU
 inherits:
   - Deneb

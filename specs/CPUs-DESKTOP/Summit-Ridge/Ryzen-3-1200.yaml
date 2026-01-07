@@ -1,8 +1,9 @@
 name: Ryzen-3-1200 
 humanName: Ryzen 3 1200
-isPart: true
+
 type: CPU
 inherits:
+  - Summit-Ridge
   - Ryzen R3 Base
 data:
   Core Count: 4

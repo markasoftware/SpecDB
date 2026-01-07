@@ -1,6 +1,6 @@
 name: Quadro4-900-XGL
 humanName: Quadro4 900 XGL
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

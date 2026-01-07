@@ -1,6 +1,6 @@
 name: FireMV-2400-PCIe-x1
 humanName: FireMV 2400 PCIe x1
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

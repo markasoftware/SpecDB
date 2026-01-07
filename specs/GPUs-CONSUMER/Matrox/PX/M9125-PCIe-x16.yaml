@@ -1,6 +1,6 @@
 name: M9125-PCIe-x16
 humanName: M9125 PCIe x16
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Matrox

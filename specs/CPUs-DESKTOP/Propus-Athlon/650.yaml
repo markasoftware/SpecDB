@@ -1,6 +1,6 @@
-name: 650
+name: '650'
 humanName: X4 650 
-isPart: true
+
 type: CPU
 inherits:
   - Propus-Athlon

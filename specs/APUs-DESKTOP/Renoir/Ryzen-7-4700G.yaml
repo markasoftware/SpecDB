@@ -1,9 +1,9 @@
 name: Ryzen-7-4700G
 humanName: Ryzen 7 4700G
-isPart: true
+
 type: CPU
 inherits:
-- GCN 5.1
+- GCN-5.1
 - Renoir
 data:
   L1 Cache (Data): 256 KiB

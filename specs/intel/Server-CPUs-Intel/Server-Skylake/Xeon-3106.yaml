@@ -15,7 +15,7 @@ data:
   Socket: FCLGA3647
   AES: true
   AVX/SSE/MMX: AVX-512
-isPart: true
+
 type: CPU
 humanName: 'Xeon 3106'
 name: Xeon-3106

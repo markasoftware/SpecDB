@@ -1,6 +1,6 @@
 name: Quadro-NVS-280-PCI
 humanName: Quadro NVS 280 PCI
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation

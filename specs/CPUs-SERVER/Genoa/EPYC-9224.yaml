@@ -1,6 +1,6 @@
 name: EPYC-9224
 humanName: EPYC 9224
-isPart: true
+
 type: CPU
 inherits:
 - Genoa

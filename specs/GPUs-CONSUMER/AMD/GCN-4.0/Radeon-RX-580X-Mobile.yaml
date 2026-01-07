@@ -1,6 +1,6 @@
 name: Radeon-RX-580X-Mobile
 humanName: Radeon RX 580X Mobile
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -32,3 +32,4 @@ data:
   Power Connectors: None
   Market:
     - Mobile
+  HLSL Shader Model: '6.7'

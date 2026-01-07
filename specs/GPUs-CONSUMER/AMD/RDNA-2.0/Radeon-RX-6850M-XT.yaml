@@ -1,6 +1,6 @@
 name: Radeon-RX-6850M-XT
 humanName: Radeon RX 6850M XT
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -34,3 +34,4 @@ data:
   Ray Tracing Cores: 40
   Market:
     - Mobile
+  HLSL Shader Model: '6.7'

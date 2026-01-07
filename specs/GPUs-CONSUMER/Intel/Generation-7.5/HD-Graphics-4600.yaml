@@ -1,6 +1,6 @@
 name: HD-Graphics-4600
 humanName: HD Graphics 4600
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel
@@ -30,3 +30,4 @@ data:
   Outputs: Motherboard Dependent
   Market:
     - Consumer
+  HLSL Shader Model: '5.1'

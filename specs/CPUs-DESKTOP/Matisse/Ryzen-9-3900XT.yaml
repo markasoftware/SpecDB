@@ -1,6 +1,6 @@
 name: Ryzen-9-3900XT
 humanName: Ryzen 9 3900XT
-isPart: true
+
 type: CPU
 inherits:
   - Matisse

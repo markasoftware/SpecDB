@@ -18,7 +18,7 @@ data:
   'GPU Base Frequency': '200 MHz'
   'VRAM Type': LPDDR1
   'Maximum VRAM Capacity': '256 MiB'
-isPart: true
+
 type: CPU
 humanName: 'Atom Z600'
 name: Atom-Z600

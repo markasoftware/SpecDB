@@ -1,17 +1,11 @@
 name: FirePro-V7800
 humanName: FirePro V7800
-isPart: true
+
 type: Graphics Card
+inherits:
+  - TeraScale-2
 data:
   Market: Workstation
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: TeraScale 2
-  Lithography: 40 nm
-  DirectX Support: '11.0'
-  Vulkan Support: 'N/A'
-  OpenGL Support: '4.4'
-  OpenCL Support: '1.2'
   Release Date: '2010-04-26'
   GPU Base Frequency: 700 MHz
   VRAM Frequency: 1000 MHz
@@ -34,3 +28,4 @@ data:
     - 2x DisplayPort 1.1
   Power Connectors: 1x 6-pin
   Length: 254 mm
+  HLSL Shader Model: '5.0'

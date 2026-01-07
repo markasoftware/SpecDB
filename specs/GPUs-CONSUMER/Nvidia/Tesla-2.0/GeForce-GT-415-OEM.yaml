@@ -1,6 +1,6 @@
 name: GeForce-GT-415-OEM
 humanName: GeForce GT 415 OEM
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -32,3 +32,4 @@ data:
     - 1x HDMI1x VGA
   Power Connectors: None
   Length: 168 mm
+  HLSL Shader Model: '4.1'

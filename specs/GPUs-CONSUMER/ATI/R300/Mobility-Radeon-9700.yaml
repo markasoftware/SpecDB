@@ -1,6 +1,6 @@
 name: Mobility-Radeon-9700
 humanName: Mobility Radeon 9700
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

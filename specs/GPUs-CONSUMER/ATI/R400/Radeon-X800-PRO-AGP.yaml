@@ -1,6 +1,6 @@
 name: Radeon-X800-PRO-AGP
 humanName: Radeon X800 PRO AGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

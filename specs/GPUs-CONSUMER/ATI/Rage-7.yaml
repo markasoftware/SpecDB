@@ -1,7 +1,7 @@
 name: Rage-7 
 humanName: Rage 7
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 150 nm

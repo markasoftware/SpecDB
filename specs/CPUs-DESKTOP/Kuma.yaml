@@ -16,5 +16,5 @@ sections:
       - 7850BE
   - header: Standard SKUs
     members:
-      - 7450
-      - 7550
+      - '7450'
+      - '7550'

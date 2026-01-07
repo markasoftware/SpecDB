@@ -1,6 +1,6 @@
 name: Radeon-SDR-PCI
 humanName: Radeon SDR PCI
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

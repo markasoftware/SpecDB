@@ -2,7 +2,7 @@
 #sold exclusively through microcenter(US Only)
 name: Ryzen-5-5600X3D
 humanName: Ryzen 5 5600X3D
-isPart: true
+
 type: CPU
 inherits:
 - Vermeer

@@ -1,6 +1,6 @@
 name: Quadro-4000-Mac-Edition
 humanName: Quadro 4000 Mac Edition
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -34,3 +34,4 @@ data:
   Length: 241 mm
   Market:
     - Workstation
+  HLSL Shader Model: '5.1'

@@ -1,7 +1,7 @@
 name: Generation-3.0 
 humanName: Generation 3.0
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 130 nm

@@ -1,6 +1,6 @@
 name: Quadro-NVS-55-PCI
 humanName: Quadro NVS 55 PCI
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation

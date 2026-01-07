@@ -320,7 +320,7 @@ const combineUtil = {
 		const preInheritance = _.mergeWith({},
 			// sort ascending priority
 			...items[key]
-			.filter(c => !includeHidden === !c.item.hidden)
+			.filter(c => !includeHidden === !(c.item.type === 'Hidden'))
 			.sort((a, b) => b.priority - a.priority)
 			// get rid of item wrapper, take out priority
 			.map(c => c.item),

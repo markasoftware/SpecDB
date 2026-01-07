@@ -1,6 +1,6 @@
 name: 700(P)
 humanName: Athlon 700 Pluto
-isPart: true
+
 type: CPU
 inherits:
   - Pluto

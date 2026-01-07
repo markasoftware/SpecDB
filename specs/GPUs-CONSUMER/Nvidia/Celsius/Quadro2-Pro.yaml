@@ -1,6 +1,6 @@
 name: Quadro2-Pro
 humanName: Quadro2 Pro
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation

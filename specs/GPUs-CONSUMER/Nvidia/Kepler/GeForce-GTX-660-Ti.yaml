@@ -1,6 +1,6 @@
 name: GeForce-GTX-660-Ti
 humanName: GeForce GTX 660 Ti
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -36,3 +36,4 @@ data:
   Length: 241 mm
   Market:
     - Consumer
+  HLSL Shader Model: '6.5 (5.1)'

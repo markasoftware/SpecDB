@@ -13,7 +13,7 @@ data:
   Socket: PPGA478
   'Other Extensions':
     - x86-64
-isPart: true
+
 type: CPU
 humanName: 'Pentium T1700'
 name: Pentium-T1700

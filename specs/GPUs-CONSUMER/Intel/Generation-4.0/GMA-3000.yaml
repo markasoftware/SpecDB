@@ -1,6 +1,6 @@
 name: GMA-3000
 humanName: GMA 3000
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel
@@ -29,3 +29,4 @@ data:
   Pixel Shaders: 4
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

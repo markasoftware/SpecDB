@@ -1,6 +1,6 @@
 name: GeForce-GT-645-OEM
 humanName: GeForce GT 645 OEM
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -31,3 +31,4 @@ data:
     - 2x DVI
     - 1x mini-HDMI 1.3a
   Length: 210 mm
+  HLSL Shader Model: '5.1'

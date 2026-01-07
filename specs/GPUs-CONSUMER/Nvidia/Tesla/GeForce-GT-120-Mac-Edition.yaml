@@ -1,6 +1,6 @@
 name: GeForce-GT-120-Mac-Edition
 humanName: GeForce GT 120 Mac Edition
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -31,3 +31,4 @@ data:
     - 1x mini-DisplayPort
   Power Connectors: None
   Length: 145 mm
+  HLSL Shader Model: '4.0'

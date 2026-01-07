@@ -1,6 +1,6 @@
 name: X2-4200+-Manchester
 humanName: X2 4200+ Manchester
-isPart: true
+
 type: CPU
 inherits:
   - Manchester

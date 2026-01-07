@@ -1,6 +1,6 @@
 name: Radeon-7200-64-MB
 humanName: Radeon 7200 64 MB
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

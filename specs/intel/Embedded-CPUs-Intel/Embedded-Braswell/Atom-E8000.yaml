@@ -19,7 +19,7 @@ data:
   'GPU Base Frequency': '320 MHz'
   'DirectX Support': '0'
   'OpenGL Support': 'Yes'
-isPart: true
+
 type: CPU
 humanName: 'Atom E8000'
 name: Atom-E8000

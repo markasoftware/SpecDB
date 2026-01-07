@@ -1,6 +1,6 @@
 name: Playstation-5-GPU
 humanName: Playstation 5 GPU
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD

@@ -1,6 +1,6 @@
 name: TITAN-V
 humanName: TITAN V
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -8,7 +8,7 @@ data:
   Architecture: Volta
   Lithography: 12 nm
   DirectX Support: '12.1'
-  HLSL Shader Model: '640'
+  HLSL Shader Model: '6.7'
   Vulkan Support: '1.3'
   OpenGL Support: '4.6'
   OpenCL Support: '3.0'

@@ -1,6 +1,6 @@
 name: Epyc-7542
 humanName: Epyc 7542
-isPart: true
+
 type: CPU
 inherits:
   - Rome

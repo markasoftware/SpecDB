@@ -14,7 +14,7 @@ data:
   AES: false
   'Other Extensions':
     - x86-64
-isPart: true
+
 type: CPU
 humanName: 'Pentium E5700'
 name: Pentium-E5700

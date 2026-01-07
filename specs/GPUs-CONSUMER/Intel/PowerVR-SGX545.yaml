@@ -1,7 +1,7 @@
 name: PowerVR-SGX545 
 humanName: PowerVR SGX545
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 32 nm - 65 nm

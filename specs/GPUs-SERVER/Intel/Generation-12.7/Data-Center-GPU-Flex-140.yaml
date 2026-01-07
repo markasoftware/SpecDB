@@ -1,6 +1,6 @@
 name: Data-Center-GPU-Flex-140
 humanName: Data Center GPU Flex 140
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel
@@ -38,3 +38,4 @@ data:
   Ray Tracing Cores: 8
   Market:
     - Data center
+  HLSL Shader Model: '6.6'

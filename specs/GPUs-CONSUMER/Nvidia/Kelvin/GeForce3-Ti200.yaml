@@ -1,6 +1,6 @@
 name: GeForce3-Ti200
 humanName: GeForce3 Ti200
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

@@ -21,7 +21,7 @@ data:
   'GPU Boost Frequency': '1000 MHz'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-isPart: true
+
 type: CPU
 humanName: 'Core i3-8145UE'
 name: Core-i3-8145UE

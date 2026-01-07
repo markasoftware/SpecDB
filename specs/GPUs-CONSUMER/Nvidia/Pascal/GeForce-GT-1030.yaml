@@ -1,6 +1,6 @@
 name: GeForce-GT-1030
 humanName: GeForce GT 1030
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Decoding:
@@ -48,3 +48,4 @@ data:
   Length: 145 mm
   Width: 69 mm
   Height: 18 mm
+  HLSL Shader Model: '6.7'

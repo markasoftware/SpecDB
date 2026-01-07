@@ -1,6 +1,6 @@
 name: Quadro-FX-380-LP
 humanName: Quadro FX 380 LP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -35,3 +35,4 @@ data:
   Width: 69 mm
   Market:
     - Workstation
+  HLSL Shader Model: '4.1'

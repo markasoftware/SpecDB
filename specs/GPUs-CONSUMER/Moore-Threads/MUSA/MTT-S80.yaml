@@ -1,6 +1,6 @@
 name: MTT-S80
 humanName: MTT S80
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Moore-Threads
@@ -32,3 +32,4 @@ data:
   Length: 285 mm
   Width: 112 mm
   Height: 49 mm
+  HLSL Shader Model: '6.5'

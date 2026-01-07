@@ -1,6 +1,6 @@
 name: Radeon-PRO-W6400
 humanName: Radeon PRO W6400
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -33,3 +33,4 @@ data:
   Outputs: 2x DisplayPort 1.4a
   Power Connectors: None
   Ray Tracing Cores: 12
+  HLSL Shader Model: '6.7'

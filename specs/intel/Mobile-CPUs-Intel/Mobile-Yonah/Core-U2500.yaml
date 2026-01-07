@@ -12,7 +12,7 @@ data:
   'Release Date': '2006-02-14'
   Socket: PBGA479
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Core U2500'
 name: Core-U2500

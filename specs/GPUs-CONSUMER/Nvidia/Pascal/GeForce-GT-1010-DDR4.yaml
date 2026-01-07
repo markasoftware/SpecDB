@@ -1,6 +1,6 @@
 name: GeForce-GT-1010-DDR4
 humanName: GeForce GT 1010 DDR4
-isPart: true
+
 type: Graphics Card
 data:
   Market: Consumer
@@ -35,3 +35,4 @@ data:
     - 1x mini-HDMI 2.0
   Power Connectors: None
   Length: 147 mm
+  HLSL Shader Model: '6.7'

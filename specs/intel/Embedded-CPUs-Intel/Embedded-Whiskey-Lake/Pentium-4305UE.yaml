@@ -21,7 +21,7 @@ data:
   'GPU Boost Frequency': '1000 MHz'
   'DirectX Support': '12'
   'OpenGL Support': '4.5'
-isPart: true
+
 type: CPU
 humanName: 'Pentium 4305UE'
 name: Pentium-4305UE

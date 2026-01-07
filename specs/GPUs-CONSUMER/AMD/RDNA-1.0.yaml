@@ -1,7 +1,7 @@
 name: RDNA-1.0 
 humanName: RDNA 1.0
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 7 nm

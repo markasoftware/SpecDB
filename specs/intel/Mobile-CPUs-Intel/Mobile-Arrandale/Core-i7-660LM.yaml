@@ -20,7 +20,7 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '266 MHz'
   'GPU Boost Frequency': '566 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Core i7-660LM'
 name: Core-i7-660LM

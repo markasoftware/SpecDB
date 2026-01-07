@@ -1,6 +1,6 @@
 name: Quadro-5010M
 humanName: Quadro 5010M
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -31,3 +31,4 @@ data:
   Power Connectors: None
   Market:
     - Workstation
+  HLSL Shader Model: '5.1'

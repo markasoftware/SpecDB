@@ -19,7 +19,7 @@ data:
   AVX/SSE/MMX: false
   'GPU Base Frequency': '350 MHz'
   'GPU Boost Frequency': '1.05 GHz'
-isPart: true
+
 type: CPU
 humanName: 'Core i3-3217U'
 name: Core-i3-3217U

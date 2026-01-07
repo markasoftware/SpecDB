@@ -20,7 +20,7 @@ data:
   AVX/SSE/MMX: 'SSE 4.2'
   'GPU Base Frequency': '850 MHz'
   'GPU Boost Frequency': '1.35 GHz'
-isPart: true
+
 type: CPU
 humanName: 'Xeon E3-1245'
 name: Xeon-E3-1245

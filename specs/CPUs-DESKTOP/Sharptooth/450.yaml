@@ -1,6 +1,6 @@
 name: K6-III-450(S)
 humanName: K6-III 450 Sharptooth
-isPart: true
+
 type: CPU
 inherits:
   - Sharptooth

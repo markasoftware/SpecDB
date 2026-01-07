@@ -1,6 +1,6 @@
 name: GeForce-MX450-30.5W-10Gbps
 humanName: GeForce MX450 30.5W 10Gbps
-isPart: true
+
 type: Graphics Card
 data:
   Market:
@@ -32,3 +32,4 @@ data:
   FP64 Compute: 88.20 GFLOPS (1:32)
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.7'

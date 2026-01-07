@@ -1,16 +1,10 @@
 name: Radeon-HD-8490-OEM
 humanName: Radeon HD 8490 OEM
-isPart: true
+
 type: Graphics Card
+inherits:
+  - TeraScale-2
 data:
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: TeraScale 2
-  Lithography: 40 nm
-  DirectX Support: '11.0'
-  Vulkan Support: 'N/A'
-  OpenGL Support: '4.4'
-  OpenCL Support: '1.2'
   Release Date: '2013-07-23'
   GPU Base Frequency: 875 MHz
   VRAM Frequency: 900 MHz
@@ -32,3 +26,4 @@ data:
     - 1x DisplayPort 1.1
   Power Connectors: None
   Length: 168 mm
+  HLSL Shader Model: '5.0'

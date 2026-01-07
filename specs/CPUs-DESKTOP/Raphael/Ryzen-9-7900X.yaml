@@ -1,6 +1,6 @@
 name: Ryzen-9-7900X
 humanName: Ryzen 9 7900X
-isPart: true
+
 type: CPU
 inherits:
 - Raphael

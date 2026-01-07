@@ -18,7 +18,7 @@ data:
   'Other Extensions':
     - x86-64
   AVX/SSE/MMX: 'SSE 4.2'
-isPart: true
+
 type: CPU
 humanName: 'Xeon E7-2860'
 name: Xeon-E7-2860

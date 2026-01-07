@@ -1,6 +1,6 @@
 name: Quadro-NVS-280-SD
 humanName: Quadro NVS 280 SD
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation

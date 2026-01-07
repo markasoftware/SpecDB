@@ -1,7 +1,7 @@
 name: Voodoo-Scalable 
 humanName: Voodoo Scalable
 type: Graphics Architecture
-isPart: false
+
 topHeader: 'SELECT CARD:'
 data:
   Lithography: 250 - 180 nm

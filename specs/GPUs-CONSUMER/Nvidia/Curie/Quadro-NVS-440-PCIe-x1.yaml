@@ -1,6 +1,6 @@
 name: Quadro-NVS-440-PCIe-x1
 humanName: Quadro NVS 440 PCIe x1
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -32,3 +32,4 @@ data:
   Pixel Shaders: 8
   Market:
     - Workstation
+  HLSL Shader Model: '3.0'

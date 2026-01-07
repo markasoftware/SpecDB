@@ -1,6 +1,6 @@
 name: Radeon-X1050
 humanName: Radeon X1050
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

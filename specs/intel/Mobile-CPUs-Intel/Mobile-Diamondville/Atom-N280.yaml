@@ -13,7 +13,7 @@ data:
   Socket: PBGA437
   'Other Extensions': {  }
   AVX/SSE/MMX: false
-isPart: true
+
 type: CPU
 humanName: 'Atom N280'
 name: Atom-N280

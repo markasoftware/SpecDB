@@ -1,6 +1,6 @@
 name: MTT-S3000
 humanName: MTT S3000
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Moore-Threads
@@ -30,3 +30,4 @@ data:
   Length: 269 mm
   Width: 111 mm
   Height: 39 mm
+  HLSL Shader Model: '6.5'

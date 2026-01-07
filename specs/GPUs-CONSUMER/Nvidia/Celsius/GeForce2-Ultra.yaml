@@ -1,6 +1,6 @@
 name: GeForce2-Ultra
 humanName: GeForce2 Ultra
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

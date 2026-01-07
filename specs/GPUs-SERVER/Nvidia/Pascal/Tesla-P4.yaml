@@ -1,6 +1,6 @@
 name: Tesla-P4
 humanName: Tesla P4
-isPart: true
+
 type: Graphics Card
 data:
   Hardware Accelerated Encoding:
@@ -52,3 +52,4 @@ data:
   Outputs: No outputs
   Power Connectors: None
   Length: 168 mm
+  HLSL Shader Model: '6.7'

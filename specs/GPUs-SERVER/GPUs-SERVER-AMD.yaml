@@ -1,7 +1,7 @@
 name: GPUs-SERVER-AMD
 humanName: Server GPUs
 type: Generic Container
-isPart: false
+
 topHeader: 'SELECT SERIES:'
 data:
   Manufacturer: AMD

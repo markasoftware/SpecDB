@@ -1,6 +1,6 @@
 name: Radeon-IGP-330M
 humanName: Radeon IGP 330M
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

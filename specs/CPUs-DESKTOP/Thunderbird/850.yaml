@@ -1,6 +1,6 @@
 name: 850(T)
 humanName: Athlon 850 Thunderbird
-isPart: true
+
 type: CPU
 inherits:
   - Thunderbird

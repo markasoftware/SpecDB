@@ -226,9 +226,9 @@ test('Generic Container', t => {
 				'G502', 'G602',
 			]}],
 		},
-		G502: { isPart: true },
-		G602: { isPart: true },
-		Deathadder: { isPart: true },
+		G502: { type: "CPU" },
+		G602: { type: "CPU" },
+		Deathadder: { type: "CPU" },
 	}
 	t.deepEqual(pure.genSubtext({
 		type: 'Generic Container',

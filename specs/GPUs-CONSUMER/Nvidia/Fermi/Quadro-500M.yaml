@@ -1,6 +1,6 @@
 name: Quadro-500M
 humanName: Quadro 500M
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -32,3 +32,4 @@ data:
   Power Connectors: None
   Market:
     - Workstation
+  HLSL Shader Model: '5.1'

@@ -1,6 +1,6 @@
 name: Quadro-FX-4600-SDI
 humanName: Quadro FX 4600 SDI
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -34,3 +34,4 @@ data:
   Width: 111 mm
   Market:
     - Workstation
+  HLSL Shader Model: '4.0'

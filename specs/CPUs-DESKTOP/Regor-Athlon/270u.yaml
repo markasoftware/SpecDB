@@ -1,6 +1,6 @@
 name: 270u
 humanName: X2 270u
-isPart: true
+
 type: CPU
 inherits:
   - Regor-Athlon

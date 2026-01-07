@@ -1,17 +1,11 @@
 name: FirePro-V5800-DVI
 humanName: FirePro V5800 DVI
-isPart: true
+
 type: Graphics Card
+inherits:
+  - TeraScale-2
 data:
   Market: Workstation
-  Manufacturer: AMD
-  Vendor: AMD
-  Architecture: TeraScale 2
-  Lithography: 40 nm
-  DirectX Support: '11.0'
-  Vulkan Support: 'N/A'
-  OpenGL Support: '4.4'
-  OpenCL Support: '1.2'
   Release Date: '2010-04-26'
   GPU Base Frequency: 690 MHz
   VRAM Frequency: 1000 MHz
@@ -32,3 +26,4 @@ data:
   Power Connectors: None
   Length: 229 mm
   Width: 111 mm
+  HLSL Shader Model: '5.0'

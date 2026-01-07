@@ -1,6 +1,6 @@
 name: GeForce4-MX-+-nForce2
 humanName: GeForce4 MX + nForce2
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

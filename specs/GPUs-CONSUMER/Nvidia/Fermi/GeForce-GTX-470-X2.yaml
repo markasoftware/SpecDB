@@ -1,6 +1,6 @@
 name: GeForce-GTX-470-X2
 humanName: GeForce GTX 470 X2
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -31,3 +31,4 @@ data:
   Power Connectors: 2x 8-pin
   Market:
     - Consumer
+  HLSL Shader Model: '5.1'

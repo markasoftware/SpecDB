@@ -1,6 +1,6 @@
 name: 2970WX
 humanName: 2970WX
-isPart: true
+
 type: CPU
 inherits:
   - Colfax

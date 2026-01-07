@@ -1,6 +1,6 @@
 name: 760K
 humanName: X4 760K
-isPart: true
+
 type: CPU
 inherits:
   - Richland

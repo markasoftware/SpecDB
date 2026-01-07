@@ -1,6 +1,6 @@
 name: Playstation-4-Pro-GPU
 humanName: Playstation 4 Pro GPU
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -30,3 +30,4 @@ data:
   Width: 295 mm
   Height: 55 mm
   Market: Console
+  HLSL Shader Model: '6.0'

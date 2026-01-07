@@ -1,6 +1,6 @@
 name: GeForce-MX450-12W
 humanName: GeForce MX450 12W
-isPart: true
+
 type: Graphics Card
 data:
   Market:
@@ -32,3 +32,4 @@ data:
   FP64 Compute: 52.08 GFLOPS (1:32)
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.7'

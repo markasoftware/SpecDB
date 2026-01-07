@@ -1,6 +1,6 @@
 name: Quadro4-700-XGL
 humanName: Quadro4 700 XGL
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

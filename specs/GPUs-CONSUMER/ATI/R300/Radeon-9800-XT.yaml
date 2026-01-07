@@ -1,6 +1,6 @@
 name: Radeon-9800-XT
 humanName: Radeon 9800 XT
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

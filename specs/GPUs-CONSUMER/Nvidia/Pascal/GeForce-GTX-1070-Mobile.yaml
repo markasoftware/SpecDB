@@ -1,6 +1,6 @@
 name: GeForce-GTX-1070-Mobile
 humanName: GeForce GTX 1070 Mobile
-isPart: true
+
 type: Graphics Card
 data:
   Market: Mobile
@@ -32,3 +32,4 @@ data:
   Slot Width: MXM Module
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.7'

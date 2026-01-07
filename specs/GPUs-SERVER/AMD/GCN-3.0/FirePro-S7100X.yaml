@@ -1,6 +1,6 @@
 name: FirePro-S7100X
 humanName: FirePro S7100X
-isPart: true
+
 type: Graphics Card
 data:
   Market: Data center
@@ -31,3 +31,4 @@ data:
   Slot Width: MXM Module
   Outputs: Portable Device Dependent
   Power Connectors: None
+  HLSL Shader Model: '6.5'

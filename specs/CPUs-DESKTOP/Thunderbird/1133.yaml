@@ -1,6 +1,6 @@
 name: 1133(T)
 humanName: Athlon 1133 Thunderbird
-isPart: true
+
 type: CPU
 inherits:
   - Thunderbird

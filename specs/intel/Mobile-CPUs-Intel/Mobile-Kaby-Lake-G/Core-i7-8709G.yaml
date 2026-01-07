@@ -24,7 +24,7 @@ data:
   'DirectX Support': '12'
   'OpenGL Support': '4.4'
   TDP: '100 W'
-isPart: true
+
 type: CPU
 humanName: 'Core i7-8709G'
 name: Core-i7-8709G

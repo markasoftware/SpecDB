@@ -11,6 +11,6 @@ data:
 sections:
   - header:  Quad core CPUs
     members:
-      - 1352
-      - 1354
-      - 1356
+      - '1352'
+      - '1354'
+      - '1356'

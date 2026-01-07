@@ -1,6 +1,6 @@
 name: Data-Center-GPU-Max-1100
 humanName: Data Center GPU Max 1100
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Intel
@@ -8,7 +8,7 @@ data:
   Architecture: Generation 12.5
   Lithography: 10 nm
   DirectX Support: '12.1'
-  HLSL Shader Model: '448'
+  HLSL Shader Model: '6.6'
   Vulkan Support: 'N/A'
   OpenGL Support: '4.6'
   OpenCL Support: '3.0'

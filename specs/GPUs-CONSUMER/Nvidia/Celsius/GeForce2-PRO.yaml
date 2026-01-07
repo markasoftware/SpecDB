@@ -1,6 +1,6 @@
 name: GeForce2-PRO
 humanName: GeForce2 PRO
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia

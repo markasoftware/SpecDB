@@ -1,7 +1,7 @@
 name: Raven-Ridge-APUs
 humanName: Raven Ridge
 type: APU Architecture
-isPart: false
+
 topHeader: 'SELECT APU:'
 data:
   Lithography: 14nm

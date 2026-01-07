@@ -1,6 +1,6 @@
 name: FireMV-2200-PCI
 humanName: FireMV 2200 PCI
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

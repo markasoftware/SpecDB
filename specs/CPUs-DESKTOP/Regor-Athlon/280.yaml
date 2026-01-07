@@ -1,6 +1,6 @@
-name: 280
+name: '280'
 humanName: X2 280
-isPart: true
+
 type: CPU
 inherits:
   - Regor-Athlon

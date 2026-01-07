@@ -1,4 +1,4 @@
-hidden: true
+type: Hidden
 name: Delhi
 data:
   Architecture: Piledriver

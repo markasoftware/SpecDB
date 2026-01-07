@@ -1,6 +1,6 @@
 name: Radeon-X700-PRO
 humanName: Radeon X700 PRO
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI

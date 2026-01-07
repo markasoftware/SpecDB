@@ -21,7 +21,7 @@ data:
   'GPU Boost Frequency': '1000 MHz'
   'VRAM Type': DDR3
   'Maximum VRAM Capacity': '1.69921875 GiB'
-isPart: true
+
 type: CPU
 humanName: 'Pentium G1820TE'
 name: Pentium-G1820TE

@@ -11,7 +11,7 @@ data:
   'Die Size': '87 mm'
   'Release Date': '2004-06-25'
   'Other Extensions': {  }
-isPart: true
+
 type: CPU
 humanName: 'Pentium 745A'
 name: Pentium-745A

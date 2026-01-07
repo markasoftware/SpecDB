@@ -1,6 +1,6 @@
 name: Radeon-Pro-WX-7100-Mobile
 humanName: Radeon Pro WX 7100 Mobile
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -33,3 +33,4 @@ data:
   Outputs: Portable Device Dependent
   Power Connectors: None
   Length: 25 mm
+  HLSL Shader Model: '6.7'

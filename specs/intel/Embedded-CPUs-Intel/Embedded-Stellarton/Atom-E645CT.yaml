@@ -15,7 +15,7 @@ data:
   Socket: FCBGA1466
   'Other Extensions': {  }
   'GPU Base Frequency': '320 MHz'
-isPart: true
+
 type: CPU
 humanName: 'Atom E645CT'
 name: Atom-E645CT

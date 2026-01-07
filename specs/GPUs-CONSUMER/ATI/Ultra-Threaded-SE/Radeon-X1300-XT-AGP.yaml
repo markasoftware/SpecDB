@@ -1,6 +1,6 @@
 name: Radeon-X1300-XT-AGP
 humanName: Radeon X1300 XT AGP
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: ATI
@@ -33,3 +33,4 @@ data:
   Pixel Shaders: 12
   Market:
     - Consumer
+  HLSL Shader Model: '3.0'

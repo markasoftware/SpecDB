@@ -1,6 +1,6 @@
 name: Jetson-TX1
 humanName: Jetson TX1
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: Nvidia
@@ -31,3 +31,4 @@ data:
   Outputs: Portable Device Dependent
   Market:
     - Mobile
+  HLSL Shader Model: '6.0'

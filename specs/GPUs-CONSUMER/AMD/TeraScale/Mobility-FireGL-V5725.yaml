@@ -1,6 +1,6 @@
 name: Mobility-FireGL-V5725
 humanName: Mobility FireGL V5725
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
@@ -28,3 +28,4 @@ data:
   Outputs: Portable Device Dependent
   Market:
     - Mobile
+  HLSL Shader Model: '4.1'

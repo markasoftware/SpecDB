@@ -1,6 +1,6 @@
 name: Radeon-Pro-W6600X
 humanName: Radeon Pro W6600X
-isPart: true
+
 type: Graphics Card
 data:
   Market: Workstation
@@ -31,3 +31,4 @@ data:
   Slot Width: Dual-slot
   Outputs: No outputs
   Ray Tracing Cores: 32
+  HLSL Shader Model: '6.7'

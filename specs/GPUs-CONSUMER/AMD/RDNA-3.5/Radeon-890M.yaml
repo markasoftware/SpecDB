@@ -1,6 +1,6 @@
 name: Radeon-890M
 humanName: Radeon 890M
-isPart: true
+
 type: Graphics Card
 data:
   Market:
@@ -33,3 +33,4 @@ data:
   Outputs: Portable Device Dependent
   Power Connectors: None
   Ray Tracing Cores: 16
+  HLSL Shader Model: '6.8'

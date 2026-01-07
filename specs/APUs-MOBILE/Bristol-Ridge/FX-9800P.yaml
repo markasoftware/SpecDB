@@ -1,9 +1,9 @@
-isPart: true
+
 name: FX-9800P
 humanName: FX-9800P
 type: APU
 inherits:
-  - GCN 3
+  - "GCN-3"
   - Bristol-Ridge
 data:
 

@@ -1,9 +1,9 @@
-isPart: true
+
 name: Ryzen-3-2200G
 humanName: Ryzen 3 2200G
 type: APU
 inherits:
-  - GCN 5
+  - GCN-5
 data:
   Architecture: Zen
   Lithography: 14 nm

@@ -1,6 +1,6 @@
 name: WinBoost
 humanName: WinBoost
-isPart: true
+
 type: Graphics Card
 data:
   Manufacturer: AMD
