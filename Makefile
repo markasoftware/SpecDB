@@ -141,3 +141,8 @@ clean-nonet:
 		${psmk_parse} ${athr_output}
 
 .PHONY: development production test clean clean-nonet watch
+
+# check-spec: run a check for missing rows/members for a given spec
+# usage: make check-spec SPEC=Granite-Ridge
+check-spec:
+	@node build/check-missing-specs.js "${SPEC}"

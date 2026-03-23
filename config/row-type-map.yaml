@@ -1,0 +1,174 @@
+# Map spec types to rows that are specific to that type. Is for the check-spec make command.
+
+Graphics Card:
+  - Architecture
+  - VRAM Capacity
+  - VRAM Type
+  - VRAM Frequency
+  - VRAM Bandwidth
+  - VRAM Bus Width
+  - Maximum VRAM Capacity
+  - Render Output Unit Count
+  - FP32 Compute
+  - Shader Processor Count
+  - Texture Mapping Unit Count
+  - Ray Tracing Cores
+  - Tensor Cores
+  - Pixel Shaders
+  - GPU Base Frequency
+  - GPU Boost Frequency
+  - GPU
+  - GPU Model
+  - VRAM Frequency
+  - VRAM Bandwidth
+  - Max Displays
+  - Outputs
+  - Power Connectors
+  - DirectX Support
+  - HLSL Shader Model
+  - OpenGL Support
+  - Vulkan Support
+  - OpenCL Support
+  - FreeSync Support
+  - Crossfire Support
+  - Outputs
+  - Power Connectors
+  - Slot Width
+  - Length
+  - Width
+  - Height
+  - Max Displays
+
+APU:
+  - Architecture
+  - Base Frequency
+  - Boost Frequency
+  - Performance-Core Base Frequency
+  - Efficient-Core Base Frequency
+  - Performance-Core Boost Frequency
+  - Efficient-Core Boost Frequency
+  - Core Count
+  - Performance-Core Count
+  - Efficient-Core Count
+  - Thread Count
+  - Performance-Thread Count
+  - Efficient-Thread Count
+  - TDP
+  - cTDP Support
+  - L1 Cache (Data)
+  - L1 Cache (Instruction)
+  - L2 Cache (Total)
+  - L3 Cache (Total)
+  - Module Count
+  - FP64 Compute
+  - XFR Frequency
+  - AVX/SSE/MMX
+  - FMA4
+  - FMA3
+  - BMI
+  - AES
+  - SHA
+  - Other Extensions
+  - PCIe 5.0 Lanes
+  - PCIe 4.0 Lanes
+  - PCIe 3.0 Lanes
+  - PCIe 2.0 Lanes
+  - PCIe 1.0 Lanes
+  - Max Memory Channels
+  - Memory Type
+  - Max Memory Frequency
+  - Compatible Chipsets
+  - VRAM Capacity
+  - VRAM Type
+  - VRAM Frequency
+  - VRAM Bandwidth
+  - VRAM Bus Width
+  - Maximum VRAM Capacity
+  - Render Output Unit Count
+  - FP32 Compute
+  - Shader Processor Count
+  - Texture Mapping Unit Count
+  - Ray Tracing Cores
+  - Tensor Cores
+  - Pixel Shaders
+  - GPU Base Frequency
+  - GPU Boost Frequency
+  - GPU
+  - GPU Model
+  - DirectX Support
+  - HLSL Shader Model
+  - OpenGL Support
+  - Vulkan Support
+  - OpenCL Support
+  - FreeSync Support
+  - Crossfire Support
+
+CPU:
+  - Architecture
+  - Base Frequency
+  - Boost Frequency
+  - Performance-Core Base Frequency
+  - Efficient-Core Base Frequency
+  - Performance-Core Boost Frequency
+  - Efficient-Core Boost Frequency
+  - Core Count
+  - Performance-Core Count
+  - Efficient-Core Count
+  - Thread Count
+  - Performance-Thread Count
+  - Efficient-Thread Count
+  - TDP
+  - cTDP Support
+  - L1 Cache (Data)
+  - L1 Cache (Instruction)
+  - L2 Cache (Total)
+  - L3 Cache (Total)
+  - Module Count
+  - XFR Frequency
+  - AVX/SSE/MMX
+  - FMA4
+  - FMA3
+  - BMI
+  - AES
+  - SHA
+  - Other Extensions
+  - PCIe 5.0 Lanes
+  - PCIe 4.0 Lanes
+  - PCIe 3.0 Lanes
+  - PCIe 2.0 Lanes
+  - PCIe 1.0 Lanes
+  - Max Memory Channels
+  - Memory Type
+  - Max Memory Frequency
+  - Compatible Chipsets
+
+"CPU Architecture":
+  - Lithography
+  - Release Date
+  - Sockets
+  - Codename
+  - Die Size
+  - Stepping
+  - Architecture
+  - Efficient-Core Architecture
+
+"Graphics Architecture":
+  - Lithography
+  - Release Date
+  - Codename
+  - Die Size
+  - Architecture
+  - GPU Model
+
+"APU Architecture":
+  - Lithography
+  - Release Date
+  - Sockets
+  - Codename
+  - Die Size
+  - Architecture
+  - GPU Model
+
+"Generic Container": []
+Hidden: []
+

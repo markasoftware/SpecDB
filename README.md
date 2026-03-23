@@ -28,6 +28,7 @@ Then, you can view SpecDB at file:///home/markasoftware/whatever/specdb/, which 
 ### Bonus Commands
 
 * `make watch`: Start auto-rebuild daemon. You still need to manually. Requires [entr](https://bitbucket.org/eradman/entr)
+* `make check-spec`: Display missing specs - some in this list is not mandatory. Example: `make check-spec SPEC=Granite-Ridge`.
 * `make test`: Run unit tests. If any of these fail, do not commit! Fix them!
 * `make production`: Build for production. If you previously ran `make` without `production`, run `make clean-nonet` before this.
 * `make clean`: Destroy all generated files. This will trigger a rescrape the next time you run `make`.
